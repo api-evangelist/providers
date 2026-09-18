@@ -39,6 +39,7 @@ import argparse
 import glob
 import json
 import os
+import sys
 import re
 import shutil
 
@@ -110,6 +111,29 @@ def delisted_slugs():
         doc = yaml.safe_load(fh) or []
     rows = doc if isinstance(doc, list) else doc.get("delisted", doc.get("providers", []))
     return {r["slug"] for r in rows if isinstance(r, dict) and r.get("slug")}
+
+
+def prospect_slugs():
+    """Companies profiled PRIVATELY, at their own pre-submission request — never publish.
+
+    A prospect is the inverse of a delisting: enrichment and scoring deliberately RUN on
+    it (it lives in all/<slug>/ with a full apis.yml), and lib_prospects states the contract
+    plainly — "every publish surface must skip it". This builder is a publish surface and
+    did not, so Videri — which asked for a private score report before deciding whether to
+    be listed at all — had a live provider page here from the day it was profiled.
+
+    Read the network registry rather than a local copy, so this agrees with build.py,
+    build-index.mjs and score.rb by construction.
+    """
+    scripts = os.path.join(ROOT, "api-search", "network", "scripts")
+    if scripts not in sys.path:
+        sys.path.insert(0, scripts)
+    try:
+        import lib_prospects
+        return set(lib_prospects.active_prospect_slugs())
+    except Exception as exc:  # noqa: BLE001
+        print("WARNING: prospect guard INACTIVE (%s) — a private evaluation may publish" % exc)
+        return set()
 
 
 def read_frontmatter(path):
@@ -322,11 +346,11 @@ def main():
              sum(1 for p in papers if p["kind"] == "report")))
 
     slugs = sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob(os.path.join(ALL, "*", "apis.yml")))
-    delisted = delisted_slugs()
+    delisted = delisted_slugs() | prospect_slugs()
     if delisted:
         blocked = [s for s in slugs if s in delisted]
         if blocked:
-            print("delisted, excluded: %d (%s)" % (len(blocked), ", ".join(blocked)))
+            print("delisted/prospect, excluded: %d (%s)" % (len(blocked), ", ".join(blocked)))
         slugs = [s for s in slugs if s not in delisted]
 
         # Skipping the write is not enough. A provider delisted AFTER their page
@@ -340,7 +364,7 @@ def main():
                 os.remove(stale)
                 pruned.append(slug)
         if pruned:
-            print("delisted, page pruned: %d (%s)" % (len(pruned), ", ".join(pruned)))
+            print("delisted/prospect, page pruned: %d (%s)" % (len(pruned), ", ".join(pruned)))
     if args.only:
         want = set(args.only.split(","))
         slugs = [s for s in slugs if s in want]
