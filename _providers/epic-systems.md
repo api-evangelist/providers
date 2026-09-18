@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -257,7 +257,7 @@ score:
   band: strong
   composite: 64.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -290,7 +290,7 @@ score:
     regime_id: health
     score: 77.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

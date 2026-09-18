@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 12
 apis:
 - description: OpenAI-compatible chat completions for the Step model family (e.g. step-3.7-flash, step-3.5-flash, stepaudio-2.5-chat), with multimodal image/video/audio message parts, tool calling, JSON mode, stream
@@ -223,7 +223,7 @@ score:
   band: developing
   composite: 47.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -249,7 +249,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

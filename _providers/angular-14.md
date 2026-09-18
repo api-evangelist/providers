@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: Core Angular 14 framework APIs including components, directives, pipes, dependency injection, and change detection. Angular 14 introduced standalone components, protected component template members, t
@@ -152,7 +152,7 @@ score:
   band: emerging
   composite: 17.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -168,7 +168,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 17.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

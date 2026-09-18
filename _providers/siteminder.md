@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: pmsXchange is SiteMinder's integration API for property management systems (PMS), revenue management systems (RMS), and central reservation systems (CRS) that need to synchronize rooms, rates, availab
@@ -187,7 +187,7 @@ score:
   band: thin
   composite: 29.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -203,7 +203,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

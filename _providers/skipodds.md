@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server exposing the SkipOdds Index to AI assistants — stateless streamable-http at https://skipodds.com/mcp, protocol version 2025-06-18, five read-only tools (list_fixtu
@@ -235,7 +235,7 @@ score:
   band: developing
   composite: 53.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -266,7 +266,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

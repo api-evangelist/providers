@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: WeaveGrid markets a partner API that lets aggregators, OEMs and device manufacturers align their software stack with electric utilities and participate in WeaveGrid-operated grid programs. The product
@@ -110,7 +110,7 @@ score:
   band: emerging
   composite: 15.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -132,7 +132,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

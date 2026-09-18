@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Partner REST API for managing user accounts, subscriptions, text consultations, form-based prescriptions, Health Navigator AI conversations and outbound webhooks. Resource-oriented URLs, JSON response
@@ -188,7 +188,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 42.0
     catalog_earned_first_party: 5.0
     catalog_gap: 73.0
@@ -221,7 +221,7 @@ score:
     regime_id: health
     score: 40.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

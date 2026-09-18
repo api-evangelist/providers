@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The HAL+JSON REST API of ANU's self-hosted DSpace 7.6.7 repository, reachable anonymously at /server/api for the root and discovery resources; /server/api/core/items returns 401, so the surface is gen
@@ -282,7 +282,7 @@ score:
   band: strong
   composite: 54.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 84.8
     catalog_earned_first_party: 0.0
     catalog_gap: 30.3
@@ -318,7 +318,7 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

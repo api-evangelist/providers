@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Extendable GraphQL API for WordPress that exposes posts, pages, custom post types, users, menus, taxonomies, media, and settings as GraphQL types and connections. Supports queries, mutations, and subs
@@ -113,7 +113,7 @@ score:
   band: thin
   composite: 26.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -129,7 +129,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 26.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

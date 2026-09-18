@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: Public DSpace REST API for "edoc", the open-access institutional repository of the University of Basel, running DSpace-CRIS 7.6.2 (cris-2023.02.06) on the university's own host. The API root reports d
@@ -200,7 +200,7 @@ score:
   band: thin
   composite: 34.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 51.0
     catalog_earned_first_party: 8.0
     catalog_gap: 64.0
@@ -233,7 +233,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -244,7 +244,7 @@ score:
   band: developing
   composite: 53.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 58.0
     catalog_earned_first_party: 24.0
     catalog_gap: 57.0
@@ -264,7 +264,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

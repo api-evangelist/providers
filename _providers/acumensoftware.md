@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Authenticated REST surface behind the Forcelink mobile field-service ERP, served from the vendor-hosted za2.forcelink.net tenant alongside the Forcelink web login and the Forcelink Android/iOS apps. E
@@ -133,7 +133,7 @@ score:
   band: emerging
   composite: 20.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -149,6 +149,8 @@ score:
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-africa
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
@@ -163,7 +165,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

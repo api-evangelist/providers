@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Real-time campground availability data at the campsite level across all public campgrounds Campflare tracks. Developers can query current and upcoming availability, inspect amenities (hookups, facilit
@@ -157,7 +157,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -175,7 +175,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

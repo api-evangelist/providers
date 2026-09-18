@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The Spin HTTP Trigger API handles incoming HTTP requests and routes them to the appropriate Spin component. Components receive an HTTP request object and return an HTTP response. Supported via the Spi
@@ -212,7 +212,7 @@ score:
   band: thin
   composite: 31.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
@@ -231,7 +231,7 @@ score:
     score: 100.0
   previous_composite: 31.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

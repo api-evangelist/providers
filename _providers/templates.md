@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Mustache is a logic-less template syntax available for HTML, config files, source code, and more. Used widely for API client SDK generation, documentation generation, and configuration templating.
@@ -153,7 +153,7 @@ score:
   band: emerging
   composite: 23.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
@@ -172,7 +172,7 @@ score:
     score: 50.0
   previous_composite: 23.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

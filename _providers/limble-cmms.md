@@ -12,9 +12,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,8 +23,8 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
@@ -33,15 +34,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.0
-  scored_at: '2026-09-16'
+  score: 44.1
+  scored_at: '2026-09-17'
 agentic_access:
-- acting_count: 142
+- acting_count: 293
   human_in_the_loop: 0
   name: Limble Cmms Agentic Access
-  operation_count: 200
+  operation_count: 412
   slug: limble-cmms-agentic-access
-  summary_line: 200 operations · 142 acting
+  summary_line: 412 operations · 293 acting
 api_count: 1
 apis:
 - description: 'The Limble CMMS REST API V2 provides HTTPS access to maintenance management data including assets, locations, work orders, preventive maintenance tasks, parts, purchase orders, users, vendors, teams, '
@@ -52,7 +53,14 @@ apis:
   description: The Routes API from Limble CMMS — 120 operation(s) for routes.
   name: Limble CMMS Routes API
   slug: limble-cmms-routes-api
-artifact_total: 77
+- description: 'Official hosted Model Context Protocol server at https://mcp.limblecmms.com/mcp (Streamable HTTP) that exposes Limble CMMS data and actions to MCP clients (Cursor, Claude Desktop, Claude Code, GitHub '
+  name: Limble MCP Server
+  slug: limble-mcp-server
+artifact_total: 84
+asyncapis:
+- description: ''
+  name: Limble Cmms Webhooks
+  slug: limble-cmms-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -184,6 +192,161 @@ collections:
   name: Limble API V2 Assets Work Request Submissions API
   slug: open-limble-cmms-work-request-submissions-api
 common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apidocs.limblecmms.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.limblecmms.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.limblecmms.com/en/articles/11932574-managing-api-keys-in-limble
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.limblecmms.com/en/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.limblecmms.com/en/
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.limble.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/LimbleCMMS
+- group: start
+  title: ''
+  type: SignUp
+  url: https://limble.com/demo-request
+- group: start
+  title: ''
+  type: Login
+  url: https://auth.limblecmms.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://limble.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://limble.com/privacy
+- group: other
+  title: ''
+  type: DataProcessingAddendum
+  url: https://limble.com/data-processing-addendum
+- group: build
+  title: ''
+  type: Postman
+  url: https://documenter.getpostman.com/view/5190375/SVfRsT5S
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.limblecmms.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://limble.com/releases
+- group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/openapi/limble-cmms-limble-api-v2-openapi.yml
+  title: ''
+  type: OpenAPI
+  url: openapi/limble-cmms-limble-api-v2-openapi.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/mcp/limble-cmms-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/limble-cmms-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/mcp/limble-cmms-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/limble-cmms-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/llms/limble-cmms-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/limble-cmms-llms.txt
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/conventions/limble-cmms-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/limble-cmms-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/lifecycle/limble-cmms-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/limble-cmms-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/conformance/limble-cmms-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/limble-cmms-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-trust-center.yml
+  title: ''
+  type: Compliance
+  url: security/limble-cmms-trust-center.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/limble-cmms-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/security/limble-cmms-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/limble-cmms-vulnerability-disclosure.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/errors/limble-cmms-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/limble-cmms-problem-types.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/rate-limits/limble-cmms-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/limble-cmms-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/plans/limble-cmms-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/limble-cmms-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/changelog/limble-cmms-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/limble-cmms-changelog.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/packages/limble-cmms-packages.yml
+  title: ''
+  type: Packages
+  url: packages/limble-cmms-packages.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/asyncapi/limble-cmms-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/limble-cmms-webhooks.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/data-model/limble-cmms-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/limble-cmms-data-model.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/overlays/limble-cmms-limble-api-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/limble-cmms-limble-api-v2-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/agentic-access/limble-cmms-agentic-access.yml
   title: ''
@@ -327,18 +490,33 @@ jsonld:
   property_count: 50
   slug: limble-cmms-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Limble CMMS MCP Server
+  slug: limble-cmms-mcp-server
+- description: ''
+  name: Limble CMMS MCP Server
+  slug: limble-cmms-mcp-server-2
 modified: '2026-06-05'
 name: Limble CMMS
 nav: Providers
 network: true
-overview: 'Limble CMMS publishes 1 API on the [APIs.io](https://apis.io/) network: Routes API. Tagged areas include CMMS, Maintenance Management, Asset Management, Manufacturing, and Facility Management.
+overview: 'Limble CMMS publishes 2 APIs on the [APIs.io](https://apis.io/) network: Limble API V2 and Routes API. Tagged areas include CMMS, Maintenance Management, Asset Management, Manufacturing, and Facility Management.
 
 
-  The Limble CMMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Limble CMMS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Limble CMMS''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, signup flow, and 6 more developer resources.'
+  Limble CMMS''s developer surface includes API reference, getting-started guide, support, signup flow, changelog, authentication, documentation, and 40 more developer resources.'
+plans:
+- name: Limble Cmms Plans Pricing
+  plan_count: 3
+  slug: limble-cmms-plans-pricing
 random_paper: 6
+rate_limits:
+- limit_count: 6
+  name: Limble Cmms Rate Limits
+  slug: limble-cmms-rate-limits
 rules:
 - effective_rule_count: 5
   extends: []
@@ -361,35 +539,37 @@ rules:
     warn: 4
   slug: limble-cmms-rules
 score:
-  band: developing
-  composite: 41.8
+  band: exemplar
+  composite: 74.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 51.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.8
+    artifact_dirs: 28
+    catalog_earned: 75.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 32.5
   facets:
-    access_clarity: 31.6
-    contract_governance: 9.8
-    contract_quality: 70.4
-    developer_ergonomics: 33.3
-    discoverability: 68.5
-    operational_transparency: 0.0
+    access_clarity: 92.1
+    contract_governance: 14.4
+    contract_quality: 77.5
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 86.8
   previous_composite: 41.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: first-party
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 38.9
@@ -403,6 +583,10 @@ security:
   name: Limble Cmms Domain Security
   slug: limble-cmms-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Limble Cmms Vulnerability Disclosure
+  slug: limble-cmms-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Limble Cmms Trust Center
   slug: limble-cmms-trust-center

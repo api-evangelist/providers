@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
@@ -306,7 +306,7 @@ score:
   band: developing
   composite: 49.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -331,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

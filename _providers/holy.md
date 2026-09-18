@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'HOLY''s Shopify-powered storefront and its agentic-commerce surface: a hosted Storefront MCP server (product search, cart, policies), a Universal Commerce Protocol (UCP) endpoint, Shopify Customer Acco'
@@ -144,7 +144,7 @@ score:
   band: emerging
   composite: 17.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,7 +171,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

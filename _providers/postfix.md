@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Postfix implements SMTP (RFC 5321) for sending and receiving electronic mail, with submission (port 587), SMTPS (port 465), and standard SMTP (port 25) endpoints. There is no public HTTP/REST API; int
@@ -99,7 +99,7 @@ score:
   band: minimal
   composite: 9.9
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -115,7 +115,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 9.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

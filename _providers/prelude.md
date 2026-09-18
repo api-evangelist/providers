@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Hosted, OAuth 2.1-secured Model Context Protocol server that lets agents run read-only structured queries against a tenant's endpoint and agent observability data (schema discovery + analytics query),
@@ -146,7 +146,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -165,7 +165,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

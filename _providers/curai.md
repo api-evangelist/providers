@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ modified: '2026-07-18'
 name: Curai
 nav: Providers
 network: true
-overview: 'Curai publishes 1 API on the [APIs.io](https://apis.io/) network: Partner API. Tagged areas include Company, Health, Healthcare, Telemedicine, and Telehealth.
+overview: 'Curai publishes 1 API on the [APIs.io](https://apis.io/) network: Partner API. Tagged areas include Company, Health, Healthcare, Telehealth, and Primary Care.
 
 
   Curai''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 20 more developer resources.'
@@ -190,7 +190,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -222,7 +222,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -242,7 +242,6 @@ tags:
 - Company
 - Health
 - Healthcare
-- Telemedicine
 - Telehealth
 - Primary Care
 - Digital Health

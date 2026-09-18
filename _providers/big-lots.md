@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 10
 common:
@@ -49,12 +49,48 @@ common:
   title: ''
   type: Website
   url: https://www.biglots.com
-- group: agent
+- group: commercial
   title: ''
-  type: LlmsText
-  url: https://biglots.com/llms.txt
+  type: PrivacyPolicy
+  url: https://biglots.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://biglots.com/terms-of-use/
+- group: operate
+  title: ''
+  type: Support
+  url: https://biglots.com/faq/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://biglots.com/contact-us/
+- group: company
+  title: ''
+  type: About
+  url: https://biglots.com/about-us/
+- group: company
+  title: ''
+  type: Careers
+  url: https://biglots.com/jobs/
+coverage:
+  checked: '2026-09-17'
+  detail: Big Lots is a closeout discount retailer whose relaunched biglots.com is a WordPress marketing site (weekly ad, store locator, departments) that 404s on every developer, API, OpenAPI, agent-card and llms.txt path, blocks its own /wp-json/ index with a 403, points vendors at Word-document routing guides on vwstores.com rather than an EDI or supplier API, and api./developer./help.biglots.com no longer resolve.
+  evidence:
+  - status: 404
+    url: https://biglots.com/developers
+  - status: 404
+    url: https://biglots.com/openapi.json
+  - status: 404
+    url: https://biglots.com/.well-known/agent-card.json
+  - status: 404
+    url: https://biglots.com/llms.txt
+  - status: 403
+    url: https://biglots.com/wp-json/
+  reason: not-a-software-company
+  state: none
 created: '2025-01-01'
-description: Big Lots is a discount retailer offering a wide assortment of brand-name closeout merchandise including furniture, food, consumables, seasonal products, soft home, hard home, and electronics. Big Lots operated hundreds of stores across the United States. In 2024, Big Lots filed for bankruptcy and its brand and operations were acquired by Nexus Capital Management.
+description: Big Lots is a discount retailer offering a wide assortment of brand-name closeout merchandise including furniture, food, consumables, seasonal products, soft home, hard home, and electronics. Big Lots operated hundreds of stores across the United States. Big Lots filed for Chapter 11 in September 2024; a planned sale to Nexus Capital Management fell through, and in January 2025 Gordon Brothers Retail Partners acquired the company's assets and sold the Big Lots brand, up to 400 stores and distribution centers to Variety Wholesalers, which relaunched biglots.com in 2026. Big Lots publishes no developer program, API, SDK or machine-readable contract.
 features:
 - description: Brand-name products purchased as closeout lots at below-market prices.
   name: Closeout Merchandise
@@ -70,11 +106,14 @@ features:
   name: Online Shopping
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/big-lots.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-17'
 name: Big Lots
 nav: Providers
 network: true
-overview: Big Lots is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Discounts, Consumer Goods, E-Commerce, and Closeout.
+overview: 'Big Lots is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Discounts, Consumer Goods, E-Commerce, and Closeout.
+
+
+  Big Lots'' developer surface includes support and 8 more developer resources.'
 press:
 - date: '2026-05-25'
   title: I think AI is confused - that's BIG LOTS🤦‍♀️🤦‍♀️
@@ -94,26 +133,26 @@ press:
 random_paper: 9
 score:
   band: minimal
-  composite: 5.7
+  composite: 10.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.2
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 4.8
     discoverability: 57.4
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

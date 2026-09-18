@@ -8,8 +8,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Sportmonks",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -55,6 +55,48 @@
      "rank": 1
     },
     {
+     "name": "Odds API",
+     "slug": "odds-api",
+     "description": "OpenAPI-first sports betting odds API (odds-api.net) providing bookmaker odds, odds comparison, arbitrage, positive EV, line movement, and racing/sports coverage via REST plus SSE and WebSocket streaming. Agent-native with an MCP server, llms.txt, and agent instruction files, plus TypeScript and Python SDKs.",
+     "score": 57.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 64.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 44.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 2
+    },
+    {
      "name": "ParlayAPI",
      "slug": "parlay-api",
      "description": "Real-time sports odds aggregation API covering 30+ sportsbooks and sources — regulated US books, DFS apps, betting exchanges, and prediction markets (Kalshi, Polymarket) — across 92 sport keys, with player props, historical closing lines from 2005, arbitrage/EV/middles scanning, devig and parlay calculators, WebSocket/SSE streaming, webhooks, an official MCP server, and programmatic agent signup. Drop-in replacement for the-odds-api v4. Free tier 1,000 credits/month; public display and redistribution rights are not included.",
@@ -69,7 +111,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 34.1,
      "agent_band": "agent-ready",
@@ -94,7 +136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Lucra Sports",
@@ -112,7 +154,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -144,7 +186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -173,7 +215,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -205,7 +247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "SponsorUnited",
@@ -223,7 +265,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
@@ -248,7 +290,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Chess.com",
@@ -266,7 +308,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -298,7 +340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "StubHub",
@@ -316,7 +358,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -341,7 +383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "WeatherAPI",
@@ -359,7 +401,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -384,7 +426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "CricAPI",
@@ -402,7 +444,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -427,7 +469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Strava",
@@ -445,7 +487,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 34.5,
      "agent_band": "agent-ready",
@@ -470,7 +512,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Liesheng Group",
@@ -488,7 +530,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -520,7 +562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "TheSportsDB",
@@ -538,50 +580,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "Tribune Media",
-     "slug": "tribune-media",
-     "description": "Tribune Media was a diversified media and entertainment company with broadcasting, digital, and content businesses. Through Tribune Media Services (TMS), it provided comprehensive entertainment data APIs including TV programming, movie showtimes, celebrity information, and sports data. Tribune Media was acquired by Nexstar Media Group in 2019. The TMS OnConnect APIs are now operated by Gracenote (a Nielsen company), providing metadata for TV shows, movies, celebrities, and televised sports to consumer electronics manufacturers, cable operators, entertainment platforms, and application developers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png",
-     "score": 45.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 60.4,
-      "contract_governance": 54.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -609,6 +608,49 @@
      "rank": 13
     },
     {
+     "name": "Tribune Media",
+     "slug": "tribune-media",
+     "description": "Tribune Media was a diversified media and entertainment company with broadcasting, digital, and content businesses. Through Tribune Media Services (TMS), it provided comprehensive entertainment data APIs including TV programming, movie showtimes, celebrity information, and sports data. Tribune Media was acquired by Nexstar Media Group in 2019. The TMS OnConnect APIs are now operated by Gracenote (a Nielsen company), providing metadata for TV shows, movies, celebrities, and televised sports to consumer electronics manufacturers, cable operators, entertainment platforms, and application developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png",
+     "score": 45.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 60.4,
+      "contract_governance": 54.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 42.9,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
      "name": "DiscGolfAPI",
      "slug": "discgolfapi",
      "description": "DiscGolfAPI is a free, read-only public API that publishes structured JSON data about disc golf courses for developers, clubs, publishers, apps, and AI systems. It provides machine-readable course records with names, locations, countries, regions, hole counts where known, coordinates where available, operational and access fields, confidence and verification signals, update timestamps, and attribution/licence metadata. DiscGolfAPI is infrastructure and reference data — not a review site, rating platform, or social network.",
@@ -624,7 +666,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -656,7 +698,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Pred",
@@ -674,7 +716,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -706,7 +748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Active Network",
@@ -724,7 +766,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -749,7 +791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "The Rundown",
@@ -767,7 +809,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 38.8,
      "agent_band": "agent-ready",
@@ -792,7 +834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "The Racing API",
@@ -810,7 +852,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 39.6,
      "agent_band": "agent-native",
@@ -835,7 +877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Gracenote",
@@ -853,7 +895,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
@@ -878,7 +920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Polar",
@@ -896,7 +938,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -928,7 +970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "WSC Sports",
@@ -945,7 +987,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 43.1,
      "agent_band": "agent-native",
@@ -970,7 +1012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Under Armour",
@@ -988,7 +1030,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1020,7 +1062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "SeatGeek",
@@ -1038,7 +1080,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -1063,7 +1105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "The Odds API",
@@ -1081,7 +1123,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1106,7 +1148,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "VideoVerse",
@@ -1123,7 +1165,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -1148,7 +1190,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "TrainingPeaks",
@@ -1166,7 +1208,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1198,7 +1240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "The New York Times Company",
@@ -1216,7 +1258,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
@@ -1241,7 +1283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Sportradar",
@@ -1259,7 +1301,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1284,7 +1326,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Narrative Sports",
@@ -1302,7 +1344,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -1327,7 +1369,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Ticketmaster",
@@ -1345,7 +1387,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1370,7 +1412,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Unrivaled Basketball",
@@ -1388,7 +1430,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1413,7 +1455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     }
    ],
    "open": true
@@ -1442,7 +1484,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1467,7 +1509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "TheSports",
@@ -1485,7 +1527,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1510,7 +1552,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "API Football",
@@ -1527,7 +1569,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1552,7 +1594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Highlightly",
@@ -1570,7 +1612,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1595,7 +1637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Sorare",
@@ -1613,7 +1655,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -1638,7 +1680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "5DollarFootballAPI",
@@ -1656,7 +1698,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
@@ -1681,7 +1723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Stats Perform",
@@ -1699,7 +1741,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1724,7 +1766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Inthegame",
@@ -1742,7 +1784,7 @@
       "developer_ergonomics": 38.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -1767,7 +1809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Eversports",
@@ -1785,7 +1827,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -1810,7 +1852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Statorium",
@@ -1828,7 +1870,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1853,7 +1895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "PlayerData",
@@ -1871,7 +1913,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -1896,7 +1938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Football Charts",
@@ -1913,7 +1955,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -1938,7 +1980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "LiveLike",
@@ -1956,7 +1998,7 @@
       "developer_ergonomics": 41.1,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -1981,7 +2023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Tempus Ex",
@@ -1999,7 +2041,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
@@ -2024,7 +2066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Fevo",
@@ -2042,7 +2084,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2074,7 +2116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Fnatic",
@@ -2092,7 +2134,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 44.6,
      "agent_band": "agent-native",
@@ -2117,7 +2159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Latiyal Infotech",
@@ -2135,7 +2177,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2160,7 +2202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "AGL",
@@ -2177,7 +2219,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
@@ -2202,7 +2244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Keyper",
@@ -2220,7 +2262,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -2245,7 +2287,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "The Picklr",
@@ -2263,7 +2305,7 @@
       "developer_ergonomics": 17.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2295,7 +2337,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Genius Sports",
@@ -2313,7 +2355,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -2338,7 +2380,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "NASCAR",
@@ -2356,7 +2398,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -2381,7 +2423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "OpenF1",
@@ -2399,7 +2441,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -2424,7 +2466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Race Entry",
@@ -2442,7 +2484,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2467,7 +2509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Sleeper",
@@ -2485,7 +2527,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2510,7 +2552,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     }
    ]
   },
@@ -2538,7 +2580,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -2563,7 +2605,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "DSG Sports Analytics",
@@ -2581,7 +2623,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2606,7 +2648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Cloud9",
@@ -2624,7 +2666,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -2649,7 +2691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "18Birdies",
@@ -2666,7 +2708,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2691,7 +2733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "SidelineSwap",
@@ -2709,7 +2751,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2734,7 +2776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Opendorse",
@@ -2752,7 +2794,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2784,7 +2826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Premier Lacrosse League",
@@ -2802,7 +2844,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 21.2,
      "agent_band": "agent-aware",
@@ -2827,7 +2869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Minute Media",
@@ -2845,7 +2887,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2870,7 +2912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Preciser",
@@ -2888,7 +2930,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
@@ -2913,7 +2955,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Major League Baseball",
@@ -2930,7 +2972,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 14.7,
      "agent_band": "agent-aware",
@@ -2955,7 +2997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Skydance Media",
@@ -2973,7 +3015,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2998,7 +3040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Satisfi Labs",
@@ -3016,7 +3058,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -3041,7 +3083,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Endeavor",
@@ -3059,7 +3101,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -3084,7 +3126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "National Hockey League",
@@ -3102,7 +3144,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 17.1,
      "agent_band": "agent-aware",
@@ -3127,7 +3169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "SportsAPI",
@@ -3145,7 +3187,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3170,7 +3212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Swish Analytics",
@@ -3188,7 +3230,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -3213,7 +3255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "4DReplay",
@@ -3231,7 +3273,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -3256,7 +3298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Urban Sports Club",
@@ -3274,7 +3316,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3299,7 +3341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Sportwey",
@@ -3317,7 +3359,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3349,7 +3391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Coachup",
@@ -3367,50 +3409,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 76
-    },
-    {
-     "name": "MyFavorito",
-     "slug": "myfavorito",
-     "description": "MyFavorito is a fan-empowered sports sponsorship platform that turns fan loyalty into revenue for sports clubs. Fans choose their favorite club, brands activate campaigns, and clubs earn money through a digital marketplace that connects sponsors, clubs, and supporters. The platform combines sponsorship, fan engagement, and CRM tooling for grassroots clubs, top clubs, and brands. Backed by 500 Global and surfaced in the API Evangelist network as a company profile; no public developer API surface was found during enrichment (no api/developer/docs host, OpenAPI, well-known, or llms.txt), so this profile captures identity and domain-security posture only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/myfavorito/refs/heads/main/screenshots/myfavorito-2026-08-07T184520.png",
-     "score": 15.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3438,10 +3437,10 @@
      "rank": 77
     },
     {
-     "name": "OpenSponsorship",
-     "slug": "opensponsorship",
-     "description": "OpenSponsorship is a two-sided sports sponsorship and influencer marketing marketplace that connects brands with a network of more than 25,000 professional athletes, teams, sports creators, and health and wellness influencers across 150+ sports. Brands pay a monthly subscription to search the roster, post campaigns, submit proposals, manage contracts, and track ROI, while athletes and their agents join for free with OpenSponsorship taking a commission on secured deals. The platform layers AI-based matching, social-content search, campaign management, and reporting on top of a managed service that handles matching, outreach, contracts, and reporting. OpenSponsorship exposes no public developer API at this time; this profile captures its public identity and web properties for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opensponsorship/refs/heads/main/screenshots/opensponsorship-2026-08-07T190643.png",
+     "name": "MyFavorito",
+     "slug": "myfavorito",
+     "description": "MyFavorito is a fan-empowered sports sponsorship platform that turns fan loyalty into revenue for sports clubs. Fans choose their favorite club, brands activate campaigns, and clubs earn money through a digital marketplace that connects sponsors, clubs, and supporters. The platform combines sponsorship, fan engagement, and CRM tooling for grassroots clubs, top clubs, and brands. Backed by 500 Global and surfaced in the API Evangelist network as a company profile; no public developer API surface was found during enrichment (no api/developer/docs host, OpenAPI, well-known, or llms.txt), so this profile captures identity and domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/myfavorito/refs/heads/main/screenshots/myfavorito-2026-08-07T184520.png",
      "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3453,7 +3452,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3481,22 +3480,22 @@
      "rank": 78
     },
     {
-     "name": "All Sports API",
-     "slug": "all-sports-api",
-     "description": "All Sports API is a fast, reliable, and comprehensive sports data API providing livescore feeds, fixtures, standings, and historical data for major sports worldwide. The platform offers JSON pull-based APIs for football (soccer), basketball, cricket, and tennis, with hockey, baseball, and American football available as additional sports. The API base URL is apiv2.allsportsapi.com and uses API key authentication with sport-specific endpoints accessed via the met query parameter. All Sports API also provides free embeddable widgets (results, fixtures, standings, livescore) and WordPress plugins. Plans include a 14-day free trial.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/screenshots/all-sports-api-2026-07-25T195637.png",
-     "score": 15.3,
+     "name": "OpenSponsorship",
+     "slug": "opensponsorship",
+     "description": "OpenSponsorship is a two-sided sports sponsorship and influencer marketing marketplace that connects brands with a network of more than 25,000 professional athletes, teams, sports creators, and health and wellness influencers across 150+ sports. Brands pay a monthly subscription to search the roster, post campaigns, submit proposals, manage contracts, and track ROI, while athletes and their agents join for free with OpenSponsorship taking a commission on secured deals. The platform layers AI-based matching, social-content search, campaign management, and reporting on top of a managed service that handles matching, outreach, contracts, and reporting. OpenSponsorship exposes no public developer API at this time; this profile captures its public identity and web properties for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opensponsorship/refs/heads/main/screenshots/opensponsorship-2026-08-07T190643.png",
+     "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
-      "contract_governance": 4.5,
+      "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 23.7
+      "developer_ergonomics": 7.1,
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3524,64 +3523,22 @@
      "rank": 79
     },
     {
-     "name": "Cricket API",
-     "slug": "cricket-api",
-     "description": "A cricket data API advertised at cricket-api.net -- live scores, fixtures, ball-by-ball events, player and team statistics, betting odds and win-probability predictions, over REST and a documented WebSocket stream. ACCESS REALITY, stated plainly: the production base URL is not published; the docs describe every endpoint against the placeholder api.example.com and carry their own implementation notice that the base URL, paths, headers, quotas and responses are documentation examples to be replaced after signup. Four plan tiers are named but no price or quota is published for any of them. Listed on the surfaces that are actually served; the rating reflects what is published.",
-     "score": 14.6,
+     "name": "All Sports API",
+     "slug": "all-sports-api",
+     "description": "All Sports API is a fast, reliable, and comprehensive sports data API providing livescore feeds, fixtures, standings, and historical data for major sports worldwide. The platform offers JSON pull-based APIs for football (soccer), basketball, cricket, and tennis, with hockey, baseball, and American football available as additional sports. The API base URL is apiv2.allsportsapi.com and uses API key authentication with sport-specific endpoints accessed via the met query parameter. All Sports API also provides free embeddable widgets (results, fixtures, standings, livescore) and WordPress plugins. Plans include a 14-day free trial.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/all-sports-api/refs/heads/main/screenshots/all-sports-api-2026-07-25T195637.png",
+     "score": 15.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 81.5,
       "contract_quality": 0.0,
-      "contract_governance": 0.0,
+      "contract_governance": 4.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 31.6
+      "developer_ergonomics": 9.5,
+      "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 80
-    },
-    {
-     "name": "TransferRoom",
-     "slug": "transferroom",
-     "description": "TransferRoom is football's real-time transfer marketplace, connecting clubs, agents and players to buy, sell and loan players and to recruit head coaches. Its API delivers verified, real-time market intelligence — Expected Transfer Value (xTV) benchmarks, player availability and deal-viability signals, contract-expiry and estimated-salary data, agent and coach representation, and head-coach ratings — returned as JSON for clubs to integrate directly into their own systems (SQL databases, BI dashboards, spreadsheets and code notebooks). Trusted by 800+ clubs across 130 leagues and 500+ agencies, covering 130,000+ players and 7,000+ head coaches, and powering 7,500+ transfer deals. The API is sales-gated: technical reference (endpoints, authentication, base URL) is provided to clubs on engagement and is not published publicly.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transferroom/refs/heads/main/screenshots/transferroom-2026-09-02T164123.png",
-     "score": 14.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3606,25 +3563,67 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
-     "name": "Goals",
-     "slug": "goals",
-     "description": "Goals (playgoals.com, formerly goals.co) is a free-to-play competitive football (soccer) video game studio backed by Northzone. It positions itself as a gameplay-first football game — \"No scripts, no excuses, just football\" — with fast, skill-based competitive matches, unique player squads, card-pack collection, ranked leaderboards, and multiple game modes across Steam, Xbox, PlayStation, and the Epic Games Store. A companion app lets players manage squads and open packs. This profile was surfaced as a Northzone portfolio company (consumer sector) and added to the API Evangelist network; the studio publishes a consumer game and a community surface (Discord, guides, leaderboards) but no public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goals/refs/heads/main/screenshots/goals-2026-07-25T220000.png",
-     "score": 14.5,
+     "name": "Cricket API",
+     "slug": "cricket-api",
+     "description": "A cricket data API advertised at cricket-api.net -- live scores, fixtures, ball-by-ball events, player and team statistics, betting odds and win-probability predictions, over REST and a documented WebSocket stream. ACCESS REALITY, stated plainly: the production base URL is not published; the docs describe every endpoint against the placeholder api.example.com and carry their own implementation notice that the base URL, paths, headers, quotas and responses are documentation examples to be replaced after signup. Four plan tiers are named but no price or quota is published for any of them. Listed on the surfaces that are actually served; the rating reflects what is published.",
+     "score": 14.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 21.1
+      "developer_ergonomics": 11.9,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 81
+    },
+    {
+     "name": "TransferRoom",
+     "slug": "transferroom",
+     "description": "TransferRoom is football's real-time transfer marketplace, connecting clubs, agents and players to buy, sell and loan players and to recruit head coaches. Its API delivers verified, real-time market intelligence — Expected Transfer Value (xTV) benchmarks, player availability and deal-viability signals, contract-expiry and estimated-salary data, agent and coach representation, and head-coach ratings — returned as JSON for clubs to integrate directly into their own systems (SQL databases, BI dashboards, spreadsheets and code notebooks). Trusted by 800+ clubs across 130 leagues and 500+ agencies, covering 130,000+ players and 7,000+ head coaches, and powering 7,500+ transfer deals. The API is sales-gated: technical reference (endpoints, authentication, base URL) is provided to clubs on engagement and is not published publicly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transferroom/refs/heads/main/screenshots/transferroom-2026-09-02T164123.png",
+     "score": 14.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3652,11 +3651,11 @@
      "rank": 82
     },
     {
-     "name": "Eksab",
-     "slug": "eksab",
-     "description": "Eksab is a Cairo-based daily fantasy sports and football-prediction platform for the MENA region. Founded in 2017 by Aly Mahmoud, it lets fans predict the scores and outcomes of live football matches, earn points based on the accuracy of their picks, and win prizes through free and paid competitions. The platform has grown to over 700,000 registered users making more than a million picks each month, and in 2022 became the exclusive fantasy sports partner of the Egyptian Premier League. Eksab is backed by 500 Global (500 Startups), 4DX Ventures, and others across roughly $3.7M in seed funding. This profile is maintained in the API Evangelist network; Eksab is a consumer mobile/web product and does not currently publish a public developer API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eksab/refs/heads/main/screenshots/eksab-2026-07-25T213039.png",
-     "score": 14.3,
+     "name": "Goals",
+     "slug": "goals",
+     "description": "Goals (playgoals.com, formerly goals.co) is a free-to-play competitive football (soccer) video game studio backed by Northzone. It positions itself as a gameplay-first football game — \"No scripts, no excuses, just football\" — with fast, skill-based competitive matches, unique player squads, card-pack collection, ranked leaderboards, and multiple game modes across Steam, Xbox, PlayStation, and the Epic Games Store. A companion app lets players manage squads and open packs. This profile was surfaced as a Northzone portfolio company (consumer sector) and added to the API Evangelist network; the studio publishes a consumer game and a community surface (Discord, guides, leaderboards) but no public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/goals/refs/heads/main/screenshots/goals-2026-07-25T220000.png",
+     "score": 14.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -3664,10 +3663,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 39.5
+      "developer_ergonomics": 26.2,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3695,6 +3694,49 @@
      "rank": 83
     },
     {
+     "name": "Eksab",
+     "slug": "eksab",
+     "description": "Eksab is a Cairo-based daily fantasy sports and football-prediction platform for the MENA region. Founded in 2017 by Aly Mahmoud, it lets fans predict the scores and outcomes of live football matches, earn points based on the accuracy of their picks, and win prizes through free and paid competitions. The platform has grown to over 700,000 registered users making more than a million picks each month, and in 2022 became the exclusive fantasy sports partner of the Egyptian Premier League. Eksab is backed by 500 Global (500 Startups), 4DX Ventures, and others across roughly $3.7M in seed funding. This profile is maintained in the API Evangelist network; Eksab is a consumer mobile/web product and does not currently publish a public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eksab/refs/heads/main/screenshots/eksab-2026-07-25T213039.png",
+     "score": 14.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 84
+    },
+    {
      "name": "TicketRev",
      "slug": "ticketrev",
      "description": "TicketRev (TICKR Holdings, Inc.) is a buyer-first ticketing platform for live sports and entertainment, founded in 2022. Its marketplace lets fans name their own price on tickets while giving teams and venues offer-based selling, flow purchasing, seat upgrades, and premium-inventory tools. Products span four solutions - Core (offer-based purchases), Breeze (flow purchasing), Upgrades (in-seat upgrades), and Premium (premium seating revenue) - and are used by MLB clubs including the Houston Astros, Miami Marlins, and Tampa Bay Rays. TicketRev is backed by Soma Capital, Groove Capital, 500 Global, and Techstars. The company publicly commits to SOC 2 Type II and PCI DSS security and compliance. No public developer API surface was found at the time of enrichment.",
@@ -3710,7 +3752,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3742,7 +3784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Game Theory",
@@ -3760,50 +3802,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 85
-    },
-    {
-     "name": "Hole19",
-     "slug": "hole19",
-     "description": "Hole19 (Stat Track Technologies Lda) is a golf app for iOS, Android, and smartwatches used by 4.8M+ golfers across 42,000+ golf courses in 200+ countries. It provides GPS rangefinder distances, digital scorecards, shot tracking, performance statistics, an Otto AI game assistant, and a WHS handicap calculator, plus social features such as LivePlay live leaderboards and a social feed. The company also ships CORE Golf, a practice app with structured plans and 100+ drills, and operates a worldwide golf course directory, a golf glossary, and The 19th Hole magazine. The core app is free with two subscription tiers, Premium and Intelligence. Hole19 does not publish a public developer API; this profile captures its public web, legal, support, and llms.txt surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hole19/refs/heads/main/screenshots/hole19-2026-07-25T221316.png",
-     "score": 13.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3831,6 +3830,49 @@
      "rank": 86
     },
     {
+     "name": "Hole19",
+     "slug": "hole19",
+     "description": "Hole19 (Stat Track Technologies Lda) is a golf app for iOS, Android, and smartwatches used by 4.8M+ golfers across 42,000+ golf courses in 200+ countries. It provides GPS rangefinder distances, digital scorecards, shot tracking, performance statistics, an Otto AI game assistant, and a WHS handicap calculator, plus social features such as LivePlay live leaderboards and a social feed. The company also ships CORE Golf, a practice app with structured plans and 100+ drills, and operates a worldwide golf course directory, a golf glossary, and The 19th Hole magazine. The core app is free with two subscription tiers, Premium and Intelligence. Hole19 does not publish a public developer API; this profile captures its public web, legal, support, and llms.txt surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hole19/refs/heads/main/screenshots/hole19-2026-07-25T221316.png",
+     "score": 13.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 87
+    },
+    {
      "name": "Betr",
      "slug": "betr",
      "description": "Betr (Betr Holdings, Inc.) is a Miami-based real-money gaming and sports media company founded in 2022 by Joey Levy and Jake Paul on a $50M Series A. Betr operates a consumer \"real money gaming super app\" spanning Betr Picks (real-money pick'em daily fantasy sports across NFL, NBA, MLB, NHL, UFC and golf), a micro-betting sportsbook launched in Ohio in January 2023, a social sportsbook and social casino, Betr Arcade, and Betr Media (podcasts, creator content and digital sports programming). Betr is a business-to-consumer operator: it publishes mobile apps, a Webflow marketing site, an Intercom-hosted help center and an llms.txt discovery file, but as of this profiling round it publishes no public developer API program, no OpenAPI/AsyncAPI/GraphQL contract, and no SDKs. Its API hosts (api.betr.app, and a staging back-office API documentation host) are private and return 500/403 to anonymous callers.",
@@ -3846,7 +3888,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -3871,7 +3913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Imperfect",
@@ -3889,7 +3931,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3921,7 +3963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "TOCA Football",
@@ -3939,50 +3981,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 89
-    },
-    {
-     "name": "DubClub",
-     "slug": "dubclub",
-     "description": "DubClub is an all-in-one platform to create and join sports betting communities. It is a marketplace connecting sports betting content creators known as cappers or handicappers with subscribers who want timely, reliable betting picks and analysis. Creators monetize their expertise by selling picks and predictions through paid subscriptions, while subscribers receive content directly via notifications and messaging rather than scattered across social media and Discord. DubClub has facilitated tens of millions in payments for creators and delivered hundreds of millions of messages containing informational sports betting content. This profile was surfaced as a portfolio company of Uncork Capital; DubClub publishes a consumer web product and does not expose a public developer API program at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dubclub/refs/heads/main/screenshots/dubclub-2026-07-25T212445.png",
-     "score": 12.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4010,11 +4009,11 @@
      "rank": 90
     },
     {
-     "name": "StatusPRO",
-     "slug": "statuspro",
-     "description": "StatusPRO is a sports technology and gaming company founded by former professional athletes, building extended reality (XR) products that pair competitive training tools for elite athletes with immersive gaming experiences for consumers. Its flagship product, NFL PRO ERA, is an officially NFL- and NFLPA-licensed virtual reality football game for Meta Quest headsets, and its StatusPRO Visualizer powers immersive broadcast perspectives used by ESPN on NFL Live. The company operates a live-services consumer game rather than a developer platform: it publishes no public API, developer portal, or API documentation. This profile is maintained in the API Evangelist network as a company record; it carries no API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/statuspro/refs/heads/main/screenshots/statuspro-2026-09-02T160859.png",
-     "score": 12.7,
+     "name": "DubClub",
+     "slug": "dubclub",
+     "description": "DubClub is an all-in-one platform to create and join sports betting communities. It is a marketplace connecting sports betting content creators known as cappers or handicappers with subscribers who want timely, reliable betting picks and analysis. Creators monetize their expertise by selling picks and predictions through paid subscriptions, while subscribers receive content directly via notifications and messaging rather than scattered across social media and Discord. DubClub has facilitated tens of millions in payments for creators and delivered hundreds of millions of messages containing informational sports betting content. This profile was surfaced as a portfolio company of Uncork Capital; DubClub publishes a consumer web product and does not expose a public developer API program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dubclub/refs/heads/main/screenshots/dubclub-2026-07-25T212445.png",
+     "score": 12.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -4022,10 +4021,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 31.6
+      "developer_ergonomics": 4.8,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4053,10 +4052,10 @@
      "rank": 91
     },
     {
-     "name": "Teamworks",
-     "slug": "teamworks",
-     "description": "Teamworks is a sports technology company that builds \"The Operating System for Sports\" — an integrated software platform used by elite collegiate, professional, and national-team organizations to digitize the athlete lifecycle and consolidate their technology stack. The platform spans four product areas: Personnel (roster management, recruiting, scouting, player evaluation), Performance (strength & conditioning, nutrition, and a sports EMR / athlete-management system), Coaching (sport-specific game preparation and strategy for football, baseball, and hockey), and Operations (Hub communication, compliance, academics, inventory, camps, and influencer management), plus Wallet for athlete payments and Teamworks Intelligence for predictive analytics. Teamworks is a General Catalyst portfolio company. As of this profile the company exposes customer-facing SaaS products and a public status page but publishes no public developer API, OpenAPI specification, developer portal, or client SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teamworks/refs/heads/main/screenshots/teamworks-2026-09-02T162655.png",
+     "name": "StatusPRO",
+     "slug": "statuspro",
+     "description": "StatusPRO is a sports technology and gaming company founded by former professional athletes, building extended reality (XR) products that pair competitive training tools for elite athletes with immersive gaming experiences for consumers. Its flagship product, NFL PRO ERA, is an officially NFL- and NFLPA-licensed virtual reality football game for Meta Quest headsets, and its StatusPRO Visualizer powers immersive broadcast perspectives used by ESPN on NFL Live. The company operates a live-services consumer game rather than a developer platform: it publishes no public API, developer portal, or API documentation. This profile is maintained in the API Evangelist network as a company record; it carries no API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/statuspro/refs/heads/main/screenshots/statuspro-2026-09-02T160859.png",
      "score": 12.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4064,11 +4063,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 15.8,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4094,6 +4093,49 @@
       "agentic_commerce": false
      },
      "rank": 92
+    },
+    {
+     "name": "Teamworks",
+     "slug": "teamworks",
+     "description": "Teamworks is a sports technology company that builds \"The Operating System for Sports\" — an integrated software platform used by elite collegiate, professional, and national-team organizations to digitize the athlete lifecycle and consolidate their technology stack. The platform spans four product areas: Personnel (roster management, recruiting, scouting, player evaluation), Performance (strength & conditioning, nutrition, and a sports EMR / athlete-management system), Coaching (sport-specific game preparation and strategy for football, baseball, and hockey), and Operations (Hub communication, compliance, academics, inventory, camps, and influencer management), plus Wallet for athlete payments and Teamworks Intelligence for predictive analytics. Teamworks is a General Catalyst portfolio company. As of this profile the company exposes customer-facing SaaS products and a public status page but publishes no public developer API, OpenAPI specification, developer portal, or client SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teamworks/refs/heads/main/screenshots/teamworks-2026-09-02T162655.png",
+     "score": 12.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 93
     },
     {
      "name": "ThriveFantasy",
@@ -4136,7 +4178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Icon Source",
@@ -4154,7 +4196,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4186,7 +4228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "RACE RESULT",
@@ -4204,7 +4246,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4229,7 +4271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Arena Club",
@@ -4247,7 +4289,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4279,7 +4321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Autograph",
@@ -4297,7 +4339,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4322,7 +4364,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Myclubs",
@@ -4339,7 +4381,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4371,7 +4413,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Candy Fanatics (fka Candy Digital)",
@@ -4389,7 +4431,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4421,7 +4463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "TrackMan",
@@ -4439,50 +4481,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 100
-    },
-    {
-     "name": "WOO Sports",
-     "slug": "woo-sports",
-     "description": "WOO Sports makes a sensor-based performance-tracking system for kitesurfing, wingfoiling, and windsurfing. The WOO 4.0 device mounts to a board and measures jump height, airtime, G-force, and landing impact, syncing sessions through the WOO Sports mobile apps (iOS, Android, Apple Watch, Wear OS, and Garmin) to a global community platform with leaderboards, spots, activity feeds, and events. More than 100,000 riders use WOO to track sessions and compete, including on the GKA Kite World Tour. WOO Sports is a Techstars-backed brand operated under Boards & More. This profile was enriched from the provider's public web surface; no public developer API was found (docs.woosports.com is a consumer user guide, not an API reference).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/woo-sports/refs/heads/main/screenshots/woo-sports-2026-09-02T170923.png",
-     "score": 11.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4510,22 +4509,22 @@
      "rank": 101
     },
     {
-     "name": "Underdog Fantasy",
-     "slug": "underdog-fantasy",
-     "description": "Underdog (Underdog Sports, formerly Underdog Fantasy) is a Brooklyn, New York based sports gaming company founded in 2020 by Jeremy Levine that operates daily fantasy sports, pick'em, and — since 2025 — federally regulated sports prediction markets on its own proprietary technology stack. Its consumer products include Classic Pick'em, Pick'em Champions, Best Ball and other Draft Games, Streaks, Team Picks, and the Underdog Predict prediction-markets exchange, delivered through iOS, Android, and web apps rather than a public developer API. Underdog reached roughly $500M in annual revenue within five years, was valued at $1.2B after a Spark Capital-led Series C in March 2025, acquired CFTC-registered derivatives infrastructure in March 2026, and in July 2026 was the subject of a proposed acquisition by IG Group. The company publishes no developer portal, API documentation, or machine-readable API contract; its public technical surface is limited to an RFC 9116 security.txt with a PGP key, a Honeybadger-hosted status page covering its API and Stats services, and the Underdog-Inc GitHub organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/screenshots/underdog-fantasy-2026-09-02T164851.png",
-     "score": 11.8,
+     "name": "WOO Sports",
+     "slug": "woo-sports",
+     "description": "WOO Sports makes a sensor-based performance-tracking system for kitesurfing, wingfoiling, and windsurfing. The WOO 4.0 device mounts to a board and measures jump height, airtime, G-force, and landing impact, syncing sessions through the WOO Sports mobile apps (iOS, Android, Apple Watch, Wear OS, and Garmin) to a global community platform with leaderboards, spots, activity feeds, and events. More than 100,000 riders use WOO to track sessions and compete, including on the GKA Kite World Tour. WOO Sports is a Techstars-backed brand operated under Boards & More. This profile was enriched from the provider's public web surface; no public developer API was found (docs.woosports.com is a consumer user guide, not an API reference).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/woo-sports/refs/heads/main/screenshots/woo-sports-2026-09-02T170923.png",
+     "score": 11.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 6.6
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4553,22 +4552,22 @@
      "rank": 102
     },
     {
-     "name": "Gametime",
-     "slug": "gametime",
-     "description": "Gametime is a mobile-first ticket marketplace for last-minute tickets to live sports, concerts, comedy, and theater across the United States and Canada. Founded in 2012 by Brad Griffith and headquartered in San Francisco, Gametime United, Inc. lets fans buy tickets up to roughly 90 minutes after an event begins, with all-in (fee-inclusive) pricing, a two-tap checkout, mobile ticket delivery, and buyer guarantees (Lowest Price Guarantee and lightning refunds). The company is backed by Accel, GV, and others. Gametime does not publish a public developer API; it runs a B2B \"API Seller\" program for professional point-of-sale sellers. This profile was added to the API Evangelist network as a portfolio-lead stub and enriched with identity and domain-security data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gametime/refs/heads/main/screenshots/gametime-2026-07-25T215427.png",
-     "score": 11.7,
+     "name": "Underdog Fantasy",
+     "slug": "underdog-fantasy",
+     "description": "Underdog (Underdog Sports, formerly Underdog Fantasy) is a Brooklyn, New York based sports gaming company founded in 2020 by Jeremy Levine that operates daily fantasy sports, pick'em, and — since 2025 — federally regulated sports prediction markets on its own proprietary technology stack. Its consumer products include Classic Pick'em, Pick'em Champions, Best Ball and other Draft Games, Streaks, Team Picks, and the Underdog Predict prediction-markets exchange, delivered through iOS, Android, and web apps rather than a public developer API. Underdog reached roughly $500M in annual revenue within five years, was valued at $1.2B after a Spark Capital-led Series C in March 2025, acquired CFTC-registered derivatives infrastructure in March 2026, and in July 2026 was the subject of a proposed acquisition by IG Group. The company publishes no developer portal, API documentation, or machine-readable API contract; its public technical surface is limited to an RFC 9116 security.txt with a PGP key, a Honeybadger-hosted status page covering its API and Stats services, and the Underdog-Inc GitHub organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/screenshots/underdog-fantasy-2026-09-02T164851.png",
+     "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4596,6 +4595,49 @@
      "rank": 103
     },
     {
+     "name": "Gametime",
+     "slug": "gametime",
+     "description": "Gametime is a mobile-first ticket marketplace for last-minute tickets to live sports, concerts, comedy, and theater across the United States and Canada. Founded in 2012 by Brad Griffith and headquartered in San Francisco, Gametime United, Inc. lets fans buy tickets up to roughly 90 minutes after an event begins, with all-in (fee-inclusive) pricing, a two-tap checkout, mobile ticket delivery, and buyer guarantees (Lowest Price Guarantee and lightning refunds). The company is backed by Accel, GV, and others. Gametime does not publish a public developer API; it runs a B2B \"API Seller\" program for professional point-of-sale sellers. This profile was added to the API Evangelist network as a portfolio-lead stub and enriched with identity and domain-security data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gametime/refs/heads/main/screenshots/gametime-2026-07-25T215427.png",
+     "score": 11.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 104
+    },
+    {
      "name": "Gen.G",
      "slug": "gen-g",
      "description": "Gen.G is a global esports organization founded in 2017 (originally KSV eSports) that connects the United States and Asia, operating from Los Angeles, Seoul, and Shanghai. It fields professional teams across League of Legends, Valorant, PUBG, Counter-Strike 2, Rocket League, Fortnite, Brawl Stars, Honor of Kings, Mobile Legends, NBA 2K, Overwatch, Rainbow Six Siege, and EA FC, and runs a youth esports academy program alongside merchandise and fan-engagement businesses. Backed by Canaan Partners among other investors, Gen.G was valued at roughly $250 million as of 2022. It is a consumer esports brand and merchandise operator with a Shopify-based storefront; it publishes no public developer API, so this profile carries company identity only.",
@@ -4611,7 +4653,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4636,7 +4678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Cosm",
@@ -4654,7 +4696,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 13.3,
      "agent_band": "agent-aware",
@@ -4679,7 +4721,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Nix",
@@ -4697,7 +4739,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4729,7 +4771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "str8bat",
@@ -4747,7 +4789,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 13.8,
      "agent_band": "agent-aware",
@@ -4772,7 +4814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "World Golf Tour",
@@ -4790,50 +4832,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 108
-    },
-    {
-     "name": "Amer Sports",
-     "slug": "amer-sports",
-     "description": "Amer Sports is a global group of premium sports and outdoor brands with Nordic roots and more than 75 years of history, employing roughly 15,400 people and selling products in over 100 countries. Its portfolio spans ten brands including Arc'teryx, Salomon, Wilson, Peak Performance, Atomic, Armada, ATEC, DeMarini, EvoShield and Louisville Slugger, covering technical apparel, footwear, winter sports, racquet sports and ball sports equipment. Amer Sports was added to the API Evangelist network as a portfolio company of Hongshan (formerly Sequoia Capital China). As a consumer sports and outdoor manufacturer it publishes a corporate and investor web presence and a security.txt contact, but no public developer portal, API documentation, or machine-readable API specification was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amer-sports/refs/heads/main/screenshots/amer-sports-2026-07-25T200039.png",
-     "score": 11.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4861,22 +4860,22 @@
      "rank": 109
     },
     {
-     "name": "Draftea",
-     "slug": "draftea",
-     "description": "Draftea is a Mexico-based daily fantasy sports and real-money sports gaming platform, billed as the first daily fantasy sports (DFS) product for the Spanish-speaking world. Fans draft lineups of real athletes across soccer, American football (via an NFL partnership), basketball, baseball, and Formula 1, enter paid contests, and compete against other users for cash prizes rather than against a bookmaker. The company operates in Mexico under regulatory approval (DGAJS/SCEVF/P-06/2005-TER), distributes through native iOS and Android apps, and is backed by Sequoia, Kaszek, Bullpen Capital, Stepstone Group, and Courtside Ventures, along with athlete investors. Draftea is a consumer product company and does not currently publish a public developer API program; this profile captures its public web, support, legal, and open-source engineering surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/draftea/refs/heads/main/screenshots/draftea-2026-07-25T212334.png",
-     "score": 11.0,
+     "name": "Amer Sports",
+     "slug": "amer-sports",
+     "description": "Amer Sports is a global group of premium sports and outdoor brands with Nordic roots and more than 75 years of history, employing roughly 15,400 people and selling products in over 100 countries. Its portfolio spans ten brands including Arc'teryx, Salomon, Wilson, Peak Performance, Atomic, Armada, ATEC, DeMarini, EvoShield and Louisville Slugger, covering technical apparel, footwear, winter sports, racquet sports and ball sports equipment. Amer Sports was added to the API Evangelist network as a portfolio company of Hongshan (formerly Sequoia Capital China). As a consumer sports and outdoor manufacturer it publishes a corporate and investor web presence and a security.txt contact, but no public developer portal, API documentation, or machine-readable API specification was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amer-sports/refs/heads/main/screenshots/amer-sports-2026-07-25T200039.png",
+     "score": 11.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4904,10 +4903,10 @@
      "rank": 110
     },
     {
-     "name": "StatMuse",
-     "slug": "statmuse",
-     "description": "StatMuse is a natural-language search engine that answers sports and financial questions in plain English, returning instant stats, tables, and visual answers. It covers MLB, NBA, NFL, NHL, WNBA, PGA, college football, and soccer, along with StatMuse Money for stock-market and finance data. Users ask questions conversationally (\"How many points did LeBron score last night?\") and get sourced answers with charts and shareable cards. Backed by Techstars, the company is consumer-facing and does not currently publish a public developer API, SDKs, or programmatic access surface; this profile is maintained in the API Evangelist network as a company lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/statmuse/refs/heads/main/screenshots/statmuse-2026-09-02T160817.png",
+     "name": "Draftea",
+     "slug": "draftea",
+     "description": "Draftea is a Mexico-based daily fantasy sports and real-money sports gaming platform, billed as the first daily fantasy sports (DFS) product for the Spanish-speaking world. Fans draft lineups of real athletes across soccer, American football (via an NFL partnership), basketball, baseball, and Formula 1, enter paid contests, and compete against other users for cash prizes rather than against a bookmaker. The company operates in Mexico under regulatory approval (DGAJS/SCEVF/P-06/2005-TER), distributes through native iOS and Android apps, and is backed by Sequoia, Kaszek, Bullpen Capital, Stepstone Group, and Courtside Ventures, along with athlete investors. Draftea is a consumer product company and does not currently publish a public developer API program; this profile captures its public web, support, legal, and open-source engineering surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/draftea/refs/heads/main/screenshots/draftea-2026-07-25T212334.png",
      "score": 11.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4915,11 +4914,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 27.6
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4945,33 +4944,24 @@
       "agentic_commerce": false
      },
      "rank": 111
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 74,
-   "shown": 74,
-   "providers": [
+    },
     {
-     "name": "All City Network",
-     "slug": "all-city-network",
-     "description": "ALLCITY Network (All City Network) is a sports media and podcasting company built on the tagline \"Sports Over Everything.\" It operates a set of city-based sports networks — DNVR (Denver), PHNX (Phoenix), CHGO (Chicago), PHLY (Philadelphia), and DLLS (Dallas) — that produce team-focused podcasts, video shows, and written coverage of local professional and collegiate sports, alongside network-wide shows and NBA/NFL programming. The company reaches fans through audio and video podcasts, memberships, and a merchandise store. It is a Bullpen Capital portfolio company and is not an API provider; it publishes no developer portal, documentation, or API, so the API-specific artifacts of the enrichment pipeline are not applicable.",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
+     "name": "StatMuse",
+     "slug": "statmuse",
+     "description": "StatMuse is a natural-language search engine that answers sports and financial questions in plain English, returning instant stats, tables, and visual answers. It covers MLB, NBA, NFL, NHL, WNBA, PGA, college football, and soccer, along with StatMuse Money for stock-market and finance data. Users ask questions conversationally (\"How many points did LeBron score last night?\") and get sourced answers with charts and shareable cards. Backed by Techstars, the company is consumer-facing and does not currently publish a public developer API, SDKs, or programmatic access surface; this profile is maintained in the API Evangelist network as a company lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/statmuse/refs/heads/main/screenshots/statmuse-2026-09-02T160817.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 2.4,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4997,12 +4987,21 @@
       "agentic_commerce": false
      },
      "rank": 112
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 73,
+   "shown": 73,
+   "providers": [
     {
-     "name": "Blue Wire",
-     "slug": "blue-wire",
-     "description": "Blue Wire is a podcast network and monetization platform built for independent sports content creators, positioning itself as \"The Monetization Engine for Sports Creators.\" The company provides sales, marketing, distribution, and operational support so creators can focus on producing content while Blue Wire handles ad sales and sponsorship coordination across a network of 200+ shows and 500+ creators reaching hundreds of millions of listeners. Backed by 500 Global. Blue Wire operates as a media and advertising business and does not publish a public developer API; this profile captures its company identity and domain-security posture within the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blue-wire/refs/heads/main/screenshots/blue-wire-2026-07-25T203442.png",
+     "name": "All City Network",
+     "slug": "all-city-network",
+     "description": "ALLCITY Network (All City Network) is a sports media and podcasting company built on the tagline \"Sports Over Everything.\" It operates a set of city-based sports networks — DNVR (Denver), PHNX (Phoenix), CHGO (Chicago), PHLY (Philadelphia), and DLLS (Dallas) — that produce team-focused podcasts, video shows, and written coverage of local professional and collegiate sports, alongside network-wide shows and NBA/NFL programming. The company reaches fans through audio and video podcasts, memberships, and a merchandise store. It is a Bullpen Capital portfolio company and is not an API provider; it publishes no developer portal, documentation, or API, so the API-specific artifacts of the enrichment pipeline are not applicable.",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5014,50 +5013,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 113
-    },
-    {
-     "name": "Fitetv",
-     "slug": "fitetv",
-     "description": "FITE (fite.tv) is a live sports and entertainment streaming platform that now operates as TrillerTV, run by Flipps Media Inc., a Triller Group Inc company. The service specializes in combat sports and alternative entertainment, streaming boxing, bare-knuckle fighting (BKFC), MMA, kickboxing, professional wrestling, cricket (via the Willow by Cricbuzz channel), soccer, cycling, and motorsports. It advertises thousands of hours of free video, more than a thousand live events per year, and a multi-million-strong fan community, with content delivered through free tiers, the TrillerTV+ subscription, and pay-per-view events across web, mobile, and connected-TV apps. This API Evangelist profile tracks the company's public web surface; no public developer API or documentation program has been located.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fitetv/refs/heads/main/screenshots/fitetv-2026-07-25T214630.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5082,25 +5038,68 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
-     "name": "Forged Sports, Inc.",
-     "slug": "forged-sports-inc",
-     "description": "Forged Sports, Inc. is a Palo Alto, California software company (founded May 2024) building a Venue Management System (VMS) for commercial indoor golf and golf-simulator venues. The platform consolidates bay operations, bookings, player profiles, waivers, leagues, business intelligence, and third-party integrations into a single command center — offering live bay monitoring, reservation and booking management, player-retention analytics, game-popularity insight, and bay-utilization reporting. Forged Sports also develops gamified indoor-golf experiences on top of launch-monitor technologies. Backed by 500 Global. No public developer API, documentation, or SDK surface is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/forged-sports-inc/refs/heads/main/screenshots/forged-sports-inc-2026-07-25T214938.png",
-     "score": 10.5,
+     "name": "Blue Wire",
+     "slug": "blue-wire",
+     "description": "Blue Wire is a podcast network and monetization platform built for independent sports content creators, positioning itself as \"The Monetization Engine for Sports Creators.\" The company provides sales, marketing, distribution, and operational support so creators can focus on producing content while Blue Wire handles ad sales and sponsorship coordination across a network of 200+ shows and 500+ creators reaching hundreds of millions of listeners. Backed by 500 Global. Blue Wire operates as a media and advertising business and does not publish a public developer API; this profile captures its company identity and domain-security posture within the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blue-wire/refs/heads/main/screenshots/blue-wire-2026-07-25T203442.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 114
+    },
+    {
+     "name": "Fitetv",
+     "slug": "fitetv",
+     "description": "FITE (fite.tv) is a live sports and entertainment streaming platform that now operates as TrillerTV, run by Flipps Media Inc., a Triller Group Inc company. The service specializes in combat sports and alternative entertainment, streaming boxing, bare-knuckle fighting (BKFC), MMA, kickboxing, professional wrestling, cricket (via the Willow by Cricbuzz channel), soccer, cycling, and motorsports. It advertises thousands of hours of free video, more than a thousand live events per year, and a multi-million-strong fan community, with content delivered through free tiers, the TrillerTV+ subscription, and pay-per-view events across web, mobile, and connected-TV apps. This API Evangelist profile tracks the company's public web surface; no public developer API or documentation program has been located.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fitetv/refs/heads/main/screenshots/fitetv-2026-07-25T214630.png",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5128,10 +5127,10 @@
      "rank": 115
     },
     {
-     "name": "Mars Reel",
-     "slug": "mars-reel",
-     "description": "Mars Reel (Mars Reel Media Corp) is a Los Angeles-based youth sports media and streaming company producing original basketball and soccer documentary series, athlete training content, and original episodic shows (The Vault, Like Mike, Game City). Its Mars Club membership provides premium on-demand video, and its TFIOM (The Future Is On Mars) label runs a Shopify fashion storefront. Mars Reel is a 500 Global portfolio company operating consumer web and streaming products. As of this enrichment pass it publishes no public API, developer portal, OpenAPI specification, or technical documentation; this profile captures its public identity and consumer link surface only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mars-reel/refs/heads/main/screenshots/mars-reel-2026-07-25T230250.png",
+     "name": "Forged Sports, Inc.",
+     "slug": "forged-sports-inc",
+     "description": "Forged Sports, Inc. is a Palo Alto, California software company (founded May 2024) building a Venue Management System (VMS) for commercial indoor golf and golf-simulator venues. The platform consolidates bay operations, bookings, player profiles, waivers, leagues, business intelligence, and third-party integrations into a single command center — offering live bay monitoring, reservation and booking management, player-retention analytics, game-popularity insight, and bay-utilization reporting. Forged Sports also develops gamified indoor-golf experiences on top of launch-monitor technologies. Backed by 500 Global. No public developer API, documentation, or SDK surface is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/forged-sports-inc/refs/heads/main/screenshots/forged-sports-inc-2026-07-25T214938.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5139,11 +5138,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 27.6
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5171,10 +5170,10 @@
      "rank": 116
     },
     {
-     "name": "Onefootball",
-     "slug": "onefootball",
-     "description": "Onefootball is a Berlin-based digital football (soccer) media platform that aggregates news, live scores, match coverage, video highlights, and streaming (OneFootball TV) for a global audience across iOS, Android, and the web. Backed by Earlybird and Union Square Ventures, the company partners with clubs, leagues, and publishers to distribute content and operates an official merchandise store and a Web3/club ecosystem. Onefootball does not publish a public developer API or partner developer portal; content ingestion for partners is handled via WordPress REST and private editorial integrations rather than an open, documented API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onefootball/refs/heads/main/screenshots/onefootball-2026-08-07T190316.png",
+     "name": "Mars Reel",
+     "slug": "mars-reel",
+     "description": "Mars Reel (Mars Reel Media Corp) is a Los Angeles-based youth sports media and streaming company producing original basketball and soccer documentary series, athlete training content, and original episodic shows (The Vault, Like Mike, Game City). Its Mars Club membership provides premium on-demand video, and its TFIOM (The Future Is On Mars) label runs a Shopify fashion storefront. Mars Reel is a 500 Global portfolio company operating consumer web and streaming products. As of this enrichment pass it publishes no public API, developer portal, OpenAPI specification, or technical documentation; this profile captures its public identity and consumer link surface only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mars-reel/refs/heads/main/screenshots/mars-reel-2026-07-25T230250.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5182,11 +5181,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5214,22 +5213,22 @@
      "rank": 117
     },
     {
-     "name": "Religion of Sports",
-     "slug": "religion-of-sports",
-     "description": "Religion of Sports is an Emmy Award-winning sports media and entertainment production studio founded in 2017 by Tom Brady, Michael Strahan and Gotham Chopra, headquartered in Santa Monica, California and operating as The Religion of Sports Media, Inc. The company produces premium non-fiction film, documentary series and branded content that examine why sports matter, distributed through Netflix, HBO, Paramount+, ESPN, Apple TV+, Showtime, Fox Sports and NBC Sports, with titles including Simone Biles Rising, In the Arena: Serena Williams, Made for March, 5-Star and Alex vs. ARod. It raised a $50M Series B led by Shamrock Capital in June 2022 to build a non-fiction studio arm and expand into new formats and non-sports categories. Its public surface is a marketing and press site; the company operates no developer program, publishes no API documentation, and exposes no machine-readable contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/religion-of-sports/refs/heads/main/screenshots/religion-of-sports-2026-09-02T153318.png",
-     "score": 10.4,
+     "name": "Onefootball",
+     "slug": "onefootball",
+     "description": "Onefootball is a Berlin-based digital football (soccer) media platform that aggregates news, live scores, match coverage, video highlights, and streaming (OneFootball TV) for a global audience across iOS, Android, and the web. Backed by Earlybird and Union Square Ventures, the company partners with clubs, leagues, and publishers to distribute content and operates an official merchandise store and a Web3/club ecosystem. Onefootball does not publish a public developer API or partner developer portal; content ingestion for partners is handled via WordPress REST and private editorial integrations rather than an open, documented API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/onefootball/refs/heads/main/screenshots/onefootball-2026-08-07T190316.png",
+     "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5257,6 +5256,49 @@
      "rank": 118
     },
     {
+     "name": "Religion of Sports",
+     "slug": "religion-of-sports",
+     "description": "Religion of Sports is an Emmy Award-winning sports media and entertainment production studio founded in 2017 by Tom Brady, Michael Strahan and Gotham Chopra, headquartered in Santa Monica, California and operating as The Religion of Sports Media, Inc. The company produces premium non-fiction film, documentary series and branded content that examine why sports matter, distributed through Netflix, HBO, Paramount+, ESPN, Apple TV+, Showtime, Fox Sports and NBC Sports, with titles including Simone Biles Rising, In the Arena: Serena Williams, Made for March, 5-Star and Alex vs. ARod. It raised a $50M Series B led by Shamrock Capital in June 2022 to build a non-fiction studio arm and expand into new formats and non-sports categories. Its public surface is a marketing and press site; the company operates no developer program, publishes no API documentation, and exposes no machine-readable contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/religion-of-sports/refs/heads/main/screenshots/religion-of-sports-2026-09-02T153318.png",
+     "score": 10.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 119
+    },
+    {
      "name": "i-Brain Tech",
      "slug": "i-brain-tech",
      "description": "i-Brain Tech is a neuroscience company building a brain-controlled training platform for sports performance. Its core product is a video game driven exclusively by an athlete's brain impulses through motor-imagery and neurofeedback, requiring no physical movement. The platform is applied to three areas: post-injury neuromuscular recovery and return-to-play readiness, player development through cognitive and tactical training without physical strain, and cognitive assessment that surfaces mental resilience, attention, and endurance from real brain data. Elite football clubs including Real Sociedad, Juventus FC, CD Leganes, Olympique Lyonnais, S.L. Benfica, and Seattle Reign FC use the platform. i-Brain Tech is a Techstars portfolio company. It currently exposes no public developer API, SDK, or documentation surface; this profile captures its public identity and domain-security posture in the API Evangelist network.",
@@ -5272,7 +5314,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5304,7 +5346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Gym Class VR",
@@ -5322,50 +5364,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 120
-    },
-    {
-     "name": "Overtime",
-     "slug": "overtime",
-     "description": "Overtime is a sports media and entertainment company building disruptive, digital-first sports leagues and intellectual property aimed at the next generation of fans and athletes. It operates branded leagues including Overtime Elite (OTE) basketball, OT7 seven-on-seven football, and OT Select women's basketball, and reaches nearly 100 million followers across social platforms. Backed by a16z, Overtime generates revenue through sponsorships, merchandise, media rights, and brand partnerships, reimagining how Gen Z engages with sports through content-first entertainment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/overtime/refs/heads/main/screenshots/overtime-2026-08-07T191139.png",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5393,6 +5392,49 @@
      "rank": 121
     },
     {
+     "name": "Overtime",
+     "slug": "overtime",
+     "description": "Overtime is a sports media and entertainment company building disruptive, digital-first sports leagues and intellectual property aimed at the next generation of fans and athletes. It operates branded leagues including Overtime Elite (OTE) basketball, OT7 seven-on-seven football, and OT Select women's basketball, and reaches nearly 100 million followers across social platforms. Backed by a16z, Overtime generates revenue through sponsorships, merchandise, media rights, and brand partnerships, reimagining how Gen Z engages with sports through content-first entertainment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/overtime/refs/heads/main/screenshots/overtime-2026-08-07T191139.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 122
+    },
+    {
      "name": "Player's Health",
      "slug": "players-health",
      "description": "Player's Health is an insurance and athlete-safety technology company founded in 2016 and based in Minneapolis, Minnesota, serving youth sports organizations, fitness facilities, schools, and collegiate athletic programs. The platform combines specialty insurance products (general liability, sexual abuse and molestation liability, accident medical, directors and officers, equipment and property, cyber, and employee benefits) with athlete-safety and risk-management tooling including coach credentialing and background checks, injury and incident reporting, investigations, mental-health support, and training. Player's Health operates login-gated web portals for claims, certificates of insurance, and safety/compliance (SafetyHub) rather than a public developer API. It is a Techstars-backed company surfaced through the API Evangelist network and profiled here for discovery.",
@@ -5408,7 +5450,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5440,7 +5482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Bleacher Report",
@@ -5458,50 +5500,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 123
-    },
-    {
-     "name": "Fox Corporation",
-     "slug": "fox-corporation",
-     "description": "Fox Corporation (NASDAQ: FOXA, FOX) is a US media company spun out of 21st Century Fox in 2019 when the rest of the business was sold to Disney. Per the company website, \"Fox Corporation produces and distributes compelling news, sports, and entertainment content through its primary iconic domestic brands\" — Fox News Media (Fox News Channel, Fox Business Network, Fox News Digital, Fox News Audio, Fox Weather), Fox Sports (FS1, FS2, Big Ten Network, Fox Deportes, Fox Bet partnerships), Fox Entertainment, Fox Television Stations, and the Tubi Media Group (Tubi free ad-supported streaming, Credible). In May 2024 Fox acquired Mexican sports-betting and casino operator Caliente.mx, expanding its sports-and-wagering footprint into Latin America. Fox does not publish a public developer portal or REST API surface for the parent corporation — programmatic distribution is delivered via per-brand RSS / Atom feeds (Fox News, Fox Business, Fox Sports, Fox Weather), the Tubi Media Group open source projects on GitHub (github.com/Tubitv, 53 public repositories), and direct B2B advertising and content-syndication relationships rather than self-serve API signup. This apis.yml therefore catalogs the public RSS surface, Tubi engineering OSS, and the corporate/brand web properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-corporation/refs/heads/main/screenshots/fox-corporation-2026-06-20T181501.png",
-     "score": 9.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5544,7 +5543,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5587,7 +5586,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5630,7 +5629,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5673,7 +5672,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5716,7 +5715,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5759,7 +5758,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5802,7 +5801,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5845,7 +5844,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5888,7 +5887,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5931,7 +5930,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5981,7 +5980,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6031,7 +6030,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6073,7 +6072,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6116,7 +6115,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6159,7 +6158,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6201,7 +6200,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6243,7 +6242,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6286,7 +6285,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6328,7 +6327,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6371,7 +6370,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6414,7 +6413,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6457,7 +6456,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6500,7 +6499,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6543,7 +6542,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6586,7 +6585,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6629,7 +6628,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -6671,7 +6670,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6714,7 +6713,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6757,7 +6756,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6800,7 +6799,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6843,7 +6842,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6886,7 +6885,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6929,7 +6928,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6972,7 +6971,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7014,7 +7013,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7101,7 +7100,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7187,7 +7186,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7229,7 +7228,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7272,7 +7271,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7314,7 +7313,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7357,7 +7356,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7400,7 +7399,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7442,7 +7441,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7485,7 +7484,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7528,7 +7527,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7571,7 +7570,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7614,7 +7613,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7657,7 +7656,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7700,7 +7699,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7743,7 +7742,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7786,7 +7785,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7829,7 +7828,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7872,7 +7871,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7915,7 +7914,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7964,7 +7963,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8006,7 +8005,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8056,7 +8055,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8106,7 +8105,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

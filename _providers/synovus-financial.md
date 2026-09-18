@@ -33,40 +33,96 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
-api_count: 1
-apis:
-- description: The Synovus Financial API provides access to platform services and data for enterprise integration and automation.
-  name: Synovus Financial API
-  slug: synovus-financial-api
-artifact_total: 5
+  scored_at: '2026-09-17'
+api_count: 0
+artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.synovus.com
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/synovus
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.synovus.com/contact-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.synovus.com/corporate/insights/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.synovus.com/about-us/news/
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://investors.pnfp.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.synovus.com/contact-us/privacy-policy/
+- group: auth
+  title: ''
+  type: X-SecurityIncidentReporting
+  url: https://www.synovus.com/contact-us/incident-reporting/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/synovus-financial/refs/heads/main/security/synovus-financial-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/synovus-financial-domain-security.yml
-- group: company
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/synovus-financial/refs/heads/main/llms/synovus-financial-llms.txt
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/synovus
-- group: company
+  type: LLMsTxt
+  url: llms/synovus-financial-llms.txt
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/synovus-financial/refs/heads/main/plans/synovus-financial-plans-pricing.yml
   title: ''
-  type: Website
-  url: https://www.synovus.com
+  type: Plans
+  url: plans/synovus-financial-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/synovus-financial/refs/heads/main/rate-limits/synovus-financial-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/synovus-financial-rate-limits.yml
+coverage:
+  checked: '2026-09-17'
+  detail: developer.synovus.com is a deliberately provisioned Akamai host (explicit edgekey CNAME, no wildcard DNS) that answers HTTP 403 "Access Denied" on every path — root, /docs, /openapi.json, robots.txt, llms.txt and every /.well-known/* document — from two separate egress networks, while the api.synovus.com base the prior scaffold named does not resolve in DNS; the only integration surfaces Synovus advertises (Gateway ERP via Koxa, Accelerate Pay) are reached through the bank relationship, not a public reference.
+  evidence:
+  - status: 403
+    url: https://developer.synovus.com/
+  - status: 403
+    url: https://developer.synovus.com/docs
+  - status: 403
+    url: https://developer.synovus.com/openapi.json
+  - status: 404
+    url: https://www.synovus.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.synovus.com/llms.txt
+  - status: 0
+    url: https://api.synovus.com/openapi.json
+  reason: customer-only-docs
+  state: gated
 created: '2026-04-19'
-description: Synovus Financial is a major US corporation and Fortune 1000 company. The Synovus Financial API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.
+description: 'Synovus Financial Corp. was a Columbus, Georgia based regional bank holding company whose bank subsidiary, Synovus Bank, provides commercial and consumer banking, treasury and payment solutions (Synovus Gateway and the Accelerate AR, FX, Pay and Trade suite), wealth services and capital markets across Georgia, Alabama, Florida, South Carolina and Tennessee. Synovus combined with Pinnacle Financial Partners in 2026 — synovus.com states "Synovus and Pinnacle Financial Partners are now one firm" and investors.synovus.com redirects to investors.pnfp.com — so the surviving company is Pinnacle. Synovus publishes no public API contract: developer.synovus.com is a provisioned Akamai host that answers HTTP 403 Access Denied on every path from two networks, api.synovus.com does not resolve, and www.synovus.com serves no discovery documents. Treasury integration runs through partners — Gateway ERP (October 2025) is powered by Koxa — and the Maast subsidiary has been wound down.'
 finops:
 - name: Synovus Financial Finops
   service_category: Banking
   slug: synovus-financial-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synovus-financial.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-17'
 name: Synovus Financial
 nav: Providers
 network: true
-overview: Synovus Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking and Financial-Services.
+overview: 'Synovus Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Regional Bank, Treasury Management, and Payments.
+
+
+  Synovus Financial''s developer surface includes support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Synovus Financial Plans Pricing
   plan_count: 1
@@ -78,21 +134,21 @@ rate_limits:
   slug: synovus-financial-rate-limits
 score:
   band: minimal
-  composite: 7.6
+  composite: 9.8
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 39.0
+    artifact_dirs: 8
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
-    access_clarity: 13.2
+    access_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 59.3
+    developer_ergonomics: 7.1
+    discoverability: 57.4
     operational_transparency: 5.3
   previous_composite: 7.6
   regulatory:
@@ -100,9 +156,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 7.6
+    score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -118,5 +174,10 @@ slug: synovus-financial
 tags:
 - Banking
 - Financial-Services
+- Regional Bank
+- Treasury Management
+- Payments
+- United States
+- Pinnacle-Financial-Partners
 website: https://www.synovus.com
 ---

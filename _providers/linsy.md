@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol (UCP) agent-commerce surface for the LINSY HOME storefront (www.linsyhome.com, Shopify shop linsy-home.myshopify.com). Agents discover the merchant profile at /.well-kn
@@ -162,7 +162,7 @@ score:
   band: emerging
   composite: 21.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -182,7 +182,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

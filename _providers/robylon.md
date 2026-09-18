@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Lets external systems interact with Robylon and trigger workflows, including voice and outbound automation. Operations are not enumerated here: no OpenAPI or other machine-readable contract is served,'
@@ -79,7 +79,7 @@ score:
   band: emerging
   composite: 14.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -97,7 +97,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

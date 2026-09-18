@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Partner API for generating and retrieving Trupanion pet insurance quotes (species, breed, age, location, and coverage inputs) so partners can surface a monthly premium in their own enrollment flow. Na
@@ -95,7 +95,7 @@ score:
   band: minimal
   composite: 8.8
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -117,7 +117,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

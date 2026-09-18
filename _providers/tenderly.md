@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Core REST API for managing Tenderly projects including smart contract simulations, alerts, Web3 Actions, contract management, wallet tracking, and virtual test environments.
@@ -162,7 +162,7 @@ score:
   band: thin
   composite: 32.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
@@ -180,7 +180,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

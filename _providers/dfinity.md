@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The public HTTP interface (agent/gateway API) for reading state from and submitting calls to Internet Computer canisters, consumed by the @dfinity agent libraries, the Rust ic-agent, and the icp/dfx C
@@ -132,7 +132,7 @@ score:
   band: emerging
   composite: 22.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -151,7 +151,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

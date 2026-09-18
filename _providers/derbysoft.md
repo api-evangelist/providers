@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: JSON/REST API for hotels and PMS/channel-manager systems to push availability, rates and inventory (ARI), manage property, room, rate-plan and channel configuration, and exchange reservations across 5
@@ -159,7 +159,7 @@ score:
   band: thin
   composite: 32.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
@@ -177,7 +177,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

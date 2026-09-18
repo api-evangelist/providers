@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Region-scoped HTTP API for reading, writing, and deleting cache items in a Momento cache without a gRPC client. Supports GET, PUT (set with TTL), and DELETE against a named cache, authenticated with a
@@ -189,7 +189,7 @@ score:
   band: developing
   composite: 40.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -209,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

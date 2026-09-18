@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for retrieving public company org charts, prospecting positions/people, and monitoring credit usage. Metered in credits; authenticated with an X-Api-Key header.
@@ -218,7 +218,7 @@ score:
   band: developing
   composite: 42.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -238,7 +238,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

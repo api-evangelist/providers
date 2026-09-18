@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: A GraphQL API generated from your TinaCMS schema that serves Markdown and JSON content stored in Git repositories. Available locally via the tinacms dev CLI (localhost:4001) or hosted via TinaCloud wi
@@ -127,7 +127,7 @@ score:
   band: thin
   composite: 33.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -143,7 +143,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 33.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

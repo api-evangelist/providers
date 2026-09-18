@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: cloud9.gg runs on WordPress (WP Cloud / Automattic Atomic hosting) and serves the standard WordPress REST API anonymously at https://cloud9.gg/wp-json/. The discovery index enumerates 277 routes acros
@@ -205,7 +205,7 @@ score:
   band: emerging
   composite: 22.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -230,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

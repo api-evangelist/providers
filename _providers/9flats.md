@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The 9flats read API over the marketplace''s listing data: search places, fetch a place with its photos, prices, reviews and monthly availability calendar, and fetch a user with their favourites and (fo'
@@ -122,7 +122,7 @@ score:
   band: emerging
   composite: 11.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -146,7 +146,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

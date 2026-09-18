@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://api.overlay.market
@@ -181,7 +181,7 @@ score:
   band: thin
   composite: 31.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -212,7 +212,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

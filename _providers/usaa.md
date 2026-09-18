@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 11
 common:
@@ -182,7 +182,7 @@ score:
   band: emerging
   composite: 18.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 45.3
     catalog_earned_first_party: 0.0
     catalog_gap: 69.8
@@ -213,7 +213,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

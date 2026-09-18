@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://api.cobre.co
@@ -187,7 +187,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -204,6 +204,7 @@ score:
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
+    - colombia
     - mexico
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
@@ -219,7 +220,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

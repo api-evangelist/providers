@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Definite REST API for programmatic access to the Definite data platform: stream JSON ingestion into DuckLake, signed-URL file uploads to Definite Drive, webhook-triggered Python pipelines, push-ba'
@@ -215,7 +215,7 @@ score:
   band: developing
   composite: 50.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -235,7 +235,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,7 +75,7 @@ modified: '2026-07-19'
 name: Fabrix
 nav: Providers
 network: true
-overview: 'Fabrix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Identity and Access Management, IAM, and Security.
+overview: 'Fabrix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Identity and Access Management, Security, and Cybersecurity.
 
 
   Fabrix''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
@@ -84,7 +84,7 @@ score:
   band: emerging
   composite: 11.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -117,7 +117,6 @@ tags:
 - Company
 - Identity
 - Identity and Access Management
-- IAM
 - Security
 - Cybersecurity
 - AI Agents

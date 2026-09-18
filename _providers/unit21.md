@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for ingesting entities, instruments, and transaction events into the Unit21 risk and compliance platform. Enables creation and management of alerts, cases, rules, and suspicious activity repo
@@ -211,7 +211,7 @@ score:
   band: thin
   composite: 27.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 53.0
     catalog_earned_first_party: 8.0
     catalog_gap: 62.0
@@ -230,7 +230,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

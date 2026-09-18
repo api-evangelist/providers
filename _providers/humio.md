@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Humio (Falcon LogScale) REST + GraphQL API. The REST API covers streaming ingest (structured, unstructured, Splunk HEC, and Elastic bulk endpoints) and search/query jobs against repositories; the Grap
@@ -130,7 +130,7 @@ score:
   band: emerging
   composite: 16.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -146,7 +146,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

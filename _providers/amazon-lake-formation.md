@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -221,6 +221,10 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-lake-formation-vocabulary.yaml
+- group: start
+  title: ''
+  type: Portal
+  url: https://aws.amazon.com/
 created: '2024-01-15'
 description: AWS Lake Formation is a service that makes it easy to set up a secure data lake in days, providing centralized governance and security for data stored in Amazon S3 and other AWS data stores with fine-grained access control.
 examples:
@@ -276,7 +280,7 @@ overview: 'Amazon Lake Formation publishes 1 API on the [APIs.io](https://apis.i
   The Amazon Lake Formation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lake Formation''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 24 more developer resources.'
+  Amazon Lake Formation''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 25 more developer resources.'
 plans:
 - name: Amazon Lake Formation Plans Pricing
   plan_count: 3
@@ -312,7 +316,7 @@ score:
   band: strong
   composite: 59.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 70.5
     catalog_earned_first_party: 0.0
     catalog_gap: 44.5
@@ -335,7 +339,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

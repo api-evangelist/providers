@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The production Agentbox (Reapit Sales) REST API used by approved integration partners to read and write agency CRM data - contacts, listings, properties, staff and offices. The host is live and fronte
@@ -222,7 +222,7 @@ score:
   band: emerging
   composite: 20.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -240,6 +240,7 @@ score:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - australia
+    - new-zealand
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
@@ -247,7 +248,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

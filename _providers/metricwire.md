@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Production JSON API served from api.metricwire.com backing the Metricwire research data collection platform (studies, participants, schedules, survey responses, and passive/sensor data). No public Ope
@@ -105,7 +105,7 @@ score:
   band: emerging
   composite: 21.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -133,7 +133,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,7 +117,7 @@ modified: '2026-08-15'
 name: Sesame
 nav: Providers
 network: true
-overview: 'Sesame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telehealth, Healthcare, Digital Health, and Telemedicine.
+overview: 'Sesame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telehealth, Healthcare, Digital Health, and Marketplace.
 
 
   Sesame''s developer surface includes engineering blog, support, signup flow, pricing, and 8 more developer resources.'
@@ -130,7 +130,7 @@ score:
   band: emerging
   composite: 22.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -152,7 +152,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -170,7 +170,6 @@ tags:
 - Telehealth
 - Healthcare
 - Digital Health
-- Telemedicine
 - Marketplace
 - Consumer Health
 - Prescriptions

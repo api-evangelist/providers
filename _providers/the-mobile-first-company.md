@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://api.withallo.com
@@ -324,7 +324,7 @@ score:
   band: strong
   composite: 57.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -355,7 +355,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

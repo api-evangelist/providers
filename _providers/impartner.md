@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST and SOAP object API (v1) for reading and writing Impartner platform records (accounts, partners, deals, and tenant-defined custom objects) using the THQL query language with skip/take paging, fie
@@ -175,7 +175,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -199,7 +199,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

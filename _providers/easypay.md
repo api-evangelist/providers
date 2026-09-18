@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for the EasyPay/Fawaterak payment gateway. Authenticated with a vendor Bearer token, it lists available payment methods, creates invoice and payment links, initiates payment on an invoice, an
@@ -148,7 +148,7 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -164,6 +164,8 @@ score:
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - egypt
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
@@ -177,7 +179,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

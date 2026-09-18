@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: 'Deposit (formerly Direct Deposit Switching) lets users redirect all or part of their paycheck to a new account. Atomic connects to thousands of payroll providers and employers, signs in on the user''s '
@@ -178,7 +178,7 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -205,7 +205,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

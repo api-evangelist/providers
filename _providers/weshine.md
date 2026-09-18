@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Weshine (闪萌) Expression API (表情API) is a business-to-business GIF/animated-sticker service with three interfaces: a hot/trending interface (热门接口), a real-time search interface (搜索接口) supporting gi'
@@ -68,7 +68,7 @@ score:
   band: minimal
   composite: 10.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

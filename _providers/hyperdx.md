@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The documented v1 API on HyperDX Cloud, covering alerts, dashboards and chart series queries at api.hyperdx.io under /api/v1, authenticated with a Bearer personal API key. Documented as prose on hyper
@@ -294,7 +294,7 @@ score:
   band: strong
   composite: 63.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -319,7 +319,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

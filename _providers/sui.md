@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 59.3
     catalog_earned_first_party: 0.0
     catalog_gap: 55.8
@@ -314,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -332,5 +332,6 @@ tags:
 - Web3
 - Cryptocurrency
 - Smart Contracts
+- Sui
 website: https://sui.io
 ---

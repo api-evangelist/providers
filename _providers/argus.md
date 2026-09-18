@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The ARGUS API is a cloud-based integration gateway that provides programmatic access to data in ARGUS Enterprise and other cloud-enabled ARGUS solutions. It enables users to extract and ingest data, t
@@ -216,7 +216,7 @@ score:
   band: thin
   composite: 29.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -234,7 +234,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

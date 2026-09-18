@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Application Policy Infrastructure Controller REST API is the single programmatic interface into the ACI Management Information Tree. GET, POST and DELETE against /api/mo/<distinguished-name>.json '
@@ -280,7 +280,7 @@ score:
   band: developing
   composite: 53.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -300,7 +300,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

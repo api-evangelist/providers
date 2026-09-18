@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -179,7 +179,7 @@ score:
   band: thin
   composite: 29.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 55.3
     catalog_earned_first_party: 0.0
     catalog_gap: 59.8
@@ -195,7 +195,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 29.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

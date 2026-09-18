@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Finds and returns the optimal swap route across 420+ liquidity sources on 17+ EVM chains. Returns the best route and encodes calldata for submission to the KyberSwap Aggregator smart contract.
@@ -97,7 +97,7 @@ score:
   band: thin
   composite: 27.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -115,7 +115,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

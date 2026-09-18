@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Organization-level REST API (v2) spanning business units, events, members, attendees, session attendance, check-ins, partners, and contact lists. Authenticated with HMAC-SHA1 request signing (APIAuth)
@@ -216,7 +216,7 @@ score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

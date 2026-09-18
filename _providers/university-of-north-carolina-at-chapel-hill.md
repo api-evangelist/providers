@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - description: Public, keyless JSON API behind the Carolina Digital Repository, UNC Libraries' institutional repository for digitized special collections, theses, dissertations and research output. GET /services/api
@@ -208,7 +208,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -239,7 +239,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

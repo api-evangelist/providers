@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
@@ -324,13 +324,13 @@ score:
   band: strong
   composite: 64.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
@@ -338,7 +338,7 @@ score:
     developer_ergonomics: 70.8
     discoverability: 68.5
     operational_transparency: 76.3
-  previous_composite: 63.5
+  previous_composite: 64.1
   provenance:
     conformance: first-party
     contracts:
@@ -349,7 +349,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

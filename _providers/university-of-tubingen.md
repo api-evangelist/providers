@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: Keyless, read-only JSON REST API of FDAT, the university's institutional research data repository, operated by the Digital Humanities Center on the InvenioRDM platform and served from the university's
@@ -195,7 +195,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 70.0
     catalog_earned_first_party: 8.0
     catalog_gap: 45.0
@@ -227,7 +227,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

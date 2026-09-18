@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The HTTP surface exposed by a Dara application. Dara is causaLens'' Apache-2.0 open-source Python framework built on FastAPI; each app serves a documented set of built-in routes (session verification, '
@@ -181,7 +181,7 @@ score:
   band: thin
   composite: 33.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

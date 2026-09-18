@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: REST API for Deskera Books, the cloud ERP and accounting product — contacts, products, accounts, invoices, bills, quotations, sales and purchase orders, credit and debit notes, deposits, expenses, pay
@@ -224,7 +224,7 @@ score:
   band: developing
   composite: 48.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -242,7 +242,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

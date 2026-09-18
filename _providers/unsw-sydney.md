@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: UNSW's own SAML 2.0 identity provider — a Shibboleth IdP whose entity metadata is published as a machine-readable XML document at the entityID URL and is carried in the AAF federation aggregate, which
@@ -338,7 +338,7 @@ score:
   band: developing
   composite: 52.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 70.0
     catalog_earned_first_party: 5.0
     catalog_gap: 45.0
@@ -374,7 +374,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

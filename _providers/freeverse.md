@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Public GraphQL API maintained by the LAOS Foundation for Bridgeless Minting and Evolution of NFTs. Create collections, mint up to 700 NFTs atomically, evolve assets, broadcast to marketplaces, and run
@@ -172,7 +172,7 @@ score:
   band: thin
   composite: 33.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -192,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

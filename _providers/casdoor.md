@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ modified: '2026-09-16'
 name: Casdoor
 nav: Providers
 network: true
-overview: 'Casdoor publishes 8 APIs on the [APIs.io](https://apis.io/) network, including REST API, Applications API, Authentication API, and 5 more. Tagged areas include Authentication, Authorization, IAM, Identity, and LDAP.
+overview: 'Casdoor publishes 8 APIs on the [APIs.io](https://apis.io/) network, including REST API, Applications API, Authentication API, and 5 more. Tagged areas include Authentication, Authorization, Identity and Access Management, Identity, and LDAP.
 
 
   Casdoor''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, pricing, and 17 more developer resources.'
@@ -298,7 +298,7 @@ score:
   band: emerging
   composite: 20.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -321,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -340,7 +340,7 @@ slug: casdoor
 tags:
 - Authentication
 - Authorization
-- IAM
+- Identity and Access Management
 - Identity
 - LDAP
 - MCP

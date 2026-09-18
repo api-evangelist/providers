@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Kartra's inbound developer API. One endpoint, POST only, form-encoded, with the operation selected by `actions[].cmd`. Twenty-nine documented commands cover leads, tags, lists, automation sequences, c
@@ -214,7 +214,7 @@ score:
   band: strong
   composite: 61.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -244,7 +244,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

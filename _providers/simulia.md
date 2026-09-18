@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Industry-standard finite element analysis suite covering Abaqus/Standard, Abaqus/Explicit, Abaqus/CAE, Abaqus Multiphysics, CAD Associative Interface, Composites Modeler, and Czone. Automation and int
@@ -124,7 +124,7 @@ score:
   band: emerging
   composite: 18.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -140,7 +140,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

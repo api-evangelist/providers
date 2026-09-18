@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Manages purchase orders and payment processing across multiple payment methods including credit card, debit 3DS, boleto, and PIX. Supports post-authorization capture, card tokenization, payment splitt
@@ -145,7 +145,7 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
@@ -174,7 +174,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

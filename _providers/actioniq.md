@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'The ActionIQ Profile API provides real-time access to customer identities, attributes, and audience membership within milliseconds. It powers inbound decisioning use cases such as web personalization '
@@ -187,7 +187,7 @@ score:
   band: thin
   composite: 28.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 53.0
     catalog_earned_first_party: 8.0
     catalog_gap: 62.0
@@ -205,7 +205,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

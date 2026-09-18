@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,6 +70,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/belong-home-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://belonghome.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://belonghome.com/blog
 created: '2026-07-17'
 description: Belong is a residential property management platform and rental marketplace that helps homeowners rent out their homes and helps residents find and live in professionally managed homes. Marketed as "Property Management Made Loveable," Belong pairs AI-driven pricing and operations with a human care team to deliver guaranteed rent, resident screening and placement, listing distribution across 26+ sites (Zillow, Apartments.com, and more), 24/7 maintenance via a network of Pros, rent collection, and financial tools for both homeowners and renters. The company operates across a growing set of US markets including the SF Bay Area, Seattle, Arizona, Florida, and the East Coast, and is a portfolio company of Battery Ventures. Belong is a consumer and homeowner-facing product; no public developer API, SDK, or machine documentation surface has been identified at this time.
 image: https://s3-us-west-2.amazonaws.com/belong-web-assets/og-image.png
@@ -81,13 +89,13 @@ network: true
 overview: 'Belong Home is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, Real-Estate, Rental Marketplace, and PropTech.
 
 
-  Belong Home''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
+  Belong Home''s developer surface includes engineering blog, support, pricing, and 7 more developer resources.'
 random_paper: 1
 score:
   band: emerging
   composite: 13.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -103,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

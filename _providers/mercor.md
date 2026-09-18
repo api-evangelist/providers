@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: 'The core Mercor platform that matches expert humans to AI lab and enterprise demand for RLHF, SFT, evals, agent training, and frontier research projects. Domains covered include software engineering, '
@@ -161,7 +161,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -179,7 +179,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

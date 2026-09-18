@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: The CFF schema defines the structure of a CITATION.cff file in YAML, including required cff-version, message, and authors fields plus optional version, doi, license, repository-code, preferred-citatio
@@ -174,7 +174,7 @@ score:
   band: emerging
   composite: 19.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 65.3
     catalog_earned_first_party: 0.0
     catalog_gap: 49.8
@@ -196,7 +196,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

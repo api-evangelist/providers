@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'Read-only Model Context Protocol server served over HTTP at the Pixeltable apex host. Protocol version 2025-06-18, JSON-RPC 2.0 (initialize, tools/list, tools/call). Exposes two tools: search_docs, wh'
@@ -252,7 +252,7 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -272,7 +272,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

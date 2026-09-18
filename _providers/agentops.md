@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The AgentOps Python SDK is the primary entry point, installable via pip install agentops and initialized with two lines of code. It auto-instruments supported agent frameworks and LLM providers, suppo
@@ -193,7 +193,7 @@ score:
   band: emerging
   composite: 24.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -209,7 +209,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST Client is a Visual Studio Code extension for sending HTTP requests and viewing responses directly within the editor. It supports .http and .rest file formats, GraphQL, cURL, multiple auth schemes
@@ -149,7 +149,7 @@ score:
   band: thin
   composite: 28.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 66.3
     catalog_earned_first_party: 0.0
     catalog_gap: 48.8
@@ -168,7 +168,7 @@ score:
     score: 40.0
   previous_composite: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

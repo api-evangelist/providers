@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: The Content API is Prismic's primary read surface. It queries published documents from a repository with a bracketed filter language (`q`), orderings, locale selection, link expansion (`fetchLinks`) a
@@ -286,7 +286,7 @@ score:
   band: exemplar
   composite: 68.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -306,7 +306,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

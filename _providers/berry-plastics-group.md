@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 12
 common:
@@ -50,6 +50,14 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/berry-global
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.berryglobal.com/en/products
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/berryglobal
 created: '2026-04-19'
 description: Berry Plastics Group was a manufacturer and marketer of plastic packaging products, nonwoven specialty materials, and engineered materials serving customers across consumer and industrial markets. The company was renamed Berry Global Group in 2017 to reflect its global operations and diversified product portfolio beyond plastics. As Berry Global, the company subsequently merged with Amcor in 2024.
 features:
@@ -74,7 +82,10 @@ modified: '2026-04-19'
 name: Berry Plastics Group
 nav: Providers
 network: true
-overview: Berry Plastics Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Packaging, Plastics, Manufacturing, Materials, and Consumer Goods.
+overview: 'Berry Plastics Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Packaging, Plastics, Manufacturing, Materials, and Consumer Goods.
+
+
+  Berry Plastics Group''s developer surface includes developer portal and 4 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Berry Plastics Group, Inc. completed the acquisition of AEP ...
@@ -94,25 +105,25 @@ press:
 random_paper: 16
 score:
   band: minimal
-  composite: 5.0
+  composite: 7.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 50.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

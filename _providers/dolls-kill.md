@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Dolls Kill Universal Commerce Protocol (UCP) endpoint, served over MCP at /api/ucp/mcp. Anonymous tools/list returns 13 tools with full JSON Schema input contracts covering catalog search and look
@@ -190,7 +190,7 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -215,7 +215,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

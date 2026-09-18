@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: OpenSearch 1.1 query interface returning an Atom feed of repository records, served from the institution's own host. Verified live 2026-08-19 (HTTP 200, 32KB Atom response for query=test).
@@ -273,7 +273,7 @@ score:
   band: developing
   composite: 45.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 66.3
     catalog_earned_first_party: 0.0
     catalog_gap: 48.8
@@ -309,7 +309,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

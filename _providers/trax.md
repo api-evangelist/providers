@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Partner-facing REST API for the Trax retail intelligence platform: master data (stores, products, regions, retailers, targets, audit cycle sets), visit planning (routes, visit types, tasks, assortment'
@@ -135,7 +135,7 @@ score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -153,7 +153,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

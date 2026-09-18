@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Submit a single comparative rating request and receive real-time premiums and coverage back from many carriers at once, across auto, homeowners, condominium, renters, dwelling fire, and motorcycle lin
@@ -112,7 +112,7 @@ score:
   band: emerging
   composite: 17.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 53.0
@@ -134,7 +134,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

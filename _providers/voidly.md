@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries
@@ -84,7 +84,7 @@ score:
   band: minimal
   composite: 8.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -108,7 +108,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Logical grouping for creating and managing appointments, provider availability, patient self-scheduling, rescheduling, and automated appointment reminders. Mend documents these capabilities in its cus
@@ -81,7 +81,7 @@ modified: '2026-07-10'
 name: Mend
 nav: Providers
 network: true
-overview: 'Mend publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telehealth, Telemedicine, Patient Engagement, Behavioral Health, and Scheduling.
+overview: 'Mend publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telehealth, Patient Engagement, Behavioral Health, Scheduling, and Video Visits.
 
 
   Mend''s developer surface includes documentation and 4 more developer resources.'
@@ -94,7 +94,7 @@ score:
   band: emerging
   composite: 11.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -116,7 +116,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -131,7 +131,6 @@ security:
 slug: mend-health
 tags:
 - Telehealth
-- Telemedicine
 - Patient Engagement
 - Behavioral Health
 - Scheduling

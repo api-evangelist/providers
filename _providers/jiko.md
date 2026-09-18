@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -214,7 +214,7 @@ score:
   band: strong
   composite: 55.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -240,7 +240,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

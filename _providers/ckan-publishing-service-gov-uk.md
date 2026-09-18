@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: CKAN Action API for data.gov.uk CKAN Publishing Service, a consistent JSON-over-HTTP interface over a catalog of 57,757 datasets. Standard actions include package_search, package_show, package_list, o
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -137,7 +137,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

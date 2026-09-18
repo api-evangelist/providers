@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: REST API for the SAGARIS Agentic Revenue OS, including the Company Brain context endpoints. Bearer/workspace-key authentication. Formal reference, SDKs, and webhooks are marked 'Soon' (pre-launch).
@@ -74,7 +74,7 @@ score:
   band: minimal
   composite: 9.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -92,7 +92,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

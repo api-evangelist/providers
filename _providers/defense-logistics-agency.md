@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: 'Comprehensive list of DLA business applications used to work with the agency, including supply, contracting, distribution, disposition, fuel, and energy systems. The catalog provides links, contacts, '
@@ -115,7 +115,7 @@ score:
   band: emerging
   composite: 14.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -137,7 +137,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

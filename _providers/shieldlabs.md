@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://account.shieldlabs.ai/api
@@ -314,7 +314,7 @@ score:
   band: strong
   composite: 64.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 67.0
     catalog_earned_first_party: 24.0
     catalog_gap: 48.0
@@ -339,7 +339,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

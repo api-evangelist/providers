@@ -27,7 +27,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -138,7 +138,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -238,7 +238,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -281,7 +281,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
@@ -324,7 +324,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -367,7 +367,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 18.2,
      "agent_band": "agent-aware",
@@ -410,7 +410,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -460,7 +460,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -510,7 +510,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -571,7 +571,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -621,7 +621,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -671,7 +671,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -721,7 +721,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -764,7 +764,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -814,7 +814,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -857,7 +857,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -907,7 +907,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -957,7 +957,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1007,7 +1007,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1067,7 +1067,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1117,7 +1117,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1160,7 +1160,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1209,7 +1209,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1259,7 +1259,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1309,7 +1309,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1359,7 +1359,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1409,7 +1409,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1459,7 +1459,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1502,7 +1502,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1552,7 +1552,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1602,7 +1602,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1652,7 +1652,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1702,7 +1702,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1745,7 +1745,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -1788,7 +1788,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1838,7 +1838,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1888,7 +1888,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1931,7 +1931,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1981,7 +1981,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2024,7 +2024,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2074,7 +2074,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2124,7 +2124,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 13.8,
      "agent_band": "agent-aware",
@@ -2167,7 +2167,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2210,7 +2210,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2260,7 +2260,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -2303,7 +2303,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2353,7 +2353,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2396,7 +2396,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2446,7 +2446,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2495,7 +2495,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2545,7 +2545,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2595,7 +2595,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2645,7 +2645,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2695,7 +2695,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2738,7 +2738,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2791,7 +2791,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2834,7 +2834,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2876,7 +2876,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2926,7 +2926,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2969,7 +2969,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3012,7 +3012,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3055,7 +3055,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3083,11 +3083,11 @@
      "rank": 64
     },
     {
-     "name": "Gloset",
-     "slug": "gloset",
-     "description": "Gloset is a Mexican peer-to-peer marketplace for buying and selling pre-owned and new fashion — formal dresses, casual wear, handbags, accessories, footwear, jewelry, watches, sportswear, menswear, and swimwear. The platform offers a seller authentication program, curated collections and trending edits, buyer protection with returns and refunds, and integrated payments and shipping, operating primarily in Mexico. Gloset is backed by 500 Global. As of this profile the company publishes no public developer API, API reference, or technical documentation surface — it is a consumer marketplace web/app product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gloset/refs/heads/main/screenshots/gloset-2026-07-25T215927.png",
-     "score": 10.2,
+     "name": "Nuevo Método",
+     "slug": "nuevo-m-todo",
+     "description": "Nuevo Método (NUME) is an international digital-health and corporate-wellness platform, headquartered in Mexico City and operating across 17 countries in Latin America and Europe. It helps insurers and enterprises deliver personalized wellbeing benefits to employees, customers, and their families across three pillars: mental health (psychology sessions, mindfulness, meditation, sleep tracking), physical health (24/7 virtual medical consultations, fertility guidance, menstrual-cycle tracking, health workshops), and lifestyle (personal-finance courses, financial advisory, and inspirational talks). The company runs a fully remote workforce and reports measurable client outcomes such as improved sleep, productivity, and employee retention. Founded and led by Dr. Ingrid Briggiler (CEO). No public API or developer portal is currently published; this profile captures the company's identity and probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuevo-m-todo/refs/heads/main/screenshots/nuevo-m-todo-2026-08-07T185720.png",
+     "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3095,139 +3095,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 65
-    },
-    {
-     "name": "Mi Dulce Hogar",
-     "slug": "mi-dulce-hogar",
-     "description": "Mi Dulce Hogar is a professional home and commercial cleaning services company operating in Mexico City (CDMX), connecting customers with vetted, background-screened cleaning professionals. Services include residential and office cleaning, upholstery and carpet washing, floor polishing, and pest control/fumigation. The company states it has delivered more than 100,000 services and screens candidates through a rigorous criminological vetting process. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a lead; the public web presence is a consumer marketing and booking site with no public developer API, SDK, or documentation surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mi-dulce-hogar/refs/heads/main/screenshots/mi-dulce-hogar-2026-08-07T172814.png",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 66
-    },
-    {
-     "name": "Vioo",
-     "slug": "vioo",
-     "description": "Vioo is a Mexican professional visual-content platform that connects businesses with a national network of 1,500+ certified photographers and creators across Mexico, delivering photography, videography, drone footage, 3D renders, and Matterport virtual tours. It serves real estate, gastronomy, e-commerce, hospitality, events, and portrait use cases with AI-assisted editing and 48-hour delivery, and offers scheduling either through a personalized form or automatically via an integration API. Surfaced as a 500 Global portfolio company and added to the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vioo/refs/heads/main/screenshots/vioo-2026-09-02T165946.png",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 67
-    },
-    {
-     "name": "Optimal",
-     "slug": "optimal",
-     "description": "Optimal is a preventive-health and longevity company based in Mexico City, backed by 500 Global, operating across Latin America (Mexico, Colombia, and Peru). Optimal offers a consumer blood test that analyzes more than 300 biomarkers and uses AI to surface problems before symptoms appear, positioning itself as a predictive health platform (branded \"health OS\") that integrates biological data, wearable metrics, behavioral patterns, and medical history into longitudinal health models to identify risk before it becomes disease. The company sells directly to consumers via a web app and subscriptions and does not currently publish a public developer API, developer portal, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimal/refs/heads/main/screenshots/optimal-2026-08-07T190803.png",
-     "score": 10.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3259,7 +3130,186 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 65
+    },
+    {
+     "name": "Gloset",
+     "slug": "gloset",
+     "description": "Gloset is a Mexican peer-to-peer marketplace for buying and selling pre-owned and new fashion — formal dresses, casual wear, handbags, accessories, footwear, jewelry, watches, sportswear, menswear, and swimwear. The platform offers a seller authentication program, curated collections and trending edits, buyer protection with returns and refunds, and integrated payments and shipping, operating primarily in Mexico. Gloset is backed by 500 Global. As of this profile the company publishes no public developer API, API reference, or technical documentation surface — it is a consumer marketplace web/app product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gloset/refs/heads/main/screenshots/gloset-2026-07-25T215927.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 66
+    },
+    {
+     "name": "Mi Dulce Hogar",
+     "slug": "mi-dulce-hogar",
+     "description": "Mi Dulce Hogar is a professional home and commercial cleaning services company operating in Mexico City (CDMX), connecting customers with vetted, background-screened cleaning professionals. Services include residential and office cleaning, upholstery and carpet washing, floor polishing, and pest control/fumigation. The company states it has delivered more than 100,000 services and screens candidates through a rigorous criminological vetting process. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a lead; the public web presence is a consumer marketing and booking site with no public developer API, SDK, or documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mi-dulce-hogar/refs/heads/main/screenshots/mi-dulce-hogar-2026-08-07T172814.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 67
+    },
+    {
+     "name": "Vioo",
+     "slug": "vioo",
+     "description": "Vioo is a Mexican professional visual-content platform that connects businesses with a national network of 1,500+ certified photographers and creators across Mexico, delivering photography, videography, drone footage, 3D renders, and Matterport virtual tours. It serves real estate, gastronomy, e-commerce, hospitality, events, and portrait use cases with AI-assisted editing and 48-hour delivery, and offers scheduling either through a personalized form or automatically via an integration API. Surfaced as a 500 Global portfolio company and added to the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vioo/refs/heads/main/screenshots/vioo-2026-09-02T165946.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 68
+    },
+    {
+     "name": "Optimal",
+     "slug": "optimal",
+     "description": "Optimal is a preventive-health and longevity company based in Mexico City, backed by 500 Global, operating across Latin America (Mexico, Colombia, and Peru). Optimal offers a consumer blood test that analyzes more than 300 biomarkers and uses AI to surface problems before symptoms appear, positioning itself as a predictive health platform (branded \"health OS\") that integrates biological data, wearable metrics, behavioral patterns, and medical history into longitudinal health models to identify risk before it becomes disease. The company sells directly to consumers via a web app and subscriptions and does not currently publish a public developer API, developer portal, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimal/refs/heads/main/screenshots/optimal-2026-08-07T190803.png",
+     "score": 10.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 69
     },
     {
      "name": "The Fit Body Co",
@@ -3277,7 +3327,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3309,7 +3359,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Custodian",
@@ -3327,57 +3377,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 70
-    },
-    {
-     "name": "Nuevo Método",
-     "slug": "nuevo-m-todo",
-     "description": "Nuevo Método (NUME) is an international digital-health and corporate-wellness platform, headquartered in Mexico City and operating across 17 countries in Latin America and Europe. It helps insurers and enterprises deliver personalized wellbeing benefits to employees, customers, and their families across three pillars: mental health (psychology sessions, mindfulness, meditation, sleep tracking), physical health (24/7 virtual medical consultations, fertility guidance, menstrual-cycle tracking, health workshops), and lifestyle (personal-finance courses, financial advisory, and inspirational talks). The company runs a fully remote workforce and reports measurable client outcomes such as improved sleep, productivity, and employee retention. Founded and led by Dr. Ingrid Briggiler (CEO). No public API or developer portal is currently published; this profile captures the company's identity and probed domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuevo-m-todo/refs/heads/main/screenshots/nuevo-m-todo-2026-08-07T185720.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3427,7 +3427,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3477,7 +3477,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3520,7 +3520,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3570,7 +3570,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3620,7 +3620,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3670,7 +3670,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3713,7 +3713,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3763,7 +3763,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3806,7 +3806,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3856,7 +3856,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3906,7 +3906,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3956,7 +3956,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4006,7 +4006,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4049,7 +4049,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4091,7 +4091,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4134,7 +4134,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4184,7 +4184,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4234,7 +4234,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4276,7 +4276,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4326,7 +4326,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4369,7 +4369,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4411,7 +4411,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4454,7 +4454,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4503,7 +4503,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4546,7 +4546,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4588,7 +4588,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4630,7 +4630,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4673,7 +4673,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4716,7 +4716,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4758,7 +4758,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4801,7 +4801,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4844,7 +4844,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4931,7 +4931,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4973,7 +4973,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5016,7 +5016,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5059,7 +5059,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5101,7 +5101,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5144,7 +5144,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5187,7 +5187,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5237,7 +5237,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5287,7 +5287,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5336,7 +5336,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5386,7 +5386,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5436,7 +5436,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5536,7 +5536,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

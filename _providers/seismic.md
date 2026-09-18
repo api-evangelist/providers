@@ -16,27 +16,27 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 41.0
-  scored_at: '2026-09-16'
+  score: 51.5
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -171,7 +171,11 @@ arazzos:
 - description: Rank user activity, resolve the top user's profile, and pull their detailed analytics.
   name: Seismic User Adoption Review
   slug: seismic-user-adoption-review-workflow
-artifact_total: 73
+artifact_total: 78
+asyncapis:
+- description: ''
+  name: Seismic Webhooks
+  slug: seismic-webhooks
 collections:
 - collection_type: postman
   name: Seismic Analytics API
@@ -252,6 +256,11 @@ collections:
   name: Seismic Analytics Content Analytics Users API
   slug: open-seismic-users-api
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/security/seismic-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/seismic-trust-center.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/agentic-access/seismic-agentic-access.yml
   title: ''
@@ -352,18 +361,6 @@ common:
   title: ''
   type: Authentication
   url: https://developer.seismic.com/seismicsoftware/docs/authentication
-- group: operate
-  title: ''
-  type: RateLimits
-  url: https://developer.seismic.com/seismicsoftware/docs/rate-limits
-- group: design
-  title: ''
-  type: Webhooks
-  url: https://developer.seismic.com/seismicsoftware/docs/webhooks
-- group: operate
-  title: ''
-  type: Support
-  url: https://seismic.com/support/
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -388,14 +385,6 @@ common:
   title: ''
   type: Website
   url: https://seismic.com
-- group: company
-  title: ''
-  type: Blog
-  url: https://seismic.com/resources/blog/
-- group: start
-  title: ''
-  type: Login
-  url: https://login.seismic.com/
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/rules/seismic-rules.yml
   title: ''
@@ -411,10 +400,151 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/seismic-vocabulary.yml
-- group: agent
+- group: operate
   title: ''
-  type: LlmsText
-  url: https://developer.seismic.com/llms.txt
+  type: Support
+  url: https://support.seismic.com/csm
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.seismic.com/blog/
+- group: start
+  title: ''
+  type: Login
+  url: https://auth.seismic.com/
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/rate-limits/seismic-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/seismic-rate-limits.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://developer.seismic.com/seismicsoftware/reference/rate-limiting
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/asyncapi/seismic-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/seismic-webhooks.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developer.seismic.com/seismicsoftware/docs/webhooksoverview
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/llms/seismic-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/seismic-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/well-known/seismic-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/seismic-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/well-known/seismic-developer-api-catalog.json
+  title: ''
+  type: APICatalog
+  url: well-known/seismic-developer-api-catalog.json
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/well-known/seismic-auth-openid-configuration.json
+  title: ''
+  type: OpenIDConnect
+  url: well-known/seismic-auth-openid-configuration.json
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/scopes/seismic-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/seismic-scopes.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/conformance/seismic-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/seismic-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/conformance/seismic-conformance.yml
+  title: ''
+  type: Compliance
+  url: conformance/seismic-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/errors/seismic-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/seismic-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/lifecycle/seismic-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/seismic-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.seismic.com/seismicsoftware/reference/versioning
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/conventions/seismic-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/seismic-conventions.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/changelog/seismic-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/seismic-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/components/seismic-components.yml
+  title: ''
+  type: Components
+  url: components/seismic-components.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/data-model/seismic-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/seismic-data-model.yml
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/sandbox/seismic-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/seismic-sandbox.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/packages/seismic-packages.yml
+  title: ''
+  type: Packages
+  url: packages/seismic-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/mcp/seismic-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/seismic-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/mcp/seismic-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/seismic-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/security/seismic-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/seismic-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.seismic.com/seismicsoftware/reference
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/seismic
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.seismic.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/seismic/overview
 created: '2025-02-10'
 description: Seismic is the global leader in enablement, helping organizations engage customers, enable teams, and ignite revenue growth. The Seismic platform provides content management, learning and coaching, dynamic document generation, and buyer engagement capabilities through a comprehensive suite of APIs.
 examples:
@@ -455,17 +585,21 @@ jsonld:
   property_count: 23
   slug: seismic-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: Seismic ships a first-party REMOTE MCP server over Streamable HTTP. The endpoint and the tool surface below come from Seismic's own documentation; the endpoint, its auth challenge and its RFC 9728 met
+  name: Seismic MCP Server
+  slug: seismic-mcp-server
+modified: '2026-09-17'
 name: Seismic
 nav: Providers
 network: true
-overview: 'Seismic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Content Analytics API, Content API, Content Profiles API, and 14 more.
+overview: 'Seismic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Content Analytics API, Content API, Content Profiles API, and 14 more. Tagged areas include Sales Enablement, Content Management, Document Generation, Sales Content, and Buyer Engagement.
 
 
-  The Seismic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Seismic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Seismic''s developer surface includes authentication, developer portal, getting-started guide, support, documentation, changelog, engineering blog, and 29 more developer resources.'
+  Seismic''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, engineering blog, and 55 more developer resources.'
 plans:
 - name: Seismic Plans Pricing
   plan_count: 1
@@ -497,39 +631,43 @@ rules:
     info: 3
     warn: 8
   slug: seismic-rules
+scopes:
+- name: Seismic Scopes
+  scope_count: 0
+  slug: seismic-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 47.4
+  band: exemplar
+  composite: 66.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 73.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 41.5
+    artifact_dirs: 35
+    catalog_earned: 93.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 21.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 19.5
   facets:
-    access_clarity: 40.8
-    contract_governance: 28.8
-    contract_quality: 73.8
-    developer_ergonomics: 27.4
-    discoverability: 79.6
-    operational_transparency: 35.5
+    access_clarity: 72.4
+    contract_governance: 47.0
+    contract_quality: 81.9
+    developer_ergonomics: 43.5
+    discoverability: 88.9
+    operational_transparency: 72.4
   previous_composite: 47.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -538,11 +676,30 @@ security:
 - kind: authentication
   name: Seismic Authentication
   slug: seismic-authentication
-  summary_line: http · 1 scheme
+  summary_line: oauth2/openIdConnect/http · 3 schemes
 - kind: domain-security
   name: Seismic Domain Security
   slug: seismic-domain-security
-  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Seismic Vulnerability Disclosure
+  slug: seismic-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Seismic Trust Center
+  slug: seismic-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR
 slug: seismic
+tags:
+- Sales Enablement
+- Content Management
+- Document Generation
+- Sales Content
+- Buyer Engagement
+- Revenue Enablement
+- Analytics
+- Learning
+- SCIM
+- MCP
 website: https://seismic.com
 ---

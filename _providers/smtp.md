@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: RFC 5321 is the IETF standard defining the Simple Mail Transfer Protocol. It specifies the client-server protocol used to transmit email across the internet, including the command set, response codes,
@@ -144,7 +144,7 @@ score:
   band: emerging
   composite: 14.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -160,7 +160,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

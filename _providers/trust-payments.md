@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Server-to-server JSON API (the Secure Trading Payment Platform / STPP) for card processing and management on the TRU Connect gateway. Supports request types including AUTH, ACCOUNTCHECK, REFUND, SUBSC
@@ -196,7 +196,7 @@ score:
   band: developing
   composite: 52.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -232,7 +232,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

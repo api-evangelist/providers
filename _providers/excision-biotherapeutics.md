@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -45,6 +45,10 @@ common:
   title: ''
   type: Website
   url: https://www.excision.bio
+- group: company
+  title: ''
+  type: Website
+  url: https://excision.bio
 created: '2026-07-17'
 description: Excision BioTherapeutics is a clinical-stage biotechnology company developing CRISPR-based gene-editing therapies intended to functionally cure serious viral infectious diseases. Its programs use multiplexed CRISPR/Cas approaches delivered via adeno-associated virus (AAV) to excise latent viral DNA from infected cells, with a lead candidate (EBT-101) targeting HIV and additional research directed at herpesviruses and hepatitis B. The company was surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network. As a therapeutics company it does not currently publish a public developer API, SDK, or documentation surface; this profile therefore carries company identity and domain-security posture rather than API artifacts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/excision-biotherapeutics.png
@@ -59,7 +63,7 @@ score:
   band: minimal
   composite: 3.3
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -81,7 +85,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

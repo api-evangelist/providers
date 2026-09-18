@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The SurrealDB HTTP REST API provides stateless access to SurrealDB instances over standard HTTP. It supports CRUD operations on tables and records, SurrealQL query execution via POST /sql, GraphQL que
@@ -161,7 +161,7 @@ score:
   band: thin
   composite: 31.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
@@ -177,7 +177,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 31.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

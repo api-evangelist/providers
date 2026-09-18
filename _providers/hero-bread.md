@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The agent-facing commerce interface for the Hero Bread online store. An MCP server at https://shop.hero.co/api/ucp/mcp implements the Universal Commerce Protocol shopping service (dev.ucp.shopping) wi
@@ -195,7 +195,7 @@ score:
   band: emerging
   composite: 23.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -215,7 +215,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

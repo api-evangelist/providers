@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Giveffect's "open API" is available on the enterprise Ultimate+ plan and provides programmatic access to platform data (donors, donations, volunteers, campaigns, and events). It is explicitly carved o
@@ -165,7 +165,7 @@ score:
   band: thin
   composite: 29.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -184,7 +184,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

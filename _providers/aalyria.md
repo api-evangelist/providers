@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The Northbound Interface allows humans or applications to define and orchestrate a Spacetime network. It carries the Model API (NMTS entities and relationships describing platforms, antennas, interfac
@@ -196,7 +196,7 @@ score:
   band: thin
   composite: 37.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -222,7 +222,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

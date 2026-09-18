@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: 'The Hotmart authorization server. Exchanges a developer credential (client_id/client_secret, presented with HTTP Basic) for a short-lived OAuth 2.0 client_credentials access token, which is then sent '
@@ -256,7 +256,7 @@ score:
   band: developing
   composite: 52.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -289,7 +289,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

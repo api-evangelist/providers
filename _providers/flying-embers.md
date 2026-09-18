@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Anonymous JSON-RPC 2.0 / Model Context Protocol endpoint implementing the Universal Commerce Protocol shopping service (version 2026-04-08). A tools/list call returns 13 tools with JSON Schema input c
@@ -197,7 +197,7 @@ score:
   band: emerging
   composite: 24.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -217,7 +217,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

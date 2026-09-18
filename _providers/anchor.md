@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,6 +46,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/anchor-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: http://www.anchor.fm
 created: '2026-07-17'
 description: Anchor was a podcast creation, hosting, distribution, and monetization platform (anchor.fm), founded in 2015 and backed by GV (Google Ventures) among others. Spotify acquired Anchor in 2019 and folded it into its creator tooling, later rebranding the product to Spotify for Podcasters and then Spotify for Creators. The anchor.fm domain now 302-redirects to Spotify's creator product (podcasters.spotify.com / creators.spotify.com); Anchor never published a standalone public developer API, and it no longer operates as an independent company. This profile was surfaced as a portfolio company of gv and added to the API Evangelist network as a stub lead; enrichment confirms it is an acquired/absorbed brand with no independent developer surface to harvest.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anchor.png
@@ -60,7 +64,7 @@ score:
   band: minimal
   composite: 5.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -76,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

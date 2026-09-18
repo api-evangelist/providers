@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The recommended tenant-scoped Open API for customers, tickets, organizations, agents, agent groups, departments, knowledge base, IM sessions, call center, outbound call tasks, questionnaires, work log
@@ -205,7 +205,7 @@ score:
   band: developing
   composite: 48.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -230,7 +230,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

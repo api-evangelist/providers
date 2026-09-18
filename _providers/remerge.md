@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: JSON reporting API that lets Remerge advertisers pull daily (or hourly) campaign performance for their active campaigns into their own BI systems. A POST to /report with a start_date and end_date retu
@@ -193,7 +193,7 @@ score:
   band: developing
   composite: 44.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -211,7 +211,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

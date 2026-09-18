@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - description: Returns available shipping services and their rates for a given origin postal code, destination, parcel weight, and dimensions. Supports domestic, US, and international destinations. Returns base cost
@@ -155,7 +155,7 @@ score:
   band: thin
   composite: 29.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -176,7 +176,7 @@ score:
     - north-america
   previous_composite: 29.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

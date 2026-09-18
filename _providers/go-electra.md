@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Electra's Open Charge Point Interface implementation in the Charge Point Operator role — the roaming interface an e-mobility service provider calls to read Electra's locations and tariffs, authorise i
@@ -209,7 +209,7 @@ score:
   band: thin
   composite: 33.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -242,7 +242,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

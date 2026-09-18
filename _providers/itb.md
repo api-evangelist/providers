@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: ITB's campus-wide single sign-on, built on the Apereo CAS (Central Authentication Service) protocol and running on ITB's own host login.itb.ac.id. The CAS 2.0 and CAS 3.0 ticket-validation endpoints a
@@ -142,7 +142,7 @@ score:
   band: thin
   composite: 30.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -173,7 +173,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Batch EDI trading-partner interface for outside processors at Burns Harbor, Cleveland, Indiana Harbor and Kote, compliant with ANSI ASC X12 version 4010 over SFTP or an IBM Sterling VAN. Cleveland-Cli
@@ -186,7 +186,7 @@ score:
   band: emerging
   composite: 24.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -204,7 +204,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

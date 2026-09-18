@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Core open-source Python library for building agentic AI applications. Provides ConversableAgent, AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager, tool/function registration, code execution
@@ -141,7 +141,7 @@ score:
   band: thin
   composite: 31.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -160,7 +160,7 @@ score:
     score: 50.0
   previous_composite: 31.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

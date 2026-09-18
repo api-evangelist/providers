@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Native GraphQL API served by the Mina daemon (default port 3085) to query blockchain data — accounts, blocks, transactions, pending pool, daemon status — and submit signed transactions including zkApp
@@ -135,7 +135,7 @@ score:
   band: emerging
   composite: 25.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -153,7 +153,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

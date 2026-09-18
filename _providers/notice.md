@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: RESTful enterprise API for real-time private market data across 6,000+ companies - Notice Price, verified trades and indications of interest - retrievable up to once per minute. Sold as a 12-month ent
@@ -162,7 +162,7 @@ score:
   band: thin
   composite: 29.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
@@ -187,7 +187,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

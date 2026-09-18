@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Auth0-backed OpenID Connect tenant behind nib member sign-in, issuer https://id.nib.com.au/. It is the only nib API surface with anonymously readable, machine-readable metadata: the OIDC discovery'
@@ -168,7 +168,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -186,6 +186,7 @@ score:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - australia
+    - new-zealand
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
@@ -199,7 +200,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

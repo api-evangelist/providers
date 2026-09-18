@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1194,16 +1194,16 @@ scopes:
   slug: power-bi-scopes
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 64.8
+  band: exemplar
+  composite: 72.7
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 34
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
     access_clarity: 61.8
     contract_governance: 18.2
@@ -1221,9 +1221,15 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 71.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -1253,6 +1259,7 @@ tags:
 - Data Analysis
 - Reporting
 - Visualization
+- Power BI
 use_cases:
 - description: Provide C-suite executives with real-time KPI dashboards for data-driven decision making.
   name: Executive Dashboards

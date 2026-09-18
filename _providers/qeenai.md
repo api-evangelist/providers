@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Qeen's first-party mobile analytics and commerce-event SDK, shipped as a binary XCFramework for iOS (Swift Package Manager) and an AAR for Android (self-hosted Maven). It exposes a typed commerce even
@@ -185,7 +185,7 @@ score:
   band: thin
   composite: 31.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -208,7 +208,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

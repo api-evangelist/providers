@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Read-only REST API providing programmatic access to the article data behind a Muck Rack Saved Search. Sold as an add-on to Premier-tier subscriptions; authenticated with an organization API key presen
@@ -152,7 +152,7 @@ score:
   band: thin
   composite: 32.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -171,7 +171,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

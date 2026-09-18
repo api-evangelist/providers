@@ -8,9 +8,70 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Bancomat",
+     "slug": "bancomat",
+     "description": "BANCOMAT S.p.A. is Italy's leading payment network operator managing the PagoBancomat debit card scheme, ATM network, and BANCOMAT Pay mobile payment service. Launched in 1983 for ATM withdrawals and expanded in 1986 with PagoBancomat for PIN-based POS payments, the network underpins Italian electronic payment infrastructure. BANCOMAT Pay, introduced in 2019, enables mobile e-commerce and P2P payments linked to bank accounts via phone number and IBAN. Since the 2025-07-22 acquisition of FlowPay S.r.l., a Bank of Italy-authorised payment institution (AISP/PISP), the group also publishes a public open-banking REST API — account information, payment initiation, invoicing, pagoPA notices and webhooks — with OpenAPI contracts on docs.flowpay.it and GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png",
+     "score": 64.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 71.7,
+      "contract_governance": 63.6,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 68.5,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 67.1,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2",
+        "jurisdiction": "EU"
+       },
+       {
+        "standard": "psd2-sca",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 41.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 1
+    },
     {
      "name": "Plumma",
      "slug": "plumma",
@@ -26,7 +87,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -58,7 +119,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 1
+     "rank": 2
     }
    ],
    "open": true
@@ -87,7 +148,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -119,7 +180,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Sibill",
@@ -137,7 +198,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -169,7 +230,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Politecnico di Torino",
@@ -187,7 +248,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -219,7 +280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Politecnico di Milano",
@@ -237,7 +298,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -269,7 +330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     }
    ],
    "open": true
@@ -298,7 +359,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -330,7 +391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "University of Padua",
@@ -348,7 +409,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -380,7 +441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "University of Bologna",
@@ -398,7 +459,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -430,7 +491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     }
    ]
   },
@@ -439,8 +500,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 18,
-   "shown": 18,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Casavo",
@@ -458,7 +519,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -472,56 +533,6 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Bancomat",
-     "slug": "bancomat",
-     "description": "BANCOMAT S.p.A. is Italy's leading payment network operator managing the PagoBancomat debit card scheme, ATM network, and BANCOMAT Pay mobile payment service. Launched in 1983 for ATM withdrawals and expanded in 1986 with PagoBancomat for PIN-based POS payments, the network underpins Italian electronic payment infrastructure. BANCOMAT Pay, introduced in 2019, enables mobile e-commerce and P2P payments linked to bank accounts via phone number and IBAN.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bancomat/refs/heads/main/screenshots/bancomat-2026-06-20T172935.png",
-     "score": 17.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 10.7,
-      "contract_governance": 45.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 17.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -551,7 +562,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -601,7 +612,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -651,7 +662,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -701,7 +712,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -751,7 +762,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -801,7 +812,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -851,7 +862,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -893,7 +904,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -943,7 +954,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -986,7 +997,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1029,7 +1040,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1079,7 +1090,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1129,7 +1140,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1179,7 +1190,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1229,7 +1240,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1279,7 +1290,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1338,7 +1349,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1388,7 +1399,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1431,7 +1442,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1481,7 +1492,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1524,7 +1535,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1574,7 +1585,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1624,7 +1635,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1674,7 +1685,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1724,7 +1735,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1774,7 +1785,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1824,7 +1835,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1874,7 +1885,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1924,7 +1935,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1974,7 +1985,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2024,7 +2035,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2074,7 +2085,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2124,7 +2135,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2174,7 +2185,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2217,7 +2228,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2267,7 +2278,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2317,7 +2328,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

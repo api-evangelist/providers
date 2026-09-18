@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Atomik is CaboLabs' standardized Clinical Data Repository and Demographic Data Repository. Its REST API implements the official openEHR ITS REST specification Release 1.0.2 for EHR, EHR_STATUS, CONTRI
@@ -188,7 +188,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -213,7 +213,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

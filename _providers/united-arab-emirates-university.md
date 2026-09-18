@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The university's own single sign-on service, running on UAEU's registrable domain under a certificate issued to *.uaeu.ac.ae. It is the login point for UAEU applications — Banner Self-Service at ssb.u
@@ -215,7 +215,7 @@ score:
   band: thin
   composite: 35.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -231,6 +231,8 @@ score:
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-arab-emirates
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
@@ -244,7 +246,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

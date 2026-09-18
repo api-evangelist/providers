@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Public and authenticated REST endpoints for spot and margin trading, including order placement, cancellation, order-book queries, trade history, and account balance management.
@@ -153,7 +153,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 75.0
     catalog_earned_first_party: 0.0
     catalog_gap: 40.0
@@ -175,7 +175,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

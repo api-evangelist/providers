@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST APIs for embedded insurance distribution — lookups/master data, quotes, proposals and payments — built to OpenAPI 3.0 (Swagger), secured with Bearer access tokens, and testable in a sandbox "Deve
@@ -159,7 +159,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -184,7 +184,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

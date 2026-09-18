@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - baseURL: https://market-api.metadao.fi
@@ -179,7 +179,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -210,7 +210,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

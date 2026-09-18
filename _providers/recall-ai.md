@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Recall.ai REST API provides programmatic access to meeting bot management, recording retrieval, transcript extraction, calendar integration, and real-time media streaming across Zoom, Google Meet,
@@ -140,7 +140,7 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 75.0
     catalog_earned_first_party: 0.0
     catalog_gap: 40.0
@@ -158,7 +158,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: First-party remote Model Context Protocol server exposing read-only GlacierGrid facility monitoring data — HVAC, refrigeration, energy and savings, sensor readings, issues, notifications, device conne
@@ -172,7 +172,7 @@ modified: '2026-08-22'
 name: Hello Therma
 nav: Providers
 network: true
-overview: 'Hello Therma publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet of Things, Energy, Sustainability, and Cold Chain.
+overview: 'Hello Therma publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Energy, Sustainability, and Cold Chain.
 
 
   Hello Therma''s developer surface includes documentation, support, engineering blog, signup flow, changelog, authentication, and 19 more developer resources.'
@@ -194,7 +194,7 @@ score:
   band: thin
   composite: 35.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -219,7 +219,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -238,7 +238,7 @@ security:
 slug: hello-therma
 tags:
 - Company
-- Internet of Things
+- IoT
 - Energy
 - Sustainability
 - Cold Chain

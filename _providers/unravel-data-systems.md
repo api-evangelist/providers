@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for the Unravel data observability platform. Query and collect data from your monitored clusters and workspaces over HTTP/HTTPS with JSON requests and responses. Endpoint groups cover applica
@@ -187,7 +187,7 @@ score:
   band: developing
   composite: 47.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -205,7 +205,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

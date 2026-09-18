@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST/JSON API versioned under /v2 at https://api.matilogistics.com for tracking requests, shipments, containers, carrier and terminal reference data, and webhooks. Bearer-token auth (tnt_ keys, one pe
@@ -164,7 +164,7 @@ score:
   band: developing
   composite: 41.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 54.0
     catalog_earned_first_party: 20.0
     catalog_gap: 61.0
@@ -183,7 +183,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - baseURL: https://api.fhir.nhsd.healthdirect.org.au/v4
@@ -211,7 +211,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -244,7 +244,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

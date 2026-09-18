@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Read and update the events an Organizer manages. Confirmed request patterns include GET and PATCH on the events collection and nested resources such as /events/{event_id}/images/. Each API key is scop
@@ -122,7 +122,7 @@ score:
   band: emerging
   composite: 23.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -138,7 +138,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

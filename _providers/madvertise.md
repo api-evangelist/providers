@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: JSON ad-request endpoint (mobile.mng-ads.com) that returns a single ad (banner, interstitial, native) for a given placement, device User-Agent, SDK version and consent signal. GET or POST.
@@ -208,7 +208,7 @@ score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -227,7 +227,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

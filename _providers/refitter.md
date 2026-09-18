@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Refitter is a .NET source generator and CLI tool that produces Refit HTTP client interfaces from OpenAPI 2.0 and 3.x specifications. Supports compile-time code generation via MSBuild source generators
@@ -229,7 +229,7 @@ score:
   band: thin
   composite: 34.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
@@ -248,7 +248,7 @@ score:
     conformance: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

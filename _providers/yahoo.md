@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The Fantasy Sports APIs provide URIs used to access fantasy sports data, supporting retrieval of Fantasy Football, Baseball, Basketball and Hockey data including game, league, team, player, roster and
@@ -248,7 +248,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 55.0
     catalog_earned_first_party: 12.0
     catalog_gap: 60.0
@@ -267,7 +267,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Last-mile express parcel API covering pincode serviceability, bulk and single waybill generation, order creation/manifestation, shipment tracking, order edit and cancel, shipping-charge invoicing, pac
@@ -154,7 +154,7 @@ score:
   band: thin
   composite: 31.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -177,7 +177,7 @@ score:
     - india-south-asia
   previous_composite: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

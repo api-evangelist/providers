@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Bluetooth Core Specification defines the complete Bluetooth wireless communication protocol stack including BLE (LE) and Classic Bluetooth. The current stable version is Bluetooth 6.0. The specifi
@@ -200,7 +200,7 @@ score:
   band: emerging
   composite: 25.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 70.3
     catalog_earned_first_party: 0.0
     catalog_gap: 44.8
@@ -216,7 +216,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 25.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

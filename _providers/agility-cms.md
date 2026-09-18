@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST and GraphQL APIs for fetching, syncing, and managing content from Agility CMS, with CDN delivery across global and regional endpoints.
@@ -131,7 +131,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

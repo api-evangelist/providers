@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Cboe LiveVol All Access API is a REST API suite offering quote and trade details for equities and options via live, delayed, and historical endpoints. Endpoint groups cover Market at a Glance (opt
@@ -174,7 +174,7 @@ modified: '2026-07-22'
 name: Cboe Global Markets
 nav: Providers
 network: true
-overview: 'Cboe Global Markets publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Market Data, Options, Equities, Derivatives, and Volatility.
+overview: 'Cboe Global Markets publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Market Data, Options, Stocks, Derivatives, and Volatility.
 
 
   Cboe Global Markets'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 20 more developer resources.'
@@ -196,7 +196,7 @@ score:
   band: developing
   composite: 52.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -221,7 +221,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -241,7 +241,7 @@ slug: cboe
 tags:
 - Market Data
 - Options
-- Equities
+- Stocks
 - Derivatives
 - Volatility
 - Financial Markets

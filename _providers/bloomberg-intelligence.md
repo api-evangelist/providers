@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The core Bloomberg API providing real-time market data, reference data, historical data, and intraday tick data. SDKs available for C++, Java, Python, C#/.NET, and Perl. Connects to Bloomberg Terminal
@@ -182,7 +182,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 57.0
     catalog_earned_first_party: 0.0
     catalog_gap: 58.0
@@ -204,7 +204,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

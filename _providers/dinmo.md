@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Real-time read API for retrieving an activated model record (customer profile and its mapped activation attributes) by lookup key, for personalization use cases in apps and websites. Authenticated wit
@@ -209,7 +209,7 @@ score:
   band: developing
   composite: 54.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -234,7 +234,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: SocialBee platform API for managing social media posts, content categories, scheduling, recycling evergreen content, and accessing analytics across major social networks. Currently accessible via Zapi
@@ -220,7 +220,7 @@ score:
   band: developing
   composite: 40.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -239,7 +239,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

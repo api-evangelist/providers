@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: DVC ships as a CLI plus a Python API (`dvc.api`). It tracks data and model files via pointers stored in Git and pushes payloads to remote storage backends (S3, Azure, GCS, SSH, HDFS, HTTP, etc.). Ther
@@ -113,7 +113,7 @@ modified: '2026-05-08'
 name: DVC
 nav: Providers
 network: true
-overview: 'DVC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include MLS, MLOps, Versioning, CLI, and Open-Source.
+overview: 'DVC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Machine-Learning, MLOps, Versioning, CLI, and Open-Source.
 
 
   DVC''s developer surface includes developer portal, engineering blog, and 12 more developer resources.'
@@ -130,7 +130,7 @@ score:
   band: emerging
   composite: 18.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -146,7 +146,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +160,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: dvc
 tags:
-- MLS
+- Machine-Learning
 - MLOps
 - Versioning
 - CLI

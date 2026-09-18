@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Conceptual GraphQL schema for SL Green Realty Corp. covering Property, Building, Floor, Suite, Lease, Tenant, Occupancy, Transaction, Contact, AmenityLevel, CertificationLevel, GreenInitiative, Invest
@@ -136,7 +136,7 @@ score:
   band: emerging
   composite: 17.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -157,7 +157,7 @@ score:
     - north-america
   previous_composite: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

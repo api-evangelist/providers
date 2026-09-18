@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
@@ -240,7 +240,7 @@ score:
   band: exemplar
   composite: 68.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -271,7 +271,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

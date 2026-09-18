@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -362,7 +362,7 @@ score:
   band: thin
   composite: 32.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 64.3
     catalog_earned_first_party: 0.0
     catalog_gap: 50.8
@@ -385,7 +385,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -409,5 +409,6 @@ tags:
 - Observability
 - Virtualization
 - Fortune 500
+- Broadcom
 website: https://broadcom.com
 ---

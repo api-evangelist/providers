@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The machine-consumable surface of the Grubbly Farms Shopify storefront: a hosted Storefront MCP server for agentic product discovery and cart/checkout, plus a Customer Account OpenID Connect / OAuth 2'
@@ -130,7 +130,7 @@ score:
   band: emerging
   composite: 19.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -149,7 +149,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

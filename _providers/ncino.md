@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
@@ -922,7 +922,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -957,7 +957,7 @@ score:
     regime_id: banking_open_finance
     score: 51.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

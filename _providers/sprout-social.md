@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Sprout Social Public API provides programmatic access to publishing, analytics, messaging, listening, and social care case data across major social networks. Requires Advanced plan or higher.
@@ -250,7 +250,7 @@ score:
   band: strong
   composite: 62.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 70.0
     catalog_earned_first_party: 20.0
     catalog_gap: 45.0
@@ -269,7 +269,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

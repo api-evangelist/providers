@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,6 +74,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://apprissretail.com/privacy-policy/
+- group: company
+  title: ''
+  type: Blog
+  url: https://apprissretail.com/the-takeback/
 created: '2026-07-17'
 description: 'Appriss Inc. was a Louisville, Kentucky data and analytics holding company whose business units were broken up in 2021: Appriss Insights was sold to Equifax in a $1.825 billion deal, and Appriss Health was rebranded as the independent company Bamboo Health. The surviving Appriss Retail business (apprissretail.com) is an AI-powered retail loss-prevention platform that helps retailers combat total retail loss across in-store and online channels through returns-fraud prevention, shrink and exception analytics, and case and audit management. Its products include Appriss Engage (returns and claims management), Appriss Secure (shrink and exception analytics), Appriss Incident (case and audit management), and the Sidekick AI collaborator. Appriss Retail publishes no public developer API program — its APIS Online portal is an authenticated Asset Protection Information System (customer login), not a developer API surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appriss-inc.png
@@ -85,13 +89,13 @@ network: true
 overview: 'Appriss Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Loss Prevention, Returns Management, and Fraud Prevention.
 
 
-  Appriss Inc.''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Appriss Inc.''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 7
 score:
   band: emerging
   composite: 14.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -107,7 +111,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 14.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

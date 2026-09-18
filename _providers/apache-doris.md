@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Apache Doris provides a MySQL-compatible protocol for SQL queries, a REST API for cluster management and monitoring, Stream Load HTTP API for real-time bulk data ingestion, Routine Load for continuous
@@ -223,7 +223,7 @@ score:
   band: developing
   composite: 41.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 62.3
     catalog_earned_first_party: 0.0
     catalog_gap: 52.8
@@ -242,7 +242,7 @@ score:
     score: 100.0
   previous_composite: 41.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The ablefy API lets sellers automate access to their store data (orders, products, payments, and customers) using seller-generated access tokens, complemented by webhooks for event notifications. The '
@@ -96,7 +96,7 @@ score:
   band: emerging
   composite: 15.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -126,7 +126,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

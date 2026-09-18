@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -43,7 +43,7 @@ modified: '2026-07-20'
 name: Parstream
 nav: Providers
 network: true
-overview: Parstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Big Data, Database, and Internet of Things.
+overview: Parstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Big Data, Database, and IoT.
 random_paper: 7
 score:
   band: minimal
@@ -73,7 +73,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -85,7 +85,7 @@ tags:
 - Analytics
 - Big Data
 - Database
-- Internet of Things
+- IoT
 - Edge Computing
 - Acquired
 ---

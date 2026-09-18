@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Federal Labor Relations Authority administers federal labor-management relations law.
@@ -125,7 +125,7 @@ score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -147,7 +147,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

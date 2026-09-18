@@ -1,6 +1,6 @@
 {
- "total": 54,
- "shown": 54,
+ "total": 53,
+ "shown": 53,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -81,7 +81,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -124,7 +124,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 47.1,
      "agent_band": "agent-ready",
@@ -167,7 +167,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -217,7 +217,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 46.8,
      "agent_band": "agent-ready",
@@ -260,7 +260,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -314,7 +314,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 38.4,
      "agent_band": "agent-ready",
@@ -357,7 +357,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -400,7 +400,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -443,7 +443,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -486,7 +486,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -529,7 +529,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -572,7 +572,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -615,7 +615,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 26.0,
      "agent_band": "agent-aware",
@@ -658,7 +658,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -701,7 +701,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -744,7 +744,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -787,7 +787,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -829,7 +829,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -879,7 +879,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -921,7 +921,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -964,7 +964,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1025,7 +1025,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1068,7 +1068,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
@@ -1110,7 +1110,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1153,7 +1153,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1196,7 +1196,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -1239,7 +1239,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1299,7 +1299,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1359,7 +1359,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -1402,7 +1402,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -1445,7 +1445,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1488,7 +1488,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -1531,7 +1531,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -1574,7 +1574,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1617,7 +1617,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1660,7 +1660,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1694,8 +1694,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 17,
-   "shown": 17,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "Fairlyne",
@@ -1713,7 +1713,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1756,7 +1756,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1806,7 +1806,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1849,7 +1849,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1892,7 +1892,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1935,7 +1935,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1978,7 +1978,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2021,7 +2021,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2071,7 +2071,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2099,22 +2099,22 @@
      "rank": 46
     },
     {
-     "name": "Duetto",
-     "slug": "duetto",
-     "description": "Duetto is a San Francisco–headquartered hospitality technology company providing a cloud-based Revenue and Profit Operating System (RP-OS) for hotels, casinos, resorts, and independent properties. Duetto's platform combines dynamic pricing, demand forecasting, group business optimization, benchmarking, and reporting to help hospitality operators optimize room rates, profitability, and total revenue performance. Core products include GameChanger (real-time dynamic pricing engine), ScoreBoard (forecasting and reporting dashboard), BlockBuster (group business optimization), Advance (AI-powered demand forecasting), HotStats (profitability benchmarking), and GameTime (select-service hotel revenue management). Duetto serves over 7,500 properties in more than 100 countries, with customers including Meliá, Sonesta, Virgin Hotels, and Sandman Hotel Group. Duetto integrates with major property management systems (PMS), central reservation systems (CRS), booking engines, and channel managers including Cloudbeds, Oracle OPERA / OHIP, Mews, Sabre, Amadeus, SiteMinder, and Infor. Duetto exposes an Open API for technical integration partners but does not publish a public, self-serve developer portal or OpenAPI specification — API access is partner-only and gated through a structured onboarding process with a self-testing toolkit. Revenue is generated through SaaS subscriptions to its revenue management products.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/duetto/refs/heads/main/screenshots/duetto-2026-06-20T180314.png",
-     "score": 6.2,
+     "name": "Dida",
+     "slug": "dida",
+     "description": "DidaTravel (道旅科技, Shenzhen Dida Travel Technology Co., Ltd.) is a technology-driven global travel distribution company. It operates an open platform that connects travel buyers and suppliers, providing flexible connectivity solutions across hotels, flights, airport transfers, and attraction tickets. Headquartered in Shenzhen, China, DidaTravel serves online travel agencies, tour operators, and other travel businesses worldwide with aggregated hotel content, dynamic rates, and booking delivered through its B2B distribution technology. The company positions itself as a global technology leader in travel product connectivity and is backed by investors including IDG Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dida/refs/heads/main/screenshots/dida-2026-07-25T212037.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2142,49 +2142,6 @@
      "rank": 47
     },
     {
-     "name": "Dida",
-     "slug": "dida",
-     "description": "DidaTravel (道旅科技, Shenzhen Dida Travel Technology Co., Ltd.) is a technology-driven global travel distribution company. It operates an open platform that connects travel buyers and suppliers, providing flexible connectivity solutions across hotels, flights, airport transfers, and attraction tickets. Headquartered in Shenzhen, China, DidaTravel serves online travel agencies, tour operators, and other travel businesses worldwide with aggregated hotel content, dynamic rates, and booking delivered through its B2B distribution technology. The company positions itself as a global technology leader in travel product connectivity and is backed by investors including IDG Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dida/refs/heads/main/screenshots/dida-2026-07-25T212037.png",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 48
-    },
-    {
      "name": "RoomRaccoon",
      "slug": "roomraccoon",
      "description": "RoomRaccoon is an all-in-one hotel management software platform for independent hotels, B&Bs, guesthouses, hostels, and small chains, founded in 2017 by Tymen van Dyl and Nadja Buckenberger and headquartered in Breda, Netherlands with major operations in Cape Town, South Africa, plus offices in Valencia, Spain and Lisbon, Portugal. The platform bundles a cloud Property Management System (PMS), a Channel Manager that synchronises rates, availability, and restrictions across 200+ OTAs, metasearch engines, GDSs, and bedbanks, a commission-free Booking Engine for direct website bookings with bookable add-ons, RaccoonPay for integrated, multi-currency guest payments, and RaccoonRev for competitor insights and revenue management. RoomRaccoon advertises 400+ integrations with partners such as Booking.com, Expedia, Lightspeed, and Sage, and was named World's Best Hotel Channel Manager at the 2023 World Travel Tech Awards. A connectivity / partner API exists at api.roomraccoon.com (e.g. POS endpoint at /api/?type=POS&version=2) but is access-controlled: prospective integrators must request an API key and Hotel ID by emailing connectivity@roomraccoon.com, and no public OpenAPI specification, public SDKs, or public GitHub organisation are published.",
@@ -2200,7 +2157,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2232,7 +2189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "ITA Software",
@@ -2250,7 +2207,50 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
+     "name": "Life House",
+     "slug": "life-house",
+     "description": "Life House was a vertically integrated hotel software, brand and management company founded in 2017 and headquartered in Miami Beach, Florida. It built its own back-of-house operating system — property management, revenue management, digital marketing and financial operations — for independent hotels, ran more than 50 properties across the United States, Mexico and Canada, and from 2021 sold the platform to third-party hoteliers. It raised over $100M from Inovia Capital, KAYAK, Tiger Global, Trinity Ventures, Sound Ventures and JLL. In December 2024 Life House combined its management portfolio with Lark Hotels to form Lark Hospitality — in which Lark holds the controlling interest — and spun its AI revenue-management platform out as Diamo. Life House never operated a public developer program: it was a consumer of hotel APIs (notably the Mews Open API) rather than a publisher of one, lifehousehotels.com now 301-redirects to larkhotels.com, no api/developer/docs subdomain resolves in DNS, and its GitHub organization holds a single fork of a third-party JavaScript library.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-house/refs/heads/main/screenshots/life-house-2026-09-02T150258.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2278,22 +2278,22 @@
      "rank": 50
     },
     {
-     "name": "Life House",
-     "slug": "life-house",
-     "description": "Life House was a vertically integrated hotel software, brand and management company founded in 2017 and headquartered in Miami Beach, Florida. It built its own back-of-house operating system — property management, revenue management, digital marketing and financial operations — for independent hotels, ran more than 50 properties across the United States, Mexico and Canada, and from 2021 sold the platform to third-party hoteliers. It raised over $100M from Inovia Capital, KAYAK, Tiger Global, Trinity Ventures, Sound Ventures and JLL. In December 2024 Life House combined its management portfolio with Lark Hotels to form Lark Hospitality — in which Lark holds the controlling interest — and spun its AI revenue-management platform out as Diamo. Life House never operated a public developer program: it was a consumer of hotel APIs (notably the Mews Open API) rather than a publisher of one, lifehousehotels.com now 301-redirects to larkhotels.com, no api/developer/docs subdomain resolves in DNS, and its GitHub organization holds a single fork of a third-party JavaScript library.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/life-house/refs/heads/main/screenshots/life-house-2026-09-02T150258.png",
+     "name": "Pace Revenue",
+     "slug": "pace-revenue",
+     "description": "Pace Revenue was a London-based revenue management and dynamic pricing platform for hotels and hospitality operators that used machine learning to recommend optimal room rates from real-time demand, market, and booking-pace signals. Founded in 2016 and backed by Speedinvest, Pace was acquired by FLYR in 2023, and its revenue-optimization technology has since been folded into FLYR's hospitality commercial platform. Pace Revenue does not currently publish a public developer portal or an openly documented API specification; developer resources for the combined offering now live behind FLYR's gated developer knowledge base. This profile was surfaced as a Speedinvest portfolio company and enriched by the API Evangelist pipeline; no public machine-readable API surface was found at enrichment time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pace-revenue/refs/heads/main/screenshots/pace-revenue-2026-08-07T191233.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 46.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2321,10 +2321,10 @@
      "rank": 51
     },
     {
-     "name": "Pace Revenue",
-     "slug": "pace-revenue",
-     "description": "Pace Revenue was a London-based revenue management and dynamic pricing platform for hotels and hospitality operators that used machine learning to recommend optimal room rates from real-time demand, market, and booking-pace signals. Founded in 2016 and backed by Speedinvest, Pace was acquired by FLYR in 2023, and its revenue-optimization technology has since been folded into FLYR's hospitality commercial platform. Pace Revenue does not currently publish a public developer portal or an openly documented API specification; developer resources for the combined offering now live behind FLYR's gated developer knowledge base. This profile was surfaced as a Speedinvest portfolio company and enriched by the API Evangelist pipeline; no public machine-readable API surface was found at enrichment time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pace-revenue/refs/heads/main/screenshots/pace-revenue-2026-08-07T191233.png",
+     "name": "Rebookify",
+     "slug": "rebookify",
+     "description": "Rebookify is a travel-technology company that helps travel agencies and travel management companies save money on hotel bookings by continuously monitoring the price of existing hotel reservations and automatically rebooking them at lower rates whenever prices drop, capturing the savings without changing the guest's stay. Backed by 500 Global, Rebookify operates a business-facing web product at rebookify.com. As of this enrichment pass no public developer API, documentation, developer portal, SDKs, or /.well-known discovery surface has been identified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rebookify/refs/heads/main/screenshots/rebookify-2026-09-02T153032.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2336,7 +2336,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2364,49 +2364,6 @@
      "rank": 52
     },
     {
-     "name": "Rebookify",
-     "slug": "rebookify",
-     "description": "Rebookify is a travel-technology company that helps travel agencies and travel management companies save money on hotel bookings by continuously monitoring the price of existing hotel reservations and automatically rebooking them at lower rates whenever prices drop, capturing the savings without changing the guest's stay. Backed by 500 Global, Rebookify operates a business-facing web product at rebookify.com. As of this enrichment pass no public developer API, documentation, developer portal, SDKs, or /.well-known discovery surface has been identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rebookify/refs/heads/main/screenshots/rebookify-2026-09-02T153032.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
      "name": "Europass",
      "slug": "europass",
      "description": "EuroPass is a Paris-based digital agency founded in 2016 that specializes in Chinese outbound tourism, describing itself as the European leader in implementing Chinese digital solutions for destinations, retailers, transportation, attractions, and hospitality brands. Its services span Chinese social-media management (notably WeChat and Weibo), WeChat mini-programs and stores, e-commerce, digital ticketing, destination marketing, and mobile payment acceptance via WeChat Pay and Alipay so European businesses can serve and transact with Chinese travelers. EuroPass operates as a services and marketing company rather than a developer platform: it publishes no public API, developer portal, SDKs, or technical documentation. This profile was surfaced as a portfolio company of Partech and enriched with the identity and domain-security data available from its public web presence.",
@@ -2422,7 +2379,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2454,7 +2411,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 53
     }
    ]
   }

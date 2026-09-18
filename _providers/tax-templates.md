@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Intuit TurboTax API enables integration with TurboTax for consumer and business tax preparation workflows, including data import, tax calculation, and e-filing.
@@ -139,7 +139,7 @@ score:
   band: emerging
   composite: 17.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
@@ -155,7 +155,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 17.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

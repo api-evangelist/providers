@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: OAuth 2.0 authorization-code API giving partners full access to Altruist custody data — accounts, households, positions, transactions, and cost basis — for advisor tools, reporting, and reconciliation
@@ -191,7 +191,7 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -210,7 +210,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

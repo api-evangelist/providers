@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API and Python SDK for tick-level synthetic market data — L1 quotes, L2 order book depth, trades, and individual order events at millisecond resolution, returned as Polars DataFrames. Free tier a
@@ -129,7 +129,7 @@ score:
   band: emerging
   composite: 25.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -157,7 +157,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

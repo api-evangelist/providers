@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Adobe Photoshop API for automating image editing workflows, applying Photoshop actions, manipulating layers and smart objects, generating renditions and document manifests, and AI-powered image manipu
@@ -100,7 +100,7 @@ score:
   band: emerging
   composite: 21.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -116,7 +116,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 21.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

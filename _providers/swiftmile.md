@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -81,7 +81,7 @@ modified: '2026-08-29'
 name: Swiftmile
 nav: Providers
 network: true
-overview: Swiftmile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Micromobility, Electric Vehicle Charging, Transportation, and Internet of Things.
+overview: Swiftmile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Micromobility, Electric Vehicle Charging, Transportation, and IoT.
 plans:
 - name: Swiftmile Plans Pricing
   plan_count: 0
@@ -95,7 +95,7 @@ score:
   band: minimal
   composite: 5.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -116,7 +116,7 @@ score:
     - north-america
   previous_composite: 5.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -134,7 +134,7 @@ tags:
 - Micromobility
 - Electric Vehicle Charging
 - Transportation
-- Internet of Things
+- IoT
 - Hardware
 - Smart Cities
 - Fleet Management

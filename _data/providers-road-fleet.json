@@ -1,6 +1,6 @@
 {
- "total": 22,
- "shown": 22,
+ "total": 21,
+ "shown": 21,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -82,7 +82,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -126,7 +126,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 39.6,
      "agent_band": "agent-ready",
@@ -232,7 +232,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -276,7 +276,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -320,7 +320,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 48.0,
      "agent_band": "agent-ready",
@@ -364,7 +364,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -408,7 +408,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -462,7 +462,7 @@
       "developer_ergonomics": 10.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -506,7 +506,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -557,7 +557,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.1,
      "agent_band": "agent-aware",
@@ -601,7 +601,7 @@
       "developer_ergonomics": 10.7,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -655,7 +655,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -706,7 +706,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -757,7 +757,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -808,7 +808,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -852,7 +852,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -896,7 +896,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -940,7 +940,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -975,53 +975,9 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
-    {
-     "name": "XPO",
-     "slug": "xpo",
-     "description": "XPO, Inc. (NYSE: XPO) is a Fortune 500 transportation company and one of the largest providers of less-than-truckload (LTL) freight transportation in North America. Following the spin-offs of GXO Logistics (contract logistics, 2021) and RXO (brokerage, 2022), XPO is now a pure-play LTL trucking company operating a network of service centers across the United States and Mexico. XPO does not publish a public developer API or developer portal; customer integrations (rate quotes, shipment tracking, EDI) are arranged through enterprise account managers and standard EDI exchanges.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xpo/refs/heads/main/screenshots/xpo-2026-06-20T201711.png",
-     "score": 7.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Road Carriers & 3PLs",
-     "rank": 21
-    },
     {
      "name": "Transfix",
      "slug": "transfix",
@@ -1038,7 +994,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1071,7 +1027,7 @@
       "agentic_commerce": false
      },
      "tier": "Digital Freight Marketplaces",
-     "rank": 22
+     "rank": 21
     }
    ]
   }

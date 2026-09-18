@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol server served from the Feastables origin. Answers initialize and tools/list with no credential (probed 2026-08-01, HTTP 200) and returns five tools with full JSON Sche
@@ -177,7 +177,7 @@ score:
   band: emerging
   composite: 21.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -197,7 +197,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

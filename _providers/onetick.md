@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: HTTPS REST access to OneTick Cloud market data and analytics queries, authenticated with an OAuth2 client-credentials Bearer token issued by the OneTick Keycloak realm (https://cloud-auth.parent.oneti
@@ -176,7 +176,7 @@ score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -201,7 +201,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -227,7 +227,7 @@ tags:
 - Analytics
 - Surveillance
 - Time Series
-- Equities
+- Stocks
 - Options
 website: https://www.onetick.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Import and query customer (sales) orders for fulfillment. Modeled from Deposco integration references - PUT /import/{businessUnit}/customerOrder/{orderNumber} to create or update an order, and GET /se
@@ -101,7 +101,7 @@ score:
   band: emerging
   composite: 12.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

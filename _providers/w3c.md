@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ modified: '2026-05-03'
 name: W3C
 nav: Providers
 network: true
-overview: 'W3C publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Affiliations API, Ecosystems API, Groups API, and 2 more. Tagged areas include Accessibility, Standards, Web, and Web Standards.
+overview: 'W3C publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Affiliations API, Ecosystems API, Groups API, and 2 more. Tagged areas include Accessibility, Standards, Web, Web Standards, and W3C.
 
 
   The W3C catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -260,21 +260,21 @@ rules:
   slug: w3c-rules
 score:
   band: thin
-  composite: 27.2
+  composite: 28.1
   coverage:
     artifact_dirs: 15
-    catalog_earned: 47.5
+    catalog_earned: 52.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
+    catalog_gap: 47.5
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 0.0
     contract_governance: 28.8
     contract_quality: 52.9
     developer_ergonomics: 19.0
-    discoverability: 50.0
+    discoverability: 59.3
     operational_transparency: 13.2
   previous_composite: 27.2
   provenance:
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -303,5 +303,6 @@ tags:
 - Standards
 - Web
 - Web Standards
+- W3C
 website: https://www.w3.org/
 ---

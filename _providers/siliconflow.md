@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -198,7 +198,7 @@ score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

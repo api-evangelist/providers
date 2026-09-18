@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - description: Solana wallet provider injected at window.phantom.solana exposing connect, disconnect, signMessage, signIn (Sign-In With Solana), signTransaction, signAllTransactions, and signAndSendTransaction. Impl
@@ -310,7 +310,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -337,7 +337,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

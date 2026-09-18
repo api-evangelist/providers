@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Bulk contact matching and enrichment. A customer creates a dataset, uploads a UTF-8 CSV of contacts as a dataset-file via a multipart upload, and Aidentified matches and enriches every record once. Th
@@ -193,7 +193,7 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -217,7 +217,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

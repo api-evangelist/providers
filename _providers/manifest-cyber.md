@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The official public API for the Manifest Cyber platform v1. Used by Manifest''s frontend apps and internal ETL processes to access SBOM data, vulnerability analysis, and software supply chain security '
@@ -148,7 +148,7 @@ score:
   band: thin
   composite: 28.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -171,7 +171,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

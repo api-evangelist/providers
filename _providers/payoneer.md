@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Enables payee registration, account approval, and fund transfers for mass payouts to recipients around the world.
@@ -169,7 +169,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -191,7 +191,7 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

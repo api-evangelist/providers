@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Hearth & Home Technologies storefront implements the Universal Commerce Protocol (UCP) over an anonymous Model Context Protocol endpoint. A tools/list probe on 2026-09-13 returned 13 tools — searc
@@ -188,7 +188,7 @@ score:
   band: emerging
   composite: 14.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -213,7 +213,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

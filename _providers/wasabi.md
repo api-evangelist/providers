@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The Wasabi S3 API is a 100% bit-compatible implementation of the Amazon S3 REST API for creating and managing buckets, uploading and retrieving objects, controlling access, and managing lifecycle poli
@@ -148,7 +148,7 @@ score:
   band: thin
   composite: 31.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
@@ -164,7 +164,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 31.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

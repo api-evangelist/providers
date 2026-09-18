@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Lead and CRM integration surface. Includes the outbound Lead Forwarding Service (forwards incoming and processed dealership lead data to a third-party vendor as XML or email), inbound Activity Insert/
@@ -169,7 +169,7 @@ score:
   band: thin
   composite: 30.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -185,7 +185,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 30.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

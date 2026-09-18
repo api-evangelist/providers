@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Query a partner's events through the DICE Ticket Holders GraphQL API - event name, state, start/end datetimes, currency, URL, artists, genres, ticket types, price tiers, and total ticket allocation. E
@@ -135,7 +135,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -151,7 +151,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 26.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

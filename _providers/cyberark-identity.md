@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-11'
 name: CyberArk Identity
 nav: Providers
 network: true
-overview: 'CyberArk Identity publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, CDirectoryService API, ExtData API, and 4 more. Tagged areas include Identity, Access Management, IAM, SSO, and Multi-Factor Authentication.
+overview: 'CyberArk Identity publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, CDirectoryService API, ExtData API, and 4 more. Tagged areas include Identity, Access Management, Identity and Access Management, SSO, and Multi-Factor Authentication.
 
 
   CyberArk Identity''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
@@ -174,7 +174,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -220,7 +220,7 @@ slug: cyberark-identity
 tags:
 - Identity
 - Access Management
-- IAM
+- Identity and Access Management
 - SSO
 - Multi-Factor Authentication
 - Authentication

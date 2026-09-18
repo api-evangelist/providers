@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The primary API for integrating with Burp Suite DAST, recommended for all new integrations. Exposes the broadest range of functionality including managing sites, initiating and monitoring scans, retri
@@ -159,7 +159,7 @@ score:
   band: developing
   composite: 39.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 70.0
     catalog_earned_first_party: 0.0
     catalog_gap: 45.0
@@ -175,7 +175,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 39.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

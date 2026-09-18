@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - baseURL: https://app.daloopa.com/api/v3
@@ -313,7 +313,7 @@ score:
   band: strong
   composite: 54.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -344,7 +344,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

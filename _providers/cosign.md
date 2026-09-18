@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -246,7 +246,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

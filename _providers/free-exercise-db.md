@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Read-only, unauthenticated dataset surface. The provider's own README documents consumption as an HTTPS GET of the combined exercises.json array (873 records) or of a single exercise document, with im
@@ -156,7 +156,7 @@ score:
   band: emerging
   composite: 23.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 44.3
     catalog_earned_first_party: 0.0
     catalog_gap: 70.8
@@ -181,7 +181,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

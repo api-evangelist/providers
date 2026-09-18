@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 75.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://api.onesignal.com
@@ -373,7 +373,7 @@ score:
   band: exemplar
   composite: 80.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -404,7 +404,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

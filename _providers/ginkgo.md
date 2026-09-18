@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Async, job-polling REST API for running inference on public and Ginkgo-proprietary biological foundation models — protein/DNA masked language modeling and mean-embedding generation. Authenticated with
@@ -133,7 +133,7 @@ score:
   band: emerging
   composite: 19.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -151,7 +151,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

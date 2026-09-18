@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Unauthenticated remote Model Context Protocol endpoint served from Olaris' own host at https://www.myolaris.com/_api/mcp. It is the Wix platform Site MCP — provisioned by the website platform, not a f
@@ -115,7 +115,7 @@ score:
   band: minimal
   composite: 10.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -139,7 +139,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

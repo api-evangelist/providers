@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -204,7 +204,7 @@ modified: '2026-05-08'
 name: ClearML
 nav: Providers
 network: true
-overview: 'ClearML publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 5 more. Tagged areas include MLS, MLOps, Open-Source, Experiment Tracking, and Orchestration.
+overview: 'ClearML publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Debug API, Events API, and 5 more. Tagged areas include Machine-Learning, MLOps, Open-Source, Experiment Tracking, and Orchestration.
 
 
   ClearML''s developer surface includes authentication, developer portal, pricing, engineering blog, and 12 more developer resources.'
@@ -221,7 +221,7 @@ score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -244,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -265,7 +265,7 @@ security:
   summary_line: security.txt · contact published
 slug: clearml
 tags:
-- MLS
+- Machine-Learning
 - MLOps
 - Open-Source
 - Experiment Tracking

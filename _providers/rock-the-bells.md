@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'A live, remote Model Context Protocol server on Rock The Bells'' own storefront host implementing the Universal Commerce Protocol shopping service. Thirteen tools let an agent search the catalog, look '
@@ -206,7 +206,7 @@ score:
   band: thin
   composite: 32.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -226,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

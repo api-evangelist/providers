@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Public store-locator surface used by the Acme Markets website to render store information (address, hours, services, phone, departments). Pages are rendered under the `local.acmemarkets.com` subdomain
@@ -133,7 +133,7 @@ score:
   band: emerging
   composite: 12.3
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -149,7 +149,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

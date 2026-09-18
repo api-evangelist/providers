@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'Cloud-based or on-premise API for integrating service robots and third-party applications with Otis elevators. Otis''s own service-robot data sheet lists the available operations as: place a hall call,'
@@ -155,7 +155,7 @@ modified: '2026-08-28'
 name: Otis Worldwide
 nav: Providers
 network: true
-overview: 'Otis Worldwide publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Elevators, Escalators, Building Management, Smart Buildings, and Internet of Things.
+overview: 'Otis Worldwide publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Elevators, Escalators, Building Management, Smart Buildings, and IoT.
 
 
   Otis Worldwide''s developer surface includes API reference, getting-started guide, signup flow, support, engineering blog, authentication, sandbox, and 13 more developer resources.'
@@ -172,7 +172,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -190,7 +190,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ tags:
 - Escalators
 - Building Management
 - Smart Buildings
-- Internet of Things
+- IoT
 - Robotics
 - Building Automation
 - Elevator Dispatch

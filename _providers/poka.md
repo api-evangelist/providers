@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RESTful Poka API for building integrations with third-party manufacturing and enterprise systems, plus SCIM for automated user provisioning. Developer/API documentation is delivered per-tenant (behind
@@ -130,7 +130,7 @@ score:
   band: emerging
   composite: 14.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -148,7 +148,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -89,7 +89,10 @@ apis:
   description: The Oauth API from SAP SuccessFactors — 1 operation(s) for oauth.
   name: SAP SuccessFactors OAUTH API
   slug: sap-successfactors-oauth-api
-artifact_total: 25
+- description: The SAP SuccessFactors HXM Suite OData API set (OData v2 and v4) provides programmatic access to Employee Central, Recruiting, Onboarding, Performance & Goals, Compensation, Learning, and other HXM en
+  name: SAP SuccessFactors HXM Suite OData API
+  slug: sap-successfactors-hxm-suite-odata-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -175,6 +178,14 @@ common:
   title: ''
   type: SAP API Hub
   url: https://api.sap.com/package/SAPSuccessFactors
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.sap.com/products/SAPSuccessFactors/overview
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.sap.com/products/SAPSuccessFactors/apis/REST
 created: '2026-05-11'
 description: SAP SuccessFactors is a cloud-based human capital management (HCM) suite that covers core HR, payroll, talent management, learning, recruiting, performance, and workforce analytics for enterprises. The SuccessFactors HXM Suite OData APIs (v2 and v4) provide CRUD access to Employee Central, Recruiting, Onboarding, Learning, and other HCM modules using OAuth 2.0 or HTTP Basic authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sap-successfactors.png
@@ -186,7 +197,7 @@ network: true
 overview: 'SAP SuccessFactors publishes 8 APIs on the [APIs.io](https://apis.io/) network, including EmpEmployment API, EmpJob API, FOCompany API, and 5 more. Tagged areas include HCM, Human Resources, Talent Management, Payroll, and Enterprise.
 
 
-  SAP SuccessFactors'' developer surface includes authentication, documentation, and 10 more developer resources.'
+  SAP SuccessFactors'' developer surface includes authentication, documentation, API reference, and 11 more developer resources.'
 random_paper: 14
 scopes:
 - name: Sap Successfactors Scopes
@@ -194,21 +205,21 @@ scopes:
   slug: sap-successfactors-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 23.2
+  band: thin
+  composite: 26.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 48.3
-    developer_ergonomics: 11.9
+    developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 2.6
   previous_composite: 23.2
@@ -220,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

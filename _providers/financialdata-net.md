@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: REST API for financial and market data covering equities, ETFs, crypto, forex, derivatives, fundamentals, financial statements, news, economic indicators, and more. Responses in JSON/CSV; API-key auth
@@ -178,7 +178,7 @@ modified: '2026-08-22'
 name: FinancialData.Net
 nav: Providers
 network: true
-overview: 'FinancialData.Net publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Financial Data, stock-market-api, Market Data, and Equities.
+overview: 'FinancialData.Net publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Financial Data, stock-market-api, Market Data, and Stocks.
 
 
   FinancialData.Net''s developer surface includes authentication, code examples, changelog, pricing, signup flow, support, and 20 more developer resources.'
@@ -195,7 +195,7 @@ score:
   band: developing
   composite: 43.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -220,7 +220,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -242,7 +242,7 @@ tags:
 - Financial Data
 - stock-market-api
 - Market Data
-- Equities
+- Stocks
 - ETFs
 - Crypto
 - Forex

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: 'Core Redux library for managing application state through a predictable unidirectional data flow. The library exposes createStore, combineReducers, applyMiddleware, compose, and bindActionCreators as '
@@ -203,7 +203,7 @@ score:
   band: emerging
   composite: 24.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 68.3
     catalog_earned_first_party: 0.0
     catalog_gap: 46.8
@@ -219,7 +219,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

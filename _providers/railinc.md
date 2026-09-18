@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Railinc's suite of APIs empowers customers to simplify and automate business processes essential to the lifecycle of freight rail operations, including equipment, shipment, asset health, and routing d
@@ -101,7 +101,7 @@ score:
   band: emerging
   composite: 16.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -117,7 +117,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 16.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

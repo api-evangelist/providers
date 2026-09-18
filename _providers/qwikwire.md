@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Aqwire Connect (Access) API is a developer-facing payments API that lets merchants integrate their application with Aqwire to create cross-border payment transactions. The reference documentation '
@@ -98,7 +98,7 @@ score:
   band: minimal
   composite: 10.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -114,6 +114,8 @@ score:
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - philippines
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
@@ -125,7 +127,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

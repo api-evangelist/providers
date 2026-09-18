@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Avocode REST API provided programmatic access to projects, design files, shared screens, annotations, and design spec data, enabling integrations with third-party tools and automation of design-to
@@ -130,7 +130,7 @@ score:
   band: emerging
   composite: 21.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 65.0
     catalog_earned_first_party: 0.0
     catalog_gap: 50.0
@@ -146,7 +146,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 21.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

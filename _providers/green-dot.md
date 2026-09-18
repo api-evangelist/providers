@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 17
 apis:
 - description: The Enrollments API is typically the first API used in a partner integration and establishes the initial banking relationship for a new end user. It covers account creation, identity capture, KYC (Kno
@@ -262,7 +262,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -298,7 +298,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

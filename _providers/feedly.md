@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 36
 apis:
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
@@ -540,7 +540,7 @@ score:
   band: strong
   composite: 59.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
@@ -565,7 +565,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

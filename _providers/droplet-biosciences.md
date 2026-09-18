@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The WordPress core REST API served from the company''s marketing site. It is live, anonymous for published content, and self-describing: the discovery document at /wp-json/ lists 472 routes across 19 n'
@@ -169,7 +169,7 @@ score:
   band: emerging
   composite: 23.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -194,7 +194,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

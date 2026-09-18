@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for Nav partner integrations. Partners authenticate with a Bearer token API key issued during onboarding and use it to create Nav accounts for their users, fetch account state, change an acco
@@ -213,7 +213,7 @@ score:
   band: developing
   composite: 41.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -232,7 +232,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

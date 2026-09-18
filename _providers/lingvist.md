@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The OAuth 2.0 protected API behind the Lingvist learning platform. Lingvist publishes no reference documentation for it; the authorization, token and user-profile endpoints are documented in Lingvist'
@@ -157,7 +157,7 @@ score:
   band: thin
   composite: 29.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,6 +171,11 @@ score:
     developer_ergonomics: 28.6
     discoverability: 75.9
     operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - estonia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
   previous_composite: 29.1
   provenance:
     conformance: first-party
@@ -181,7 +186,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

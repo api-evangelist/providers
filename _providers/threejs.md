@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: 'The Three.js core library provides the scene graph, cameras, lights, geometries, materials, textures, loaders, and animation primitives used to build interactive 3D applications in the browser and on '
@@ -249,7 +249,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
@@ -265,7 +265,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

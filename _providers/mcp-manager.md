@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Control-plane surface that lets an agent or script manage MCP Manager configuration — servers, gateways, identities, hosts, teams, roles, logs, and integrations — with the same actions as the app, sco
@@ -187,7 +187,7 @@ score:
   band: developing
   composite: 47.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -207,7 +207,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

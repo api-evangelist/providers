@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: An anonymous Model Context Protocol endpoint served from Calviri's own host at https://www.calviri.com/_api/mcp. It is the standard Wix "Site Visitor Assistant" server that the Wix platform provisions
@@ -132,7 +132,7 @@ score:
   band: minimal
   composite: 9.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -156,7 +156,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

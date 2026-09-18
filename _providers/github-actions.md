@@ -14,29 +14,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: verified
+    mcp_server: documented
     openapi_examples: verified
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.1
-  scored_at: '2026-09-16'
+  score: 50.0
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -135,7 +136,11 @@ arazzos:
 - description: Look up a repository variable by name and either create it or update it, then read it back.
   name: GitHub Actions Upsert a Repository Variable
   slug: github-actions-upsert-repo-variable-workflow
-artifact_total: 165
+artifact_total: 166
+asyncapis:
+- description: ''
+  name: Github Actions Webhooks
+  slug: github-actions-webhooks
 collections:
 - collection_type: postman
   name: GitHub Actions API
@@ -183,7 +188,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://github.blog
+  url: https://github.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/capabilities/github-actions-capability-edges.yml
   title: ''
@@ -273,7 +278,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://github.blog/category/product/actions/
+  url: https://github.blog/tag/github-actions/
 - group: operate
   title: ''
   type: StatusPage
@@ -441,11 +446,6 @@ common:
   title: ''
   type: MCPServer
   url: mcp/github-actions-mcp.yml
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/overlays/github-actions-openapi-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/github-actions-openapi-overlay.yaml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/conformance/github-actions-conformance.yml
   title: ''
@@ -501,8 +501,104 @@ common:
   title: ''
   type: DataModel
   url: data-model/github-actions-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/asyncapi/github-actions-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/github-actions-webhooks.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/mcp/github-actions-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/github-actions-tool-crosswalk.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/plans/github-actions-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/github-actions-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/rate-limits/github-actions-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/github-actions-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/vocabulary/github-actions-vocabulary.yaml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/github-actions-vocabulary.yaml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/rules/github-actions-spectral-rules.yml
+  title: ''
+  type: SpectralRules
+  url: rules/github-actions-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/rules/github-actions-jsonschema-spectral-rules.yml
+  title: ''
+  type: SpectralRules
+  url: rules/github-actions-jsonschema-spectral-rules.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/finops/github-actions-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/github-actions-finops.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.github.com/en/rest/about-the-rest-api/api-versions
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://github.com/trust-center
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://github.com/orgs/github/projects/4247
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/github-actions/overview
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-workflow-run-example.json
+  title: ''
+  type: Examples
+  url: examples/github-actions-workflow-run-example.json
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-job-example.json
+  title: ''
+  type: Examples
+  url: examples/github-actions-job-example.json
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-artifact-example.json
+  title: ''
+  type: Examples
+  url: examples/github-actions-artifact-example.json
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-actions-secret-example.json
+  title: ''
+  type: Examples
+  url: examples/github-actions-actions-secret-example.json
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/examples/github-actions-self-hosted-runner-example.json
+  title: ''
+  type: Examples
+  url: examples/github-actions-self-hosted-runner-example.json
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/well-known/github-actions-oauth-protected-resource.json
+  title: ''
+  type: WellKnown
+  url: well-known/github-actions-oauth-protected-resource.json
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/well-known/github-actions-oauth-authorization-server.json
+  title: ''
+  type: WellKnown
+  url: well-known/github-actions-oauth-authorization-server.json
 created: '2024'
-description: APIs for GitHub Actions - automation and CI/CD platform.
+description: GitHub Actions is GitHub's hosted CI/CD and workflow automation platform, and this record covers the REST API surface that drives it. Eighty-two operations across eleven resource areas let a caller dispatch and cancel workflow runs, poll runs and jobs, read and prune logs, artifacts and caches, seal and rotate encrypted secrets and variables, set Actions permissions and default workflow token scopes, customize the OIDC subject claim used for cloud federation, and register, label and retire self-hosted runners and runner groups. The API is authenticated with bearer tokens (fine-grained or classic PATs, OAuth user tokens, GitHub App installation tokens, or the workflow's own GITHUB_TOKEN), versioned by a dated X-GitHub-Api-Version header, rate limited per hour by authentication method, and paired with a nine-event webhook surface that carries the run and job lifecycle plus the deployment approval callback.
 examples:
 - key_count: 7
   name: Github Actions Actions Cache Entry Example
@@ -817,24 +913,24 @@ mcp_servers:
 - description: GitHub operates an official remote MCP server at https://api.githubcopilot.com/mcp/ (HTTP transport, OAuth / PAT authenticated) and ships the same server for local use via a Docker image and the VS Co
   name: GitHub Actions MCP Server
   slug: github-actions-mcp-server
-modified: '2026-09-16'
+modified: '2026-09-17'
 name: GitHub Actions
 nav: Providers
 network: true
-overview: 'GitHub Actions publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Cache API, Jobs API, and 8 more.
+overview: 'GitHub Actions publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Cache API, Jobs API, and 8 more. Tagged areas include CI/CD, Continuous Integration, Continuous Deployment, DevOps, and Pipelines.
 
 
-  The GitHub Actions catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The GitHub Actions catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  GitHub Actions'' developer surface includes authentication, engineering blog, changelog, getting-started guide, support, pricing, developer portal, and 63 more developer resources.'
+  GitHub Actions'' developer surface includes authentication, engineering blog, changelog, getting-started guide, support, pricing, developer portal, and 82 more developer resources.'
 plans:
 - name: Github Actions Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: github-actions-plans-pricing
 random_paper: 11
 rate_limits:
-- limit_count: 5
+- limit_count: 9
   name: Github Actions Rate Limits
   slug: github-actions-rate-limits
 rules:
@@ -865,23 +961,23 @@ scopes:
   slug: github-actions-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.2
+  band: exemplar
+  composite: 79.8
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 55.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    artifact_dirs: 34
+    catalog_earned: 88.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 26.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 18.6
   facets:
-    access_clarity: 61.8
-    contract_governance: 18.2
-    contract_quality: 66.6
-    developer_ergonomics: 79.8
-    discoverability: 57.4
-    operational_transparency: 52.6
+    access_clarity: 93.4
+    contract_governance: 33.3
+    contract_quality: 76.4
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 97.4
   previous_composite: 61.2
   provenance:
     agentic_access: derived
@@ -892,12 +988,10 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 22.2
@@ -920,6 +1014,19 @@ security:
   slug: github-actions-trust-center
   summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO/IEC 27001:2013, ISO/IEC 42001:2023, CSA STAR Level 2, FedRAMP LI-SaaS (ATO)
 slug: github-actions
+tags:
+- CI/CD
+- Continuous Integration
+- Continuous Deployment
+- DevOps
+- Pipelines
+- Workflows
+- Automation
+- Developer Tools
+- Software Development
+- Build Automation
+- T1
+- GitHub
 use_cases:
 - Continuous integration and testing on every push or pull request
 - Automated deployment to cloud environments
@@ -927,5 +1034,4 @@ use_cases:
 - Building and publishing container images
 - Automated code quality and security scanning
 - Release management and artifact publishing
-website: https://github.blog
 ---

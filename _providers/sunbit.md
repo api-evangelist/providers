@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Server-to-server REST API for Sunbit partners and SaaS platforms. Covers pre-qualification links, "As Low As" payment estimation, Text to Pay-Over-Time SMS links, checkout transaction initialization a
@@ -207,7 +207,7 @@ score:
   band: developing
   composite: 46.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -236,7 +236,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

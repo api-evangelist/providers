@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'Partner-facing integration APIs for EHRs, telehealth platforms and healthcare applications, covering medical encounter transcription, clinical note generation, integrated CDI with ICD-10 suggestions, '
@@ -185,7 +185,7 @@ score:
   band: thin
   composite: 34.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -215,7 +215,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

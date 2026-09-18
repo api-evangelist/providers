@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Aladdin Developer program provides APIs that enable clients to access BlackRock's Aladdin platform capabilities programmatically. Aladdin APIs support portfolio analytics, risk reporting, data acc
@@ -201,7 +201,7 @@ score:
   band: emerging
   composite: 22.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 65.3
     catalog_earned_first_party: 0.0
     catalog_gap: 49.8
@@ -217,7 +217,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: HTTPS event-ingestion API for streaming batches of newline-delimited JSON, OpenRTB 2.5-based ad-tech event records (e.g. MmxAuctionSummary) to the Metamarkets platform for near-real-time dashboarding.
@@ -188,7 +188,7 @@ score:
   band: emerging
   composite: 24.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 42.0
     catalog_earned_first_party: 5.0
     catalog_gap: 73.0
@@ -206,7 +206,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

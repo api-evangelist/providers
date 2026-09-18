@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for managing Jimdo website content, blog posts, online store products, orders, and customer data for small business websites built on the Jimdo platform.
@@ -127,7 +127,7 @@ score:
   band: thin
   composite: 27.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -143,7 +143,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 27.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

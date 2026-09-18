@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: HTTP API and flow-execution surface for DigitalGenius AI agents, including generic DG API calls, flow execution, JSON handling, and the hosted MCP server. Region-scoped EU/US hosts, HTTP Basic (encode
@@ -169,7 +169,7 @@ score:
   band: thin
   composite: 37.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -187,7 +187,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

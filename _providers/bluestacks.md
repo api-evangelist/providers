@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: OAuth 2.0 identity API for now.gg Login. Publishers exchange an authorization code for a token and refresh_token, verify id_token/token server-side, and read user profile and session information for t
@@ -229,7 +229,7 @@ score:
   band: developing
   composite: 48.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -253,7 +253,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: The John Deere API allows developers to access and integrate data from John Deere's connected agricultural equipment and software platforms. The API surfaces equipment performance, field conditions, m
@@ -120,7 +120,7 @@ score:
   band: emerging
   composite: 23.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -136,7 +136,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 23.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Transport Canada's only first-party public REST API. Returns safety-related recall records for vehicles, tires and child restraints recorded by the Defect Investigations and Recalls Division. The serv
@@ -184,7 +184,7 @@ score:
   band: emerging
   composite: 24.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -215,7 +215,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

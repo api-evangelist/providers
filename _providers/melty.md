@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Kisee is an open-source HTTP API server published by Melty Group that exchanges valid username/password pairs for JSON Web Tokens, and nothing else. It is self-hosted software, not a Melty-operated pu
@@ -158,7 +158,7 @@ score:
   band: emerging
   composite: 17.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -184,7 +184,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

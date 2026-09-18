@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST backend for the Neuracore robot-learning platform, consumed by the official Neuracore Python SDK and CLI. Handles authentication, organizations, datasets, training runs and policy inference. Auth
@@ -131,7 +131,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -147,7 +147,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 23.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

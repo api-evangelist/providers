@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Server-side order-management endpoints for the Tiptop Direct integration: request capture, void (full or partial), and refund (full or partial) of orders created through the tiptop.js checkout, addres'
@@ -149,7 +149,7 @@ score:
   band: emerging
   composite: 18.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -174,7 +174,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

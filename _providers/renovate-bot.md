@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: The open source Renovate CLI is a Node.js application distributed via npm and as Docker images on Docker Hub and GitHub Container Registry. It can be run locally, in CI, or as a long-lived self-hosted
@@ -299,7 +299,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -315,7 +315,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 28.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

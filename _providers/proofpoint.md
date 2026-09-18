@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: 'The TAP v2 API exposes the Threat Insight Dashboard to machines: SIEM event download (blocked/permitted clicks, blocked/delivered messages, issues, all), campaign identifiers and detail, forensic evid'
@@ -201,7 +201,7 @@ score:
   band: thin
   composite: 30.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -220,7 +220,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

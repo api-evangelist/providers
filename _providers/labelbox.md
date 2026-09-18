@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: GraphQL API for programmatic access to Labelbox platform resources including datasets, projects, labels, ontologies, and model evaluation workflows. Labelbox recommends using the Python SDK as a wrapp
@@ -185,7 +185,7 @@ score:
   band: developing
   composite: 41.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -204,7 +204,7 @@ score:
     score: 85.0
   previous_composite: 41.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The groundcover platform REST API. Data query endpoints run gcQL pipelines against logs (POST /api/logs/v2/search), trace spans (POST /api/traces/v2/search) and Kubernetes events (POST /api/k8s/v2/eve
@@ -258,7 +258,7 @@ score:
   band: strong
   composite: 61.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -277,7 +277,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

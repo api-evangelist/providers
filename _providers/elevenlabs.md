@@ -13,29 +13,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-09-16'
+  score: 50.9
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -45,6 +46,11 @@ agentic_access:
   summary_line: 62 operations · 40 acting
 api_count: 11
 apis:
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: The complete ElevenLabs REST API as the provider publishes it — one OpenAPI 3.1.0 document covering 301 paths and 390 operations across ElevenCreative (text to speech, speech to text, voice changer, v
+  name: ElevenLabs API
+  slug: elevenlabs-api
 - baseURL: https://api.elevenlabs.io
   baseurl_source: declared
   description: Endpoints for creating, managing, and configuring conversational AI agents with voice capabilities.
@@ -155,7 +161,7 @@ apis:
   description: Endpoints for managing voices including listing, creating, editing, and deleting voices in the library.
   name: elevenlabs Voices API
   slug: elevenlabs-voices-api
-artifact_total: 152
+artifact_total: 156
 asyncapis:
 - description: The ElevenLabs Conversational AI WebSocket API enables real-time, interactive voice conversations with AI agents. It supports bidirectional audio streaming, text events, and conversation lifecycle man
   name: ElevenLabs Conversational AI Events
@@ -330,7 +336,202 @@ common:
   title: ''
   type: LlmsText
   url: https://elevenlabs.io/llms.txt
-description: Converts text into speech using a voice of your choice and returns audio.
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://elevenlabs.io/docs/overview/intro
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://elevenlabs.io/api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://elevenlabs.io/docs/api-reference/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://elevenlabs.io/docs/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://elevenlabs.io/docs/help-center/help-center-directory
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://elevenlabs.io/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://elevenlabs.io/app/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://elevenlabs.io/app/sign-in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://elevenlabs.io/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://elevenlabs.io/privacy-policy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.elevenlabs.io/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/lifecycle/elevenlabs-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/elevenlabs-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/lifecycle/elevenlabs-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/elevenlabs-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/changelog/elevenlabs-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/elevenlabs-changelog.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/security/elevenlabs-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/elevenlabs-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/well-known/elevenlabs-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/elevenlabs-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/well-known/elevenlabs-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/elevenlabs-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/well-known/elevenlabs-api-catalog.json
+  title: ''
+  type: APICatalog
+  url: well-known/elevenlabs-api-catalog.json
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/security/elevenlabs-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/elevenlabs-trust-center.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/conformance/elevenlabs-conformance.yml
+  title: ''
+  type: Compliance
+  url: conformance/elevenlabs-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/conformance/elevenlabs-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/elevenlabs-conformance.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/packages/elevenlabs-packages.yml
+  title: ''
+  type: Packages
+  url: packages/elevenlabs-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/packages/elevenlabs-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/elevenlabs-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/cli/elevenlabs-cli.yml
+  title: ''
+  type: CLI
+  url: cli/elevenlabs-cli.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/components/elevenlabs-components.yml
+  title: ''
+  type: Components
+  url: components/elevenlabs-components.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/data-model/elevenlabs-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/elevenlabs-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/conventions/elevenlabs-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/elevenlabs-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/errors/elevenlabs-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/elevenlabs-problem-types.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/scopes/elevenlabs-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/elevenlabs-scopes.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/mcp/elevenlabs-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/elevenlabs-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/mcp/elevenlabs-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/elevenlabs-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/llms/elevenlabs-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/elevenlabs-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/overlays/elevenlabs-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/elevenlabs-openapi-overlay.yaml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/plans/elevenlabs-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/elevenlabs-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/rate-limits/elevenlabs-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/elevenlabs-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/finops/elevenlabs-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/elevenlabs-finops.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/vocabulary/elevenlabs-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/elevenlabs-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/rules/elevenlabs-asyncapi-spectral-rules.yml
+  title: ''
+  type: Rules
+  url: rules/elevenlabs-asyncapi-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/rules/elevenlabs-jsonschema-spectral-rules.yml
+  title: ''
+  type: Rules
+  url: rules/elevenlabs-jsonschema-spectral-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/asyncapi/elevenlabs-webhooks-asyncapi.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/elevenlabs-webhooks-asyncapi.yml
+created: '2026-05-04'
+description: 'ElevenLabs is an AI research and product company building voice and audio models, founded in 2022 and launched publicly in January 2023 with the first human-like AI voice model. It sells across three platforms: ElevenCreative (text to speech, speech to text, voice cloning and design, music, sound effects, dubbing, Studio, image and video across 70+ languages), ElevenAgents (an enterprise platform for voice and chat agents with telephony, testing, evaluation and analytics), and ElevenAPI (direct developer access to the audio foundation models over HTTP and WebSocket). It publishes a single first-party OpenAPI 3.1.0 covering 390 operations, official SDKs for Python, JavaScript, React, React Native, Swift, Kotlin and Flutter, a Rust CLI, a hosted remote MCP server with four data-residency endpoints, and ten Agent Skills of its own.'
 features:
 - 'Free: 10k credits/mo with TTS/STT/Sound effects'
 - 'Starter at $6/mo: 30k credits, commercial license, IVC'
@@ -563,31 +764,35 @@ jsonld:
   property_count: 11
   slug: elevenlabs-context
 layout: provider
-modified: '2026-05-19'
-name: Elevenlabs
+mcp_servers:
+- description: ''
+  name: ElevenLabs MCP Server
+  slug: elevenlabs-mcp-server
+modified: '2026-09-17'
+name: ElevenLabs
 nav: Providers
 network: true
-overview: 'Elevenlabs publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Audio Isolation API, Audio Native API, and 19 more.
+overview: 'ElevenLabs publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Audio Isolation API, and 21 more. Tagged areas include Artificial Intelligence, Text-to-Speech, Speech-to-Text, Voice, and Audio.
 
 
-  The Elevenlabs catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The ElevenLabs catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Elevenlabs'' developer surface includes authentication, engineering blog, and 11 more developer resources.'
+  ElevenLabs'' developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, pricing, and 47 more developer resources.'
 plans:
 - name: Elevenlabs Plans Pricing
   plan_count: 7
   slug: elevenlabs-plans-pricing
 random_paper: 1
 rate_limits:
-- limit_count: 7
+- limit_count: 35
   name: Elevenlabs Rate Limits
   slug: elevenlabs-rate-limits
 rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: Elevenlabs API Rules
+  name: ElevenLabs API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -597,7 +802,7 @@ rules:
   slug: elevenlabs-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: Elevenlabs API Rules
+  name: ElevenLabs API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -605,47 +810,51 @@ rules:
     info: 1
     warn: 5
   slug: elevenlabs-jsonschema-spectral-rules
+scopes:
+- name: Elevenlabs Scopes
+  scope_count: 0
+  slug: elevenlabs-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 32.7
+  band: exemplar
+  composite: 82.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 38.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 76.5
+    artifact_dirs: 34
+    catalog_earned: 81.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 49.6
   facets:
-    access_clarity: 15.8
-    contract_governance: 13.6
-    contract_quality: 74.3
-    developer_ergonomics: 23.8
-    discoverability: 38.9
-    operational_transparency: 10.5
+    access_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 75.1
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    operational_transparency: 92.1
   previous_composite: 32.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 22
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
-    score: 0.0
+    score: 33.3
 security:
 - kind: authentication
   name: Elevenlabs Authentication
   slug: elevenlabs-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2/bearer · 3 schemes
 - kind: domain-security
   name: Elevenlabs Domain Security
   slug: elevenlabs-domain-security
@@ -653,7 +862,22 @@ security:
 - kind: vulnerability-disclosure
   name: Elevenlabs Vulnerability Disclosure
   slug: elevenlabs-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Elevenlabs Trust Center
+  slug: elevenlabs-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA
 slug: elevenlabs
+tags:
+- Artificial Intelligence
+- Text-to-Speech
+- Speech-to-Text
+- Voice
+- Audio
+- Machine-Learning
+- Conversational AI
+- Agents
+- Dubbing
+- Music Generation
 website: https://www.elevenlabs.io/
 ---

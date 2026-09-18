@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API providing access to over one million foods including generic, branded, and recipe items, with up to 258 nutrient parameters, allergen information, and regional compliance datasets. JSON respo
@@ -115,7 +115,7 @@ score:
   band: emerging
   composite: 17.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -137,7 +137,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

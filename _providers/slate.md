@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Slate is an open-source static site generator for creating beautiful, three-panel API documentation from Markdown files. Originally created by Robert Lord in 2013 at TripIt and later maintained by the
@@ -186,7 +186,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
@@ -202,7 +202,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

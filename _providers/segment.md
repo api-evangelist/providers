@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -247,6 +247,10 @@ collections:
   name: Segment Config Alias Workspaces API
   slug: open-segment-workspaces-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/twilio/
 - group: company
   title: ''
   type: Website
@@ -474,7 +478,7 @@ overview: 'Twilio Segment publishes 22 APIs on the [APIs.io](https://apis.io/) n
   The Twilio Segment catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Twilio Segment''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, and 14 more developer resources.'
+  Twilio Segment''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, and 15 more developer resources.'
 plans:
 - name: Segment Plans Pricing
   plan_count: 3
@@ -510,7 +514,7 @@ score:
   band: developing
   composite: 44.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
@@ -533,7 +537,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'IBM Cloud Kubernetes Service is a managed Kubernetes offering that delivers powerful tools, an intuitive user experience, and built-in security for rapid delivery of applications that can be bound to '
@@ -135,7 +135,7 @@ score:
   band: emerging
   composite: 22.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -151,7 +151,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

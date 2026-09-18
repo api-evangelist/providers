@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 6
 common:
@@ -146,7 +146,7 @@ score:
   band: thin
   composite: 29.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -165,7 +165,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

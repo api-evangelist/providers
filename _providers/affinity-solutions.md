@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol server that Affinity Solutions serves from its own corporate site at www.affinity.solutions, advertised by an RFC 8414 authorization-server document and an RF
@@ -150,7 +150,7 @@ score:
   band: emerging
   composite: 18.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -169,7 +169,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

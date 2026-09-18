@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: 'The Leap Connect API is Leapfin''s documented programmatic ingestion surface. Developers push transactional data - typically in batch on a nightly cadence - into Leapfin''s ingestion services, where it '
@@ -102,7 +102,7 @@ score:
   band: emerging
   composite: 15.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

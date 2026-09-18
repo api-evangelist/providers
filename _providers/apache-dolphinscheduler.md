@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The DolphinScheduler REST API enables programmatic management of projects, workflow definitions (DAGs), workflow instances, task types, schedules, resources, data sources, alerts, tenants, and users. '
@@ -230,7 +230,7 @@ score:
   band: thin
   composite: 34.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 65.3
     catalog_earned_first_party: 0.0
     catalog_gap: 49.8
@@ -249,7 +249,7 @@ score:
     score: 100.0
   previous_composite: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

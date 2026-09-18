@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.7
-  scored_at: '2026-09-16'
+  score: 34.4
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,8 +42,16 @@ agentic_access:
   operation_count: 11
   slug: workday-advanced-compensation-agentic-access
   summary_line: 11 operations · 1 acting
-api_count: 8
+api_count: 3
 apis:
+- baseURL: https://<tenantHostname>/compensation/v3
+  baseurl_source: declared
+  description: Workday's first-party Compensation REST service, published as OpenAPI 3.0.1 on developer.workday.com. Fourteen operations over compensation scorecards, scorecard results and scores, workers, and one-t
+  name: Workday Compensation REST API v3
+  slug: workday-compensation-rest-v3
+- description: Workday Web Services for compensation, published as WSDL 1.1 on community.workday.com under the urn:com.workday/bsvc/Compensation namespace. The Compensation service carries 68 operations — compensati
+  name: Workday Compensation SOAP Web Services (WWS v47.0)
+  slug: workday-compensation-soap-wws
 - baseURL_template: https://{tenant}.workday.com/api/compensation/v1
   baseurl_source: spec_template
   description: Manage bonus and incentive plans
@@ -84,7 +92,7 @@ apis:
   description: Manage equity and stock compensation plans
   name: Workday Advanced Compensation Stock Plans API
   slug: workday-advanced-compensation-stock-plans-api
-artifact_total: 53
+artifact_total: 58
 collections:
 - collection_type: open
   name: API Collection
@@ -114,6 +122,16 @@ collections:
   name: Workday Advanced Compensation API
   slug: open-workday-advanced-compensation
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/security/workday-advanced-compensation-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/workday-advanced-compensation-trust-center.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/security/workday-advanced-compensation-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/workday-advanced-compensation-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -152,15 +170,16 @@ common:
 - group: auth
   title: ''
   type: Security
-  url: https://www.workday.com/en-us/why-workday/security-trust.html
+  url: https://www.workday.com/en-us/why-workday/trust/overview.html
 - group: operate
   title: ''
   type: RateLimits
-  url: https://doc.workday.com/r/Workday_Web_Services/Workday_Web_Services_Directory/Web_Service_Rate_Limiting
+  url: https://developer.workday.com/doc/dan1370797408285.md
 - group: start
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/sandbox/workday-advanced-compensation-sandbox.yml
   title: ''
   type: Sandbox
-  url: https://doc.workday.com/r/en-us/workday-studio/workday-studio-user-guide/sandboxes
+  url: sandbox/workday-advanced-compensation-sandbox.yml
 - group: build
   title: ''
   type: SDKs
@@ -180,8 +199,116 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/workday-advanced-compensation-vocabulary.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/llms/workday-advanced-compensation-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/workday-advanced-compensation-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: https://developer.workday.com/llms.txt
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/conventions/workday-advanced-compensation-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/workday-advanced-compensation-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/errors/workday-advanced-compensation-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/workday-advanced-compensation-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/lifecycle/workday-advanced-compensation-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/workday-advanced-compensation-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.workday.com/bundles/rest-directory-ui/public/static/services_oas3.json
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/changelog/workday-advanced-compensation-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/workday-advanced-compensation-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/conformance/workday-advanced-compensation-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/workday-advanced-compensation-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.workday.com/en-us/why-workday/trust/compliance.html
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/data-model/workday-advanced-compensation-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/workday-advanced-compensation-data-model.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/packages/workday-advanced-compensation-packages.yml
+  title: ''
+  type: Packages
+  url: packages/workday-advanced-compensation-packages.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/components/workday-advanced-compensation-components.yml
+  title: ''
+  type: Components
+  url: components/workday-advanced-compensation-components.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/mcp/workday-advanced-compensation-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/workday-advanced-compensation-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/mcp/workday-advanced-compensation-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/workday-advanced-compensation-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: https://developer.workday.com/bundles/graphql-changelog/public/static/schema/schema.txt
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.workday.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Workday
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.workday.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.workday.com/en-us/company/about-workday/contact-us.html
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://security.workday.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.workday.com/doc/GUID-1293c9bb-ea02-48cd-a523-254b5060b3a6-enHYPHENus.md
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://developer.workday.com/doc/GUID-7ac8632c-1c99-44cd-b939-44c675ea6198.md
 created: '2024-01-15'
-description: API for managing compensation plans, budgets, allocations, and related processes in Workday.
+description: 'Workday Advanced Compensation is the Workday HCM module for total-rewards administration — compensation plans and grades, merit and bonus cycles, stock and equity awards, compensation scorecards, budget pools and compensation review processes. Workday exposes it through three first-party machine-readable contracts published anonymously on its own hosts: a REST service (compensation v1-v3, OpenAPI 3.0.1) whose operation descriptions name the Advanced Compensation scope directly, the Compensation and Compensation_Review Workday Web Services SOAP contracts (89 operations across two WSDLs, v47.0), and a Compensation namespace inside Workday''s published GraphQL schema. The capability surface is overwhelmingly SOAP: 89 SOAP operations against 14 REST operations. Every surface runs against a customer''s own Workday tenant under OAuth 2.0 with Workday security domains; there is no public sandbox, no published pricing and no idempotency contract on any compensation write.'
 examples:
 - key_count: 8
   name: Workday Advanced Compensation Bonus Plan Example
@@ -277,24 +404,28 @@ jsonld:
   property_count: 17
   slug: workday-advanced-compensation-context
 layout: provider
-modified: '2026-09-16'
+mcp_servers:
+- description: ''
+  name: Workday Advanced Compensation MCP Server
+  slug: workday-advanced-compensation-mcp-server
+modified: '2026-09-17'
 name: Workday Advanced Compensation
 nav: Providers
 network: true
-overview: 'Workday Advanced Compensation publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bonus Plans API, Budgets API, Grades API, and 5 more.
+overview: 'Workday Advanced Compensation publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Workday Compensation REST API v3, Bonus Plans API, Budgets API, and 6 more. Tagged areas include Compensation, Human Resources, Payroll, HCM, and Enterprise Software.
 
 
   The Workday Advanced Compensation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Advanced Compensation''s developer surface includes authentication, sandbox, and 13 more developer resources.'
+  Workday Advanced Compensation''s developer surface includes authentication, sandbox, changelog, documentation, API reference, engineering blog, support, and 34 more developer resources.'
 plans:
 - name: Workday Advanced Compensation Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: workday-advanced-compensation-plans-pricing
 random_paper: 7
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Workday Advanced Compensation Rate Limits
   slug: workday-advanced-compensation-rate-limits
 rules:
@@ -321,41 +452,41 @@ rules:
   slug: workday-advanced-compensation-spectral-rules
 scopes:
 - name: Workday Advanced Compensation Scopes
-  scope_count: 2
+  scope_count: 3
   slug: workday-advanced-compensation-scopes
-  summary_line: 2 scopes · clientCredentials
+  summary_line: 3 scopes · implicit
 score:
-  band: thin
-  composite: 31.3
+  band: developing
+  composite: 46.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 59.5
+    artifact_dirs: 32
+    catalog_earned: 68.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 15.0
   facets:
-    access_clarity: 36.8
-    contract_governance: 28.8
-    contract_quality: 29.3
-    developer_ergonomics: 28.6
-    discoverability: 37.0
-    operational_transparency: 34.2
+    access_clarity: 44.7
+    contract_governance: 47.0
+    contract_quality: 32.3
+    developer_ergonomics: 56.5
+    discoverability: 72.2
+    operational_transparency: 44.7
   previous_composite: 31.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 90.0
       derived: 9
-      marker_coverage: 100.0
-      total: 9
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+      marker_coverage: 90.0
+      total: 10
+    mcp: derived
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -364,7 +495,27 @@ security:
 - kind: authentication
   name: Workday Advanced Compensation Authentication
   slug: workday-advanced-compensation-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2 · 4 schemes
+- kind: domain-security
+  name: Workday Advanced Compensation Domain Security
+  slug: workday-advanced-compensation-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Workday Advanced Compensation Trust Center
+  slug: workday-advanced-compensation-trust-center
+  summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
 slug: workday-advanced-compensation
+tags:
+- Compensation
+- Human Resources
+- Payroll
+- HCM
+- Enterprise Software
+- Total Rewards
+- Bonus
+- Merit
+- Stock Compensation
+- SOAP
+- Software-as-a-Service
 website: https://www.workday.com/
 ---

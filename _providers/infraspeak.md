@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Infraspeak's public REST API (v3) for programmatic access to facilities and maintenance management resources — assets, work orders, failures, preventive maintenance, stock, suppliers, and more. Docume
@@ -142,7 +142,7 @@ score:
   band: emerging
   composite: 25.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,7 +160,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Tattle describes an open, REST-based API and an API-first design ("Modern REST APIs with comprehensive documentation for custom integrations") enabling two-way data synchronization with restaurant POS
@@ -127,7 +127,7 @@ score:
   band: emerging
   composite: 24.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -143,7 +143,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

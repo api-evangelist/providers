@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Remote Model Context Protocol server operated by HackNotice, speaking JSON-RPC 2.0 over Streamable HTTP at https://mcp.hacknotice.com:13330/mcp. It publishes 80 tools across third-party, first-party, '
@@ -278,7 +278,7 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -308,7 +308,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: WalkMe Public APIs provide programmatic access to insights data, account/system metadata, content publishing, and integration with the WalkMe digital adoption platform.
@@ -115,7 +115,7 @@ score:
   band: emerging
   composite: 13.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -131,7 +131,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: Retrieve detailed information about ChargePoint charging stations, including location, address, GPS coordinates, power specifications, port counts, pricing, and station model details. Supports filteri
@@ -205,7 +205,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

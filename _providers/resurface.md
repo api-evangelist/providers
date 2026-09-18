@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Resurface captures complete API request and response data in real time, providing full-payload API call logging with no sampling. Security teams use it to detect threats, identify data leaks, and ensu
@@ -163,7 +163,7 @@ score:
   band: emerging
   composite: 23.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 69.3
     catalog_earned_first_party: 0.0
     catalog_gap: 45.8
@@ -179,7 +179,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 23.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Enterprise API for retrieving finalized Stensul email content and distributing it to any platform in a customer's ecosystem, removing the manual export step between Stensul and the downstream ESP/MAP.
@@ -182,7 +182,7 @@ score:
   band: emerging
   composite: 24.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -206,7 +206,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

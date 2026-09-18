@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://madapi.madkudu.com
@@ -285,7 +285,7 @@ score:
   band: developing
   composite: 51.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -310,7 +310,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

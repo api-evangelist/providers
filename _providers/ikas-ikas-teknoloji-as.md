@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Public GraphQL Admin API for ikas stores — read and write products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhoo
@@ -187,7 +187,7 @@ score:
   band: thin
   composite: 37.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -207,7 +207,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ tags:
 - Fitness
 - Hardware
 - Health
-- Internet of Things
+- IoT
 - Defunct
 website: https://atlaswearables.com/
 ---

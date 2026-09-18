@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Paperless Post Party Shop storefront is the only machine-callable surface on any paperlesspost.com host. It is Shopify-hosted and implements the Universal Commerce Protocol (UCP) for agent-driven '
@@ -166,7 +166,7 @@ score:
   band: thin
   composite: 30.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,7 +191,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

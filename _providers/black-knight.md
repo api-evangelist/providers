@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: MSP (Mortgage Servicing Platform) was Black Knight's flagship product — the mainframe-rooted system of record that services the majority of US first-mortgage loans. MSP DX (Direct Exchange) is the RES
@@ -254,7 +254,7 @@ score:
   band: thin
   composite: 35.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 77.5
     catalog_earned_first_party: 0.0
     catalog_gap: 37.5
@@ -275,7 +275,7 @@ score:
     - north-america
   previous_composite: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

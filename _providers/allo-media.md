@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: 'Read-only REST API over calls that have finished processing on the Allo-Media platform — transcription, redaction, analysis and tagging complete. Three operations: list calls with date/status filters '
@@ -245,7 +245,7 @@ score:
   band: developing
   composite: 48.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -272,7 +272,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

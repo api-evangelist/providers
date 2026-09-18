@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: Dealership account information for dealers who have a relationship with Dealer.com. GET /accounts/search returns a filterable, paginated list; GET /accounts/id/{accountId} returns one account. Payload
@@ -250,7 +250,7 @@ score:
   band: developing
   composite: 44.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 62.0
     catalog_earned_first_party: 24.0
     catalog_gap: 53.0
@@ -269,7 +269,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

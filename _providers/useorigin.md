@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,6 +88,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/useorigin-domain-security.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://useorigin.com/resources/blog
 created: '2026-07-17'
 description: Origin (Blend Financial Inc. DBA Origin Financial) is a personal finance platform built around an SEC-regulated AI financial advisor, combining spending tracking, budgeting, investing, tax filing, estate planning, and couples money management in one app, and offering employers a financial wellness benefit. Account connections run through partners including Plaid, MX, and Mastercard. Origin is a consumer and employer product with no public developer API surface today.
 image: https://cdn.prod.website-files.com/68acbc076b672f730e0c77b9/68da67a91d421250bd53d4f1_useorigin_icon_256.png
@@ -99,13 +103,13 @@ network: true
 overview: 'Origin Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Financial Planning, and AI Advisor.
 
 
-  Origin Financial''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
+  Origin Financial''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
 random_paper: 13
 score:
   band: emerging
   composite: 16.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -123,7 +127,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

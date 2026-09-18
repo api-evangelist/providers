@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Zelis'' partner-facing API platform, published through the Zelis developer portal and API marketplace. The catalog spans claims document search and viewing, member ID card search and viewing, provider '
@@ -127,7 +127,7 @@ score:
   band: emerging
   composite: 25.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -151,7 +151,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

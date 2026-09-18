@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Wriety's "Agentic APIs" are marketed as 100+ AI capabilities that OEM manufacturers embed into interactive flat panel displays - freehand and math recognition in 194 languages, doodle/object interpret
@@ -121,7 +121,7 @@ score:
   band: emerging
   composite: 15.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
@@ -150,7 +150,7 @@ score:
     regime_id: education
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 15
 apis:
 - baseURL: https://{appid}-dsn.algolia.net
@@ -338,7 +338,7 @@ score:
   band: exemplar
   composite: 71.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 67.0
     catalog_earned_first_party: 24.0
     catalog_gap: 48.0
@@ -363,7 +363,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

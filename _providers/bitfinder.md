@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ modified: '2026-07-18'
 name: Bitfinder
 nav: Providers
 network: true
-overview: 'Bitfinder publishes 3 APIs on the [APIs.io](https://apis.io/) network: Air Data API, Devices API, and User API. Tagged areas include Company, Air Quality, Internet of Things, IoT, and Environmental Monitoring.
+overview: 'Bitfinder publishes 3 APIs on the [APIs.io](https://apis.io/) network: Air Data API, Devices API, and User API. Tagged areas include Company, Air Quality, IoT, Environmental Monitoring, and Smart Home.
 
 
   Bitfinder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
@@ -227,7 +227,7 @@ score:
   band: developing
   composite: 40.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -259,7 +259,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -279,7 +279,6 @@ slug: bitfinder
 tags:
 - Company
 - Air Quality
-- Internet of Things
 - IoT
 - Environmental Monitoring
 - Smart Home

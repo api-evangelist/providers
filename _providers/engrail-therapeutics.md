@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 11
 apis:
 - description: Two live Model Context Protocol servers registered under the `mcp` REST namespace on engrail.com, fronted by RFC 8414 and RFC 9728 OAuth discovery documents at the apex. Both are OAuth-protected — ano
@@ -226,7 +226,7 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -262,7 +262,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

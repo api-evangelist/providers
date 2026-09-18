@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Sugar REST API is hosted on each Sugar deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27). SugarCloud instances are hosted on Sugar's own sugarondemand.com domain, so a cloud t
@@ -236,7 +236,7 @@ score:
   band: strong
   composite: 62.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -255,7 +255,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

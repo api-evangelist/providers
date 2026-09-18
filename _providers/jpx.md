@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: Listed issue master, daily and morning-session OHLCV, minute bars and tick trades (add-on), earnings calendar, and weekly trading by investor type for Tokyo Stock Exchange equities, under /v2/equities
@@ -233,7 +233,7 @@ score:
   band: developing
   composite: 53.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -266,7 +266,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

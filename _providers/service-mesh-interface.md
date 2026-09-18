@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: 'Traffic Access Control defines the `TrafficTarget` resource, which associates a set of traffic rules with a service identity allocated to a group of pods. It is the authorization layer of SMI: which s'
@@ -238,7 +238,7 @@ score:
   band: emerging
   composite: 22.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 61.3
     catalog_earned_first_party: 0.0
     catalog_gap: 53.8
@@ -263,7 +263,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

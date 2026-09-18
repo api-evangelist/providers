@@ -12,10 +12,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,34 +23,34 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-09-16'
+  score: 31.2
+  scored_at: '2026-09-17'
 agentic_access:
-- acting_count: 4
-  human_in_the_loop: 1
+- acting_count: 151
+  human_in_the_loop: 13
   name: Amazon Lightsail Agentic Access
-  operation_count: 6
+  operation_count: 162
   slug: amazon-lightsail-agentic-access
-  summary_line: 6 operations · 4 acting · 1 human-in-the-loop
+  summary_line: 162 operations · 151 acting · 13 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://lightsail.amazonaws.com
+- baseURL: https://lightsail.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: Lightsail virtual server instance management
-  name: Amazon Lightsail Instances API
+  description: 'The Amazon Lightsail API — 162 operations covering instances (virtual private servers), container services, object storage buckets, managed MySQL and PostgreSQL databases, block storage disks, static '
+  name: Amazon Lightsail API
   slug: amazon-lightsail-instances-api
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: postman
   name: Amazon Lightsail Instances API
@@ -127,7 +127,7 @@ common:
   url: https://aws.amazon.com/blogs/compute/
 - group: build
   title: ''
-  type: github
+  type: GitHubOrganization
   url: https://github.com/aws
 - group: start
   title: ''
@@ -135,7 +135,7 @@ common:
   url: https://lightsail.aws.amazon.com/
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://portal.aws.amazon.com/billing/signup
 - group: start
   title: ''
@@ -162,9 +162,10 @@ common:
   type: Contact
   url: https://aws.amazon.com/contact-us/
 - group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/security/amazon-lightsail-vulnerability-disclosure.yml
   title: ''
   type: Security
-  url: https://aws.amazon.com/security/
+  url: security/amazon-lightsail-vulnerability-disclosure.yml
 - group: auth
   title: ''
   type: Compliance
@@ -179,6 +180,131 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/amazon-lightsail-vocabulary.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://aws.amazon.com/lightsail/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.aws.amazon.com/lightsail/2016-11-28/api-reference/Welcome.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://aws.amazon.com/lightsail/getting-started/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/lightsail/pricing/
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/smithy/amazon-lightsail-2016-11-28.json
+  title: ''
+  type: Smithy
+  url: smithy/amazon-lightsail-2016-11-28.json
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/packages/amazon-lightsail-packages.yml
+  title: ''
+  type: Packages
+  url: packages/amazon-lightsail-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/packages/amazon-lightsail-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/amazon-lightsail-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/cli/amazon-lightsail-cli.yml
+  title: ''
+  type: CLI
+  url: cli/amazon-lightsail-cli.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/well-known/amazon-lightsail-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/amazon-lightsail-well-known.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/well-known/amazon-lightsail-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/amazon-lightsail-security.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/mcp/amazon-lightsail-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-lightsail-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/mcp/amazon-lightsail-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/amazon-lightsail-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/llms/amazon-lightsail-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/amazon-lightsail-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/conformance/amazon-lightsail-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/amazon-lightsail-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/errors/amazon-lightsail-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/amazon-lightsail-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/lifecycle/amazon-lightsail-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/amazon-lightsail-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/conventions/amazon-lightsail-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/amazon-lightsail-conventions.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/changelog/amazon-lightsail-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/amazon-lightsail-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/data-model/amazon-lightsail-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/amazon-lightsail-data-model.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/plans/amazon-lightsail-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-lightsail-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/rate-limits/amazon-lightsail-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-lightsail-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/finops/amazon-lightsail-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/amazon-lightsail-finops.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/examples/amazon-lightsail-instance-example.json
+  title: ''
+  type: Examples
+  url: examples/amazon-lightsail-instance-example.json
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/postman/amazon-lightsail-instances-api.postman_collection.json
+  title: ''
+  type: Postman
+  url: postman/amazon-lightsail-instances-api.postman_collection.json
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://aws.amazon.com/security/
 created: '2024-01-15'
 description: Amazon Lightsail is a virtual private server (VPS) provider and is the easiest way to get started with AWS for developers, small businesses, students, and other users who need a solution to build and host their applications on cloud. Lightsail provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites and web applications in the cloud.
 examples:
@@ -224,24 +350,28 @@ jsonld:
   property_count: 7
   slug: amazon-lightsail-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: Amazon Lightsail MCP Server
+  slug: amazon-lightsail-mcp-server
+modified: '2026-09-17'
 name: Amazon Lightsail
 nav: Providers
 network: true
-overview: 'Amazon Lightsail publishes 1 API on the [APIs.io](https://apis.io/) network: Instances API.
+overview: 'Amazon Lightsail publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, Compute, Virtual Private Server, Hosting, and Containers.
 
 
   The Amazon Lightsail catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lightsail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, developer console, and 19 more developer resources.'
+  Amazon Lightsail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 45 more developer resources.'
 plans:
 - name: Amazon Lightsail Plans Pricing
-  plan_count: 3
+  plan_count: 100
   slug: amazon-lightsail-plans-pricing
 random_paper: 2
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Amazon Lightsail Rate Limits
   slug: amazon-lightsail-rate-limits
 rules:
@@ -267,46 +397,46 @@ rules:
     warn: 14
   slug: amazon-lightsail-spectral-rules
 score:
-  band: strong
-  composite: 54.6
+  band: exemplar
+  composite: 72.3
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 57.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 57.5
+    artifact_dirs: 32
+    catalog_earned: 72.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 17.7
   facets:
-    access_clarity: 69.7
-    contract_governance: 28.8
-    contract_quality: 69.4
-    developer_ergonomics: 58.3
-    discoverability: 44.4
-    operational_transparency: 34.2
+    access_clarity: 93.4
+    contract_governance: 47.0
+    contract_quality: 70.1
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 47.4
   previous_composite: 54.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+      total: 2
+    mcp: first-party
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
-    score: 0.0
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/screenshots/amazon-lightsail-2026-06-20T171728.png
 security:
 - kind: authentication
   name: Amazon Lightsail Authentication
   slug: amazon-lightsail-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: sigv4 · 1 scheme
 - kind: domain-security
   name: Amazon Lightsail Domain Security
   slug: amazon-lightsail-domain-security
@@ -320,6 +450,18 @@ security:
   slug: amazon-lightsail-trust-center
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-lightsail
+tags:
+- Cloud
+- Compute
+- Virtual Private Server
+- Hosting
+- Containers
+- Database
+- Storage
+- CDN
+- Networking
+- Infrastructure
+- DevOps
 use_cases:
 - description: Host WordPress sites with pre-configured LAMP stacks at low, predictable cost.
   name: WordPress Hosting

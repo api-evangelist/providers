@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The keyword-matching service behind Koko's Suicide Prevention Toolkit. Callers match a search term or post against Koko's risk taxonomy, filtered across three dimensions — category, confidence and int
@@ -203,7 +203,7 @@ score:
   band: thin
   composite: 32.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -234,7 +234,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: ws://127.0.0.1:25520/v1/events
@@ -378,7 +378,7 @@ score:
   band: strong
   composite: 62.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -409,7 +409,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Gatling is an open source load and performance testing framework for web applications and APIs with a Scala-based DSL and detailed HTML reports.
@@ -119,7 +119,7 @@ score:
   band: emerging
   composite: 17.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -138,7 +138,7 @@ score:
     score: 25.0
   previous_composite: 17.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

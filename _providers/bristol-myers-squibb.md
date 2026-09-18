@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: BMS Medical Information Online provides US healthcare providers with prescribing information, medical inquiry submission, and product/regimen libraries for BMS medicines across oncology, hematology, i
@@ -164,7 +164,7 @@ score:
   band: emerging
   composite: 15.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -189,7 +189,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

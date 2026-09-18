@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'An OAuth-protected Model Context Protocol endpoint served from 8B''s own WordPress installation at www.8b.africa. Discovery is standards-conformant: an RFC 8414 authorization-server metadata document a'
@@ -159,7 +159,7 @@ score:
   band: emerging
   composite: 24.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -189,7 +189,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

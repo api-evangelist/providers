@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'Self-hosted HTTP API of Parallax, the Apache-2.0 runtime security engine Scalarr publishes for AI agents. Two endpoints: POST /evaluate takes a lifecycle event (message.before, tool.before, tool.after'
@@ -219,7 +219,7 @@ score:
   band: developing
   composite: 49.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -237,7 +237,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

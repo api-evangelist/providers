@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-08-26'
 name: Perfumeo
 nav: Providers
 network: true
-overview: Perfumeo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Hardware, Internet of Things, Smart Home, and Artificial Intelligence.
+overview: Perfumeo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Hardware, IoT, Smart Home, and Artificial Intelligence.
 random_paper: 9
 score:
   band: minimal
@@ -84,7 +84,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -94,7 +94,7 @@ slug: perfumeo
 tags:
 - Company
 - Consumer Hardware
-- Internet of Things
+- IoT
 - Smart Home
 - Artificial Intelligence
 - Fragrance

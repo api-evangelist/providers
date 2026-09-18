@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Batch and per-security delivery of Bloomberg's reference, pricing, regulatory and alternative data for integration into proprietary applications and workflows. The REST / hypermedia entry point is htt
@@ -213,7 +213,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -238,7 +238,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

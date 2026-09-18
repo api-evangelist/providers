@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'REST API for programmatic, end-to-end video creation and automated delivery. OAuth 2.0 client-credentials + bearer auth. Resources: TemplateStyleVersion, Mapping, RenderSession.'
@@ -162,7 +162,7 @@ score:
   band: emerging
   composite: 25.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -180,7 +180,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

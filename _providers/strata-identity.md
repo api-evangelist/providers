@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Public management API for the Maverics platform, automated with confidential OAuth 2.0 client-credentials API clients (private_key_jwt / JWT client assertion, ES256). Region-specific auth surfaces are
@@ -169,7 +169,7 @@ score:
   band: thin
   composite: 35.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -187,7 +187,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -215,7 +215,7 @@ tags:
 - Authentication
 - Authorization
 - SSO
-- IAM
+- Identity and Access Management
 - SAML
 - OpenID Connect
 - AI Identity

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'JSON over HTTPS Web API for the NSE Request-for-Quote (RFQ) platform for corporate bonds and debt securities. Documented in the "RFQ - Protocol for Web API" PDF published on the NSE trading protocols '
@@ -161,7 +161,7 @@ score:
   band: thin
   composite: 31.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -192,7 +192,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

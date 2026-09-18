@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -265,7 +265,7 @@ score:
   band: developing
   composite: 44.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -303,7 +303,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

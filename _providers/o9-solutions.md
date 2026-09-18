@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The public UI APIs available in the o9 platform, used to access the GraphCube server data and its model in order to query and visualize planning data. The API reference is published in the o9 Guide bu
@@ -161,7 +161,7 @@ score:
   band: thin
   composite: 28.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -184,7 +184,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

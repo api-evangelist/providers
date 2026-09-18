@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: United Auto Credit Corporation dealer financing integration providing non-prime auto lending origination, 24/7 application access, instant credit decisions, and contract printing for dealership partne
@@ -137,7 +137,7 @@ score:
   band: emerging
   composite: 24.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 65.0
     catalog_earned_first_party: 0.0
     catalog_gap: 50.0
@@ -158,7 +158,7 @@ score:
     - north-america
   previous_composite: 24.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

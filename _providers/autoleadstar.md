@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
@@ -257,7 +257,7 @@ score:
   band: developing
   composite: 50.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -273,6 +273,8 @@ score:
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - israel
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
@@ -287,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

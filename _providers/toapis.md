@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: OpenAI-compatible REST API covering chat/completions, image generation, video generation, and model listing (plus Anthropic Messages and OpenAI Responses formats). Key-authenticated via Bearer token.
@@ -164,7 +164,7 @@ score:
   band: developing
   composite: 43.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 46.0
     catalog_earned_first_party: 12.0
     catalog_gap: 69.0
@@ -184,7 +184,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

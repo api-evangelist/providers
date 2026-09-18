@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-09-16'
+  score: 26.4
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -75,7 +75,7 @@ apis:
   description: Operations for retrieving authenticated user profile information including username, name, URL, and avatar image.
   name: medium Users API
   slug: medium-users-api
-artifact_total: 26
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +148,86 @@ common:
   title: ''
   type: Blog
   url: https://medium.com/feed/blog
-description: Documentation for Medium's OAuth2 API. Contribute to Medium/medium-api-docs development by creating an account on GitHub.
+- group: company
+  title: ''
+  type: Website
+  url: https://medium.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Medium
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://github.com/Medium/medium-api-docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://github.com/Medium/medium-api-docs#3-resources
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/Medium/medium-api-docs#2-authentication
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.medium.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.medium.com/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/lifecycle/medium-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/medium-lifecycle.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/packages/medium-packages.yml
+  title: ''
+  type: Packages
+  url: packages/medium-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/packages/medium-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/medium-packages.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/scopes/medium-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/medium-scopes.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/conventions/medium-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/medium-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/errors/medium-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/medium-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/conformance/medium-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/medium-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/data-model/medium-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/medium-data-model.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/llms/medium-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/medium-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-05-04'
+description: 'Medium is an online publishing platform where writers publish stories and readers follow topics, publications and authors. Its developer surface is a small OAuth2 REST API at api.medium.com/v1 that lets an integration read the authenticated user''s profile, list the publications they write to or edit, upload images, and publish posts to a profile or into a publication. Medium states the API is no longer supported and does not accept new integrations: existing tokens continue to work, but new integration tokens have not been issued since 2023 and the documentation repository was archived in 2023.'
 finops:
 - name: Medium Finops
   service_category: API
@@ -170,24 +249,24 @@ jsonld:
   property_count: 5
   slug: medium-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-17'
 name: Medium
 nav: Providers
 network: true
-overview: 'Medium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Images API, Posts API, and 3 more.
+overview: 'Medium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Images API, Posts API, and 3 more. Tagged areas include Publishing, Content, Blogging, Media, and Social.
 
 
   The Medium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Medium''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
+  Medium''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, and 20 more developer resources.'
 plans:
 - name: Medium Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: medium-plans-pricing
 random_paper: 3
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Medium Rate Limits
   slug: medium-rate-limits
 rules:
@@ -201,38 +280,43 @@ rules:
     info: 2
     warn: 3
   slug: medium-jsonschema-spectral-rules
+scopes:
+- name: Medium Scopes
+  scope_count: 0
+  slug: medium-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.3
+  composite: 38.0
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.3
+    artifact_dirs: 26
+    catalog_earned: 48.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.8
+    catalog_gap: 66.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.7
+  delta: 9.7
   facets:
-    access_clarity: 15.8
-    contract_governance: 9.8
+    access_clarity: 7.9
+    contract_governance: 14.4
     contract_quality: 57.9
-    developer_ergonomics: 23.8
-    discoverability: 44.4
-    operational_transparency: 7.9
-  previous_composite: 27.6
+    developer_ergonomics: 56.5
+    discoverability: 68.5
+    operational_transparency: 21.1
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    mcp: derived
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -241,10 +325,20 @@ security:
 - kind: authentication
   name: Medium Authentication
   slug: medium-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Medium Domain Security
   slug: medium-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: medium
+tags:
+- Publishing
+- Content
+- Blogging
+- Media
+- Social
+- Writing
+- Authentication
+- Deprecated API
+website: https://medium.com
 ---

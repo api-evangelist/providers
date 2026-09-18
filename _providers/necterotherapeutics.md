@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://necterotherapeutics.com/news/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/nectero-medical_stock/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/necterotherapeutics/refs/heads/main/security/necterotherapeutics-domain-security.yml
   title: ''
@@ -72,13 +80,13 @@ network: true
 overview: 'Nectero Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Therapeutics.
 
 
-  Nectero Therapeutics'' developer surface includes support, engineering blog, and 4 more developer resources.'
+  Nectero Therapeutics'' developer surface includes support, engineering blog, and 6 more developer resources.'
 random_paper: 3
 score:
   band: minimal
   composite: 4.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

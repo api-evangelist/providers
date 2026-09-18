@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Cradle Platform API is an enterprise REST API for programmatic access to Cradle's AI-driven protein engineering platform. It is organized under per-workspace v2 endpoints and exposes resource grou
@@ -139,7 +139,7 @@ score:
   band: minimal
   composite: 10.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -161,7 +161,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

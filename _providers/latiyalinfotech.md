@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Read-only real-time cricket data API. 51 operations on the apiv5 tier (30 on apiv3), all reads, served from https://apicricketchampion.in/apiv{3|4|5}/ with an opaque API token as the final path segmen
@@ -115,7 +115,7 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -141,7 +141,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

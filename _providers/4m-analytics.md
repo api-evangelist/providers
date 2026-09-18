@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The 4M WFS API is an OGC Web Feature Service that streams 4M's validated subsurface utility data (line and point features) in real time into GIS platforms such as ArcGIS and QGIS, eliminating manual f
@@ -123,7 +123,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -147,7 +147,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

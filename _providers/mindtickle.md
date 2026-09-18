@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Core REST API for managing users, groups, modules, learner details, and reporting within the Mindtickle revenue productivity platform. Supports SCIM-based user provisioning and returns JSON responses.
@@ -230,7 +230,7 @@ score:
   band: developing
   composite: 48.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -254,7 +254,7 @@ score:
     regime_id: education
     score: 70.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

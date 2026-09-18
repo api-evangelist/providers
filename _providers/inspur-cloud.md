@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 18
 apis:
 - description: 'REST API for Inspur Cloud''s elastic compute service: create, start, stop, reboot, resize, rebuild and delete cloud servers, manage private images, security-group membership, attached volumes, SSH key '
@@ -250,7 +250,7 @@ score:
   band: thin
   composite: 32.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -276,7 +276,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -307,7 +307,7 @@ tags:
 - Identity
 - Database
 - Containers
-- Internet of Things
+- IoT
 - Blockchain
 - China
 - Company

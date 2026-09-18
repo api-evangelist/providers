@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Hosted MCP server (Streamable HTTP) with ~20 tools for deploying and managing always-on apps. Uses OAuth 2.1 with PKCE and dynamic client registration; usable by any account holder from Claude Code, C
@@ -191,7 +191,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -211,7 +211,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

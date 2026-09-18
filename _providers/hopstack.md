@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Programmatic access to sales/fulfillment orders - create and manage orders that flow into Hopstack's omnichannel order management and picking, packing, and shipping workflows. Orders is one of the cor
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 18.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -141,7 +141,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

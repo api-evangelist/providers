@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Brevian's hosted (remote) Model Context Protocol server, exposing revenue-execution context (knowledge, deals, conversations, pipeline) to MCP-capable agents. Access is gated by OAuth 2.1 (authorizati
@@ -155,7 +155,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,7 +173,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

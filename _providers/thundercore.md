@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ThunderCore mainnet (chain ID 108, TT gas token). Supports the standard eth_/net_/web3_ method surface over HTTPS, with WebSocket endpoints for subscriptio
@@ -191,7 +191,7 @@ score:
   band: developing
   composite: 40.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -210,7 +210,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -1,6 +1,6 @@
 {
- "total": 215,
- "shown": 215,
+ "total": 216,
+ "shown": 216,
  "limit": 1000,
  "bands": [
   {
@@ -8,9 +8,59 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 34,
-   "shown": 34,
+   "count": 35,
+   "shown": 35,
    "providers": [
+    {
+     "name": "Messagebird",
+     "slug": "messagebird",
+     "description": "MessageBird, which trades as Bird, is a Dutch cloud communications company whose platform carries email, SMS, WhatsApp, RCS, push, voice and eSIM traffic for businesses in over 200 countries. Bird publishes a first-party OpenAPI 3.1 description of 277 operations at bird.com/openapi.json and generates its TypeScript, Python, Go and PHP SDKs from it. The platform is unusually agent-native: a hosted MCP server at mcp.bird.com behind credential-less OAuth, a bird CLI with JSON output and semantic exit codes, published agent skills shipped as an Agent Plugins marketplace plugin, an RFC 9727 api-catalog, an Agentic Resource Discovery document, an llms.txt, and a Markdown twin of every documentation page. One auth model, one opt-in Idempotency-Key contract, IETF RateLimit headers and one stable error envelope span every channel. The legacy MessageBird REST API at rest.messagebird.com is still served alongside it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png",
+     "score": 92.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 72.3,
+      "contract_governance": 47.0,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 81.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 73.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 68.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 1
+    },
     {
      "name": "Customer.io",
      "slug": "customer-io",
@@ -27,7 +77,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -59,7 +109,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "Brevo",
@@ -77,7 +127,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -109,7 +159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Salesforce Marketing Cloud",
@@ -127,7 +177,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -159,7 +209,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Amazon Pinpoint",
@@ -177,7 +227,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -209,7 +259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Braze",
@@ -227,7 +277,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -259,7 +309,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Stannp",
@@ -277,7 +327,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -309,7 +359,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "OneSignal",
@@ -327,7 +377,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -359,7 +409,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Boom Ai",
@@ -377,7 +427,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -409,7 +459,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Close",
@@ -427,7 +477,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -470,7 +520,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Klaviyo",
@@ -488,7 +538,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -531,7 +581,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Leadping",
@@ -549,7 +599,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -581,7 +631,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Mailchimp",
@@ -599,7 +649,7 @@
       "developer_ergonomics": 83.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -631,7 +681,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Regal",
@@ -649,7 +699,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -681,7 +731,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "GetResponse",
@@ -699,7 +749,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -738,7 +788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Infobip",
@@ -756,7 +806,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -795,7 +845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Adobe Campaign",
@@ -813,7 +863,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -845,7 +895,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Mapp Marketing Cloud",
@@ -863,7 +913,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -914,7 +964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "SendPulse",
@@ -932,7 +982,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -971,7 +1021,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Twilio",
@@ -989,7 +1039,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1021,7 +1071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Iterable",
@@ -1039,7 +1089,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1071,7 +1121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Zoom Phone",
@@ -1089,7 +1139,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1121,7 +1171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "MoEngage",
@@ -1139,7 +1189,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1182,7 +1232,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "SMTP2GO",
@@ -1200,7 +1250,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1232,7 +1282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Knock",
@@ -1250,7 +1300,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1289,7 +1339,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Novu",
@@ -1307,7 +1357,7 @@
       "developer_ergonomics": 83.3,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1339,7 +1389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "SAP Emarsys",
@@ -1357,7 +1407,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1396,7 +1446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Ortto",
@@ -1414,7 +1464,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1457,7 +1507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "8x8",
@@ -1475,7 +1525,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1507,7 +1557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Blueshift",
@@ -1525,7 +1575,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1557,7 +1607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Orange Business",
@@ -1575,7 +1625,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1607,7 +1657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "SignalWire",
@@ -1625,7 +1675,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1657,7 +1707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Constant Contact",
@@ -1675,7 +1725,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1707,7 +1757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Vibes Platform",
@@ -1725,7 +1775,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1757,7 +1807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Hustle",
@@ -1775,7 +1825,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1807,7 +1857,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     }
    ],
    "open": true
@@ -1836,7 +1886,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1875,7 +1925,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "AskNicely",
@@ -1893,7 +1943,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1932,7 +1982,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Postscript",
@@ -1950,7 +2000,7 @@
       "developer_ergonomics": 41.1,
       "access_clarity": 96.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1989,7 +2039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Swisscom",
@@ -2007,7 +2057,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2046,7 +2096,50 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
+    },
+    {
+     "name": "Avaya",
+     "slug": "avaya",
+     "description": "Avaya is a global enterprise communications company whose developer surface spans two cloud platforms: Avaya Infinity, the cloud-native customer experience platform launched in 2025, and Avaya Experience Platform (AXP), the CCaaS generation that preceded it. Between them they publish 40 OpenAPI 3.0 documents and 367 operations across administration (users, groups, profiles, queues, timetables, extensions, Communication Manager and hybrid cloud gateways), customer journey and engagement history, digital chat and custom messaging, transcripts, historical and real-time analytics, workflow sessions, outbound campaigns, and a webhook/WebSocket event surface. Authentication is a bearer JWT issued by a per-tenant Keycloak realm, carried alongside a tenant appkey header; every path is rooted at an account id and the Infinity host itself is per-tenant. Avaya publishes an llms.txt, an RFC 9727 API catalog, a public Postman workspace and first-party JavaScript SDKs, but no MCP server, no idempotency mechanism and no public pricing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/screenshots/avaya-2026-06-20T172723.png",
+     "score": 64.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 71.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 78.0,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 41.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
     },
     {
      "name": "Spruce Health",
@@ -2064,7 +2157,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2096,7 +2189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 41
     },
     {
      "name": "Weave",
@@ -2114,7 +2207,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2153,7 +2246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 42
     },
     {
      "name": "Silverpop",
@@ -2171,7 +2264,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2203,7 +2296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 43
     },
     {
      "name": "Verizon",
@@ -2221,7 +2314,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2253,7 +2346,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 44
     },
     {
      "name": "Gladly",
@@ -2271,7 +2364,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2303,7 +2396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 45
     },
     {
      "name": "Dotdigital",
@@ -2321,7 +2414,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2360,7 +2453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 46
     },
     {
      "name": "KPN",
@@ -2378,7 +2471,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2410,99 +2503,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
-    },
-    {
-     "name": "Avaya",
-     "slug": "avaya",
-     "description": "Avaya is a global enterprise communications company whose developer surface spans two cloud platforms: Avaya Infinity, the cloud-native customer experience platform launched in 2025, and Avaya Experience Platform (AXP), the CCaaS generation that preceded it. Between them they publish 40 OpenAPI 3.0 documents and 367 operations across administration (users, groups, profiles, queues, timetables, extensions, Communication Manager and hybrid cloud gateways), customer journey and engagement history, digital chat and custom messaging, transcripts, historical and real-time analytics, workflow sessions, outbound campaigns, and a webhook/WebSocket event surface. Authentication is a bearer JWT issued by a per-tenant Keycloak realm, carried alongside a tenant appkey header; every path is rooted at an account id and the Infinity host itself is per-tenant. Avaya publishes an llms.txt, an RFC 9727 API catalog, a public Postman workspace and first-party JavaScript SDKs, but no MCP server, no idempotency mechanism and no public pricing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/screenshots/avaya-2026-06-20T172723.png",
-     "score": 62.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 71.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 78.0,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 41.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 46
-    },
-    {
-     "name": "Amazon SNS",
-     "slug": "amazon-sns",
-     "description": "Amazon Simple Notification Service (SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication. It enables pub/sub, SMS, email, and mobile push notifications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png",
-     "score": 62.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 72.1,
-      "contract_governance": 13.6,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 63.1,
-      "access_clarity": 63.2
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 47
     },
     {
@@ -2521,7 +2521,7 @@
       "developer_ergonomics": 81.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2571,7 +2571,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2621,7 +2621,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2682,7 +2682,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2732,7 +2732,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2782,7 +2782,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2839,7 +2839,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2874,6 +2874,56 @@
      "rank": 54
     },
     {
+     "name": "Amazon SNS",
+     "slug": "amazon-sns",
+     "description": "Amazon Simple Notification Service (SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication. It enables pub/sub, SMS, email, and mobile push notifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png",
+     "score": 59.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 65.1,
+      "contract_governance": 13.6,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 63.1,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 50.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 55
+    },
+    {
      "name": "DialNexa",
      "slug": "dialnexa",
      "description": "DialNexa is a Voice AI agents platform for sales calls, lead qualification, follow-ups, meeting booking, collections and support workflows, with a strong focus on Indian-market multilingual calling (English, Hindi, Hinglish, Marathi, Kannada, Gujarati, Tamil, Telugu, Bengali and mixed-language calls). The public contract is an OpenAPI 3.0 document of 43 paths and 56 operations served from api.dialnexa.com with bearer authentication. DialNexa publishes an RFC 9727 api-catalog as a proper application/linkset+json document, two llms.txt files (a site index and a 90KB documentation index), an auth.md written explicitly for AI agents and automation systems describing how API keys are provisioned, an official remote MCP server at api.dialnexa.com/v1/mcp (OAuth 2.1 with PKCE, 97 documented tools), and a provider-published Agent Skill served from /.well-known/agent-skills/.",
@@ -2889,7 +2939,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 49.9,
      "agent_band": "agent-ready",
@@ -2914,7 +2964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Wunderkind",
@@ -2932,7 +2982,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2964,7 +3014,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "CloudTalk",
@@ -2982,7 +3032,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3014,7 +3064,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Synthflow",
@@ -3032,7 +3082,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
@@ -3057,7 +3107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Community",
@@ -3075,7 +3125,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3107,7 +3157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Genesys",
@@ -3125,7 +3175,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3172,7 +3222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "SendHub",
@@ -3190,7 +3240,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3222,7 +3272,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "The Mobile First Company",
@@ -3240,7 +3290,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3272,7 +3322,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "SimpleTexting",
@@ -3290,7 +3340,7 @@
       "developer_ergonomics": 41.1,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3322,7 +3372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Sinch",
@@ -3340,7 +3390,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3372,7 +3422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "SuprSend",
@@ -3390,7 +3440,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3422,7 +3472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Insider",
@@ -3440,7 +3490,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3479,7 +3529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Crescendo Lab",
@@ -3497,7 +3547,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3529,7 +3579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Neutrino API",
@@ -3547,7 +3597,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3590,7 +3640,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Reliance Jio",
@@ -3608,7 +3658,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3640,7 +3690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "RingCentral",
@@ -3658,7 +3708,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3690,7 +3740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Zavu",
@@ -3708,7 +3758,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3740,7 +3790,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "MTN Group",
@@ -3758,7 +3808,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3790,7 +3840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Unifonic",
@@ -3808,7 +3858,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3840,7 +3890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "AT&T",
@@ -3857,7 +3907,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3889,7 +3939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "OpenPhone",
@@ -3907,7 +3957,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3950,7 +4000,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Telstra",
@@ -3968,7 +4018,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4000,7 +4050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Splio",
@@ -4018,7 +4068,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4057,7 +4107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Bright Pattern",
@@ -4075,7 +4125,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4118,7 +4168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Route Mobile",
@@ -4136,7 +4186,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4175,7 +4225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Thoughtly",
@@ -4193,7 +4243,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4225,7 +4275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     }
    ],
    "open": true
@@ -4254,7 +4304,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4286,7 +4336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Sailthru",
@@ -4304,7 +4354,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4351,7 +4401,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Totogi",
@@ -4369,7 +4419,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4401,7 +4451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Zoom",
@@ -4419,7 +4469,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 42.7,
      "agent_band": "agent-ready",
@@ -4444,7 +4494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Optus",
@@ -4462,7 +4512,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4494,7 +4544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Bandwidth",
@@ -4512,7 +4562,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4544,7 +4594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Kaleyra",
@@ -4562,7 +4612,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4605,7 +4655,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Syniverse",
@@ -4623,7 +4673,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4655,7 +4705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Bluecore",
@@ -4673,7 +4723,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4705,7 +4755,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "VOYGR",
@@ -4723,7 +4773,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 34.1,
      "agent_band": "agent-ready",
@@ -4748,7 +4798,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Hatch",
@@ -4766,7 +4816,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4798,7 +4848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "OutRival",
@@ -4816,7 +4866,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4848,7 +4898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "VoiceGenie",
@@ -4866,7 +4916,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -4891,7 +4941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Invoca",
@@ -4909,7 +4959,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
@@ -4934,7 +4984,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Phonic",
@@ -4952,7 +5002,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 40.8,
      "agent_band": "agent-ready",
@@ -4977,7 +5027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Emotive",
@@ -4995,7 +5045,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5027,7 +5077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Fyno",
@@ -5045,7 +5095,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5077,7 +5127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Telia Company",
@@ -5095,7 +5145,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5127,7 +5177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Podium",
@@ -5145,7 +5195,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5177,7 +5227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Responsys",
@@ -5195,7 +5245,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5227,7 +5277,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "MagicBell",
@@ -5245,7 +5295,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5277,7 +5327,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "CallRail",
@@ -5295,7 +5345,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
@@ -5320,7 +5370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Fixie",
@@ -5338,7 +5388,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -5363,7 +5413,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "TPG Telecom",
@@ -5381,7 +5431,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5413,7 +5463,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Vonage",
@@ -5431,7 +5481,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5463,7 +5513,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "FreJun Teler",
@@ -5480,7 +5530,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5512,7 +5562,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Quo",
@@ -5530,7 +5580,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5573,7 +5623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "KORE Wireless",
@@ -5591,7 +5641,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5623,7 +5673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Phone Com",
@@ -5641,7 +5691,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5673,7 +5723,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Netomi",
@@ -5691,7 +5741,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -5716,7 +5766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Speko",
@@ -5734,7 +5784,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 44.4,
      "agent_band": "agent-native",
@@ -5759,7 +5809,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Sendbird",
@@ -5777,7 +5827,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5809,7 +5859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "Bharti Airtel",
@@ -5827,7 +5877,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5859,7 +5909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Nextiva",
@@ -5877,7 +5927,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5909,7 +5959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Bolna",
@@ -5927,7 +5977,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -5952,7 +6002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "ManyChat",
@@ -5970,7 +6020,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6002,7 +6052,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Phonely",
@@ -6020,7 +6070,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6052,7 +6102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "Tata Communications",
@@ -6070,7 +6120,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6102,7 +6152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Paradox",
@@ -6120,7 +6170,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6152,7 +6202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Orum",
@@ -6170,7 +6220,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -6195,7 +6245,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Nfon",
@@ -6213,7 +6263,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6252,7 +6302,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Conversica",
@@ -6270,7 +6320,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6302,7 +6352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "AgentPhone",
@@ -6320,7 +6370,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6352,7 +6402,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "GOV.UK Notify",
@@ -6370,7 +6420,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6402,7 +6452,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Telesign",
@@ -6420,7 +6470,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6452,7 +6502,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Happyrobot",
@@ -6470,7 +6520,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 51.2,
      "agent_band": "agent-ready",
@@ -6495,7 +6545,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Bird",
@@ -6513,7 +6563,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6545,7 +6595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "Plivo",
@@ -6563,7 +6613,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6595,7 +6645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "Cisco Voice Portal",
@@ -6613,7 +6663,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -6638,7 +6688,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Whippy",
@@ -6656,7 +6706,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6688,7 +6738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "RubiConnect",
@@ -6705,7 +6755,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6737,7 +6787,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Sinch Verification API",
@@ -6755,7 +6805,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6787,7 +6837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Sarj AI Developer API",
@@ -6805,7 +6855,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 67.3,
      "agent_band": "agent-ready",
@@ -6830,7 +6880,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Exotel",
@@ -6848,7 +6898,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6880,7 +6930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     }
    ]
   },
@@ -6908,7 +6958,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6940,7 +6990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Rainbow",
@@ -6958,7 +7008,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6990,7 +7040,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "MirrorFly Messages API",
@@ -7008,7 +7058,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7040,7 +7090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Bitrix24",
@@ -7058,7 +7108,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 36.6,
      "agent_band": "agent-ready",
@@ -7083,7 +7133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "SMSAPI",
@@ -7101,7 +7151,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7133,7 +7183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Wazo",
@@ -7151,7 +7201,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7183,7 +7233,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Appgain",
@@ -7201,7 +7251,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7233,7 +7283,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Telkomsel",
@@ -7251,7 +7301,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7283,7 +7333,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "ClickSend",
@@ -7301,7 +7351,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7333,7 +7383,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Vocode",
@@ -7351,7 +7401,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -7376,7 +7426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Vapi",
@@ -7394,7 +7444,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7426,7 +7476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "NotificationAPI",
@@ -7444,7 +7494,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7476,7 +7526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Messente",
@@ -7494,7 +7544,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7526,7 +7576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Microsoft Azure Communication Services",
@@ -7544,7 +7594,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7576,7 +7626,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "Textmagic",
@@ -7594,7 +7644,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7626,7 +7676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "JustCall",
@@ -7644,7 +7694,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7676,56 +7726,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
-    },
-    {
-     "name": "Alianza",
-     "slug": "alianza",
-     "description": "Alianza is a cloud communications software company founded in 2009 and headquartered in Utah, providing a full-stack cloud voice and communications platform to more than 1,000 communications service providers across 81 countries. Its Intelligent Communications Fabric spans an experience layer, an orchestration layer, and an infrastructure layer, packaged as Alianza One (multi-tenant cloud voice), Alianza Core (physical, virtual and containerized network functions including MetaSphere, MaX UC, Perimeta SBC and Clearwater Core IMS), and Alianza Fusion (hosted core communications systems). Service providers use the platform for residential voice, business cloud communications, SIP trunking, business lines, managed specialty lines (POTS replacement), business text messaging, contact center, Microsoft Teams Direct Routing, robocall blocking and voice interconnect. The Alianza Public API is a JSON REST API over the Alianza One platform covering partition, account, end user, device, telephone number, porting, SIP trunk, calling plan, voicemail, CDR and reporting orchestration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png",
-     "score": 35.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 53.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 51.8,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 30.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 151
     },
     {
@@ -7743,7 +7743,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7793,7 +7793,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7843,7 +7843,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7893,7 +7893,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7928,6 +7928,56 @@
      "rank": 155
     },
     {
+     "name": "Alianza",
+     "slug": "alianza",
+     "description": "Alianza is a cloud communications software company founded in 2009 and headquartered in Utah, providing a full-stack cloud voice and communications platform to more than 1,000 communications service providers across 81 countries. Its Intelligent Communications Fabric spans an experience layer, an orchestration layer, and an infrastructure layer, packaged as Alianza One (multi-tenant cloud voice), Alianza Core (physical, virtual and containerized network functions including MetaSphere, MaX UC, Perimeta SBC and Clearwater Core IMS), and Alianza Fusion (hosted core communications systems). Service providers use the platform for residential voice, business cloud communications, SIP trunking, business lines, managed specialty lines (POTS replacement), business text messaging, contact center, Microsoft Teams Direct Routing, robocall blocking and voice interconnect. The Alianza Public API is a JSON REST API over the Alianza One platform covering partition, account, end user, device, telephone number, porting, SIP trunk, calling plan, voicemail, CDR and reporting orchestration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png",
+     "score": 34.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 61.1,
+      "contract_quality": 53.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 51.8,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 30.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 156
+    },
+    {
      "name": "Telefonie",
      "slug": "telefonie",
      "description": "Telefonie is a cloud communications platform providing programmable telephony, voice, SMS, and number management APIs for developers and businesses. The platform enables developers to build voice calling, SMS messaging, number provisioning, and call recording capabilities into their applications. Telefonie supports WebRTC, SIP trunking, and REST APIs for building modern communication workflows.",
@@ -7943,7 +7993,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 19.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7975,7 +8025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Telefon",
@@ -7993,7 +8043,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8025,7 +8075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Gupshup",
@@ -8043,7 +8093,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8075,7 +8125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Telefoon",
@@ -8092,7 +8142,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8124,7 +8174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "engageSPARK",
@@ -8142,7 +8192,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8174,7 +8224,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Termii",
@@ -8192,57 +8242,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 16.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 161
-    },
-    {
-     "name": "46elks",
-     "slug": "46elks",
-     "description": "46elks is a Swedish communications platform as a service (CPaaS) offering a simple HTTP REST API for sending and receiving SMS and MMS, making and receiving voice calls with programmable call actions, provisioning virtual phone numbers, and handling media and recordings. The API uses HTTP Basic authentication with an API username and password, and is billed pay-as-you-go.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png",
-     "score": 33.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 51.6,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 32.1,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8277,6 +8277,56 @@
      "rank": 162
     },
     {
+     "name": "46elks",
+     "slug": "46elks",
+     "description": "46elks is a Swedish communications platform as a service (CPaaS) offering a simple HTTP REST API for sending and receiving SMS and MMS, making and receiving voice calls with programmable call actions, provisioning virtual phone numbers, and handling media and recordings. The API uses HTTP Basic authentication with an API username and password, and is billed pay-as-you-go.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png",
+     "score": 33.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 51.6,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 32.1,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 16.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 163
+    },
+    {
      "name": "Textla Inc.",
      "slug": "textla-inc",
      "description": "Textla is a business texting platform for sending bulk SMS marketing campaigns and two-way conversational messages to customers. It provides contact list segmentation, message scheduling and personalization, a shared team inbox for direct/two-way replies, contact management with CSV import, and real-time delivery verification and analytics, backed by US-based human support via phone, email, and live chat. The company promotes low per-message rates and reports 2B+ messages sent for 21K+ businesses. Textla is a Zapier partner for no-code automation; as of this profile it does not publish a public developer API, SDKs, or developer documentation.",
@@ -8292,7 +8342,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8324,7 +8374,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "PlusThis",
@@ -8342,7 +8392,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8374,7 +8424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Push",
@@ -8392,7 +8442,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8424,7 +8474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "Engagespot",
@@ -8442,7 +8492,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8474,7 +8524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "Movius",
@@ -8492,7 +8542,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8543,7 +8593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Pushbullet",
@@ -8561,7 +8611,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8593,7 +8643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "RingCaptcha (ThriveCom)",
@@ -8611,7 +8661,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8650,7 +8700,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Tenfold",
@@ -8668,7 +8718,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -8693,7 +8743,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "Comcast",
@@ -8711,7 +8761,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.6,
      "agent_band": "agent-aware",
@@ -8736,7 +8786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Africa's Talking",
@@ -8754,7 +8804,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8786,7 +8836,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Deutsche Telekom",
@@ -8804,7 +8854,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8836,7 +8886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "ClickSend SMS",
@@ -8854,7 +8904,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8886,7 +8936,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "NewVoiceMedia",
@@ -8904,7 +8954,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -8929,7 +8979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "Talkdesk",
@@ -8947,7 +8997,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 14.0,
      "agent_band": "agent-aware",
@@ -8972,7 +9022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Custom Chat API | MirrorFly",
@@ -8990,7 +9040,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9033,7 +9083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Samora AI",
@@ -9051,7 +9101,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 23.8,
      "agent_band": "agent-aware",
@@ -9076,7 +9126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 179
     }
    ]
   },
@@ -9104,7 +9154,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9136,7 +9186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "BICS",
@@ -9154,7 +9204,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9186,7 +9236,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "tyntec",
@@ -9204,7 +9254,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9236,7 +9286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Pushwoosh",
@@ -9254,7 +9304,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9286,7 +9336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Singtel",
@@ -9304,7 +9354,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9336,7 +9386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "T-Mobile",
@@ -9353,7 +9403,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9385,7 +9435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "TranZak",
@@ -9403,7 +9453,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9435,7 +9485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Parloa",
@@ -9453,7 +9503,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9478,7 +9528,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Sempre Health",
@@ -9496,7 +9546,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9539,7 +9589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Naver",
@@ -9557,7 +9607,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9589,7 +9639,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "RetainIQ",
@@ -9607,7 +9657,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9639,7 +9689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Beside",
@@ -9657,7 +9707,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9682,7 +9732,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Callab AI",
@@ -9700,7 +9750,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.2,
      "agent_band": "agent-aware",
@@ -9725,7 +9775,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Vodafone",
@@ -9743,7 +9793,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9775,7 +9825,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Caremessage",
@@ -9793,7 +9843,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9825,7 +9875,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 194
     }
    ]
   },
@@ -9853,7 +9903,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9885,7 +9935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "Mia",
@@ -9903,57 +9953,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 19.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 195
-    },
-    {
-     "name": "Textsidekick",
-     "slug": "textsidekick",
-     "description": "Textsidekick (Sidekick) is a Y Combinator-backed (S26) workforce communication and knowledge-management platform built for frontline workers who do not have a desk. Workers text a question or report an issue over plain SMS with no app to install and no login; Sidekick triages the message, answers from company knowledge, converts issues into work orders, routes them to the right person, and captures every fix as searchable organizational knowledge. It also AI-generates safety procedures, handbooks, and FAQs, schedules preventive maintenance, and delivers text-based onboarding and training. Founded to serve the roughly 80% of American workers without a desk, it is live across 20+ plants serving 600+ frontline workers. No public developer API, SDK, or API reference is published at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/textsidekick/refs/heads/main/screenshots/textsidekick-2026-09-02T163306.png",
-     "score": 10.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9988,6 +9988,56 @@
      "rank": 196
     },
     {
+     "name": "Textsidekick",
+     "slug": "textsidekick",
+     "description": "Textsidekick (Sidekick) is a Y Combinator-backed (S26) workforce communication and knowledge-management platform built for frontline workers who do not have a desk. Workers text a question or report an issue over plain SMS with no app to install and no login; Sidekick triages the message, answers from company knowledge, converts issues into work orders, routes them to the right person, and captures every fix as searchable organizational knowledge. It also AI-generates safety procedures, handbooks, and FAQs, schedules preventive maintenance, and delivers text-based onboarding and training. Founded to serve the roughly 80% of American workers without a desk, it is live across 20+ plants serving 600+ frontline workers. No public developer API, SDK, or API reference is published at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/textsidekick/refs/heads/main/screenshots/textsidekick-2026-09-02T163306.png",
+     "score": 10.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 19.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 197
+    },
+    {
      "name": "SpotHopper",
      "slug": "spothopper",
      "description": "SpotHopper is a Milwaukee, Wisconsin based restaurant marketing and web technology company, founded in 2015, selling an all-in-one, AI-assisted platform to independent restaurants and multi-location restaurant groups. The platform bundles restaurant website design and hosting (customer sites are served from the spotapps.co domain), SEO and Google Business Profile syncing, menu / specials / event publishing, automated social posting to Facebook and Instagram, email and SMS campaigns, review generation and reputation management, and link-outs to reservation and ordering partners such as OpenTable, Yelp and UberEats. The company markets itself as powering more than 20,000 restaurants. As of the 2026-08-29 enrichment probe SpotHopper publishes no developer portal, no API reference, and no machine-readable API contract on any host it controls.",
@@ -10003,7 +10053,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10035,7 +10085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Altira Health",
@@ -10053,7 +10103,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10085,7 +10135,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Rakuten Mobile",
@@ -10103,7 +10153,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10135,7 +10185,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "Hi Marley",
@@ -10153,7 +10203,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10185,7 +10235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Pinger",
@@ -10203,7 +10253,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10235,7 +10285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "RealNetworks",
@@ -10253,57 +10303,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 19.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 202
-    },
-    {
-     "name": "UpSmith",
-     "slug": "upsmith",
-     "description": "UpSmith is a Dallas, Texas-based company backed by a16z that builds AI agents for home services and skilled trades businesses (HVAC, plumbing, electrical). Its platform texts customers to confirm appointments, follows up on cold estimates, responds to inbound leads around the clock, and reactivates dormant customers, syncing customer records, job details, and booking data with ServiceTitan through ServiceTitan's official APIs. UpSmith consumes partner APIs (a native ServiceTitan marketplace integration) but does not publish a public developer API of its own.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/upsmith/refs/heads/main/screenshots/upsmith-2026-09-02T165110.png",
-     "score": 9.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10338,104 +10338,11 @@
      "rank": 203
     },
     {
-     "name": "Dialup",
-     "slug": "dialup",
-     "description": "Dialup is a voice-chat app that revives the magic of talking on the phone by pairing people for one-on-one calls based on shared interests. It automates recurring, scheduled calls so users connect serendipitously with friends, communities, or complete strangers around the world without any manual coordination. Callers opt in with custom caller IDs rather than random numbers, and the free service is available on iOS and Android. Dialup is a Bloomberg Beta portfolio company; it operates as a consumer social/communication application and does not currently publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dialup/refs/heads/main/screenshots/dialup-2026-07-25T211917.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 204
-    },
-    {
-     "name": "Remind",
-     "slug": "remind",
-     "description": "Remind is a K-12 school-home communication platform that lets teachers, schools, and districts message students and families by text, app, email, and voice without exchanging personal phone numbers. The product line includes Remind Chat, a free two-way messaging service used by individual teachers and classrooms, and Remind Hub, a paid district-wide communications platform with administrative controls, SIS integration, delivery analytics, and translation into 90+ languages. Remind reports use in roughly 80% of US public schools and by a majority of US teachers. In November 2023, Santa Barbara-based ParentSquare acquired Remind, and the combined company now operates under the ParentSquare name with Remind Hub continuing for existing district customers and Remind Chat continuing for classroom-level use; Remind Tutoring was discontinued as part of the combination. Remind's only externally documented developer surface is the Share on Remind SDK (the \"Remind Share SDK\"), a partner program that lets approved third-party content providers embed the Remind composer into their own product, authenticate Remind users via OAuth 2.0, serve shareable content and previews via partner-hosted webhooks, and ship messages back through Remind. The Share SDK is accessed by application through partners@remind.com and the developer console at remind.com/integrations; there is no public self-serve REST API, no published OpenAPI specification, and no general-purpose messaging API for sending Remind messages from third-party systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remind/refs/heads/main/screenshots/remind-2026-06-20T192839.png",
-     "score": 9.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 29.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 205
-    },
-    {
-     "name": "Chimelabs Holdings PTY LTD",
-     "slug": "chimelabs-holdings-pty-ltd",
-     "description": "Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptionist and call-automation platform purpose-built for Australian trades and service businesses — plumbers, electricians, HVAC, locksmiths, pest control, cleaners and other on-the-tools operators. The AI answers missed inbound calls 24/7, qualifies and captures job details in natural Australian English, books work into scheduling and field-service systems (ServiceM8, Simpro, ServiceTitan, AroFlo, Fergus, Acuity Scheduling and Google Calendar), runs outbound calls, and turns quote calls into sent quotes automatically. Founded in 2025 in Sydney, Australia by Alexis Griveau (CEO) and Mathew Pretel and backed by 500 Global. The company operates a customer-facing SaaS product at platform.chimelabs.ai; it does not currently publish a public developer API, SDK, or OpenAPI surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chimelabs-holdings-pty-ltd/refs/heads/main/screenshots/chimelabs-holdings-pty-ltd-2026-07-25T205219.png",
-     "score": 8.5,
+     "name": "UpSmith",
+     "slug": "upsmith",
+     "description": "UpSmith is a Dallas, Texas-based company backed by a16z that builds AI agents for home services and skilled trades businesses (HVAC, plumbing, electrical). Its platform texts customers to confirm appointments, follows up on cold estimates, responds to inbound leads around the clock, and reactivates dormant customers, syncing customer records, job details, and booking data with ServiceTitan through ServiceTitan's official APIs. UpSmith consumes partner APIs (a native ServiceTitan marketplace integration) but does not publish a public developer API of its own.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/upsmith/refs/heads/main/screenshots/upsmith-2026-09-02T165110.png",
+     "score": 9.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -10443,153 +10350,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 206
-    },
-    {
-     "name": "West Technology Group",
-     "slug": "west",
-     "description": "West Technology Group is a cloud-based global technology company providing customer experience and communications solutions through its WestCX platform. The company operates through two main brands: Mosaicx, which delivers AI-native conversational automation for enterprise customer engagement, and TeleVox, which provides digital patient engagement solutions for healthcare organizations including providers, payers, and life sciences companies.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/west/refs/heads/main/screenshots/west-2026-06-20T201357.png",
-     "score": 8.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 207
-    },
-    {
-     "name": "Tomo",
-     "slug": "tomo",
-     "description": "Tomo is a consumer \"personal AI\" application that lives in your text messages: users tell Tomo about their life, goals, problems, and aspirations over SMS, and the AI assistant learns those goals and guides them toward achieving them through ongoing text-based conversation. Backed by Bain Capital Ventures and Ribbit Capital, Tomo operates in the AI-apps sector as a mobile-first consumer product rather than a developer platform. As of this enrichment pass the company publishes a marketing site (tomo.ai) with About, Careers, Privacy, Terms, and Login pages but no public developer program: no API documentation, OpenAPI/AsyncAPI specification, SDKs, CLI, MCP server, llms.txt, or .well-known discovery endpoints were found. This profile is maintained for API Evangelist network completeness.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tomo/refs/heads/main/screenshots/tomo-2026-09-02T163857.png",
-     "score": 7.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 208
-    },
-    {
-     "name": "Jarvie",
-     "slug": "jarvie",
-     "description": "Jarvie is a consumer AI assistant from All Day Technologies, Inc. that lives inside iMessage and SMS group chats. Marketed as \"your group chat sidekick,\" it helps people who text together plan events, learn things, and have fun, and can draft emails and create calendar events on a user's behalf. It offers memory features to personalize responses across conversations. Jarvie is a mobile-messaging consumer product surfaced as a portfolio company of Lightspeed Venture Partners; as of this profile it does not publish a public API, developer portal, SDKs, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jarvie/refs/heads/main/screenshots/jarvie-2026-07-25T223059.png",
-     "score": 7.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10621,25 +10385,269 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 204
     },
     {
-     "name": "VonBox",
-     "slug": "vonbox",
-     "description": "VonBox operated as Vonjour (vonjour.com), a Santa Monica, CA cloud communications startup offering phone, text messaging, and contact center services for small businesses, backed by 500 Global (then 500 Startups) and Kima Ventures circa 2014-2015, including a Vonjour for 500 Startups perk program. The vonjour.com website is no longer live (DNS resolves but HTTP does not respond), and no public API, developer documentation, or client packages are published. The founding team (Daniel Tawfik, Aman Fahimullah) went on to build ZenPatient (zenpatient.com), a digital health platform, and the company GitHub organization github.com/Vonjour is now branded ZenPatient.",
-     "score": 6.1,
+     "name": "Dialup",
+     "slug": "dialup",
+     "description": "Dialup is a voice-chat app that revives the magic of talking on the phone by pairing people for one-on-one calls based on shared interests. It automates recurring, scheduled calls so users connect serendipitously with friends, communities, or complete strangers around the world without any manual coordination. Callers opt in with custom caller IDs rather than random numbers, and the free service is available on iOS and Android. Dialup is a Bloomberg Beta portfolio company; it operates as a consumer social/communication application and does not currently publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dialup/refs/heads/main/screenshots/dialup-2026-07-25T211917.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 205
+    },
+    {
+     "name": "Remind",
+     "slug": "remind",
+     "description": "Remind is a K-12 school-home communication platform that lets teachers, schools, and districts message students and families by text, app, email, and voice without exchanging personal phone numbers. The product line includes Remind Chat, a free two-way messaging service used by individual teachers and classrooms, and Remind Hub, a paid district-wide communications platform with administrative controls, SIS integration, delivery analytics, and translation into 90+ languages. Remind reports use in roughly 80% of US public schools and by a majority of US teachers. In November 2023, Santa Barbara-based ParentSquare acquired Remind, and the combined company now operates under the ParentSquare name with Remind Hub continuing for existing district customers and Remind Chat continuing for classroom-level use; Remind Tutoring was discontinued as part of the combination. Remind's only externally documented developer surface is the Share on Remind SDK (the \"Remind Share SDK\"), a partner program that lets approved third-party content providers embed the Remind composer into their own product, authenticate Remind users via OAuth 2.0, serve shareable content and previews via partner-hosted webhooks, and ship messages back through Remind. The Share SDK is accessed by application through partners@remind.com and the developer console at remind.com/integrations; there is no public self-serve REST API, no published OpenAPI specification, and no general-purpose messaging API for sending Remind messages from third-party systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remind/refs/heads/main/screenshots/remind-2026-06-20T192839.png",
+     "score": 9.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 29.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 206
+    },
+    {
+     "name": "Chimelabs Holdings PTY LTD",
+     "slug": "chimelabs-holdings-pty-ltd",
+     "description": "Chime Labs (Chimelabs Holdings PTY LTD) builds an AI voice receptionist and call-automation platform purpose-built for Australian trades and service businesses — plumbers, electricians, HVAC, locksmiths, pest control, cleaners and other on-the-tools operators. The AI answers missed inbound calls 24/7, qualifies and captures job details in natural Australian English, books work into scheduling and field-service systems (ServiceM8, Simpro, ServiceTitan, AroFlo, Fergus, Acuity Scheduling and Google Calendar), runs outbound calls, and turns quote calls into sent quotes automatically. Founded in 2025 in Sydney, Australia by Alexis Griveau (CEO) and Mathew Pretel and backed by 500 Global. The company operates a customer-facing SaaS product at platform.chimelabs.ai; it does not currently publish a public developer API, SDK, or OpenAPI surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chimelabs-holdings-pty-ltd/refs/heads/main/screenshots/chimelabs-holdings-pty-ltd-2026-07-25T205219.png",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 207
+    },
+    {
+     "name": "West Technology Group",
+     "slug": "west",
+     "description": "West Technology Group is a cloud-based global technology company providing customer experience and communications solutions through its WestCX platform. The company operates through two main brands: Mosaicx, which delivers AI-native conversational automation for enterprise customer engagement, and TeleVox, which provides digital patient engagement solutions for healthcare organizations including providers, payers, and life sciences companies.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/west/refs/heads/main/screenshots/west-2026-06-20T201357.png",
+     "score": 8.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 208
+    },
+    {
+     "name": "Tomo",
+     "slug": "tomo",
+     "description": "Tomo is a consumer \"personal AI\" application that lives in your text messages: users tell Tomo about their life, goals, problems, and aspirations over SMS, and the AI assistant learns those goals and guides them toward achieving them through ongoing text-based conversation. Backed by Bain Capital Ventures and Ribbit Capital, Tomo operates in the AI-apps sector as a mobile-first consumer product rather than a developer platform. As of this enrichment pass the company publishes a marketing site (tomo.ai) with About, Careers, Privacy, Terms, and Login pages but no public developer program: no API documentation, OpenAPI/AsyncAPI specification, SDKs, CLI, MCP server, llms.txt, or .well-known discovery endpoints were found. This profile is maintained for API Evangelist network completeness.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tomo/refs/heads/main/screenshots/tomo-2026-09-02T163857.png",
+     "score": 7.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 209
+    },
+    {
+     "name": "Jarvie",
+     "slug": "jarvie",
+     "description": "Jarvie is a consumer AI assistant from All Day Technologies, Inc. that lives inside iMessage and SMS group chats. Marketed as \"your group chat sidekick,\" it helps people who text together plan events, learn things, and have fun, and can draft emails and create calendar events on a user's behalf. It offers memory features to personalize responses across conversations. Jarvie is a mobile-messaging consumer product surfaced as a portfolio company of Lightspeed Venture Partners; as of this profile it does not publish a public API, developer portal, SDKs, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jarvie/refs/heads/main/screenshots/jarvie-2026-07-25T223059.png",
+     "score": 7.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 19.4,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10666,21 +10674,21 @@
      "rank": 210
     },
     {
-     "name": "Brooktrout Technology",
-     "slug": "brooktrout-technology",
-     "description": "Brooktrout Technology, Inc. was a Needham, Massachusetts telecommunications company founded in 1984 that designed fax and voice-processing hardware and software for computer telephony integration (CTI), including the TR114 and TR1034 fax boards and the SR140 host-based (software) fax product. Its developer kit, the Brooktrout SDK, provided C/C++ APIs for building fax, voice, and unified-messaging applications. Brooktrout was acquired by Excel Switching in 2000 (forming Brooktrout Technology / Excel), and the Brooktrout product line later became part of Dialogic, which continues to ship and document the Dialogic Brooktrout SDK. The brooktrout.com domain now redirects to Dialogic; Brooktrout survives as a legacy product brand rather than an independent company, and it has no standalone modern web-API developer surface. Surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network as a stub lead.",
-     "score": 5.0,
+     "name": "VonBox",
+     "slug": "vonbox",
+     "description": "VonBox operated as Vonjour (vonjour.com), a Santa Monica, CA cloud communications startup offering phone, text messaging, and contact center services for small businesses, backed by 500 Global (then 500 Startups) and Kima Ventures circa 2014-2015, including a Vonjour for 500 Startups perk program. The vonjour.com website is no longer live (DNS resolves but HTTP does not respond), and no public API, developer documentation, or client packages are published. The founding team (Daniel Tawfik, Aman Fahimullah) went on to build ZenPatient (zenpatient.com), a digital health platform, and the company GitHub organization github.com/Vonjour is now branded ZenPatient.",
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10708,6 +10716,48 @@
      "rank": 211
     },
     {
+     "name": "Brooktrout Technology",
+     "slug": "brooktrout-technology",
+     "description": "Brooktrout Technology, Inc. was a Needham, Massachusetts telecommunications company founded in 1984 that designed fax and voice-processing hardware and software for computer telephony integration (CTI), including the TR114 and TR1034 fax boards and the SR140 host-based (software) fax product. Its developer kit, the Brooktrout SDK, provided C/C++ APIs for building fax, voice, and unified-messaging applications. Brooktrout was acquired by Excel Switching in 2000 (forming Brooktrout Technology / Excel), and the Brooktrout product line later became part of Dialogic, which continues to ship and document the Dialogic Brooktrout SDK. The brooktrout.com domain now redirects to Dialogic; Brooktrout survives as a legacy product brand rather than an independent company, and it has no standalone modern web-API developer surface. Surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network as a stub lead.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 212
+    },
+    {
      "name": "The Nudge",
      "slug": "the-nudge",
      "description": "The Nudge is a free consumer lifestyle app that texts its members short videos from locals recommending their favorite real-world things to do — secret hikes, date ideas, restaurants, and activities — a few \"Nudges\" each week to help people (primarily millennials) have more fun in real life and be more adventurous, romantic, and social. Founded in 2018 by siblings Sarah and John Peterson and based in San Francisco, The Nudge is available on iOS and Android and is backed by Lightspeed Venture Partners among other investors. It is a business-to-consumer product delivered over SMS and mobile apps, with no public API or developer program.",
@@ -10723,7 +10773,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10755,7 +10805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "Wupima",
@@ -10806,7 +10856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "Voxox",
@@ -10823,7 +10873,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10855,7 +10905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "Textaurant",
@@ -10907,7 +10957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 216
     }
    ]
   }

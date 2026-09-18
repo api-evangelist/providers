@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The Coverage API performs real-time insurance eligibility and benefits verification for a patient against a payer. Clients submit provider NPI, payer ID, and member identity information and receive st
@@ -231,7 +231,7 @@ score:
   band: developing
   composite: 54.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 51.0
     catalog_earned_first_party: 8.0
     catalog_gap: 64.0
@@ -256,7 +256,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

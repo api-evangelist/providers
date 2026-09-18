@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Live production API host operated by Blockskye, discovered by probe. The host answers as a Fastify service behind AWS API Gateway: GET /health returns 200 with a JSON status/bootId payload, every othe'
@@ -144,7 +144,7 @@ score:
   band: emerging
   composite: 14.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -166,7 +166,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Altus Group publishes no public API, OpenAPI or developer program for ARGUS Developer. Probed 2026-09-06: no spec on any Altus host, no developer or docs subdomain resolves, and cloud.altusplatform.co'
@@ -187,7 +187,7 @@ score:
   band: thin
   composite: 26.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -205,7 +205,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

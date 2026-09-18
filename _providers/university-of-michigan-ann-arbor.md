@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The University of Michigan's own Shibboleth SAML 2.0 identity provider, and the most unambiguously institution-operated machine-readable surface U-M publishes. GET https://shibboleth.umich.edu/idp/shi
@@ -330,7 +330,7 @@ score:
   band: strong
   composite: 59.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 85.0
     catalog_earned_first_party: 5.0
     catalog_gap: 30.0
@@ -366,7 +366,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

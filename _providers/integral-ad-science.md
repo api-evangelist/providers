@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'RESTful API that exposes IAS viewability, fraud and brand safety metrics for a customer''s own business applications. Job-oriented: POST /report submits a JSON ReportRequest describing teams, date rang'
@@ -249,7 +249,7 @@ score:
   band: thin
   composite: 26.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -272,7 +272,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

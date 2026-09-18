@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - baseURL: https://virtualincision.com/wp-json
@@ -254,7 +254,7 @@ score:
   band: thin
   composite: 31.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -285,7 +285,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

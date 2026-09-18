@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: NSDK 4.x is Niantic Spatial's unified, SDK-first developer platform for Unity, Swift, Android, and ROS 2, exposing VPS 2.0 visual positioning (centimeter-level 6DoF localization), semantic understandi
@@ -144,7 +144,7 @@ score:
   band: thin
   composite: 30.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,7 +160,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 30.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

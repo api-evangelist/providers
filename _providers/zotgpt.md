@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://api.zotgpt.uci.edu/v1
@@ -239,7 +239,7 @@ score:
   band: developing
   composite: 48.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -276,7 +276,7 @@ score:
     regime_id: education
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

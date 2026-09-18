@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 11
 apis:
 - description: The core FHIR REST API exposed by every Smile CDR FHIR Endpoint module. Supports the full FHIR REST interaction set (read, vread, update, patch, delete, history, search, transaction, batch, conditiona
@@ -229,7 +229,7 @@ score:
   band: emerging
   composite: 11.5
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -256,7 +256,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'An OGC-standard GeoServer at geo.ec.gc.ca. Probed anonymously on 2026-08-20: the WMS 1.3.0 GetCapabilities request returned HTTP 200 with a valid WMS_Capabilities document titled "ECCC Web Map Service'
@@ -51,7 +51,7 @@ score:
   band: minimal
   composite: 7.8
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -72,7 +72,7 @@ score:
     - north-america
   previous_composite: 7.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

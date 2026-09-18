@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Axonius is a cybersecurity asset management platform providing SaaS management, device discovery, and security policy enforcement across IT environments.
@@ -148,7 +148,7 @@ score:
   band: emerging
   composite: 16.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 31.0
     catalog_earned_first_party: 0.0
     catalog_gap: 84.0
@@ -164,7 +164,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

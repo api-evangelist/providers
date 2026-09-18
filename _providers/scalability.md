@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: KEDA is a Kubernetes-based event-driven autoscaling component and CNCF graduate project. It provides fine-grained autoscaling (including to/from zero) for event-driven Kubernetes workloads by bridging
@@ -172,7 +172,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

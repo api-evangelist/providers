@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Global Apex service classes for automating revenue recognition to ASC 606 and IFRS 15. RevenueContractService creates and updates revenue contracts, generates performance obligations, allocates revenu
@@ -127,7 +127,7 @@ score:
   band: emerging
   composite: 22.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 53.0
@@ -143,7 +143,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 22.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

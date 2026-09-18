@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -49,6 +49,14 @@ common:
   title: ''
   type: LlmsText
   url: https://www.lean.org/llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lean.org/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lean.org/the-lean-post/articles/
 created: '2025-01-01'
 description: Lean Six Sigma is a methodology that combines Lean manufacturing principles and Six Sigma quality management techniques to improve business processes by eliminating waste and reducing variation, focusing on data-driven decision making and continuous improvement.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lean-six-sigma.png
@@ -65,29 +73,32 @@ network: true
 overview: 'Lean Six Sigma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Business Process, Continuous Improvement, Methodology, Process Improvement, and Quality Management.
 
 
-  The Lean Six Sigma catalog on APIs.io includes 1 JSON-LD context.'
+  The Lean Six Sigma catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Lean Six Sigma''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 8.4
+  composite: 8.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 57.4
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

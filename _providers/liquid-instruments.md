@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Moku Scripting API is a RESTful HTTP interface served by the Moku device itself. A client first POSTs an empty JSON object to moku/claim_ownership to mint a Moku-Client-Key, then POSTs JSON parame
@@ -214,7 +214,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -237,7 +237,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

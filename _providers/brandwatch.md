@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
@@ -326,7 +326,7 @@ score:
   band: developing
   composite: 51.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 46.0
     catalog_earned_first_party: 8.0
     catalog_gap: 69.0
@@ -351,7 +351,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

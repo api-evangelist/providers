@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RESTful API for crypto and stablecoin platforms to onboard end users (KYC/AML), open named and virtual fiat accounts, receive pay-ins and send payouts across GBP, EUR and USD schemes, run FX conversio
@@ -230,7 +230,7 @@ score:
   band: developing
   composite: 49.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -259,7 +259,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

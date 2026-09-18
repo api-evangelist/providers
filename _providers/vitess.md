@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: VTGate is the stateless proxy that routes queries to the appropriate VTTablet instances. It exposes a MySQL-compatible interface and a gRPC API that clients use to interact with the Vitess cluster, ha
@@ -223,7 +223,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 56.5
     catalog_earned_first_party: 0.0
     catalog_gap: 58.5
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RESTful HTTP interface for streaming and querying mobile threat, device, OS, application, and vulnerability data from a Lookout Mobile Endpoint Security tenant. Uses OAuth 2.0 client-credentials authe
@@ -147,7 +147,7 @@ score:
   band: thin
   composite: 27.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -165,7 +165,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

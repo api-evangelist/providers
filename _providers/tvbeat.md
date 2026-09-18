@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 8
 common:
@@ -177,7 +177,7 @@ score:
   band: emerging
   composite: 17.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -201,7 +201,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

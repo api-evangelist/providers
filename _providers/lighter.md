@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://mainnet.zklighter.elliot.ai
@@ -328,7 +328,7 @@ score:
   band: developing
   composite: 54.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -359,7 +359,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The Taylor & Francis Content API provides programmatic access to eBook and chapter downloads from the taylorfrancis.com platform. Using DOI-based identifiers, institutional subscribers can retrieve PD
@@ -128,7 +128,7 @@ score:
   band: thin
   composite: 30.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 53.0
@@ -150,7 +150,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

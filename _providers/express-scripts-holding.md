@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The partner-facing API estate Express Scripts exposes through its own gateway. The production host api.express-scripts.io and the sandbox host api-sandbox.express-scripts.io both answer HTTP 401 to ev
@@ -212,7 +212,7 @@ score:
   band: thin
   composite: 31.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -236,7 +236,7 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

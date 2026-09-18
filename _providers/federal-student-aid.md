@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: StudentAid.gov is the official consumer platform for U.S. federal student aid. Borrowers and students use the site to complete the FAFSA, manage federal loans, review repayment plans, and access aid r
@@ -171,7 +171,7 @@ score:
   band: thin
   composite: 31.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
@@ -196,7 +196,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The institution-facing integration surface behind vle.kortext.com — 1EdTech LTI 1.1 launch and LTI 1.3 Deep Linking endpoints that place Kortext content and KeyLinks reading lists inside Blackboard, M
@@ -251,7 +251,7 @@ score:
   band: developing
   composite: 43.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -282,7 +282,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

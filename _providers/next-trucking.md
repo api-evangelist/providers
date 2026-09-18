@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The service gateway behind NEXT''s ATLAS transportation management system and its shipper, carrier and managed-carrier portals. Twenty-nine service paths were enumerated from the ATLAS web application '
@@ -182,7 +182,7 @@ score:
   band: emerging
   composite: 20.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -205,7 +205,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

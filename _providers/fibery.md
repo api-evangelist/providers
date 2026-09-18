@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Command-based REST API for managing Fibery workspace entities, databases, views, files, and automation via a single POST endpoint that accepts batches of commands.
@@ -134,7 +134,7 @@ score:
   band: thin
   composite: 32.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -150,7 +150,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 32.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

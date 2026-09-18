@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,6 +61,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://boomsupersonic.com/privacy
+- group: company
+  title: ''
+  type: Blog
+  url: https://boomsupersonic.com/news
 created: '2026-07-17'
 description: Boom Supersonic is a Denver-based aerospace company building supersonic commercial aircraft to make the world dramatically more accessible. Its flagship airliner, Overture, is designed to carry passengers at twice the speed of today's jets and has orders and pre-orders from United Airlines, American Airlines, and Japan Airlines. The company develops the Symphony medium-bypass turbofan engine purpose-built for supersonic flight, flew the XB-1 demonstrator past Mach 1, and is applying its propulsion technology to Superpower gas turbines for data-center energy. Boom is a deep-tech, hardware-first manufacturer and does not currently publish a public developer API surface; this profile tracks its identity and security posture in the API Evangelist network. Backed by Bessemer Venture Partners, Electric Capital, and Homebrew.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boom-supersonic.png
@@ -72,13 +76,13 @@ network: true
 overview: 'Boom Supersonic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Aerospace, Aviation, and Supersonic.
 
 
-  Boom Supersonic''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Boom Supersonic''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 11
 score:
   band: minimal
   composite: 10.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -99,7 +103,7 @@ score:
     - north-america
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

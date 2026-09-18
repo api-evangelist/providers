@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 7.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: A portfolio of open source projects governed by the Confidential Computing Consortium covering Trusted Execution Environment runtimes, remote attestation services, trustworthy workload identity, and s
@@ -201,7 +201,7 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 57.0
     catalog_earned_first_party: 17.0
     catalog_gap: 58.0
@@ -219,7 +219,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

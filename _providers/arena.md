@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Arena''s REST Platform API (V3) for programmatically managing engagement resources — Liveblog, Live Chat, Analytics, Account, Stream, Users, Moderation, Polls, and Q&A — mirroring the Arena Dashboard. '
@@ -158,7 +158,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -174,7 +174,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

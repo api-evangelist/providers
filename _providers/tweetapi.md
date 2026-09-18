@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: REST API for public Twitter/X data with X-API-Key auth, JSON responses, and 76 documented endpoints across users, tweets, posting, interactions, lists, profiles, communities, Spaces, search, auth, X C
@@ -226,7 +226,7 @@ score:
   band: developing
   composite: 47.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -246,7 +246,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

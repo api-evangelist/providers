@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Budbee's public REST API for e-commerce merchants and integration partners to create delivery orders, book home and locker delivery intervals, validate serviceable postal codes, discover parcel locker
@@ -160,7 +160,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -184,7 +184,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

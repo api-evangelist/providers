@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: 'REST API for collecting payments from customers via mobile money (MTN MOMO, Orange Money), QR code in-store payments, and web redirect checkout. Supports direct mobile wallet charges, payment request '
@@ -128,7 +128,7 @@ score:
   band: emerging
   composite: 19.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -155,7 +155,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

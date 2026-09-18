@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: JSON-RPC interface to the XRP Ledger mainnet for querying accounts, transactions, ledgers, order books, AMM pools, NFTs, and server info. Served by community-run public rippled and Clio nodes.
@@ -164,7 +164,7 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
@@ -185,7 +185,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

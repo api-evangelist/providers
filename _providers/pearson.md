@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Pearson's named API program. Historically served the LearningStudio RESTful Course APIs, the SOAP SIS APIs, an eventing surface and a Financial Times Education API via api.pearson.com. The platform wa
@@ -179,7 +179,7 @@ score:
   band: thin
   composite: 32.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -204,7 +204,7 @@ score:
     regime_id: education
     score: 68.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: High-performance proto3 gRPC API (with gRPC-Web for browsers) for the Thru blockchain. QueryService exposes 24 read operations over accounts, blocks, transactions, events, state proofs, and node statu
@@ -185,7 +185,7 @@ score:
   band: thin
   composite: 31.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -205,7 +205,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

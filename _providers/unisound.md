@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'Multi-modal MaaS API for Unisound U2 models: OpenAI-compatible chat completions and Anthropic-compatible messages for the U2 and U2-Med LLMs (streaming, function calling, structured output, context ca'
@@ -193,7 +193,7 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -217,7 +217,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The machine-readable grid data behind ENMAX Power's public Hosting Capacity, Load Capacity and Service Area maps. The three maps published at enmax.com/system-resources are ArcGIS Online Web AppBuilde
@@ -176,7 +176,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -207,7 +207,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

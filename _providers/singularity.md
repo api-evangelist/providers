@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,6 +65,10 @@ common:
   title: ''
   type: Twitter
   url: https://x.com/singularitydefc
+- group: company
+  title: ''
+  type: Website
+  url: https://singularityus.com
 created: '2026-07-17'
 description: Singularity (Singularity Defense Corp) is a defense-technology company building low-cost, mass-producible air-defense and counter-weapon systems to protect warfighters and civilians from drones and cheap aerial munitions. Founded by engineers from SpaceX, Tesla, and Anduril alongside operators who have deployed air defenses in combat, the company emerged from stealth in July 2026 with an $80M Series A at a $400M valuation led by Khosla Ventures and Felicis, with Menlo Ventures, NEA, Y Combinator, Harpoon Ventures, and others participating. It emphasizes in-house manufacturing of major subsystems combined with commercial-volume components for rapid production and field deployment, including active conflict zones. Singularity is a hardware defense company and does not publish a public API, developer portal, or SDKs. This profile was surfaced as a Menlo Ventures portfolio lead and enriched with verified company identity by the API Evangelist pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/singularity.png
@@ -79,7 +83,7 @@ score:
   band: minimal
   composite: 5.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -95,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

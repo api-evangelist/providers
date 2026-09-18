@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Kiota generates strongly-typed, lightweight API clients from OpenAPI descriptions in C#, Dart, Go, Java, PHP, Python, Ruby and TypeScript, with minimal dependencies and idiomatic code patterns, plus a
@@ -242,7 +242,7 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 46.0
     catalog_earned_first_party: 5.0
     catalog_gap: 69.0
@@ -260,7 +260,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

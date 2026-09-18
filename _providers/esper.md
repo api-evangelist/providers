@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://foo-api.esper.cloud/api
@@ -261,7 +261,7 @@ modified: '2026-07-19'
 name: Esper
 nav: Providers
 network: true
-overview: 'Esper publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Application API, Application V1 API, Commands API, and 10 more. Tagged areas include Device Management, Mobile Device Management, Android, DevOps, and Internet of Things.
+overview: 'Esper publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Application API, Application V1 API, Commands API, and 10 more. Tagged areas include Device Management, Mobile Device Management, Android, DevOps, and IoT.
 
 
   The Esper catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -273,7 +273,7 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -298,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -323,7 +323,7 @@ tags:
 - Mobile Device Management
 - Android
 - DevOps
-- Internet of Things
+- IoT
 - Fleet Management
 - Enterprise Mobility
 - Edge Computing

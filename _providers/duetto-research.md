@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,6 +74,10 @@ common:
   title: ''
   type: WellKnown
   url: well-known/duetto-research-well-known.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.duettocloud.com/en-us/library/rss.xml
 created: '2026-07-17'
 description: Duetto Research is a hospitality technology company whose cloud platform, marketed as Duetto, delivers a Revenue & Profit Operating System (RP-OS) for hotels, casinos, and resorts. The platform pairs real-time dynamic pricing, demand forecasting, group and block business management, and profitability benchmarking so revenue teams can optimize rates and total property profit across more than 20,000 properties in over 100 countries. Its marquee products include GameChanger (dynamic pricing and rate optimization), ScoreBoard (forecasting and reporting), BlockBuster (group business), Advance (AI-driven rate recommendations), GameTime (select-service revenue management), and HotStats (profitability benchmarking). Duetto connects with the property management systems, booking engines, and channel managers hotels already use through a large partner-integration ecosystem rather than a self-serve public developer API. Backed by Battery Ventures; surfaced into the API Evangelist network
   as a portfolio lead.
@@ -86,13 +90,13 @@ network: true
 overview: 'Duetto Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotels, Revenue Management, and Pricing.
 
 
-  Duetto Research''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
+  Duetto Research''s developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
 random_paper: 11
 score:
   band: emerging
   composite: 13.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -108,7 +112,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 13.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

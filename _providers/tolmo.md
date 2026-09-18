@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Backend API for the Tolmo cloud security platform, consumed through the Tolmo CLI (SQL/Cypher queries over the infrastructure graph, security findings management, and a secure server-side proxy for co
@@ -163,7 +163,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -181,7 +181,7 @@ score:
   provenance:
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

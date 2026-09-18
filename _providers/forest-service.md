@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The Forest Inventory and Analysis Database API, the machine surface behind the EVALIDator web application. A single GET or POST to /fullreport returns population estimates with standard errors, varian
@@ -174,7 +174,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -200,7 +200,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

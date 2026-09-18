@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Stockholm University operates its own Shibboleth Identity Provider and publishes its SAML 2.0 entity metadata anonymously on its registrable domain. The document declares entityID https://idp.it.su.se
@@ -220,7 +220,7 @@ score:
   band: emerging
   composite: 24.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -252,7 +252,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

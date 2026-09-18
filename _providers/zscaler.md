@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: REST API for managing Zscaler Internet Access policies, URL filtering, cloud sandbox, DLP, location and user provisioning, and reporting on web traffic and threats across the Zscaler Cloud platform.
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 12.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -114,7 +114,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

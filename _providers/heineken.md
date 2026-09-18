@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Heineken operates an internal API portal under its HEIWAY platform used for B2B and partner integrations (distributors, on-trade customers, and internal systems). The portal is reached via developer.h
@@ -87,7 +87,7 @@ score:
   band: minimal
   composite: 7.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -103,7 +103,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

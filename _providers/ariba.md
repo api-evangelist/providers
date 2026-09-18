@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 74
 apis:
 - description: Provides synchronous and asynchronous access to operational procurement data including requisitions, purchase orders, receipts, and invoices for reporting and analytics purposes.
@@ -501,7 +501,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 12.0
     catalog_gap: 70.0
@@ -520,7 +520,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The versioned REST API behind FastShip, Cloud Commerce''s cross-border e-commerce logistics platform. Discovered live at openapi.fastship.co: GET /api/v2 returns "Welcome to API Version 2.0" and POST /'
@@ -156,7 +156,7 @@ score:
   band: emerging
   composite: 24.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -172,6 +172,8 @@ score:
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - thailand
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
@@ -180,7 +182,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

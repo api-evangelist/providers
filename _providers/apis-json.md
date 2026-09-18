@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The APIs.json specification defines a machine-readable JSON or YAML format for describing API operations. Unlike OpenAPI which describes the technical interface of a single API, APIs.json describes th
@@ -298,7 +298,7 @@ score:
   band: thin
   composite: 30.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 70.5
     catalog_earned_first_party: 0.0
     catalog_gap: 44.5
@@ -316,7 +316,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

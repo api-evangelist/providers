@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Hokodo's B2B Buy Now, Pay Later REST API. Create companies and customers, request credit offers, place orders, and manage deferred payment plans and trade accounts. Versioned at /v1/; authenticated wi
@@ -144,7 +144,7 @@ score:
   band: emerging
   composite: 22.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -172,7 +172,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

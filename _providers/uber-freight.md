@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'Core REST API for generating price quotes for truckload shipments, tendering loads to Uber Freight''s carrier network, and cancelling tenders. Returns guaranteed spot rates with expiration timestamps. '
@@ -128,7 +128,7 @@ score:
   band: emerging
   composite: 25.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -150,7 +150,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

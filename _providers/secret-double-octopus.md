@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API of the Octopus Authentication Server Management Console. SDO's own FAQ states "we provide comprehensive REST APIs that allow complete system control, including scripting, bulk updates, and in
@@ -145,7 +145,7 @@ score:
   band: thin
   composite: 26.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -164,7 +164,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

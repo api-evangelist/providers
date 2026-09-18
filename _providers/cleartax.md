@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Generate, cancel, and retrieve GST e-invoices (IRN) and e-waybills, including government IRP/NIC-compatible endpoints, DSC PDF signing, and bulk operations.
@@ -175,7 +175,7 @@ score:
   band: thin
   composite: 36.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -204,7 +204,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

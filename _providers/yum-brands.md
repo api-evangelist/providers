@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Byte by Yum! is Yum! Brands' proprietary AI-driven restaurant technology platform delivering digital ordering, point-of-sale, kitchen operations, menu management, inventory, and labor management acros
@@ -179,7 +179,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -195,7 +195,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

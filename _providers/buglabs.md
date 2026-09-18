@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-20'
 name: Bug Labs
 nav: Providers
 network: true
-overview: 'Bug Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Internet of Things, Workflow-Automation, and API Orchestration.
+overview: 'Bug Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, IoT, Workflow-Automation, and API Orchestration.
 
 
   Bug Labs'' developer surface includes support, engineering blog, and 8 more developer resources.'
@@ -97,7 +97,7 @@ score:
   band: minimal
   composite: 7.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -113,7 +113,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -129,7 +129,7 @@ slug: buglabs
 tags:
 - Company
 - Enterprise Software
-- Internet of Things
+- IoT
 - Workflow-Automation
 - API Orchestration
 - Networking

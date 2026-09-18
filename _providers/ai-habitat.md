@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: AI Habitat simulation framework for embodied AI research, including Habitat-Sim (high-performance 3D simulator) and Habitat-Lab (modular training library). Supports navigation, manipulation, and human
@@ -356,7 +356,7 @@ score:
   band: thin
   composite: 34.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 54.3
     catalog_earned_first_party: 0.0
     catalog_gap: 60.8
@@ -374,7 +374,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

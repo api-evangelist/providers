@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'A live, OAuth-protected Model Context Protocol server that involve.me serves from its own infrastructure and advertises through RFC 9728 protected-resource metadata on www.involve.me. SCOPE: it expose'
@@ -224,7 +224,7 @@ score:
   band: developing
   composite: 49.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -240,6 +240,8 @@ score:
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - austria
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - dach
@@ -249,7 +251,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

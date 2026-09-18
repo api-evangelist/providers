@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Manage traceability entities - Pixels (tags), assets, categories, asset types, locations, zones, metadata and events - scoped per owner.
@@ -146,7 +146,7 @@ modified: '2026-07-21'
 name: Wiliot
 nav: Providers
 network: true
-overview: 'Wiliot publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet of Things, Ambient IoT, Supply Chain, and Asset Tracking.
+overview: 'Wiliot publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Ambient IoT, Supply Chain, and Asset Tracking.
 
 
   Wiliot''s developer surface includes documentation, engineering blog, support, authentication, changelog, and 15 more developer resources.'
@@ -155,7 +155,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -174,7 +174,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -193,7 +193,7 @@ security:
 slug: wiliot
 tags:
 - Company
-- Internet of Things
+- IoT
 - Ambient IoT
 - Supply Chain
 - Asset Tracking

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: API for programmatic access to Microsoft Access databases through various interfaces including ODBC, OLE DB, and DAO.
@@ -191,7 +191,7 @@ score:
   band: thin
   composite: 35.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 42.3
     catalog_earned_first_party: 0.0
     catalog_gap: 72.8
@@ -207,7 +207,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 35.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

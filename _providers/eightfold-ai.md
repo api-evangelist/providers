@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: Core AI platform that powers candidate matching, skills inference, career-path recommendations, and internal mobility decisions across the Eightfold suite. Customer-facing APIs are made available to e
@@ -241,7 +241,7 @@ score:
   band: thin
   composite: 36.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -261,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

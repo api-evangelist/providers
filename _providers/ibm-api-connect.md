@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'The IBM API Connect Management API provides programmatic access to manage APIs, products, catalogs, organizations, and other platform resources in the API Connect platform. It is used to automate API '
@@ -186,7 +186,7 @@ score:
   band: developing
   composite: 43.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
@@ -202,7 +202,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 43.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

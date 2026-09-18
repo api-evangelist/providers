@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The ION Factory OS GraphQL API. A single GraphQL endpoint for reading and writing manufacturing data in ION: Runs, Procedures, Parts, mBOM/aBOM, inventory, notifications, and webhook subscriptions. Au'
@@ -199,7 +199,7 @@ score:
   band: developing
   composite: 46.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -219,7 +219,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

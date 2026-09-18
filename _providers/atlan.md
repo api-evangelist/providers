@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The core REST API for the Atlan platform, providing programmatic access to all platform capabilities including asset management, data lineage, glossary terms, classifications, custom metadata, persona
@@ -145,7 +145,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 66.0
     catalog_earned_first_party: 0.0
     catalog_gap: 49.0
@@ -163,7 +163,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

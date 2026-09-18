@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'Modeled product-area API for client/patient records - the people a practice serves, their demographics, contact details, and intake information. endpointsModeled: true. Carepatron does not publish a d'
@@ -103,7 +103,7 @@ score:
   band: emerging
   composite: 18.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -125,7 +125,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

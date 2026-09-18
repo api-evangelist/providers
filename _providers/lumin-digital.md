@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Lumin Digital's platform API and SDK surface, used by financial institutions and by ecosystem partners to integrate third-party products into the digital banking experience and to move data between th
@@ -204,7 +204,7 @@ score:
   band: emerging
   composite: 18.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -229,7 +229,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

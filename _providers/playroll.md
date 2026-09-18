@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Partner/enterprise integration surface for Playroll's Employer of Record product - hire, onboard, and manage full-time employees in 180+ countries through Playroll's owned entities without your busine
@@ -126,7 +126,7 @@ score:
   band: emerging
   composite: 19.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
@@ -142,7 +142,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

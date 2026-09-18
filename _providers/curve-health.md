@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-07-18'
 name: Curve Health
 nav: Providers
 network: true
-overview: 'Curve Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telemedicine, and Telehealth.
+overview: 'Curve Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telehealth, and Digital Health.
 
 
   Curve Health''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
@@ -82,7 +82,7 @@ score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -126,7 +126,6 @@ tags:
 - Company
 - Health
 - Healthcare
-- Telemedicine
 - Telehealth
 - Digital Health
 - Senior Care

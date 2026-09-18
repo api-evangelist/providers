@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: HTTP/JSON API for Advanced Navigation's Kinematica cloud GNSS/INS post-processing kinematic (PPK) service. Eleven documented calls let a customer application create a data set, upload primary and seco
@@ -174,7 +174,7 @@ score:
   band: developing
   composite: 41.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -193,7 +193,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

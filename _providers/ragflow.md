@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The RAGFlow RESTful HTTP API — 95 documented operations under /api/v1, authenticated with a tenant API key carried as a bearer token. Covers dataset management, document upload / parse / ingest, chunk
@@ -247,7 +247,7 @@ score:
   band: developing
   composite: 45.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

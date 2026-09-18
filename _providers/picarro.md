@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - baseURL: grpc://localhost:3343
@@ -283,7 +283,7 @@ score:
   band: developing
   composite: 49.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -309,7 +309,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

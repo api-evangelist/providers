@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: RESTful API for integrating Turnitin's integrity services into third-party platforms — submit a document, generate a Similarity Report, and display it to users. Authenticates with an integration-insta
@@ -171,7 +171,7 @@ score:
   band: developing
   composite: 40.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -195,7 +195,7 @@ score:
     regime_id: education
     score: 81.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

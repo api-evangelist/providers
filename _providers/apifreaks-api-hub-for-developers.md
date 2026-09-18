@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 104
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
@@ -479,7 +479,7 @@ score:
   band: strong
   composite: 58.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -507,7 +507,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

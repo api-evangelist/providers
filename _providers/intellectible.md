@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Intellectible projects - list and run workflows synchronously, and manage Library files (create signed upload URLs, upload bytes, finalize, retrieve, list, and d
@@ -117,7 +117,7 @@ score:
   band: emerging
   composite: 20.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -141,7 +141,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

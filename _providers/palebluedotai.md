@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: OpenAI-, Anthropic- and Gemini-compatible inference gateway. One API key and one base URL route requests across 131 listed models from 22 vendors, with cross-provider failover, prompt caching and per-
@@ -189,7 +189,7 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -208,7 +208,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

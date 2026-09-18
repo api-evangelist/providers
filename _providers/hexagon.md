@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: REST APIs for the Nexus digital reality platform enabling manufacturers to build connected workflows integrating metrology, quality inspection, and production monitoring data. All endpoints are authen
@@ -247,7 +247,7 @@ score:
   band: strong
   composite: 58.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

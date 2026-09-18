@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Provides programmatic access to Bloomberg's financial market data including real-time and historical pricing, reference data, and analytics.
@@ -223,7 +223,7 @@ score:
   band: strong
   composite: 54.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
@@ -248,7 +248,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

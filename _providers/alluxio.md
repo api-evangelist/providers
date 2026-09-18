@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: S3-compatible REST API exposed by every Alluxio worker (HTTP port 29998, HTTPS 29996) that lets applications built for Amazon S3 read and write cached data without code changes. Path-style requests on
@@ -139,7 +139,7 @@ score:
   band: thin
   composite: 26.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -155,7 +155,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 26.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

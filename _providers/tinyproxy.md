@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Tinyproxy is a lightweight HTTP/HTTPS proxy daemon for POSIX operating systems with minimal system resource requirements. Provides forward proxying, HTTPS CONNECT tunneling, domain filtering, access c
@@ -149,7 +149,7 @@ score:
   band: thin
   composite: 29.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 63.3
     catalog_earned_first_party: 0.0
     catalog_gap: 51.8
@@ -168,7 +168,7 @@ score:
     score: 60.0
   previous_composite: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

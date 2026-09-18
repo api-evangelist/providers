@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 14
 apis:
 - description: The Capital One Account Lookup API is a DevExchange product that lets approved partners resolve and retrieve consumer account information such as balances, transaction history, and account status. Int
@@ -245,7 +245,7 @@ score:
   band: developing
   composite: 44.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -280,7 +280,7 @@ score:
     regime_id: banking_open_finance
     score: 49.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

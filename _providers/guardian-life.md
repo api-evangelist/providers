@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 15
 apis:
 - description: 'Secure, real-time EOI decisioning on a benefit technology partner''s platform when required by an elected Guardian benefit. Employees required to submit EOI are presented the required health questions '
@@ -164,7 +164,7 @@ score:
   band: emerging
   composite: 17.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -186,7 +186,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'Integrate the system of your choice (ERP, PIM, WMS, or webstore) with ChannelEngine. Synchronize product content and offers; retrieve, acknowledge and update orders, shipments, returns, cancellations '
@@ -250,7 +250,7 @@ score:
   band: developing
   composite: 53.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -278,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

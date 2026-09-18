@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: 'The University of Sydney''s federation entity serves signed SAML 2.0 metadata from federation.sydney.edu.au: entityID https://federation.sydney.edu.au/idp/shibboleth, an IDPSSODescriptor advertising ur'
@@ -267,7 +267,7 @@ score:
   band: thin
   composite: 30.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 57.0
     catalog_earned_first_party: 0.0
     catalog_gap: 58.0
@@ -298,7 +298,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

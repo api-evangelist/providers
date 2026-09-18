@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -954,7 +954,7 @@ modified: '2026-05-19'
 name: Microsoft
 nav: Providers
 network: true
-overview: 'Microsoft publishes 59 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Audio API, and 56 more. Tagged areas include Fortune 100.
+overview: 'Microsoft publishes 59 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Applications API, Audio API, and 56 more. Tagged areas include Fortune 100 and Microsoft.
 
 
   The Microsoft catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -1006,7 +1006,7 @@ score:
   band: strong
   composite: 60.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
@@ -1029,7 +1029,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -1051,5 +1051,6 @@ security:
 slug: microsoft
 tags:
 - Fortune 100
+- Microsoft
 website: https://www.microsoft.com/
 ---

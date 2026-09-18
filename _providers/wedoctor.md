@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,22 +96,22 @@ modified: '2026-09-04'
 name: WeDoctor
 nav: Providers
 network: true
-overview: 'WeDoctor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telemedicine, and Internet Hospital.
+overview: 'WeDoctor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telehealth, and Internet Hospital.
 
 
   WeDoctor''s developer surface includes support, signup flow, and 8 more developer resources.'
 random_paper: 13
 score:
   band: minimal
-  composite: 7.9
+  composite: 8.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 17.1
     contract_governance: 0.0
@@ -132,11 +132,11 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 22.7
+    regime: Health
+    regime_id: health
+    score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ tags:
 - Company
 - Healthcare
 - Digital Health
-- Telemedicine
+- Telehealth
 - Internet Hospital
 - Appointment Booking
 - Electronic Prescription

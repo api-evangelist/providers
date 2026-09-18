@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Simbe's cloud platform API, which feeds Tally-captured shelf, inventory, pricing and out-of-stock data into a retailer's existing systems. Its existence is confirmed by Simbe's own public status page,
@@ -146,7 +146,7 @@ score:
   band: emerging
   composite: 15.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -162,7 +162,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 15.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

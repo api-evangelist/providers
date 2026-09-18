@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Redox's modern FHIR API for exchanging clinical and administrative healthcare data across the Redox network using HL7 FHIR resources and notifications, authenticated with OAuth2.
@@ -392,7 +392,7 @@ score:
   band: strong
   composite: 61.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
@@ -430,7 +430,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -1,6 +1,6 @@
 {
- "total": 77,
- "shown": 77,
+ "total": 76,
+ "shown": 76,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -89,7 +89,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -140,7 +140,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -183,8 +183,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 16,
-   "shown": 16,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Origami Risk",
@@ -202,7 +202,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -253,7 +253,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -304,7 +304,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -370,7 +370,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -421,7 +421,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -472,7 +472,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -508,6 +508,57 @@
      "rank": 9
     },
     {
+     "name": "Majesco",
+     "slug": "majesco",
+     "description": "Majesco is a global provider of cloud-native insurance software for Property & Casualty and Life, Annuity & Health carriers, serving 130+ insurers worldwide from its Morristown, New Jersey headquarters. Founded in 1989, it unifies Policy, Billing and Claims administration on a single platform alongside digital engagement, distribution, analytics and risk & compliance products, with GenAI (Majesco Copilot) and agentic AI embedded across the core suites. Its ClaimVantage line covers L&H claims, disability and absence management. Majesco sells API Management (APIM) as a component of those suites rather than as a public developer program, so its API surface is provisioned per carrier tenant and is not publicly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/screenshots/majesco-2026-06-20T184906.png",
+     "score": 47.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 67.0,
+      "contract_governance": 28.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 65.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Core Systems & Policy Administration",
+     "rank": 10
+    },
+    {
      "name": "State Farm",
      "slug": "state-farm",
      "description": "State Farm is the largest property and casualty insurance provider in the United States, headquartered in Bloomington, Illinois. Founded in 1922, the company offers a comprehensive range of insurance products including auto, home, renters, life, health, business, and farm/ranch insurance, as well as banking and financial services. State Farm operates through a network of approximately 19,000 agents across the US and Canada. The company has invested heavily in its digital transformation, operating a Partner Gateway developer portal at developer.statefarm.com that exposes APIs enabling partners, agents, and third-party platforms to integrate with State Farm's insurance products and services. State Farm is a mutual company owned by its policyholders, consistently ranked among the Fortune 50.",
@@ -523,7 +574,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -556,7 +607,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Solera",
@@ -574,7 +625,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -607,7 +658,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Noyo",
@@ -625,7 +676,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -658,7 +709,7 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Travelers",
@@ -676,7 +727,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -709,7 +760,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Extend",
@@ -727,7 +778,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -760,7 +811,7 @@
       "agentic_commerce": false
      },
      "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "At-Bay",
@@ -778,7 +829,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -811,7 +862,7 @@
       "agentic_commerce": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Ease",
@@ -829,7 +880,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -862,7 +913,7 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Verisk",
@@ -880,7 +931,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -913,7 +964,7 @@
       "agentic_commerce": false
      },
      "tier": "Risk Data & Analytics",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Aflac",
@@ -931,7 +982,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -964,7 +1015,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Agentsync",
@@ -982,7 +1033,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1015,7 +1066,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 19
+     "rank": 20
     }
    ]
   },
@@ -1024,8 +1075,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 16,
-   "shown": 16,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Cigna",
@@ -1043,7 +1094,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1076,7 +1127,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "LexisNexis Risk Solutions",
@@ -1094,7 +1145,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1127,7 +1178,7 @@
       "agentic_commerce": false
      },
      "tier": "Risk Data & Analytics",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Humana",
@@ -1145,7 +1196,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1178,7 +1229,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Unum",
@@ -1196,7 +1247,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1229,7 +1280,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Moody's RMS",
@@ -1247,7 +1298,7 @@
       "developer_ergonomics": 43.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1280,7 +1331,7 @@
       "agentic_commerce": false
      },
      "tier": "Risk Data & Analytics",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Gusto",
@@ -1298,7 +1349,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.2,
      "agent_band": "agent-ready",
@@ -1324,7 +1375,7 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "AIG",
@@ -1342,7 +1393,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1375,7 +1426,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "UnitedHealth Group",
@@ -1393,7 +1444,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1426,7 +1477,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "CCC Intelligent Solutions",
@@ -1444,7 +1495,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1477,7 +1528,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Boost Insurance",
@@ -1495,7 +1546,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1528,54 +1579,6 @@
       "agentic_commerce": false
      },
      "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 29
-    },
-    {
-     "name": "Majesco",
-     "slug": "majesco",
-     "description": "Majesco is a global leader of cloud insurance software solutions for insurance business transformation, helping insurance carriers innovate, modernize, and accelerate their digital strategies.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/screenshots/majesco-2026-06-20T184906.png",
-     "score": 31.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 67.0,
-      "contract_governance": 9.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
-     "agent_score": 30.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Core Systems & Policy Administration",
      "rank": 30
     },
     {
@@ -1594,7 +1597,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1645,7 +1648,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1696,7 +1699,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1747,7 +1750,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1798,7 +1801,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1859,7 +1862,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1910,7 +1913,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1961,7 +1964,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2012,7 +2015,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2063,7 +2066,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2114,7 +2117,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2165,7 +2168,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2216,7 +2219,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2266,7 +2269,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2317,7 +2320,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2368,7 +2371,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2419,7 +2422,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2470,7 +2473,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2521,7 +2524,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2572,7 +2575,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2623,7 +2626,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2674,7 +2677,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2725,7 +2728,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2776,7 +2779,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2827,7 +2830,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2878,7 +2881,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2929,7 +2932,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2980,7 +2983,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3031,7 +3034,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3082,7 +3085,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3133,7 +3136,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3184,7 +3187,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3235,7 +3238,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3286,7 +3289,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3328,8 +3331,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 13,
-   "shown": 13,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "Clearcover",
@@ -3347,7 +3350,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3398,7 +3401,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3434,57 +3437,6 @@
      "rank": 66
     },
     {
-     "name": "Cowbell Cyber",
-     "slug": "cowbell-cyber",
-     "description": "Cowbell is a cyber insurance provider (insurtech) that delivers adaptive, continuously-underwritten cyber liability coverage and cyber-risk management services to small businesses and the middle market. Its platform pairs insurance products with proprietary risk analytics — Cowbell Factors, a continuous risk-rating model that benchmarks an organization's exposure against peers — and closed-loop resilience services delivered through the Cowbell console for policyholders, agents, and brokers. Product lines include Cowbell Prime 100 / Prime 100 Pro (small business), Prime 250 / Prime One (middle market), Prime Plus (excess), Technology Errors & Omissions, Management Liability, plus the Cowbell Rx marketplace, Cowbell Connectors, and Cowbell Insights. The company was surfaced as a portfolio company of Anthemis and added to the API Evangelist network. As of this enrichment pass Cowbell publishes no public developer API, OpenAPI, or developer portal — the console at console.cowbellcyber.ai is an authenticated quoting/policy application for agents and insureds, not a documented programmatic API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cowbell-cyber/refs/heads/main/screenshots/cowbell-cyber-2026-07-25T210611.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Cyber & Specialty Risk",
-     "rank": 67
-    },
-    {
      "name": "Hi Marley",
      "slug": "hi-marley",
      "description": "Hi Marley is an intelligent conversational platform built for the property and casualty (P&C) insurance industry, delivering carrier-to-policyholder communication over SMS. The platform connects carriers, policyholders, and service providers through a single messaging fabric to streamline claims — including Conversational FNOL (First Notice of Loss) intake, Total Loss Assist for auto claims, and Workflow Assist for property claims — layered with AI coaching, sentiment analysis, and data insights. Trusted by 130+ carriers, including four of the top ten U.S. insurers across auto, property, and workers compensation lines. Hi Marley is backed by Emergence Capital and True Ventures. No public developer platform, API documentation, or self-service onboarding was found; the product is delivered as a closed SaaS to insurance carriers.",
@@ -3500,7 +3452,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3533,7 +3485,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Nava Benefits",
@@ -3551,7 +3503,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3584,7 +3536,7 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "American Family Insurance",
@@ -3602,7 +3554,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3635,7 +3587,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Snapsheet",
@@ -3653,7 +3605,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3686,7 +3638,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Hippo",
@@ -3704,7 +3656,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3737,7 +3689,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Principal Financial Group",
@@ -3755,7 +3707,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3781,7 +3733,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Nationwide",
@@ -3799,7 +3751,58 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 9.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 73
+    },
+    {
+     "name": "Hartford Financial Services Group",
+     "slug": "hartford-financial-services-group",
+     "description": "The Hartford Financial Services Group is a leading provider of property and casualty insurance, group benefits, and mutual funds and ETFs in the United States. This repository tracks public APIs, developer resources, and machine-readable API artifacts associated with The Hartford. No public developer APIs have been published at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hartford-financial-services-group/refs/heads/main/screenshots/hartford-financial-services-group-2026-06-20T182522.png",
+     "score": 2.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3835,57 +3838,6 @@
      "rank": 74
     },
     {
-     "name": "Hartford Financial Services Group",
-     "slug": "hartford-financial-services-group",
-     "description": "The Hartford Financial Services Group is a leading provider of property and casualty insurance, group benefits, and mutual funds and ETFs in the United States. This repository tracks public APIs, developer resources, and machine-readable API artifacts associated with The Hartford. No public developer APIs have been published at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hartford-financial-services-group/refs/heads/main/screenshots/hartford-financial-services-group-2026-06-20T182522.png",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 9.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 75
-    },
-    {
      "name": "Marsh & McLennan",
      "slug": "marsh-and-mclennan",
      "description": "Marsh & McLennan Companies is a global professional services firm offering clients advice and solutions in risk, strategy, and people through Marsh, Guy Carpenter, Mercer, and Oliver Wyman. The firm does not currently publish a public developer portal or self-service APIs; data exchange with clients is conducted through engagement-specific integrations.",
@@ -3900,7 +3852,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3933,7 +3885,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "MetLife",
@@ -3951,7 +3903,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3984,7 +3936,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 77
+     "rank": 76
     }
    ]
   }

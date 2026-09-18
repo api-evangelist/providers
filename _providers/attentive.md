@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://api.attentivemobile.com/v1
@@ -472,7 +472,7 @@ score:
   band: exemplar
   composite: 74.0
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 48.0
     catalog_earned_first_party: 24.0
     catalog_gap: 67.0
@@ -509,7 +509,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

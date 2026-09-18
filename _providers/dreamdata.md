@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Segment-compatible event tracking API for capturing B2B customer journey events. Server-side events are POSTed as a batch to the HTTP endpoint with HTTP Basic auth (source API key as username, empty p
@@ -237,7 +237,7 @@ score:
   band: developing
   composite: 53.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -257,7 +257,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

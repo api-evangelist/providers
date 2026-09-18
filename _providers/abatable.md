@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: A hosted Model Context Protocol endpoint operated by Abatable at mcp.abatable.com, fronted by Cloudflare Access. It advertises itself as an OAuth protected resource under RFC 9728 and publishes RFC 84
@@ -165,7 +165,7 @@ score:
   band: emerging
   composite: 20.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -184,7 +184,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

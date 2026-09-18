@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Valero Energy Corporation SEC filings and financial data available through the SEC EDGAR system. Includes 10-K, 10-Q, earnings releases, and other regulatory filings. Accessible via the SEC EDGAR API '
@@ -150,7 +150,7 @@ score:
   band: emerging
   composite: 15.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -177,7 +177,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

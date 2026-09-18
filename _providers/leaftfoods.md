@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The agent-facing commerce API for the Leaft Foods storefront. The store implements the Universal Commerce Protocol (ucp.dev) natively through Shopify, exposing a UCP merchant profile at /.well-known/u
@@ -113,7 +113,7 @@ score:
   band: emerging
   composite: 22.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -129,6 +129,8 @@ score:
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - new-zealand
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
@@ -138,7 +140,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

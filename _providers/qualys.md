@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'REST/XML API for managing the full Vulnerability Management Detection and Response lifecycle including asset inventory, scans, vulnerability findings, prioritization, and reports. Base URL varies per '
@@ -113,7 +113,7 @@ score:
   band: emerging
   composite: 21.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -129,7 +129,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

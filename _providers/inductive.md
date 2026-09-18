@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,6 +71,10 @@ common:
   title: ''
   type: Login
   url: https://app.inductive.bio/login
+- group: company
+  title: ''
+  type: Website
+  url: https://www.inductive.bio/
 created: '2026-07-17'
 description: Inductive Bio is a New York-based AI drug discovery company building a virtual lab for small molecule optimization. It pairs medicinal chemists with AI to run millions of in silico ADMET experiments before synthesis. Its Beacon-1 models — trained on a pre-competitive, anonymized data consortium spanning thousands of drug programs — won consecutive first-place finishes in the 2025 Polaris/ASAP and 2026 OpenADMET blind ADMET prediction competitions, beating 370+ submissions including entries from Merck and NVIDIA. Products include the Compass software platform (accessible via API), the Indy AI chemistry assistant, the ADME-One high-throughput profiling service, and Embedded Experts. Founded in 2023 by Josh Haimson and Ben Birnbaum (both formerly Flatiron Health); SOC 2 compliant; backed by Obvious Ventures, a16z Bio+Health, Lux Capital, Bessemer Venture Partners, Character, and S32.
 image: https://cdn.prod.website-files.com/67fd80408c022fd8f406c6f7/6803dafa8e9822bfe4e9a943_OpenGraph.jpg
@@ -82,13 +86,13 @@ network: true
 overview: 'Inductive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Drug Discovery, and Biotechnology.
 
 
-  Inductive''s developer surface includes engineering blog and 7 more developer resources.'
+  Inductive''s developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 3
 score:
   band: emerging
   composite: 11.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -118,7 +122,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: 'Person enrichment from an email address, plus the Combined lookup that returns the person and their company in one response. Endpoints: /v2/people/find, /v2/combined/find. Verified live 2026-08-13 (HT'
@@ -261,7 +261,7 @@ score:
   band: strong
   composite: 60.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 63.0
     catalog_earned_first_party: 20.0
     catalog_gap: 52.0
@@ -280,7 +280,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Free read-only REST API for football statistics, standings, results, fixtures, match probabilities, season projections, goal timing, and prediction track record. Bearer API key auth (or X-API-Key) wit
@@ -180,7 +180,7 @@ score:
   band: thin
   composite: 35.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -200,7 +200,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

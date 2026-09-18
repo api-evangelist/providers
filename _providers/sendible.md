@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for managing social media clients, scheduling posts, monitoring mentions, and accessing analytics and reports across multiple social networks. The API is live at https://api.sendible.com/api/
@@ -155,7 +155,7 @@ score:
   band: thin
   composite: 30.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -173,7 +173,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

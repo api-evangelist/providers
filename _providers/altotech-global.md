@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-17'
 name: AltoTech Global
 nav: Providers
 network: true
-overview: 'AltoTech Global is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Sustainability, Internet of Things, and Artificial Intelligence.
+overview: 'AltoTech Global is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Sustainability, IoT, and Artificial Intelligence.
 
 
   AltoTech Global''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -78,7 +78,7 @@ score:
   band: minimal
   composite: 4.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -122,7 +122,7 @@ tags:
 - Company
 - Energy
 - Sustainability
-- Internet of Things
+- IoT
 - Artificial Intelligence
 - Smart Buildings
 - Energy Management

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Supply-side ad request API. A single GET to /api/AdServer returns one or more ad objects for a full-screen interstitial or banner placement, as a JSON array (response_format=0) or as HTML markup (resp
@@ -190,7 +190,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -208,7 +208,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

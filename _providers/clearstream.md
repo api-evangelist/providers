@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: 'Xact via SWIFT delivers settlement, custody, asset servicing and reporting messages over the SWIFTNet FIN network. The interface uses ISO 15022 MT messages today and is being migrated to ISO 20022 MX '
@@ -257,7 +257,7 @@ score:
   band: developing
   composite: 47.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
@@ -282,7 +282,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

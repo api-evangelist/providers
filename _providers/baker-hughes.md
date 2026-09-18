@@ -10,17 +10,17 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-16'
+  score: 17.6
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Cordant is Baker Hughes' modular AI-enabled industrial enterprise software platform for asset performance management (APM), process optimization, and emissions management. It provides a digital thread
@@ -42,7 +42,7 @@ apis:
 - description: The BHC3 AI Suite is a joint product from Baker Hughes and C3.ai providing pre-built, configurable AI applications for the energy industry. Applications cover predictive maintenance, reliability, prod
   name: Baker Hughes BHC3 AI Suite
   slug: bhc3-ai-suite
-artifact_total: 31
+artifact_total: 33
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/security/baker-hughes-domain-security.yml
@@ -63,12 +63,12 @@ common:
   url: https://www.bakerhughes.com
 - group: start
   title: ''
-  type: Portal
-  url: https://www.bakerhughes.com/company/digital
+  type: DeveloperPortal
+  url: https://developer.bakerhughes.com
 - group: company
   title: ''
   type: Blog
-  url: https://www.bakerhughes.com/company/news
+  url: https://www.bakerhughes.com/company/newsroom
 - group: operate
   title: ''
   type: Support
@@ -76,11 +76,36 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.bakerhughes.com/privacy-policy
+  url: https://www.bakerhughes.com/privacy
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.bakerhughes.com/terms-and-conditions
+  url: https://www.bakerhughes.com/terms
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/well-known/baker-hughes-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/baker-hughes-well-known.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/authentication/baker-hughes-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/baker-hughes-authentication.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/scopes/baker-hughes-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/baker-hughes-scopes.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/conformance/baker-hughes-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/baker-hughes-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/llms/baker-hughes-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/baker-hughes-llms.txt
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/rules/baker-hughes-spectral-rules.yml
   title: ''
@@ -96,6 +121,22 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/baker-hughes-context.jsonld
+coverage:
+  checked: '2026-09-17'
+  detail: developer.bakerhughes.com is a Backstage developer portal whose catalog API answers 401 "Missing credentials" and whose only sign-in is a Keycloak realm (auth-developer.bakerhughes.com, client app-cdp) with no self-serve registration — the sole contact is cordant_success@bakerhughes.com — so the Cordant API reference and any OpenAPI live behind a customer tenant login; the only machine-readable document Baker Hughes serves anonymously is that realm's OIDC discovery metadata, and api.bakerhughes.com answers every path with an Incapsula 503.
+  evidence:
+  - status: 401
+    url: https://developer.bakerhughes.com/api/catalog/entities?filter=kind=api
+  - status: 302
+    url: https://developer.bakerhughes.com/api/auth/keycloak/start?env=development
+  - status: 200
+    url: https://auth-developer.bakerhughes.com/auth/realms/dedicated/.well-known/openid-configuration
+  - status: 503
+    url: https://api.bakerhughes.com/openapi.json
+  - status: 200
+    url: https://www.bakerhughes.com/cordant/platform
+  reason: customer-only-docs
+  state: gated
 created: '2026-03-21'
 description: Baker Hughes is an energy technology company providing solutions to energy and industrial customers worldwide. Their digital portfolio includes the Cordant industrial software platform for asset performance management, process optimization, and emissions management, along with the BHC3 AI Suite (in alliance with C3.ai) for enterprise AI applications in oil and gas. Baker Hughes operates across oilfield services, industrial equipment, and digital solutions segments globally.
 features:
@@ -146,7 +187,7 @@ jsonld:
   property_count: 25
   slug: baker-hughes-context
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-17'
 name: Baker Hughes
 nav: Providers
 network: true
@@ -156,7 +197,7 @@ overview: 'Baker Hughes publishes 2 APIs on the [APIs.io](https://apis.io/) netw
   The Baker Hughes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Baker Hughes'' developer surface includes developer portal, engineering blog, support, and 9 more developer resources.'
+  Baker Hughes'' developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
 plans:
 - name: Baker Hughes Plans Pricing
   plan_count: 1
@@ -203,40 +244,51 @@ rules:
     info: 2
     warn: 10
   slug: baker-hughes-spectral-rules
+scopes:
+- name: Baker Hughes Scopes
+  scope_count: 0
+  slug: baker-hughes-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.2
+  band: thin
+  composite: 32.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 20
     catalog_earned: 55.3
     catalog_earned_first_party: 0.0
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.8
   facets:
     access_clarity: 23.7
-    contract_governance: 25.0
+    contract_governance: 43.2
     contract_quality: 10.7
-    developer_ergonomics: 33.3
+    developer_ergonomics: 38.1
     discoverability: 59.3
     operational_transparency: 7.9
   previous_composite: 24.2
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 20.3
+    score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png
 security:
+- kind: authentication
+  name: Baker Hughes Authentication
+  slug: baker-hughes-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Baker Hughes Domain Security
   slug: baker-hughes-domain-security

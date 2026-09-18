@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'Jane''s documented HTTP API (published as a Swagger UI at api.iheartjane.com/jane-api-docs) for retrieving live store menu products and for generating the access tokens used to authenticate downstream '
@@ -81,7 +81,7 @@ score:
   band: minimal
   composite: 10.2
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

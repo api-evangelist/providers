@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The HipChat REST API v2 was the primary developer surface for the team chat platform, exposing rooms, users, messages, notifications, emoticons, OAuth sessions, add-on capabilities, and webhook manage
@@ -203,7 +203,7 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 77.5
     catalog_earned_first_party: 0.0
     catalog_gap: 37.5
@@ -225,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

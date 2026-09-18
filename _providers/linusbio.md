@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The agent-callable commerce surface for LinusBio''s Traced environmental exposure test, served from the traced.life storefront. It implements the Universal Commerce Protocol (UCP) 2026-04-08 over MCP: '
@@ -181,7 +181,7 @@ score:
   band: thin
   composite: 34.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -212,7 +212,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

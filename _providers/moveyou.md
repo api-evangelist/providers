@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Our scaled based platform meets all your business requirements in the fields of mobility and energy. Explore the powerful solutions or consult one of our experts for advice. Together, we are building '
@@ -96,7 +96,7 @@ score:
   band: emerging
   composite: 11.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -118,7 +118,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: The newest and preferred REST API for AMS360, the flagship property and casualty agency management system. It exposes agency data as REST resources - Customers, Policies, Service Agreements, Invoices,
@@ -116,7 +116,7 @@ score:
   band: emerging
   composite: 16.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -138,7 +138,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

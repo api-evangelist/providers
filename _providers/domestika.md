@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Domestika REST API at api.domestika.org is the internal backbone of the Domestika platform, providing access to course catalog listings, learner enrollment records, user profiles, community conten
@@ -131,7 +131,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -153,7 +153,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

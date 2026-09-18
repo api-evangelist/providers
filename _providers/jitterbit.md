@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: APIs for registering and managing connectors created with the Jitterbit Connector SDK — log in to Harmony, register a custom connector, list registered connectors, delete a connector registration, del
@@ -268,7 +268,7 @@ score:
   band: exemplar
   composite: 70.1
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -293,7 +293,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for audio fingerprint lookup and submission. Accepts Chromaprint-generated fingerprints and returns AcoustID track identifiers along with linked MusicBrainz metadata including recordings, art
@@ -114,7 +114,7 @@ score:
   band: emerging
   composite: 22.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -130,7 +130,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

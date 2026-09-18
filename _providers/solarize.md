@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for the Solarize meter-to-cash platform — customers, sites, meters, contracts, measurements, readings, invoices, payments, pricing, and outgoing webhooks. JSON over HTTPS, JWT bearer auth, of
@@ -171,7 +171,7 @@ score:
   band: developing
   composite: 40.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -196,7 +196,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

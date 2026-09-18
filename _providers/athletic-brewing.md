@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service Athletic Brewing's Shopify storefront serves at https://athleticbrewing.com/api/ucp/mcp. An anonymous MCP (JSON-RPC 2.0) endpoint exposing thirteen too
@@ -176,7 +176,7 @@ score:
   band: emerging
   composite: 21.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -196,7 +196,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

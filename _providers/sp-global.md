@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 66.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -89,7 +89,28 @@ apis:
   description: The Funding Rounds API from S&P Global — 2 operation(s) for funding rounds.
   name: S&P Global Funding Rounds API
   slug: sp-global-funding-rounds-api
-artifact_total: 221
+- description: Comprehensive financial data API providing access to fundamental data, industry-specific and segment data, valuations and pricing, S&P Global Credit Ratings and Research, and reference and terms and c
+  name: S&P Capital IQ Market Intelligence API
+  slug: market-intelligence
+- description: API providing programmatic access to the S&P Global Marketplace catalog of premium fundamental and alternative datasets. Enables discovery and integration of datasets available on the marketplace plat
+  name: S&P Global Marketplace Catalog API
+  slug: marketplace-catalog
+- description: Token-based authentication
+  name: S&P Global Authentication API
+  slug: s-and-p-global-authentication-api
+- description: Entity linking and resolution operations
+  name: S&P Global Entity Resolution API
+  slug: s-and-p-global-entity-resolution-api
+- description: Real-time and historical commodity market prices
+  name: S&P Global Market Data API
+  slug: s-and-p-global-market-data-api
+- description: Symbol and contract reference data
+  name: S&P Global Reference Data API
+  slug: s-and-p-global-reference-data-api
+- description: Entity search and discovery
+  name: S&P Global Search API
+  slug: s-and-p-global-search-api
+artifact_total: 228
 asyncapis:
 - description: Real-time streaming transcription WebSocket API from Kensho Technologies (a wholly-owned S&P Global subsidiary). Companion to the Kensho Scribe v2 batch REST API. Streams uncompressed PCM audio chunks
   name: Kensho Scribe Real Time API
@@ -544,6 +565,18 @@ common:
   title: S&P Global Terms of Use
   type: TermsOfService
   url: https://www.spglobal.com/en/terms-of-use
+- group: company
+  title: ''
+  type: Website
+  url: https://www.spglobal.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.spglobal.com/commodityinsights/api/getting-started
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.spglobal.com/en/research-insights/articles
 created: '2026-05-23'
 description: S&P Global (NYSE SPGI) is the parent of S&P Global Ratings, S&P Global Market Intelligence, S&P Dow Jones Indices, S&P Global Commodity Insights (Platts), S&P Global Mobility, and S&P Global Sustainable1. Its public developer surface is anchored by Kensho Technologies (a wholly-owned S&P Global AI subsidiary) which ships REST APIs for the S&P Global LLM-ready API (kFinance), Extract, NERD, Scribe, and the Grounding Agent, plus the S&P Capital IQ Pro and Marketplace data products distributed through the S&P Global Marketplace.
 examples:
@@ -878,13 +911,13 @@ modified: '2026-07-22'
 name: S&P Global
 nav: Providers
 network: true
-overview: 'S&P Global publishes 7 APIs on the [APIs.io](https://apis.io/) network, including LLM-Ready API (kFinance), Kensho Extract API, Kensho NERD API, and 4 more. Tagged areas include Capital IQ, Commodity Insights, Credit Ratings, Document Extraction, and ESG.
+overview: 'S&P Global publishes 12 APIs on the [APIs.io](https://apis.io/) network, including LLM-Ready API (kFinance), Kensho Extract API, Kensho NERD API, and 9 more. Tagged areas include Capital IQ, Commodity Insights, Credit Ratings, Document Extraction, and ESG.
 
 
   The S&P Global catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  S&P Global''s developer surface includes authentication, developer portal, documentation, code examples, GitHub presence, engineering blog, changelog, and 38 more developer resources.'
+  S&P Global''s developer surface includes authentication, developer portal, documentation, code examples, GitHub presence, engineering blog, changelog, and 41 more developer resources.'
 plans:
 - name: Sp Global Plans Pricing
   plan_count: 7
@@ -936,13 +969,13 @@ score:
   band: strong
   composite: 66.3
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 32
     catalog_earned: 70.5
     catalog_earned_first_party: 0.0
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 67.1
     contract_governance: 47.0
@@ -950,7 +983,7 @@ score:
     developer_ergonomics: 89.3
     discoverability: 72.2
     operational_transparency: 36.8
-  previous_composite: 65.7
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -962,7 +995,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -1007,5 +1040,5 @@ use_cases:
   name: Earnings Call Transcription
 - description: Build chatbots and analyst assistants that return cited answers from S&P Global datasets via the Grounding Agent.
   name: Grounded Conversational Analytics
-website: https://developer.spglobal.com
+website: https://www.spglobal.com
 ---

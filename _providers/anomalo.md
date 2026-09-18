@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 19
 apis:
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
@@ -300,7 +300,7 @@ score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -325,7 +325,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

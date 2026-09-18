@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Amber Premium Global API service suite, exposing institutional crypto trading, liquidity, and account services for the Amber Premium (Nasdaq: AMBR) platform. API reference is published as a hosted'
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 19.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -129,7 +129,7 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

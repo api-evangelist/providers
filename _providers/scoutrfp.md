@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -275,7 +275,52 @@ apis:
   description: 'Use the worksheets API to create, update, and query the worksheets in Workday Strategic Sourcing. ## Worksheet Object <SchemaDefinition schemaRef="#/components/schemas/WorksheetModel" showReadOnly={tr'
   name: Scout RFP (Workday Strategic Sourcing) worksheets API
   slug: scoutrfp-worksheets-api
-artifact_total: 95
+- description: Manage sourcing events including RFPs, RFIs, and reverse auctions. Supports creating events from templates, updating event details, managing supplier invitations, worksheets, line items, and bid colle
+  name: Events API
+  slug: events-api
+- description: Manage contracts within the strategic sourcing platform, including creation, retrieval, and updates. Version 1.1 of the API.
+  name: Contracts API
+  slug: contracts-api
+- description: Manage sourcing award decisions for completed events, tracking supplier selection outcomes and award values. Version 1.1.
+  name: Awards API
+  slug: awards-api
+- description: Upload and manage file attachments associated with sourcing events, contracts, and other procurement objects. Version 1.0.
+  name: Attachments API
+  slug: attachments-api
+- description: Manage payment records associated with procurement transactions and contract fulfillment. Version 1.0.
+  name: Payments API
+  slug: payments-api
+- description: Manage procurement projects that organize and group related sourcing events and activities. Version 1.0.
+  name: Projects API
+  slug: projects-api
+- description: Access procurement analytics and reporting data from the Workday Strategic Sourcing platform. Version 1.0.
+  name: Reports API
+  slug: reports-api
+- description: Manage users in the Workday Strategic Sourcing platform using the SCIM 2.0 standard, enabling integration with identity providers for automated user provisioning and deprovisioning.
+  name: SCIM Users API
+  slug: scim-api
+- description: Manage spend category taxonomies used to classify procurement spending within the Workday Strategic Sourcing platform. Version 1.0.
+  name: Spend Categories API
+  slug: spend-categories-api
+- description: The Bids API from Scout RFP — 5 operation(s) for bids.
+  name: Scout RFP Bids API
+  slug: scout-rfp-bids-api
+- description: The Event Suppliers API from Scout RFP — 2 operation(s) for event suppliers.
+  name: Scout RFP Event Suppliers API
+  slug: scout-rfp-event-suppliers-api
+- description: The Event Templates API from Scout RFP — 2 operation(s) for event templates.
+  name: Scout RFP Event Templates API
+  slug: scout-rfp-event-templates-api
+- description: The Events API from Scout RFP — 3 operation(s) for events.
+  name: Scout RFP Events API
+  slug: scout-rfp-events-api
+- description: The Line Items API from Scout RFP — 3 operation(s) for line items.
+  name: Scout RFP Line Items API
+  slug: scout-rfp-line-items-api
+- description: The Worksheets API from Scout RFP — 2 operation(s) for worksheets.
+  name: Scout RFP Worksheets API
+  slug: scout-rfp-worksheets-api
+artifact_total: 110
 collections:
 - collection_type: open
   name: API Collection
@@ -562,6 +607,10 @@ common:
   title: ''
   type: Overlay
   url: overlays/scoutrfp-scim-v2-overlay.yaml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ScoutRFP
 created: '2026-07-17'
 description: Scout RFP is a strategic sourcing and supplier engagement platform founded in 2014 and acquired by Workday in 2019, where it now ships as Workday Strategic Sourcing. The product covers sourcing events (RFPs/RFIs/RFQs and auctions), supplier management, contracts, projects, spend categories, awards, and supplier payments. Its public developer platform exposes a JSON:API-conformant REST API across eleven versioned services — Suppliers, Events, Reports, Contracts, Projects, Payments, Fields, Awards, Attachments, and Spend Categories — plus a SCIM 2.0 user-provisioning API. Authentication is by company API key plus a per-user personal token, all calls are HTTPS/JSON:API, cursor paginated, and rate limited to five requests per second. The legacy v3 API on api.scoutrfp.com was sunset April 18, 2025 in favor of the versioned services on api.us.workdayspend.com (with EU and CA regional hosts).
 image: https://www.workday.com/content/dam/web/en-us/images/social/workday-og-image.png
@@ -570,10 +619,10 @@ modified: '2026-07-21'
 name: Scout RFP (Workday Strategic Sourcing)
 nav: Providers
 network: true
-overview: 'Scout RFP (Workday Strategic Sourcing) publishes 46 APIs on the [APIs.io](https://apis.io/) network, including attachments API, award_line_items API, awards API, and 43 more. Tagged areas include Company, Enterprise, Procurement, Strategic Sourcing, and Supplier Management.
+overview: 'Scout RFP (Workday Strategic Sourcing) publishes 52 APIs on the [APIs.io](https://apis.io/) network, including attachments API, award_line_items API, awards API, and 49 more. Tagged areas include Company, Enterprise, Procurement, Strategic Sourcing, and Supplier Management.
 
 
-  Scout RFP (Workday Strategic Sourcing)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 27 more developer resources.'
+  Scout RFP (Workday Strategic Sourcing)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 28 more developer resources.'
 random_paper: 6
 rate_limits:
 - limit_count: 1
@@ -581,22 +630,22 @@ rate_limits:
   slug: scoutrfp-rate-limits
 score:
   band: developing
-  composite: 42.6
+  composite: 45.8
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 38.0
+    artifact_dirs: 17
+    catalog_earned: 43.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 77.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
     access_clarity: 7.9
-    contract_governance: 4.5
-    contract_quality: 63.9
+    contract_governance: 19.7
+    contract_quality: 66.6
     developer_ergonomics: 51.8
     discoverability: 63.0
-    operational_transparency: 44.7
+    operational_transparency: 50.0
   previous_composite: 42.6
   provenance:
     agentic_access: derived
@@ -609,7 +658,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

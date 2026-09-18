@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: JSON REST API (v4) for the OpenX ad server. Sixteen CRUD objects (account, ad, adunit, adunitgroup, comment, creative, deal, floorrule, lineitem, optimization, order, package, paymenthistory, site, si
@@ -356,7 +356,7 @@ score:
   band: thin
   composite: 34.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -380,7 +380,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

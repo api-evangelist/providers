@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Single GraphQL gateway at api.island.is wrapping internal REST microservices that power island.is applications. The gateway is authentication-gated (island.is identity server / IdS scopes) and returns
@@ -78,7 +78,7 @@ score:
   band: minimal
   composite: 7.2
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -106,7 +106,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

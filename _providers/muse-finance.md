@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Embedded-finance REST API for submitting and converting leads, managing finance applications and agreements, funds requests and credit-backed offers. Authenticated with a JWT bearer token plus an x-ap
@@ -159,7 +159,7 @@ score:
   band: thin
   composite: 37.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
@@ -186,7 +186,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

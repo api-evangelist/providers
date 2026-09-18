@@ -32,10 +32,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/create/refs/heads/main/security/create-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/create-domain-security.yml
+- group: company
+  title: ''
+  type: Careers
+  url: https://myeloidtherapeutics.bamboohr.com/careers
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/createmedicines/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://x.com/CREATEMedicines
 - group: company
   title: ''
   type: Website
@@ -53,16 +70,16 @@ description: CREATE Medicines is a Cambridge, Massachusetts biopharmaceutical co
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/create.png
 layout: provider
 modified: '2026-07-18'
-name: Create
+name: CREATE Medicines
 nav: Providers
 network: true
-overview: Create is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Cell Therapy, mRNA, and Oncology.
+overview: CREATE Medicines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Cell Therapy, mRNA, and Oncology.
 random_paper: 12
 score:
   band: minimal
   composite: 9.2
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -76,21 +93,20 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 9.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/create/refs/heads/main/screenshots/create-2026-07-25T210655.png
+security:
+- kind: domain-security
+  name: Create Domain Security
+  slug: create-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: create
 tags:
 - Company

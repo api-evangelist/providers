@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: An authorization-gated Model Context Protocol server operated by eSentire on its own API host. Every path under https://api.esentire.com/mcp/ answers 401 UNAUTHORIZED with an RFC 9728 challenge (`WWW-
@@ -174,7 +174,7 @@ score:
   band: emerging
   composite: 22.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -193,7 +193,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

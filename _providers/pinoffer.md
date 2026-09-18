@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'The one API surface Convertedin hosts itself. A merchant''s storefront (Magento, Salla, or a custom platform) POSTs commerce events into Convertedin — orders, customers, products, collections, and app '
@@ -204,7 +204,7 @@ score:
   band: developing
   composite: 50.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -228,7 +228,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Programmatic access to Trellis''s state and federal trial court dataset: Smart Search over rulings, dockets and documents; docket/case data (parties, attorneys, documents, events); docket refresh; ruli'
@@ -124,7 +124,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -140,7 +140,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 30.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

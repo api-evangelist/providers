@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Chain's unified REST API for stablecoin payments (funding, payouts, payees), card issuing, wallets, and a double-entry ledger. Bearer API-key auth with sandbox and live key prefixes (sk_sandbox_ / sk_
@@ -160,7 +160,7 @@ score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -182,7 +182,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

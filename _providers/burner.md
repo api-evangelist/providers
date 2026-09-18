@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'OAuth 2.0 REST API for programmatic access to Burner line management, messaging (SMS/MMS) and configuration, plus a webhook system for real-time event notifications. Requests use `Authorization: Beare'
@@ -155,7 +155,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -180,7 +180,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

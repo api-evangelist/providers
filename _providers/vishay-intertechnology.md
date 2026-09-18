@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Access Vishay component data programmatically through the Octopart/Nexar API. Search for Vishay parts by part number or category, retrieve datasheets, specifications, pricing, and distributor inventor
@@ -162,7 +162,7 @@ score:
   band: emerging
   composite: 17.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
@@ -184,7 +184,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

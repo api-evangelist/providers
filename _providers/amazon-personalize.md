@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ modified: '2026-05-19'
 name: Amazon Personalize
 nav: Providers
 network: true
-overview: 'Amazon Personalize publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include Artificial Intelligence, Customer Experience, Machine-Learning, MLS, and Personalization.
+overview: 'Amazon Personalize publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include Artificial Intelligence, Customer Experience, Machine-Learning, Personalization, and Recommendations.
 
 
   The Amazon Personalize catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -331,7 +331,7 @@ score:
   band: developing
   composite: 53.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 64.5
     catalog_earned_first_party: 0.0
     catalog_gap: 50.5
@@ -354,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -382,7 +382,6 @@ tags:
 - Artificial Intelligence
 - Customer Experience
 - Machine-Learning
-- MLS
 - Personalization
 - Recommendations
 website: https://aws.amazon.com/personalize/

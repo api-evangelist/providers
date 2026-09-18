@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: JavaScript APIs for building mashups and custom visualizations in Qlik Sense.
@@ -108,7 +108,7 @@ score:
   band: emerging
   composite: 16.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -124,7 +124,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The hosted OAuth authorization broker FuseWP operates at auth.fusewp.com. The self-hosted FuseWP plugin cannot safely hold OAuth client secrets for the partner platforms it connects to, so it delegate
@@ -196,7 +196,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -215,7 +215,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

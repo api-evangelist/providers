@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: NYISO's Market Information System public archive - the operator's flagship open data surface. Roughly sixty machine-readable report families are published as predictable daily CSV files and monthly ZI
@@ -200,7 +200,7 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -232,7 +232,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

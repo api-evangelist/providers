@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://api.promethium.qcware.com
@@ -219,7 +219,7 @@ score:
   band: strong
   composite: 55.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -255,7 +255,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

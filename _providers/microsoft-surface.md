@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Surface Management API provides enterprise management capabilities for Surface devices through UEFI configuration, firmware updates, and Intune integration. IT administrators can configure device '
@@ -111,7 +111,7 @@ score:
   band: emerging
   composite: 19.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -127,7 +127,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 19.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

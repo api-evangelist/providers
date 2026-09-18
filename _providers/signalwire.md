@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: An OpenRPC 1.3.2 contract for real-time control of live calls over RELAY — 8 methods (calling.dial, calling.update, calling.end, calling.ai_hold, calling.ai_unhold, calling.ai_message, calling.live_tr
@@ -683,7 +683,7 @@ score:
   band: exemplar
   composite: 68.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -714,7 +714,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

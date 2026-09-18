@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The University's AI guidance site runs on WordPress that Otago self-hosts on its own domain behind Cloudflare, and it exposes the full WordPress REST API without credentials. Confirmed live 2026-08-30
@@ -197,7 +197,7 @@ score:
   band: thin
   composite: 29.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 68.3
     catalog_earned_first_party: 0.0
     catalog_gap: 46.8
@@ -213,6 +213,8 @@ score:
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - new-zealand
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
@@ -226,7 +228,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

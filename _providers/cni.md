@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The CNI specification defines the interface between container runtimes and network plugins. It specifies how runtimes invoke plugins via environment variables (CNI_COMMAND, CNI_CONTAINERID, CNI_NETNS,
@@ -159,7 +159,7 @@ score:
   band: thin
   composite: 26.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 62.3
     catalog_earned_first_party: 0.0
     catalog_gap: 52.8
@@ -178,7 +178,7 @@ score:
     score: 65.0
   previous_composite: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

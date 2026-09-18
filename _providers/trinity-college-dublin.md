@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 12
 apis:
 - description: 'Trinity''s own Shibboleth IdP, self-hosted on its own registrable domain: idp.tcd.ie resolves through idpha.tcd.ie to 134.226.14.232, inside Trinity''s 134.226.0.0/16 allocation. The metadata endpoint s'
@@ -242,7 +242,7 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -274,7 +274,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

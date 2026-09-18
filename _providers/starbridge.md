@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://dashboard.starbridge.ai
@@ -304,7 +304,7 @@ score:
   band: strong
   composite: 59.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -335,7 +335,7 @@ score:
     regime_id: government
     score: 74.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

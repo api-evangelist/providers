@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://ps.pndsn.com
@@ -150,7 +150,7 @@ score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
     catalog_gap: 64.5
@@ -168,7 +168,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

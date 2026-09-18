@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Hosted Model Context Protocol server exposing 30 Paubox tools across email, forms and email marketing to MCP-compatible AI clients. Reachable over streamable HTTP at https://mcp.paubox.com/mcp with OA
@@ -325,7 +325,7 @@ score:
   band: exemplar
   composite: 71.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -364,7 +364,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

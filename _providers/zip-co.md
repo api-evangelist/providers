@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Zip Global Merchant API provides checkout, charge, capture, refund, and cancellation operations for merchants integrating Zip BNPL payments into their online storefront. It uses Bearer token authe
@@ -153,7 +153,7 @@ score:
   band: thin
   composite: 37.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 53.0
     catalog_earned_first_party: 0.0
     catalog_gap: 62.0
@@ -175,7 +175,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

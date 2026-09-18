@@ -1,9 +1,9 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  confidence: high
+  label: Enterprise · Contact sales
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
   description: Insurance policy lifecycle management
   name: majesco Policies API
   slug: majesco-policies-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -125,17 +125,70 @@ common:
   url: https://www.majesco.com/
 - group: docs
   title: ''
-  type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-policy-openapi.yml
-- group: docs
-  title: ''
   type: JSONSchema
   url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/json-schema/majesco-policy-schema.json
 - group: design
   title: ''
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/json-ld/majesco-context.jsonld
-description: Majesco is a global leader of cloud insurance software solutions for insurance business transformation, helping insurance carriers innovate, modernize, and accelerate their digital strategies.
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/llms/majesco-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/majesco-llms.txt
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/changelog/majesco-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/majesco-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/lifecycle/majesco-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/majesco-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/conformance/majesco-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/majesco-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/security/majesco-trust-center.yml
+  title: ''
+  type: Compliance
+  url: security/majesco-trust-center.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/json-ld/majesco-ai-schema.jsonld
+  title: ''
+  type: JSONLDContext
+  url: json-ld/majesco-ai-schema.jsonld
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.majesco.com/privacy-policy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.majesco.com/majesco-support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.majesco.com/blog/
+coverage:
+  checked: '2026-09-17'
+  detail: Majesco markets "thousands of APIs" through its APIM product but runs the gateway inside each carrier's own tenant, so there is no developer.majesco.com, api.majesco.com or docs.majesco.com (none of them resolve in DNS) and the API reference and release notes are delivered through the customer support portal at majescoprod.service-now.com/csm, which requires a signed-carrier login.
+  evidence:
+  - status: 200
+    url: https://www.majesco.com/ecosystem-insurance-solutions/api-management/
+  - status: 0
+    url: https://developer.majesco.com/
+  - status: 200
+    url: https://support.majesco.com/
+  - status: 200
+    url: https://www.majesco.com/.well-known/api-catalog
+  reason: customer-only-docs
+  state: gated
+created: '2026-05-04'
+description: Majesco is a global provider of cloud-native insurance software for Property & Casualty and Life, Annuity & Health carriers, serving 130+ insurers worldwide from its Morristown, New Jersey headquarters. Founded in 1989, it unifies Policy, Billing and Claims administration on a single platform alongside digital engagement, distribution, analytics and risk & compliance products, with GenAI (Majesco Copilot) and agentic AI embedded across the core suites. Its ClaimVantage line covers L&H claims, disability and absence management. Majesco sells API Management (APIM) as a component of those suites rather than as a public developer program, so its API surface is provisioned per carrier tenant and is not publicly documented.
 finops:
 - name: Majesco Finops
   service_category: API
@@ -150,29 +203,33 @@ json_schemas:
   property_count: 14
   slug: majesco-policy
 jsonld:
+- class_count: 0
+  name: Majesco Ai Schema Context
+  property_count: 0
+  slug: majesco-ai-schema
 - class_count: 24
   name: Majesco Context
   property_count: 11
   slug: majesco-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-17'
 name: Majesco
 nav: Providers
 network: true
-overview: 'Majesco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Claims API, Distribution API, and 1 more.
+overview: 'Majesco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Claims API, Distribution API, and 1 more. Tagged areas include Insurance, Insurtech, Policy Administration, Claims, and Billing.
 
 
-  The Majesco catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Majesco catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Majesco''s developer surface includes authentication, developer portal, and 9 more developer resources.'
+  Majesco''s developer surface includes authentication, developer portal, changelog, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Majesco Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: majesco-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Majesco Rate Limits
   slug: majesco-rate-limits
 rules:
@@ -192,37 +249,41 @@ scopes:
   slug: majesco-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: thin
-  composite: 31.7
+  band: developing
+  composite: 47.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 53.3
+    artifact_dirs: 21
+    catalog_earned: 60.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.8
+    catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 15.6
   facets:
-    access_clarity: 23.7
-    contract_governance: 9.8
+    access_clarity: 34.2
+    contract_governance: 28.0
     contract_quality: 67.0
-    developer_ergonomics: 21.4
-    discoverability: 44.4
-    operational_transparency: 7.9
+    developer_ergonomics: 28.6
+    discoverability: 75.9
+    operational_transparency: 15.8
   previous_composite: 31.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 4
   regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 65.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -241,5 +302,16 @@ security:
   slug: majesco-trust-center
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: majesco
+tags:
+- Insurance
+- Insurtech
+- Policy Administration
+- Claims
+- Billing
+- Underwriting
+- Life and Annuity
+- Property and Casualty
+- Absence Management
+- Enterprise Software
 website: https://www.majesco.com/
 ---

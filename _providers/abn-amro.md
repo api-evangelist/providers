@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Tikkie API lets Tikkie Business customers programmatically create payment requests, send them to end-payers, and receive notifications when payments complete. Authentication uses an API token (Bus
@@ -142,7 +142,7 @@ score:
   band: thin
   composite: 27.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
@@ -164,7 +164,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

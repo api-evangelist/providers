@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for accepting crypto and stablecoin payments — customers, entities, merchants, tokens, payments, payouts, and webhooks. Authenticated with api-key and entity-id headers; URI-path versioned (v
@@ -159,7 +159,7 @@ score:
   band: thin
   composite: 30.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -181,7 +181,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

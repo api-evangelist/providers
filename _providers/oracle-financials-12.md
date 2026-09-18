@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: API for managing general ledger operations including journals, budgets, and financial reporting.
@@ -128,7 +128,7 @@ score:
   band: thin
   composite: 26.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
@@ -144,7 +144,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 26.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

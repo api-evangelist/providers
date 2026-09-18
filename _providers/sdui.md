@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'The production JSON API behind the Sdui school-communication platform, serving the Sdui web app, the iOS/Android clients and the WebUntis messenger integration. Every resource path probed (/v1/users, '
@@ -164,7 +164,7 @@ score:
   band: thin
   composite: 27.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -201,7 +201,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

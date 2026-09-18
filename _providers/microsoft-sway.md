@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Microsoft Sway is a presentation and storytelling application that enables creating interactive, web-based content. While Sway has limited direct API access, it integrates with Microsoft 365 for embed
@@ -99,7 +99,7 @@ score:
   band: emerging
   composite: 20.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -115,7 +115,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

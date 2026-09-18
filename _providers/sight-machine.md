@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: REST endpoint that returns the fully-resolved values behind a Sight Machine dashboard, panel by panel, so dashboard data can be consumed by external enterprise applications. Authenticated with a tenan
@@ -194,7 +194,7 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -213,7 +213,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

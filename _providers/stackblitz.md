@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: A lightweight (3kB gzipped) JavaScript SDK that lets developers programmatically create, open, and embed StackBlitz projects in web pages, documentation sites, or blog posts. Provides six primary meth
@@ -137,7 +137,7 @@ score:
   band: thin
   composite: 28.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -153,7 +153,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 28.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Restfox is a lightweight, offline-first web HTTP client for testing REST APIs, similar to Postman but browser-based. It supports HTTP, WebSocket, and GraphQL protocols, with features including environ
@@ -141,7 +141,7 @@ score:
   band: emerging
   composite: 22.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 63.3
     catalog_earned_first_party: 0.0
     catalog_gap: 51.8
@@ -160,7 +160,7 @@ score:
     score: 25.0
   previous_composite: 22.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

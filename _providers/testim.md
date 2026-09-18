@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: REST API used to trigger and manage test executions, query test run status, and retrieve results for tests authored in Testim. Authentication is via a personal access token issued from the Testim work
@@ -128,7 +128,7 @@ score:
   band: emerging
   composite: 22.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -144,7 +144,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 22.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

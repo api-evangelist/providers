@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Read-only REST API serving over 450 ketogenic diet recipes across 11 categories (drinks, smoothies, keto staples and dips, desserts, soups, fish, beef, appetizers, snacks and breakfast) with nutrition
@@ -185,7 +185,7 @@ score:
   band: thin
   composite: 31.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 55.0
     catalog_earned_first_party: 12.0
     catalog_gap: 60.0
@@ -210,7 +210,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

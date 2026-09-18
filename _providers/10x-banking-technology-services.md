@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The REST API surface of the 10x SuperCore platform, covering parties, subscriptions, arrangements, transaction/deposit/loan/credit-card products, repayment schedules, interest overrides, cards, statem
@@ -201,7 +201,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -234,7 +234,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Apache Cordova provides a JavaScript plugin API for accessing native device capabilities (camera, GPS, file system, contacts, etc.), a CLI for project management and multi-platform builds, a plugin de
@@ -227,7 +227,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 65.3
     catalog_earned_first_party: 0.0
     catalog_gap: 49.8
@@ -243,7 +243,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 36.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

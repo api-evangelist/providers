@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API returning Shariah-compliance screening for stocks and ETFs — a compliance status and 0-5 ranking per ticker, a full screening report with revenue breakdown and interest-bearing securities/deb
@@ -180,7 +180,7 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -210,7 +210,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

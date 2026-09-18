@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: Aquila is QuEra's 256-qubit neutral-atom quantum computer, the first publicly accessible neutral-atom QPU. It runs Analog Hamiltonian Simulation (AHS) programs and is accessed programmatically through
@@ -183,7 +183,7 @@ score:
   band: emerging
   composite: 23.9
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -207,7 +207,7 @@ score:
     score: 50.0
   previous_composite: 23.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

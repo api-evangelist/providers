@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'Stream Load is a synchronous HTTP-based ingestion API. Clients PUT a CSV or JSON payload to /api/{db}/{table}/_stream_load with HTTP Basic authentication and headers like `label`, `column_separator`, '
@@ -148,7 +148,7 @@ score:
   band: emerging
   composite: 23.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
@@ -164,7 +164,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 23.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

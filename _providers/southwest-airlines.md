@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Southwest Airlines internal flight booking API powers the southwest.com website for searching and booking flights. It provides flight availability, pricing, schedules, and air booking shopping cap
@@ -172,7 +172,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 66.3
     catalog_earned_first_party: 0.0
     catalog_gap: 48.8
@@ -193,7 +193,7 @@ score:
     - north-america
   previous_composite: 30.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

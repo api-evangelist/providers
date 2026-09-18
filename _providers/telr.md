@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -312,7 +312,7 @@ score:
   band: exemplar
   composite: 67.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -328,6 +328,8 @@ score:
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-arab-emirates
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
@@ -353,7 +355,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

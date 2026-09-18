@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: wss://fills.mngo.cloud
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 16.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
@@ -129,7 +129,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

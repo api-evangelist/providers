@@ -14,16 +14,16 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: true
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -33,38 +33,46 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.7
-  scored_at: '2026-09-16'
+  score: 33.2
+  scored_at: '2026-09-17'
 agentic_access:
-- acting_count: 4
+- acting_count: 15
   human_in_the_loop: 0
   name: Workday Business Processes Agentic Access
-  operation_count: 10
+  operation_count: 32
   slug: workday-business-processes-agentic-access
-  summary_line: 10 operations · 4 acting
-api_count: 4
+  summary_line: 32 operations · 15 acting
+api_count: 2
 apis:
-- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+- baseURL: https://{tenantHostname}/businessProcess/v1
   baseurl_source: declared
   description: Manage approval steps and approval chains
   name: Workday Business Processes Approvals API
   slug: workday-business-processes-approvals-api
-- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+- baseURL: https://{tenantHostname}/businessProcess/v1
   baseurl_source: declared
   description: Retrieve and manage business process type definitions
   name: Workday Business Processes Business Process Definitions API
   slug: workday-business-processes-business-process-definitions-api
-- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+- baseURL: https://{tenantHostname}/businessProcess/v1
   baseurl_source: declared
   description: Manage user inbox items requiring action
   name: Workday Business Processes Inbox Items API
   slug: workday-business-processes-inbox-items-api
-- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+- baseURL: https://{tenantHostname}/businessProcess/v1
   baseurl_source: declared
   description: Manage running business process instances
   name: Workday Business Processes Process Instances API
   slug: workday-business-processes-process-instances-api
-artifact_total: 46
+- baseURL: https://api.workday.com/customBusinessProcessConfig/v1
+  baseurl_source: declared
+  description: Create, read, update and delete custom business process types and their event task definitions.
+  name: Workday Custom Business Process Config API
+  slug: workday-business-processes-custom-business-process-config-api
+- description: 'The Workday Web Services Integrations service, v47.0. Carries the eight SOAP business process operations — Approve, Cancel, Deny, Rescind and Send Back a business process, Reassign a business process '
+  name: Workday Integrations SOAP Service (business process operations)
+  slug: workday-business-processes-integrations-soap-service
+artifact_total: 48
 collections:
 - collection_type: postman
   name: Workday Business Process Approvals API
@@ -101,15 +109,62 @@ common:
   title: ''
   type: Website
   url: https://www.workday.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.workday.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://community.workday.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.workday.com/doc/GUID-e31b535f-7722-4f61-9795-a27ef9d78a86-enHYPHENus.md
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.workday.com/doc/zwx1518028675482.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://community.workday.com
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://forum.developer.workday.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.workday.com/en-us/homepage.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Workday
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.workday.com/login
 - group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/workday-business-processes/overview
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/agentic-access/workday-business-processes-agentic-access.yml
+- group: commercial
   title: ''
-  type: AgenticAccess
-  url: agentic-access/workday-business-processes-agentic-access.yml
+  type: TermsOfService
+  url: https://www.workday.com/en-us/legal/site-terms.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.workday.com/en-us/privacy.html
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.workday.com/en-us/why-workday/trust/compliance.html
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/security/workday-business-processes-trust-center.yml
   title: ''
@@ -120,6 +175,20 @@ common:
   title: ''
   type: DomainSecurity
   url: security/workday-business-processes-domain-security.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.workday.com
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/changelog/workday-business-processes-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/workday-business-processes-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/lifecycle/workday-business-processes-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/workday-business-processes-lifecycle.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/authentication/workday-business-processes-authentication.yml
   title: ''
@@ -130,30 +199,96 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/workday-business-processes-scopes.yml
-- group: start
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/conventions/workday-business-processes-conventions.yml
   title: ''
-  type: Portal
-  url: https://community.workday.com
-- group: start
+  type: Conventions
+  url: conventions/workday-business-processes-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/errors/workday-business-processes-problem-types.yml
   title: ''
-  type: GettingStarted
-  url: https://doc.workday.com/admin-guide/en-us/workday-web-services/wws-overview/getting-started-with-workday-web-services.html
+  type: ErrorCatalog
+  url: errors/workday-business-processes-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/conformance/workday-business-processes-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/workday-business-processes-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/data-model/workday-business-processes-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/workday-business-processes-data-model.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/rate-limits/workday-business-processes-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/workday-business-processes-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/plans/workday-business-processes-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/workday-business-processes-plans-pricing.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/packages/workday-business-processes-packages.yml
+  title: ''
+  type: Packages
+  url: packages/workday-business-processes-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/packages/workday-business-processes-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/workday-business-processes-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/cli/workday-business-processes-cli.yml
+  title: ''
+  type: CLI
+  url: cli/workday-business-processes-cli.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/components/workday-business-processes-components.yml
+  title: ''
+  type: Components
+  url: components/workday-business-processes-components.yml
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/sandbox/workday-business-processes-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/workday-business-processes-sandbox.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/mcp/workday-business-processes-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/workday-business-processes-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/agentic-access/workday-business-processes-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/workday-business-processes-agentic-access.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/llms/workday-business-processes-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/workday-business-processes-llms.txt
 - group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/wsdl/workday-business-processes-integrations-v47.0.wsdl
   title: ''
-  type: API Standards
-  url: https://doc.workday.com/admin-guide/en-us/workday-rest-api/workday-rest-api-overview.html
-- group: commercial
+  type: WSDL
+  url: wsdl/workday-business-processes-integrations-v47.0.wsdl
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/overlays/workday-business-processes-business-process-overlay.yaml
   title: ''
-  type: PrivacyPolicy
-  url: https://www.workday.com/en-us/privacy.html
-- group: commercial
+  type: Overlay
+  url: overlays/workday-business-processes-business-process-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/overlays/workday-business-processes-custom-business-process-config-overlay.yaml
   title: ''
-  type: TermsOfService
-  url: https://www.workday.com/en-us/terms-of-service.html
-- group: auth
-  title: ''
-  type: Security
-  url: https://www.workday.com/en-us/why-workday/our-technology/security.html
+  type: Overlay
+  url: overlays/workday-business-processes-custom-business-process-config-overlay.yaml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/json-ld/workday-business-processes-context.jsonld
   title: ''
@@ -170,7 +305,7 @@ common:
   type: Vocabulary
   url: vocabulary/workday-business-processes-vocabulary.yml
 created: '2024-01-01'
-description: APIs for managing and executing business processes within Workday, including initiating, monitoring, and completing various workflow processes.
+description: 'Workday Business Processes is the workflow engine at the centre of Workday HCM and Financial Management: every hire, job change, expense report, requisition and payment runs as a business process event routed through configured approval, to-do and questionnaire steps. Workday exposes it as a first-party REST service, businessProcess v1, which reads business process types, events and event steps and performs the real actions on them — approve, deny, send back, reassign, cancel and rescind — alongside a Custom Business Process Config v1 service for authoring custom process types and event task definitions, business-process operations inside the Integrations SOAP service, and business process query fields in the Workday Graph API.'
 examples:
 - key_count: 2
   name: Workday Business Processes Approval Request Example
@@ -248,24 +383,24 @@ jsonld:
   property_count: 11
   slug: workday-business-processes-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-17'
 name: Workday Business Processes
 nav: Providers
 network: true
-overview: 'Workday Business Processes publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, Business Process Definitions API, Inbox Items API, and 1 more.
+overview: 'Workday Business Processes publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, Business Process Definitions API, Inbox Items API, and 2 more. Tagged areas include Business Processes, Workflows, Approvals, Human Resources, and Enterprise.
 
 
   The Workday Business Processes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Business Processes'' developer surface includes authentication, developer portal, getting-started guide, and 13 more developer resources.'
+  Workday Business Processes'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 36 more developer resources.'
 plans:
 - name: Workday Business Processes Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: workday-business-processes-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 7
   name: Workday Business Processes Rate Limits
   slug: workday-business-processes-rate-limits
 rules:
@@ -292,41 +427,41 @@ rules:
   slug: workday-business-processes-spectral-rules
 scopes:
 - name: Workday Business Processes Scopes
-  scope_count: 1
+  scope_count: 2
   slug: workday-business-processes-scopes
-  summary_line: 1 scope · clientCredentials
+  summary_line: 2 scopes · implicit
 score:
-  band: thin
-  composite: 36.7
+  band: developing
+  composite: 54.0
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 69.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 45.5
+    artifact_dirs: 34
+    catalog_earned: 82.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 17.3
   facets:
-    access_clarity: 34.2
-    contract_governance: 28.8
-    contract_quality: 29.0
-    developer_ergonomics: 56.0
-    discoverability: 55.6
-    operational_transparency: 23.7
+    access_clarity: 47.4
+    contract_governance: 47.0
+    contract_quality: 39.7
+    developer_ergonomics: 81.5
+    discoverability: 75.9
+    operational_transparency: 44.7
   previous_composite: 36.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 5
-      marker_coverage: 100.0
-      total: 5
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+      marker_coverage: 71.4
+      total: 7
+    mcp: derived
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -343,7 +478,20 @@ security:
 - kind: trust-center
   name: Workday Business Processes Trust Center
   slug: workday-business-processes-trust-center
-  summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
+  summary_line: SOC 1, SOC 2, ISO 27001, ISO 22301, CSA STAR, FedRAMP, IRAP, HITRUST, HIPAA, GDPR, C5
 slug: workday-business-processes
+tags:
+- Business Processes
+- Workflows
+- Approvals
+- Human Resources
+- Enterprise
+- Software-as-a-Service
+- HCM
+- Financial Management
+- Process Automation
+- Event Steps
+- SOAP
+- GraphQL
 website: https://www.workday.com/
 ---

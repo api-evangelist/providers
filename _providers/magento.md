@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -358,7 +358,7 @@ modified: '2026-09-16'
 name: Magento
 nav: Providers
 network: true
-overview: 'Magento publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Adobe Commerce Webhooks, Adobe Commerce Eventing, Authentication API, and 10 more. Tagged areas include E-Commerce, Catalog, and Headless Commerce.
+overview: 'Magento publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Adobe Commerce Webhooks, Adobe Commerce Eventing, Authentication API, and 10 more. Tagged areas include E-Commerce, Catalog, Headless Commerce, and Magento.
 
 
   The Magento catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -423,7 +423,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -447,4 +447,5 @@ tags:
 - E-Commerce
 - Catalog
 - Headless Commerce
+- Magento
 ---

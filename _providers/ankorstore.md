@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - baseURL: https://www.ankorstore.com
@@ -362,7 +362,7 @@ score:
   band: developing
   composite: 42.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 30.0
     catalog_earned_first_party: 0.0
     catalog_gap: 85.0
@@ -387,7 +387,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

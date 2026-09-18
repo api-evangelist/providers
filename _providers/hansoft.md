@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: GraphQL API service for P4 Plan (Hansoft) exposing 60+ queries, 100+ mutations, and 50+ subscriptions across projects, items (tasks, bugs, backlog), users and groups, sprints, timesheets, reports, das
@@ -192,7 +192,7 @@ score:
   band: developing
   composite: 46.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -211,7 +211,7 @@ score:
     conformance: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

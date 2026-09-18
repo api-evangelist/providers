@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: The PowerSync Service exposes a streaming sync protocol over HTTP/WebSocket that client SDKs connect to using JWT authentication. Clients submit their current bucket state and the service streams real
@@ -149,7 +149,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 70.0
     catalog_earned_first_party: 0.0
     catalog_gap: 45.0
@@ -165,7 +165,7 @@ score:
     operational_transparency: 65.8
   previous_composite: 30.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Queen's runs its own Shibboleth Identity Provider and publishes SAML 2.0 IdP metadata as application/xml at a stable, unauthenticated URL on its own registrable domain. The EntityDescriptor carries en
@@ -200,7 +200,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -231,7 +231,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

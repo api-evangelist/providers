@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: An undocumented Take-Two API host. api.take2games.com resolves to a Google Cloud load balancer that returns a bare 403 Forbidden on every path probed, including the root. The sibling T2GP platform hos
@@ -137,7 +137,7 @@ score:
   band: emerging
   composite: 14.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -158,7 +158,7 @@ score:
     - north-america
   previous_composite: 14.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

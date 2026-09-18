@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: A live, anonymous, agent-callable WebMCP surface served from the North American storefront and discovered through the site's RFC 9727 api-catalog. Six tools with JSON Schema inputs expose site identit
@@ -160,7 +160,7 @@ score:
   band: emerging
   composite: 19.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -192,7 +192,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

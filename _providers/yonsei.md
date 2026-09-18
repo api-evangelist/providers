@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Yonsei University operates its own SAML 2.0 Identity Provider for KAFE, the Korean Access FEderation, on its own registrable domain. The entity is registered by kafe.kreonet.net and exported to eduGAI
@@ -182,7 +182,7 @@ score:
   band: emerging
   composite: 17.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -213,7 +213,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

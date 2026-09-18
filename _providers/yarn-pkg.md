@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - description: 'The Yarn command-line interface — `yarn` — provides install, add, remove, up, run, exec, dlx, info, why, pack, rebuild, dedupe, node, bin, search, upgrade-interactive, and stage commands for managing '
@@ -278,7 +278,7 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
@@ -294,7 +294,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

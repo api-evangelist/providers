@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The store's Universal Commerce Protocol service, exposed over MCP at /api/ucp/mcp. An anonymous tools/list returns thirteen tools covering catalog search and lookup, product detail, cart create / read
@@ -189,7 +189,7 @@ score:
   band: emerging
   composite: 25.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -214,7 +214,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

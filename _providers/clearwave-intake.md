@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Self-service patient check-in and registration - kiosk, tablet, and mobile intake that captures demographics, consent forms, and identity, then writes the completed registration back to the practice's
@@ -86,7 +86,7 @@ score:
   band: minimal
   composite: 6.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -108,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

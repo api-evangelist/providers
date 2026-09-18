@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: List and filter vehicles (getVehicles with VehicleFilter), fetch a vehicle by ID or VIN (getVehicleById, getVehiclesByVin), list active vehicles, read vehicle types and custom fields, inspect mapped s
@@ -133,7 +133,7 @@ score:
   band: emerging
   composite: 23.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -149,7 +149,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 23.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

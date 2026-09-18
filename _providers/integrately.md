@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Integrately platform connects 1500+ SaaS applications through a catalog of 20 million+ pre-built one-click automations covering common business workflows such as lead capture, CRM sync, marketing '
@@ -209,7 +209,7 @@ score:
   band: developing
   composite: 46.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -227,7 +227,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

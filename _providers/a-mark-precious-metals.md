@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: A-Mark's wholesale precious metals trading platform enables dealers and financial institutions to buy and sell gold, silver, platinum, and palladium bullion products. Offers spot, forward, and deferre
@@ -212,7 +212,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -237,7 +237,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

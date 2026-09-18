@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: Cloud compilation and code-signing service for Android and iOS React Native apps. Submits build jobs via eas-cli or programmatic token access, returns build artifacts, and fires BUILD webhooks on comp
@@ -166,7 +166,7 @@ score:
   band: thin
   composite: 34.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 66.0
     catalog_earned_first_party: 0.0
     catalog_gap: 49.0
@@ -184,7 +184,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

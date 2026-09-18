@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Online account management portal for Atmos Energy customers providing access to billing, payment, usage history, service requests, and account settings for residential and commercial natural gas custo
@@ -138,7 +138,7 @@ score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -160,7 +160,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

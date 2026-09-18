@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The core big xyt (xyt hub) API gives trading firms and exchanges programmatic access to normalised and raw tick data and analytics across 120+ venues without in-house tick data infrastructure. Publicl
@@ -115,7 +115,7 @@ score:
   band: emerging
   composite: 17.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -143,7 +143,7 @@ score:
     regime_id: securities_market_data
     score: 26.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -166,7 +166,7 @@ tags:
 - Tick Data
 - Trading
 - Analytics
-- Equities
+- Stocks
 - ETFs
 - Transaction Cost Analysis
 - Liquidity

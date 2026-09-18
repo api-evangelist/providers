@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The Notary Project specification defines the signature envelope format, trust store and trust policy for container image signing and verification. It supports multiple signature formats and integrates
@@ -193,7 +193,7 @@ score:
   band: thin
   composite: 35.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 68.3
     catalog_earned_first_party: 0.0
     catalog_gap: 46.8
@@ -212,7 +212,7 @@ score:
     score: 100.0
   previous_composite: 35.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

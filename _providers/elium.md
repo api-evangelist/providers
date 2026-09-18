@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Elium's single GraphQL endpoint, served per tenant at https://{platform}.elium.com/graphql. 17 queries, 206 mutations and 18 subscriptions over 1128 type definitions, covering stories (content), space
@@ -239,7 +239,7 @@ score:
   band: developing
   composite: 50.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -264,7 +264,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

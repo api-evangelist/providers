@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Provider-centric, backend and bulk FHIR R4 APIs for integrating with the eClinicalWorks EHR. Supports SMART on FHIR EHR Launch, Standalone Launch, Backend Services (private_key_jwt, RS384) and CDS Hoo
@@ -271,7 +271,7 @@ score:
   band: exemplar
   composite: 74.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 71.0
     catalog_earned_first_party: 20.0
     catalog_gap: 44.0
@@ -297,7 +297,7 @@ score:
     regime_id: health
     score: 83.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

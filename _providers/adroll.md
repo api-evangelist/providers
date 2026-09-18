@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: REST API for managing AdRoll advertisers, campaigns, ads, audience segments, and reporting on the NextRoll platform. Supports OAuth 2.0 flows and Personal Access Tokens with the client API key sent as
@@ -274,7 +274,7 @@ score:
   band: strong
   composite: 57.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -294,7 +294,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

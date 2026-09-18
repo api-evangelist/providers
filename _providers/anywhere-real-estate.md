@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 23
 apis:
 - description: Endpoints for MLS listings data assembled by Anywhere's MLS Data Platform (MDP), which downloads, processes and enriches listings from multiple MLS sources. Returns listings in canonical RESO format e
@@ -292,7 +292,7 @@ score:
   band: developing
   composite: 41.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -323,7 +323,7 @@ score:
     regime_id: securities_market_data
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

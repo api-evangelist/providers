@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,6 +61,14 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/akara-ai/
+- group: company
+  title: ''
+  type: Website
+  url: https://akara.ai/
+- group: company
+  title: ''
+  type: Blog
+  url: https://akara.ai/blogs
 created: '2026-07-17'
 description: Akara is a healthcare automation company building AI-powered systems for the operating room and clinical environments. Its platform combines the Akara AI Sensor, a thermal-only computer-vision system that passively tracks surgical and procedure events without capturing identifiable patient data (named to TIME's Best Inventions list); the Akara AI Platform, which delivers real-time OR monitoring, automated alerts, interactive dashboards, analytics, and Clara, an AI chat assistant for exploring surgical data and optimizing scheduling; and the Akara UV Robot (Violet), a fully autonomous UV-C disinfection robot that generates 3D UV dose maps and disinfects occupied clinical spaces up to six times faster than manual cleaning. Akara is trusted by hospitals across Europe and the US. The company does not currently publish a public API or developer program; this profile tracks its identity and public web surface.
 image: https://framerusercontent.com/assets/kBYzoVlzISkJAoLupwzm0qAQ.png
@@ -72,13 +80,13 @@ network: true
 overview: 'Akara is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Robotics, Artificial Intelligence, and Operating Room.
 
 
-  Akara''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Akara''s developer surface includes engineering blog, support, and 6 more developer resources.'
 random_paper: 6
 score:
   band: minimal
   composite: 4.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

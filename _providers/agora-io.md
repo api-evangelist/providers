@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 11
 apis:
 - description: The Agora Video Calling API enables real-time, interactive video communication with sub-200ms global latency. Supports one-to-one calls, group calls, and multi-host scenarios across mobile, web, deskt
@@ -293,7 +293,7 @@ score:
   band: thin
   composite: 30.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -311,7 +311,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Intersection's AI-powered Order Management System for out-of-home advertising. Announced 2026-05-11, it is a single API over Intersection's digital screen inventory (LinkNYC and other street, transit,
@@ -156,7 +156,7 @@ score:
   band: emerging
   composite: 14.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -180,7 +180,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

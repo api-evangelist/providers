@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: CoWorkr's standard REST API for pulling workplace analytical data - historical and current occupancy, utilization and device records for WorkPoints, WorkSpace Counters, WorkHubs, WorkPlaces, FloorPlan
@@ -158,7 +158,7 @@ modified: '2026-08-02'
 name: R-Zero
 nav: Providers
 network: true
-overview: 'R-Zero publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Buildings, Occupancy, Sensors, and Internet of Things.
+overview: 'R-Zero publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Buildings, Occupancy, Sensors, and IoT.
 
 
   R-Zero''s developer surface includes documentation, API reference, support, engineering blog, and 20 more developer resources.'
@@ -167,7 +167,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 42.0
     catalog_earned_first_party: 5.0
     catalog_gap: 73.0
@@ -191,7 +191,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -213,7 +213,7 @@ tags:
 - Smart Buildings
 - Occupancy
 - Sensors
-- Internet of Things
+- IoT
 - Indoor Air Quality
 - Energy Efficiency
 - HVAC

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,7 +90,7 @@ modified: '2026-07-21'
 name: Silicon Labs
 nav: Providers
 network: true
-overview: 'Silicon Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Internet of Things, Wireless, and Microcontrollers.
+overview: 'Silicon Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, IoT, Wireless, and Microcontrollers.
 
 
   Silicon Labs'' developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
@@ -99,7 +99,7 @@ score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -122,7 +122,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ slug: silabs
 tags:
 - Company
 - Semiconductors
-- Internet of Things
+- IoT
 - Wireless
 - Microcontrollers
 - Bluetooth

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'REST API for the Ushur customer experience automation platform. Documented operations (per the official UshurNodeSDK) include logging in to a tenant instance, initiating campaign engagements with end '
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 22.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -159,7 +159,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

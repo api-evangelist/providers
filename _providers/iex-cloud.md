@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Real-time and historical US equity quotes, intraday and historical prices, OHLCV charts, news, dividends, splits, options chains, fundamentals, and corporate actions. Pricing was message-based: each e'
@@ -157,7 +157,7 @@ score:
   band: emerging
   composite: 24.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -179,7 +179,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

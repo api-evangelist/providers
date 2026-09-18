@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Kubernetes-style declarative control-plane API for managing Datum Cloud resources — projects, domains, DNS zones and record sets, gateways, HTTPProxies, HTTPRoutes, traffic protection policies (WAF), '
@@ -188,7 +188,7 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -208,7 +208,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

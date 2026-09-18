@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The PiggyVest Business API is a Bearer-token-authenticated REST API hosted at api.piggyvest.business that lets Nigerian businesses programmatically create and manage customers, provision customer wall
@@ -248,7 +248,7 @@ score:
   band: emerging
   composite: 14.6
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -264,6 +264,8 @@ score:
     operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - nigeria
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
@@ -275,7 +277,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

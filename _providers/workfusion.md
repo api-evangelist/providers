@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: Launches, feeds and reads results from Business Processes (BPs) and Manual Tasks on the Work.AI platform. Covers the BP lifecycle (draft, processing, paused, completed) with create/start/pause/stop ac
@@ -174,7 +174,7 @@ modified: '2026-09-04'
 name: WorkFusion
 nav: Providers
 network: true
-overview: 'WorkFusion publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Financial Crime Compliance, Anti-Money Laundering, Sanctions Screening, and Know Your Customer.
+overview: 'WorkFusion publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Financial Crime Compliance, Anti-Money Laundering, Sanctions Screening, and KYC.
 
 
   WorkFusion''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, YouTube channel, and 18 more developer resources.'
@@ -191,7 +191,7 @@ score:
   band: thin
   composite: 28.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -220,7 +220,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -241,7 +241,7 @@ tags:
 - Financial Crime Compliance
 - Anti-Money Laundering
 - Sanctions Screening
-- Know Your Customer
+- KYC
 - Transaction Monitoring
 - Adverse Media Monitoring
 - Intelligent Document Processing

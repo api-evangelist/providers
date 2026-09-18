@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Direct HTTP access to Agentuity platform services — projects, deployments, API keys, OAuth applications, storage (key-value, vector, object, Postgres), message queues, durable streams, sandboxes, sche
@@ -209,7 +209,7 @@ score:
   band: developing
   composite: 48.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -228,7 +228,7 @@ score:
     conformance: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

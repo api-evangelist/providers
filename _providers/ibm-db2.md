@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: REST API for IBM Db2 SaaS on IBM Cloud used to access data, view and create database objects, administer users and roles, and monitor cloud-hosted Db2 service instances. Authenticated via IBM Cloud IA
@@ -106,7 +106,7 @@ score:
   band: emerging
   composite: 14.5
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

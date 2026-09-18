@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 14
 apis:
 - description: Authentication and identity federation surface that lets partner applications running on the teamplay digital health platform, syngo.via OpenApps, and Cios mobile C-arm systems sign users in using the
@@ -168,7 +168,7 @@ score:
   band: emerging
   composite: 15.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -190,7 +190,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

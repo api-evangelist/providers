@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: ytt is a templating tool that understands YAML structure, letting you use familiar YAML constructs and Python-like language (Starlark) to template Kubernetes configuration. Supports overlays, data val
@@ -229,7 +229,7 @@ score:
   band: thin
   composite: 38.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 44.0
     catalog_earned_first_party: 6.0
     catalog_gap: 71.0
@@ -251,7 +251,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

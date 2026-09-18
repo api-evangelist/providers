@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -201,7 +201,7 @@ score:
   band: emerging
   composite: 14.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -219,8 +219,11 @@ score:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
     - indonesia
+    - malaysia
+    - philippines
     - singapore
     - united-kingdom
+    - vietnam
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
@@ -238,7 +241,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

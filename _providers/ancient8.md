@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'Public Ethereum JSON-RPC interface for the Ancient8 Mainnet (chain ID 888888888, currency ETH), available over HTTPS and WebSocket. Standard Ethereum method set for reading chain state and submitting '
@@ -99,7 +99,7 @@ score:
   band: emerging
   composite: 17.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -117,7 +117,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

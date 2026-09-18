@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Valence Security REST API enables integration with the Valence platform for ingesting security data from custom sources, exporting alerts and audit logs, and configuring security monitoring via th
@@ -154,7 +154,7 @@ score:
   band: emerging
   composite: 20.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
@@ -170,7 +170,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 20
 apis:
 - description: The full Grafana HTTP API surface for self-managed Grafana and Grafana Enterprise. Covers dashboards, folders, data sources, organizations, users, teams, service accounts, API keys, access control (RB
@@ -446,7 +446,7 @@ score:
   band: developing
   composite: 52.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -462,7 +462,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 52.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'REST API for managing Ivanti Connect Secure (formerly Pulse Connect Secure) VPN appliances. Provides endpoints for system configuration, user and role management, authentication server configuration, '
@@ -233,7 +233,7 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -252,7 +252,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

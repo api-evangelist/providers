@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Almanac API V1 (private beta) for programmatic workspace management: import files, move files and folders, view workspace users and groups, view and update document properties and access, and access a'
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 18.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -125,7 +125,7 @@ score:
       reason: never_enriched
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

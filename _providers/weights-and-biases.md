@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ modified: '2026-05-08'
 name: Weights & Biases
 nav: Providers
 network: true
-overview: 'Weights & Biases publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 6 more. Tagged areas include MLS, MLOps, Experiment Tracking, Model Registry, and Generative AI.
+overview: 'Weights & Biases publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 6 more. Tagged areas include Machine-Learning, MLOps, Experiment Tracking, Model Registry, and Generative AI.
 
 
   Weights & Biases'' developer surface includes authentication, developer portal, pricing, and 14 more developer resources.'
@@ -240,7 +240,7 @@ score:
   band: developing
   composite: 42.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -266,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -287,7 +287,7 @@ security:
   summary_line: disclosure policy published
 slug: weights-and-biases
 tags:
-- MLS
+- Machine-Learning
 - MLOps
 - Experiment Tracking
 - Model Registry

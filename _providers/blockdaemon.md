@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 11
 apis:
 - description: Unified, multi-chain REST data API (formerly Ubiquity) providing fully indexed blockchain data across 50+ networks. Lookup blocks by number or hash, fetch transactions, account balances for one or man
@@ -434,7 +434,7 @@ score:
   band: developing
   composite: 47.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 78.3
     catalog_earned_first_party: 0.0
     catalog_gap: 36.8
@@ -456,7 +456,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

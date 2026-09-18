@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'CAVATICA is a pediatric-research data analysis platform Seven Bridges operates with the Children''s Hospital of Philadelphia and the NIH Common Fund. It exposes the same v2 REST API surface on its own '
@@ -278,7 +278,7 @@ score:
   band: developing
   composite: 49.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -309,7 +309,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

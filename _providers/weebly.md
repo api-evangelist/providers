@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RESTful API for managing Weebly sites, pages, blog posts, e-commerce products, orders, customers, coupons, categories, and form submissions. Supports OAuth 2.0 authentication and JSON data exchange. R
@@ -130,7 +130,7 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
@@ -146,7 +146,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 32.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

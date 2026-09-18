@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: RYSE's Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://www.helloryse.com/api/ucp/mcp. Anonymous tools/list returns 13 tools with full JSON Schema input contracts coveri
@@ -184,7 +184,7 @@ modified: '2026-08-26'
 name: RYSE
 nav: Providers
 network: true
-overview: 'RYSE publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Smart Home, Internet of Things, Consumer Electronics, Home Automation, and Window Coverings.
+overview: 'RYSE publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Smart Home, IoT, Consumer Electronics, Home Automation, and Window Coverings.
 
 
   RYSE''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
@@ -206,7 +206,7 @@ score:
   band: thin
   composite: 26.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -226,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -245,7 +245,7 @@ security:
 slug: ryse
 tags:
 - Smart Home
-- Internet of Things
+- IoT
 - Consumer Electronics
 - Home Automation
 - Window Coverings

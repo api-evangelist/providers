@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for the CipherTrust Manager control plane. Manages encryption keys, secrets, certificates, tokenization, users, connections, and policies. Base path /api/v1 with JWT bearer authentication obt
@@ -136,7 +136,7 @@ score:
   band: emerging
   composite: 22.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -154,7 +154,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: 'NTNU runs its own Open Journal Systems installation, "NTNU Open Access Journals", on its own registrable domain at www.ntnu.no/ojs, publishing sixteen journals including Nordic Journal of Science and '
@@ -210,7 +210,7 @@ score:
   band: thin
   composite: 29.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -242,7 +242,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

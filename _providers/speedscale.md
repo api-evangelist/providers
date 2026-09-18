@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Speedscale captures production API traffic and replays it in lower environments for load testing, regression testing, and chaos testing. It provides traffic capture, replay, mocking of backend depende
@@ -181,7 +181,7 @@ score:
   band: thin
   composite: 33.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 72.5
     catalog_earned_first_party: 0.0
     catalog_gap: 42.5
@@ -197,7 +197,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 33.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

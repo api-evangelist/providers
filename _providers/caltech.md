@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for CaltechDATA. Verified live 2026-08-19 via the Identify verb (repositoryName CaltechDATA, protocolVersion 2.0) and via ListMetadataFormats, which advertises
@@ -285,7 +285,7 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 69.3
     catalog_earned_first_party: 0.0
     catalog_gap: 45.8
@@ -321,7 +321,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

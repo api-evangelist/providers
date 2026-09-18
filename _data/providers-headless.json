@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Shopify",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 96.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -78,7 +78,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 48.5,
      "agent_band": "agent-ready",
@@ -122,7 +122,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -173,7 +173,7 @@
       "developer_ergonomics": 86.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -217,7 +217,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 44.8,
      "agent_band": "agent-ready",
@@ -261,7 +261,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 53.0,
      "agent_band": "agent-ready",
@@ -290,6 +290,50 @@
      "rank": 6
     },
     {
+     "name": "Contentstack",
+     "slug": "contentstack",
+     "description": "Contentstack is a composable, API-first content platform — an Agentic Experience Platform built around a headless CMS, a real-time customer data layer and an agent runtime. Developers reach it through a read-only Content Delivery API on a global CDN, a write-side Content Management API, a read-only GraphQL delivery surface, an on-the-fly Image Delivery API, and product APIs for Launch (front-end hosting), Automation Hub, Personalize, BrandKit AI and SCIM 2.0 user provisioning. Contentstack publishes a 95-scope OAuth 2.0 reference, an llms.txt, markdown twins of its API reference pages, and a first-party Model Context Protocol server exposing 206 tools whose definitions — including the REST call each one makes — it serves anonymously as JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png",
+     "score": 74.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 76.0,
+      "contract_governance": 28.8,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 28.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Headless CMS & Content Platforms",
+     "rank": 7
+    },
+    {
      "name": "Salla",
      "slug": "salla",
      "description": "Salla is a Saudi Arabia-based e-commerce platform — often called the Shopify of the Middle East — that lets merchants launch, operate, and grow Arabic-first online stores without code. Founded in 2016 in Makkah by Nawaf Hariri and Salman Butt, Salla now powers more than 80,000 active stores. The platform exposes a Merchant REST API (https://api.salla.dev/admin/v2), an OAuth 2.0 Partners authorization service, signed webhooks for the full storefront lifecycle, a Shipping and Fulfillment app contract, the Twilight theme engine and JavaScript SDK, the Salla CLI, and official starter kits for PHP/Laravel and Node.js/Express. Backed by Sanabil (PIF), STV, Investcorp, Vision Ventures, and Raed Ventures, Salla raised a $130M pre-IPO round in 2024.",
@@ -305,7 +349,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -338,7 +382,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "dotCMS",
@@ -356,7 +400,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 44.0,
      "agent_band": "agent-ready",
@@ -382,7 +426,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Commerce Layer",
@@ -400,7 +444,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -433,7 +477,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Browser Use",
@@ -451,7 +495,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 60.0,
      "agent_band": "agent-ready",
@@ -477,7 +521,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Prismic",
@@ -495,7 +539,7 @@
       "developer_ergonomics": 90.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -521,7 +565,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Bloomreach",
@@ -539,7 +583,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 63.7,
      "agent_band": "agent-ready",
@@ -565,7 +609,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 12
+     "rank": 13
     }
    ],
    "open": true
@@ -594,7 +638,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -627,7 +671,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Swell",
@@ -645,7 +689,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -678,7 +722,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Kentico",
@@ -696,7 +740,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -722,7 +766,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Webflow",
@@ -740,7 +784,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
@@ -766,7 +810,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Zyte",
@@ -784,7 +828,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -810,7 +854,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Browserless",
@@ -828,7 +872,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -854,7 +898,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Browserbase",
@@ -872,7 +916,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -898,7 +942,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 19
+     "rank": 20
     }
    ],
    "open": true
@@ -908,9 +952,53 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 38,
-   "shown": 38,
+   "count": 39,
+   "shown": 39,
    "providers": [
+    {
+     "name": "Drupal",
+     "slug": "drupal",
+     "description": "Drupal is an open-source content management system written in PHP, used to build websites, applications and digital experiences for individuals, organizations, governments and enterprises worldwide. It is self-hosted software rather than a hosted service: Drupal core ships a JSON:API v1.0 surface and a RESTful Web Services surface that run on the operator’s own domain, and contributed modules add GraphQL and an MCP server. The Drupal Association itself operates one public read-only API, the Drupal.org REST API at https://www.drupal.org/api-d7, alongside a machine-readable release-history feed and a Composer package repository.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/screenshots/drupal-2026-06-20T180306.png",
+     "score": 54.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 65.4,
+      "contract_governance": 14.4,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 44.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "templated",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Platforms & Suites Going Headless",
+     "rank": 21
+    },
     {
      "name": "Hyperbrowser",
      "slug": "hyperbrowser",
@@ -927,7 +1015,7 @@
       "developer_ergonomics": 60.7,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -953,7 +1041,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Oxylabs",
@@ -971,7 +1059,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -997,7 +1085,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Uniform",
@@ -1015,7 +1103,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1041,7 +1129,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Bright Data",
@@ -1059,7 +1147,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 31.4,
      "agent_band": "agent-ready",
@@ -1085,7 +1173,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "Salesforce Experience Cloud",
@@ -1103,7 +1191,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -1129,7 +1217,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "ScrapingAnt",
@@ -1147,7 +1235,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -1173,7 +1261,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "Storyblok",
@@ -1191,7 +1279,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -1217,7 +1305,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "Sanity",
@@ -1235,7 +1323,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -1261,7 +1349,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "API Snap",
@@ -1279,7 +1367,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1312,7 +1400,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "BigCommerce",
@@ -1330,7 +1418,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1363,7 +1451,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "WooCommerce",
@@ -1381,7 +1469,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -1407,7 +1495,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "VTEX",
@@ -1425,7 +1513,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1458,7 +1546,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Builder.io",
@@ -1476,7 +1564,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 45.4,
      "agent_band": "agent-native",
@@ -1502,7 +1590,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "Alokai (formerly Vue Storefront)",
@@ -1520,7 +1608,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -1546,7 +1634,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "Chord",
@@ -1564,7 +1652,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -1590,7 +1678,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 34
+     "rank": 36
     },
     {
      "name": "Bagisto",
@@ -1608,7 +1696,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -1634,7 +1722,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 35
+     "rank": 37
     },
     {
      "name": "Snipcart",
@@ -1652,7 +1740,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1685,7 +1773,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 36
+     "rank": 38
     },
     {
      "name": "WordPress",
@@ -1703,7 +1791,7 @@
       "developer_ergonomics": 72.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 31.9,
      "agent_band": "agent-ready",
@@ -1729,7 +1817,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 37
+     "rank": 39
     },
     {
      "name": "Apache OFBiz",
@@ -1747,7 +1835,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1773,7 +1861,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 38
+     "rank": 40
     },
     {
      "name": "Makeswift",
@@ -1791,7 +1879,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 30.5,
      "agent_band": "agent-ready",
@@ -1817,7 +1905,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 39
+     "rank": 41
     },
     {
      "name": "Ninetailed",
@@ -1835,7 +1923,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -1861,7 +1949,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 40
+     "rank": 42
     },
     {
      "name": "Vendure",
@@ -1879,7 +1967,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -1905,7 +1993,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 41
+     "rank": 43
     },
     {
      "name": "Contentful",
@@ -1923,7 +2011,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
@@ -1949,7 +2037,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 42
+     "rank": 44
     },
     {
      "name": "ZenRows",
@@ -1967,7 +2055,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -1993,7 +2081,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 43
+     "rank": 45
     },
     {
      "name": "fabric",
@@ -2011,7 +2099,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2044,7 +2132,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 44
+     "rank": 46
     },
     {
      "name": "SnapAPI",
@@ -2062,7 +2150,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2088,7 +2176,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 45
+     "rank": 47
     },
     {
      "name": "Elastic Path",
@@ -2106,7 +2194,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2139,7 +2227,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "commercetools",
@@ -2157,7 +2245,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -2183,7 +2271,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 47
+     "rank": 49
     },
     {
      "name": "ScrapingBee",
@@ -2201,7 +2289,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -2227,7 +2315,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "DatoCMS",
@@ -2245,7 +2333,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -2271,7 +2359,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 49
+     "rank": 51
     },
     {
      "name": "TYPO3",
@@ -2289,7 +2377,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2315,7 +2403,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 50
+     "rank": 52
     },
     {
      "name": "Spider",
@@ -2333,7 +2421,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -2359,7 +2447,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 51
+     "rank": 53
     },
     {
      "name": "Firecrawl",
@@ -2377,7 +2465,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 35.2,
      "agent_band": "agent-ready",
@@ -2403,7 +2491,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 52
+     "rank": 54
     },
     {
      "name": "Strapi",
@@ -2421,7 +2509,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -2447,7 +2535,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "Bold Commerce",
@@ -2465,7 +2553,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2498,7 +2586,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "Selenium",
@@ -2516,7 +2604,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -2542,7 +2630,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "Django CMS",
@@ -2560,7 +2648,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2586,7 +2674,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 56
+     "rank": 58
     },
     {
      "name": "Saleor",
@@ -2604,7 +2692,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2630,7 +2718,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 57
+     "rank": 59
     }
    ]
   },
@@ -2639,8 +2727,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 29,
-   "shown": 29,
+   "count": 27,
+   "shown": 27,
    "providers": [
     {
      "name": "Zenscrape",
@@ -2658,7 +2746,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 29.6,
      "agent_band": "agent-ready",
@@ -2684,7 +2772,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 58
+     "rank": 60
     },
     {
      "name": "Airtop",
@@ -2702,7 +2790,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2728,7 +2816,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 59
+     "rank": 61
     },
     {
      "name": "Crawlbase",
@@ -2746,7 +2834,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -2772,7 +2860,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 60
+     "rank": 62
     },
     {
      "name": "Sitefinity CMS",
@@ -2790,99 +2878,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Headless CMS & Content Platforms",
-     "rank": 61
-    },
-    {
-     "name": "Contentstack",
-     "slug": "contentstack",
-     "description": "This document is a detailed reference to Contentstack’s Content Delivery API. Retrieve content from your account and deliver it to web and mobile properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png",
-     "score": 37.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 76.0,
-      "contract_governance": 28.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Headless CMS & Content Platforms",
-     "rank": 62
-    },
-    {
-     "name": "Zesty",
-     "slug": "zesty",
-     "description": "Zesty.io is a composable, data-driven, headless CMS platform that provides REST APIs for authentication, account management, instance content management, and media file management. All resources are identified by ZUIDs (Zesty Universal Identifiers). The platform supports WebEngine for traditional CMS, headless API architecture, GraphQL, and JamStack implementations. Built on Google Cloud Platform with Fastly edge caching.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png",
-     "score": 36.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 72.5,
-      "contract_governance": 9.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2911,6 +2907,50 @@
      "rank": 63
     },
     {
+     "name": "Zesty",
+     "slug": "zesty",
+     "description": "Zesty.io is a composable, data-driven, headless CMS platform that provides REST APIs for authentication, account management, instance content management, and media file management. All resources are identified by ZUIDs (Zesty Universal Identifiers). The platform supports WebEngine for traditional CMS, headless API architecture, GraphQL, and JamStack implementations. Built on Google Cloud Platform with Fastly edge caching.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png",
+     "score": 36.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 72.5,
+      "contract_governance": 9.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 31.0,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Headless CMS & Content Platforms",
+     "rank": 64
+    },
+    {
      "name": "Payload",
      "slug": "payload",
      "description": "Payload is an open-source TypeScript-first headless CMS and application framework that ships with auto-generated REST, GraphQL, and Local APIs, authentication, access control, file storage, and a Next.js-native admin UI used to build content-driven websites, applications, and digital products.",
@@ -2926,7 +2966,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -2952,7 +2992,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Steel",
@@ -2969,7 +3009,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2995,7 +3035,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Apify",
@@ -3013,7 +3053,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 37.1,
      "agent_band": "agent-ready",
@@ -3039,7 +3079,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Scrapfly",
@@ -3057,7 +3097,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -3083,7 +3123,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Sitecore",
@@ -3101,7 +3141,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
@@ -3127,7 +3167,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Craft CMS",
@@ -3145,7 +3185,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3171,7 +3211,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "PDFEndpoint",
@@ -3189,7 +3229,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3215,7 +3255,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Salesforce Commerce Cloud",
@@ -3233,7 +3273,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -3259,7 +3299,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Decap CMS",
@@ -3277,7 +3317,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -3303,7 +3343,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "TinaCMS",
@@ -3321,7 +3361,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3347,7 +3387,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Plasmic",
@@ -3365,7 +3405,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3391,7 +3431,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Nacelle",
@@ -3409,7 +3449,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3435,7 +3475,7 @@
       "agentic_commerce": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Magento",
@@ -3453,7 +3493,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 25.1,
      "agent_band": "agent-aware",
@@ -3479,7 +3519,7 @@
       "agentic_commerce": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Lightpanda",
@@ -3497,7 +3537,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -3523,54 +3563,6 @@
       "agentic_commerce": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 77
-    },
-    {
-     "name": "Drupal",
-     "slug": "drupal",
-     "description": "Drupal is an open-source content management system written in PHP and used to build websites, applications, and digital experiences for individuals, organizations, and enterprises worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/screenshots/drupal-2026-06-20T180306.png",
-     "score": 30.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 65.4,
-      "contract_governance": 9.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
-     "agent_score": 21.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Platforms & Suites Going Headless",
      "rank": 78
     },
     {
@@ -3589,7 +3581,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 14.9,
      "agent_band": "agent-aware",
@@ -3633,7 +3625,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3677,7 +3669,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3721,7 +3713,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -3765,7 +3757,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3809,7 +3801,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3853,7 +3845,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -3897,7 +3889,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3951,7 +3943,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4002,7 +3994,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -4046,7 +4038,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 20.1,
      "agent_band": "agent-aware",
@@ -4090,7 +4082,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -4134,7 +4126,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4177,7 +4169,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4228,7 +4220,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4272,7 +4264,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -4316,7 +4308,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4360,7 +4352,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4404,7 +4396,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -4448,7 +4440,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4492,7 +4484,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4536,7 +4528,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4580,7 +4572,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4634,7 +4626,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

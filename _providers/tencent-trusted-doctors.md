@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,13 +65,13 @@ modified: '2026-08-30'
 name: Tencent Trusted Doctors
 nav: Providers
 network: true
-overview: Tencent Trusted Doctors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telemedicine, and Digital Health.
+overview: Tencent Trusted Doctors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Telehealth, and Digital Health.
 random_paper: 12
 score:
   band: minimal
   composite: 2.2
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -100,7 +100,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +111,7 @@ tags:
 - Company
 - Health
 - Healthcare
-- Telemedicine
+- Telehealth
 - Digital Health
 - Clinics
 - China

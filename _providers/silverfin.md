@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Silverfin''s public v4 REST API and SyncAPI for accountancy automation: companies, periods, accounts, reconciliations, reports, adjustments, budgets, workflows, users, permanent documents, exports, and'
@@ -185,7 +185,7 @@ score:
   band: thin
   composite: 32.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -201,6 +201,8 @@ score:
     operational_transparency: 38.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - belgium
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - benelux
@@ -211,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

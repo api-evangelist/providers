@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Versioned /v1 REST API for the Zenoss (Virtana Service Observability) platform. Covers the data receiver (metrics, events, entity models), event query and event management, model context (entity searc
@@ -241,7 +241,7 @@ score:
   band: developing
   composite: 50.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -261,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

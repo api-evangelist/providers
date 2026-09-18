@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Shopify Storefront GraphQL API for the Slingshot Bio online store, declared by the company in its own /.well-known/api-catalog. Serves products, collections, cart and checkout operations for the c
@@ -164,7 +164,7 @@ score:
   band: developing
   composite: 39.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -190,7 +190,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

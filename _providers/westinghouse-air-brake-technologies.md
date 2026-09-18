@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: WabtecONE is Wabtec's digital intelligence platform enabling railroads and industrial operators to connect embedded devices and transmit operational data to the cloud for analysis. The platform provid
@@ -154,7 +154,7 @@ score:
   band: emerging
   composite: 19.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -170,7 +170,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 19.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

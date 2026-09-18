@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API served by MAX. Exposes /v1/chat/completions, /v1/completions, /v1/embeddings, /v1/responses (image and video generation), and /v1/models. Hosted at api.modular.com with
@@ -175,7 +175,7 @@ score:
   band: thin
   composite: 35.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -193,7 +193,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

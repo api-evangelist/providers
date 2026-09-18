@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: VistaCenter, VitalConnect's cloud clinician application, transmits events to third-party application servers by POSTing to a subscriber-supplied Target URL. Event classes are patient notifications, ne
@@ -151,7 +151,7 @@ score:
   band: thin
   composite: 27.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -173,7 +173,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

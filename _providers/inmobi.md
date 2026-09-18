@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Automates download of app inventory performance data for InMobi publishers. A single POST to /v3.0/reporting/publisher takes a reportRequest envelope of metrics (adRequests, adImpressions, clicks, ear
@@ -214,7 +214,7 @@ score:
   band: developing
   composite: 46.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
@@ -237,7 +237,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

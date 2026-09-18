@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -907,7 +907,7 @@ modified: '2026-05-25'
 name: Cumulocity
 nav: Providers
 network: true
-overview: 'Cumulocity publishes 39 APIs on the [APIs.io](https://apis.io/) network, including MQTT and SmartREST API, MQTT Service API, Alarms API, and 36 more. Tagged areas include IoT, Internet of Things, Industrial IoT, AIoT, and Device Management.
+overview: 'Cumulocity publishes 39 APIs on the [APIs.io](https://apis.io/) network, including MQTT and SmartREST API, MQTT Service API, Alarms API, and 36 more. Tagged areas include IoT, Industrial IoT, AIoT, Device Management, and Digital Twin.
 
 
   The Cumulocity catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -960,7 +960,7 @@ score:
   band: strong
   composite: 64.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 67.5
     catalog_earned_first_party: 0.0
     catalog_gap: 47.5
@@ -983,7 +983,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -1001,7 +1001,6 @@ security:
 slug: cumulocity
 tags:
 - IoT
-- Internet of Things
 - Industrial IoT
 - AIoT
 - Device Management

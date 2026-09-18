@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -43,7 +43,7 @@ modified: '2026-07-20'
 name: Ping An Good Doctor
 nav: Providers
 network: true
-overview: Ping An Good Doctor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telemedicine, and Online Consultations.
+overview: Ping An Good Doctor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telehealth, and Online Consultations.
 random_paper: 0
 score:
   band: minimal
@@ -86,7 +86,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -97,7 +97,7 @@ tags:
 - Company
 - Healthcare
 - Digital Health
-- Telemedicine
+- Telehealth
 - Online Consultations
 - Health E-Commerce
 - China

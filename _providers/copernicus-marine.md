@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Copernicus Marine Toolbox provides the officially supported programmatic interface to the Copernicus Marine Data Store, available as both a Python library and CLI. Core operations include describe
@@ -148,7 +148,7 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -178,7 +178,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

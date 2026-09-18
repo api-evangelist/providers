@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ modified: '2026-05-19'
 name: Google Cloud IAM
 nav: Providers
 network: true
-overview: 'Google Cloud IAM publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Permissions API, Roles API, Service Account Keys API, and 1 more. Tagged areas include Access Management, Google Cloud, IAM, Identity, and Permissions.
+overview: 'Google Cloud IAM publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Permissions API, Roles API, Service Account Keys API, and 1 more. Tagged areas include Access Management, Google Cloud, Identity and Access Management, Identity, and Permissions.
 
 
   The Google Cloud IAM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -232,7 +232,7 @@ score:
   band: developing
   composite: 44.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -278,7 +278,7 @@ slug: google-cloud-iam
 tags:
 - Access Management
 - Google Cloud
-- IAM
+- Identity and Access Management
 - Identity
 - Permissions
 - Security

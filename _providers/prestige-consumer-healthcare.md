@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Prestige Consumer Healthcare API provides access to platform services and data for enterprise integration and automation.
@@ -81,7 +81,7 @@ score:
   band: minimal
   composite: 8.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -103,7 +103,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

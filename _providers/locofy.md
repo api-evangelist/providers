@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Figma and Adobe XD plugin that tags layers, applies responsive behavior, and exports production-ready front-end code (React, Next.js, HTML/CSS, React Native, Gatsby). Acts as the primary entry point i
@@ -105,7 +105,7 @@ score:
   band: emerging
   composite: 18.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -121,7 +121,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

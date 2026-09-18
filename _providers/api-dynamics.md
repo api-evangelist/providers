@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The APIDynamics platform provides AI-driven API security and observability including API discovery, traffic analysis, real-time risk scoring, adaptive MFA, Zero Trust enforcement, shadow/zombie API de
@@ -158,7 +158,7 @@ score:
   band: emerging
   composite: 23.1
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -177,7 +177,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

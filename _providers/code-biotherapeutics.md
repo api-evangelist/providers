@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Model Context Protocol server that Code Biotherapeutics' corporate website exposes at https://www.codebiotx.com/_api/mcp. It is the Wix platform site MCP server, served from the company's own host
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 22.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -156,7 +156,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

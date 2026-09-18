@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Office of Congressional Workplace Rights. The mission of the Office of Congressional Workplace Rights is to advance workplace rights, safety and health, and accessibility in the legislative branch. Su
@@ -98,7 +98,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

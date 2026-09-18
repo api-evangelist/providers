@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'REST API (formerly Applanga) for mobile app and software string localization, supporting upload/download of source and translated entries, tags, screenshots, projects, branches, orders, and webhooks, '
@@ -180,7 +180,7 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 45.3
     catalog_earned_first_party: 0.0
     catalog_gap: 69.8
@@ -196,7 +196,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 33.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

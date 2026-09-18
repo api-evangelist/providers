@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Vymo's enterprise platform API, used by banks, insurers and asset managers to push leads into Vymo, sync users and hierarchies, read activity and engagement records, and connect Vymo to CRM and core s
@@ -133,7 +133,7 @@ score:
   band: minimal
   composite: 5.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -160,7 +160,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

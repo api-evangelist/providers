@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,6 +61,10 @@ common:
   title: ''
   type: Support
   url: https://www.ripplcare.com/contact
+- group: company
+  title: ''
+  type: Website
+  url: https://ripplcare.com/
 created: '2026-07-17'
 description: Rippl (Rippl Care) is a specialty healthcare company delivering value-based, virtual-first behavioral health and dementia care for older adults and their caregivers. Its clinical model spans medication assessments, personalized care plans, counseling, community-resource navigation, and safety guidance, partnering with health systems, providers, and payors. Rippl runs its patient portal on athenahealth and is backed by GV (Google Ventures); it has no public developer API or developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rippl-care.png
@@ -72,13 +76,13 @@ network: true
 overview: 'Rippl Care * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Healthcare, Behavioral Health, and Dementia Care.
 
 
-  Rippl Care *''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  Rippl Care *''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 17
 score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,7 +104,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

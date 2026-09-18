@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Reform's public integration surface. It is not a REST management API — no endpoint exists to create, read or update forms and submissions. What Reform publishes is the hosted form host (forms.reform.a
@@ -206,7 +206,7 @@ score:
   band: developing
   composite: 49.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 60.0
     catalog_earned_first_party: 12.0
     catalog_gap: 55.0
@@ -224,7 +224,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

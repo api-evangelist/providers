@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Unified Trust & Safety API exposing ML classifiers, enrichments, account graph lineage, and real-time rule evaluation for anti-abuse workflows. Access is gated behind an issued API key; developer docu
@@ -95,7 +95,7 @@ score:
   band: minimal
   composite: 8.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -111,7 +111,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 8.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

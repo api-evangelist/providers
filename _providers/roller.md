@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: General-purpose real-time REST API for the ROLLER platform. Retrieve products, sessions and availability, and create and manage real-time bookings to power external checkout and booking journeys. Auth
@@ -196,7 +196,7 @@ score:
   band: strong
   composite: 55.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -220,7 +220,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

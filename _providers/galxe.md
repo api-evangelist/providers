@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Galxe's public GraphQL API for building web3 experiences — query credentials and eligibility, quests, spaces, loyalty-points leaderboards, and Starboard social/onchain influence metrics, and push cred
@@ -196,7 +196,7 @@ score:
   band: thin
   composite: 36.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -216,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

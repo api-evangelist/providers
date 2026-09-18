@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Token-authenticated HTTPS REST API used by individual devices to read and write datastream values, batch update multiple datastreams, retrieve historical data, set widget and datastream properties, tr
@@ -248,7 +248,7 @@ modified: '2026-05-25'
 name: Blynk
 nav: Providers
 network: true
-overview: 'Blynk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, Internet of Things, No-Code, Low-Code, and Connected Devices.
+overview: 'Blynk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, No-Code, Low-Code, Connected Devices, and Device Management.
 
 
   Blynk''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, pricing, engineering blog, and 35 more developer resources.'
@@ -257,7 +257,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -282,7 +282,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -297,7 +297,6 @@ security:
 slug: blynk
 tags:
 - IoT
-- Internet of Things
 - No-Code
 - Low-Code
 - Connected Devices

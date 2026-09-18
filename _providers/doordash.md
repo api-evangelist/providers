@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.4
-  scored_at: '2026-09-16'
+  score: 37.5
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 42
   slug: doordash-agentic-access
   summary_line: 42 operations · 30 acting
-api_count: 5
+api_count: 14
 apis:
 - baseURL: https://openapi.doordash.com/drive/v2
   baseurl_source: declared
@@ -105,7 +105,47 @@ apis:
   description: Manage store locations associated with businesses.
   name: doordash Stores API
   slug: doordash-stores-api
-artifact_total: 234
+- baseURL: https://openapi.doordash.com
+  baseurl_source: declared
+  description: Plan, launch and measure sponsored-listing and brand advertising on the DoorDash marketplace. Campaigns, ad groups, product ads, keywords, creatives, targeting, budget recommendations, catalog validat
+  name: DoorDash Ads API
+  slug: doordash-ads-api
+- baseURL: https://openapi.doordash.com
+  baseurl_source: declared
+  description: 'The white-label online-ordering surface DoorDash runs on a merchant''s own site - addresses and geocoding, store and menu reads, cart and order sessions, payment methods, loyalty profiles, rewards and '
+  name: DoorDash Storefront API
+  slug: doordash-storefront-api
+- baseURL: https://openapi.doordash.com
+  baseurl_source: declared
+  description: The shipped-parcel variant of Drive - quote, create, track and cancel a parcel delivery with package dimensions, labels and scanned data, on the same drive/v2 paths as the on-demand Drive API.
+  name: DoorDash Parcel API
+  slug: doordash-parcel-api
+- baseURL: https://openapi.doordash.com
+  baseurl_source: declared
+  description: Request a refund against a completed Drive delivery. DoorDash decides whether the refund is granted or rejected and returns a result code; no eligibility window is published.
+  name: DoorDash Drive Refunds API
+  slug: doordash-drive-refunds-api
+- baseURL: https://openapi.doordash.com
+  baseurl_source: declared
+  description: Re-attempt a Drive delivery that could not be completed, creating a redelivery against the original external_delivery_id.
+  name: DoorDash Drive Redelivery API
+  slug: doordash-drive-redelivery-api
+- baseURL: https://openapi.doordash.com
+  baseurl_source: declared
+  description: Read the Dasher assignment history for a delivery and submit a rating for the Dasher who completed it.
+  name: DoorDash Drive Dasher Feedback API
+  slug: doordash-drive-dasher-feedback-api
+- baseURL: https://api.doordash.com
+  baseurl_source: declared
+  description: The embedded checkout interface used to hand a cart to DoorDash from a merchant's own e-commerce flow. The contract states absolute URLs on api.doordash.com and order.online rather than a servers[] ba
+  name: DoorDash Checkout API
+  slug: doordash-checkout-api
+- baseURL: https://pointofsale.doordash.com
+  baseurl_source: declared
+  description: The legacy point-of-sale integration surface - menus, orders, order confirmation, item and store availability - served from pointofsale.doordash.com. Superseded by the Marketplace API, with a publishe
+  name: DoorDash Marketplace (legacy) API
+  slug: doordash-marketplace-legacy-api
+artifact_total: 244
 asyncapis:
 - description: 'DoorDash Drive sends webhook notifications for delivery status updates, enabling near-real-time information flow from DoorDash and Dashers to partner applications. Webhooks support scenarios like map '
   name: DoorDash Drive Delivery Webhooks
@@ -254,9 +294,9 @@ common:
   type: Blog
   url: https://doordash.engineering/
 - group: start
-  title: ''
-  type: Login
-  url: https://developer.doordash.com/en-US/login
+  title: Developer Portal sign-up and login
+  type: SignUp
+  url: https://developer.doordash.com/portal
 - group: commercial
   title: ''
   type: TermsOfService
@@ -339,7 +379,125 @@ common:
   title: ''
   type: FinOps
   url: finops/doordash-finops.yml
-description: DoorDash is an on-demand local commerce platform whose developer program exposes its logistics and marketplace network through public APIs. The Drive and Drive Classic APIs let businesses request on-demand deliveries fulfilled by DoorDash's Dasher fleet, while the Marketplace, Item Management, and Reporting APIs let merchants and retailers receive orders, synchronize menus and catalogs, and access financial and operational reporting. All APIs use JWT-based authentication and are documented at developer.doordash.com.
+- group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-drive-openapi.yml
+  title: DoorDash Drive API 2.1.59 (provider-published, harvested verbatim)
+  type: OpenAPI
+  url: openapi/_original/doordash-drive-openapi.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.doordash.com/en-US/api/drive
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.doordash.com/en-US/docs/drive/tutorials/get_started/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developer.doordash.com/en-US/docs/drive/overview/pricing_payment
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.doordashstatus.com
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/lifecycle/doordash-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/doordash-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/changelog/doordash-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/doordash-changelog.yml
+- group: operate
+  title: Reporting API release notes
+  type: ChangeLog
+  url: https://developer.doordash.com/en-US/docs/reporting/overview/release_notes
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/conventions/doordash-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/doordash-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/conventions/doordash-conventions.yml
+  title: Idempotency and reversibility rules (external_delivery_id, cancel-before-assignment)
+  type: Idempotency
+  url: conventions/doordash-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/errors/doordash-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/doordash-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/conformance/doordash-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/doordash-conformance.yml
+- group: auth
+  title: DoorDash Trust Center (SOC 2, PCI DSS)
+  type: Compliance
+  url: https://trust.doordash.com/
+- group: auth
+  title: DoorDash Bug Bounty Program
+  type: Security
+  url: https://hackerone.com/doordash
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/security/doordash-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/doordash-vulnerability-disclosure.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/packages/doordash-packages.yml
+  title: ''
+  type: Packages
+  url: packages/doordash-packages.yml
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/sandbox/doordash-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/doordash-sandbox.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/components/doordash-components.yml
+  title: ''
+  type: Components
+  url: components/doordash-components.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/data-model/doordash-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/doordash-data-model.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/mcp/doordash-mcp.yml
+  title: MCP candidate - DoorDash publishes no MCP server
+  type: MCPServer
+  url: mcp/doordash-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/llms/doordash-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/doordash-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/overlays/doordash-drive-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/doordash-drive-overlay.yaml
+- group: design
+  title: Drive webhook event reference
+  type: Webhooks
+  url: https://developer.doordash.com/en-US/docs/drive/reference/webhooks
+- group: docs
+  href: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/asyncapi/doordash-drive-webhooks-asyncapi.yml
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/doordash-drive-webhooks-asyncapi.yml
+created: '2026-05-04'
+description: DoorDash is an on-demand local commerce platform whose developer program exposes its logistics and marketplace network through thirteen publicly documented REST APIs. Drive, Drive (classic) and Parcel let businesses request deliveries fulfilled by DoorDash's Dasher fleet, with Refunds, Redelivery and Dasher Feedback attached to that surface. Marketplace, Marketplace (legacy) and Item Management let merchants and retailers receive orders and synchronize menus, catalogs, inventory and promotions, while Storefront powers white-label online ordering, Reporting delivers financial and operational data exchange, and the Ads API sells sponsored placement on the marketplace. Every API authenticates with a short-lived HS256 JSON Web Token the caller signs itself, and DoorDash serves each OpenAPI definition as plain YAML from developer.doordash.com.
 examples:
 - key_count: 1
   name: Doordash Accept Quote Request Example
@@ -897,17 +1055,21 @@ jsonld:
   property_count: 6
   slug: doordash-reporting-webhooks-context
 layout: provider
-modified: '2026-06-02'
+mcp_servers:
+- description: DoorDash publishes NO Model Context Protocol server. Nothing on developer.doordash.com mentions MCP (415 sitemap URLs checked, zero matches), no /mcp endpoint exists on openapi.doordash.com, and every
+  name: MCP candidate - DoorDash publishes no MCP server
+  slug: mcp-candidate-doordash-publishes-no-mcp-server
+modified: '2026-09-17'
 name: Doordash
 nav: Providers
 network: true
-overview: 'Doordash publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Businesses API, Catalog API, and 9 more.
+overview: 'Doordash publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Businesses API, Catalog API, and 17 more. Tagged areas include Delivery, Logistics, Last Mile, On-Demand, and Food Delivery.
 
 
   The Doordash catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 9 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Doordash''s developer surface includes authentication, documentation, engineering blog, support, tooling, and 24 more developer resources.'
+  Doordash''s developer surface includes authentication, documentation, engineering blog, signup flow, support, tooling, API reference, and 47 more developer resources.'
 plans:
 - name: Doordash Plans Pricing
   plan_count: 3
@@ -951,37 +1113,37 @@ rules:
     warn: 27
   slug: doordash-spectral-rules
 score:
-  band: developing
-  composite: 52.8
+  band: exemplar
+  composite: 75.7
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 63.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    artifact_dirs: 34
+    catalog_earned: 80.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 34.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 22.9
   facets:
-    access_clarity: 51.3
-    contract_governance: 28.8
-    contract_quality: 81.0
-    developer_ergonomics: 46.4
-    discoverability: 64.8
-    operational_transparency: 7.9
+    access_clarity: 93.4
+    contract_governance: 33.3
+    contract_quality: 78.4
+    developer_ergonomics: 74.4
+    discoverability: 68.5
+    operational_transparency: 73.7
   previous_composite: 52.8
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 12
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    mcp: derived
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 27.8
@@ -990,15 +1152,32 @@ security:
 - kind: authentication
   name: Doordash Authentication
   slug: doordash-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/apiKey · 5 schemes
 - kind: domain-security
   name: Doordash Domain Security
   slug: doordash-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Doordash Vulnerability Disclosure
+  slug: doordash-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 - kind: trust-center
   name: Doordash Trust Center
   slug: doordash-trust-center
   summary_line: SOC 2, PCI DSS
 slug: doordash
+tags:
+- Delivery
+- Logistics
+- Last Mile
+- On-Demand
+- Food Delivery
+- Local Commerce
+- Marketplace
+- Restaurant
+- Grocery
+- Retail
+- Fulfillment
+- Webhook
 website: https://www.doordash.com/
 ---

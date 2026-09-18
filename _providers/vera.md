@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -82,6 +82,10 @@ common:
   title: ''
   type: Compliance
   url: https://www.fortra.com/security
+- group: company
+  title: ''
+  type: Website
+  url: https://secure.vera.com/
 created: '2026-07-17'
 description: Vera was a data-centric security company delivering information rights management (IRM) as a service, letting businesses encrypt, track, audit, and revoke access to files anywhere they travel, with an SDK and REST API for embedding AES 256-bit encryption and policy enforcement into applications. Backed by Amplify Partners, Battery Ventures, and Sutter Hill Ventures, Vera was acquired by HelpSystems (now Fortra) in December 2020 and lives on as Fortra's Digital Guardian Secure Collaboration product; its developer surface (SDK/REST API) is now available to Fortra customers rather than as a public developer program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vera.png
@@ -93,13 +97,13 @@ network: true
 overview: 'Vera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Data Security, Encryption, and Digital Rights Management.
 
 
-  Vera''s developer surface includes changelog and 9 more developer resources.'
+  Vera''s developer surface includes changelog and 10 more developer resources.'
 random_paper: 12
 score:
   band: emerging
   composite: 12.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -115,7 +119,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

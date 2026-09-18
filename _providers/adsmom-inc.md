@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'First-party hosted Model Context Protocol server that exposes the same ad index to AI assistants (Claude, Codex, Cursor, Gemini). Streamable HTTP at https://api.adsmom.com/mcp, protected by OAuth 2.0 '
@@ -277,7 +277,7 @@ score:
   band: developing
   composite: 40.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 51.0
     catalog_earned_first_party: 12.0
     catalog_gap: 64.0
@@ -302,7 +302,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

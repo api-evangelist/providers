@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for automating common tasks for debian, rpm, rubygems, python, npm, maven, and helm packages. Supports repository management, package upload and deletion, access token management, GPG key man
@@ -130,7 +130,7 @@ score:
   band: thin
   composite: 29.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 75.0
     catalog_earned_first_party: 0.0
     catalog_gap: 40.0
@@ -146,7 +146,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 29.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

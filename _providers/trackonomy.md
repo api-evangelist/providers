@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,7 +98,7 @@ modified: '2026-07-21'
 name: Trackonomy
 nav: Providers
 network: true
-overview: 'Trackonomy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet of Things, Supply Chain, Logistics, and Asset Tracking.
+overview: 'Trackonomy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Supply Chain, Logistics, and Asset Tracking.
 
 
   Trackonomy''s developer surface includes support, YouTube channel, and 11 more developer resources.'
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 11.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -123,7 +123,7 @@ score:
     operational_transparency: 6.6
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -138,7 +138,7 @@ security:
 slug: trackonomy
 tags:
 - Company
-- Internet of Things
+- IoT
 - Supply Chain
 - Logistics
 - Asset Tracking

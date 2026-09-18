@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: DBOS Transact is a durable execution library that decorates application functions with workflow, step, transaction, scheduled, and Kafka consumer semantics, persisting all state to Postgres so workflo
@@ -187,7 +187,7 @@ score:
   band: thin
   composite: 30.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
@@ -206,7 +206,7 @@ score:
     score: 50.0
   previous_composite: 30.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

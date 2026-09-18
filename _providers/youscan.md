@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://api.youscan.io/api/external
@@ -293,7 +293,7 @@ score:
   band: strong
   composite: 56.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -318,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

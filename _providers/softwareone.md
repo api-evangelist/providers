@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The SoftwareOne Marketplace Platform API provides programmatic access to the marketplace catalog, enabling clients and partners to browse products, manage subscriptions, track orders, and access billi
@@ -198,7 +198,7 @@ score:
   band: thin
   composite: 29.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

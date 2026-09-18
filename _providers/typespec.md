@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: The TypeSpec compiler processes `.tsp` TypeSpec files and emits output for configured emitters (OpenAPI, JSON Schema, Protobuf, etc.). It provides a programmatic Node.js/TypeScript API for building Ty
@@ -192,7 +192,7 @@ score:
   band: thin
   composite: 32.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 63.3
     catalog_earned_first_party: 0.0
     catalog_gap: 51.8
@@ -211,7 +211,7 @@ score:
     score: 100.0
   previous_composite: 32.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Blender Python API (bpy) provides Python access to Blender's internal data, operators, and UI components. It enables developers to automate tasks, create addons, build custom tools, manipulate sce
@@ -220,7 +220,7 @@ score:
   band: thin
   composite: 30.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 67.3
     catalog_earned_first_party: 0.0
     catalog_gap: 47.8
@@ -236,7 +236,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 30.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

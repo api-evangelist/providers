@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 5
@@ -46,7 +46,9 @@ agentic_access:
   summary_line: 310 operations · 249 acting · 5 human-in-the-loop
 api_count: 4
 apis:
-- description: The Nakama API is the core REST and WebSocket API for Heroic Labs' open-source game backend server. It provides endpoints for user authentication (social, device, email, and custom), account managemen
+- baseURL: https://127.0.0.1:7350
+  baseurl_source: declared
+  description: The Nakama API is the core REST and WebSocket API for Heroic Labs' open-source game backend server. It provides endpoints for user authentication (social, device, email, and custom), account managemen
   name: Nakama API
   slug: nakama-api
 - description: The Satori API is Heroic Labs' LiveOps platform API enabling game developers to manage live operations including feature flags, A/B experiments, audiences, and scheduled events without redeploying gam
@@ -386,26 +388,26 @@ rules:
   slug: heroiclabs-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.6
+  composite: 67.5
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 83.3
     catalog_earned_first_party: 0.0
     catalog_gap: 31.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.3
+  delta: -0.1
   facets:
     access_clarity: 81.6
     contract_governance: 43.2
-    contract_quality: 62.1
+    contract_quality: 61.5
     developer_ergonomics: 80.4
     discoverability: 81.5
     operational_transparency: 57.9
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 67.9
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -417,7 +419,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

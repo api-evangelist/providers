@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Authenticated REST surface of the Kevala platform, mounted at https://api.kevala.com/der/ and implemented with Django REST Framework. Kevala's September 2024 platform release notes describe a "DER Met
@@ -197,7 +197,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -222,7 +222,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

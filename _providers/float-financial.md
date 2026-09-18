@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://api.floatfinancial.com
@@ -341,7 +341,7 @@ score:
   band: strong
   composite: 63.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -379,7 +379,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Parloa Agent Management Platform (AMP) is the primary product surface for designing, testing, scaling, optimizing, and securing AI voice and chat agents for contact centers. AMP supports custom RE
@@ -123,7 +123,7 @@ score:
   band: emerging
   composite: 19.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
@@ -139,7 +139,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

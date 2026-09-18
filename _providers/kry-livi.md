@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -120,6 +120,14 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/kry-livi-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kry.se
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kry.se/press/nyheter/
 created: '2026-07-17'
 description: KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, and reports more than 14 million patient appointments, 4,000+ healthcare professionals and 60+ clinics. Alongside consumer care it sells digital clinical capacity to public payers (including the NHS and Swedish regions), employers, insurers and Employee Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.
 image: https://www.kry.se/apple-touch-icon.png
@@ -128,16 +136,16 @@ modified: '2026-07-19'
 name: KRY | LIVI
 nav: Providers
 network: true
-overview: 'KRY | LIVI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telemedicine, and Telehealth.
+overview: 'KRY | LIVI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telehealth, and Primary Care.
 
 
-  KRY | LIVI''s developer surface includes support, engineering blog, pricing, signup flow, and 16 more developer resources.'
+  KRY | LIVI''s developer surface includes support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 9
 score:
   band: emerging
   composite: 24.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -175,7 +183,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -196,7 +204,6 @@ tags:
 - Company
 - Healthcare
 - Digital Health
-- Telemedicine
 - Telehealth
 - Primary Care
 - Mental Health

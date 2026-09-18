@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Flat REST API for Hull's Customer Data Platform, addressing objects by ID under the /api/v1 prefix on a per-organization hullapp.io subdomain. Covers Users, Accounts, Events, Segments, organization/co
@@ -225,7 +225,7 @@ score:
   band: developing
   composite: 50.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -244,7 +244,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

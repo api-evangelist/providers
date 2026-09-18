@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: GraphQL Admin API for managing Twingate resources, remote networks, connectors, users, groups, devices, service accounts, security policies, certificate authorities, and DNS filtering profiles. Authen
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 14.8
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -114,7 +114,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

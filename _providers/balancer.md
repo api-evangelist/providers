@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Public GraphQL API used by the Balancer UI and integrators. Provides pools, tokens, swaps, gauges, voting, and analytics across all supported chains.
@@ -135,7 +135,7 @@ score:
   band: emerging
   composite: 17.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 47.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -151,7 +151,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

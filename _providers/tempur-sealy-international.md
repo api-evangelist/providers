@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: E-commerce integration API for the Tempur-Pedic brand enabling retailers, affiliates, and platform partners to access product catalogs, check inventory, manage orders, and track shipments for Tempur-P
@@ -169,7 +169,7 @@ score:
   band: emerging
   composite: 18.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 65.3
     catalog_earned_first_party: 0.0
     catalog_gap: 49.8
@@ -185,7 +185,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

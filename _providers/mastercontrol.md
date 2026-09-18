@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The MasterControl Manufacturing Excellence (Mx) RESTful API creates, modifies, retrieves and deletes manufacturing and production-record data in Mx. It is delivered through the separately licensed Mas
@@ -132,7 +132,7 @@ score:
   band: thin
   composite: 26.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -162,7 +162,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

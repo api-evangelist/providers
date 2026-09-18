@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Vacuum is the world's fastest OpenAPI linter written in Go. It processes API specifications at lightning speed with full Spectral ruleset compatibility, interactive dashboards, HTML reports, and Langu
@@ -161,7 +161,7 @@ score:
   band: emerging
   composite: 23.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
@@ -180,7 +180,7 @@ score:
     score: 25.0
   previous_composite: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

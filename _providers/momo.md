@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The MoMo All-in-One (AIO v2) merchant payment gateway. One integration covers MoMo e-wallet, domestic ATM card, credit card, Apple Pay, Google Pay, Buy Now Pay Later, Quick Pay POS scanner, collection
@@ -249,7 +249,7 @@ score:
   band: developing
   composite: 50.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -265,6 +265,8 @@ score:
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - vietnam
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
@@ -279,7 +281,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

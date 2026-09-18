@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Real-time GNSS corrections delivered as continuously-open NTRIP streams. A client opens an HTTP GET against a regional caster mountpoint with HTTP Basic credentials issued per device, and the caster w
@@ -923,7 +923,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 51.0
     catalog_earned_first_party: 5.0
     catalog_gap: 64.0
@@ -943,7 +943,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Remote Model Context Protocol server exposing 74 tools across six categories (plan and operate, build and ship, Company Brain, audience growth, sell and support, run the company) — the same tools Resu
@@ -213,7 +213,7 @@ score:
   band: developing
   composite: 45.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -238,7 +238,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

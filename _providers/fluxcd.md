@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Flux is a set of continuous and progressive delivery solutions for Kubernetes that are open and extensible, enabling GitOps-based automation for keeping Kubernetes clusters in sync with sources of con
@@ -104,7 +104,7 @@ score:
   band: emerging
   composite: 16.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -120,7 +120,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

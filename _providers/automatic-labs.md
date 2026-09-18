@@ -32,7 +32,7 @@ tags:
 - Connected Car
 - Telematics
 - OBD-II
-- Internet of Things
+- IoT
 - Mobile
 - Defunct
 ---

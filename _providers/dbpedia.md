@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Public SPARQL 1.1 query endpoint backed by OpenLink Virtuoso over the DBpedia knowledge graph derived from Wikipedia. Supports up to 10,000 result rows, 120-second query timeout, and 100 requests/seco
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 21.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -147,7 +147,7 @@ score:
     regime_id: government
     score: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

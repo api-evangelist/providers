@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The business-to-business delivery API behind Kiwibot's autonomous last-mile fleet, served from a Google Cloud Endpoints gateway at api.kiwibot.com. Probed anonymously on 2026-08-23 the gateway answers
@@ -143,7 +143,7 @@ score:
   band: emerging
   composite: 15.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -162,7 +162,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

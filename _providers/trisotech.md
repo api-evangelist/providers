@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Public API of the Digital Enterprise Suite — 129 operations across 30 resource groups covering modeling places and their content, model promotion change requests, execution environments and deploy
@@ -247,7 +247,7 @@ score:
   band: strong
   composite: 63.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -273,7 +273,7 @@ score:
     regime_id: health
     score: 83.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

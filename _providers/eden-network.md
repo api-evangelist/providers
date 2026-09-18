@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: gRPC service that streams raw Ethereum mempool transactions. StreamService.StreamRawTransactions accepts filters, includes, and an auth header, returning a server stream of RLP-encoded raw transaction
@@ -77,7 +77,7 @@ score:
   band: emerging
   composite: 15.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -93,7 +93,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Comprehensive financial planning and advisory services from Thrivent Financial, offering personalized advice across investments, insurance, estate planning, and retirement. Services include free Money
@@ -148,7 +148,7 @@ score:
   band: emerging
   composite: 20.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -175,7 +175,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

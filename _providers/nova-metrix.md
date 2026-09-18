@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -40,6 +40,10 @@ common:
   title: ''
   type: Website
   url: https://www.novavg.com/platforms/nova-metrix/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.novavg.com/platforms/nova-instruments/
 created: '2026-07-17'
 description: Nova Metrix is a geotechnical, environmental, and materials-testing instrumentation company headquartered in Wakefield, Massachusetts and founded in 2009. It designs and manufactures sensors, instruments, monitoring software, and consumables for structural-health monitoring, construction, civil engineering, energy, and medical markets, operating in more than 90 countries. Nova Metrix is the parent of a family of specialist geotechnical and fiber-optic brands including Roctest, Sensornet, Sherborne Sensors, Soil Instruments, Westbay Instruments, DGSI, Waterloo Hydrogeologic, and Van Essen Instruments. It is backed by Battery Ventures, Commonwealth Capital, and Ascent Venture Partners. As of this enrichment pass Nova Metrix publishes no public developer API, developer portal, or machine-readable API artifacts; this profile carries verified company identity rather than an API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nova-metrix.png
@@ -54,7 +58,7 @@ score:
   band: minimal
   composite: 2.2
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -87,7 +91,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

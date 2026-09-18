@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 18
 apis:
 - description: Exchanges Base64-encoded Reveal REST credentials for a short-lived bearer authorization token (valid ~20 minutes) via GET /token. Subsequent API calls send an Atmosphere authorization header combining
@@ -152,7 +152,7 @@ score:
   band: emerging
   composite: 21.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 52.0
     catalog_earned_first_party: 0.0
     catalog_gap: 63.0
@@ -168,7 +168,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

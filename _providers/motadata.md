@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: ObserveOps (formerly Motadata AIOps) is a unified observability platform correlating metrics, logs, traces, flows and topology with anomaly detection that needs no training period. Its REST API is mou
@@ -222,7 +222,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

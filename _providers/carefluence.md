@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The ONC-certified § 170.315(g)(10) Standardized API for Patient and Population Services. A HL7 FHIR R4 (4.0.1) RESTful server conforming to the US Core Implementation Guide v3.1.1, exposing 24 resourc
@@ -219,7 +219,7 @@ score:
   band: developing
   composite: 47.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -245,7 +245,7 @@ score:
     regime_id: health
     score: 61.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

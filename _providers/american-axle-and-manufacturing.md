@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Demand AAM provides access to genuine AAM OE replacement driveline parts for the aftermarket. The portal serves automotive parts distributors and repair shops with OE-quality driveline components.
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 12.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -146,7 +146,7 @@ score:
     - north-america
   previous_composite: 12.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

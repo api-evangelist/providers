@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The publishing half of the standard — the JSON manifest a domain serves at /.well-known/ai-catalog.json declaring who the host is and what agentic resources it offers, each entry typed by media type, '
@@ -186,7 +186,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

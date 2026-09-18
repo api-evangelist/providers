@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Spectral is a flexible JSON/YAML linter and style guide enforcer with built-in support for OpenAPI (v3.1, v3.0, v2.0), Arazzo v1.0, and AsyncAPI v2.x. It enables teams to define custom rulesets to enf
@@ -157,7 +157,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 72.5
     catalog_earned_first_party: 0.0
     catalog_gap: 42.5
@@ -173,7 +173,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

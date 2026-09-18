@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 11
 apis:
 - description: 'Asynchronous REST API for programmatically pulling Singular''s unified marketing data — attribution, cost, ad revenue, and creative metrics — as standardized, warehouse-ready reports. Create a report, '
@@ -275,7 +275,7 @@ score:
   band: strong
   composite: 63.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -294,7 +294,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

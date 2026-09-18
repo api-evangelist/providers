@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,19 +22,19 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-09-16'
+  score: 32.1
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 116
   slug: linode-agentic-access
   summary_line: 116 operations · 56 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: The Linode CLI is a command-line interface that wraps the Linode API v4, allowing developers and system administrators to manage Akamai Connected Cloud resources directly from the terminal. It support
   name: Linode CLI
@@ -146,12 +146,12 @@ apis:
   description: Create and manage Block Storage volumes that can be attached to Linode instances for persistent data storage.
   name: linode Volumes API
   slug: linode-volumes-api
-- baseURL: https://api.example.com
+- baseURL: https://api.linode.com/v4
   baseurl_source: declared
   description: Create and manage Virtual Private Clouds for isolated network environments and subnets for Linode instances.
-  name: Linode VP Cs API
+  name: linode VPCs API
   slug: linode-vpcs-api
-artifact_total: 179
+artifact_total: 181
 collections:
 - collection_type: open
   name: API Collection
@@ -251,7 +251,180 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/linode-instance-schema.json
-description: Linode is a cloud hosting provider offering virtual private servers, managed databases, object storage, Kubernetes, and other infrastructure-as-a-service products to developers and businesses.
+- group: company
+  title: ''
+  type: Website
+  url: https://www.linode.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://techdocs.akamai.com/linode-api/reference/api
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://techdocs.akamai.com/linode-api/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://techdocs.akamai.com/linode-api/reference/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://techdocs.akamai.com/linode-api/reference/get-started
+- group: start
+  title: ''
+  type: SignUp
+  url: https://login.linode.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://login.linode.com/login
+- group: start
+  title: ''
+  type: Console
+  url: https://cloud.linode.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/linode
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/linode/linode-api-openapi
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/linode/linode-cli/issues
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/linode/linode-api-openapi/blob/main/LICENSE
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.linode.com/
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/packages/linode-packages.yml
+  title: ''
+  type: Packages
+  url: packages/linode-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/packages/linode-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/linode-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/well-known/linode-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/linode-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/well-known/linode-api-catalog.json
+  title: ''
+  type: APICatalog
+  url: well-known/linode-api-catalog.json
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/mcp/linode-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/linode-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/mcp/linode-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/linode-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/llms/linode-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/linode-llms.txt
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/conformance/linode-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/linode-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/errors/linode-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/linode-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/lifecycle/linode-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/linode-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/lifecycle/linode-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/linode-lifecycle.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/security/linode-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/linode-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/security/linode-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/linode-vulnerability-disclosure.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/conventions/linode-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/linode-conventions.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/changelog/linode-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/linode-changelog.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/cli/linode-cli.yml
+  title: ''
+  type: CLI
+  url: cli/linode-cli.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/data-model/linode-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/linode-data-model.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/plans/linode-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/linode-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/rate-limits/linode-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/linode-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/finops/linode-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/linode-finops.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/vocabulary/linode-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/linode-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/json-structure/linode-structure.json
+  title: ''
+  type: JSONStructure
+  url: json-structure/linode-structure.json
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/rules/linode-jsonschema-spectral-rules.yml
+  title: ''
+  type: SpectralRules
+  url: rules/linode-jsonschema-spectral-rules.yml
+created: '2026-05-04'
+description: 'Linode — operating as Akamai Cloud since Akamai''s acquisition, with the Linode brand retained on the API, the CLI and the developer surface — is a cloud infrastructure provider offering virtual compute instances, GPU and accelerated plans, managed Kubernetes (LKE), S3-compatible Object Storage, Block Storage volumes, NodeBalancers, VPCs, Cloud Firewalls, managed MySQL/PostgreSQL/Valkey databases and DNS hosting. The Linode API v4 is a single cohesive REST surface at api.linode.com/v4 covering all of it: 358 paths and 539 operations in the first-party OpenAPI, documented at techdocs.akamai.com, with a generated CLI, first-party SDKs in Python, Go and TypeScript, a Terraform provider and an official read-only MCP server. Its price book is published as an unauthenticated API, so a stack can be costed with no account at all.'
 features:
 - Nanode 1 GB at $5/mo (smallest plan)
 - Shared CPU 4 GB at $20/mo (most popular)
@@ -612,24 +785,28 @@ jsonld:
   property_count: 12
   slug: linode-context
 layout: provider
-modified: '2026-09-16'
+mcp_servers:
+- description: Akamai publishes one official Model Context Protocol server for Akamai Cloud — the product formerly and still widely known as Linode — at akamai-developers/akamai-cloud-mcp. It is read-only by constru
+  name: Akamai Cloud MCP Server
+  slug: akamai-cloud-mcp-server
+modified: '2026-09-17'
 name: Linode
 nav: Providers
 network: true
-overview: 'Linode publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account API, Databases API, Domains API, and 16 more.
+overview: 'Linode publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account API, Databases API, Domains API, and 16 more. Tagged areas include Cloud Computing, Infrastructure-as-a-Service, Virtual Machines, Kubernetes, and Object Storage.
 
 
   The Linode catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Linode''s developer surface includes authentication and 6 more developer resources.'
+  Linode''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, changelog, and 37 more developer resources.'
 plans:
 - name: Linode Plans Pricing
-  plan_count: 6
+  plan_count: 7
   slug: linode-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 3
+- limit_count: 12
   name: Linode Rate Limits
   slug: linode-rate-limits
 rules:
@@ -645,44 +822,44 @@ rules:
   slug: linode-jsonschema-spectral-rules
 scopes:
 - name: Linode Scopes
-  scope_count: 28
+  scope_count: 30
   slug: linode-scopes
-  summary_line: 28 scopes · authorizationCode
+  summary_line: 30 scopes · authorizationCode
 score:
-  band: thin
-  composite: 28.3
+  band: strong
+  composite: 62.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 44.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 70.8
+    artifact_dirs: 31
+    catalog_earned: 80.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 34.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 34.6
   facets:
-    access_clarity: 15.8
-    contract_governance: 9.8
+    access_clarity: 52.6
+    contract_governance: 29.5
     contract_quality: 67.4
-    developer_ergonomics: 11.9
-    discoverability: 44.4
-    operational_transparency: 7.9
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    operational_transparency: 86.8
   previous_composite: 28.3
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 19
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    mcp: first-party
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
-    score: 0.0
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/screenshots/linode-2026-06-20T184550.png
 security:
 - kind: authentication
@@ -693,5 +870,23 @@ security:
   name: Linode Domain Security
   slug: linode-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Linode Vulnerability Disclosure
+  slug: linode-vulnerability-disclosure
+  summary_line: Hackerone
 slug: linode
+tags:
+- Cloud Computing
+- Infrastructure-as-a-Service
+- Virtual Machines
+- Kubernetes
+- Object Storage
+- Block Storage
+- DNS
+- Managed Database
+- Networking
+- GPU
+- Load Balancer
+- Developer Tools
+website: https://www.linode.com/
 ---

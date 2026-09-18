@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Flowdesk Platform Connect is the developer API for programmatic OTC spot trading. It offers a REST interface for quoting and trading OTC spot orders and a WebSocket channel for real-time streaming, au
@@ -123,7 +123,7 @@ score:
   band: emerging
   composite: 17.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -145,7 +145,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

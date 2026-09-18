@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint powering the Wuilt website/e-commerce builder. Introspection is enabled; the schema exposes read queries across sites, pages, sections, menus, forms, form submissions, plans, p
@@ -126,7 +126,7 @@ score:
   band: emerging
   composite: 25.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -142,6 +142,8 @@ score:
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - egypt
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
@@ -153,7 +155,7 @@ score:
       reason: never_enriched
   previous_composite: 25.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

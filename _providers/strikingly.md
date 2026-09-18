@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Internal REST API for managing Strikingly website content, sections, blog posts, store products, form submissions, and membership settings. Access is provided through the Strikingly platform using OAu
@@ -122,7 +122,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -138,7 +138,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 26.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

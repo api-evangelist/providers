@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 24
 apis:
 - baseURL: https://localhost:8081/mec_service_mgmt/v1
@@ -441,7 +441,7 @@ score:
   band: strong
   composite: 56.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -480,7 +480,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

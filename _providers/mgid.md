@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: REST API for advertisers and agencies to manage campaigns, teasers, targeting, conversion tracking, and access detailed statistics and reporting for native advertising campaigns.
@@ -213,7 +213,7 @@ score:
   band: thin
   composite: 38.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 75.0
     catalog_earned_first_party: 24.0
     catalog_gap: 40.0
@@ -231,7 +231,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

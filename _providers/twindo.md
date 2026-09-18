@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Public machine-readable company profile Twindo publishes for LLMs and agents (linked from the site footer as "LLM JSON API"): products, pricing, output formats, use cases, case studies, and resources '
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 24.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -141,7 +141,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 24.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

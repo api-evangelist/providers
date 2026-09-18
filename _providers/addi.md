@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API that lets e-commerce merchants create Addi buy-now-pay-later credit applications at checkout. Authentication is handled through Auth0 using the OAuth2 client-credentials flow (client_id + cli
@@ -129,7 +129,7 @@ score:
   band: thin
   composite: 26.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -145,6 +145,8 @@ score:
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - colombia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
@@ -158,7 +160,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, subscriber lists, transactional emails, segments, journeys, templates, and campaign performance analytics.
@@ -272,7 +272,7 @@ score:
   band: exemplar
   composite: 70.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 68.0
     catalog_earned_first_party: 20.0
     catalog_gap: 47.0
@@ -301,7 +301,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

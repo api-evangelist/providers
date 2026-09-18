@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -870,7 +870,7 @@ modified: '2026-09-16'
 name: Airbnb
 nav: Providers
 network: true
-overview: 'Airbnb publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Bookings API, Calendar API, and 8 more. Tagged areas include Reservations, Hospitality, and Travel.
+overview: 'Airbnb publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Bookings API, Calendar API, and 8 more. Tagged areas include Reservations, Hospitality, Travel, and Airbnb.
 
 
   The Airbnb catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -928,7 +928,7 @@ score:
   band: developing
   composite: 43.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 54.5
     catalog_earned_first_party: 0.0
     catalog_gap: 60.5
@@ -951,7 +951,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -975,5 +975,6 @@ tags:
 - Reservations
 - Hospitality
 - Travel
+- Airbnb
 website: https://www.airbnb.com/
 ---

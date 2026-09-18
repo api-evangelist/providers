@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: RESTful API for the Wild Apricot small-association product, secured with OAuth 2.0 against base https://api.wildapricot.org (versioned paths such as /v2.2/accounts/{accountId}/...). Split into an admi
@@ -89,7 +89,7 @@ score:
   band: minimal
   composite: 8.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -110,7 +110,7 @@ score:
     - north-america
   previous_composite: 8.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

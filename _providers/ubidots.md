@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Ubidots Data API v1.6 provides REST endpoints for sending and retrieving time-series data (dots) from IoT devices. Supports device and variable creation, data ingestion via HTTP POST, and historic
@@ -133,7 +133,7 @@ modified: '2026-06-12'
 name: Ubidots
 nav: Providers
 network: true
-overview: 'Ubidots publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, Internet of Things, Telemetry, Time Series, and MQTT.
+overview: 'Ubidots publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, Telemetry, Time Series, MQTT, and REST.
 
 
   The Ubidots catalog on APIs.io includes 1 JSON-LD context.
@@ -153,7 +153,7 @@ score:
   band: thin
   composite: 31.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 75.0
     catalog_earned_first_party: 0.0
     catalog_gap: 40.0
@@ -169,7 +169,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 31.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,6 @@ security:
 slug: ubidots
 tags:
 - IoT
-- Internet of Things
 - Telemetry
 - Time Series
 - MQTT

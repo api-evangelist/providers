@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Library API for defining server-side logic for a "party" - a backend object backed by a Cloudflare Durable Object. Provides lifecycle hooks for connections, messages, requests, alarms, and state persi
@@ -147,7 +147,7 @@ score:
   band: developing
   composite: 43.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
@@ -163,7 +163,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 43.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

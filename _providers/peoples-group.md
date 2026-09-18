@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: 'API-driven Interac e-Transfer for Canadian money movement, supporting Send Money, Request Money, Receive AutoDeposit, and Receive Question-and-Answer flows so program managers and fintech clients can '
@@ -126,7 +126,7 @@ score:
   band: emerging
   composite: 21.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -157,7 +157,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

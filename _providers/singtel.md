@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: Network-based verification that the mobile number a user declares is the number of the SIM the request is actually coming from, used to replace or reinforce SMS OTP. Singtel documents this as the CAMA
@@ -176,7 +176,7 @@ score:
   band: emerging
   composite: 19.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -207,7 +207,7 @@ score:
     regime_id: telecommunications
     score: 39.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

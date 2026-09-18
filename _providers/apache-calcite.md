@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Apache Calcite Java API provides SQL parsing, validation, query planning, and optimization capabilities for embedding in JVM applications. It exposes a relational algebra framework and pluggable o
@@ -175,7 +175,7 @@ score:
   band: thin
   composite: 28.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
@@ -194,7 +194,7 @@ score:
     score: 50.0
   previous_composite: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

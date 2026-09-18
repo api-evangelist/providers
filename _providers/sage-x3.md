@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: RESTful web service interface for Sage X3 business objects. Supports standard HTTP methods (GET, POST, PUT, DELETE) for managing entities such as customers, suppliers, sales orders, purchase orders, i
@@ -149,7 +149,7 @@ score:
   band: thin
   composite: 35.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 74.0
     catalog_earned_first_party: 0.0
     catalog_gap: 41.0
@@ -165,7 +165,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 35.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

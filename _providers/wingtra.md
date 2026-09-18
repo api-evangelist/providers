@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The GraphQL API behind my.wingtra.com, Wingtra's customer and partner portal. The schema answers anonymous introspection and returns 84 types, 38 query root fields and 33 mutations covering drone regi
@@ -180,7 +180,7 @@ score:
   band: developing
   composite: 42.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -207,7 +207,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

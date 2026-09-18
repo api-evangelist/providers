@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The SuperPenguin platform tracks and attributes AI spend per request, per customer, per feature, and per prompt version across 14+ LLM, speech, and gateway providers. Access is via first-party Python '
@@ -150,7 +150,7 @@ score:
   band: thin
   composite: 27.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,7 +171,7 @@ score:
     - north-america
   previous_composite: 27.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

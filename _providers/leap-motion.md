@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: LeapC is the native C API for Ultraleap / Leap Motion hand tracking. A client opens a LEAP_CONNECTION to the locally running Ultraleap Hand Tracking Service and drives a message pump with LeapPollConn
@@ -178,7 +178,7 @@ score:
   band: thin
   composite: 27.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -196,7 +196,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

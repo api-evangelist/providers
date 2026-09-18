@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -469,7 +469,7 @@ modified: '2026-05-19'
 name: SailPoint
 nav: Providers
 network: true
-overview: 'SailPoint publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, Certifications API, Identities API, and 1 more. Tagged areas include Access Governance, Compliance, IAM, Identity Management, and Identity Security.
+overview: 'SailPoint publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, Certifications API, Identities API, and 1 more. Tagged areas include Access Governance, Compliance, Identity and Access Management, Identity Management, and Identity Security.
 
 
   The SailPoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -516,7 +516,7 @@ score:
   band: strong
   composite: 55.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 62.5
     catalog_earned_first_party: 0.0
     catalog_gap: 52.5
@@ -539,7 +539,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -558,7 +558,7 @@ slug: sailpoint
 tags:
 - Access Governance
 - Compliance
-- IAM
+- Identity and Access Management
 - Identity Management
 - Identity Security
 - Security

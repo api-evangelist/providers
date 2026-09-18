@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: LegitFit's Model Context Protocol server — a JSON-RPC 2.0 endpoint that exposes LegitFit resources to AI agents. Protected by OAuth 2.1 (authorization_code with PKCE S256) and gated by the mcp:read an
@@ -149,7 +149,7 @@ score:
   band: emerging
   composite: 25.5
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -182,7 +182,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

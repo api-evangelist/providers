@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Generate the integration and user authentication tokens that authorize an assessment platform to provision and drive Honorlock proctoring on behalf of an institution. Endpoints are modeled from Honorl
@@ -102,7 +102,7 @@ score:
   band: minimal
   composite: 8.9
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -124,7 +124,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

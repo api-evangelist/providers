@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -671,7 +671,7 @@ modified: '2026-09-16'
 name: emnify
 nav: Providers
 network: true
-overview: 'emnify publishes 26 APIs on the [APIs.io](https://apis.io/) network, including subpackage_applicationTokens API, subpackage_authentication API, subpackage_automations API, and 23 more. Tagged areas include IoT, Internet of Things, Cellular Connectivity, IoT SIM, and eSIM.
+overview: 'emnify publishes 26 APIs on the [APIs.io](https://apis.io/) network, including subpackage_applicationTokens API, subpackage_authentication API, subpackage_automations API, and 23 more. Tagged areas include IoT, Cellular Connectivity, IoT SIM, eSIM, and Consumer eSIM.
 
 
   The emnify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -713,7 +713,7 @@ score:
   band: strong
   composite: 59.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 80.5
     catalog_earned_first_party: 0.0
     catalog_gap: 34.5
@@ -742,7 +742,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -760,7 +760,6 @@ security:
 slug: emnify
 tags:
 - IoT
-- Internet of Things
 - Cellular Connectivity
 - IoT SIM
 - eSIM

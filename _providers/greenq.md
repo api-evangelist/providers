@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-20'
 name: GreenQ
 nav: Providers
 network: true
-overview: 'GreenQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Waste Management, Smart City, Internet of Things, and Sustainability.
+overview: 'GreenQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Waste Management, Smart City, IoT, and Sustainability.
 
 
   GreenQ''s developer surface includes engineering blog, support, and 1 more developer resources.'
@@ -65,7 +65,7 @@ score:
   band: minimal
   composite: 5.7
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -87,7 +87,7 @@ score:
       reason: never_enriched
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -98,7 +98,7 @@ tags:
 - Company
 - Waste Management
 - Smart City
-- Internet of Things
+- IoT
 - Sustainability
 - Fleet Management
 - Analytics

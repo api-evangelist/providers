@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for the Koalaboox / Cegid Click & Finance invoicing and invoice-financing platform. Resource-oriented URLs, JSON-encoded requests and responses, standard HTTP status codes, and OAuth 2.0 auth
@@ -173,7 +173,7 @@ score:
   band: thin
   composite: 28.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -190,6 +190,7 @@ score:
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
+    - belgium
     - spain
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
@@ -201,7 +202,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

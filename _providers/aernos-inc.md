@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,13 +61,13 @@ modified: '2026-09-10'
 name: AerNos
 nav: Providers
 network: true
-overview: AerNos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sensors, Internet of Things, Air Quality, and Nanotechnology.
+overview: AerNos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sensors, IoT, Air Quality, and Nanotechnology.
 random_paper: 17
 score:
   band: minimal
   composite: 5.0
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 25.0
     catalog_earned_first_party: 0.0
     catalog_gap: 90.0
@@ -83,7 +83,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -93,7 +93,7 @@ slug: aernos-inc
 tags:
 - Company
 - Sensors
-- Internet of Things
+- IoT
 - Air Quality
 - Nanotechnology
 - Environmental Monitoring

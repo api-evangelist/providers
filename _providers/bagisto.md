@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'RESTful API for managing all Bagisto e-commerce operations including products, categories, customers, orders, inventory, cart, checkout, and administrative functions. Provides separate Shop and Admin '
@@ -161,7 +161,7 @@ score:
   band: developing
   composite: 46.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -180,7 +180,7 @@ score:
     score: 100.0
   previous_composite: 46.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

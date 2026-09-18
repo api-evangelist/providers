@@ -23,7 +23,7 @@ modified: '2026-09-15'
 name: Uptime
 nav: Providers
 network: true
-overview: Uptime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Predictive Maintenance, Elevators, and Internet of Things.
+overview: Uptime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Predictive Maintenance, Elevators, and IoT.
 random_paper: 0
 slug: uptime
 tags:
@@ -31,7 +31,7 @@ tags:
 - Ai Data
 - Predictive Maintenance
 - Elevators
-- Internet of Things
+- IoT
 - PropTech
 - Building Management
 - France

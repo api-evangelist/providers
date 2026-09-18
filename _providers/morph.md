@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API (eth_*, net_*, web3_*) plus Morph-specific methods such as morph_getBlockByNumber that return additional L2 fields. No API key required; chain id 2818.
@@ -152,7 +152,7 @@ score:
   band: thin
   composite: 28.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,7 +171,7 @@ score:
     conformance: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

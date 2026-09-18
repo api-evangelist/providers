@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The Base container of the Clockworks REST API. Serves static asset information — clients, buildings, building types and variables, equipment, equipment classes / types / variables, points, point class
@@ -171,7 +171,7 @@ score:
   band: thin
   composite: 36.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -195,7 +195,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -226,6 +226,6 @@ tags:
 - Smart Buildings
 - CMMS Integration
 - Analytics
-- Internet of Things
+- IoT
 website: https://clockworksanalytics.com/
 ---

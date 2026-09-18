@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Retrieve the assessments available to an employer - both content the employer has authored and items selected from Vervoe's public Assessment Library - so an external system such as an ATS can display
@@ -119,7 +119,7 @@ score:
   band: emerging
   composite: 21.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -135,7 +135,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

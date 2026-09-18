@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: ReDoc is an open-source API documentation renderer for OpenAPI specifications, originally created by Rebilly and now maintained by Redocly. It generates a responsive three-panel documentation layout f
@@ -194,7 +194,7 @@ score:
   band: thin
   composite: 28.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
@@ -210,7 +210,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 28.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

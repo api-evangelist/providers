@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Read-only REST API for fetching reporting data across dimensions and metrics to analyze campaign performance. Write operations are deprecated; use the GraphQL API for write operations.
@@ -283,7 +283,7 @@ score:
   band: strong
   composite: 62.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 55.0
     catalog_earned_first_party: 12.0
     catalog_gap: 60.0
@@ -303,7 +303,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

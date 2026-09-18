@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Anonymous agent-commerce surface for the Prime Labs supplement storefront, implementing the Universal Commerce Protocol 2026-04-08 over MCP. Thirteen tools cover catalog search, product lookup, cart l
@@ -164,7 +164,7 @@ score:
   band: emerging
   composite: 22.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -190,7 +190,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

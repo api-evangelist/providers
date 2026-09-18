@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Action-based RPC API covering every UCloud product (compute, networking, storage, databases, Kubernetes, monitoring, AI) through a single signed gateway. Requests carry an Action name plus PublicKey/S
@@ -192,7 +192,7 @@ score:
   band: thin
   composite: 35.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -218,7 +218,7 @@ score:
     conformance: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

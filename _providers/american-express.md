@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 12
 apis:
 - description: 'The American Express Token Service (AETS) API allows developers to securely tokenize cardholder data, providing a layer of security for online transactions. By generating unique tokens that represent '
@@ -266,7 +266,7 @@ score:
   band: emerging
   composite: 21.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -301,7 +301,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

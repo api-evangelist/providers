@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'WebSocket streaming API onto the Foundation event bus. Two channels are documented: a real-time event streamer that pushes every event as it is collected from the floor (backed by a rolling cache of u'
@@ -154,7 +154,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
@@ -179,7 +179,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Single unauthenticated endpoint that validates a remotely hosted SVG for BIMI suitability (SVG Tiny P/S). Described by the provider's own llms.txt as "the unauthenticated SVG validation endpoint", con
@@ -111,7 +111,7 @@ score:
   band: emerging
   composite: 22.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
@@ -127,7 +127,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 22.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

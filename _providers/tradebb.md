@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'TradeBB exposes a single publicly consumable machine-readable interface: an llms.txt file designed for LLM consumption. There is no public REST/GraphQL API, MCP server, or agent skills.'
@@ -129,7 +129,7 @@ score:
   band: emerging
   composite: 24.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -147,7 +147,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

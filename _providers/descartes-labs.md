@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: The historical Descartes Labs Platform — a managed geospatial data refinery and analytics environment exposing imagery catalog, raster access, vector tables, compute functions, and authentication thro
@@ -178,7 +178,7 @@ score:
   band: emerging
   composite: 15.9
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -200,7 +200,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

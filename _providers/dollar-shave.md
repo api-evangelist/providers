@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,6 +78,10 @@ common:
   title: ''
   type: WellKnown
   url: well-known/dollar-shave-well-known.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dollarshaveclub.com
 created: '2026-07-17'
 description: Dollar Shave Club is a direct-to-consumer men's grooming and personal-care brand founded in 2011 and acquired by Unilever in 2016, best known for pioneering the subscription razor model that ships blades, shave butter, skincare and body-care products to members on a recurring schedule. The company sells through its own e-commerce storefront (dollarshaveclub.com, built on Shopify) as well as retail channels, offering razor handles and cartridges, grooming kits and gift sets. It surfaces in the API Evangelist network as a portfolio company of Battery Ventures. Dollar Shave Club does not operate a public developer program or documented API; its digital surface is a consumer Shopify storefront whose only machine-discoverable interface is Shopify's customer-account OAuth/OIDC (including a customer-account MCP API scope) exposed at the store's /.well-known/ discovery endpoints.
 image: http://us.dollarshaveclub.com/cdn/shop/files/tomsbanner_ecd930c7-64fc-424c-90e6-ceed4920c87f.png?v=1746549885
@@ -89,13 +93,13 @@ network: true
 overview: 'Dollar Shave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Retail, and Subscription.
 
 
-  Dollar Shave''s developer surface includes engineering blog, support, and 8 more developer resources.'
+  Dollar Shave''s developer surface includes engineering blog, support, and 9 more developer resources.'
 random_paper: 8
 score:
   band: emerging
   composite: 11.9
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -111,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

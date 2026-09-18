@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Grafast's plan-based GraphQL execution engine, providing a drop-in replacement for graphql-js execute with plan resolvers, operation planning, and efficient batched execution to eliminate N+1 query pr
@@ -137,7 +137,7 @@ score:
   band: thin
   composite: 30.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -156,7 +156,7 @@ score:
     score: 65.0
   previous_composite: 30.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Reachdesk operates a first-party remote Model Context Protocol server at https://app.reachdesk.com/mcp, on the same host as its REST API. It is a hosted HTTP endpoint an MCP client POSTs to directly —
@@ -297,7 +297,7 @@ score:
   band: strong
   composite: 56.2
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 63.0
     catalog_earned_first_party: 12.0
     catalog_gap: 52.0
@@ -322,7 +322,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

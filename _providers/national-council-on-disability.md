@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws
@@ -350,7 +350,7 @@ score:
   band: emerging
   composite: 23.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
@@ -374,7 +374,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Mural Public API supports OAuth 2.0 with scopes, image and file uploads to murals, and CRUD on workspaces, rooms, murals, widgets, and members. Includes published rate limits, pagination, and erro
@@ -126,7 +126,7 @@ score:
   band: emerging
   composite: 18.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -142,7 +142,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 18.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

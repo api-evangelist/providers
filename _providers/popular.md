@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,6 +53,14 @@ common:
   title: ''
   type: Blog
   url: https://blog.popular.com/feed/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.popular.com/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.popular.com/en/
 created: '2026-03-24'
 description: Popular Inc. is a financial holding company offering retail, mortgage, and commercial banking services through its principal subsidiaries Banco Popular de Puerto Rico and Popular Bank in the continental United States.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/popular.png
@@ -64,7 +72,7 @@ network: true
 overview: 'Popular is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Mortgage, Puerto Rico, and Fortune 1000.
 
 
-  Popular''s developer surface includes engineering blog and 3 more developer resources.'
+  Popular''s developer surface includes engineering blog and 5 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Artificial Intelligence | The Associated Press
@@ -86,7 +94,7 @@ score:
   band: minimal
   composite: 2.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -108,7 +116,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RESTful HTTP API for storing, querying, uploading, downloading, converting, compressing, organizing, versioning, and deleting 3D content entries (targets and holograms) in echo3D collections. Requests
@@ -207,7 +207,7 @@ score:
   band: developing
   composite: 41.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -226,7 +226,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) covering the sourcing lifecycle — RFQs, vendors, conversations, quotes, files, and webhooks. API-key authentication with team and environment scoping; the full reference and int
@@ -153,7 +153,7 @@ score:
   band: thin
   composite: 27.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -172,7 +172,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: JSON:API-based REST API for portfolio management, transactions, positions, the ownership graph (entities/groups), attributes, benchmarks, files, jobs, billing, reporting, and administration on the Add
@@ -132,7 +132,7 @@ score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -151,7 +151,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

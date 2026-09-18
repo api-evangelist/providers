@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol (MCP) server operated by Cerapedics at mcp.cerapedics.com. The endpoint publishes RFC 9728 protected-resource metadata and RFC 8414 authorization-server metad
@@ -149,7 +149,7 @@ score:
   band: emerging
   composite: 21.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -179,7 +179,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API to embed IRS-authorized income-tax preparation and e-filing. Create a Column Tax user, obtain a short-lived authenticated URL to launch the embedded filing UI, list a user's tax returns and j
@@ -194,7 +194,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -219,7 +219,7 @@ score:
     regime_id: banking_open_finance
     score: 46.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

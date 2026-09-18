@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -539,7 +539,7 @@ score:
   band: developing
   composite: 42.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
@@ -576,7 +576,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

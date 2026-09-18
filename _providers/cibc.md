@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,6 +79,10 @@ common:
   title: ''
   type: DataAggregator
   url: https://plaid.com/institutions/cibc/
+- group: company
+  title: ''
+  type: Website
+  url: https://us.cibc.com
 created: '2026-07-23'
 description: 'Canadian Imperial Bank of Commerce (CIBC) is a Schedule I domestic chartered bank and one of Canada''s Big Six, formed in 1961 through the merger of the Canadian Bank of Commerce and the Imperial Bank of Canada and headquartered in Toronto, Ontario. Serving roughly eleven million personal, business, commercial, wealth, and capital-markets clients across Personal & Business Banking, Wealth Management, and Capital Markets, CIBC is a participant in the shared Canadian rails, including Interac e-Transfer and Payments Canada settlement systems. Canada has no operational open-banking mandate today: the federal Consumer-Driven Banking framework legislated in Budget 2024 and the 2024 Fall Economic Statement, overseen by the Financial Consumer Agency of Canada (FCAC), is not yet live, so access remains voluntary and fragmented. CIBC runs no first-party public developer portal (developer.cibc.com does not resolve) and publishes no downloadable OpenAPI or Swagger specifications. Consumer-permissioned
   data access is aggregator-mediated: CIBC signed a tokenized data-access agreement with U.S. aggregator MX (announced August 2022, MX''s first in Canada) to let clients share financial data with third-party apps without exposing banking credentials, and its accounts are also reachable through Plaid (Assets, Auth, Balance). Corporate connectivity is offered through CIBC SWIFT Corporate Access (SCA) file exchange rather than a public REST API, so CIBC''s honest public API surface today is aggregator-mediated only, pending the coming Consumer-Driven Banking regime.'
@@ -91,13 +95,13 @@ network: true
 overview: 'CIBC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, Canada, Big Six, and Schedule I Bank.
 
 
-  CIBC''s developer surface includes documentation and 9 more developer resources.'
+  CIBC''s developer surface includes documentation and 10 more developer resources.'
 random_paper: 5
 score:
   band: minimal
   composite: 10.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -126,7 +130,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

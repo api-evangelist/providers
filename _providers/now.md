@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Punchout / roundtrip integration that connects a customer's ERP or third-party procurement system to shop.dnow.com using cXML or OCI. DNOW configures the connection so buyers can browse the DNOW catal
@@ -123,7 +123,7 @@ score:
   band: minimal
   composite: 8.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -150,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

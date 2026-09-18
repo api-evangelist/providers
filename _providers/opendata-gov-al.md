@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Bespoke REST API for opendata.gov.al at same-origin /api, with action-style routes. Known endpoints include POST /api/Dataset/filter (dataset search/listing), GET /api/Dataset/get/{slug}, GET /api/Dca
@@ -71,7 +71,7 @@ score:
   band: minimal
   composite: 5.3
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -98,7 +98,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

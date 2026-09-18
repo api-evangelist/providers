@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 12
 apis:
 - description: IATA NDC 21.3 AirShopping message. Flight shopping and availability search returning Virgin Atlantic offers, including calendar and multi-city itineraries. Documented publicly on VS NDC Connect; no ba
@@ -260,7 +260,7 @@ score:
   band: developing
   composite: 45.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 36.3
     catalog_earned_first_party: 0.0
     catalog_gap: 78.8
@@ -287,7 +287,7 @@ score:
     conformance: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

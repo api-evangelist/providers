@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for programmatically managing campaigns, affiliates, referrals, commissions, payouts, and webhooks within a Rewardful account.
@@ -266,7 +266,7 @@ score:
   band: exemplar
   composite: 66.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 76.0
     catalog_earned_first_party: 20.0
     catalog_gap: 39.0
@@ -286,7 +286,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

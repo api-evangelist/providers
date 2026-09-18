@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Keepit is a SaaS backup and recovery platform providing independent cloud-to-cloud data protection for Microsoft 365, Google Workspace, Salesforce, and other SaaS applications.
@@ -104,7 +104,7 @@ score:
   band: emerging
   composite: 16.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -120,7 +120,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

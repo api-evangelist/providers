@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The only documented Chatfuel API operation as of 2026-08-13. POST https://panel.chatfuel.com/api/contacts/{automation_id}/whatsapp/ imports a batch of up to 1,000 WhatsApp phone numbers into an automa
@@ -184,7 +184,7 @@ score:
   band: developing
   composite: 40.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -203,7 +203,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

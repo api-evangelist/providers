@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: CAMARA-aligned API that returns the timestamp of the last SIM swap (or whether a swap occurred within a caller-supplied window) for a given TIM mobile number. Used by banks and fintechs as a signal ag
@@ -155,7 +155,7 @@ score:
   band: minimal
   composite: 8.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -187,7 +187,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ tags:
 - GSMA
 - SIM Swap
 - Number Verification
-- Know Your Customer
+- KYC
 - Identity
 - Anti-Fraud
 - Italy

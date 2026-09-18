@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Official Carbon Intensity forecast API for Great Britain, developed by NESO in partnership with EDF Europe, University of Oxford, and WWF. Provides 96+ hour ahead national and regional carbon intensit
@@ -123,7 +123,7 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -153,7 +153,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

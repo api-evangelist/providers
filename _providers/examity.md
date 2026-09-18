@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Register and manage the exams (assessments) that will be proctored - exam name, proctoring type (automated, live, audit), duration, allowed resources, rules, and the launch URL handed back to the LMS.
@@ -93,7 +93,7 @@ score:
   band: minimal
   composite: 4.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -115,7 +115,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

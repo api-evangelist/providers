@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for Tallyfy workflow automation. Organization-scoped resources (/organizations/{org_id}/checklists, /runs, /tasks, ...) with Bearer-token auth (personal, application, or OAuth 2.0 access toke
@@ -205,7 +205,7 @@ score:
   band: developing
   composite: 45.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -224,7 +224,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

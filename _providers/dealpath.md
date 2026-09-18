@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Dealpath's REST API for programmatic access to deals, pipeline, and portfolio data. Bearer-token authentication (token provisioned by Dealpath); responses are JSON and advertise X-RateLimit-* headers.
@@ -138,7 +138,7 @@ score:
   band: thin
   composite: 27.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -156,7 +156,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

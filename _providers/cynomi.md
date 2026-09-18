@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Platform-agnostic REST API for bi-directional task synchronization between Cynomi and any PSA or ticketing system — push remediation tasks from Cynomi and pull status updates back to keep both systems
@@ -142,7 +142,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -158,7 +158,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 26.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

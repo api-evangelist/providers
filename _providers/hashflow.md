@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'REST API for takers/aggregators: discover market makers, query indicative price levels, request signed executable RFQ quotes, and check trader rate-limit restrictions. Quotes settle on-chain via Hashf'
@@ -171,7 +171,7 @@ score:
   band: thin
   composite: 27.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,7 +197,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Free public JSON-RPC 2.0 API for reading the Aleo zero-knowledge blockchain — latest blocks and heights, transactions and transitions, records, deployed programs, mapping values, public NFTs and token
@@ -152,7 +152,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -177,7 +177,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

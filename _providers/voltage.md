@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for sending and receiving Bitcoin/Lightning payments. Manage wallets, create send/receive payments (BOLT11, on-chain, BIP21), lock BTC/USD exchange rates with quotes, view lines of credit, an
@@ -241,7 +241,7 @@ score:
   band: strong
   composite: 56.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -267,7 +267,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

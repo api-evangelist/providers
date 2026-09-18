@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Single embedded-insurance API covering the full lifecycle — quotation, proposal, sale/policy issuance, endorsement, renewal, claims and webhooks.
@@ -178,7 +178,7 @@ score:
   band: developing
   composite: 40.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -215,7 +215,7 @@ score:
     regime_id: insurance
     score: 38.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

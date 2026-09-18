@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 11
 apis:
 - description: The Citi Accounts and Transactions API provides authorized third-party access to retail customer accounts, current and available balances, and transaction histories, enabling account-aggregation and p
@@ -244,7 +244,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 65.0
     catalog_earned_first_party: 0.0
     catalog_gap: 50.0
@@ -275,7 +275,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

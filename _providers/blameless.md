@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Blameless platform API — incidents, incident types, severities, roles, SLOs, SLIs and error budgets — served per tenant at https://{instance}.blameless.io/api/v1 with Auth0 client-credentials bear
@@ -158,7 +158,7 @@ score:
   band: emerging
   composite: 23.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -176,7 +176,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'QuantFeed is Iress''s signature end-to-end ultra-low latency market data API. Built to deliver an unmatched level of performance and quality of normalisation, QuantFeed connects 240+ normalised market '
@@ -84,7 +84,7 @@ score:
   band: minimal
   composite: 7.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -106,7 +106,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

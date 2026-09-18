@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Create end users, capture consent, run data collections (including PSD2 banking data), and retrieve structured wealth data. Dual auth (backend API key + per-user JWT), date-based versioning, and colle
@@ -166,7 +166,7 @@ score:
   band: thin
   composite: 34.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -202,7 +202,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

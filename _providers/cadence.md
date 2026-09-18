@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Cadence Design Systems delivers software and IP for electronic design automation, including IC and PCB design, verification, emulation, and system analysis. The EDA product lines (Virtuoso, Allegro X,
@@ -223,7 +223,7 @@ score:
   band: thin
   composite: 34.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -241,7 +241,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

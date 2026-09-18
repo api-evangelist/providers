@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'REST API exposing 20+ resources for compliance management: Controls, Policies, Policy Versions, Programs, Risks, Proof, Test Results, Issues, Tasks, Task Statuses, Questionnaires, Custom Apps, Labels,'
@@ -117,7 +117,7 @@ score:
   band: emerging
   composite: 11.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -133,7 +133,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 11.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

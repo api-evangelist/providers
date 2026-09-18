@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Client-library operations for managing 128-byte double-entry accounts - create_accounts (establish immutable accounts on a ledger with debit/credit constraint flags), lookup_accounts (fetch accounts b
@@ -110,7 +110,7 @@ score:
   band: emerging
   composite: 16.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -126,7 +126,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

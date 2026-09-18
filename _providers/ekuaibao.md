@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The 合思开放平台 (Ekuaibao / HOSE Open Platform) REST API. 200+ documented operations across contacts, corporation, budgets, expense flows, forms, fee types, pay, payer info, checking bills, city and curren
@@ -172,7 +172,7 @@ score:
   band: thin
   composite: 31.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -197,7 +197,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

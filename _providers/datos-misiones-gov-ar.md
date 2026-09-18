@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: CKAN Action API for datos.misiones.gov.ar, a consistent JSON-over-HTTP interface over a catalog of 2 datasets. Standard actions include package_search, package_show, package_list, organization_list, g
@@ -103,7 +103,7 @@ score:
   band: emerging
   composite: 15.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -119,6 +119,8 @@ score:
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - argentina
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
@@ -130,7 +132,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Popmenu Developer API gives partners access to restaurant data including menus, guests, and orders for building custom integrations with the Popmenu platform. Popmenu also connects with POS and ma
@@ -215,7 +215,7 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 52.0
     catalog_earned_first_party: 20.0
     catalog_gap: 63.0
@@ -234,7 +234,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

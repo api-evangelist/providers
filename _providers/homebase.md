@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Homebase REST API provides programmatic access to employee scheduling, time tracking, payroll synchronization, and team management features. Authenticated via API key, it enables third-party devel
@@ -150,7 +150,7 @@ score:
   band: thin
   composite: 31.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
@@ -171,7 +171,7 @@ score:
     - north-america
   previous_composite: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

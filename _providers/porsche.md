@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Porsche ID API Portal is where Porsche AG publishes and manages the APIs that integrate Porsche ID, its customer identity platform. It is not a public API programme: the portal''s own FAQ states "W'
@@ -198,7 +198,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -226,7 +226,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

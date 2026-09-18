@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: SOAP web services (DataService, ReadDataService, FileService, FileStreamService, InstanceService) to automate workflows by managing courses, content, files and assessments on an itslearning site. Used
@@ -175,7 +175,7 @@ score:
   band: developing
   composite: 44.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -211,7 +211,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -28,7 +28,7 @@ modified: '2026-09-15'
 name: Revolv
 nav: Providers
 network: true
-overview: Revolv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Internet of Things, Home Automation, and Consumer Electronics.
+overview: Revolv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, IoT, Home Automation, and Consumer Electronics.
 random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/revolv/refs/heads/main/screenshots/revolv-2026-09-02T153728.png
 security:
@@ -40,7 +40,7 @@ slug: revolv
 tags:
 - Company
 - Smart Home
-- Internet of Things
+- IoT
 - Home Automation
 - Consumer Electronics
 - Connected Devices

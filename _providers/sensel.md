@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Sensel API is a C library for communicating with Sensel devices (Morph and Sensel sensor boards). It is a LOCAL DEVICE API, not an HTTP service: an application links LibSensel and LibSenselDecompr'
@@ -160,7 +160,7 @@ score:
   band: emerging
   composite: 17.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -176,7 +176,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

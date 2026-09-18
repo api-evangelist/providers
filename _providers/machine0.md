@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The machine0 control plane for creating, managing, snapshotting and connecting to persistent cloud VMs. Exposed as a CLI (npm @machine0/cli) and a remote MCP server (Streamable HTTP, OAuth 2.0 + API k
@@ -137,7 +137,7 @@ score:
   band: thin
   composite: 29.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -157,7 +157,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

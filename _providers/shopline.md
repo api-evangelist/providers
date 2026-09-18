@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Versioned REST access to store data (products, orders, customers, inventory, fulfillment, discounts, and more) for SHOPLINE apps.
@@ -202,7 +202,7 @@ score:
   band: developing
   composite: 53.1
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -226,7 +226,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

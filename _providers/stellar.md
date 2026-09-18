@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -975,7 +975,7 @@ score:
   band: developing
   composite: 49.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 79.3
     catalog_earned_first_party: 0.0
     catalog_gap: 35.8
@@ -1007,7 +1007,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -1031,5 +1031,6 @@ tags:
 - Payments
 - Smart Contracts
 - Web3
+- Stellar
 website: https://www.stellar.org/
 ---

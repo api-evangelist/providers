@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ modified: '2026-09-12'
 name: Aeterlink Corp.
 nav: Providers
 network: true
-overview: 'Aeterlink Corp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless Power, Internet of Things, Hardware, and Industrial Automation.
+overview: 'Aeterlink Corp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless Power, IoT, Hardware, and Industrial Automation.
 
 
   Aeterlink Corp.''s developer surface includes product news, engineering blog, and 11 more developer resources.'
@@ -124,7 +124,7 @@ score:
   band: minimal
   composite: 10.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -153,7 +153,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -168,7 +168,7 @@ slug: aeterlinkcorp
 tags:
 - Company
 - Wireless Power
-- Internet of Things
+- IoT
 - Hardware
 - Industrial Automation
 - Building Management

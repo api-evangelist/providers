@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Laundryheap's primary product API. A single GraphQL endpoint serving the consumer web and mobile apps, covering ordering, recurring orders, addresses, timeslots, services, hotels, subscriptions, bundl
@@ -197,7 +197,7 @@ score:
   band: emerging
   composite: 22.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -217,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

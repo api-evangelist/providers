@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -471,7 +471,7 @@ modified: '2026-05-25'
 name: Adafruit IO
 nav: Providers
 network: true
-overview: 'Adafruit IO publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Blocks API, Dashboards API, and 8 more. Tagged areas include IoT, Internet of Things, MQTT, Maker, and Hobbyist.
+overview: 'Adafruit IO publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Blocks API, Dashboards API, and 8 more. Tagged areas include IoT, MQTT, Maker, Hobbyist, and CircuitPython.
 
 
   The Adafruit IO catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -513,7 +513,7 @@ score:
   band: strong
   composite: 61.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 86.5
     catalog_earned_first_party: 0.0
     catalog_gap: 28.5
@@ -536,7 +536,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -558,7 +558,6 @@ security:
 slug: adafruit-io
 tags:
 - IoT
-- Internet of Things
 - MQTT
 - Maker
 - Hobbyist

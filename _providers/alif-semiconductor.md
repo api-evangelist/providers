@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,6 +83,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://alifsemi.com/privacypolicy/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://alifsemi.com/support/
 created: '2026-07-17'
 description: 'Alif Semiconductor is a fabless semiconductor company headquartered in Pleasanton, California with engineering operations in Grenoble, France. It designs secure, AI/ML-enabled 32-bit microcontrollers and fusion processors for edge computing, built around Arm Cortex-M55 cores and dedicated Arm Ethos-U55 Neural Processing Units. Its Ensemble (E1C, E1, E3, E4, E5, E6, E7, E8) and Balletto (B1) product families target battery-powered edge AI and generative-AI workloads, pairing hardware AI acceleration with autonomous aiPM power management and a multilayered hardware Root of Trust security subsystem. Alif ships an embedded developer surface rather than a public web API: a Zephyr-based SDK, CMSIS Device Family Packs, VS Code project templates, the Conductor configuration tool, evaluation kits, datasheets, and reference manuals published across its support hub and GitHub organization. Added to the API Evangelist network as a portfolio company of Lightspeed Venture Partners and Mayfield.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alif-semiconductor.png
@@ -94,24 +98,24 @@ network: true
 overview: 'Alif Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Microcontrollers, Edge AI, and Machine-Learning.
 
 
-  Alif Semiconductor''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
+  Alif Semiconductor''s developer surface includes documentation, support, engineering blog, and 9 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 16.3
+  composite: 18.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 26.2
     discoverability: 57.4
     operational_transparency: 2.6
   jurisdiction:
@@ -121,7 +125,7 @@ score:
     - north-america
   previous_composite: 16.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

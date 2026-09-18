@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,6 +65,10 @@ common:
   title: ''
   type: Blog
   url: https://embarkvet.com/feed/
+- group: company
+  title: ''
+  type: Blog
+  url: https://embarkvet.com/resources/
 created: '2026-07-03'
 description: Embark Veterinary is a canine genomics and biotechnology company that sells at-home dog DNA test kits for breed identification, ancestry, and genetic health screening. Using a cheek-swab sample and a proprietary genotyping platform that analyzes over 200,000 genetic markers, Embark reports 400+ breeds, 270+ genetic health conditions, allergy risk, coat and trait predictions, a relative finder, and a breeder dashboard with a Pair Predictor tool. Embark is a direct-to-consumer service delivered through its website, mobile apps, and a research partner program (Cornell University, NIH, Morris Animal Foundation). As of this review it does not publish a documented public or partner developer API; results are consumed through Embark's own web/app dashboards, and customers can download their dog's raw genetic data file for personal use and sharing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/embarkvet.png
@@ -76,13 +80,13 @@ network: true
 overview: 'Embark Veterinary is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Canine Genomics, Dog DNA Test, Breed Identification, Genetic Health, and Direct to Consumer.
 
 
-  Embark Veterinary''s developer surface includes support, engineering blog, and 5 more developer resources.'
+  Embark Veterinary''s developer surface includes support, engineering blog, and 6 more developer resources.'
 random_paper: 15
 score:
   band: minimal
   composite: 4.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -104,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

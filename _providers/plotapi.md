@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Single REST surface for vehicle specifications, VIN history, MOT records, parts fitment, valuations and property listings. Operations could not be enumerated: the API reference is behind a sign-in and'
@@ -67,7 +67,7 @@ score:
   band: emerging
   composite: 12.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -99,7 +99,7 @@ score:
       reason: never_enriched
   previous_composite: 12.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

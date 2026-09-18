@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Hostfully Property Management Platform REST API v3.x covering properties (single and multi-unit), leads (inquiries, booking requests, bookings, group bookings, holds, cancellations, rebooking), orders
@@ -191,7 +191,7 @@ score:
   band: emerging
   composite: 19.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -212,7 +212,7 @@ score:
     - north-america
   previous_composite: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

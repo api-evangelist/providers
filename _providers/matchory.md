@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Matchory Discovery API exposes the resolved-and-enriched supplier data layer — verified supplier profiles, MatchoryID identity resolution, portfolio consolidation, risk signals, and market intelli
@@ -226,7 +226,7 @@ score:
   band: developing
   composite: 46.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -251,7 +251,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

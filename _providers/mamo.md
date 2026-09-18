@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://business.mamopay.com/manage_api/v1
@@ -330,7 +330,7 @@ score:
   band: strong
   composite: 58.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -346,6 +346,8 @@ score:
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-arab-emirates
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
@@ -366,7 +368,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

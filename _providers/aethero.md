@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The authenticated fleet-management and over-the-air update API behind Aethero's "Aether" user portal at cloud.aethero.com. The service is a self-hosted deployment of RDFM (Remote Device Fleet Manager)
@@ -120,7 +120,7 @@ score:
   band: emerging
   composite: 16.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -141,7 +141,7 @@ score:
     - north-america
   previous_composite: 16.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

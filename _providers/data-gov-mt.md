@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Bespoke MITA-built open-data portal (JS SPA) at portal.data.gov.mt / open.data.gov.mt. The catalog is DCAT-AP-compliant and harvested into data.europa.eu (~230+ datasets across sectors such as plannin
@@ -76,7 +76,7 @@ score:
   band: minimal
   composite: 6.9
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -104,7 +104,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

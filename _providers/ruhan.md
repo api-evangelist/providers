@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RuhAN exposes two HTTP endpoints under https://www.ruhan.co/api and publishes no contract for either. GET /api/health returns 200 application/json and is named in the provider's own llms.txt; on 2026-
@@ -129,7 +129,7 @@ score:
   band: thin
   composite: 27.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -154,7 +154,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

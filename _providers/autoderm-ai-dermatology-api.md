@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -315,7 +315,7 @@ modified: '2026-08-09'
 name: Autoderm – AI Dermatology API
 nav: Providers
 network: true
-overview: 'Autoderm – AI Dermatology API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device API, Inference API, System API, and 1 more. Tagged areas include dermatology-api, ai-dermatology, Medical Imaging, Telemedicine, and skin-analysis.
+overview: 'Autoderm – AI Dermatology API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device API, Inference API, System API, and 1 more. Tagged areas include dermatology-api, ai-dermatology, Medical Imaging, Telehealth, and skin-analysis.
 
 
   Autoderm – AI Dermatology API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
@@ -332,7 +332,7 @@ score:
   band: strong
   composite: 63.5
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -364,7 +364,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -384,7 +384,7 @@ tags:
 - dermatology-api
 - ai-dermatology
 - Medical Imaging
-- Telemedicine
+- Telehealth
 - skin-analysis
 - REST API
 - OpenAPI

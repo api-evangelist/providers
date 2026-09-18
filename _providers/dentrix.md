@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: Retrieve and (with the Write API / Ascend scopes) manage patient demographics, contact details, household and responsible-party relationships, and patient status. On Dentrix Ascend this is a REST/JSON
@@ -124,7 +124,7 @@ score:
   band: emerging
   composite: 20.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -146,7 +146,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

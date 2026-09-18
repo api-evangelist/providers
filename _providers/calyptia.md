@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 1
@@ -379,6 +379,10 @@ collections:
   slug: open-calyptia-user-api
 common:
 - group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/chronosphere/
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/capabilities/calyptia-capability-edges.yml
   title: ''
   type: CapabilityMap
@@ -524,7 +528,7 @@ network: true
 overview: 'Calyptia publishes 41 APIs on the [APIs.io](https://apis.io/) network, including agent API, agent_config API, agent_error API, and 38 more. Tagged areas include Company, Infrastructure, Observability, Telemetry, and Logging.
 
 
-  Calyptia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 22 more developer resources.'
+  Calyptia''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 23 more developer resources.'
 random_paper: 19
 scopes:
 - name: Calyptia Scopes
@@ -535,7 +539,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -561,7 +565,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'insurancecouncil.com.au runs on WordPress and leaves the standard WordPress REST API reachable anonymously at /wp-json/, returning JSON for pages, media (the PDF publication corpus of media releases, '
@@ -241,7 +241,7 @@ score:
   band: thin
   composite: 33.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 50.0
     catalog_earned_first_party: 0.0
     catalog_gap: 65.0
@@ -273,7 +273,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

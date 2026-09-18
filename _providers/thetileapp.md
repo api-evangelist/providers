@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,6 +86,10 @@ common:
   title: ''
   type: Website
   url: https://thetileapp.com
+- group: company
+  title: ''
+  type: Website
+  url: https://www.thetileapp.com/
 created: '2026-07-17'
 description: Tile is a consumer Bluetooth-tracker company whose Tile Mate, Pro, Slim, and Sticker devices help people find everyday items such as keys, wallets, bags, and phones, backed by the crowd-sourced Tile "Find" network that anonymously relays location when another Tile user passes a lost item. Founded in 2012, Tile was acquired by Life360 in 2021 and now operates as part of the Life360 family-safety platform. Tile publishes consumer apps for iOS and Android and a support and legal surface, but does not offer an official public developer API, developer portal, or SDK; only third-party community libraries wrap its private app API. This API Evangelist profile captures the company's public web and security-program surface. Surfaced as a portfolio company of Slow Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thetileapp.png
@@ -97,13 +101,13 @@ network: true
 overview: 'Tile (thetileapp) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bluetooth, Location, Tracking, and Consumer Electronics.
 
 
-  Tile (thetileapp)''s developer surface includes support and 10 more developer resources.'
+  Tile (thetileapp)''s developer surface includes support and 11 more developer resources.'
 random_paper: 16
 score:
   band: emerging
   composite: 12.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,7 +123,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

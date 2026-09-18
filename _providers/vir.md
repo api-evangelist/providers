@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,6 +57,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.vir.bio/privacy-notice/
+- group: company
+  title: ''
+  type: Website
+  url: http://vir.bio
 created: '2026-07-17'
 description: 'Vir Biotechnology, Inc. (NASDAQ: VIR) is a clinical-stage immunology company headquartered in San Francisco that combines immunologic insights with modern technology platforms to treat and prevent serious infectious diseases and, increasingly, cancer. Its pipeline spans chronic hepatitis B and D, respiratory infections, and dual-masked T-cell engagers for solid tumors, built on antibody, T-cell, innate-immunity, and small interfering RNA (siRNA) platforms. Vir is a research and corporate organization surfaced as a portfolio company of SoftBank Vision Fund; as of this enrichment pass it publishes no public developer API, SDK, MCP server, or developer portal — only its corporate and investor websites.'
 image: https://www.vir.bio/themes/default/images/ogimage.jpg
@@ -68,13 +72,13 @@ network: true
 overview: 'Vir is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Biotechnology, Immunology, and Infectious Disease.
 
 
-  Vir''s developer surface includes support and 4 more developer resources.'
+  Vir''s developer surface includes support and 5 more developer resources.'
 random_paper: 7
 score:
   band: minimal
   composite: 10.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -101,7 +105,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

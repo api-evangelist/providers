@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The Universal Commerce Protocol commerce server David serves at davidprotein.com/api/ucp/mcp, advertised in the store robots.txt and agents.md. Thirteen MCP tools cover catalog search and lookup, prod
@@ -232,7 +232,7 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -258,7 +258,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Web application for searching, browsing, and analysing labelled onchain entities - wallets, exchanges, funds, projects - across supported blockchains. Powers visualisations, alerts, and watchlists use
@@ -137,7 +137,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 63.5
     catalog_earned_first_party: 0.0
     catalog_gap: 51.5
@@ -159,7 +159,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

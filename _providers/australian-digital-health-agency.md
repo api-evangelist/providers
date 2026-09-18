@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: The business-to-business FHIR Gateway for connecting conformant clinical software to the My Health Record national shared health record. Exposes FHIR-based read and upload interactions for clinical do
@@ -191,7 +191,7 @@ score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -224,7 +224,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

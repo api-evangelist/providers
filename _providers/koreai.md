@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The AI for Service REST estate — Automation AI (bot lifecycle, NLP training, analytics, admin, data tables), Search AI (answer generation, content and chunk management, ingestion, connectors), Contact
@@ -279,7 +279,7 @@ score:
   band: strong
   composite: 54.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -309,7 +309,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

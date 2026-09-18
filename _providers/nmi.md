@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: The core NMI Payment API (Direct Post) enables transaction processing across card-present, ecommerce, mobile, and alternative payment methods including Apple Pay and Google Pay. Supports authorization
@@ -144,7 +144,7 @@ score:
   band: emerging
   composite: 25.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -168,7 +168,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

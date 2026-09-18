@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for searching and downloading free stock photos, vectors, icons, videos, and fonts for commercial and personal use projects without attribution requirements.
@@ -120,7 +120,7 @@ score:
   band: emerging
   composite: 14.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -136,7 +136,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

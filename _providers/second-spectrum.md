@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Customer-facing platform delivering Second Spectrum tracking data, visualizations, and clips to club analysts and coaching staff. Access is gated by Auth0-backed login under the Genius Sports Performa
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 11.1
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

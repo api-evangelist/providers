@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: PX4 is the open source flight control firmware the Dronecode Foundation stewards — the software running on the vehicle that MAVLink and MAVSDK talk to. It exposes no network API of its own; its progra
@@ -279,7 +279,7 @@ score:
   band: developing
   composite: 48.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -299,7 +299,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

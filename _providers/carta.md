@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Enables incorporation partners and law firms to programmatically onboard new companies onto the Carta platform, streamlining the company formation and cap table initialisation workflow.
@@ -147,7 +147,7 @@ score:
   band: emerging
   composite: 25.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -165,7 +165,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

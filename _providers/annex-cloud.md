@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 12
 apis:
 - description: 'Create, enroll, retrieve, update, delete, search, and merge loyalty members, and read a member''s activity and activity summary. Documented operations include POST /users, GET/PATCH /users/{memberId}, '
@@ -139,7 +139,7 @@ score:
   band: emerging
   composite: 21.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -155,7 +155,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

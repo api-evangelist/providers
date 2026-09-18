@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: PSD2-compliant Account Information Service. Returns account lists, balances, and transaction history for Rabobank payment accounts after the account-holder grants explicit consent. Aligned with the Be
@@ -95,7 +95,7 @@ score:
   band: minimal
   composite: 6.1
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -125,7 +125,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

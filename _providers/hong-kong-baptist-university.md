@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: HKBU's own SAML 2.0 identity provider, entityID https://buidp01.hkbu.edu.hk/idp/shibboleth, registered in eduGAIN by the Hong Kong Access Federation (HKAF) since 2018-03-14 with scope hkbu.edu.hk. The
@@ -212,7 +212,7 @@ score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -241,7 +241,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

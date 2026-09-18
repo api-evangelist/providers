@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - baseURL: https://app.sendoso.com/api/v3
@@ -348,7 +348,7 @@ score:
   band: developing
   composite: 53.9
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 27
     catalog_earned: 69.5
     catalog_earned_first_party: 20.0
     catalog_gap: 45.5
@@ -373,7 +373,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

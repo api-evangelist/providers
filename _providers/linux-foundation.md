@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: LFX is the Linux Foundation's developer and community platform offering insights, tooling, and project lifecycle management for open source contributors and member organizations.
@@ -99,7 +99,7 @@ score:
   band: emerging
   composite: 12.7
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -115,7 +115,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

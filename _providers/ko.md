@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: ko is a simple, fast container image builder for Go applications that does not require Docker, producing small images by building Go binaries and layering them on a minimal base image for deployment t
@@ -91,7 +91,7 @@ score:
   band: emerging
   composite: 14.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -107,7 +107,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

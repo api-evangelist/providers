@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: UCL Discovery is UCL's open-access institutional repository of research outputs, running EPrints on UCL's own registrable domain, and it exposes an OAI-PMH 2.0 metadata-harvesting endpoint at discover
@@ -205,7 +205,7 @@ score:
   band: thin
   composite: 26.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -240,7 +240,7 @@ score:
     regime_id: education
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

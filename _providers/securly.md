@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Credential-gated MDM API that lets an approved third-party asset or device-management system pull an inventory list of devices (iPads, Macs, Apple TVs) managed in Securly MDM. Access is provisioned pe
@@ -97,7 +97,7 @@ score:
   band: minimal
   composite: 8.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -119,7 +119,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

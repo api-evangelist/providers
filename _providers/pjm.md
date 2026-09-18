@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: 'PJM''s public wholesale market and system data catalogue, exposed as a REST API behind Azure API Management. Feeds include day-ahead and real-time hourly and five-minute LMPs, ancillary service prices '
@@ -281,7 +281,7 @@ score:
   band: developing
   composite: 51.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 59.0
     catalog_earned_first_party: 13.0
     catalog_gap: 56.0
@@ -313,7 +313,7 @@ score:
     regime_id: energy_utilities
     score: 38.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

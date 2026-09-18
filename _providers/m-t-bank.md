@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - description: Institutional payment initiation product listed in M&T's Banking and Treasury API group on the developer portal. Per-product reference is available after Entra login and Azure APIM subscription.
@@ -145,7 +145,7 @@ score:
   band: emerging
   composite: 11.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -174,7 +174,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

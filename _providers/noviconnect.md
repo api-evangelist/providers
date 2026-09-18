@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,6 +69,10 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/noviconnect
+- group: company
+  title: ''
+  type: Website
+  url: https://www.noviconnect.com/
 created: '2026-07-17'
 description: Novi Connect (Novi) is an AI shopping optimization platform and data infrastructure for CPG and retail brands. It connects brands, certification bodies, and major retailers to verify, standardize, and distribute product data so products are accurately understood, ranked, and recommended by AI shopping systems and agentic search. Products include the AI Shopping Optimizer for SKU-level product-feed optimization and the Product Authority Builder for verified direct data distribution across retailers and marketplaces. Backed by Felicis. No public developer API surface is currently published; product docs are hosted on Notion and customer access is via login apps.
 image: https://cdn.prod.website-files.com/66392100a4c9657a20a5ee78/683acdca063f6461bed51d50_Novi-Meta-OpenGraph.png
@@ -80,13 +84,13 @@ network: true
 overview: 'Novi Connect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Commerce, CPG, Retail, and Product Data.
 
 
-  Novi Connect''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
+  Novi Connect''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
 random_paper: 2
 score:
   band: minimal
   composite: 9.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -102,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

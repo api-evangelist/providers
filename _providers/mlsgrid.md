@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-09-16'
+  score: 31.7
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -241,15 +241,19 @@ common:
 - group: other
   title: ''
   type: Resources
-  url: https://www.mlsgrid.com
+  url: https://www.mlsgrid.com/resources
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.mlsgrid.com
+  url: https://app.mlsgrid.com/privacypolicy
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.mlsgrid.com
+  url: https://app.mlsgrid.com/termsofuse
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.mlsgrid.com/contact-us
 - group: operate
   title: ''
   type: Support
@@ -295,6 +299,33 @@ common:
   title: ''
   type: SpectralRuleset
   url: rules/mlsgrid-rules.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/mcp/mlsgrid-mcp.yml
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/mlsgrid-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/well-known/mlsgrid-well-known.yml
+  title: ''
+  type: X-WellKnownProbe
+  url: well-known/mlsgrid-well-known.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.mlsgrid.com/api-documentation/api-version-2.0.md
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.mlsgrid.com/data-consumer-guides/how-to-register-and-activate-an-mls-grid-data-consumer-account.md
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: https://docs.mlsgrid.com/llms.txt
 created: '2026-05-25T00:00:00.000Z'
 description: The MLS Grid is a normalized, RESO-compliant data distribution platform that gives brokers, MLSs, and application vendors a single OData v4 Web API and one master data license agreement covering 50+ participating MLSs across the United States. Built on the RESO Data Dictionary, the MLS Grid Web API standardizes Property, Member, Office, OpenHouse, Media, and Lookup resources for IDX, VOW, broker-only, and product-development use cases, replacing the per-MLS RETS feed sprawl that historically burdened real-estate technology vendors.
 examples:
@@ -335,17 +366,17 @@ jsonld:
   property_count: 2
   slug: mlsgrid-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-17'
 name: Mlsgrid
 nav: Providers
 network: true
-overview: 'Mlsgrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Lookup API, Media API, Member API, and 4 more.
+overview: 'Mlsgrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Lookup API, Media API, Member API, and 4 more. Tagged areas include Real-Estate, Property Listings, MLS, RESO, and Data Replication.
 
 
   The Mlsgrid catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mlsgrid''s developer surface includes signup flow, FAQ, engineering blog, changelog, code examples, authentication, developer portal, and 35 more developer resources.'
+  Mlsgrid''s developer surface includes signup flow, FAQ, engineering blog, changelog, code examples, authentication, developer portal, and 42 more developer resources.'
 plans:
 - name: Mlsgrid Plans Pricing
   plan_count: 2
@@ -379,21 +410,21 @@ rules:
   slug: mlsgrid-rules
 score:
   band: strong
-  composite: 58.0
+  composite: 63.1
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 82.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 32.5
+    artifact_dirs: 28
+    catalog_earned: 87.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 27.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.1
   facets:
     access_clarity: 63.2
     contract_governance: 47.0
     contract_quality: 74.4
-    developer_ergonomics: 38.1
-    discoverability: 66.7
+    developer_ergonomics: 58.9
+    discoverability: 75.9
     operational_transparency: 52.6
   previous_composite: 58.0
   provenance:
@@ -404,12 +435,11 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    mcp: derived
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -425,5 +455,16 @@ security:
   slug: mlsgrid-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: mlsgrid
+tags:
+- Real-Estate
+- Property Listings
+- MLS
+- RESO
+- Data Replication
+- OData
+- Housing
+- Data Licensing
+- IDX
+- Property Data
 website: https://www.mlsgrid.com/
 ---

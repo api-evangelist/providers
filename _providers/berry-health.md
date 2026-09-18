@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,13 +79,13 @@ modified: '2026-07-20'
 name: Berry Health
 nav: Providers
 network: true
-overview: Berry Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telehealth, and Telemedicine.
+overview: Berry Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Telehealth, and Consumer Health.
 random_paper: 13
 score:
   band: minimal
   composite: 4.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -112,7 +112,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -129,7 +129,6 @@ tags:
 - Healthcare
 - Digital Health
 - Telehealth
-- Telemedicine
 - Consumer Health
 - Mental Health
 - Dermatology

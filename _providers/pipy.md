@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Pipy exposes an Admin UI and administrative interface, accessible via the built-in repo-mode HTTP server (default port 6060). The administrative surface allows operators to manage Pipy repositories, c
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 15.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -123,7 +123,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

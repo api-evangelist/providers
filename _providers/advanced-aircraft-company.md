@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The public WordPress REST API served from the Advanced Aircraft Company corporate site at https://advancedaircraftcompany.com/wp-json. The self-describing route index advertises 647 routes across 46 n
@@ -141,7 +141,7 @@ score:
   band: emerging
   composite: 13.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -160,7 +160,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

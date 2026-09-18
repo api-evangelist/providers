@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: WHU's federated login, published as a SAML 2.0 EntityDescriptor at https://idp.whu.edu.cn/idp/shibboleth (HTTP 200, application/xml, 14,864 bytes). Declares HTTP-Redirect, HTTP-POST and POST-SimpleSig
@@ -227,7 +227,7 @@ score:
   band: thin
   composite: 27.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -258,7 +258,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

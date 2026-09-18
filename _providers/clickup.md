@@ -13,29 +13,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: false
+    openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-09-16'
+  score: 57.7
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -43,7 +44,7 @@ agentic_access:
   operation_count: 75
   slug: clickup-agentic-access
   summary_line: 75 operations · 40 acting · 1 human-in-the-loop
-api_count: 12
+api_count: 14
 apis:
 - baseURL: https://api.clickup.com
   baseurl_source: declared
@@ -110,7 +111,17 @@ apis:
   description: Operations for OAuth 2.0 authentication and token management.
   name: Clickup O Auth API
   slug: clickup-oauth-api
-artifact_total: 109
+- baseURL: https://api.clickup.com/api
+  baseurl_source: declared
+  description: 'The complete first-party ClickUp public API v2 contract as ClickUp publishes it: 138 operations across 83 paths covering Tasks, Lists, Folders, Spaces, Workspaces, Goals, Views, Comments, Custom Field'
+  name: ClickUp API v2
+  slug: clickup-api-v2
+- baseURL: https://api.clickup.com/
+  baseurl_source: declared
+  description: 'The first-party ClickUp Public API v3 contract: 35 operations covering Chat channels and messages, Docs and pages, entity Attachments, Workspace audit logs, object ACLs, task moves and per-user time e'
+  name: ClickUp Public API v3
+  slug: clickup-api-v3
+artifact_total: 114
 asyncapis:
 - description: The ClickUp Webhooks event system delivers real-time notifications when changes occur within a ClickUp Workspace. When subscribed events happen, ClickUp sends HTTP POST requests to a registered endpoi
   name: ClickUp Webhooks Events
@@ -195,6 +206,11 @@ collections:
   name: ClickUp Webhooks API
   slug: open-clickup-webhooks
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/security/clickup-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/clickup-vulnerability-disclosure.yml
 - group: company
   title: ''
   type: Website
@@ -250,7 +266,171 @@ common:
   title: ''
   type: Blog
   url: https://clickup.com/blog
-description: Work with tasks using the ClickUp API.
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.clickup.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.clickup.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.clickup.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.clickup.com/docs/authentication
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.clickup.com/hc/en-us
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://clickup.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.clickup.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://clickup.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://clickup.com/terms/privacy
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://feedback.clickup.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.clickup.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://clickup.canny.io/changelog
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/changelog/clickup-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/clickup-changelog.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://clickup.com/security
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.clickup.com/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/conformance/clickup-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/clickup-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/well-known/clickup-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/clickup-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/well-known/clickup-api-catalog.json
+  title: ''
+  type: APICatalog
+  url: well-known/clickup-api-catalog.json
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/well-known/clickup-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/clickup-security.txt
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/packages/clickup-packages.yml
+  title: ''
+  type: Packages
+  url: packages/clickup-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/mcp/clickup-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/clickup-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/mcp/clickup-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/clickup-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/llms/clickup-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/clickup-llms.txt
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/errors/clickup-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/clickup-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/errors/clickup-error-codes.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/clickup-error-codes.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/lifecycle/clickup-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/clickup-lifecycle.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/scopes/clickup-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/clickup-scopes.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/conventions/clickup-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/clickup-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/data-model/clickup-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/clickup-data-model.yml
+- group: start
+  title: ''
+  type: Console
+  url: https://developer.clickup.com/docs/trytheapi
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/sandbox/clickup-sandbox.yml
+  title: ''
+  type: Console
+  url: sandbox/clickup-sandbox.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/rate-limits/clickup-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/clickup-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/plans/clickup-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/clickup-plans-pricing.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://developer.clickup.com/docs/webhooks
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/clickup-api/clickup-public-api/collection/rekuqnj/clickup-api-v2-reference
+created: '2026-05-03'
+description: 'ClickUp is a work management platform — tasks, Lists, Folders, Spaces, Docs, Chat, Goals, time tracking, dashboards and automations in one Workspace. It ships a public REST API in two concurrent versions: v2 (138 operations, the broad surface) and v3 (35 operations, Chat, Docs, attachments, audit logs and ACLs), both published as first-party OpenAPI documents and advertised through an RFC 9727 api-catalog at developer.clickup.com. Authentication is a single Authorization header carrying either a personal token or an OAuth 2.0 access token authorized per Workspace; there are no OAuth scopes. Webhooks are HMAC-SHA256 signed. ClickUp also runs a remote MCP server at mcp.clickup.com with its own OAuth authorization server, PKCE and dynamic client registration, exposing 48 documented tools. Rate limits are per token and set by the Workspace plan. There is no sandbox, no idempotency mechanism and no published deprecation policy.'
 features:
 - 'Free plan: 60MB storage, unlimited tasks/members'
 - Unlimited at $7/user/mo annual with unlimited everything
@@ -411,24 +591,28 @@ jsonld:
   property_count: 11
   slug: clickup-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: ''
+  name: Clickup MCP Server
+  slug: clickup-mcp-server
+modified: '2026-09-17'
 name: Clickup
 nav: Providers
 network: true
-overview: 'Clickup publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Comments API, Custom Fields API, and 10 more.
+overview: 'Clickup publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Comments API, Custom Fields API, and 12 more. Tagged areas include Project Management, Work Management, Productivity, Collaboration, and Task.
 
 
   The Clickup catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Clickup''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Clickup''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, pricing, and 42 more developer resources.'
 plans:
 - name: Clickup Plans Pricing
-  plan_count: 4
+  plan_count: 6
   slug: clickup-plans-pricing
 random_paper: 21
 rate_limits:
-- limit_count: 4
+- limit_count: 5
   name: Clickup Rate Limits
   slug: clickup-rate-limits
 rules:
@@ -453,39 +637,43 @@ rules:
     info: 1
     warn: 5
   slug: clickup-jsonschema-spectral-rules
+scopes:
+- name: Clickup Scopes
+  scope_count: 2
+  slug: clickup-scopes
+  summary_line: 2 scopes
 score:
-  band: thin
-  composite: 34.3
+  band: exemplar
+  composite: 74.2
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 48.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 66.5
+    artifact_dirs: 33
+    catalog_earned: 79.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 39.9
   facets:
-    access_clarity: 23.7
-    contract_governance: 13.6
-    contract_quality: 71.0
-    developer_ergonomics: 19.0
-    discoverability: 57.4
-    operational_transparency: 10.5
+    access_clarity: 100.0
+    contract_governance: 31.8
+    contract_quality: 72.2
+    developer_ergonomics: 66.1
+    discoverability: 81.5
+    operational_transparency: 89.5
   previous_composite: 34.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 13
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -494,15 +682,29 @@ security:
 - kind: authentication
   name: Clickup Authentication
   slug: clickup-authentication
-  summary_line: http · 1 scheme
+  summary_line: apiKey/oauth2 · 4 schemes
 - kind: domain-security
   name: Clickup Domain Security
   slug: clickup-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Clickup Vulnerability Disclosure
+  slug: clickup-vulnerability-disclosure
+  summary_line: security.txt · contact published
 - kind: trust-center
   name: Clickup Trust Center
   slug: clickup-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, GDPR
 slug: clickup
+tags:
+- Project Management
+- Work Management
+- Productivity
+- Collaboration
+- Task
+- Documents
+- Chat
+- Time Tracking
+- MCP
 website: https://www.clickup.com/
 ---

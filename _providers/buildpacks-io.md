@@ -9,30 +9,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 18.5
-  scored_at: '2026-09-16'
+  score: 36.5
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,16 +61,16 @@ apis:
   name: Service Bindings Extension
   slug: service-bindings-spec
 - baseURL: https://registry.buildpacks.io/api/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Retrieve buildpack version metadata
   name: buildpacks-io Buildpacks API
   slug: buildpacks-io-buildpacks-api
 - baseURL: https://registry.buildpacks.io/api/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Search the buildpack registry by keyword
   name: buildpacks-io Search API
   slug: buildpacks-io-search-api
-artifact_total: 44
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -122,7 +122,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://buildpacks.io/docs/concepts/
+  url: https://buildpacks.io/docs/for-app-developers/concepts/
 - group: docs
   title: ''
   type: Documentation
@@ -147,10 +147,6 @@ common:
   title: ''
   type: Community
   url: https://buildpacks.io/community/
-- group: operate
-  title: ''
-  type: ReleaseNotes
-  url: https://buildpacks.io/releases/
 - group: company
   title: ''
   type: Blog
@@ -215,14 +211,6 @@ common:
   title: ''
   type: SDKs
   url: https://github.com/buildpacks/libcnb
-- group: build
-  title: ''
-  type: SDKs
-  url: https://github.com/buildpacks/libcnb-rs
-- group: build
-  title: ''
-  type: SDKs
-  url: https://github.com/buildpacks-community/libcnb.net
 - group: build
   title: ''
   type: CodeExamples
@@ -290,15 +278,130 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/buildpacks-io-context.jsonld
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/packages/buildpacks-io-packages.yml
+  title: ''
+  type: Packages
+  url: packages/buildpacks-io-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/packages/buildpacks-io-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/buildpacks-io-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/cli/buildpacks-io-cli.yml
+  title: ''
+  type: CLI
+  url: cli/buildpacks-io-cli.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/llms/buildpacks-io-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/buildpacks-io-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/mcp/buildpacks-io-mcp.yml
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/buildpacks-io-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/conformance/buildpacks-io-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/buildpacks-io-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/conformance/buildpacks-io-conformance.yml
+  title: ''
+  type: Compliance
+  url: conformance/buildpacks-io-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/errors/buildpacks-io-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/buildpacks-io-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/lifecycle/buildpacks-io-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/buildpacks-io-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/lifecycle/buildpacks-io-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/buildpacks-io-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/changelog/buildpacks-io-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/buildpacks-io-changelog.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/authentication/buildpacks-io-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/buildpacks-io-authentication.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/conventions/buildpacks-io-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/buildpacks-io-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/data-model/buildpacks-io-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/buildpacks-io-data-model.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/plans/buildpacks-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/buildpacks-io-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/rate-limits/buildpacks-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/buildpacks-io-rate-limits.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/security/buildpacks-io-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/buildpacks-io-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://github.com/buildpacks/.github/blob/main/SECURITY.md
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/well-known/buildpacks-io-well-known.yml
+  title: ''
+  type: X-WellKnownProbe
+  url: well-known/buildpacks-io-well-known.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://github.com/buildpacks/registry-api
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.linuxfoundation.org/privacy/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://buildpacks.io/features
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://buildpacks.io/history
 created: '2026-05-25'
-description: Cloud Native Buildpacks (CNB) is a CNCF Incubating project that transforms application source code into OCI images that can run on any cloud. The v3 specification — Buildpack API 0.12, Platform API 0.15, and Distribution API 0.3 — defines a modular, vendor-neutral contract between buildpacks, builders, lifecycles, and platforms. CNB consolidates a decade of production experience from Heroku and Pivotal/Cloud Foundry and provides the reference lifecycle (buildpacksio/lifecycle), the `pack` CLI, language bindings (libcnb in Go/Rust/.NET), the Kubernetes-native `kpack` platform, the public community registry at registry.buildpacks.io, and an open RFC-driven governance model.
+description: Cloud Native Buildpacks (CNB) is a CNCF Graduated project (graduated 2026-07-17) that transforms application source code into OCI images that can run on any cloud. The v3 specification — Buildpack API 0.12, Platform API 0.15, and Distribution API 0.3 — defines a modular, vendor-neutral contract between buildpacks, builders, lifecycles, and platforms. CNB consolidates a decade of production experience from Heroku and Pivotal/Cloud Foundry and provides the reference lifecycle (buildpacksio/lifecycle), the `pack` CLI, language bindings (libcnb in Go/Rust/.NET), the Kubernetes-native `kpack` platform, the public community registry at registry.buildpacks.io, and an open RFC-driven governance model.
 examples:
-- key_count: 1
-  name: Buildpacks Registry Search Example
-  slug: buildpacks-registry-search-example
-- key_count: 12
+- key_count: 15
   name: Buildpacks Registry Version Example
   slug: buildpacks-registry-version-example
+- key_count: 2
+  name: Buildpacks Registry Versions List Example
+  slug: buildpacks-registry-versions-list-example
 features:
 - Buildpack API 0.12 — modular detect/build contract producing OCI layers without Dockerfiles
 - Platform API 0.15 — lifecycle orchestration surface (analyze, detect, restore, extend, build, export, rebase, launch)
@@ -312,14 +415,14 @@ features:
 - Per-layer SBOM emission in CycloneDX, SPDX, and Syft formats; aggregated into io.buildpacks.build.metadata
 - Standard OCI image labels (io.buildpacks.lifecycle.metadata, io.buildpacks.build.metadata, io.buildpacks.project.metadata, io.buildpacks.rebasable)
 - Reference lifecycle distributed as buildpacksio/lifecycle Docker image
-- Reference CLI `pack` (v0.40.6, May 2026) implementing the Platform Interface Specification
+- Reference CLI `pack` (v0.40.9, August 2026) implementing the Platform Interface Specification
 - Public community registry at registry.buildpacks.io with `pack buildpack register/pull/yank`
-- Language bindings via libcnb (Go), libcnb-rs (Rust), and libcnb.net (.NET)
+- Language bindings via libcnb (Go) and libcnb.rs (Rust, maintained by Heroku at github.com/heroku/libcnb.rs)
 - Kubernetes-native platform via kpack with Image/Builder/Stack CRDs
 - CI integrations — GitHub Actions, CircleCI Orb, GitLab Auto DevOps, Tekton, Project Piper
 - Multi-arch builders (linux/amd64, linux/arm64, windows) selected via target reconciliation
 - Service Bindings extension aligned with the Service Binding Specification for Kubernetes
-- Vendor-neutral CNCF Incubating project (incubation since 2018-10) with public RFC process
+- Vendor-neutral CNCF Graduated project (accepted 2018-10-03, incubating 2020-11-18, graduated 2026-07-17) with public RFC process
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buildpacks-io.png
 json_schemas:
 - name: Buildpack Build Plan
@@ -344,18 +447,26 @@ jsonld:
   property_count: 10
   slug: buildpacks-io-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-17'
 name: Buildpacks Io
 nav: Providers
 network: true
-overview: 'Buildpacks Io publishes 2 APIs on the [APIs.io](https://apis.io/) network: buildpacks-io Buildpacks API and buildpacks-io Search API.
+overview: 'Buildpacks Io publishes 2 APIs on the [APIs.io](https://apis.io/) network: buildpacks-io Buildpacks API and buildpacks-io Search API. Tagged areas include Cloud Native Buildpacks, Container Images, Build Automation, CNCF, and Open-Source.
 
 
   The Buildpacks Io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Buildpacks Io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 43 more developer resources.'
+  Buildpacks Io''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, tooling, code examples, CLI, and 64 more developer resources.'
+plans:
+- name: Buildpacks Io Plans Pricing
+  plan_count: 0
+  slug: buildpacks-io-plans-pricing
 random_paper: 21
+rate_limits:
+- limit_count: 0
+  name: Buildpacks Io Rate Limits
+  slug: buildpacks-io-rate-limits
 rules:
 - effective_rule_count: 5
   extends: []
@@ -380,46 +491,65 @@ rules:
   slug: buildpacks-io-rules
 score:
   band: developing
-  composite: 40.0
+  composite: 53.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 57.5
+    artifact_dirs: 29
+    catalog_earned: 62.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.5
-    catalog_max: 100.0
+    catalog_gap: 52.5
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 13.7
   facets:
-    access_clarity: 0.0
-    contract_governance: 28.8
-    contract_quality: 68.7
-    developer_ergonomics: 54.8
-    discoverability: 50.0
-    operational_transparency: 26.3
+    access_clarity: 18.4
+    contract_governance: 47.0
+    contract_quality: 72.1
+    developer_ergonomics: 73.2
+    discoverability: 59.3
+    operational_transparency: 44.7
   previous_composite: 40.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    mcp: derived
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
     reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/screenshots/buildpacks-io-2026-06-20T173753.png
 security:
+- kind: authentication
+  name: Buildpacks Io Authentication
+  slug: buildpacks-io-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Buildpacks Io Domain Security
   slug: buildpacks-io-domain-security
   summary_line: TLSv1.3 · HSTS
+- kind: vulnerability-disclosure
+  name: Buildpacks Io Vulnerability Disclosure
+  slug: buildpacks-io-vulnerability-disclosure
+  summary_line: Hackerone
 slug: buildpacks-io
+tags:
+- Cloud Native Buildpacks
+- Container Images
+- Build Automation
+- CNCF
+- Open-Source
+- Developer Tools
+- OCI
+- Specification
+- Supply Chain
+- Registry
 website: https://www.buildpacks.io/
 ---

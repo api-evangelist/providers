@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 3
 common:
@@ -123,7 +123,7 @@ modified: '2026-08-15'
 name: PlushCare
 nav: Providers
 network: true
-overview: 'PlushCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Telehealth, Telemedicine, and Healthcare.
+overview: 'PlushCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Telehealth, Healthcare, and Primary Care.
 
 
   PlushCare''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
@@ -140,7 +140,7 @@ score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -164,7 +164,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -181,7 +181,6 @@ tags:
 - Company
 - Health
 - Telehealth
-- Telemedicine
 - Healthcare
 - Primary Care
 - Digital Health

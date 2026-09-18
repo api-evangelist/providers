@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RESTful JSON API for creating and sending documents for electronic signature, managing templates, uploading files, tracking audit trails, bulk sending via CSV, and receiving webhook event notification
@@ -150,7 +150,7 @@ score:
   band: developing
   composite: 42.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 72.0
     catalog_earned_first_party: 0.0
     catalog_gap: 43.0
@@ -169,7 +169,7 @@ score:
     score: 40.0
   previous_composite: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

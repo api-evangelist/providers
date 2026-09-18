@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Vocalware is Oddcast's cloud text-to-speech service. It exposes a pay-as-you-go HTTP/REST API (suitable for mobile and server-side/standalone apps) and a JavaScript/HTML5 API (for in-browser playback)
@@ -131,7 +131,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -158,7 +158,7 @@ score:
     regime_id: education
     score: 37.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

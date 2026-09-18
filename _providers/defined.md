@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Codex is Defined''s unified GraphQL API for real-time blockchain data: token prices, OHLCV bars, trades, liquidity pools, holders, wallet analytics, prediction markets and launchpad data across 100+ EV'
@@ -191,7 +191,7 @@ score:
   band: developing
   composite: 50.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -217,7 +217,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

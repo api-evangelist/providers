@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-17'
 name: Ansible Health
 nav: Providers
 network: true
-overview: 'Ansible Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telemedicine, Virtual Care, and COPD.
+overview: 'Ansible Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Virtual Care, and COPD.
 
 
   Ansible Health''s developer surface includes engineering blog, support, and 4 more developer resources.'
@@ -78,7 +78,7 @@ score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -100,7 +100,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ slug: ansible-health
 tags:
 - Company
 - Healthcare
-- Telemedicine
+- Telehealth
 - Virtual Care
 - COPD
 - Chronic Care

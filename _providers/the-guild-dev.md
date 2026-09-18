@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -603,7 +603,7 @@ score:
   band: developing
   composite: 40.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 69.3
     catalog_earned_first_party: 0.0
     catalog_gap: 45.8
@@ -622,7 +622,7 @@ score:
     score: 25.0
   previous_composite: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

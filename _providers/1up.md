@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The 1up MCP Server is a cloud-hosted Model Context Protocol server that lets an AI assistant work directly against a 1up workspace — query the knowledge base, search and edit the Q&A library, upload a
@@ -213,7 +213,7 @@ score:
   band: developing
   composite: 39.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -233,7 +233,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

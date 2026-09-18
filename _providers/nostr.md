@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: 'NIP-01 defines the core Nostr protocol: event format (id, pubkey, created_at, kind, tags, content, sig), client-to-relay messages (EVENT, REQ, CLOSE), and relay-to-client messages (EVENT, OK, EOSE, CL'
@@ -155,7 +155,7 @@ score:
   band: thin
   composite: 30.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
@@ -174,7 +174,7 @@ score:
     score: 25.0
   previous_composite: 30.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Hosted, highly customisable payment form for accepting payments across cards, alternative payment methods, and wallets. Merchants open the Payment Page with a signed request (HMAC signature over the r
@@ -206,7 +206,7 @@ score:
   band: thin
   composite: 35.1
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -242,7 +242,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

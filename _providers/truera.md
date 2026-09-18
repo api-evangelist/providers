@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Open-source Python library for evaluating and tracking LLM applications. Provides feedback functions (groundedness, relevance, etc.), tracing, and a local dashboard. Distributed via PyPI under Apache '
@@ -106,7 +106,7 @@ score:
   band: emerging
   composite: 12.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -122,7 +122,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

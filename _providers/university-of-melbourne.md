@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The University's own Shibboleth identity provider, entityID https://idp.unimelb.edu.au/idp/shibboleth, serving public SAML 2.0 metadata at that URL (verified 200 application/xml, 2026-08-19) with an I
@@ -302,7 +302,7 @@ score:
   band: developing
   composite: 39.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 77.0
     catalog_earned_first_party: 5.0
     catalog_gap: 38.0
@@ -338,7 +338,7 @@ score:
     regime_id: education
     score: 68.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

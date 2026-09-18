@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,65 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-16'
+  score: 11.2
+  scored_at: '2026-09-17'
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.northwoodspace.io/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.northwoodspace.io/careers
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Northwood-Space
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://www.hiive.com/securities/northwood-stock
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/well-known/northwood-space-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/northwood-space-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/a2a/northwood-space-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/northwood-space-a2a.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/mcp/northwood-space-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/northwood-space-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/llms/northwood-space-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/northwood-space-llms.txt
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/plans/northwood-space-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/northwood-space-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/rate-limits/northwood-space-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/northwood-space-rate-limits.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/northwood-space/refs/heads/main/security/northwood-space-domain-security.yml
   title: ''
@@ -58,6 +104,10 @@ description: Northwood Space is an El Segundo, California ground-infrastructure 
   2026.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northwood-space.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Northwood Space MCP Server
+  slug: northwood-space-mcp-server
 modified: '2026-07-20'
 name: Northwood Space
 nav: Providers
@@ -65,29 +115,39 @@ network: true
 overview: 'Northwood Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellite, Ground Station, and Aerospace.
 
 
-  Northwood Space''s developer surface includes engineering blog and 3 more developer resources.'
+  Northwood Space''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
+plans:
+- name: Northwood Space Plans Pricing
+  plan_count: 0
+  slug: northwood-space-plans-pricing
 random_paper: 3
+rate_limits:
+- limit_count: 0
+  name: Northwood Space Rate Limits
+  slug: northwood-space-rate-limits
 score:
   band: minimal
-  composite: 7.6
+  composite: 10.9
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 50.0
-    operational_transparency: 0.0
+    developer_ergonomics: 11.9
+    discoverability: 57.4
+    operational_transparency: 5.3
   previous_composite: 7.6
+  provenance:
+    mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

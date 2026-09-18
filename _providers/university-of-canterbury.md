@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the UC Research Repository, a self-hosted DSpace 7 institutional repository of theses, dissertations and research outputs. Verified live 2026-08-30: verb='
@@ -156,7 +156,7 @@ score:
   band: emerging
   composite: 24.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -172,6 +172,8 @@ score:
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - new-zealand
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - anz
@@ -185,7 +187,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

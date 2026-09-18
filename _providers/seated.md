@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Seated Artist API enables developers and artist teams to build custom integrations with the Seated platform. The API provides access to tour date listings and event data, supporting use cases such
@@ -118,7 +118,7 @@ score:
   band: thin
   composite: 28.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -134,7 +134,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

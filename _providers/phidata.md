@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Open-source Python framework for building agents with memory, knowledge, and tools. Provides Agent, Team, Workflow, Tools, Memory, Knowledge, and Storage primitives. Multi-modal and type-safe; support
@@ -153,7 +153,7 @@ score:
   band: thin
   composite: 31.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -172,7 +172,7 @@ score:
     score: 65.0
   previous_composite: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

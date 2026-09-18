@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The AGing, Independence, and Disability (AGID) Program Data Portal provides publicly accessible data from programs funded under the Older Americans Act and related disability programs. Datasets includ
@@ -182,7 +182,7 @@ score:
   band: thin
   composite: 29.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -207,7 +207,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

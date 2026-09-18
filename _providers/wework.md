@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'The WeWork Partner API exposes the company''s global workspace inventory to integrators so that Supply Partners (third-party operators contributing spaces to WeWork) and Demand Partners (resellers and '
@@ -149,7 +149,7 @@ score:
   band: emerging
   composite: 20.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -165,7 +165,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 20.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

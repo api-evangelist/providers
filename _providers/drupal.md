@@ -1,41 +1,43 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium · Self-serve signup
+  confidence: high
+  label: Free · Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: free
   public: false
   source:
-  - plans
+  - finops
   - authentication
+  - rate-limits
   - security
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: templated
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.9
-  scored_at: '2026-09-16'
+  score: 44.9
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -45,6 +47,9 @@ agentic_access:
   summary_line: 33 operations · 17 acting
 api_count: 2
 apis:
+- description: The read-only REST API the Drupal Association operates on drupal.org itself, exposing Drupal.org’s own nodes, users, comments and taxonomy terms as JSON or XML. This is the only Drupal API served from
+  name: Drupal.org REST API
+  slug: drupalorg-api
 - description: The Drupal GraphQL module is a contributed module that enables developers to craft and expose a GraphQL schema for Drupal 10 and 11, allowing client applications to query Drupal content and entities u
   name: Drupal GraphQL API
   slug: graphql
@@ -88,7 +93,7 @@ apis:
   description: JSON:API endpoints for Drupal user entities. Config entities are read-only via JSON:API and require authentication.
   name: drupal Users API
   slug: drupal-users-api
-artifact_total: 33
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -175,7 +180,137 @@ common:
   title: ''
   type: Blog
   url: https://www.drupal.org/planet/rss.xml
-description: Drupal is an open-source content management system written in PHP and used to build websites, applications, and digital experiences for individuals, organizations, and enterprises worldwide.
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.drupal.org/docs
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.drupal.org/docs/develop
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.drupal.org/docs/develop/drupal-apis
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.drupal.org/docs/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.drupal.org/community
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.drupal.org/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.drupal.org/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.drupal.org/user/register
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.drupal.org/security
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/packages/drupal-packages.yml
+  title: ''
+  type: Packages
+  url: packages/drupal-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/cli/drupal-cli.yml
+  title: ''
+  type: CLI
+  url: cli/drupal-cli.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/mcp/drupal-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/drupal-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/mcp/drupal-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/drupal-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/llms/drupal-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/drupal-llms.txt
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/conformance/drupal-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/drupal-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/errors/drupal-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/drupal-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/lifecycle/drupal-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/drupal-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.drupal.org/about/core/policies/core-change-policies/drupal-deprecation-policy
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/changelog/drupal-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/drupal-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/conventions/drupal-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/drupal-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/data-model/drupal-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/drupal-data-model.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/well-known/drupal-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/drupal-well-known.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/rate-limits/drupal-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/drupal-rate-limits.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/rules/drupal-jsonschema-spectral-rules.yml
+  title: ''
+  type: SpectralRules
+  url: rules/drupal-jsonschema-spectral-rules.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/finops/drupal-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/drupal-finops.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/overlays/drupal-node-articles-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/drupal-node-articles-api-overlay.yaml
+- group: commercial
+  title: ''
+  type: License
+  url: https://www.drupal.org/about/licensing
+created: '2026-05-04'
+description: 'Drupal is an open-source content management system written in PHP, used to build websites, applications and digital experiences for individuals, organizations, governments and enterprises worldwide. It is self-hosted software rather than a hosted service: Drupal core ships a JSON:API v1.0 surface and a RESTful Web Services surface that run on the operator’s own domain, and contributed modules add GraphQL and an MCP server. The Drupal Association itself operates one public read-only API, the Drupal.org REST API at https://www.drupal.org/api-d7, alongside a machine-readable release-history feed and a Composer package repository.'
 finops:
 - name: Drupal Finops
   service_category: API
@@ -198,24 +333,28 @@ jsonld:
   property_count: 8
   slug: drupal-context
 layout: provider
-modified: '2026-09-16'
+mcp_servers:
+- description: ''
+  name: Drupal MCP Server
+  slug: drupal-mcp-server
+modified: '2026-09-17'
 name: Drupal
 nav: Providers
 network: true
-overview: 'Drupal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Files API, Node Articles API, and 5 more.
+overview: 'Drupal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Files API, Node Articles API, and 5 more. Tagged areas include Content Management, CMS, Open-Source, JSON:API, and GraphQL.
 
 
   The Drupal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Drupal''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Drupal''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, signup flow, and 32 more developer resources.'
 plans:
 - name: Drupal Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: drupal-plans-pricing
 random_paper: 10
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Drupal Rate Limits
   slug: drupal-rate-limits
 rules:
@@ -235,37 +374,37 @@ scopes:
   slug: drupal-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 30.5
+  band: developing
+  composite: 54.1
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 47.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 67.8
+    artifact_dirs: 29
+    catalog_earned: 62.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 23.6
   facets:
-    access_clarity: 15.8
-    contract_governance: 9.8
+    access_clarity: 42.1
+    contract_governance: 14.4
     contract_quality: 65.4
-    developer_ergonomics: 23.8
-    discoverability: 44.4
-    operational_transparency: 10.5
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    operational_transparency: 57.9
   previous_composite: 30.5
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 8
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    mcp: first-party
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -284,5 +423,16 @@ security:
   slug: drupal-vulnerability-disclosure
   summary_line: disclosure policy published
 slug: drupal
+tags:
+- Content Management
+- CMS
+- Open-Source
+- JSON:API
+- GraphQL
+- Headless
+- PHP
+- Self-Hosted
+- Publishing
+- Digital Experience
 website: https://drupal.org
 ---

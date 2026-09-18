@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Direct REST access to Synthefy's foundation models for multivariate time-series forecasting (Migas-1.0), with automatic timestamp/value/metadata handling and exogenous covariate context. Called via th
@@ -170,7 +170,7 @@ score:
   band: thin
   composite: 31.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -189,7 +189,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: FIX protocol connectivity to Bloomberg Tradebook for electronic order routing, execution reporting, and position updates across equities, futures, options, and FX markets. Supports FIX 4.2, 4.4, and 5
@@ -109,7 +109,7 @@ modified: '2026-09-16'
 name: Bloomberg Tradebook
 nav: Providers
 network: true
-overview: 'Bloomberg Tradebook publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tradebook, Electronic Trading, Equities, Futures, and Options.
+overview: 'Bloomberg Tradebook publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tradebook, Electronic Trading, Stocks, Futures, and Options.
 
 
   Bloomberg Tradebook''s developer surface includes developer portal, documentation, support, and 6 more developer resources.'
@@ -126,7 +126,7 @@ score:
   band: emerging
   composite: 19.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -148,7 +148,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ slug: bloomberg-tradebook
 tags:
 - Tradebook
 - Electronic Trading
-- Equities
+- Stocks
 - Futures
 - Options
 - FX

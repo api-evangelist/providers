@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Provision and manage employees in an Awardco instance. Awardco's public documentation names Create User, Import Users (bulk), and Reset User Password endpoints, all flagged as sensitive and permission
@@ -120,7 +120,7 @@ score:
   band: emerging
   composite: 18.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -138,7 +138,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

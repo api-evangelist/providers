@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Create, list, clone, export, and delete projects, and manage the environments (production, staging, etc.) within each project, via GraphQL queries and mutations.
@@ -138,7 +138,7 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -154,7 +154,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 33.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

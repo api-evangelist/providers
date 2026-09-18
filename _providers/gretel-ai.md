@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: REST API for Gretel's synthetic data platform. Lets you ingest data, manage projects, train models, run record handlers, and pull artifacts. Used as the backend for the gretel-client Python SDK and CL
@@ -126,7 +126,7 @@ score:
   band: emerging
   composite: 20.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -145,7 +145,7 @@ score:
     score: 25.0
   previous_composite: 20.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

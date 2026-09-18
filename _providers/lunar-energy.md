@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -399,7 +399,7 @@ score:
   band: developing
   composite: 53.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 82.0
     catalog_earned_first_party: 0.0
     catalog_gap: 33.0
@@ -433,7 +433,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Executes EdgeQL queries over HTTP against a Gel/EdgeDB instance. Supports GET and POST requests with query, variables, globals, and config fields. Authentication uses HTTP Basic (password), Bearer tok
@@ -140,7 +140,7 @@ score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 71.0
     catalog_earned_first_party: 0.0
     catalog_gap: 44.0
@@ -156,7 +156,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 36.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

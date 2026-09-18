@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: GraphQL subgraph API for querying Notional V2 on-chain data on Ethereum Mainnet via The Graph protocol. Provides access to accounts, trades, markets, nTokens, cash groups, currencies, TVL history, exc
@@ -127,7 +127,7 @@ score:
   band: emerging
   composite: 23.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -146,7 +146,7 @@ score:
     score: 25.0
   previous_composite: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

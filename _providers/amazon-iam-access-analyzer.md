@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1603,7 +1603,7 @@ modified: '2026-09-16'
 name: Amazon IAM Access Analyzer
 nav: Providers
 network: true
-overview: 'Amazon IAM Access Analyzer publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access Preview#analyzerArn API, Access Preview API, Analyzed Resource#analyzerArn&resourceArn API, and 7 more. Tagged areas include Access Control, Compliance, IAM, Policy Management, and Security.
+overview: 'Amazon IAM Access Analyzer publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Access Preview#analyzerArn API, Access Preview API, Analyzed Resource#analyzerArn&resourceArn API, and 7 more. Tagged areas include Access Control, Compliance, Identity and Access Management, Policy Management, and Security.
 
 
   The Amazon IAM Access Analyzer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1645,7 +1645,7 @@ score:
   band: strong
   composite: 57.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 66.5
     catalog_earned_first_party: 0.0
     catalog_gap: 48.5
@@ -1674,7 +1674,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -1701,7 +1701,7 @@ slug: amazon-iam-access-analyzer
 tags:
 - Access Control
 - Compliance
-- IAM
+- Identity and Access Management
 - Policy Management
 - Security
 use_cases:

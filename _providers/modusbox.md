@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: ORCA is PortX's universal, standards-based REST contract for US banking core connectivity — an ISO 20022-aligned JSON/REST specification covering bank account opening, maintenance, closing and reporti
@@ -177,7 +177,7 @@ score:
   band: developing
   composite: 44.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -202,7 +202,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -1,12 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: low
+  label: Unknown
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-16'
+  score: 0.0
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Stop wrestling with OpenAPI specs. SpecLynx OpenAPI Toolkit delivers the most effective way to author and manage your API specs, bringing unprecedented ease, pinpoint accuracy, and unmatched power dir
@@ -54,8 +54,16 @@ apis:
 - description: A unified semantic parsing engine that underpins all SpecLynx products. ApiDOM parses OpenAPI, AsyncAPI, Arazzo, and JSON Schema specifications into a semantic data model with lossless preservation of
   name: SpecLynx ApiDOM
   slug: apidom
-artifact_total: 33
+artifact_total: 30
 common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/speclynx
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/speclynx/vscode-openapi-toolkit/blob/main/LICENSE
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/speclynx/refs/heads/main/security/speclynx-domain-security.yml
   title: ''
@@ -90,7 +98,7 @@ common:
   type: LlmsText
   url: https://speclynx.com/llms.txt
 created: '2026-01-02'
-description: SpecLynx provides enterprise-ready API tooling for authors and maintainers of OpenAPI, AsyncAPI, and Arazzo specifications. Built by veterans with 15+ years of Swagger and OpenAPI development experience, SpecLynx products prioritize security (specs never leave your machine), accuracy, and developer productivity. Core products include a VS Code extension, browser-based editor, CLI, language service library, and the ApiDOM semantic parsing engine.
+description: SpecLynx provides enterprise-ready API tooling for authors and maintainers of OpenAPI, AsyncAPI, and Arazzo specifications. Built by veterans with 15+ years of Swagger and OpenAPI development experience, SpecLynx products prioritize security (specs never leave your machine), accuracy, and developer productivity. Core products include a VS Code extension, browser-based editor, CLI, language service library, and the ApiDOM semantic parsing engine. Every SpecLynx product is open source under the Apache-2.0 license; there are no paid plans.
 examples:
 - key_count: 5
   name: Speclynx Validation Result Example
@@ -113,10 +121,6 @@ features:
 - name: No Telemetry
 - name: Offline-First
 - name: Multi-Spec Support
-finops:
-- name: Speclynx Finops
-  service_category: API
-  slug: speclynx-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/speclynx.png
 json_schemas:
 - name: SpecLynx Completion Item
@@ -145,16 +149,8 @@ overview: 'SpecLynx publishes 6 APIs on the [APIs.io](https://apis.io/) network.
   The SpecLynx catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SpecLynx''s developer surface includes documentation and 7 more developer resources.'
-plans:
-- name: Speclynx Plans Pricing
-  plan_count: 3
-  slug: speclynx-plans-pricing
+  SpecLynx''s developer surface includes documentation and 9 more developer resources.'
 random_paper: 6
-rate_limits:
-- limit_count: 5
-  name: Speclynx Rate Limits
-  slug: speclynx-rate-limits
 rules:
 - effective_rule_count: 5
   extends: []
@@ -168,25 +164,25 @@ rules:
   slug: speclynx-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.7
+  composite: 16.6
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 58.3
+    artifact_dirs: 10
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.1
   facets:
-    access_clarity: 15.8
+    access_clarity: 0.0
     contract_governance: 9.8
     contract_quality: 14.7
     developer_ergonomics: 19.0
     discoverability: 72.2
-    operational_transparency: 13.2
+    operational_transparency: 5.3
   previous_composite: 20.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

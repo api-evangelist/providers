@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: OpenAI-compatible LLM gateway exposing 90+ models from OpenAI, Anthropic, Google, DeepSeek, Mistral, xAI, Moonshot, Alibaba (Qwen), Cohere, and Perplexity behind a single base URL (`https://gateway.gl
@@ -239,7 +239,7 @@ score:
   band: thin
   composite: 30.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -255,7 +255,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

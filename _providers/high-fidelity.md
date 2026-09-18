@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Client SDK and hosted spatial audio server for embedding real-time positional voice in web and native apps. Auth is a connection JWT signed with the developer''s App Secret. The hosted server has been '
@@ -137,7 +137,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -156,7 +156,7 @@ score:
     score: 25.0
   previous_composite: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

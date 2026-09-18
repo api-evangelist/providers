@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Intezer Platform API 2.0 — submit files, URLs, hashes and endpoint scans for autonomous malware analysis and code-reuse detection, poll analysis status, and retrieve verdicts, sub-analyses and IOCs. A
@@ -157,7 +157,7 @@ score:
   band: thin
   composite: 29.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -176,7 +176,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

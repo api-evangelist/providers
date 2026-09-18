@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: 'Programmatically create, list, retrieve, and update bills and vendor invoices flowing through Airbase''s AP automation - including bill line items, approval state, payment status, and payment method - '
@@ -127,7 +127,7 @@ score:
   band: emerging
   composite: 13.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -149,7 +149,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

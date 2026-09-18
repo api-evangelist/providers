@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The tenant-scoped REST API behind the MontyCloud DAY2 platform. Requests are authenticated with an API key and API secret key issued in the DAY2 platform and are scoped to a tenant via the x-tenant-id
@@ -173,7 +173,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -192,7 +192,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

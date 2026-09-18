@@ -19,24 +19,24 @@ agent_readiness:
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: false
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.0
-  scored_at: '2026-09-16'
+  score: 53.0
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -44,15 +44,20 @@ agentic_access:
   operation_count: 67
   slug: prisma-agentic-access
   summary_line: 67 operations · 33 acting · 1 human-in-the-loop
-api_count: 6
+api_count: 7
 apis:
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: declared
+  description: 'The provider-published REST control plane for Prisma. 115 operations across 72 paths covering workspaces, projects, Prisma Postgres databases, connection strings, backups, usage, object-store buckets '
+  name: Prisma Postgres Management API
+  slug: prisma-postgres-management-api
 - baseURL: https://localhost:3000/api
   baseurl_source: spec
   description: Count, aggregate, and groupBy operations for analytics
   name: Prisma Aggregation API
   slug: prisma-aggregation-api
-- baseURL: https://api.cloud.prisma.io
-  baseurl_source: spec
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: declared
   description: Operations for managing API keys for platform resources
   name: Prisma API Keys API
   slug: prisma-api-keys-api
@@ -62,12 +67,12 @@ apis:
   name: Prisma Batch API
   slug: prisma-batch-api
 - baseURL: https://accelerate.prisma-data.net
-  baseurl_source: spec
+  baseurl_source: declared
   description: Cache management and invalidation operations
   name: Prisma Cache API
   slug: prisma-cache-api
 - baseURL: https://api.prisma.io/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations for managing database connection strings
   name: Prisma Connections API
   slug: prisma-connections-api
@@ -77,42 +82,42 @@ apis:
   name: Prisma CRUD API
   slug: prisma-crud-api
 - baseURL: https://api.prisma.io/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations for managing database backup and restore operations
   name: Prisma Database Backups API
   slug: prisma-database-backups-api
 - baseURL: https://api.prisma.io/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations for retrieving database usage metrics and statistics
   name: Prisma Database Usage API
   slug: prisma-database-usage-api
 - baseURL: https://api.prisma.io/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations for provisioning and managing Prisma Postgres databases
   name: Prisma Databases API
   slug: prisma-databases-api
-- baseURL: https://api.cloud.prisma.io
-  baseurl_source: spec
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: declared
   description: Operations for managing project environments
   name: Prisma Environments API
   slug: prisma-environments-api
 - baseURL: https://pulse.prisma-data.net
-  baseurl_source: spec
+  baseurl_source: declared
   description: Database change event retrieval and management
   name: Prisma Events API
   slug: prisma-events-api
 - baseURL: https://accelerate.prisma-data.net
-  baseurl_source: spec
+  baseurl_source: declared
   description: Service health and status checks
   name: Prisma Health API
   slug: prisma-health-api
 - baseURL: https://api.prisma.io/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations for managing third-party integrations
   name: Prisma Integrations API
   slug: prisma-integrations-api
-- baseURL: https://api.cloud.prisma.io
-  baseurl_source: spec
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: declared
   description: Operations for managing workspace members and roles
   name: Prisma Members API
   slug: prisma-members-api
@@ -121,13 +126,13 @@ apis:
   description: Performance metrics and statistics
   name: Prisma Metrics API
   slug: prisma-metrics-api
-- baseURL: https://api.cloud.prisma.io
-  baseurl_source: spec
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: declared
   description: Operations for managing projects within workspaces
   name: Prisma Projects API
   slug: prisma-projects-api
 - baseURL: https://accelerate.prisma-data.net
-  baseurl_source: spec
+  baseurl_source: declared
   description: Proxied database query operations routed through Accelerate with optional caching
   name: Prisma Queries API
   slug: prisma-queries-api
@@ -147,17 +152,17 @@ apis:
   name: Prisma Sessions API
   slug: prisma-sessions-api
 - baseURL: https://pulse.prisma-data.net
-  baseurl_source: spec
+  baseurl_source: declared
   description: Resumable event streams with at-least-once delivery and ordering guarantees. Requires event persistence to be enabled.
   name: Prisma Streams API
   slug: prisma-streams-api
 - baseURL: https://pulse.prisma-data.net
-  baseurl_source: spec
+  baseurl_source: declared
   description: Transient event subscriptions with at-most-once delivery. Missed events during downtime are not recovered.
   name: Prisma Subscriptions API
   slug: prisma-subscriptions-api
-- baseURL: https://api.cloud.prisma.io
-  baseurl_source: spec
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: declared
   description: Operations for managing Prisma Data Platform workspaces
   name: Prisma Workspaces API
   slug: prisma-workspaces-api
@@ -198,7 +203,7 @@ arazzos:
 - description: Create a resumable named event stream, read its cursor position, and fetch the last persisted event by ULID.
   name: Prisma Pulse Create and Resume a Named Stream
   slug: prisma-pulse-named-stream-resume-workflow
-artifact_total: 149
+artifact_total: 153
 collections:
 - collection_type: postman
   name: Prisma Accelerate API
@@ -309,6 +314,11 @@ collections:
   name: Prisma Accelerate Aggregation Workspaces API
   slug: open-prisma-workspaces-api
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/scopes/prisma-scopes.yml
+  title: ''
+  type: OAuthScopes
+  url: scopes/prisma-scopes.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/agentic-access/prisma-agentic-access.yml
   title: ''
@@ -412,7 +422,7 @@ common:
 - group: auth
   title: ''
   type: Authentication
-  url: https://www.prisma.io/docs/management-api/authentication
+  url: https://www.prisma.io/docs/rest-api/authentication
 - group: company
   title: ''
   type: Blog
@@ -510,10 +520,154 @@ common:
   url: https://github.com/prisma/mcp
 - group: agent
   title: ''
-  type: AgentSkills
+  type: AgentSkill
   url: https://github.com/prisma/skills
-created: '2024'
-description: Prisma is a next-generation ORM that helps developers build applications faster and with fewer errors. It provides a type-safe database client, migrations system, and visual database browser.
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/packages/prisma-packages.yml
+  title: ''
+  type: Packages
+  url: packages/prisma-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/packages/prisma-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/prisma-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/well-known/prisma-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/prisma-well-known.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/well-known/prisma-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/prisma-security.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/security/prisma-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/prisma-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/security/prisma-trust-center.yml
+  title: ''
+  type: TrustCenter
+  url: security/prisma-trust-center.yml
+- group: auth
+  title: ''
+  type: Trust
+  url: https://trust.prisma.io
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/mcp/prisma-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/prisma-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/mcp/prisma-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/prisma-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/llms/prisma-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/prisma-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/overlays/prisma-postgres-management-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/prisma-postgres-management-api-overlay.yaml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/conformance/prisma-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/prisma-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/conformance/prisma-conformance.yml
+  title: ''
+  type: Compliance
+  url: conformance/prisma-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/errors/prisma-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/prisma-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/errors/prisma-error-codes.yml
+  title: ''
+  type: ErrorCodes
+  url: errors/prisma-error-codes.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/lifecycle/prisma-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/prisma-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/conventions/prisma-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/prisma-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/conventions/prisma-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/prisma-conventions.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/changelog/prisma-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/prisma-changelog.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/cli/prisma-cli.yml
+  title: ''
+  type: CLI
+  url: cli/prisma-cli.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/components/prisma-components.yml
+  title: ''
+  type: Components
+  url: components/prisma-components.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/data-model/prisma-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/prisma-data-model.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/plans/prisma-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/prisma-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/rate-limits/prisma-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/prisma-rate-limits.yml
+- group: start
+  title: ''
+  type: Console
+  url: https://console.prisma.io
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.prisma.io/docs/rest-api
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.prisma.io/docs
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://www.prisma.io/docs/getting-started
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.prisma.io/support
+created: '2024-01-01'
+description: Prisma gives TypeScript and Node.js teams a type-safe ORM, managed serverless Postgres, and Compute for deploying apps and AI agents next to their database. The product line is Prisma ORM, Prisma Postgres, Prisma Compute, Prisma Composer, Prisma Studio, Object Store buckets and Query Insights, wired together by one CLI, a REST Management API at api.prisma.io/v1, and a hosted MCP server at mcp.prisma.io. Accelerate, Pulse and Optimize have left the advertised line.
 finops:
 - name: Prisma Finops
   service_category: Database + Developer Tools
@@ -712,26 +866,29 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: MCP Server
-  slug: mcp-server
-modified: '2026-05-19'
+  name: MCP server (provider repository)
+  slug: mcp-server-provider-repository
+- description: ''
+  name: Prisma MCP Server
+  slug: prisma-mcp-server
+modified: '2026-09-17'
 name: Prisma
 nav: Providers
 network: true
-overview: 'Prisma publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Aggregation API, API Keys API, Batch API, and 20 more.
+overview: 'Prisma publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Postgres Management API, Aggregation API, API Keys API, and 21 more. Tagged areas include Database, Postgres, ORM, Developer Tools, and Application Hosting.
 
 
   The Prisma catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Prisma''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, pricing, and 38 more developer resources.'
+  Prisma''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, pricing, and 69 more developer resources.'
 plans:
 - name: Prisma Plans Pricing
   plan_count: 5
   slug: prisma-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 3
+- limit_count: 0
   name: Prisma Rate Limits
   slug: prisma-rate-limits
 rules:
@@ -745,39 +902,43 @@ rules:
     info: 2
     warn: 4
   slug: prisma-jsonschema-spectral-rules
+scopes:
+- name: Prisma Scopes
+  scope_count: 2
+  slug: prisma-scopes
+  summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.0
+  band: exemplar
+  composite: 71.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 40.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.8
+    artifact_dirs: 35
+    catalog_earned: 56.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 16.5
   facets:
-    access_clarity: 47.4
-    contract_governance: 9.8
-    contract_quality: 63.9
-    developer_ergonomics: 82.1
-    discoverability: 38.9
-    operational_transparency: 42.1
+    access_clarity: 86.8
+    contract_governance: 28.0
+    contract_quality: 66.5
+    developer_ergonomics: 96.4
+    discoverability: 64.8
+    operational_transparency: 44.7
   previous_composite: 55.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 23
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 33.3
@@ -786,7 +947,7 @@ security:
 - kind: authentication
   name: Prisma Authentication
   slug: prisma-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: apiKey/http/oauth2 · 3 schemes
 - kind: domain-security
   name: Prisma Domain Security
   slug: prisma-domain-security
@@ -795,6 +956,10 @@ security:
   name: Prisma Vulnerability Disclosure
   slug: prisma-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Prisma Trust Center
+  slug: prisma-trust-center
+  summary_line: trust center published
 skill_count: 7
 skills:
 - name: prisma-cli
@@ -812,5 +977,18 @@ skills:
 - name: prisma-upgrade-v7
   slug: prisma-upgrade-v7
 slug: prisma
+tags:
+- Database
+- Postgres
+- ORM
+- Developer Tools
+- Application Hosting
+- Serverless
+- Object Storage
+- TypeScript
+- MCP
+- AI Agents
+- Provisioning
+- Data Platform
 website: https://www.prisma.io
 ---

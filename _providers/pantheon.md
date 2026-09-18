@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Pantheon platform REST API (terminus.pantheon.io) underpins the Terminus CLI and enables programmatic management of sites, environments, deployments, domains, backups, teams, organizations, SSH ke
@@ -126,7 +126,7 @@ score:
   band: thin
   composite: 26.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -144,7 +144,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

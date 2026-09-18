@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 12
 apis:
 - description: Free public REST API that returns whether a given crypto address is identified as sanctioned by OFAC, EU, or UN sanctions authorities. No commercial licence required; widely embedded by wallets, dApps
@@ -227,7 +227,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 59.0
     catalog_earned_first_party: 16.0
     catalog_gap: 56.0
@@ -246,7 +246,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

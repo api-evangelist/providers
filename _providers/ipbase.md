@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API providing geolocation, timezone, currency, connection, and security data for IPv4 and IPv6 addresses. Returns location coordinates, city, region, country, ISP, ASN, proxy/VPN/Tor detection, a
@@ -118,7 +118,7 @@ score:
   band: thin
   composite: 32.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -136,7 +136,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

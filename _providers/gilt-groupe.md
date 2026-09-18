@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -50,6 +50,10 @@ common:
   title: ''
   type: Packages
   url: packages/gilt-groupe-packages.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://gilt.com
 created: '2026-07-17'
 description: Gilt Groupe is a New York-based online retailer that pioneered the "flash sale" model in the United States, offering limited-time, members-only sales of discounted designer fashion, luxury goods, home items, and travel. Founded in 2007, Gilt was acquired by Hudson's Bay Company in 2016 and subsequently sold to Rue La La in 2018, forming Rue Gilt Groupe; the gilt.com storefront remains operational. Gilt's engineering team was an influential early adopter of Scala and microservices and open-sourced roughly fifty JVM libraries (the "gfc" Gilt Foundation Classes, Handlebars-Scala, sbt plugins) to Maven Central under the com.gilt groupId. Gilt operated no public REST API at the time of this enrichment pass - its historical developer.gilt.com API and the github.com/gilt organization are both retired. Surfaced as a portfolio company of Matrix Partners and profiled in the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gilt-groupe.png
@@ -64,7 +68,7 @@ score:
   band: minimal
   composite: 5.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -85,7 +89,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

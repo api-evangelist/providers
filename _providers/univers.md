@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The EnOS platform open APIs cover the core platform services — model, device connection, asset, asset tree, alert engine, TSDB time-series data, and data subscription. Applications register in the EnO
@@ -148,7 +148,7 @@ modified: '2026-07-21'
 name: Univers
 nav: Providers
 network: true
-overview: 'Univers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Energy, Internet of Things, and Artificial Intelligence.
+overview: 'Univers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Energy, IoT, and Artificial Intelligence.
 
 
   Univers'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
@@ -157,7 +157,7 @@ score:
   band: thin
   composite: 35.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -185,7 +185,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -210,7 +210,7 @@ tags:
 - Company
 - Technology
 - Energy
-- Internet of Things
+- IoT
 - Artificial Intelligence
 - Sustainability
 - Infrastructure

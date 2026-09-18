@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: 'The Storylane External API allows Enterprise plan customers to programmatically list published demos, retrieve demo details including chapters and steps, manage demo links, create new shareable links '
@@ -284,7 +284,7 @@ score:
   band: strong
   composite: 62.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 72.0
     catalog_earned_first_party: 24.0
     catalog_gap: 43.0
@@ -304,7 +304,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

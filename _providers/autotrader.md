@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 13
 apis:
 - description: 'Provides VRM and VIN lookups, MOT history, vehicle features, valuations, and retail metrics for individual vehicles. Enables dealers and partners to retrieve comprehensive vehicle data for appraisals '
@@ -158,7 +158,7 @@ score:
   band: emerging
   composite: 22.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -174,7 +174,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 22.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

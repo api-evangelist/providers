@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: BankUnited's first-party developer portal ("API Experience Hub"), a Salesforce Experience Cloud site backed by MuleSoft Anypoint Exchange. Provides self-service developer registration, OAuth applicati
@@ -140,7 +140,7 @@ score:
   band: thin
   composite: 26.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -171,7 +171,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

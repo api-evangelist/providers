@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'National Bank of Canada exposes no public, self-serve first-party developer API. Consumer financial-data access is consent-based and aggregator-mediated: when a customer links a fintech app, National '
@@ -102,7 +102,7 @@ score:
   band: minimal
   composite: 10.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -131,7 +131,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

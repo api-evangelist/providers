@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 24
 apis:
 - description: Worldwide end-of-day equity pricing (open, high, low, close, bid, ask, last trade, volume) queried by MIC, LocalCode, or ISIN via the GetLatestEODPrices endpoint, returned as JSON or pipe-separated va
@@ -208,7 +208,7 @@ score:
   band: thin
   composite: 27.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -238,7 +238,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

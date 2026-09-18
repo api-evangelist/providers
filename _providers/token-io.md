@@ -12,29 +12,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: verified
+    mcp_server: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.9
-  scored_at: '2026-09-16'
+  score: 53.6
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -167,7 +168,26 @@ apis:
   description: These endpoints configure, retrieve and remove webhooks. See <a href="https://developer.token.io/token_rest_api_doc/content/e-rest/api-basics.htm#Webhook" target="_blank">Webhooks</a> for more details
   name: token-io Webhooks API
   slug: token-io-webhooks-api
-artifact_total: 113
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: The complete Token.io REST platform contract, served by Token.io at https://api.token.io/swagger.json (HTTP 200, Swagger 2.0, basePath /v1, host api.token.io) and harvested 2026-09-17. 100 paths and 1
+  name: Token.io REST API (full platform)
+  slug: token-io-rest-api
+- baseURL: https://api.token.io/v2
+  baseurl_source: declared
+  description: A separate first-party Token.io OpenAPI 3.0.0 document (version 1.0.2) covering refund registration, initiation, retrieval and signing, plus certificate upload. Retrieved 2026-09-17 through Token.io's
+  name: Token.io Refunds API (Payments REST 2.0)
+  slug: token-io-refunds-bnpp-api
+- baseURL: /
+  baseurl_source: spec
+  description: The bank-facing side of the Token.io platform (OpenAPI 3.0.0, version 1.0.6, contact service@token.io) — the contract a bank implements to integrate with Token, covering accounts, balances, transactio
+  name: Token Bank Integration API
+  slug: token-io-bank-integration-api
+artifact_total: 118
+asyncapis:
+- description: ''
+  name: Token Io Webhooks
+  slug: token-io-webhooks
 collections:
 - collection_type: postman
   name: Token.io's Open Banking API for TPPs Account on File API
@@ -341,10 +361,6 @@ common:
   url: https://token.io/contact/pricing
 - group: company
   title: ''
-  type: News
-  url: https://token.io/news
-- group: company
-  title: ''
   type: Blog
   url: https://token.io/blog
 - group: operate
@@ -370,6 +386,122 @@ common:
   title: ''
   type: FinOps
   url: finops/token-io-finops.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/packages/token-io-packages.yml
+  title: ''
+  type: Packages
+  url: packages/token-io-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/packages/token-io-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/token-io-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/mcp/token-io-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/token-io-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/mcp/token-io-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/token-io-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/llms/token-io-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/token-io-llms.txt
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/overlays/token-io-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/token-io-openapi-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/grpc/token-io-token.proto
+  title: ''
+  type: Protobuf
+  url: grpc/token-io-token.proto
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/conformance/token-io-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/token-io-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/conformance/token-io-conformance.yml
+  title: ''
+  type: Compliance
+  url: conformance/token-io-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/errors/token-io-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/token-io-problem-types.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/errors/token-io-decline-codes.yml
+  title: ''
+  type: DeclineCodes
+  url: errors/token-io-decline-codes.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/lifecycle/token-io-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/token-io-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/lifecycle/token-io-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/token-io-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/changelog/token-io-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/token-io-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://docs.token.io/products/tpp/tech-bulletins/tb-1638
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/conventions/token-io-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/token-io-conventions.yml
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/sandbox/token-io-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/token-io-sandbox.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/components/token-io-components.yml
+  title: ''
+  type: Components
+  url: components/token-io-components.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/data-model/token-io-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/token-io-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/asyncapi/token-io-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/token-io-webhooks.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://token.io/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://token.io/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://dashboard.token.io
 created: '2026-05-25T00:00:00.000Z'
 description: Token.io is an Open Banking infrastructure provider offering A2A (Account-to-Account) payments and account information services across Europe. Founded in 2016 and FCA-authorised since 2018, Token.io was the first payment initiation service provider to conduct an end-to-end PSD2-compliant Open Banking transaction. The Token.io platform connects developers and TPPs to over 4,000 banks via a single standardised API supporting Payment Initiation Services (PIS), Account Information Services (AIS), Variable Recurring Payments (VRP), refunds, payouts, settlement accounts, account verification, and Pay-by-Link checkout. Used by merchants, PSPs, fintechs, PFM apps, and platform businesses to replace card-rail payments and aggregate multibank data.
 features:
@@ -418,17 +550,21 @@ jsonld:
   property_count: 6
   slug: token-io-context
 layout: provider
-modified: '2026-09-16'
+mcp_servers:
+- description: 'Token.io serves a live, anonymous, remote MCP server on its own documentation host. It is a DOCUMENTATION server, not a payments server: the six tools read the API descriptions Token.io publishes (lis'
+  name: Token.io Documentation MCP Server (https://docs.token.io/mcp)
+  slug: tokenio-documentation-mcp-server-httpsdocstokeniomcp
+modified: '2026-09-17'
 name: Token.io
 nav: Providers
 network: true
-overview: 'Token.io publishes 18 APIs on the [APIs.io](https://apis.io/) network, including token-io Account on File API, token-io Accounts API, token-io Authentication keys API, and 15 more.
+overview: 'Token.io publishes 21 APIs on the [APIs.io](https://apis.io/) network, including token-io Account on File API, token-io Accounts API, token-io Authentication keys API, and 18 more. Tagged areas include Payments, Open Banking, Banking, Financial-Services, and Account-to-Account.
 
 
-  The Token.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Token.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Token.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, sandbox, pricing, and 13 more developer resources.'
+  Token.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, sandbox, pricing, and 36 more developer resources.'
 plans:
 - name: Token Io Plans Pricing
   plan_count: 4
@@ -450,37 +586,43 @@ rules:
     warn: 4
   slug: token-io-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 53.3
+  band: exemplar
+  composite: 73.3
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 72.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 42.8
+    artifact_dirs: 31
+    catalog_earned: 74.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 40.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 20.0
   facets:
-    access_clarity: 50.0
-    contract_governance: 9.8
-    contract_quality: 66.6
-    developer_ergonomics: 82.1
-    discoverability: 50.0
-    operational_transparency: 36.8
+    access_clarity: 92.1
+    contract_governance: 28.0
+    contract_quality: 74.5
+    developer_ergonomics: 83.9
+    discoverability: 61.1
+    operational_transparency: 68.4
   previous_composite: 53.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 95.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 20
+    mcp: first-party
+    skills: derived
   regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    applies: true
+    matched_via: tags
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 43.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -493,8 +635,19 @@ security:
 - kind: domain-security
   name: Token Io Domain Security
   slug: token-io-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: token-io
+tags:
+- Payments
+- Open Banking
+- Banking
+- Financial-Services
+- Account-to-Account
+- PSD2
+- Variable Recurring Payments
+- Account Information Services
+- Payment Initiation
+- Fintech
 use_cases:
 - E-commerce Pay-by-Bank checkout (Account-to-Account payments)
 - Subscription billing via VRP commercial mandates

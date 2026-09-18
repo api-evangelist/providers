@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Playwright provides a cross-browser automation API for end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API, enabling reliable testing with auto-wait, ne
@@ -137,7 +137,7 @@ score:
   band: emerging
   composite: 25.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -153,7 +153,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 25.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

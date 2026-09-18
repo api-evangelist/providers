@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for the Teladoc Health Solo virtual-care platform. Manages patients, appointments, waiting rooms, appointment slots, visit notes, attachments, patient documents, episodes of care, encounter r
@@ -227,7 +227,7 @@ modified: '2026-08-15'
 name: Teladoc
 nav: Providers
 network: true
-overview: 'Teladoc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telehealth, Telemedicine, and Virtual Care.
+overview: 'Teladoc publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telehealth, Virtual Care, and Healthcare.
 
 
   The Teladoc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -247,7 +247,7 @@ score:
   band: developing
   composite: 48.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -276,7 +276,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -301,7 +301,6 @@ tags:
 - Company
 - Health Tech
 - Telehealth
-- Telemedicine
 - Virtual Care
 - Healthcare
 - Behavioral Health

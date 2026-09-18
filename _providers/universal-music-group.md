@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Authenticated royalty statement portal for UMG-distributed artists and labels. Provides login-gated access to royalty statements, statement history, and supporting documentation. The portal is deliver
@@ -201,7 +201,7 @@ score:
   band: emerging
   composite: 14.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -217,7 +217,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

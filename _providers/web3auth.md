@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Threshold-key Auth Network nodes that issue and recover key shares anchored to OAuth/social/passkey identity providers. Accessed primarily through the Web3Auth client SDK rather than as a developer-fa
@@ -118,7 +118,7 @@ score:
   band: emerging
   composite: 13.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
@@ -142,7 +142,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

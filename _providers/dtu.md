@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: DTU operates its own security token service at sts.ait.dtu.dk (Microsoft AD FS) and publishes signed SAML 2.0 metadata and an OpenID Connect discovery document, both openly and without authentication.
@@ -177,7 +177,7 @@ score:
   band: emerging
   composite: 20.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -193,6 +193,8 @@ score:
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - denmark
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - europe
@@ -207,7 +209,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

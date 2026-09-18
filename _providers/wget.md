@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'GNU Wget is a free command-line utility for non-interactive downloading of files from the web using HTTP, HTTPS, FTP, and FTPS. It supports recursive downloading, resume of aborted downloads, website '
@@ -151,7 +151,7 @@ score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 72.3
     catalog_earned_first_party: 0.0
     catalog_gap: 42.8
@@ -167,7 +167,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 24.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

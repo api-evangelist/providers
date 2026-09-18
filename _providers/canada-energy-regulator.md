@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Canada Energy Regulator operates its own ArcGIS Online organization (portal neb-gis.maps.arcgis.com, organization id vNzamREXvX2WcX6d) and hosts 23 public feature services on it. This is the one g
@@ -177,7 +177,7 @@ score:
   band: thin
   composite: 27.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 51.0
     catalog_earned_first_party: 5.0
     catalog_gap: 64.0
@@ -208,7 +208,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

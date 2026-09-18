@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: WebSocket API for the Crypto.com Exchange, split into a Market Data stream (public channels for book, ticker, trade, candlestick, index, mark price, settlement, funding and open interest) and a User A
@@ -344,7 +344,7 @@ score:
   band: exemplar
   composite: 68.2
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 36.0
     catalog_earned_first_party: 12.0
     catalog_gap: 79.0
@@ -375,7 +375,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -34,6 +34,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/kik-kin-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://kik.com
 created: '2026-07-17'
 description: 'Kik (Kin) refers to the Kin cryptocurrency created by Kik Interactive, the messaging company, as a blockchain-based digital currency for use inside consumer applications. Kin originally launched on a fork of the Stellar network and later migrated to Solana, shipping first-party developer SDKs (JavaScript/Node and Python) under the kinecosystem GitHub organization and a developer program at developer.kin.org. The Kin project is now defunct: the developer surface no longer resolves, every kinecosystem repository is archived, the published SDKs are deprecated, and Kik itself was acquired by MediaLab AI Inc. This profile was surfaced as a portfolio company of Pantera Capital and is retained as a historical record of a wound-down crypto developer surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kik-kin.png

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - baseURL: https://developers.b3.com.br:8065
@@ -277,7 +277,7 @@ score:
   band: developing
   composite: 42.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -310,7 +310,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

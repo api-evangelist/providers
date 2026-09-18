@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: SAFe Studio is the online platform for learning and implementing SAFe. It provides access to training courses, agile planning tools, assessments, and a global community of over 400,000 SAFe practition
@@ -150,7 +150,7 @@ score:
   band: emerging
   composite: 20.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 57.3
     catalog_earned_first_party: 0.0
     catalog_gap: 57.8
@@ -166,7 +166,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

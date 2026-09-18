@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Microsoft Graph Forms API provides programmatic access to Microsoft Forms for creating and managing forms, surveys, and quizzes. Developers can retrieve form definitions, access response data, and
@@ -107,7 +107,7 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -123,7 +123,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 25.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

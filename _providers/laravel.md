@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -714,7 +714,7 @@ score:
   band: strong
   composite: 57.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -739,7 +739,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

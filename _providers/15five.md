@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: RESTful API for reading and modifying 15Five account data, including users, groups, objectives (OKRs), check-ins, review cycles, and performance data. Supports bulk list fetches with pagination and us
@@ -148,7 +148,7 @@ score:
   band: developing
   composite: 39.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 68.0
     catalog_earned_first_party: 0.0
     catalog_gap: 47.0
@@ -166,7 +166,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities) into their applications. Supports user accou
@@ -123,7 +123,7 @@ score:
   band: thin
   composite: 29.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -139,12 +139,14 @@ score:
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - nigeria
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
   previous_composite: 29.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

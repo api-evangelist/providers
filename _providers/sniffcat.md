@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Documented, versioned REST API (/api/v1/*) for checking IPs, retrieving blacklist feeds and report history, and submitting abuse reports. Uses X-Secret-Token header authentication with role-based rate
@@ -207,7 +207,7 @@ score:
   band: thin
   composite: 34.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 54.0
     catalog_earned_first_party: 17.0
     catalog_gap: 61.0
@@ -226,7 +226,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

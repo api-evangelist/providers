@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The read/write REST interface a Snapchain node serves on port 3381 under the /v1 path. Read endpoints (casts, reactions, links, user data, verifications, fids, username proofs, storage limits, on-chai
@@ -120,7 +120,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -136,7 +136,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 28.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -119,7 +119,7 @@ modified: '2026-08-26'
 name: MORE Health
 nav: Providers
 network: true
-overview: 'MORE Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Telemedicine.
+overview: 'MORE Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Digital Health, and Telehealth.
 
 
   MORE Health''s developer surface includes support, FAQ, and 11 more developer resources.'
@@ -136,7 +136,7 @@ score:
   band: emerging
   composite: 18.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -165,7 +165,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -187,7 +187,6 @@ tags:
 - Health
 - Healthcare
 - Digital Health
-- Telemedicine
 - Telehealth
 - Second Opinion
 - Medical Records

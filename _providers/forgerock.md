@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -486,6 +486,10 @@ collections:
   slug: open-forgerock-workflow-api
 common:
 - group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ping-identity/
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/capabilities/forgerock-capability-edges.yml
   title: ''
   type: CapabilityMap
@@ -895,7 +899,7 @@ overview: 'ForgeRock publishes 38 APIs on the [APIs.io](https://apis.io/) networ
   The ForgeRock catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ForgeRock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 23 more developer resources.'
+  ForgeRock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 24 more developer resources.'
 plans:
 - name: Forgerock Plans Pricing
   plan_count: 6
@@ -920,7 +924,7 @@ score:
   band: developing
   composite: 49.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 51.3
     catalog_earned_first_party: 0.0
     catalog_gap: 63.8
@@ -943,7 +947,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

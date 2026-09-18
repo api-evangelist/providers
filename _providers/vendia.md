@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Every Vendia project (Uni) is provisioned with an auto-generated GraphQL API derived from its JSON Schema data model — get_X / list_XItems / list_XVersions queries and add_X / create_X / put_X / updat
@@ -260,7 +260,7 @@ score:
   band: strong
   composite: 62.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -279,7 +279,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

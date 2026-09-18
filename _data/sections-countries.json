@@ -3,8 +3,8 @@
   "slug": "united-kingdom",
   "name": "United Kingdom",
   "flag": "🇬🇧",
-  "count": 428,
-  "by_tag": 354,
+  "count": 427,
+  "by_tag": 353,
   "by_hq": 74
  },
  {
@@ -19,16 +19,16 @@
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 363,
-  "by_tag": 354,
+  "count": 360,
+  "by_tag": 351,
   "by_hq": 9
  },
  {
   "slug": "united-states",
   "name": "United States",
   "flag": "🇺🇸",
-  "count": 319,
-  "by_tag": 297,
+  "count": 316,
+  "by_tag": 294,
   "by_hq": 22
  },
  {
@@ -107,8 +107,8 @@
   "slug": "indonesia",
   "name": "Indonesia",
   "flag": "🇮🇩",
-  "count": 84,
-  "by_tag": 84,
+  "count": 83,
+  "by_tag": 83,
   "by_hq": 0
  },
  {
@@ -123,8 +123,8 @@
   "slug": "sweden",
   "name": "Sweden",
   "flag": "🇸🇪",
-  "count": 66,
-  "by_tag": 64,
+  "count": 65,
+  "by_tag": 63,
   "by_hq": 2
  },
  {

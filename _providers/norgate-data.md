@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Retrieve daily EOD open/high/low/close, volume, turnover, unadjusted close, dividends and open interest as a Pandas DataFrame or NumPy array. Supports date ranges, record limits, weekly/monthly/quarte
@@ -110,7 +110,7 @@ score:
   band: emerging
   composite: 17.3
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 53.0
@@ -132,7 +132,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: 'Web-based access to imaging studies, series, and instances using the DICOM standard''s RESTful services - QIDO-RS (query), WADO-RS (retrieve), and STOW-RS (store). Sectra''s enterprise imaging platform '
@@ -104,7 +104,7 @@ score:
   band: minimal
   composite: 8.5
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -134,7 +134,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

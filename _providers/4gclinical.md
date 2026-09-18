@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Production API host operated by 4G Clinical on AWS API Gateway at api.4gclinical.com. Anonymous requests to every probed path return HTTP 403 ForbiddenException, so no route, contract or discovery doc
@@ -147,7 +147,7 @@ score:
   band: emerging
   composite: 20.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -182,7 +182,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

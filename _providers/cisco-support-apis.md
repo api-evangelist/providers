@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: The EoX API returns Cisco end-of-life and end-of-support milestones for hardware and software, queried by product ID, serial number, software release string, or a date range across all products. It is
@@ -251,7 +251,7 @@ score:
   band: thin
   composite: 33.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -270,7 +270,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

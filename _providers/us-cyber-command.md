@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The U.S. Cyber Command Cyber National Mission Force (CNMF) shares unclassified malware samples on VirusTotal via the CYBERCOM_Malware_Alert account. This public threat intelligence sharing program pos
@@ -175,7 +175,7 @@ score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 70.3
     catalog_earned_first_party: 0.0
     catalog_gap: 44.8
@@ -197,7 +197,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

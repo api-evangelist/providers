@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: A web service that allows certified third-party applications to query Electronic Export Information (EEI) filings previously submitted to AESDirect via HTTP POST. Returns shipment status and filing da
@@ -143,7 +143,7 @@ score:
   band: thin
   composite: 27.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 63.0
     catalog_earned_first_party: 0.0
     catalog_gap: 52.0
@@ -165,7 +165,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

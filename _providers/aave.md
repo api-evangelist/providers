@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: Core Aave V3 protocol contracts — Pool, L2 Pool, Wrapped Token Gateway, PoolAddressesProvider, Pool Configurator, Interest Rate Strategy, Access Control Manager, Oracles, aTokens, variable / stable de
@@ -165,7 +165,7 @@ score:
   band: emerging
   composite: 23.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -181,7 +181,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

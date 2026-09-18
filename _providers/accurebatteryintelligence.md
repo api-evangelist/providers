@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The authenticated API gateway behind the ACCURE battery analytics platform. Established by probe, not by documentation: the platform single-page application at accure-platform.com declares VITE_AUTH0_'
@@ -130,7 +130,7 @@ score:
   band: emerging
   composite: 20.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -162,7 +162,7 @@ score:
     regime_id: energy_utilities
     score: 35.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -185,7 +185,7 @@ tags:
 - Energy Storage
 - Analytics
 - Artificial Intelligence
-- Internet of Things
+- IoT
 - Electric Vehicles
 - Germany
 website: https://www.accure.net/

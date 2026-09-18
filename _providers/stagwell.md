@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Credit-metered REST API over IMAI's creator database of 380M+ influencers across Instagram, TikTok and YouTube. Documented capabilities are keyword and filter search, AI search, influencer reports, au
@@ -215,7 +215,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -234,7 +234,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

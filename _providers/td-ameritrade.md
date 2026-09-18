@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ modified: '2026-09-16'
 name: TD Ameritrade
 nav: Providers
 network: true
-overview: 'TD Ameritrade publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Instruments API, Authentication API, Accounts and Trading API, and 10 more. Tagged areas include Brokerage, Trading, Finance, Equities, and Options.
+overview: 'TD Ameritrade publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Instruments API, Authentication API, Accounts and Trading API, and 10 more. Tagged areas include Brokerage, Trading, Finance, Stocks, and Options.
 
 
   The TD Ameritrade catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -282,7 +282,7 @@ score:
   band: thin
   composite: 35.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
@@ -311,7 +311,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -330,7 +330,7 @@ tags:
 - Brokerage
 - Trading
 - Finance
-- Equities
+- Stocks
 - Options
 - Market Data
 - Streaming

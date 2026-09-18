@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API over the Lightsprint workspace board — tasks, comments, projects, stacks, and cloud coding agents. Authenticated with OAuth 2.0 authorization-code tokens bound to a single workspace; the repo
@@ -212,7 +212,7 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -232,7 +232,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

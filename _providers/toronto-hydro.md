@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Toronto Hydro's Green Button Download My Data (DMD) implementation, also required by O. Reg. 633/21 and built to NAESB REQ.21 ESPI v3.3. A Toronto Hydro customer signs in to their own account and down
@@ -234,7 +234,7 @@ score:
   band: thin
   composite: 30.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -271,7 +271,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

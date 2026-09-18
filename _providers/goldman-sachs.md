@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: Part of the Marquee developer platform, the Content Services API lets institutional clients programmatically consume client-focused Goldman Sachs content and commentary across equity, fixed income, cu
@@ -193,7 +193,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 42.0
     catalog_earned_first_party: 0.0
     catalog_gap: 73.0
@@ -224,7 +224,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

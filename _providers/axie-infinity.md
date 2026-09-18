@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'Read-only REST API for Axie Infinity: Origins community game data — list and fetch cards, runes, charms and items; list a user''s fighters and fighter configurations; read burned items; list seasons an'
@@ -159,7 +159,7 @@ score:
   band: thin
   composite: 26.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -177,7 +177,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

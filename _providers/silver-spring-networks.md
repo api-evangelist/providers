@@ -18,7 +18,7 @@ modified: '2026-07-21'
 name: Silver Spring Networks *
 nav: Providers
 network: true
-overview: Silver Spring Networks * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Smart Grid, Smart City, and Internet of Things.
+overview: Silver Spring Networks * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Smart Grid, Smart City, and IoT.
 random_paper: 15
 slug: silver-spring-networks
 tags:
@@ -26,7 +26,7 @@ tags:
 - Enterprise
 - Smart Grid
 - Smart City
-- Internet of Things
+- IoT
 - Energy
 - Utilities
 - Networking

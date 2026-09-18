@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: The core RESTful payment API of the ACI Open Payment Platform (PAY.ON gateway). Server-to-Server integration lets merchants and PSPs run end-to-end payment workflows — preauthorization, debit, capture
@@ -203,7 +203,7 @@ score:
   band: developing
   composite: 49.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -238,7 +238,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

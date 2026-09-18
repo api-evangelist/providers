@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Programmatic control over a Mudrex futures trading account. Transfer funds between the spot and futures wallets (USDT and INR), list tradeable instruments and contract specifications, get and set leve
@@ -214,7 +214,7 @@ score:
   band: developing
   composite: 43.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -247,7 +247,7 @@ score:
     regime_id: securities_market_data
     score: 36.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

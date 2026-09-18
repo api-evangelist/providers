@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
@@ -501,7 +501,7 @@ score:
   band: developing
   composite: 47.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
@@ -534,7 +534,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

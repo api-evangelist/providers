@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Public REST API on appws.picpay.com that lets merchants charge a PicPay user's wallet from an ecommerce checkout. Creates a payment with a referenceId, returns a payment URL plus a QR code for the buy
@@ -192,7 +192,7 @@ score:
   band: emerging
   composite: 19.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -221,7 +221,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

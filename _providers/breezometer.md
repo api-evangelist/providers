@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Real-time and forecast air quality data with street-level accuracy, including pollutant levels (CO, NO2, O3, PM10, PM2.5, SO2), AQI scores, and health recommendations for any location worldwide.
@@ -135,7 +135,7 @@ score:
   band: emerging
   composite: 16.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -151,7 +151,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

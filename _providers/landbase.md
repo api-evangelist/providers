@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Landbase cloud gateway that landbase-cli calls in platform mode. It backs natural-language audience search and agent runs, dataset upload/lineage/download, record match, synchronous person/company
@@ -201,7 +201,7 @@ score:
   band: developing
   composite: 44.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

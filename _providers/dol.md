@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 13
 apis:
 - description: 'Access to Current Employment Statistics (CES), Current Population Survey (CPS), Occupational Employment Statistics Survey (OES), Quarterly Census Employment and Wage (CEW), and Consumer Price Indexes '
@@ -178,7 +178,7 @@ score:
   band: thin
   composite: 26.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 62.0
     catalog_earned_first_party: 0.0
     catalog_gap: 53.0
@@ -200,7 +200,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

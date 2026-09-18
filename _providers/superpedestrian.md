@@ -45,6 +45,6 @@ tags:
 - Electric Scooters
 - Shared Mobility
 - Fleet Management
-- Internet of Things
+- IoT
 - Defunct
 ---

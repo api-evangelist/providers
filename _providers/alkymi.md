@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Alkymi exposes a developer-friendly REST API with full event-based webhook support for ingesting, transforming, and delivering extracted private markets data. API access and reference documentation ar
@@ -128,7 +128,7 @@ score:
   band: thin
   composite: 34.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -146,7 +146,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

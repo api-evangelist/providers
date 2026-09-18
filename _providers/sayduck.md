@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: In-page JavaScript API exposed by the embedded Sayduck 3D viewer/configurator Web Component. Accessed via DOM CustomEvents (sayduck.api-ready) once the viewer loads, with namespaces for variants, conf
@@ -139,7 +139,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -155,7 +155,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 25.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

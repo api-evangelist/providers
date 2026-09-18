@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - baseURL: https://quickbooks.api.intuit.com/v3/company
@@ -129,7 +129,7 @@ score:
   band: thin
   composite: 34.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 44.5
     catalog_earned_first_party: 0.0
     catalog_gap: 70.5
@@ -145,7 +145,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 34.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

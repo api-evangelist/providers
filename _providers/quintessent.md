@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,6 +57,14 @@ common:
   title: ''
   type: Support
   url: https://quintessent.com/contact
+- group: company
+  title: ''
+  type: Website
+  url: https://www.quintessent.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.quintessent.com/news
 created: '2026-07-17'
 description: Quintessent is a Goleta, California deep-tech photonics company developing quantum dot laser and optical interconnect technology to scale computing and AI infrastructure. The company builds quantum dot epitaxial wafer supply chains (in partnership with IQE) and optical connectivity solutions for AI optical interconnects, targeting the bandwidth and energy-efficiency bottlenecks of next-generation data centers. Backed by Sierra Ventures, Quintessent is a hardware and semiconductor company; as of this profile it publishes no public API, developer portal, SDKs, or machine-readable API documentation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quintessent.png
@@ -68,13 +76,13 @@ network: true
 overview: 'Quintessent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Photonics, Semiconductors, and Optical Interconnect.
 
 
-  Quintessent''s developer surface includes engineering blog, support, and 3 more developer resources.'
+  Quintessent''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 9
 score:
   band: minimal
   composite: 6.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -90,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,6 +100,10 @@ common:
   title: ''
   type: WellKnownProbe
   url: well-known/upside-services-well-known.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/upside-services
 created: '2026-07-17'
 description: Upside (Upside Services, Inc.) is a retail technology company whose platform delivers personalized cash-back offers on gas, groceries, and dining to more than five million consumers through the Upside app and embedded partner experiences. Merchants across fuel and convenience, grocery, and restaurants pay only for measured incremental profit, verified against control groups. Upside operates an enterprise partner API used by companies like Fiserv, GasBuddy, Lyft, Uber, and Marqeta to embed offers, but publishes no public developer portal, API documentation, or SDKs - API access is arranged through its partnerships team. Backed by DCVC (first invested 2016).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upside-services.png
@@ -111,11 +115,11 @@ network: true
 overview: 'Upside Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cashback, Retail, Fuel, and Grocery.
 
 
-  Upside Services'' developer surface includes engineering blog, support, and 13 more developer resources.'
+  Upside Services'' developer surface includes engineering blog, support, and 14 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 17.2
+  composite: 17.8
   coverage:
     artifact_dirs: 5
     catalog_earned: 27.0
@@ -123,17 +127,17 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 57.4
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

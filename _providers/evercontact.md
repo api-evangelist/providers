@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API that extracts structured contact data from email signature text (parse), completes a known contact with verified details (enrich), retrieves canonical deduplicated person records, registers w
@@ -201,7 +201,7 @@ score:
   band: strong
   composite: 57.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -220,7 +220,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: A live Model Context Protocol server operated by Noctrix Health on the Nidra product site. Discovered anonymously from RFC 9728 OAuth 2.0 Protected Resource Metadata at https://nidrarls.com/.well-know
@@ -157,7 +157,7 @@ score:
   band: emerging
   composite: 24.5
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -182,7 +182,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

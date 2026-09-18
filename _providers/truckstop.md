@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: REST API for posting, updating, refreshing, and deleting loads on the Truckstop load board. Includes Load Boost for promoted visibility, pause/unpause for BIN loads, and tender management for booked l
@@ -143,7 +143,7 @@ score:
   band: emerging
   composite: 25.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -165,7 +165,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

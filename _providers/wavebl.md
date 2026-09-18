@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Undocumented HTTPS API behind WaveBL's public Certificate of Authenticity tool — the free service at coa.wavebl.com that lets any party verify that a bill of lading or trade document was issued and tr
@@ -154,7 +154,7 @@ score:
   band: thin
   composite: 31.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -179,7 +179,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: The core toolkit for building reactive, event-driven applications on the JVM. Provides the event loop, verticle deployment, event bus, HTTP server and client, TCP/UDP networking, and the fundamental a
@@ -260,7 +260,7 @@ score:
   band: thin
   composite: 31.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 74.5
     catalog_earned_first_party: 0.0
     catalog_gap: 40.5
@@ -276,7 +276,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 31.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

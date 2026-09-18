@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The Score Specification (score.yaml) is a declarative, platform-agnostic workload definition format that captures containers, service ports, and resource dependencies in a single file. Reference CLI i
@@ -148,7 +148,7 @@ score:
   band: thin
   composite: 29.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 57.0
     catalog_earned_first_party: 0.0
     catalog_gap: 58.0
@@ -167,7 +167,7 @@ score:
     score: 100.0
   previous_composite: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

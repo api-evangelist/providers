@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Specmatic provides contract testing, intelligent service virtualization, and API mocking by transforming API specifications into executable contracts. It supports backward compatibility checking, API '
@@ -170,7 +170,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 68.3
     catalog_earned_first_party: 0.0
     catalog_gap: 46.8
@@ -186,7 +186,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 28.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

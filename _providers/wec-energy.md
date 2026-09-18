@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Web and mobile API powering the WEC Energy Group customer self-service portal. Enables customers to view account information, pay bills, manage alerts, view energy usage history, and report outages. A
@@ -187,7 +187,7 @@ score:
   band: emerging
   composite: 15.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 53.3
     catalog_earned_first_party: 0.0
     catalog_gap: 61.8
@@ -209,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Real-time datafeeds (OMD-C SS, SP, SF tiers) for all securities traded on the Stock Exchange of Hong Kong, published in a proprietary binary message format over one-to-many IP multicast/UDP for high t
@@ -167,7 +167,7 @@ score:
   band: thin
   composite: 32.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 43.0
     catalog_earned_first_party: 8.0
     catalog_gap: 72.0
@@ -191,7 +191,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

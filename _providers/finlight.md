@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-06-13'
 name: Finlight
 nav: Providers
 network: true
-overview: 'Finlight publishes 2 APIs on the [APIs.io](https://apis.io/) network: Articles API and Sources API. Tagged areas include Financial News, Sentiment Analysis, Market Data, Equities, and Currency.
+overview: 'Finlight publishes 2 APIs on the [APIs.io](https://apis.io/) network: Articles API and Sources API. Tagged areas include Financial News, Sentiment Analysis, Market Data, Stocks, and Currency.
 
 
   The Finlight catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -202,7 +202,7 @@ score:
   band: developing
   composite: 40.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 55.3
     catalog_earned_first_party: 0.0
     catalog_gap: 59.8
@@ -232,7 +232,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -252,7 +252,7 @@ tags:
 - Financial News
 - Sentiment Analysis
 - Market Data
-- Equities
+- Stocks
 - Currency
 - Commodities
 - Real-Time

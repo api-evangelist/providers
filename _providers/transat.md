@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The direct-connect flight shopping, booking, payment and servicing API that Air Transat publishes to OTA and technology partners under its NDC programme. The only technical contract Transat publishes '
@@ -170,7 +170,7 @@ score:
   band: emerging
   composite: 22.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -195,7 +195,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

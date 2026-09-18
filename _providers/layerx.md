@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API for the Bakuraku (バクラク) back-office suite. Publicly documented capabilities are retrieval and list-search of applications/requests (申請), download of attached files, creation of applications f
@@ -205,7 +205,7 @@ score:
   band: thin
   composite: 37.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -237,7 +237,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

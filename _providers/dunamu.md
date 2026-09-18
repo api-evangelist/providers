@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 4
 common:
@@ -221,7 +221,7 @@ score:
   band: thin
   composite: 31.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 47.0
     catalog_earned_first_party: 20.0
     catalog_gap: 68.0
@@ -253,7 +253,7 @@ score:
     regime_id: securities_market_data
     score: 46.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

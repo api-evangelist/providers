@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: 'The Highspot REST API provides programmatic access to the Highspot sales enablement platform, enabling management of content (spots and items), users, groups, pitches, domain settings, and analytics. '
@@ -240,7 +240,7 @@ score:
   band: developing
   composite: 40.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
@@ -259,7 +259,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

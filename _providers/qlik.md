@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 69
 apis:
 - description: Qlik provides APIs to support automation, configuration, observability, and integration with third-party applications to incorporate Qlik Cloud capabilities directly into those applications.
@@ -359,7 +359,7 @@ score:
   band: thin
   composite: 36.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
@@ -375,7 +375,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 36.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

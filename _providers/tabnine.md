@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: VS Code, JetBrains (IntelliJ, PhpStorm, etc.), and Eclipse plugins surfacing autocomplete, chat, and agentic workflows. Communicates with Tabnine's hosted or self-hosted backend over a proprietary pro
@@ -118,7 +118,7 @@ score:
   band: emerging
   composite: 14.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -134,7 +134,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 14.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

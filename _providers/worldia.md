@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Worldia production REST API. An API Platform (Symfony) deployment that content-negotiates application/vnd.worldia+json, application/ld+json (Hydra) and application/problem+json. A subset of collection
@@ -213,7 +213,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
@@ -237,7 +237,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

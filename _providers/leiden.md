@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Leiden University Scholarly Publications, the Islandora-based institutional repository holding PhD theses, articles, journals, book series and conference p
@@ -181,7 +181,7 @@ score:
   band: thin
   composite: 33.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -213,7 +213,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

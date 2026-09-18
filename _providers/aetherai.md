@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: A live, anonymous Model Context Protocol endpoint served from aetherAI's own host. It exposes nine tools over JSON-RPC 2.0 (streamable HTTP) for reading business details, searching site content, brows
@@ -158,7 +158,7 @@ score:
   band: emerging
   composite: 21.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -190,7 +190,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

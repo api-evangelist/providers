@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -362,7 +362,7 @@ modified: '2026-07-22'
 name: dxFeed
 nav: Providers
 network: true
-overview: 'dxFeed publishes 32 APIs on the [APIs.io](https://apis.io/) network, including dxLink WebSocket API, Alpha Beta Controller API, Asset Classification Controller API, and 29 more. Tagged areas include Financial, Market Data, Real-Time, Historical Data, and Equities.
+overview: 'dxFeed publishes 32 APIs on the [APIs.io](https://apis.io/) network, including dxLink WebSocket API, Alpha Beta Controller API, Asset Classification Controller API, and 29 more. Tagged areas include Financial, Market Data, Real-Time, Historical Data, and Stocks.
 
 
   The dxFeed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -374,13 +374,13 @@ score:
   band: developing
   composite: 45.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
@@ -394,7 +394,7 @@ score:
     regions:
     - dach
     - europe
-  previous_composite: 44.4
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -412,7 +412,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -437,7 +437,7 @@ tags:
 - Market Data
 - Real-Time
 - Historical Data
-- Equities
+- Stocks
 - Options
 - Futures
 - Crypto

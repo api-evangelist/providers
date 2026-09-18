@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Hosted, remote Model Context Protocol server operated by WoowUp at mcp.woowup.com. Streamable-HTTP transport, OAuth 2.1 bearer authentication with RFC 8414 authorization-server and RFC 9728 protected-
@@ -210,7 +210,7 @@ score:
   band: developing
   composite: 48.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -229,7 +229,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

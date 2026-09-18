@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: The ASCII API is the primary runtime integration surface for the Realtime Controller. A client opens a TCP socket to the controller and exchanges inline YAML 1.2 command strings (topic / type / id / d
@@ -215,7 +215,7 @@ score:
   band: emerging
   composite: 25.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -239,7 +239,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Bloomberg's primary secure messaging service for financial professionals, providing real-time message delivery, group chats, broadcast lists, and file sharing within the Bloomberg Terminal and Bloombe
@@ -119,7 +119,7 @@ score:
   band: emerging
   composite: 19.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -135,7 +135,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

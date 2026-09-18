@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Logical capability for creating and managing restaurant reservations - availability, floor and table assignment, booking creation and status changes. Superb surfaces this to guests through a hosted bo
@@ -96,7 +96,7 @@ score:
   band: minimal
   composite: 10.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -118,7 +118,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

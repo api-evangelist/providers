@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Bloomberg Add-in for Microsoft Excel provides formula functions including BDP (Bloomberg Data Point), BDH (Bloomberg Data History), BDS (Bloomberg Data Set), and BQL for accessing Bloomberg data d
@@ -119,7 +119,7 @@ score:
   band: emerging
   composite: 19.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -141,7 +141,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

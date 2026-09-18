@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The CSB does not currently offer a formal public API. However, it maintains public databases of investigations, recommendations, and incident reports accessible through its website. The CSB releases p
@@ -103,7 +103,7 @@ score:
   band: emerging
   composite: 15.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -125,7 +125,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Live JSON API host for Pax AI (api.paxai.com). A health endpoint is publicly reachable; no public OpenAPI, reference documentation, or developer program was discoverable at enrichment time.
@@ -75,7 +75,7 @@ score:
   band: minimal
   composite: 8.1
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -96,7 +96,7 @@ score:
     - north-america
   previous_composite: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

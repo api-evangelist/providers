@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: 'Public register of the federally regulated financial institutions OSFI supervises, including every federally regulated insurer with its Authorized Insurance Classes, FI industry group, trade name and '
@@ -416,7 +416,7 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 80.0
     catalog_earned_first_party: 25.0
     catalog_gap: 35.0
@@ -449,7 +449,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

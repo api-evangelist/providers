@@ -8,9 +8,60 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
+    {
+     "name": "Messagebird",
+     "slug": "messagebird",
+     "description": "MessageBird, which trades as Bird, is a Dutch cloud communications company whose platform carries email, SMS, WhatsApp, RCS, push, voice and eSIM traffic for businesses in over 200 countries. Bird publishes a first-party OpenAPI 3.1 description of 277 operations at bird.com/openapi.json and generates its TypeScript, Python, Go and PHP SDKs from it. The platform is unusually agent-native: a hosted MCP server at mcp.bird.com behind credential-less OAuth, a bird CLI with JSON output and semantic exit codes, published agent skills shipped as an Agent Plugins marketplace plugin, an RFC 9727 api-catalog, an Agentic Resource Discovery document, an llms.txt, and a Markdown twin of every documentation page. One auth model, one opt-in Idempotency-Key contract, IETF RateLimit headers and one stable error envelope span every channel. The legacy MessageBird REST API at rest.messagebird.com is still served alongside it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png",
+     "score": 92.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 72.3,
+      "contract_governance": 47.0,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 81.0,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-17",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 73.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 68.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "CPaaS & Messaging Aggregators",
+     "rank": 1
+    },
     {
      "name": "Infobip",
      "slug": "infobip",
@@ -27,7 +78,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -67,7 +118,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "Twilio",
@@ -85,7 +136,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -118,7 +169,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Zoom Phone",
@@ -136,7 +187,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -169,7 +220,7 @@
       "agentic_commerce": false
      },
      "tier": "UCaaS & Cloud Voice",
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "8x8",
@@ -187,7 +238,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -220,7 +271,7 @@
       "agentic_commerce": false
      },
      "tier": "UCaaS & Cloud Voice",
-     "rank": 4
+     "rank": 5
     }
    ],
    "open": true
@@ -249,7 +300,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -289,7 +340,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Verizon",
@@ -307,7 +358,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -340,7 +391,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "KPN",
@@ -358,7 +409,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -391,7 +442,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Netcracker",
@@ -409,7 +460,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -442,7 +493,7 @@
       "agentic_commerce": false
      },
      "tier": "Network Vendors & BSS/OSS",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "América Móvil",
@@ -460,7 +511,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -493,7 +544,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "emnify",
@@ -511,7 +562,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -544,7 +595,7 @@
       "agentic_commerce": false
      },
      "tier": "IoT Connectivity & eSIM",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Sinch",
@@ -562,7 +613,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -595,7 +646,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "GSMA",
@@ -613,7 +664,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -646,7 +697,7 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "ETSI",
@@ -664,7 +715,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -697,7 +748,7 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Reliance Jio",
@@ -715,7 +766,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -748,7 +799,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Nokia Network as Code",
@@ -766,7 +817,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -806,7 +857,7 @@
       "agentic_commerce": false
      },
      "tier": "Network-API Exposure (CAMARA / Open Gateway)",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "RingCentral",
@@ -824,7 +875,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -857,7 +908,7 @@
       "agentic_commerce": false
      },
      "tier": "UCaaS & Cloud Voice",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "MTN Group",
@@ -875,7 +926,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -908,7 +959,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "MEF",
@@ -926,7 +977,7 @@
       "developer_ergonomics": 85.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -959,7 +1010,7 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "AT&T",
@@ -976,7 +1027,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1009,7 +1060,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Telstra",
@@ -1027,7 +1078,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1060,7 +1111,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Route Mobile",
@@ -1078,7 +1129,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1118,7 +1169,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "TELUS",
@@ -1135,7 +1186,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1168,7 +1219,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 22
+     "rank": 23
     }
    ],
    "open": true
@@ -1197,7 +1248,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1230,7 +1281,7 @@
       "agentic_commerce": false
      },
      "tier": "IoT Connectivity & eSIM",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Totogi",
@@ -1248,7 +1299,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1281,7 +1332,7 @@
       "agentic_commerce": false
      },
      "tier": "Network Vendors & BSS/OSS",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Optus",
@@ -1299,7 +1350,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1332,7 +1383,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Bandwidth",
@@ -1350,7 +1401,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1383,7 +1434,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Kaleyra",
@@ -1401,7 +1452,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1445,7 +1496,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Syniverse",
@@ -1463,7 +1514,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1496,7 +1547,7 @@
       "agentic_commerce": false
      },
      "tier": "Wholesale & Interconnect",
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Rogers Communications",
@@ -1514,7 +1565,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1547,7 +1598,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "1NCE",
@@ -1565,7 +1616,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1598,7 +1649,7 @@
       "agentic_commerce": false
      },
      "tier": "IoT Connectivity & eSIM",
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Telia Company",
@@ -1616,7 +1667,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1649,7 +1700,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "ACMA",
@@ -1667,7 +1718,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1700,7 +1751,7 @@
       "agentic_commerce": false
      },
      "tier": "Regulators",
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "TPG Telecom",
@@ -1718,7 +1769,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1751,7 +1802,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Vonage",
@@ -1769,7 +1820,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1802,7 +1853,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "GSMA Open Gateway",
@@ -1820,7 +1871,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1853,7 +1904,7 @@
       "agentic_commerce": false
      },
      "tier": "Network-API Exposure (CAMARA / Open Gateway)",
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "KORE Wireless",
@@ -1871,7 +1922,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1904,7 +1955,7 @@
       "agentic_commerce": false
      },
      "tier": "IoT Connectivity & eSIM",
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "3GPP",
@@ -1922,7 +1973,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1955,7 +2006,7 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Bharti Airtel",
@@ -1973,7 +2024,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2006,7 +2057,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Tata Communications",
@@ -2024,7 +2075,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2057,7 +2108,7 @@
       "agentic_commerce": false
      },
      "tier": "Wholesale & Interconnect",
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Bell Canada",
@@ -2075,7 +2126,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2108,7 +2159,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Ofcom",
@@ -2126,7 +2177,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2159,7 +2210,7 @@
       "agentic_commerce": false
      },
      "tier": "Regulators",
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "TMT ID",
@@ -2177,7 +2228,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2210,7 +2261,7 @@
       "agentic_commerce": false
      },
      "tier": "Identity & Anti-Fraud",
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "SK Telecom",
@@ -2228,7 +2279,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2261,7 +2312,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Telesign",
@@ -2279,7 +2330,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2312,7 +2363,7 @@
       "agentic_commerce": false
      },
      "tier": "Identity & Anti-Fraud",
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Starlink",
@@ -2330,7 +2381,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2363,7 +2414,7 @@
       "agentic_commerce": false
      },
      "tier": "Satellite & Non-Terrestrial",
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Plivo",
@@ -2381,7 +2432,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2414,7 +2465,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "China Mobile",
@@ -2432,7 +2483,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2465,7 +2516,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Liberty Global",
@@ -2483,7 +2534,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2516,7 +2567,7 @@
       "agentic_commerce": false
      },
      "tier": "Fixed & Broadband",
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Mavenir",
@@ -2534,7 +2585,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2567,7 +2618,7 @@
       "agentic_commerce": false
      },
      "tier": "Network Vendors & BSS/OSS",
-     "rank": 49
+     "rank": 50
     }
    ]
   },
@@ -2576,8 +2627,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 15,
-   "shown": 15,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Amdocs",
@@ -2595,7 +2646,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2628,7 +2679,7 @@
       "agentic_commerce": false
      },
      "tier": "Network Vendors & BSS/OSS",
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Telefónica",
@@ -2646,7 +2697,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2679,7 +2730,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Aduna",
@@ -2697,7 +2748,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2730,7 +2781,7 @@
       "agentic_commerce": false
      },
      "tier": "Network-API Exposure (CAMARA / Open Gateway)",
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Telnyx",
@@ -2748,7 +2799,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2781,7 +2832,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Onomondo",
@@ -2799,7 +2850,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2832,7 +2883,7 @@
       "agentic_commerce": false
      },
      "tier": "IoT Connectivity & eSIM",
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "46elks",
@@ -2850,7 +2901,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2883,54 +2934,6 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 55
-    },
-    {
-     "name": "Messagebird",
-     "slug": "messagebird",
-     "description": "Build powerful apps using the fastest and most reliable cloud communications APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png",
-     "score": 33.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 72.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-16",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
-     "agent_score": 22.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "CPaaS & Messaging Aggregators",
      "rank": 56
     },
     {
@@ -2949,7 +2952,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2993,7 +2996,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3044,7 +3047,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3095,7 +3098,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3146,7 +3149,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 15.6,
      "agent_band": "agent-aware",
@@ -3190,7 +3193,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -3234,7 +3237,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3285,7 +3288,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3346,7 +3349,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3397,7 +3400,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3448,7 +3451,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3499,7 +3502,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3550,7 +3553,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3601,7 +3604,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3652,7 +3655,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3703,7 +3706,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3753,7 +3756,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3804,7 +3807,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3855,7 +3858,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3916,7 +3919,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3967,7 +3970,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4018,7 +4021,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4069,7 +4072,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4120,7 +4123,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4170,7 +4173,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4214,7 +4217,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4265,7 +4268,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-16",
+     "scored_at": "2026-09-17",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

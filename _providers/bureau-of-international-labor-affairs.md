@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: ILAB's datasets are served through the U.S. Department of Labor Open Data Portal API (https://apiprod.dol.gov/v4) under the agency segment 'ilab'. The catalogue route /v4/datasets answers anonymously;
@@ -192,7 +192,7 @@ score:
   band: thin
   composite: 30.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 56.0
     catalog_earned_first_party: 16.0
     catalog_gap: 59.0
@@ -222,7 +222,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -228,7 +228,7 @@ score:
   band: developing
   composite: 44.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 68.3
     catalog_earned_first_party: 0.0
     catalog_gap: 46.8
@@ -247,7 +247,7 @@ score:
     score: 100.0
   previous_composite: 44.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

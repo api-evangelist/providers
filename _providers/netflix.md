@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Netflix Open Connect is the purpose-built content delivery network that delivers Netflix streaming traffic. The Open Connect program provides partner ISPs with embedded appliances and peering arrangem
@@ -129,7 +129,7 @@ score:
   band: emerging
   composite: 20.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -145,7 +145,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

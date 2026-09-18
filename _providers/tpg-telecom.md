@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Contacts Management API for the Vodafone Business Messaging Hub, providing CRUD over contacts, lists and custom fields for SMS/MMS campaigns. Documented as an Apiary API Blueprint (project subdomain c
@@ -243,7 +243,7 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -276,7 +276,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

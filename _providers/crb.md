@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Cross River Operating System (COS) API is Cross River's API-driven bank core, exposing Accounts and Payments products (ACH, RTP, FedNow, wires, international payments, cards, subledgers, and lendi
@@ -128,7 +128,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -150,7 +150,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

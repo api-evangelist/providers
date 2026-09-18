@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: An undocumented Model Context Protocol server operated by Copper at mcp.getcopper.com. The host publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at /.well-known/oauth-authorization-server de
@@ -137,7 +137,7 @@ score:
   band: emerging
   composite: 23.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -167,7 +167,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

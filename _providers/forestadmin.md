@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Forest Admin Admin Backend is a REST API deployed on the customer's own infrastructure. It translates UI calls from the Forest Admin browser interface into database queries covering CRUD operation
@@ -141,7 +141,7 @@ score:
   band: thin
   composite: 35.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 80.0
     catalog_earned_first_party: 0.0
     catalog_gap: 35.0
@@ -157,7 +157,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 35.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

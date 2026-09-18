@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API to create and manage products, deliveries (inbound stock), shipments (outbound orders), and returns across byrd's European fulfillment network. JWT bearer auth; JSON over HTTPS (TLS 1.2+); re
@@ -149,7 +149,7 @@ score:
   band: thin
   composite: 31.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -169,7 +169,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

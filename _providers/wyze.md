@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: 'The first-party Wyze cloud API reached with a personal API Key and Key ID generated from the Wyze Developer API Console. Authentication posts credentials to auth-prod.api.wyze.com to exchange the key '
@@ -190,7 +190,7 @@ modified: '2026-08-02'
 name: Wyze
 nav: Providers
 network: true
-overview: 'Wyze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Internet of Things, Home Security, and Camera.
+overview: 'Wyze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, IoT, Home Security, and Camera.
 
 
   Wyze''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
@@ -204,7 +204,7 @@ score:
   band: thin
   composite: 34.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -223,7 +223,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -251,7 +251,7 @@ slug: wyze
 tags:
 - Company
 - Smart Home
-- Internet of Things
+- IoT
 - Home Security
 - Camera
 - Consumer Electronics

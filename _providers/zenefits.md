@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST API providing programmatic access to people, companies, locations, employments, compensation, time-off, paystubs, and journal data inside a Zenefits account. Authentication uses OAuth 2.0 with sc
@@ -102,7 +102,7 @@ score:
   band: emerging
   composite: 22.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -118,7 +118,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

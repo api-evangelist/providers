@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Middleware Public API provides programmatic access to observability data including metrics, logs, traces, events, alerts, and dashboards, enabling integration of monitoring and observability into '
@@ -138,7 +138,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 51.0
     catalog_earned_first_party: 0.0
     catalog_gap: 64.0
@@ -156,7 +156,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

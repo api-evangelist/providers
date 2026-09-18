@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: Core Java SE API including fundamental classes and utilities for building Java applications, including the java.lang, java.util, java.io, and other foundational packages.
@@ -127,7 +127,7 @@ score:
   band: emerging
   composite: 17.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -143,7 +143,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

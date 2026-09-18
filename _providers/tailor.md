@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'The Tailor Platform control plane. A single tailor.v1.OperatorService with 254 RPCs covering organizations, folders, teams, access grants, IP restrictions, workspaces, applications and every platform '
@@ -271,7 +271,7 @@ score:
   band: developing
   composite: 53.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 48.0
     catalog_earned_first_party: 8.0
     catalog_gap: 67.0
@@ -291,7 +291,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

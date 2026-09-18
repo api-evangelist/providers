@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Crunchtime Inventory & Labor API is a REST/JSON web-services API for integrating restaurant back-office data with the Crunchtime platform. It exposes 150+ operations organized by functional area —
@@ -158,7 +158,7 @@ score:
   band: thin
   composite: 36.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -176,7 +176,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 7
 apis:
 - description: 'Query bookings by Zencargo reference and retrieve booking details: cargo, consignor/consignee, forwarder, incoterms, load type, mode of transport, bills of lading, required delivery date, and attached'
@@ -138,7 +138,7 @@ score:
   band: thin
   composite: 32.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
@@ -156,7 +156,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

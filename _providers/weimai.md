@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://openapi.myweimai.com
@@ -72,13 +72,13 @@ modified: '2026-07-21'
 name: WeiMai
 nav: Providers
 network: true
-overview: 'WeiMai publishes 1 API on the [APIs.io](https://apis.io/) network: Open Platform API. Tagged areas include Company, Healthcare, Digital Health, Internet Hospital, and Telemedicine.'
+overview: 'WeiMai publishes 1 API on the [APIs.io](https://apis.io/) network: Open Platform API. Tagged areas include Company, Healthcare, Digital Health, Internet Hospital, and Telehealth.'
 random_paper: 20
 score:
   band: emerging
   composite: 11.9
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -107,7 +107,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -125,7 +125,7 @@ tags:
 - Healthcare
 - Digital Health
 - Internet Hospital
-- Telemedicine
+- Telehealth
 - Medical Services
 - China
 - Open Platform

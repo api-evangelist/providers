@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: MHub's REST API for its property-sales platform. The API is served from api.mhub.my and is authentication-gated (all probed endpoints return HTTP 401); no public OpenAPI/Swagger definition was availab
@@ -96,7 +96,7 @@ score:
   band: emerging
   composite: 12.2
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -112,12 +112,14 @@ score:
     operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - malaysia
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - southeast-asia
   previous_composite: 12.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

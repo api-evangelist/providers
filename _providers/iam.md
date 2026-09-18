@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 0
 created: '2025-01-01'
@@ -43,7 +43,7 @@ modified: '2026-04-28'
 name: IAM
 nav: Providers
 network: true
-overview: IAM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Access Management, Authentication, Authorization, IAM, and Identity.
+overview: IAM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Access Management, Authentication, Authorization, Identity and Access Management, and Identity.
 random_paper: 3
 score:
   band: minimal
@@ -73,7 +73,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -84,7 +84,7 @@ tags:
 - Access Management
 - Authentication
 - Authorization
-- IAM
+- Identity and Access Management
 - Identity
 - Security
 ---

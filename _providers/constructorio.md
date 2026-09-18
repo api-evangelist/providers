@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 34
 apis:
 - description: Remote, anonymously reachable Model Context Protocol server published by Constructor that exposes documentation search/fetch and OpenAPI endpoint discovery tools to AI coding tools such as Claude, Cur
@@ -550,7 +550,7 @@ score:
   band: developing
   composite: 52.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -575,7 +575,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

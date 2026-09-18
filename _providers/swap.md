@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: 'Public Gateway API for the Agentic Storefront product: conversational discovery and chat, catalog/collection browsing, cart and checkout sessions, virtual try-on, orders and shipments, user profile an'
@@ -216,7 +216,7 @@ score:
   band: developing
   composite: 49.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -248,7 +248,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

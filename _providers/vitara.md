@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,6 +49,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.vitara.com/privacy
+- group: company
+  title: ''
+  type: Website
+  url: https://vitara.com
 created: '2026-07-17'
 description: Vitara (Vitara Biomedical) is a Philadelphia-based medical technology company developing EXTEND, an investigational neonatal support platform that surrounds extremely premature newborns in a fluid-filled, fetal-physiology-modeled environment for their first 28 days, delaying the stress of early air exposure so vital organs can continue to develop. The company aims to improve survival and reduce long-term complications for infants born as early as 22 weeks gestation. Surfaced in the API Evangelist network as a Khosla Ventures portfolio company; Vitara publishes no public API, developer portal, or documentation, and its technology has not received U.S. FDA market clearance.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vitara.png
@@ -63,7 +67,7 @@ score:
   band: minimal
   composite: 6.2
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -90,7 +94,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

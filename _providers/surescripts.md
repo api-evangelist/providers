@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: 'Publicly documented HL7 FHIR Release 4 API for retrieving medication history panels and near-real-time Prescription Notifications for enrolled patient populations. Panels and notifications are pulled '
@@ -212,7 +212,7 @@ score:
   band: developing
   composite: 41.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
@@ -237,7 +237,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

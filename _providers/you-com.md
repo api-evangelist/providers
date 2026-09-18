@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: The You.com Search API returns real-time web search results tailored for AI agents and LLMs, with controls for freshness, category, and result shape.
@@ -129,7 +129,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -147,7 +147,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

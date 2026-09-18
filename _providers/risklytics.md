@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Ember API returns per-structure property risk scores, modeled expected annual loss, and retrofit-impact evaluation for individual homes, driven by physics-based hazard simulation and a learned sur
@@ -113,7 +113,7 @@ score:
   band: emerging
   composite: 19.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -140,7 +140,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 5
 apis:
 - description: Corpay's commercial card portfolio covers the Corpay Mastercard, Corpay World Elite Mastercard, virtual / ghost cards, and supplier-direct payment cards. Integration with ERP and expense systems is de
@@ -112,7 +112,7 @@ score:
   band: minimal
   composite: 6.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -134,7 +134,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

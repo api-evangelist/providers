@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Vault Core is Thought Machine's cloud-native core banking engine. Its API surface spans a REST Core API for external integrations (channels, CRM, operator UI), a Posting API that manages financial mov
@@ -158,7 +158,7 @@ score:
   band: thin
   composite: 34.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -190,7 +190,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

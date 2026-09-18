@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Deep Sentinel store. A live, anonymous Model Context Protocol endpoint exposing thirteen catalog, cart, checkout and order tools, implementing the Universal Co
@@ -184,7 +184,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -204,7 +204,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +230,7 @@ tags:
 - Artificial Intelligence
 - Computer-Vision
 - Monitoring
-- Internet of Things
+- IoT
 - Commerce
 website: https://www.deepsentinel.com/
 ---

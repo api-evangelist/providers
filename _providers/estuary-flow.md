@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: REST/JSON API backing the Estuary Flow web dashboard and flowctl CLI. Manages captures, collections, materializations, derivations, drafts, publications, tenants, and role grants. Authenticated with a
@@ -160,7 +160,7 @@ score:
   band: thin
   composite: 36.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -176,7 +176,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 36.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

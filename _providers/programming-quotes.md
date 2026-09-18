@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://programming-quotes-api.azurewebsites.net/api
@@ -206,7 +206,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 67.5
     catalog_earned_first_party: 0.0
     catalog_gap: 47.5
@@ -228,7 +228,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

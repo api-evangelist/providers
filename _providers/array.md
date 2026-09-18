@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Array's REST API for embedded consumer-credit, identity and background-data products. Confirmed live at https://array.io/api — the /api/user/v2 and /api/report/v2 routes answer with structured JSON va
@@ -170,7 +170,7 @@ score:
   band: emerging
   composite: 25.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -191,7 +191,7 @@ score:
     - north-america
   previous_composite: 25.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

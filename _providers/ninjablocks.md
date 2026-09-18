@@ -58,7 +58,7 @@ modified: '2026-07-20'
 name: NinjaBlocks
 nav: Providers
 network: true
-overview: 'NinjaBlocks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet of Things, IoT, Home Automation, and Smart Home.
+overview: 'NinjaBlocks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IoT, Home Automation, Smart Home, and Sensors.
 
 
   NinjaBlocks'' developer surface includes CLI and 7 more developer resources.'
@@ -67,7 +67,6 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/he
 slug: ninjablocks
 tags:
 - Company
-- Internet of Things
 - IoT
 - Home Automation
 - Smart Home

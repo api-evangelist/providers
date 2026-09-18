@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services.
@@ -151,7 +151,7 @@ score:
   band: emerging
   composite: 24.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -167,7 +167,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 24.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

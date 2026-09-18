@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Data-as-a-Service access to Onclusive's media intelligence corpus — 28M+ daily media content items across print, online, broadcast and social media, 300K+ verified journalist contacts, and 250K+ globa
@@ -163,7 +163,7 @@ score:
   band: emerging
   composite: 22.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -181,7 +181,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

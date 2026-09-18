@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 5
 common:
@@ -148,6 +148,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/jetblue
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/jetblue
 created: '2026-07-28'
 description: 'JetBlue Airways (IATA code B6) is a New York-headquartered low-cost United States carrier flying across the U.S., Caribbean, Latin America and Europe, with hubs and focus cities at JFK, Boston, Fort Lauderdale, Orlando and San Juan. In the travel distribution chain JetBlue sits as an inventory owner that sells through three channels: its own direct consumer surface (jetblue.com, the JetBlue app and the TrueBlue loyalty program), the legacy GDS channel where it files fares, seats and EMDs and settles through ARC in the U.S. and IATA BSPs internationally, and an IATA New Distribution Capability program that reaches agencies through GDS/NDC aggregators, corporate booking tools and online booking platforms. JetBlue publishes no public developer portal, no API reference and no downloadable OpenAPI or NDC schema: developer.jetblue.com, developers.jetblue.com and docs.jetblue.com do not resolve, api.jetblue.com answers 404 at every probed path, and the 361-URL public sitemap contains
   no developer or API page. The only published distribution surface is the travel-agent policy section at jetblue.com/travel-agents, including an NDC program page that states JetBlue supplies NDC API documentation, schema and message samples and certification guidelines to onboarded partners only, after business use-case submission, onboarding and certification testing. Selling JetBlue requires ARC accreditation in the U.S. or IATA accreditation plus local BSP participation abroad; JetBlue states it works with only a few OTAs and is not accepting new applications. Public docs, accreditation required, no self-serve access, and no exit path.'
@@ -164,7 +168,7 @@ network: true
 overview: 'JetBlue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United States, Aviation, Airlines, and Distribution.
 
 
-  JetBlue''s developer surface includes authentication, documentation, legal docs, support, and 21 more developer resources.'
+  JetBlue''s developer surface includes authentication, documentation, legal docs, support, and 22 more developer resources.'
 random_paper: 21
 scopes:
 - name: Jetblue Scopes
@@ -173,22 +177,22 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode
 score:
   band: emerging
-  composite: 18.0
+  composite: 18.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
     discoverability: 50.0
-    operational_transparency: 10.5
+    operational_transparency: 15.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -201,7 +205,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The GoGift REST API for buying and sending digital gift cards. Five documented operations cover the purchase flow end to end: filter the product catalogue, read a product and its purchasable inventory'
@@ -229,7 +229,7 @@ score:
   band: developing
   composite: 45.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -254,7 +254,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

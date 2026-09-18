@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The bitdrift Capture public API — schema-first protobuf service definitions exposed over gRPC, Connect, and gRPC-over-JSON at api-public.bitdrift.io. Services under the bitdrift.public.unary.* package
@@ -189,7 +189,7 @@ score:
   band: developing
   composite: 51.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -209,7 +209,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

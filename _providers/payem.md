@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
@@ -195,7 +195,7 @@ score:
   band: developing
   composite: 41.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 50.0
     catalog_earned_first_party: 8.0
     catalog_gap: 65.0
@@ -225,7 +225,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

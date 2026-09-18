@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Serves brand-page content modules for retailer-hosted brand landing pages. A retailer routes /brands/{slug} on its own domain, calls POST /ads/v3/brand-pages on its assigned regional Epsilon RMN ads h
@@ -244,7 +244,7 @@ score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -269,7 +269,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

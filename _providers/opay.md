@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ score:
   band: thin
   composite: 33.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -278,6 +278,8 @@ score:
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - nigeria
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
@@ -296,7 +298,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ modified: '2026-05-19'
 name: Baseten
 nav: Providers
 network: true
-overview: 'Baseten publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat Completions API and Messages API. Tagged areas include Artificial Intelligence, MLS, Inference, Deployment, and MLOps.
+overview: 'Baseten publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat Completions API and Messages API. Tagged areas include Artificial Intelligence, Machine-Learning, Inference, Deployment, and MLOps.
 
 
   The Baseten catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -316,7 +316,7 @@ score:
   band: thin
   composite: 34.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 47.3
     catalog_earned_first_party: 0.0
     catalog_gap: 67.8
@@ -339,7 +339,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -361,7 +361,7 @@ security:
 slug: baseten
 tags:
 - Artificial Intelligence
-- MLS
+- Machine-Learning
 - Inference
 - Deployment
 - MLOps

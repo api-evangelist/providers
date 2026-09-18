@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol (UCP) shopping service for the M.Gemi store, exposed over Model Context Protocol at https://mgemi.com/api/ucp/mcp. An anonymous tools/list returns 13 tools with full JS
@@ -179,7 +179,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -210,7 +210,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

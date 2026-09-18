@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,6 +69,10 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/RelianceSteel
+- group: company
+  title: ''
+  type: Website
+  url: https://reliance.com
 created: '2026-03-24'
 description: Reliance Steel & Aluminum Co. is the largest metals service center in North America, providing value-added metals processing services and distributing a full line of metal products including aluminum, brass, bronze, carbon and alloy steel, copper, titanium, and stainless steel. Operating over 300 service center locations across 40 US states and 13 countries, Reliance serves more than 130,000 customers across aerospace, automotive, defense, energy, electronics, construction, and semiconductor end markets.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reliance-steel-and-aluminum.png
@@ -107,7 +111,7 @@ score:
   band: minimal
   composite: 9.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -123,7 +127,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The Lemon Mini App SDK is the public developer contract for building a Mini App that runs inside the Lemon Cash mobile app. It is a TypeScript library, not an HTTP API: calls are passed to the native '
@@ -238,7 +238,7 @@ score:
   band: developing
   composite: 43.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -254,6 +254,8 @@ score:
     operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - argentina
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
@@ -268,7 +270,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

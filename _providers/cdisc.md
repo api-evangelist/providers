@@ -15,34 +15,34 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-09-16'
+  score: 26.4
+  scored_at: '2026-09-17'
 agentic_access:
-- acting_count: 0
+- acting_count: 14
   human_in_the_loop: 0
   name: Cdisc Agentic Access
-  operation_count: 13
+  operation_count: 59
   slug: cdisc-agentic-access
-  summary_line: 13 operations
+  summary_line: 59 operations · 14 acting
 api_count: 1
 apis:
 - description: CDISC CORE (Checks and Rules Engine) is an open-source rules engine for validating clinical data against CDISC conformance rules. It enables automated validation of SDTM, ADaM, and other study data ar
@@ -78,7 +78,18 @@ apis:
   description: CDISC controlled terminology
   name: cdisc Terminology API
   slug: cdisc-terminology-api
-artifact_total: 24
+- baseURL: https://library.cdisc.org/api
+  baseurl_source: declared
+  description: 'The Analysis Results Standard surface of the CDISC Library API — 17 read operations that expose published ARS packages and their reporting events: planned analyses, analysis sets, data subsets, groupi'
+  name: CDISC Analysis Results Standard (ARS) API
+  slug: cdisc-analysis-results-api
+- description: 'CDISC-authored OpenAPI 3.1 specification for the Dataset-JSON API — studies, snapshots, datasets (including an NDJSON streaming representation and an $export operation) and Define-XML documents. This '
+  name: CDISC Dataset-JSON API (standard specification)
+  slug: cdisc-dataset-json-api
+- description: CDISC-published OpenAPI for the USDM (Unified Study Definitions Model) study-definitions interface from the Digital Data Flow programme — create, update, read and version a study definition and search
+  name: CDISC USDM (DDF) Study Definitions API
+  slug: cdisc-usdm-api
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -134,10 +145,6 @@ common:
   url: https://www.cdisc.org/
 - group: docs
   title: ''
-  type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-library-openapi.yml
-- group: docs
-  title: ''
   type: JSONSchema
   url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/json-schema/cdisc-dataset-schema.json
 - group: design
@@ -176,6 +183,98 @@ common:
   title: ''
   type: Blog
   url: https://www.cdisc.org/news/whats-new
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/packages/cdisc-packages.yml
+  title: ''
+  type: Packages
+  url: packages/cdisc-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/packages/cdisc-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/cdisc-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/cli/cdisc-cli.yml
+  title: ''
+  type: CLI
+  url: cli/cdisc-cli.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/conventions/cdisc-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/cdisc-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/errors/cdisc-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/cdisc-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/lifecycle/cdisc-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cdisc-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://cdisc.statuspage.io
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/changelog/cdisc-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/cdisc-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/conformance/cdisc-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/cdisc-conformance.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/data-model/cdisc-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/cdisc-data-model.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/llms/cdisc-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/cdisc-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/plans/cdisc-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/cdisc-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/rate-limits/cdisc-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/cdisc-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/finops/cdisc-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/cdisc-finops.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/rules/cdisc-jsonschema-spectral-rules.yml
+  title: ''
+  type: Rules
+  url: rules/cdisc-jsonschema-spectral-rules.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.cdisc.org/cdisc-roadmap
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cdisc.org/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.cdisc.org/privacy-policy
+created: '2026-04-07'
 description: CDISC Library uses linked data and a REST API to deliver CDISC standards metadata to software applications that automate standards-based processes. CDISC Library provides access to new relationships between standards as well as a substantially increased number of versioned CDISC standards and controlled terminology packages.
 finops:
 - name: Cdisc Finops
@@ -192,24 +291,24 @@ jsonld:
   property_count: 16
   slug: cdisc-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-17'
 name: Cdisc
 nav: Providers
 network: true
-overview: 'Cdisc publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ADaM API, Biomedical Concepts API, CDASH API, and 3 more.
+overview: 'Cdisc publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ADaM API, Biomedical Concepts API, CDASH API, and 6 more. Tagged areas include Clinical Trials, Standards, Life Sciences, Pharma, and Healthcare.
 
 
   The Cdisc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cdisc''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, changelog, signup flow, and 10 more developer resources.'
+  Cdisc''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, changelog, signup flow, and 28 more developer resources.'
 plans:
 - name: Cdisc Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: cdisc-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Cdisc Rate Limits
   slug: cdisc-rate-limits
 rules:
@@ -225,40 +324,45 @@ rules:
   slug: cdisc-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.7
+  composite: 51.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 55.3
+    artifact_dirs: 27
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.2
   facets:
-    access_clarity: 28.9
-    contract_governance: 9.8
+    access_clarity: 42.1
+    contract_governance: 14.4
     contract_quality: 63.6
-    developer_ergonomics: 52.4
+    developer_ergonomics: 68.5
     discoverability: 59.3
-    operational_transparency: 18.4
+    operational_transparency: 31.6
   previous_composite: 41.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 100.0
+      callable: 77.8
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 9
+    mcp: derived
+    skills: derived
   regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    applies: true
+    matched_via: tags
+    regime: Health
+    regime_id: health
+    score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
-  trend: flat
+  scored_at: '2026-09-17'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/screenshots/cdisc-2026-06-20T174105.png
 security:
 - kind: authentication
@@ -270,5 +374,15 @@ security:
   slug: cdisc-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cdisc
+tags:
+- Clinical Trials
+- Standards
+- Life Sciences
+- Pharma
+- Healthcare
+- Metadata
+- Controlled Terminology
+- Data Exchange
+- Non-Profit
 website: https://www.cdisc.org/
 ---

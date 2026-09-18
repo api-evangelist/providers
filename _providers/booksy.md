@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Booksy Public API is a partner-facing REST API for managing Booksy businesses and their booking data. It is organized around resource-oriented URLs, returns JSON, uses standard HTTP verbs and stat
@@ -195,7 +195,7 @@ score:
   band: developing
   composite: 51.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -219,7 +219,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

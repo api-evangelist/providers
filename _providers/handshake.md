@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Read-only, institution-scoped EDU API for career-services data: applications, appointments, career fairs, jobs, postings, qualifications, and meetings. Authenticates via x-api-key header; supports pag'
@@ -151,7 +151,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -173,7 +173,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

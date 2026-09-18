@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The single HTTP endpoint VEIR declares in its own RFC 9727 API catalog. It returns veir.com page content as text/markdown for agent consumption. Probed 2026-08-05: it returns HTTP 200 with content-typ'
@@ -154,7 +154,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -178,7 +178,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

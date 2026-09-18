@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Funded Project Query Form API exposing programmatic access to NEH grant records. Documentation is published as a PDF describing query parameters and response structure.
@@ -92,7 +92,7 @@ score:
   band: minimal
   composite: 10.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -114,7 +114,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

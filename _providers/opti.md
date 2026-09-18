@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-07-20'
 name: Opti
 nav: Providers
 network: true
-overview: 'Opti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity and Access Management, IAM, Identity Security, and Access Governance.
+overview: 'Opti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity and Access Management, Identity Security, Access Governance, and Non-Human Identity.
 
 
   Opti''s developer surface includes engineering blog, support, and 6 more developer resources.'
@@ -86,7 +86,7 @@ score:
   band: emerging
   composite: 13.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -118,7 +118,6 @@ slug: opti
 tags:
 - Company
 - Identity and Access Management
-- IAM
 - Identity Security
 - Access Governance
 - Non-Human Identity

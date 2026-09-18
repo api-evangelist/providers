@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 15
 apis:
 - description: Charge one-off or recurring purchases directly to a verified end user's BT or EE mobile bill or pre-pay credit, enabling carrier-billed payments without re-collecting card or bank credentials.
@@ -218,7 +218,7 @@ score:
   band: minimal
   composite: 8.5
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -248,7 +248,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

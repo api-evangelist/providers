@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Search for packages, retrieve package metadata, version details, publisher information, and scoring data from the official Dart and Flutter package registry.
@@ -132,7 +132,7 @@ score:
   band: thin
   composite: 28.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 48.0
     catalog_earned_first_party: 0.0
     catalog_gap: 67.0
@@ -151,7 +151,7 @@ score:
     score: 65.0
   previous_composite: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

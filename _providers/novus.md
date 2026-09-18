@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,6 +65,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/novus-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.novus.com/
 created: '2026-07-17'
 description: Novus (operating as SEI Novus) is a portfolio intelligence and investment analytics platform for institutional investors — endowments, foundations, sovereign wealth funds, family offices, pension funds, and asset managers. The platform provides manager monitoring, performance analysis, risk assessment, attribution, and reporting across public and private markets at the position, fund, and portfolio level, along with data integration and maintenance services. Originally venture-backed (Index Ventures among its investors), Novus was acquired by SEI and now operates as SEI Novus. It has been recognized as Best Portfolio Management Vendor (Family Wealth Report Awards) and Best Multi-Asset Class Portfolio Management System (PAM Awards). No public developer API is currently published on its website.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novus.png
@@ -76,13 +80,13 @@ network: true
 overview: 'Novus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, WealthTech, Portfolio Analytics, and Investment Management.
 
 
-  Novus'' developer surface includes engineering blog and 6 more developer resources.'
+  Novus'' developer surface includes engineering blog and 7 more developer resources.'
 random_paper: 21
 score:
   band: emerging
   composite: 11.0
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -98,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

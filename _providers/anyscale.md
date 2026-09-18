@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 10
 apis:
 - description: Manages Anyscale Workspaces - cloud-hosted, GPU-backed development environments preconfigured with Ray for interactive development and debugging.
@@ -150,7 +150,7 @@ score:
   band: thin
   composite: 26.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
@@ -166,7 +166,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 26.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

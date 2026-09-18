@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 2
 common:
@@ -62,13 +62,13 @@ modified: '2026-07-21'
 name: Thirty Madison
 nav: Providers
 network: true
-overview: Thirty Madison is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Telemedicine, and Digital Health.
+overview: Thirty Madison is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Digital Health, and Direct to Consumer.
 random_paper: 16
 score:
   band: minimal
   composite: 5.8
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -90,7 +90,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +111,6 @@ tags:
 - Company
 - Healthcare
 - Telehealth
-- Telemedicine
 - Digital Health
 - Direct to Consumer
 - Pharmacy

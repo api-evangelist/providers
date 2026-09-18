@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface for the Agilitas store, implementing the Universal Commerce Protocol (dev.ucp.shopping) over the Model Context Protocol. Thirteen tools cover catalog search and looku
@@ -172,7 +172,7 @@ score:
   band: emerging
   composite: 22.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -199,7 +199,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

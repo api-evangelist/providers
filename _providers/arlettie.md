@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - description: Live, unauthenticated Model Context Protocol endpoint on the Les échappées storefront implementing the Universal Commerce Protocol (UCP) 2026-04-08. tools/list returns 13 tools with full JSON Schema i
@@ -222,7 +222,7 @@ score:
   band: thin
   composite: 27.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

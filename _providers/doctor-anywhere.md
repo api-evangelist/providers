@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: Anonymous Model Context Protocol endpoint served from the Doctor Anywhere Thailand site (Wix Site MCP). Advertised in the site llms.txt; an unauthenticated tools/list returns nine tools covering busin
@@ -150,7 +150,7 @@ modified: '2026-08-04'
 name: Doctor Anywhere
 nav: Providers
 network: true
-overview: 'Doctor Anywhere publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Telemedicine, and Digital Health.
+overview: 'Doctor Anywhere publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Digital Health, and Health Screening.
 
 
   Doctor Anywhere''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 15 more developer resources.'
@@ -159,7 +159,7 @@ score:
   band: emerging
   composite: 24.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -192,7 +192,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -213,7 +213,6 @@ tags:
 - Company
 - Healthcare
 - Telehealth
-- Telemedicine
 - Digital Health
 - Health Screening
 - Corporate Wellness

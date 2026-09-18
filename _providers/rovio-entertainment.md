@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,6 +57,10 @@ common:
   title: ''
   type: Blog
   url: https://www.rovio.com/news/
+- group: company
+  title: ''
+  type: Website
+  url: http://www.rovio.com
 created: '2026-07-17'
 description: Rovio Entertainment is a Finnish mobile game company founded in 2003 and headquartered in Espoo, best known for the Angry Birds franchise and a portfolio of casual and puzzle titles played by hundreds of millions of players worldwide. It operates game studios across Finland, Sweden, Denmark, Canada, Spain, and Turkey, and became part of Sega Sammy Holdings in 2023. Rovio was surfaced as a portfolio company of Atomico and added to the API Evangelist network. As of this enrichment pass Rovio publishes a corporate/marketing website but no public developer portal, API, SDK, or well-known discovery surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rovio-entertainment.png
@@ -68,13 +72,13 @@ network: true
 overview: 'Rovio Entertainment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Entertainment, and Games.
 
 
-  Rovio Entertainment''s developer surface includes engineering blog and 4 more developer resources.'
+  Rovio Entertainment''s developer surface includes engineering blog and 5 more developer resources.'
 random_paper: 8
 score:
   band: minimal
   composite: 9.7
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -98,7 +102,7 @@ score:
     - nordics
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

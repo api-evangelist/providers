@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'The Moz API is a JSON-RPC 2.0 API accessed through HTTP POST requests to a single universal endpoint, https://api.moz.com/jsonrpc. The method name in the request body selects the operation. 62 public '
@@ -242,7 +242,7 @@ score:
   band: developing
   composite: 43.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 66.0
     catalog_earned_first_party: 20.0
     catalog_gap: 49.0
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

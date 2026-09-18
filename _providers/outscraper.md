@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Outscraper provides APIs for scraping Google Maps data, business information, reviews, and other web sources.
@@ -123,7 +123,7 @@ score:
   band: emerging
   composite: 21.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 31.0
     catalog_earned_first_party: 0.0
     catalog_gap: 84.0
@@ -141,7 +141,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

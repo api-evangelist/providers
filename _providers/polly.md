@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Polly is a .NET resilience and transient-fault-handling library that allows developers to express resilience strategies such as Retry, Circuit Breaker, Hedging, Timeout, Rate Limiter, and Fallback in '
@@ -121,7 +121,7 @@ score:
   band: emerging
   composite: 17.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 50.3
     catalog_earned_first_party: 0.0
     catalog_gap: 64.8
@@ -137,7 +137,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 17.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

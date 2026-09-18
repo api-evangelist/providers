@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: OAuth2-secured wealth-data API covering the Connect flow (connectors, sessions, SCA resolution), Credentials, Entities, Aggregation, and Letters, returning standardized portfolios, investments, accoun
@@ -198,7 +198,7 @@ score:
   band: thin
   composite: 29.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -235,7 +235,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

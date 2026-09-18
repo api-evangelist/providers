@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 4
 apis:
 - description: Local business data collection via geo point + radius sweep with deduplication on place ID; optional email extraction. Billed per place returned.
@@ -129,7 +129,7 @@ score:
   band: emerging
   composite: 20.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -145,7 +145,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.7
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 9
 apis:
 - description: Open-source command-line tool and engine that turns a Garden project configuration into a graph of Build, Deploy, Test, and Run actions and executes them locally or against remote Kubernetes clusters.
@@ -154,7 +154,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -173,7 +173,7 @@ score:
     score: 85.0
   previous_composite: 28.9
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

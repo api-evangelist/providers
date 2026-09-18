@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 8
 apis:
 - description: Griffith's SAML 2.0 Shibboleth Identity Provider, entityID https://idp1.griffith.edu.au/idp/shibboleth, registered in the Australian Access Federation on 2023-03-06 and exported to eduGAIN as entity 6
@@ -192,7 +192,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 65.0
     catalog_earned_first_party: 0.0
     catalog_gap: 50.0
@@ -223,7 +223,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

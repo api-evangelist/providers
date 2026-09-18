@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 2
 apis:
 - baseURL: https://tones.lisnr.com/
@@ -246,7 +246,7 @@ score:
   band: emerging
   composite: 19.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -277,7 +277,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true
@@ -302,7 +302,7 @@ tags:
 - Device Pairing
 - Identification
 - Audio
-- Internet of Things
+- IoT
 - SDK
 website: https://lisnr.com/
 ---

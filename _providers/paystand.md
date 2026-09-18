@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Paystand v3 REST API for B2B payments: create and manage payments, refunds, disputes, payers, customer banks, accounts, balances, scheduled payments, transfers and withdrawals, plus the Assurety block'
@@ -149,7 +149,7 @@ score:
   band: thin
   composite: 35.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -174,7 +174,7 @@ score:
     regime_id: payments
     score: 58.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

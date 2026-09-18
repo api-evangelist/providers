@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST over HTTPS with JSON request/response (CSV supported on specific bulk-load endpoints) for integrating Guidewheel with external ERP, MES and CMMS systems. Covers devices and equipment details, min
@@ -183,7 +183,7 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 53.0
     catalog_earned_first_party: 16.0
     catalog_gap: 62.0
@@ -207,7 +207,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

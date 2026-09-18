@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: REST/JSON access-evaluation API. Evaluate whether a principal may perform actions on assets in context, search accessible assets or authorized principals, query the directory, and route provider hooks
@@ -163,7 +163,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -182,7 +182,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -212,6 +212,6 @@ tags:
 - CAEP
 - Shared Signals
 - Zero Standing Privilege
-- IAM
+- Identity and Access Management
 website: https://sgnl.ai
 ---

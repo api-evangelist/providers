@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Read-only REST API for Walnut demo analytics. Two data endpoints plus a health check — GET /demo-sessions returns individual demo-session records across 29 documented fields with filtering, offset pag
@@ -251,7 +251,7 @@ score:
   band: strong
   composite: 65.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -270,7 +270,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: Revenue.io's programmable surface for guided selling, call analytics, rep performance data, conversation insights, and CRM activity synchronization. Exposed as RDNACadence Apex classes and Flow invoca
@@ -229,7 +229,7 @@ score:
   band: thin
   composite: 32.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -248,7 +248,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 17
 apis:
 - description: Discover HCE Wallet Services offers a secure and convenient way for customers to add their Discover card to their mobile devices for contactless payments. By utilizing Host Card Emulation (HCE) techno
@@ -303,7 +303,7 @@ score:
   band: developing
   composite: 48.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 38.0
     catalog_earned_first_party: 0.0
     catalog_gap: 77.0
@@ -328,7 +328,7 @@ score:
     regime_id: payments
     score: 73.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

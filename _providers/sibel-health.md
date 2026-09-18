@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The REST API behind Sibel Health's ANNE cloud hubs. The base https://api.sibelhealth.com/jsn/alpha is referenced directly by the JavaScript bundle of the company's own datahub.sibelhealth.com single-p
@@ -154,7 +154,7 @@ score:
   band: emerging
   composite: 25.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -190,7 +190,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -222,7 +222,7 @@ tags:
 - Vital Signs
 - Clinical Trials
 - Sensors
-- Internet of Things
+- IoT
 - Sleep
 website: https://sibelhealth.com/
 ---

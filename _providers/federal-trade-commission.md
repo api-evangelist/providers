@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: The FTC Developer Portal is the central hub for developer documentation, data dictionaries, and access program details for FTC-managed datasets and services. It names the API base URL (https://api.ftc
@@ -220,7 +220,7 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 50.0
     catalog_earned_first_party: 12.0
     catalog_gap: 65.0
@@ -245,7 +245,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

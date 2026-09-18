@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Ashland''s digital product finder tool enables customers to search and filter the specialty chemicals portfolio by application, industry, function, and chemistry type to identify the right ingredients '
@@ -121,7 +121,7 @@ score:
   band: emerging
   composite: 14.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -142,7 +142,7 @@ score:
     - north-america
   previous_composite: 14.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

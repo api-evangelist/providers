@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'The HPZone GraphQL API exposes read access to the HPZone communicable-disease control record — cases, contacts, situations, enquiries, actions and contexts — over a single POST endpoint. Access is by '
@@ -124,7 +124,7 @@ score:
   band: emerging
   composite: 14.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -149,7 +149,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

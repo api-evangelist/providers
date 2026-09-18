@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: GraphQL API for querying and managing cloud security inventory, issues, vulnerabilities, misconfigurations, identities, controls, and reports across the Wiz security graph. Authentication uses OAuth 2
@@ -104,7 +104,7 @@ score:
   band: emerging
   composite: 14.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.6
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

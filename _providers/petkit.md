@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,13 +63,13 @@ modified: '2026-07-20'
 name: petkit
 nav: Providers
 network: true
-overview: petkit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Tech, Smart Home, Internet of Things, and Consumer Electronics.
+overview: petkit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pet Tech, Smart Home, IoT, and Consumer Electronics.
 random_paper: 19
 score:
   band: minimal
   composite: 5.0
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
@@ -102,7 +102,7 @@ tags:
 - Company
 - Pet Tech
 - Smart Home
-- Internet of Things
+- IoT
 - Consumer Electronics
 - E-Commerce
 website: https://petkit.com

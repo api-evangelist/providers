@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Recorded Future Intelligence Cloud REST API (api.recordedfuture.com) provides programmatic access to threat intelligence sourced from over a million open-web, dark-web, technical, and customer fee
@@ -172,7 +172,7 @@ score:
   band: emerging
   composite: 22.7
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -190,7 +190,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

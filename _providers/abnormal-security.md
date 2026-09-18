@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: The Abnormal Security Platform REST API at api.abnormalplatform.com gives customers and integration partners programmatic access to detected threats, attack cases, abuse mailbox submissions, account t
@@ -164,7 +164,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -180,7 +180,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

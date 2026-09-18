@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 1
 apis:
 - description: 'Legacy India API (PMXClients service). Twelve JSON-over-POST methods let a business add vendors and customers as contacts, book and approve vendor payments, raise collection requests, generate hosted '
@@ -220,7 +220,7 @@ score:
   band: strong
   composite: 57.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -258,7 +258,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: true

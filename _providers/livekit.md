@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -172,7 +172,7 @@ score:
   band: thin
   composite: 32.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
@@ -188,7 +188,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 32.2
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false

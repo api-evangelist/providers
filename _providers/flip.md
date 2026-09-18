@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
 api_count: 3
 apis:
 - description: 'Disburse money programmatically to any Indonesian bank account or e-wallet. Create single and bulk disbursements, inquire bank accounts, list bank codes, and receive callbacks on disbursement status. '
@@ -183,7 +183,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -212,7 +212,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-16'
+  scored_at: '2026-09-17'
   trend: flat
   upsert:
     applies: false
