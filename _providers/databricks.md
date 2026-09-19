@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -1052,7 +1052,7 @@ modified: '2026-05-19'
 name: Databricks
 nav: Providers
 network: true
-overview: 'Databricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and Workspace API. Tagged areas include Artificial Intelligence, Analytics, Apache Spark, Big Data, and Cleanroom.
+overview: 'Databricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and Workspace API. Tagged areas include Cleanroom, Databricks, Artificial Intelligence, Analytics, and Apache Spark.
 
 
   The Databricks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1117,7 +1117,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1188,11 +1188,12 @@ skills:
   slug: databricks-vector-search
 slug: databricks
 tags:
+- Cleanroom
+- Databricks
 - Artificial Intelligence
 - Analytics
 - Apache Spark
 - Big Data
-- Cleanroom
 - Cloud Computing
 - Data
 - Data Analytics

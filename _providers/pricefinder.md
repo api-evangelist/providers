@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - baseURL: https://api.pricefinder.com.au/v1
@@ -308,7 +308,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

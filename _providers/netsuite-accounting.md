@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 3
 apis:
 - description: 'REST API exposing NetSuite accounting and financial records as JSON resources including invoices, bills, journal entries, payments, accounts, customers, and vendors, with SuiteQL query support and an '
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.1
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

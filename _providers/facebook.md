@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -685,7 +685,7 @@ modified: '2026-09-16'
 name: Facebook
 nav: Providers
 network: true
-overview: 'Facebook publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Sets API, Ads API, and 18 more. Tagged areas include Fortune 500, Advertising, Content Publishing, Messaging, and Social-Media.
+overview: 'Facebook publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Ad Accounts API, Ad Sets API, Ads API, and 18 more. Tagged areas include Facebook, Fortune 500, Advertising, Content Publishing, and Messaging.
 
 
   The Facebook catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -766,7 +766,7 @@ score:
       marker_coverage: 100.0
       total: 27
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -787,6 +787,7 @@ security:
   summary_line: security.txt · contact published
 slug: facebook
 tags:
+- Facebook
 - Fortune 500
 - Advertising
 - Content Publishing

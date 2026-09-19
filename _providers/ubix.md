@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 4
 apis:
 - description: The UBIX Insights API enables programmatic access to AI-generated analytics, insights, and model outputs from the UBIX platform. Supports integration with existing business intelligence tools, CRM sys
@@ -120,7 +120,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 23.2
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

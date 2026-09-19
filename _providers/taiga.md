@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Full-featured REST API for the Taiga agile project management platform, providing programmatic access to projects, milestones, epics, user stories, tasks, issues, wiki pages, webhooks, timelines, user
@@ -148,7 +148,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 24.8
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

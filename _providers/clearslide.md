@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - baseURL: https://platform.clearslide.com
@@ -93,6 +93,10 @@ collections:
   name: ClearSlide Platform Insights Users API
   slug: open-clearslide-users-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/showpad/
 - group: company
   title: ''
   type: Website
@@ -273,7 +277,7 @@ network: true
 overview: 'ClearSlide publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Insights API, Links API, Meetings API, and 3 more. Tagged areas include Company, Sales Engagement, Sales Enablement, Content Management, and Presentations.
 
 
-  ClearSlide''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, pricing, and 30 more developer resources.'
+  ClearSlide''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, pricing, and 31 more developer resources.'
 plans:
 - name: Clearslide Plans Pricing
   plan_count: 2
@@ -317,7 +321,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

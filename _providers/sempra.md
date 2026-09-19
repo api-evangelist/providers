@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Sempra runs a Google Apigee API program. api.sempra.com is the Apigee runtime gateway and developer.sempra.com is an Apigee integrated developer portal (Apigee organization "sempra", site id "sempra-p
@@ -195,7 +195,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

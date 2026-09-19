@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: The Sliplane Control API is a REST API at https://ctrl.sliplane.io/v0 for programmatically managing organizations, projects, services, deployments, custom domains, registry credentials, servers, volum
@@ -196,7 +196,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

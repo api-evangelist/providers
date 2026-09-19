@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: Planhat's REST API for reading and writing every core Customer Platform object — companies, end users, licenses, conversations, notes, tasks, opportunities, deals, sales, invoices, assets, issues, tic
@@ -231,7 +231,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

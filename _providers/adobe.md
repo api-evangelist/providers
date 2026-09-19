@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -1187,7 +1187,7 @@ modified: '2026-08-13'
 name: Adobe
 nav: Providers
 network: true
-overview: 'Adobe publishes 40 APIs on the [APIs.io](https://apis.io/) network, including PDF Services Accessibility Auto-Tag API, PDF Services Assets API, PDF Services Combine PDF API, and 37 more. Tagged areas include Fortune 1000, Analytics, Creative Cloud, Digital Asset Management, and Document Services.
+overview: 'Adobe publishes 40 APIs on the [APIs.io](https://apis.io/) network, including PDF Services Accessibility Auto-Tag API, PDF Services Assets API, PDF Services Combine PDF API, and 37 more. Tagged areas include E-Signature, Adobe, Fortune 1000, Analytics, and Creative Cloud.
 
 
   The Adobe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -1271,7 +1271,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1296,13 +1296,14 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, CSA STAR, GDPR, C5 (Germany), IRAP (Australia), TISAX
 slug: adobe
 tags:
+- E-Signature
+- Adobe
 - Fortune 1000
 - Analytics
 - Creative Cloud
 - Digital Asset Management
 - Document Services
 - E-Commerce
-- E-Signature
 - Experience Cloud
 - Generative AI
 - Marketing

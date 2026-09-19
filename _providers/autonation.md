@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: AutoNation operates a digital retail platform at autonation.com that enables consumers to browse new and used vehicle inventory, configure purchases, apply for financing, and schedule vehicle deliveri
@@ -44,6 +44,33 @@ apis:
   slug: service-scheduling
 artifact_total: 18
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/llms/autonation-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/autonation-llms.txt
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/plans/autonation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/autonation-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/rate-limits/autonation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/autonation-rate-limits.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://autonation.developer.azure-api.net/
+- group: start
+  title: ''
+  type: Login
+  url: https://autonation.developer.azure-api.net/signin
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.autonation.com/frequently-asked-questions
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/security/autonation-domain-security.yml
   title: ''
@@ -57,6 +84,28 @@ common:
   title: ''
   type: Website
   url: https://www.autonation.com
+coverage:
+  checked: '2026-09-18'
+  detail: AutoNation runs an Azure API Management gateway at api.autonation.com and a developer portal at autonation.developer.azure-api.net, but the portal is sign-in gated and its anonymous API and product listings both return an empty value[] — no API, contract, or reference is published to the public; the only agent-facing document is a consumer-oriented llms.txt on www.autonation.com, and every other www path answers a Cloudflare bot challenge (403, x-bot-score 1) to our crawler.
+  evidence:
+  - status: 200
+    url: https://autonation.developer.azure-api.net/developer/apis?api-version=2022-04-01-preview
+  - status: 200
+    url: https://autonation.developer.azure-api.net/developer/products?api-version=2022-04-01-preview
+  - status: 200
+    url: https://autonation.developer.azure-api.net/signin
+  - status: 404
+    url: https://api.autonation.com/openapi.json
+  - status: 200
+    url: https://www.autonation.com/llms.txt
+  - status: 403
+    url: https://www.autonation.com/openapi.json
+  - status: 403
+    url: https://www.autonation.com/frequently-asked-questions
+  - status: 200
+    url: https://www.linkedin.com/company/autonation
+  reason: partner-login
+  state: gated
 created: '2026-03-21'
 description: AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.
 features:
@@ -83,11 +132,14 @@ integrations:
 - description: Integration with captive and third-party lenders for vehicle financing application routing and deal structuring.
   name: AutoNation Finance Partners
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: AutoNation
 nav: Providers
 network: true
-overview: AutoNation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive Retail, Car Dealership, Vehicle Sales, Auto Finance, and Service Scheduling.
+overview: 'AutoNation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive Retail, Car Dealership, Vehicle Sales, Auto Finance, and Service Scheduling.
+
+
+  AutoNation''s developer surface includes support and 8 more developer resources.'
 plans:
 - name: Autonation Plans Pricing
   plan_count: 1
@@ -114,27 +166,27 @@ rate_limits:
   name: Autonation Rate Limits
   slug: autonation-rate-limits
 score:
-  band: minimal
-  composite: 9.3
+  band: emerging
+  composite: 20.7
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 39.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    artifact_dirs: 11
+    catalog_earned: 51.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.4
   facets:
-    access_clarity: 13.2
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 59.3
-    operational_transparency: 5.3
+    developer_ergonomics: 14.3
+    discoverability: 66.7
+    operational_transparency: 21.1
   previous_composite: 9.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
-  trend: flat
+  scored_at: '2026-09-18'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -144,7 +196,7 @@ security:
 - kind: domain-security
   name: Autonation Domain Security
   slug: autonation-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
 slug: autonation
 tags:
 - Automotive Retail

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -1509,7 +1509,7 @@ modified: '2026-06-20'
 name: Kraken
 nav: Providers
 network: true
-overview: 'Kraken publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Spot WebSocket API v2, Earn API, Account API, and 11 more. Tagged areas include Cryptocurrency, Exchange, Trading, Market Data, and Spot Trading.
+overview: 'Kraken publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Spot WebSocket API v2, Earn API, Account API, and 11 more. Tagged areas include Kraken, Cryptocurrency, Exchange, Trading, and Market Data.
 
 
   The Kraken catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1593,7 +1593,7 @@ score:
     regime_id: securities_market_data
     score: 83.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1627,6 +1627,7 @@ solutions:
 - description: B2B integration platform letting partners offer Kraken trading, custody, and Earn primitives inside their own products.
   name: Kraken Embed
 tags:
+- Kraken
 - Cryptocurrency
 - Exchange
 - Trading

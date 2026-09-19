@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ modified: '2026-05-19'
 name: Neo4j
 nav: Providers
 network: true
-overview: 'Neo4j publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Query API, Authentication API, Discovery API, and 4 more. Tagged areas include Graph Database, Cypher, Cloud, GraphQL, and Drivers.
+overview: 'Neo4j publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Query API, Authentication API, Discovery API, and 4 more. Tagged areas include Neo4j, Graph Database, Cypher, Cloud, and GraphQL.
 
 
   The Neo4j catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -311,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -336,6 +336,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, CSA STAR
 slug: neo4j
 tags:
+- Neo4j
 - Graph Database
 - Cypher
 - Cloud

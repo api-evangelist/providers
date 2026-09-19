@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 9
@@ -1086,7 +1086,7 @@ modified: '2026-09-16'
 name: Anthropic
 nav: Providers
 network: true
-overview: 'Anthropic publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Models API, Files API, and 40 more. Tagged areas include Artificial Intelligence, Claude, Foundation Models, LLM, and Machine-Learning.
+overview: 'Anthropic publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Models API, Files API, and 40 more. Tagged areas include LLM, Anthropic, Artificial Intelligence, Claude, and Foundation Models.
 
 
   The Anthropic catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1154,7 +1154,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1179,10 +1179,11 @@ security:
   summary_line: SOC 2 Type I, SOC 2 Type II, ISO 27001:2022, ISO/IEC 42001:2023, HIPAA
 slug: anthropic
 tags:
+- LLM
+- Anthropic
 - Artificial Intelligence
 - Claude
 - Foundation Models
-- LLM
 - Machine-Learning
 - MCP
 - Agents

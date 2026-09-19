@@ -27,7 +27,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 61.2,
      "agent_band": "agent-ready",
@@ -71,7 +71,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -126,7 +126,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 57.0,
      "agent_band": "agent-native",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -214,7 +214,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
@@ -258,7 +258,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -302,7 +302,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 41.5,
      "agent_band": "agent-ready",
@@ -346,7 +346,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -390,7 +390,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -448,7 +448,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -492,7 +492,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -536,7 +536,7 @@
       "developer_ergonomics": 53.0,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -591,7 +591,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -635,7 +635,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -679,7 +679,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 43.0,
      "agent_band": "agent-ready",
@@ -723,7 +723,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -767,7 +767,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -811,7 +811,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -855,7 +855,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -898,7 +898,7 @@
       "developer_ergonomics": 41.1,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -942,7 +942,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -986,7 +986,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -1030,7 +1030,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1081,7 +1081,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -1125,7 +1125,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -1169,7 +1169,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -1213,7 +1213,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -1257,7 +1257,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -1301,7 +1301,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1345,7 +1345,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1389,7 +1389,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1440,7 +1440,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -1484,7 +1484,7 @@
       "developer_ergonomics": 60.7,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1528,7 +1528,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -1582,7 +1582,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -1626,7 +1626,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -1670,7 +1670,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1714,7 +1714,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1758,7 +1758,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -1802,7 +1802,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.6,
      "agent_band": "agent-ready",
@@ -1846,7 +1846,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1890,7 +1890,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1934,7 +1934,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1978,7 +1978,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -2022,7 +2022,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -2066,7 +2066,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -2110,7 +2110,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
@@ -2154,7 +2154,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -2198,7 +2198,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 16.9,
      "agent_band": "agent-aware",
@@ -2241,7 +2241,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -2285,7 +2285,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2329,7 +2329,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2380,7 +2380,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -2424,7 +2424,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
@@ -2468,7 +2468,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -2512,7 +2512,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 45.1,
      "agent_band": "agent-ready",
@@ -2555,7 +2555,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2599,7 +2599,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2643,7 +2643,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -2687,7 +2687,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2731,7 +2731,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.6,
      "agent_band": "agent-aware",
@@ -2785,7 +2785,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.1,
      "agent_band": "agent-aware",
@@ -2828,7 +2828,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2872,7 +2872,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2916,7 +2916,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2960,7 +2960,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3004,7 +3004,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -3048,7 +3048,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -3092,7 +3092,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -3136,7 +3136,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3180,7 +3180,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3224,7 +3224,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3268,7 +3268,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -3312,7 +3312,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -3356,7 +3356,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -3400,7 +3400,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3444,7 +3444,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3487,7 +3487,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3531,7 +3531,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3575,7 +3575,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -3619,7 +3619,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3663,7 +3663,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -3706,7 +3706,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3750,7 +3750,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3793,7 +3793,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3837,7 +3837,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3881,7 +3881,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3925,7 +3925,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3979,7 +3979,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4023,7 +4023,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4067,7 +4067,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4111,7 +4111,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4155,7 +4155,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4199,7 +4199,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4243,7 +4243,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4287,7 +4287,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4331,7 +4331,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4374,7 +4374,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4418,7 +4418,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4462,7 +4462,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4505,7 +4505,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4549,7 +4549,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4592,7 +4592,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4636,7 +4636,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

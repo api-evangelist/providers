@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Run deployed WordApps programmatically. Each published WordApp exposes a run endpoint (POST /api/released-app/{app_id}/run) that accepts a JSON body of named inputs (text, image, audio) plus a semanti
@@ -158,7 +158,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

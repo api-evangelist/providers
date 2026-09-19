@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - baseURL: https://api.ubble.ai
@@ -137,6 +137,10 @@ collections:
   name: Checkout.com - Identity Verification Address document verifications (Coming soon) Address document verifications (Coming soon) Website verifications (Coming soon) API
   slug: open-ubble-website-verifications-coming-soon-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/checkout-com/
 - group: company
   title: ''
   type: Website
@@ -288,7 +292,7 @@ overview: 'Ubble publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Ubble catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ubble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 23 more developer resources.'
+  Ubble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 24 more developer resources.'
 random_paper: 16
 score:
   band: developing
@@ -319,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.3
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 5
 apis:
 - baseURL: https://www.a2bio.com/wp-json/
@@ -131,11 +131,6 @@ common:
   title: ''
   type: SecondaryMarket
   url: https://forgeglobal.com/a2-biotherapeutics_stock/
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/openapi/_original/a2-biotherapeutics-wp-rest-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/a2-biotherapeutics-wp-rest-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/overlays/a2-biotherapeutics-wp-rest-overlay.yaml
   title: ''
@@ -226,7 +221,7 @@ network: true
 overview: 'A2 Biotherapeutics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including MCP API, Oembed/1.0 API, Root API, and 2 more. Tagged areas include Company, Biotechnology, Life Sciences, Cell Therapy, and Immuno-Oncology.
 
 
-  A2 Biotherapeutics'' developer surface includes engineering blog, authentication, and 25 more developer resources.'
+  A2 Biotherapeutics'' developer surface includes engineering blog, authentication, and 24 more developer resources.'
 random_paper: 21
 scopes:
 - name: A2 Biotherapeutics Scopes
@@ -273,7 +268,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

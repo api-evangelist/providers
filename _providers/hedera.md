@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -809,7 +809,7 @@ modified: '2026-07-12'
 name: Hedera
 nav: Providers
 network: true
-overview: 'Hedera publishes 10 APIs on the [APIs.io](https://apis.io/) network, including accounts API, airdrops API, balances API, and 7 more. Tagged areas include Distributed Ledger, Blockchain, DLT, Hashgraph, and Transaction.
+overview: 'Hedera publishes 10 APIs on the [APIs.io](https://apis.io/) network, including accounts API, airdrops API, balances API, and 7 more. Tagged areas include Hedera, Distributed Ledger, Blockchain, DLT, and Hashgraph.
 
 
   The Hedera catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -864,7 +864,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -877,6 +877,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: hedera
 tags:
+- Hedera
 - Distributed Ledger
 - Blockchain
 - DLT

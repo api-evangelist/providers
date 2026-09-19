@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 4
@@ -309,7 +309,7 @@ modified: '2026-05-19'
 name: Strapi
 nav: Providers
 network: true
-overview: 'Strapi publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Admin Authentication API, Admin Roles API, and 12 more. Tagged areas include CMS, Content Management, Headless CMS, Node.js, and Open-Source.
+overview: 'Strapi publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Admin Authentication API, Admin Roles API, and 12 more. Tagged areas include Strapi, CMS, Content Management, Headless CMS, and Node.js.
 
 
   The Strapi catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -385,7 +385,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -406,6 +406,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: strapi
 tags:
+- Strapi
 - CMS
 - Content Management
 - Headless CMS

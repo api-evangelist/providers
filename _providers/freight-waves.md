@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -126,11 +126,6 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://firecrown.com/privacy-policy/
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/_original/freight-waves-sonar-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/freight-waves-sonar-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/overlays/freight-waves-sonar-overlay.yaml
   title: ''
@@ -221,7 +216,7 @@ network: true
 overview: 'Freight Waves publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Data API, and Lookup API. Tagged areas include Company, Freight, Logistics, Supply Chain, and Transportation.
 
 
-  Freight Waves'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
+  Freight Waves'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 21 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 1
@@ -268,7 +263,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: The first-party HTTP API behind the Vidjet embed and the Vidjet platform plugins, served from https://app-api.vidjet.io (Express). Vidjet publishes no developer documentation, reference, or machine-re
@@ -168,7 +168,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

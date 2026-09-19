@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -1441,7 +1441,7 @@ modified: '2026-06-20'
 name: ServiceNow
 nav: Providers
 network: true
-overview: 'ServiceNow publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 13 more. Tagged areas include Automation, Cloud Services, Digital Workflows, Enterprise Platform, and ITSM.
+overview: 'ServiceNow publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 13 more. Tagged areas include ServiceNow, Automation, Cloud Services, Digital Workflows, and Enterprise Platform.
 
 
   The ServiceNow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1524,7 +1524,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1545,6 +1545,7 @@ security:
   summary_line: SOC 2 Type II, ISO 27001:2022, ISO 27017, ISO 27018, FedRAMP (High P-ATO, first achieved 2019), IRAP
 slug: servicenow
 tags:
+- ServiceNow
 - Automation
 - Cloud Services
 - Digital Workflows

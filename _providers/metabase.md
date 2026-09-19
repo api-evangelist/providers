@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ modified: '2026-05-19'
 name: Metabase
 nav: Providers
 network: true
-overview: 'Metabase publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Cards API, Collections API, Dashboards API, and 7 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data Visualization, and Open-Source.
+overview: 'Metabase publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Cards API, Collections API, Dashboards API, and 7 more. Tagged areas include Metabase, Analytics, Business Intelligence, Dashboards, and Data Visualization.
 
 
   Metabase''s developer surface includes authentication, documentation, engineering blog, pricing, GitHub presence, signup flow, support, and 8 more developer resources.'
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -271,6 +271,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: metabase
 tags:
+- Metabase
 - Analytics
 - Business Intelligence
 - Dashboards

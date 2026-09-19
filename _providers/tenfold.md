@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - baseURL: https://api.tenfold.com
@@ -112,6 +112,10 @@ collections:
   slug: open-tenfold-users-api
 common:
 - group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/liveperson/
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/capabilities/tenfold-capability-edges.yml
   title: ''
   type: CapabilityMap
@@ -181,7 +185,7 @@ overview: 'Tenfold publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Tenfold catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tenfold''s developer surface includes API reference, documentation, authentication, and 9 more developer resources.'
+  Tenfold''s developer surface includes API reference, documentation, authentication, and 10 more developer resources.'
 random_paper: 0
 score:
   band: thin
@@ -212,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

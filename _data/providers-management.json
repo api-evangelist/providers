@@ -27,7 +27,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -71,7 +71,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
@@ -126,7 +126,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -214,7 +214,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -258,7 +258,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -302,7 +302,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -346,7 +346,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -390,7 +390,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -434,7 +434,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -489,7 +489,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -533,7 +533,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -577,7 +577,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -621,7 +621,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -665,7 +665,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -709,7 +709,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -753,7 +753,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -797,7 +797,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -841,7 +841,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -885,7 +885,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -914,66 +914,22 @@
      "rank": 20
     },
     {
-     "name": "TIBCO",
-     "slug": "tibco",
-     "description": "APIs and services provided by TIBCO Software Inc., a global leader in integration, API management, and analytics software.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/screenshots/tibco-2026-08-17T082218.png",
-     "score": 44.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 79.6,
-      "contract_quality": 70.6,
-      "contract_governance": 28.8,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-17",
-     "schema_version": "0.22.0",
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 21
-    },
-    {
      "name": "Envoy",
      "slug": "envoy",
      "description": "Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Istio.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/screenshots/envoy-2026-06-20T180740.png",
-     "score": 44.5,
+     "score": 45.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 63.0,
+      "discoverability": 72.2,
       "contract_quality": 61.5,
       "contract_governance": 9.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 44.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -999,6 +955,50 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
+     "rank": 21
+    },
+    {
+     "name": "TIBCO",
+     "slug": "tibco",
+     "description": "APIs and services provided by TIBCO Software Inc., a global leader in integration, API management, and analytics software.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/screenshots/tibco-2026-08-17T082218.png",
+     "score": 44.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 79.6,
+      "contract_quality": 70.6,
+      "contract_governance": 28.8,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 35.7,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-18",
+     "schema_version": "0.22.0",
+     "agent_score": 20.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
      "rank": 22
     },
     {
@@ -1017,7 +1017,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 21.4,
      "agent_band": "agent-aware",
@@ -1061,7 +1061,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1105,7 +1105,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1159,7 +1159,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
@@ -1203,7 +1203,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1247,7 +1247,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1291,7 +1291,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1335,7 +1335,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1379,7 +1379,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1423,7 +1423,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1467,7 +1467,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1521,7 +1521,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1565,7 +1565,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1609,7 +1609,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",

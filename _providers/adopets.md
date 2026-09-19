@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -106,11 +106,6 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/adopets
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/openapi/_original/adopets-external-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/adopets-external-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/overlays/adopets-external-overlay.yaml
   title: ''
@@ -192,7 +187,7 @@ network: true
 overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: payment-request API, payment-transaction API, and system-auth API. Tagged areas include Pet Adoption, Animal Welfare, Shelters and Rescues, Adoption Management, and Payments.
 
 
-  Adopets'' developer surface includes documentation, API reference, authentication, sandbox, and 17 more developer resources.'
+  Adopets'' developer surface includes documentation, API reference, authentication, sandbox, and 16 more developer resources.'
 random_paper: 4
 score:
   band: emerging
@@ -230,7 +225,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

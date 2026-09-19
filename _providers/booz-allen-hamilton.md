@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: The HTTP and A2A surface of Booz Allen's Agent Foundry agent baseline, an Apache-2.0 composition root that teams fork and deploy in their own environment. It serves three REST groups — /api/v1/query (
@@ -285,7 +285,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

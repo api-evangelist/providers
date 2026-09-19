@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.1
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1442,7 +1442,7 @@ modified: '2026-08-21'
 name: Red Hat
 nav: Providers
 network: true
-overview: 'Red Hat publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Streams for Apache Kafka Bridge API, Notifications API, Add-Ons API, and 33 more. Tagged areas include Cloud, Containers, Enterprise, Hybrid Cloud, and Kubernetes.
+overview: 'Red Hat publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Streams for Apache Kafka Bridge API, Notifications API, Add-Ons API, and 33 more. Tagged areas include Red Hat, Cloud, Containers, Enterprise, and Hybrid Cloud.
 
 
   The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1520,7 +1520,7 @@ score:
       total: 34
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1545,6 +1545,7 @@ security:
   summary_line: SOC 2 Type 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, PCI DSS 4.0, FIPS 140-2, FIPS 140-3, Common Criteria, FedRAMP High
 slug: red-hat
 tags:
+- Red Hat
 - Cloud
 - Containers
 - Enterprise

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ collections:
   name: Octobat API
   slug: open-octobat
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/mirakl/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/agentic-access/octobat-agentic-access.yml
   title: ''
@@ -188,7 +192,7 @@ network: true
 overview: 'Octobat publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Coupons API, Credit Notes API, Customers API, and 6 more. Tagged areas include Billing, Invoicing, Tax Compliance, VAT, and E-Commerce.
 
 
-  Octobat''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Octobat''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Octobat Plans Pricing
   plan_count: 4
@@ -231,7 +235,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

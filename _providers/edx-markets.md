@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: 'The EDX Markets institutional trading interface, delivered over the FIX protocol: FIX 5.0 SP2 order entry and drop copy plus FIX and binary (SBE) market data over a FIXT.1.1 session inside a mutually '
@@ -176,7 +176,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

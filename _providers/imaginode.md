@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: 'REST API to list models and launch/track image and video generations. Endpoints: GET /api/models (unauthenticated catalog & pricing), POST /api/generate, GET /api/generate/status. Uses imk_ bearer-key'
@@ -152,7 +152,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

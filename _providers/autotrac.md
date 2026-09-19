@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Contact Sales
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
+  - https://www.autotrac.com.br/produtos-para-voce/embarcadores/
+  - https://www.autotrac.com.br/solucoes/solucao-mercado-segurador/
+  - https://www.autotrac.com.br/fale-com-a-gente/
+  - https://www.autotrac.com.br/sitemap_index.xml
   trial: false
   try_now: false
 agent_readiness:
@@ -33,8 +36,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
-api_count: 3
+  scored_at: '2026-09-18'
+api_count: 4
 apis:
 - description: 'The AutoTrac Supervisor Web platform provides fleet management capabilities for monitoring vehicle locations, managing fleet operations, generating reports, and coordinating driver assignments across '
   name: AutoTrac Supervisor Web API
@@ -45,7 +48,10 @@ apis:
 - description: The AutoTrac Jornada platform manages driver journey logs and compliance with Brazilian driving hour regulations, tracking driving time, rest periods, and journey records for long-distance transport c
   name: AutoTrac Jornada Driver Journey API
   slug: jornada-api
-artifact_total: 20
+- description: The "Serviço API de integração" is the one product AutoTrac markets as an API. For shippers (embarcadores) it feeds a control tower with real-time information on the carriers serving the company — log
+  name: AutoTrac Serviço API de Integração
+  slug: integration-api
+artifact_total: 21
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/security/autotrac-domain-security.yml
@@ -56,6 +62,62 @@ common:
   title: ''
   type: Website
   url: https://www.autotrac.com.br
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/plans/autotrac-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/autotrac-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/autotrac/refs/heads/main/rate-limits/autotrac-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/autotrac-rate-limits.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.autotrac.com.br/fale-com-a-gente/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.autotrac.com.br/fale-com-a-gente/perguntas-frequentes/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.autotrac.com.br/noticias/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.autotrac.com.br/politica-de-privacidade/
+- group: start
+  title: ''
+  type: Login
+  url: https://www.autotrac-online.com.br/supervisor/Pages/login.aspx
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/meuautotrac
+- group: company
+  title: ''
+  type: About
+  url: https://www.autotrac.com.br/por-que-autotrac/conheca-a-autotrac/
+coverage:
+  checked: '2026-09-18'
+  detail: AutoTrac markets a "Serviço API de integração" on its shipper and insurer product pages but publishes no developer page, reference, spec or pricing anywhere in its 745-URL sitemap — every developer path on www.autotrac.com.br 404s, the application host www.autotrac-online.com.br redirects every path to the Supervisor customer login, and third-party integrators describe credentials and IP allow-listing issued by AutoTrac per contract.
+  evidence:
+  - status: 200
+    url: https://www.autotrac.com.br/produtos-para-voce/embarcadores/
+  - status: 404
+    url: https://www.autotrac.com.br/developers
+  - status: 404
+    url: https://www.autotrac.com.br/api
+  - status: 302
+    url: https://www.autotrac-online.com.br/api
+  - status: 404
+    url: https://www.autotrac.com.br/openapi.json
+  - status: 404
+    url: https://www.autotrac.com.br/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2024-01-01'
 description: AutoTrac is a Brazilian fleet management and vehicle tracking technology company with over 30 years of experience. As the national market leader, AutoTrac provides satellite and cellular fleet tracking solutions, real-time telemetry, driver journey management, and management intelligence platforms for logistics, agriculture, maritime, and insurance sectors. The company operates its own terrestrial satellite communication station and data center for nationwide coverage.
 features:
@@ -82,38 +144,41 @@ integrations:
 - description: API integration with insurance carriers for vehicle recovery, claims verification, and telematics-based premium calculation.
   name: Insurance Platforms
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: AutoTrac
 nav: Providers
 network: true
-overview: AutoTrac publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, GPS Tracking, Telematics, Vehicle Tracking, and Logistics.
+overview: 'AutoTrac publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fleet Management, GPS Tracking, Telematics, Vehicle Tracking, and Logistics.
+
+
+  AutoTrac''s developer surface includes support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Autotrac Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: autotrac-plans-pricing
 random_paper: 9
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Autotrac Rate Limits
   slug: autotrac-rate-limits
 score:
   band: emerging
-  composite: 12.6
+  composite: 12.4
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 44.0
+    artifact_dirs: 7
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
-    access_clarity: 15.8
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 7.1
     discoverability: 64.8
-    operational_transparency: 7.9
+    operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -122,8 +187,14 @@ score:
     regions:
     - latin-america
   previous_composite: 12.6
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false
@@ -144,6 +215,8 @@ tags:
 - Logistics
 - Brazil
 - Satellite Communication
+- Insurance Telematics
+- Supply Chain Visibility
 use_cases:
 - description: Track trucks and cargo across Brazil using satellite and cellular communication for nationwide visibility of logistics operations.
   name: Long-Distance Logistics Tracking

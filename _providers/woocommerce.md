@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -1167,7 +1167,7 @@ modified: '2026-05-19'
 name: WooCommerce
 nav: Providers
 network: true
-overview: 'WooCommerce publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Webhook Events, Cart API, Checkout API, and 17 more. Tagged areas include E-Commerce, Open-Source, Order, Product, and WordPress.
+overview: 'WooCommerce publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Webhook Events, Cart API, Checkout API, and 17 more. Tagged areas include WooCommerce, E-Commerce, Open-Source, Order, and Product.
 
 
   The WooCommerce catalog on APIs.io includes 1 event-driven AsyncAPI specification, 33 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1243,7 +1243,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1264,6 +1264,7 @@ security:
   summary_line: Hackerone
 slug: woocommerce
 tags:
+- WooCommerce
 - E-Commerce
 - Open-Source
 - Order

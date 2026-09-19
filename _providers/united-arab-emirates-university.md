@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 4
 apis:
 - description: The university's own single sign-on service, running on UAEU's registrable domain under a certificate issued to *.uaeu.ac.ae. It is the login point for UAEU applications — Banner Self-Service at ssb.u
@@ -246,7 +246,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 5
 apis:
 - description: Aiera's hosted remote Model Context Protocol server, exposing the financial research corpus to LLMs and agentic workflows as roughly three dozen specialized tools across equities and financials, index
@@ -352,7 +352,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

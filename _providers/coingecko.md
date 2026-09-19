@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -421,7 +421,7 @@ modified: '2026-05-29'
 name: CoinGecko
 nav: Providers
 network: true
-overview: 'CoinGecko publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Asset Platforms API, Categories API, Coins API, and 19 more. Tagged areas include Aggregator, Blockchain, Cryptocurrency, Decentralized Exchanges, and DeFi.
+overview: 'CoinGecko publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Asset Platforms API, Categories API, Coins API, and 19 more. Tagged areas include Exchange, CoinGecko, Aggregator, Blockchain, and Cryptocurrency.
 
 
   The CoinGecko catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -503,7 +503,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false
@@ -521,13 +521,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: coingecko
 tags:
+- Exchange
+- CoinGecko
 - Aggregator
 - Blockchain
 - Cryptocurrency
 - Decentralized Exchanges
 - DeFi
 - DEX
-- Exchange
 - Liquidity Pools
 - Market Data
 - NFT

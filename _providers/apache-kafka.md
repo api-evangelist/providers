@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -616,7 +616,7 @@ modified: '2026-06-20'
 name: Apache Kafka
 nav: Providers
 network: true
-overview: 'Apache Kafka publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, ACL API, Broker API, and 9 more. Tagged areas include Distributed Systems, Event Streaming, Messaging, Open-Source, and Pub-Sub.
+overview: 'Apache Kafka publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, ACL API, Broker API, and 9 more. Tagged areas include Apache Kafka, Distributed Systems, Event Streaming, Messaging, and Open-Source.
 
 
   The Apache Kafka catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -697,7 +697,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -714,6 +714,7 @@ security:
   summary_line: security.txt · contact published
 slug: apache-kafka
 tags:
+- Apache Kafka
 - Distributed Systems
 - Event Streaming
 - Messaging

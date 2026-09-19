@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -188,6 +188,10 @@ collections:
   slug: open-perimeter-81-wireguard-api
 common:
 - group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/checkpoint/
+- group: other
   href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/capabilities/perimeter-81-capability-edges.yml
   title: ''
   type: CapabilityMap
@@ -278,7 +282,7 @@ network: true
 overview: 'Perimeter 81 publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Application API, Enhanced Networks API, Enhanced Regions API, and 14 more. Tagged areas include Company, Cybersecurity, SASE, Zero Trust, and Networking.
 
 
-  Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 12 more developer resources.'
+  Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 13 more developer resources.'
 random_paper: 1
 score:
   band: thin
@@ -310,7 +314,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

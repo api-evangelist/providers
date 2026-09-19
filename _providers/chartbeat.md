@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 5
 apis:
 - description: Live audience and traffic data updated every three seconds — top pages, referrers, geographies, engaged time, loyalty, and live concurrent visitors — the data behind the Real-Time Dashboard. HTTP GET,
@@ -225,7 +225,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

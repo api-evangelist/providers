@@ -27,7 +27,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -70,7 +70,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.0,
      "agent_band": "agent-aware",
@@ -113,7 +113,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -163,7 +163,7 @@
       "developer_ergonomics": 41.1,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -206,7 +206,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -249,7 +249,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -292,7 +292,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -335,7 +335,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
@@ -378,7 +378,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -421,7 +421,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -471,7 +471,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 46.7,
      "agent_band": "agent-native",
@@ -514,7 +514,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
@@ -557,7 +557,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -618,7 +618,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -668,7 +668,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -718,7 +718,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -768,7 +768,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -810,7 +810,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -860,7 +860,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -903,7 +903,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -953,7 +953,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -995,7 +995,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1038,7 +1038,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1081,7 +1081,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 40.3,
      "agent_band": "agent-native",
@@ -1124,7 +1124,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 41.0,
      "agent_band": "agent-native",
@@ -1167,7 +1167,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1217,7 +1217,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 44.0,
      "agent_band": "agent-native",
@@ -1260,7 +1260,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -1303,7 +1303,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1353,7 +1353,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -1396,7 +1396,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -1439,7 +1439,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -1481,7 +1481,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
@@ -1524,7 +1524,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 43.5,
      "agent_band": "agent-native",
@@ -1567,7 +1567,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -1610,7 +1610,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1660,7 +1660,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 38.0,
      "agent_band": "agent-ready",
@@ -1703,7 +1703,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 44.8,
      "agent_band": "agent-native",
@@ -1746,7 +1746,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -1789,7 +1789,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -1832,7 +1832,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 45.0,
      "agent_band": "agent-native",
@@ -1875,7 +1875,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -1918,7 +1918,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1968,7 +1968,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2011,7 +2011,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2061,7 +2061,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 41.2,
      "agent_band": "agent-native",
@@ -2104,7 +2104,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -2147,7 +2147,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2190,7 +2190,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -2232,7 +2232,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2275,7 +2275,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 21.2,
      "agent_band": "agent-aware",
@@ -2318,7 +2318,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2368,7 +2368,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2411,7 +2411,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -2454,7 +2454,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2515,7 +2515,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2564,7 +2564,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.3,
      "agent_band": "agent-aware",
@@ -2607,7 +2607,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2650,7 +2650,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -2693,7 +2693,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
@@ -2736,7 +2736,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2779,7 +2779,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -2822,7 +2822,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2872,7 +2872,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2915,7 +2915,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.6,
      "agent_band": "agent-aware",
@@ -2958,7 +2958,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3001,7 +3001,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.7,
      "agent_band": "agent-aware",
@@ -3044,7 +3044,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -3087,7 +3087,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 21.4,
      "agent_band": "agent-aware",
@@ -3130,7 +3130,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -3173,7 +3173,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -3216,7 +3216,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -3259,7 +3259,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -3302,7 +3302,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -3344,7 +3344,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -3387,7 +3387,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 15.9,
      "agent_band": "agent-aware",
@@ -3430,7 +3430,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -3472,7 +3472,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -3515,7 +3515,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 16.4,
      "agent_band": "agent-aware",
@@ -3558,7 +3558,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.7,
      "agent_band": "agent-aware",
@@ -3601,7 +3601,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -3644,7 +3644,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3693,7 +3693,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 46.3,
      "agent_band": "agent-native",
@@ -3736,7 +3736,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -3779,7 +3779,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -3822,7 +3822,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -3865,7 +3865,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -3908,7 +3908,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -3951,7 +3951,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 16.4,
      "agent_band": "agent-aware",
@@ -3994,7 +3994,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 32.6,
      "agent_band": "agent-ready",
@@ -4037,7 +4037,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -4080,7 +4080,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4130,7 +4130,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -4172,7 +4172,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -4215,7 +4215,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 16.4,
      "agent_band": "agent-aware",
@@ -4257,7 +4257,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -4300,7 +4300,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -4343,7 +4343,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -4386,7 +4386,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -4429,7 +4429,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -4472,7 +4472,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
@@ -4515,7 +4515,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -4558,7 +4558,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4608,7 +4608,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
@@ -4650,7 +4650,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4700,7 +4700,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4742,7 +4742,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -4785,7 +4785,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 18.7,
      "agent_band": "agent-aware",
@@ -4827,7 +4827,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -4870,7 +4870,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4913,7 +4913,7 @@
       "developer_ergonomics": 23.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 14.7,
      "agent_band": "agent-aware",
@@ -4955,7 +4955,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -4998,7 +4998,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
@@ -5041,7 +5041,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5084,7 +5084,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5127,7 +5127,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5177,7 +5177,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 7.2,
      "agent_band": "agent-aware",
@@ -5220,7 +5220,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -5263,7 +5263,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5306,7 +5306,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5349,7 +5349,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -5392,7 +5392,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -5435,7 +5435,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5478,7 +5478,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 14.7,
      "agent_band": "agent-aware",
@@ -5521,7 +5521,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 13.8,
      "agent_band": "agent-aware",
@@ -5564,7 +5564,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -5607,7 +5607,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5657,7 +5657,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5700,7 +5700,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
@@ -5743,7 +5743,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5793,7 +5793,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -5836,7 +5836,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5879,7 +5879,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5929,7 +5929,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5972,7 +5972,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -6015,7 +6015,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6058,7 +6058,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -6101,7 +6101,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 13.8,
      "agent_band": "agent-aware",
@@ -6144,7 +6144,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
@@ -6187,7 +6187,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6237,7 +6237,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
@@ -6280,7 +6280,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6330,7 +6330,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6373,7 +6373,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6416,7 +6416,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6466,7 +6466,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -6509,7 +6509,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6552,7 +6552,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -6595,7 +6595,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6638,7 +6638,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6681,7 +6681,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6724,7 +6724,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6773,7 +6773,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6816,7 +6816,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6865,7 +6865,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6915,7 +6915,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -6957,7 +6957,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7000,7 +7000,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7043,7 +7043,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7093,7 +7093,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7136,7 +7136,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7179,7 +7179,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7222,7 +7222,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7265,7 +7265,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -7308,7 +7308,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -7351,7 +7351,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7394,7 +7394,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7437,7 +7437,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7479,7 +7479,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7522,7 +7522,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7565,7 +7565,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 6.9,
      "agent_band": "agent-aware",
@@ -7607,7 +7607,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7650,7 +7650,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7693,7 +7693,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7736,7 +7736,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7779,7 +7779,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -7822,7 +7822,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7865,7 +7865,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7907,7 +7907,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7950,7 +7950,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7993,7 +7993,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8036,7 +8036,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8079,7 +8079,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8122,7 +8122,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8165,7 +8165,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8208,7 +8208,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8251,7 +8251,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8301,7 +8301,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8354,7 +8354,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8397,7 +8397,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8440,7 +8440,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8483,7 +8483,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8533,7 +8533,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8576,7 +8576,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -8619,7 +8619,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8662,7 +8662,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8705,7 +8705,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8755,7 +8755,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8798,7 +8798,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8841,7 +8841,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8884,7 +8884,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8927,7 +8927,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8970,7 +8970,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9013,7 +9013,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9056,7 +9056,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9099,7 +9099,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9142,7 +9142,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9184,7 +9184,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -9227,7 +9227,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9270,7 +9270,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9313,7 +9313,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9356,7 +9356,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9399,7 +9399,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9442,7 +9442,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9484,7 +9484,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9527,7 +9527,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9570,7 +9570,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9613,7 +9613,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9663,7 +9663,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9713,7 +9713,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9763,7 +9763,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9813,7 +9813,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9856,7 +9856,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9899,7 +9899,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -9942,7 +9942,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9985,7 +9985,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10028,7 +10028,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10071,7 +10071,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10114,7 +10114,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10157,7 +10157,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10200,7 +10200,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10243,7 +10243,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10286,7 +10286,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -10329,7 +10329,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -10372,7 +10372,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10415,7 +10415,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -10458,7 +10458,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10501,7 +10501,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 14.4,
      "agent_band": "agent-aware",
@@ -10544,7 +10544,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -10587,7 +10587,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10630,7 +10630,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10673,7 +10673,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10716,7 +10716,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10758,7 +10758,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10801,7 +10801,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10844,7 +10844,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10887,7 +10887,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10930,7 +10930,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10973,7 +10973,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11015,7 +11015,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11058,7 +11058,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11100,7 +11100,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11143,7 +11143,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11186,7 +11186,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11229,7 +11229,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11271,7 +11271,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11314,7 +11314,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11357,7 +11357,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -11400,7 +11400,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11443,7 +11443,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11486,7 +11486,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11529,7 +11529,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11572,7 +11572,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11615,7 +11615,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -11658,7 +11658,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11744,7 +11744,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11787,7 +11787,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11830,7 +11830,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11873,7 +11873,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11908,22 +11908,21 @@
      "rank": 270
     },
     {
-     "name": "Avon Products",
-     "slug": "avon-products",
-     "description": "Avon Products is a global manufacturer and marketer of beauty and related products, primarily distributed through a network of independent sales representatives.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avon-products/refs/heads/main/screenshots/avon-products-2026-07-25T202009.png",
-     "score": 6.3,
+     "name": "ConAgra Foods",
+     "slug": "conagra-foods",
+     "description": "ConAgra Foods, Inc. was the prior corporate name of Conagra Brands. In 2015 the company spun off its foodservice ingredients business as Lamb Weston and renamed the remaining packaged-foods business to Conagra Brands, Inc. This profile is preserved as a historical alias; the active company profile lives at the conagra-brands repository. No public developer APIs were ever published under the ConAgra Foods brand.",
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11951,48 +11950,6 @@
      "rank": 271
     },
     {
-     "name": "ConAgra Foods",
-     "slug": "conagra-foods",
-     "description": "ConAgra Foods, Inc. was the prior corporate name of Conagra Brands. In 2015 the company spun off its foodservice ingredients business as Lamb Weston and renamed the remaining packaged-foods business to Conagra Brands, Inc. This profile is preserved as a historical alias; the active company profile lives at the conagra-brands repository. No public developer APIs were ever published under the ConAgra Foods brand.",
-     "score": 6.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-17",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 272
-    },
-    {
      "name": "Achats Group",
      "slug": "achatsgroup",
      "description": "Achats Group (아샤그룹) is a South Korean media-commerce company founded in February 2017 and led by CEO Vivian Eun Young Lee, with offices in Pangyo (Seongnam) and Magok (Seoul). It manufactures and sells everyday consumer goods — sanitizing and deodorizing sprays, foot care, living care, health drinks and cosmetics — under its own brands Cellomon, ND247 / Neverdie, Biotreat and BringB, marketing them through short-form video and social advertising that routes buyers into its own Cafe24 storefronts and a Naver Smart Store. Public records put total funding near USD 6.2 million through a Series B. It is a direct-to-consumer consumer-goods business, not a software vendor: as of 2026-09-06 achatsgroup.co.kr is a Cafe24-hosted brochure site still carrying unedited pages from its purchased template, with no developer portal, no API documentation, no SDK and no machine-readable API contract, and the brand storefronts are hosted Cafe24 malls whose only /api path is Cafe24's own.",
@@ -12007,7 +11964,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12039,7 +11996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "Topgolf Callaway Brands",
@@ -12056,7 +12013,50 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 273
+    },
+    {
+     "name": "Wolverine World Wide",
+     "slug": "wolverine-world-wide",
+     "description": "Wolverine World Wide is a leading designer, manufacturer, and marketer of branded footwear, apparel, and accessories. Brands include Merrell, Saucony, Wolverine, Sperry, Sweaty Betty, and Hush Puppies. The company operates global wholesale, direct-to-consumer, and digital commerce channels. Wolverine World Wide does not currently expose a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wolverine-world-wide/refs/heads/main/screenshots/wolverine-world-wide-2026-06-20T201539.png",
+     "score": 6.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12084,22 +12084,22 @@
      "rank": 274
     },
     {
-     "name": "Wolverine World Wide",
-     "slug": "wolverine-world-wide",
-     "description": "Wolverine World Wide is a leading designer, manufacturer, and marketer of branded footwear, apparel, and accessories. Brands include Merrell, Saucony, Wolverine, Sperry, Sweaty Betty, and Hush Puppies. The company operates global wholesale, direct-to-consumer, and digital commerce channels. Wolverine World Wide does not currently expose a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wolverine-world-wide/refs/heads/main/screenshots/wolverine-world-wide-2026-06-20T201539.png",
-     "score": 6.0,
+     "name": "Brown-Forman",
+     "slug": "brown-forman",
+     "description": "Brown-Forman Corporation is one of the largest American-owned spirits and wine companies in the world, established in 1870 and headquartered in Louisville, Kentucky. The company produces, bottles, imports, exports, markets, and sells a wide variety of alcoholic beverages under brands including Jack Daniel's, Woodford Reserve, Old Forester, Herradura, El Jimador, Slane Irish Whiskey, Benriach, Chambord, Diplomático, and Ford's Gin. Brown-Forman is traded on the NYSE under tickers BF.A and BF.B.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brown-forman/refs/heads/main/screenshots/brown-forman-2026-06-20T173721.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12127,49 +12127,6 @@
      "rank": 275
     },
     {
-     "name": "Brown-Forman",
-     "slug": "brown-forman",
-     "description": "Brown-Forman Corporation is one of the largest American-owned spirits and wine companies in the world, established in 1870 and headquartered in Louisville, Kentucky. The company produces, bottles, imports, exports, markets, and sells a wide variety of alcoholic beverages under brands including Jack Daniel's, Woodford Reserve, Old Forester, Herradura, El Jimador, Slane Irish Whiskey, Benriach, Chambord, Diplomático, and Ford's Gin. Brown-Forman is traded on the NYSE under tickers BF.A and BF.B.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brown-forman/refs/heads/main/screenshots/brown-forman-2026-06-20T173721.png",
-     "score": 5.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-17",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 276
-    },
-    {
      "name": "Curaleaf Holdings",
      "slug": "curaleaf",
      "description": "The largest cannabis company in the world by revenue operating cultivation, processing, and retail dispensary operations. Operates in multiple U.S. states and international markets producing cannabis flower, pre-rolls, edibles, and vape products under leading brands.",
@@ -12185,7 +12142,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12217,7 +12174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "Nestlé",
@@ -12234,7 +12191,50 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 277
+    },
+    {
+     "name": "Callisto Media",
+     "slug": "callisto-media",
+     "description": "Callisto Media Inc. was a data-driven nonfiction book publisher founded in 2011 by chief executive Benjamin Wayne, operating from 1955 Broadway in Oakland, California (earlier Emeryville) and 220 West 19th Street in New York. It built a publishing model around demand signals rather than editorial instinct — mining point-of-sale data, search volume and category gaps to decide which instructional titles to commission, then matching each topic to a subject-matter author. Its primary imprint was Rockridge Press, best known for diet-, appliance- and condition-specific cookbooks and health titles, alongside the Callisto Kids line of pre-K through grade 12 workbooks, STEM, history and biography titles; the company said it had reached more than 50 million customers and ranked among the top fifteen US publishers by unit sales. It raised venture funding from 137 Ventures in 2017, then contracted sharply — cutting 35 percent of staff in July 2022 and a further 200 roles that October — and on 9 May 2023 its publishing assets were acquired by the independent publisher Sourcebooks in a deal funded by Penguin Random House, with Simon & Schuster Distribution Services continuing to distribute the titles. The brand now trades as Callisto Publishing, a Sourcebooks imprint: callistomedia.com 301-redirects to callistopublishing.com, which 301-redirects again to sourcebooks.com/callisto (chain verified 2026-08-02). Callisto Media is a consumer publishing business, not a software vendor, and has no public API surface. Probes on 2026-08-02 against callistomedia.com, www.callistopublishing.com and www.sourcebooks.com returned no machine-readable contract: /openapi.json, /swagger.json and /.well-known/ai-plugin.json all 404, /.well-known/agent-card.json and /.well-known/agent.json both 404 (no A2A agent card), and every other probed path answered with the Sourcebooks single-page Magento storefront shell rather than a document. There is no developer portal, no GitHub organization (callistomedia, callisto-media and rockridgepress all 404 on the GitHub API), no published SDK on npm or PyPI, and no llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/callisto-media/refs/heads/main/screenshots/callisto-media-2026-08-07T162913.png",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12262,10 +12262,9 @@
      "rank": 278
     },
     {
-     "name": "Callisto Media",
-     "slug": "callisto-media",
-     "description": "Callisto Media Inc. was a data-driven nonfiction book publisher founded in 2011 by chief executive Benjamin Wayne, operating from 1955 Broadway in Oakland, California (earlier Emeryville) and 220 West 19th Street in New York. It built a publishing model around demand signals rather than editorial instinct — mining point-of-sale data, search volume and category gaps to decide which instructional titles to commission, then matching each topic to a subject-matter author. Its primary imprint was Rockridge Press, best known for diet-, appliance- and condition-specific cookbooks and health titles, alongside the Callisto Kids line of pre-K through grade 12 workbooks, STEM, history and biography titles; the company said it had reached more than 50 million customers and ranked among the top fifteen US publishers by unit sales. It raised venture funding from 137 Ventures in 2017, then contracted sharply — cutting 35 percent of staff in July 2022 and a further 200 roles that October — and on 9 May 2023 its publishing assets were acquired by the independent publisher Sourcebooks in a deal funded by Penguin Random House, with Simon & Schuster Distribution Services continuing to distribute the titles. The brand now trades as Callisto Publishing, a Sourcebooks imprint: callistomedia.com 301-redirects to callistopublishing.com, which 301-redirects again to sourcebooks.com/callisto (chain verified 2026-08-02). Callisto Media is a consumer publishing business, not a software vendor, and has no public API surface. Probes on 2026-08-02 against callistomedia.com, www.callistopublishing.com and www.sourcebooks.com returned no machine-readable contract: /openapi.json, /swagger.json and /.well-known/ai-plugin.json all 404, /.well-known/agent-card.json and /.well-known/agent.json both 404 (no A2A agent card), and every other probed path answered with the Sourcebooks single-page Magento storefront shell rather than a document. There is no developer portal, no GitHub organization (callistomedia, callisto-media and rockridgepress all 404 on the GitHub API), no published SDK on npm or PyPI, and no llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/callisto-media/refs/heads/main/screenshots/callisto-media-2026-08-07T162913.png",
+     "name": "Tupperware Brands",
+     "slug": "tupperware-brands",
+     "description": "Tupperware Brands Corporation was an American multinational consumer goods company that manufactured and marketed premium kitchen storage, preparation, and serving products under the Tupperware brand, as well as related home product lines. The company distributed products to approximately 70 countries through independent sales force members. Tupperware Brands filed for Chapter 11 bankruptcy in September 2024 and underwent liquidation in 2025. The Tupperware brand name was subsequently acquired by Party Products LLC. No public developer API program was available during the company's operation.",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12277,7 +12276,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12305,21 +12304,22 @@
      "rank": 279
     },
     {
-     "name": "Tupperware Brands",
-     "slug": "tupperware-brands",
-     "description": "Tupperware Brands Corporation was an American multinational consumer goods company that manufactured and marketed premium kitchen storage, preparation, and serving products under the Tupperware brand, as well as related home product lines. The company distributed products to approximately 70 countries through independent sales force members. Tupperware Brands filed for Chapter 11 bankruptcy in September 2024 and underwent liquidation in 2025. The Tupperware brand name was subsequently acquired by Party Products LLC. No public developer API program was available during the company's operation.",
-     "score": 5.7,
+     "name": "Hormel Foods",
+     "slug": "hormel-foods",
+     "description": "Hormel Foods Corporation is a global branded food company with over $12 billion in annual revenue. Known for brands like SPAM, Skippy, Jennie-O, Hormel, and Planters. The company produces and markets a wide range of meat, nut, and food products. No public APIs were identified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hormel-foods/refs/heads/main/screenshots/hormel-foods-2026-06-20T182834.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12347,10 +12347,10 @@
      "rank": 280
     },
     {
-     "name": "Hormel Foods",
-     "slug": "hormel-foods",
-     "description": "Hormel Foods Corporation is a global branded food company with over $12 billion in annual revenue. Known for brands like SPAM, Skippy, Jennie-O, Hormel, and Planters. The company produces and markets a wide range of meat, nut, and food products. No public APIs were identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hormel-foods/refs/heads/main/screenshots/hormel-foods-2026-06-20T182834.png",
+     "name": "Simple Love Yogurt",
+     "slug": "simple-love-yogurt",
+     "description": "Simple Love (简爱酸奶) is a Chinese natural yogurt brand operated by Pucheng Dairy (Group) Co., Ltd. (朴诚乳业), founded in 2016. Known for zero-additive, low-temperature fresh yogurts with short ingredient lists — including its no-sugar, probiotic, high-protein, and coconut lines — the brand is distributed across supermarket shelves in every Chinese province and operates its own manufacturing capacity in Hebei. Surfaced as a portfolio company of Hongshan and added to the API Evangelist network as a stub. As a consumer packaged-goods (CPG) dairy company it publishes a corporate/consumer website but no public developer, API, or programmatic surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/simple-love-yogurt/refs/heads/main/screenshots/simple-love-yogurt-2026-09-02T155539.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12362,7 +12362,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12390,22 +12390,21 @@
      "rank": 281
     },
     {
-     "name": "Simple Love Yogurt",
-     "slug": "simple-love-yogurt",
-     "description": "Simple Love (简爱酸奶) is a Chinese natural yogurt brand operated by Pucheng Dairy (Group) Co., Ltd. (朴诚乳业), founded in 2016. Known for zero-additive, low-temperature fresh yogurts with short ingredient lists — including its no-sugar, probiotic, high-protein, and coconut lines — the brand is distributed across supermarket shelves in every Chinese province and operates its own manufacturing capacity in Hebei. Surfaced as a portfolio company of Hongshan and added to the API Evangelist network as a stub. As a consumer packaged-goods (CPG) dairy company it publishes a corporate/consumer website but no public developer, API, or programmatic surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/simple-love-yogurt/refs/heads/main/screenshots/simple-love-yogurt-2026-09-02T155539.png",
-     "score": 5.5,
+     "name": "Onda",
+     "slug": "onda",
+     "description": "Onda is a ready-to-drink spirits brand that makes canned sparkling tequila — blanco tequila from a woman-owned distillery in Jalisco, Mexico, blended with sparkling water and real fruit juice and sold in 12 oz cans at 5% ABV, 100 calories, zero sugar and naturally gluten free, in lime, blood orange, watermelon and grapefruit. The company was founded in 2019 and launched publicly in July 2020 by Noah Gray (CEO), Max Dworin (COO), Kelli Adams (CCO) and actor-producer Shay Mitchell (Chief Brand Officer). It raised a $5M Series A in 2021 and a $12.5M growth round in 2022 from existing investors including Aria Growth Partners and 25madison, and sells through national grocery, liquor retail and third-party beverage e-commerce alongside its own direct-to-consumer store. NO PUBLIC API SURFACE: Onda is a consumer packaged goods company, not a software vendor — there is no developer program, no API documentation, no SDK and no machine-readable contract of any kind. Its only owned web property, drinkonda.com, is a Shopify storefront that on 2026-08-26 returned HTTP 404 \"This store is unavailable\" on every path probed, with a robots.txt that disallows all crawling and a Shopify-generated /llms.txt that states agent interaction is not possible; the last archived working capture of the storefront is 2026-02-18. Onda appears in the API Evangelist network because it trades on the private secondary market (EquityZen, Nasdaq Private Market), not because it publishes an API.",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 53.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12433,21 +12432,22 @@
      "rank": 282
     },
     {
-     "name": "Onda",
-     "slug": "onda",
-     "description": "Onda is a ready-to-drink spirits brand that makes canned sparkling tequila — blanco tequila from a woman-owned distillery in Jalisco, Mexico, blended with sparkling water and real fruit juice and sold in 12 oz cans at 5% ABV, 100 calories, zero sugar and naturally gluten free, in lime, blood orange, watermelon and grapefruit. The company was founded in 2019 and launched publicly in July 2020 by Noah Gray (CEO), Max Dworin (COO), Kelli Adams (CCO) and actor-producer Shay Mitchell (Chief Brand Officer). It raised a $5M Series A in 2021 and a $12.5M growth round in 2022 from existing investors including Aria Growth Partners and 25madison, and sells through national grocery, liquor retail and third-party beverage e-commerce alongside its own direct-to-consumer store. NO PUBLIC API SURFACE: Onda is a consumer packaged goods company, not a software vendor — there is no developer program, no API documentation, no SDK and no machine-readable contract of any kind. Its only owned web property, drinkonda.com, is a Shopify storefront that on 2026-08-26 returned HTTP 404 \"This store is unavailable\" on every path probed, with a robots.txt that disallows all crawling and a Shopify-generated /llms.txt that states agent interaction is not possible; the last archived working capture of the storefront is 2026-02-18. Onda appears in the API Evangelist network because it trades on the private secondary market (EquityZen, Nasdaq Private Market), not because it publishes an API.",
-     "score": 5.4,
+     "name": "Chefs' Warehouse",
+     "slug": "chefs-warehouse",
+     "description": "The Chefs' Warehouse, Inc. (NASDAQ: CHEF) is a premier distributor of specialty food products to high-end independent restaurants, fine dining establishments, country clubs, hotels, caterers, culinary schools, bakeries, and specialty food stores across North America and the Middle East. The company offers a broad portfolio of artisan, exotic, and signature ingredients spanning center-of-the-plate proteins, specialty dry goods, produce, pastry, cheese and charcuterie, dairy and eggs, oils and vinegars, and kitchen supplies. Customers order through a B2B e-commerce platform (re-platformed to Optimizely B2B in 2021, previously Magento) and companion iOS and Android wholesale-ordering apps built in partnership with Unbound Commerce. As of this profiling, Chefs' Warehouse does not publish a public developer portal, API documentation, SDKs, or open-source repositories; its digital surface is a buyer-facing ordering experience rather than a programmatic API. This profile documents the company's public footprint for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chefs-warehouse/refs/heads/main/screenshots/chefs-warehouse-2026-06-20T174307.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 53.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12475,10 +12475,10 @@
      "rank": 283
     },
     {
-     "name": "Chefs' Warehouse",
-     "slug": "chefs-warehouse",
-     "description": "The Chefs' Warehouse, Inc. (NASDAQ: CHEF) is a premier distributor of specialty food products to high-end independent restaurants, fine dining establishments, country clubs, hotels, caterers, culinary schools, bakeries, and specialty food stores across North America and the Middle East. The company offers a broad portfolio of artisan, exotic, and signature ingredients spanning center-of-the-plate proteins, specialty dry goods, produce, pastry, cheese and charcuterie, dairy and eggs, oils and vinegars, and kitchen supplies. Customers order through a B2B e-commerce platform (re-platformed to Optimizely B2B in 2021, previously Magento) and companion iOS and Android wholesale-ordering apps built in partnership with Unbound Commerce. As of this profiling, Chefs' Warehouse does not publish a public developer portal, API documentation, SDKs, or open-source repositories; its digital surface is a buyer-facing ordering experience rather than a programmatic API. This profile documents the company's public footprint for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chefs-warehouse/refs/heads/main/screenshots/chefs-warehouse-2026-06-20T174307.png",
+     "name": "General Mills",
+     "slug": "general-mills",
+     "description": "General Mills is a leading global food company that manufactures and markets branded consumer foods including Cheerios, Betty Crocker, Pillsbury, Haagen- Dazs, Nature Valley, Old El Paso, and Progresso. General Mills operates in over 100 countries. The company does not currently publish a public developer API portal and primarily relies on EDI and direct supply chain integrations with retail partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-mills/refs/heads/main/screenshots/general-mills-2026-06-20T181727.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12490,7 +12490,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12518,10 +12518,10 @@
      "rank": 284
     },
     {
-     "name": "General Mills",
-     "slug": "general-mills",
-     "description": "General Mills is a leading global food company that manufactures and markets branded consumer foods including Cheerios, Betty Crocker, Pillsbury, Haagen- Dazs, Nature Valley, Old El Paso, and Progresso. General Mills operates in over 100 countries. The company does not currently publish a public developer API portal and primarily relies on EDI and direct supply chain integrations with retail partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-mills/refs/heads/main/screenshots/general-mills-2026-06-20T181727.png",
+     "name": "Hasbro",
+     "slug": "hasbro",
+     "description": "Hasbro is a global play and entertainment company committed to making the world a better place for children and their families through brands and franchises including NERF, MAGIC: THE GATHERING, MY LITTLE PONY, and TRANSFORMERS. This repository tracks public APIs, developer resources, and machine-readable API artifacts associated with Hasbro. No public developer APIs have been published at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hasbro/refs/heads/main/screenshots/hasbro-2026-06-20T182528.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12533,7 +12533,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12559,49 +12559,6 @@
       "agentic_commerce": false
      },
      "rank": 285
-    },
-    {
-     "name": "Hasbro",
-     "slug": "hasbro",
-     "description": "Hasbro is a global play and entertainment company committed to making the world a better place for children and their families through brands and franchises including NERF, MAGIC: THE GATHERING, MY LITTLE PONY, and TRANSFORMERS. This repository tracks public APIs, developer resources, and machine-readable API artifacts associated with Hasbro. No public developer APIs have been published at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hasbro/refs/heads/main/screenshots/hasbro-2026-06-20T182528.png",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-17",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 286
     },
     {
      "name": "Jarden",
@@ -12644,7 +12601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "Lego",
@@ -12662,7 +12619,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12694,7 +12651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Lululemon Athletica",
@@ -12712,7 +12669,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12729,6 +12686,49 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 288
+    },
+    {
+     "name": "Avon Products",
+     "slug": "avon-products",
+     "description": "Avon Products is a global manufacturer and marketer of beauty and related products, primarily distributed through a network of independent sales representatives. Founded in 1886 and headquartered in Northampton, UK as Avon International, it was owned by Natura &Co from 2020 until Regent acquired it in January 2026; its corporate site is avonworldwide.com. The North American business (avon.com) was separated in 2016 and has been run as a distinct company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avon-products/refs/heads/main/screenshots/avon-products-2026-07-25T202009.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-18",
+     "schema_version": "0.22.0",
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -12754,7 +12754,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12797,7 +12797,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12839,7 +12839,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12882,7 +12882,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12925,7 +12925,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12968,7 +12968,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13011,7 +13011,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13054,7 +13054,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13097,7 +13097,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -13140,7 +13140,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13182,7 +13182,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13225,7 +13225,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13268,7 +13268,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13310,7 +13310,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13352,7 +13352,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13395,7 +13395,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -13437,7 +13437,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13479,7 +13479,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13522,7 +13522,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13565,7 +13565,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13608,7 +13608,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13651,7 +13651,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13693,7 +13693,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13736,7 +13736,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13778,7 +13778,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13821,7 +13821,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13863,7 +13863,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13906,7 +13906,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13949,7 +13949,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13992,7 +13992,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14034,7 +14034,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14076,7 +14076,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14119,7 +14119,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14161,7 +14161,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14204,7 +14204,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14247,7 +14247,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14377,7 +14377,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14462,7 +14462,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14505,7 +14505,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14547,7 +14547,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14590,7 +14590,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14632,7 +14632,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14675,7 +14675,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14718,7 +14718,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14760,7 +14760,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14802,7 +14802,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14845,7 +14845,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14930,7 +14930,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14973,7 +14973,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15016,7 +15016,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15059,7 +15059,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15102,7 +15102,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15145,7 +15145,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15195,7 +15195,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15238,7 +15238,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15281,7 +15281,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15331,7 +15331,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15373,7 +15373,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15416,7 +15416,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15458,7 +15458,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15501,7 +15501,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15544,7 +15544,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15587,7 +15587,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15629,7 +15629,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15672,7 +15672,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15715,7 +15715,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15758,7 +15758,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15801,7 +15801,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15844,7 +15844,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15887,7 +15887,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15937,7 +15937,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15980,7 +15980,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16023,7 +16023,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16073,7 +16073,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16122,7 +16122,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16172,7 +16172,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16215,7 +16215,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16257,7 +16257,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16307,7 +16307,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16357,7 +16357,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16407,7 +16407,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16457,7 +16457,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16507,7 +16507,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16549,7 +16549,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16592,7 +16592,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16635,7 +16635,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16677,7 +16677,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16720,7 +16720,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -16767,7 +16767,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16810,7 +16810,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -16857,7 +16857,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -16904,7 +16904,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16953,7 +16953,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17002,7 +17002,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17051,7 +17051,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17100,7 +17100,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

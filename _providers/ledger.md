@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 14
 apis:
 - description: Bi-directional JSON-RPC 2.0 interface between a Live App (dApp) and a wallet implementing the Wallet API Server, such as Ledger Wallet. Currency-agnostic modules for accounts, currencies, transactions
@@ -458,7 +458,7 @@ modified: '2026-08-25'
 name: Ledger
 nav: Providers
 network: true
-overview: 'Ledger publishes 40 APIs on the [APIs.io](https://apis.io/) network, including 4337 API, Accounts API, Authentication API, and 37 more. Tagged areas include Cryptocurrency, Digital Assets, Hardware Wallet, Self-Custody, and institutional-custody.
+overview: 'Ledger publishes 40 APIs on the [APIs.io](https://apis.io/) network, including 4337 API, Accounts API, Authentication API, and 37 more. Tagged areas include Ledger, Cryptocurrency, Digital Assets, Hardware Wallet, and Self-Custody.
 
 
   The Ledger catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -515,7 +515,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -540,6 +540,7 @@ security:
   summary_line: SOC 2 Type 2, ISO 27001, ISO 22301, CSPN V4 (ANSSI security visa), FIPS 140 Level III, Common Criteria EAL5+
 slug: ledger
 tags:
+- Ledger
 - Cryptocurrency
 - Digital Assets
 - Hardware Wallet

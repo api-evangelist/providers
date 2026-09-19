@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 7
 apis:
 - description: Modeled logical service area for the people and organizations attached to a file - buyers, sellers, lenders, agents, and vendors - and their roles and mappings to partner-side identifiers. Delivered o
@@ -59,6 +59,10 @@ apis:
   slug: resware-partners-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/qualia-title/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/resware/refs/heads/main/security/resware-domain-security.yml
   title: ''
@@ -100,7 +104,7 @@ network: true
 overview: 'ResWare publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title, Escrow, Real-Estate, Closing, and Title Production.
 
 
-  ResWare''s developer surface includes documentation and 6 more developer resources.'
+  ResWare''s developer surface includes documentation and 7 more developer resources.'
 random_paper: 13
 score:
   band: minimal
@@ -122,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: 'The Ellipsis Drive API v3 provides programmatic access to manage, use, and integrate spatial data: accounts and organizations, users, folders/paths, maps, vector and raster layers, point clouds, acces'
@@ -174,7 +174,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

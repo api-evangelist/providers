@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 6
 apis:
 - baseURL: https://effectphotonics.com/wp-json/
@@ -165,11 +165,6 @@ common:
   title: ''
   type: SecondaryMarket
   url: https://www.nasdaqprivatemarket.com/
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/effect-photonics/refs/heads/main/openapi/_original/effect-photonics-wp-rest-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/effect-photonics-wp-rest-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/effect-photonics/refs/heads/main/overlays/effect-photonics-wp-rest-overlay.yaml
   title: ''
@@ -256,7 +251,7 @@ network: true
 overview: 'EFFECT Photonics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Wp/v2 API, Effect/v1 API, MCP API, and 3 more. Tagged areas include Company, Photonics, Optical Networking, Optical Transceivers, and Photonic Integrated Circuits.
 
 
-  EFFECT Photonics'' developer surface includes engineering blog, support, FAQ, authentication, and 29 more developer resources.'
+  EFFECT Photonics'' developer surface includes engineering blog, support, FAQ, authentication, and 28 more developer resources.'
 plans:
 - name: Effect Photonics Plans Pricing
   plan_count: 0
@@ -314,7 +309,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: 'An MCP (Model Context Protocol) server exposed by the WordPress MCP adapter at /wp-json/mcp/mcp-oauth-server on endeavorbiomedicines.com. The endpoint is live but authentication-gated: an anonymous in'
@@ -231,7 +231,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

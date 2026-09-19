@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 6
 apis:
 - description: The external API of the Federated Wireless Spectrum Controller, the cloud platform that manages CBRS spectrum assignment, CBSD lifecycle, monitoring and compliance. The Spectrum Controller web applica
@@ -271,7 +271,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

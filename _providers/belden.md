@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 0
-artifact_total: 14
+artifact_total: 15
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/belden/refs/heads/main/security/belden-domain-security.yml
@@ -57,6 +57,44 @@ common:
   title: Hirschmann Technical Support
   type: Support
   url: https://hirschmann-support.belden.com
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/belden/refs/heads/main/security/belden-vulnerability-disclosure.yml
+  title: Belden PSIRT vulnerability disclosure
+  type: Security
+  url: security/belden-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/belden/refs/heads/main/security/belden-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/belden-vulnerability-disclosure.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.belden.com/blog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.belden.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.belden.com/privacy-policy/terms-of-use
+coverage:
+  checked: '2026-09-18'
+  detail: Belden's programmable surfaces are on-device (Hirschmann HiOS CLI/SNMP/OPC UA, Lumberg LioN-X IO-Link masters) and are documented only as 644 PDF manuals on www.doc.hirschmann.com; no OpenAPI, YANG, WSDL or other spec file is served on any Belden host, the Belden Horizon console at belden.io is login-only with no published API, and www.belden.com itself sits behind a Cloudflare managed challenge for crawlers.
+  evidence:
+  - status: 200
+    url: https://www.doc.hirschmann.com/
+  - status: 404
+    url: https://www.doc.hirschmann.com/openapi.json
+  - status: 301
+    url: https://www.belden.io/
+  - status: 404
+    url: https://www.belden.io/openapi.json
+  - status: 403
+    url: https://www.belden.com/products/industrial-networking-cybersecurity/software-solutions/device-software/hios-switch-software
+  reason: pdf-only-docs
+  state: unreadable
 created: '2026-03-23'
 description: Belden Inc. designs, manufactures, and markets networking, connectivity, and cable products and solutions for industrial automation, smart buildings, and broadcast markets. The company delivers end-to-end signal transmission solutions for mission-critical applications, including industrial Ethernet infrastructure, cybersecurity, and IIoT connectivity. Belden's Hirschmann brand is a leading provider of industrial network switches and management software with CLI, SNMP, and REST API interfaces for network device management.
 features:
@@ -81,7 +119,7 @@ jsonld:
   property_count: 36
   slug: belden-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: Belden
 nav: Providers
 network: true
@@ -91,7 +129,7 @@ overview: 'Belden is profiled on the [APIs.io](https://apis.io/) network. Tagged
   The Belden catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Belden''s developer surface includes documentation, support, and 3 more developer resources.'
+  Belden''s developer surface includes documentation, support, engineering blog, and 7 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Belden Inc. - Financials - Quarterly Results
@@ -110,27 +148,27 @@ press:
   url: https://www.investing.com/news/earnings/belden-earnings-up-next-as-investors-eye-physical-ai-push-93CH-4500853
 random_paper: 2
 score:
-  band: minimal
-  composite: 9.6
+  band: emerging
+  composite: 15.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.0
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 50.0
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   previous_composite: 9.6
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
-  trend: flat
+  scored_at: '2026-09-18'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -141,6 +179,10 @@ security:
   name: Belden Domain Security
   slug: belden-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Belden Vulnerability Disclosure
+  slug: belden-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: belden
 tags:
 - Broadcast

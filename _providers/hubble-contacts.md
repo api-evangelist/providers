@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 3
 apis:
 - description: 'Agent-facing commerce surface for the Hubble Contacts online store, implementing the Universal Commerce Protocol (UCP) over MCP/JSON-RPC. Hubble''s own /agents.md documents the flow: discover capabilit'
@@ -231,7 +231,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

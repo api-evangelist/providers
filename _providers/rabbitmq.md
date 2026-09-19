@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ modified: '2026-05-19'
 name: RabbitMQ
 nav: Providers
 network: true
-overview: 'RabbitMQ publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AMQP Messaging API, Bindings API, Channels API, and 11 more. Tagged areas include AMQP, Distributed Systems, Event Streaming, Message Broker, and Messaging.
+overview: 'RabbitMQ publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AMQP Messaging API, Bindings API, Channels API, and 11 more. Tagged areas include Queues, RabbitMQ, AMQP, Distributed Systems, and Event Streaming.
 
 
   The RabbitMQ catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -302,11 +302,12 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: rabbitmq
 tags:
+- Queues
+- RabbitMQ
 - AMQP
 - Distributed Systems
 - Event Streaming
 - Message Broker
 - Messaging
-- Queues
 website: https://www.rabbitmq.com/
 ---

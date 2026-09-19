@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 5
 apis:
 - description: The Lumen Developer Center publishes Lumen's enterprise API catalog, including Location, Quoting, Ordering, Service Inventory, Billing, Outbound Notification, and Trouble Ticket APIs. All APIs use OAu
@@ -239,7 +239,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

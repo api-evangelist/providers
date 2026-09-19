@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 7
 apis:
 - baseURL: https://blockstream.info/api
@@ -114,11 +114,6 @@ common:
   title: ''
   type: Blog
   url: https://blockstream.com/blog/
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/openapi/_original/blockstream-esplora-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/blockstream-esplora-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/overlays/blockstream-esplora-overlay.yaml
   title: ''
@@ -205,7 +200,7 @@ network: true
 overview: 'Blockstream publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Assets API, Blocks API, and 4 more. Tagged areas include Company, Bitcoin, Blockchain, Cryptocurrency, and Block Explorer.
 
 
-  Blockstream''s developer surface includes documentation, engineering blog, authentication, sandbox, and 16 more developer resources.'
+  Blockstream''s developer surface includes documentation, engineering blog, authentication, sandbox, and 15 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -236,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

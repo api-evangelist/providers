@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 2
@@ -899,7 +899,7 @@ modified: '2026-09-16'
 name: Zoom
 nav: Providers
 network: true
-overview: 'Zoom publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Meeting API, Account API, Chat API, and 14 more. Tagged areas include Chat, Collaboration, Communications, Meetings, and Video Conferencing.
+overview: 'Zoom publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Meeting API, Account API, Chat API, and 14 more. Tagged areas include Video, Zoom, Chat, Collaboration, and Communications.
 
 
   The Zoom catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -981,7 +981,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1002,12 +1002,13 @@ security:
   summary_line: security.txt · contact published
 slug: zoom
 tags:
+- Video
+- Zoom
 - Chat
 - Collaboration
 - Communications
 - Meetings
 - Video Conferencing
-- Video
 - Webinars
 use_cases:
 - description: Enable distributed teams to collaborate effectively with video meetings, chat, and shared workspaces.

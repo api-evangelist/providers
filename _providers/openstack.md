@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -277,7 +277,7 @@ modified: '2026-05-19'
 name: OpenStack
 nav: Providers
 network: true
-overview: 'OpenStack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Endpoints API, Flavors API, and 11 more. Tagged areas include Cloud Platform, Infrastructure-as-a-Service, Open-Source, Virtualization, and Linux Foundation.
+overview: 'OpenStack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Endpoints API, Flavors API, and 11 more. Tagged areas include OpenStack, Cloud Platform, Infrastructure-as-a-Service, Open-Source, and Virtualization.
 
 
   The OpenStack catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -331,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -348,6 +348,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: openstack
 tags:
+- OpenStack
 - Cloud Platform
 - Infrastructure-as-a-Service
 - Open-Source

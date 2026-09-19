@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -88,6 +88,10 @@ collections:
   name: LLM Guard API
   slug: open-protectai
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/palo-alto-networks/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/agentic-access/protectai-agentic-access.yml
   title: ''
@@ -153,7 +157,7 @@ network: true
 overview: 'Protect AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Output API, Prompt API, and System API. Tagged areas include Artificial Intelligence, Machine-Learning, Security, LLM, and Guardrails.
 
 
-  Protect AI''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Protect AI''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Protectai Plans Pricing
   plan_count: 3
@@ -190,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

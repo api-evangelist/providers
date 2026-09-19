@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 0
@@ -137,6 +137,10 @@ collections:
   name: deployment/APISync.proto AuthzService VersioningService API
   slug: open-verta-versioningservice-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cloudera/
 - group: company
   title: ''
   type: Website
@@ -246,7 +250,7 @@ network: true
 overview: 'Verta publishes 11 APIs on the [APIs.io](https://apis.io/) network, including AuthzService API, DatasetService API, ExperimentRunService API, and 8 more. Tagged areas include MLOps, Machine-Learning, Model Management, Experiment Tracking, and Model Registry.
 
 
-  Verta''s developer surface includes authentication, changelog, documentation, and 18 more developer resources.'
+  Verta''s developer surface includes authentication, changelog, documentation, and 19 more developer resources.'
 random_paper: 18
 score:
   band: emerging
@@ -281,7 +285,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

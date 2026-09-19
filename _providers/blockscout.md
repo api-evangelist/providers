@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ modified: '2026-05-08'
 name: Blockscout
 nav: Providers
 network: true
-overview: 'Blockscout publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Blocks API, CelestiaService API, and 11 more. Tagged areas include Web3, Explorer, Open-Source, EVM, and Multi-Chain.
+overview: 'Blockscout publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Blocks API, CelestiaService API, and 11 more. Tagged areas include Blockscout, Web3, Explorer, Open-Source, and EVM.
 
 
   Blockscout''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 12 more developer resources.'
@@ -312,7 +312,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -325,6 +325,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: blockscout
 tags:
+- Blockscout
 - Web3
 - Explorer
 - Open-Source

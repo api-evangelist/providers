@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -139,11 +139,6 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/miriel-llms.txt
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/_original/miriel-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/miriel-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/overlays/miriel-overlay.yaml
   title: ''
@@ -228,7 +223,7 @@ network: true
 overview: 'Miriel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Learn API, Monitoring API, and 4 more. Tagged areas include Company, Artificial Intelligence, Context Engine, Retrieval, and RAG.
 
 
-  Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 19 more developer resources.'
+  Miriel''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 18 more developer resources.'
 random_paper: 4
 score:
   band: emerging
@@ -260,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

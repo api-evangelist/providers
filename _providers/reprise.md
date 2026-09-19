@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 3
 apis:
 - description: The Reprise MCP server is a remote Model Context Protocol endpoint that lets any MCP-compatible AI assistant — Claude, ChatGPT, Codex, Microsoft Copilot, Gemini, Cursor — drive the whole Reprise platf
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

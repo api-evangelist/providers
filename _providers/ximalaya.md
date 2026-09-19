@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: 'The core Ximalaya Open Platform HTTP+JSON API on api.ximalaya.com: free on-demand content (albums, tracks, categories, tags), paid on-demand content metadata, content search with hot/suggest words, re'
@@ -222,7 +222,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

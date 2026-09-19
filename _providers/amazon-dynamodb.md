@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,10 +23,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: true
+    error_semantics: documented
+    event_surface_described: false
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-09-17'
+  score: 38.5
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -45,27 +45,27 @@ agentic_access:
   summary_line: 15 operations · 15 acting
 api_count: 1
 apis:
-- baseURL: https://dynamodb.amazonaws.com
+- baseURL: https://dynamodb.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for batch reading and writing multiple items
   name: Amazon DynamoDB Batch API
   slug: amazon-dynamodb-batch-api
-- baseURL: https://dynamodb.amazonaws.com
+- baseURL: https://dynamodb.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for putting, getting, updating, and deleting individual items
   name: Amazon DynamoDB Items API
   slug: amazon-dynamodb-items-api
-- baseURL: https://dynamodb.amazonaws.com
+- baseURL: https://dynamodb.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for querying and scanning table data
   name: Amazon DynamoDB Queries API
   slug: amazon-dynamodb-queries-api
-- baseURL: https://dynamodb.amazonaws.com
+- baseURL: https://dynamodb.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for creating, describing, updating, listing, and deleting DynamoDB tables
   name: Amazon DynamoDB Tables API
   slug: amazon-dynamodb-tables-api
-- baseURL: https://dynamodb.amazonaws.com
+- baseURL: https://dynamodb.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for transactional reads and writes across multiple items
   name: Amazon DynamoDB Transactions API
@@ -101,7 +101,7 @@ arazzos:
 - description: Atomically write a group of items, then atomically read them back.
   name: Amazon DynamoDB Transactional Write Then Transactional Read
   slug: amazon-dynamodb-transaction-write-then-read-workflow
-artifact_total: 152
+artifact_total: 153
 collections:
 - collection_type: postman
   name: Amazon DynamoDB API
@@ -128,6 +128,111 @@ collections:
   name: Amazon DynamoDB API
   slug: open-amazon-dynamodb
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/smithy/dynamodb-2012-08-10.json
+  title: ''
+  type: Smithy
+  url: smithy/dynamodb-2012-08-10.json
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/packages/amazon-dynamodb-packages.yml
+  title: ''
+  type: Packages
+  url: packages/amazon-dynamodb-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/packages/amazon-dynamodb-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/amazon-dynamodb-packages.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/mcp/amazon-dynamodb-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/amazon-dynamodb-mcp.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/mcp/amazon-dynamodb-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/amazon-dynamodb-tool-crosswalk.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/llms/amazon-dynamodb-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/amazon-dynamodb-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/well-known/amazon-dynamodb-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/amazon-dynamodb-well-known.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/well-known/amazon-dynamodb-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/amazon-dynamodb-security.txt
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/cli/amazon-dynamodb-cli.yml
+  title: ''
+  type: CLI
+  url: cli/amazon-dynamodb-cli.yml
+- group: start
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/sandbox/amazon-dynamodb-sandbox.yml
+  title: ''
+  type: Sandbox
+  url: sandbox/amazon-dynamodb-sandbox.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/changelog/amazon-dynamodb-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/amazon-dynamodb-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/lifecycle/amazon-dynamodb-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/amazon-dynamodb-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/lifecycle/amazon-dynamodb-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/amazon-dynamodb-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/conventions/amazon-dynamodb-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/amazon-dynamodb-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/conventions/amazon-dynamodb-conventions.yml
+  title: ''
+  type: Idempotency
+  url: conventions/amazon-dynamodb-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/errors/amazon-dynamodb-problem-types.yml
+  title: ''
+  type: ErrorCatalog
+  url: errors/amazon-dynamodb-problem-types.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/data-model/amazon-dynamodb-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/amazon-dynamodb-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/conformance/amazon-dynamodb-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/amazon-dynamodb-conformance.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/plans/amazon-dynamodb-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-dynamodb-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/rate-limits/amazon-dynamodb-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/amazon-dynamodb-rate-limits.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -640,24 +745,28 @@ jsonld:
   property_count: 92
   slug: amazon-dynamodb-context
 layout: provider
-modified: '2026-09-16'
+mcp_servers:
+- description: ''
+  name: Amazon DynamoDB MCP Server
+  slug: amazon-dynamodb-mcp-server
+modified: '2026-09-18'
 name: Amazon DynamoDB
 nav: Providers
 network: true
-overview: 'Amazon DynamoDB publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 3 more. Tagged areas include Database, Document Store, Key-Value, NoSQL, and Serverless.
+overview: 'Amazon DynamoDB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 2 more. Tagged areas include Database, Document Store, Key-Value, NoSQL, and Serverless.
 
 
   The Amazon DynamoDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DynamoDB''s developer surface includes pricing, authentication, developer portal, documentation, support, engineering blog, developer console, and 30 more developer resources.'
+  Amazon DynamoDB''s developer surface includes CLI, sandbox, changelog, pricing, authentication, developer portal, documentation, and 51 more developer resources.'
 plans:
 - name: Amazon Dynamodb Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: amazon-dynamodb-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 5
+- limit_count: 8
   name: Amazon Dynamodb Rate Limits
   slug: amazon-dynamodb-rate-limits
 rules:
@@ -683,34 +792,37 @@ rules:
     warn: 19
   slug: amazon-dynamodb-spectral-rules
 score:
-  band: strong
-  composite: 64.4
+  band: exemplar
+  composite: 79.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 72.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 42.5
+    artifact_dirs: 34
+    catalog_earned: 90.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 24.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 15.0
   facets:
-    access_clarity: 69.7
-    contract_governance: 28.8
-    contract_quality: 84.4
-    developer_ergonomics: 65.5
-    discoverability: 75.9
-    operational_transparency: 36.8
+    access_clarity: 93.4
+    contract_governance: 47.0
+    contract_quality: 76.2
+    developer_ergonomics: 81.5
+    discoverability: 83.3
+    operational_transparency: 84.2
   previous_composite: 64.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: first-party
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
-  trend: flat
+  scored_at: '2026-09-18'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

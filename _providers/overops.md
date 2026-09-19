@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -178,6 +178,10 @@ collections:
   name: Services Alerts Views API
   slug: open-overops-views-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/harness/
 - group: company
   title: ''
   type: Website
@@ -301,7 +305,7 @@ network: true
 overview: 'Overops publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Code Redaction API, and 13 more. Tagged areas include Company, Observability, Reliability, Error Monitoring, and Application Performance.
 
 
-  Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 19 more developer resources.'
+  Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 20 more developer resources.'
 random_paper: 12
 score:
   band: thin
@@ -333,7 +337,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

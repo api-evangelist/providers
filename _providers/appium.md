@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -350,7 +350,7 @@ modified: '2026-09-16'
 name: Appium
 nav: Providers
 network: true
-overview: 'Appium publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Device API, and 7 more. Tagged areas include Android, Cross-Platform, iOS, Mobile Testing, and Open-Source.
+overview: 'Appium publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Device API, and 7 more. Tagged areas include Appium, Android, Cross-Platform, iOS, and Mobile Testing.
 
 
   The Appium catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -418,7 +418,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -453,6 +453,7 @@ skills:
   slug: xcuitest-real-device-config
 slug: appium
 tags:
+- Appium
 - Android
 - Cross-Platform
 - iOS

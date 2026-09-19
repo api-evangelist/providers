@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Rhone's agent-facing commerce surface, implementing the Universal Commerce Protocol over MCP (JSON-RPC 2.0). Thirteen tools cover catalog search and lookup, product detail, cart create / update / canc
@@ -160,7 +160,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

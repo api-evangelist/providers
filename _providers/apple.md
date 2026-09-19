@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -614,7 +614,7 @@ modified: '2026-05-19'
 name: Apple
 nav: Providers
 network: true
-overview: 'Apple publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apps API, Beta Testers API, and Builds API. Tagged areas include Developers, iOS, macOS, Mobile, and Technology.
+overview: 'Apple publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apps API, Beta Testers API, and Builds API. Tagged areas include Apple, Developers, iOS, macOS, and Mobile.
 
 
   The Apple catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -695,7 +695,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -716,6 +716,7 @@ security:
   summary_line: security.txt · contact published
 slug: apple
 tags:
+- Apple
 - Developers
 - iOS
 - macOS

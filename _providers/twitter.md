@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -806,7 +806,7 @@ modified: '2026-05-19'
 name: X (Twitter)
 nav: Providers
 network: true
-overview: 'X (Twitter) publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Activity API, Bookmarks API, and 18 more. Tagged areas include Social-Media, Microblogging, Real-Time Data, Streaming, and Advertising.
+overview: 'X (Twitter) publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Activity API, Bookmarks API, and 18 more. Tagged areas include X / Twitter, Social-Media, Microblogging, Real-Time Data, and Streaming.
 
 
   The X (Twitter) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -876,7 +876,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -896,6 +896,7 @@ solutions:
 - description: Advertising platform API for campaign management, audience targeting, creative management, and analytics.
   name: X Ads API
 tags:
+- X / Twitter
 - Social-Media
 - Microblogging
 - Real-Time Data

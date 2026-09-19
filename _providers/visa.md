@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -751,7 +751,7 @@ modified: '2026-09-16'
 name: Visa
 nav: Providers
 network: true
-overview: 'Visa publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Government Insights Hub, Payment Account Reference Inquiry, Pilot Program Enablement, and 51 more. Tagged areas include Account, Banking, Credit Cards, Digital Commerce, and Digital Wallet.
+overview: 'Visa publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Government Insights Hub, Payment Account Reference Inquiry, Pilot Program Enablement, and 51 more. Tagged areas include Visa, Account, Banking, Credit Cards, and Digital Commerce.
 
 
   The Visa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -838,7 +838,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -855,6 +855,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: visa
 tags:
+- Visa
 - Account
 - Banking
 - Credit Cards

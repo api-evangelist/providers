@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 2
@@ -178,6 +178,10 @@ collections:
   name: Tidelift External Alignments Vulnerabilities API
   slug: open-tidelift-vulnerabilities-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sonar/
 - group: company
   title: ''
   type: Website
@@ -336,7 +340,7 @@ overview: 'Tidelift publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Tidelift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tidelift''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 24 more developer resources.'
+  Tidelift''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 25 more developer resources.'
 random_paper: 17
 score:
   band: thin
@@ -368,7 +372,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

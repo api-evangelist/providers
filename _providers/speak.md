@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Production application backend for the Speak language-learning app. It is an OAuth2/OIDC issuer (token endpoint at /v1/auth/token, JWKS published) serving the iOS, Android, and web clients. Not docume
@@ -139,7 +139,7 @@ score:
     regime_id: education
     score: 44.4
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

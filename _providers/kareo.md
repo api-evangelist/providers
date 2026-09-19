@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -104,6 +104,10 @@ collections:
   name: Kareo Integration SOAP Administrative Providers API
   slug: open-kareo-providers-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/tebra/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/agentic-access/kareo-agentic-access.yml
   title: ''
@@ -209,7 +213,7 @@ overview: 'Kareo publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Kareo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Kareo''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Kareo''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Kareo Plans Pricing
   plan_count: 5
@@ -263,7 +267,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

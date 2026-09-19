@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -626,7 +626,7 @@ modified: '2026-06-20'
 name: Meta
 nav: Providers
 network: true
-overview: 'Meta publishes 3 APIs on the [APIs.io](https://apis.io/) network: Custom Audiences API, Pages API, and Users API. Tagged areas include Advertising, Analytics, Artificial Intelligence, Messaging, and Social.
+overview: 'Meta publishes 3 APIs on the [APIs.io](https://apis.io/) network: Custom Audiences API, Pages API, and Users API. Tagged areas include Meta, Advertising, Analytics, Artificial Intelligence, and Messaging.
 
 
   The Meta catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -687,7 +687,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -708,6 +708,7 @@ security:
   summary_line: security.txt · contact published
 slug: meta
 tags:
+- Meta
 - Advertising
 - Analytics
 - Artificial Intelligence

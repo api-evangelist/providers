@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -364,7 +364,7 @@ modified: '2026-07-25'
 name: Starlink
 nav: Providers
 network: true
-overview: 'Starlink publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Telemetry Stream API, Account API, Addresses API, and 10 more. Tagged areas include Telecommunications, United States, Satellite, Broadband, and Non-Terrestrial Network.
+overview: 'Starlink publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Telemetry Stream API, Account API, Addresses API, and 10 more. Tagged areas include Non-Terrestrial Network, Starlink, Telecommunications, United States, and Satellite.
 
 
   The Starlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -424,7 +424,7 @@ score:
     regime_id: telecommunications
     score: 63.9
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -445,11 +445,12 @@ security:
   summary_line: security.txt · contact published
 slug: starlink
 tags:
+- Non-Terrestrial Network
+- Starlink
 - Telecommunications
 - United States
 - Satellite
 - Broadband
-- Non-Terrestrial Network
 - Connectivity
 - Device Management
 - Telemetry

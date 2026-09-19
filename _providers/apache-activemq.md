@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -149,11 +149,6 @@ common:
   title: ''
   type: ChangeLog
   url: https://activemq.apache.org/components/classic/download
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/_original/apache-activemq-rest-openapi.yaml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/apache-activemq-rest-openapi.yaml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/rules/apache-activemq-spectral-rules.yml
   title: ''
@@ -259,7 +254,7 @@ overview: 'Apache ActiveMQ publishes 2 APIs on the [APIs.io](https://apis.io/) n
   The Apache ActiveMQ catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache ActiveMQ''s developer surface includes authentication, documentation, getting-started guide, FAQ, support, changelog, and 18 more developer resources.'
+  Apache ActiveMQ''s developer surface includes authentication, documentation, getting-started guide, FAQ, support, changelog, and 17 more developer resources.'
 plans:
 - name: Apache Activemq Plans Pricing
   plan_count: 3
@@ -321,7 +316,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

@@ -6,7 +6,7 @@ access_model:
   pricing: unknown
   public: false
   source:
-  - '{''url'': ''https://www.armstrongceilings.com'', ''status'': 302, ''note'': ''declared website redirects to https://www.armstrong.com/ — a different registrable domain (armstrongceilings.com -> armstrong.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - '{''url'': ''https://www.armstrongceilings.com'', ''status'': 302, ''note'': ''armstrongceilings.com and armstrongworldindustries.com both redirect to https://www.armstrong.com/, whose page title is "Armstrong World Industries | Armstrong Ceilings & Walls Solutions" — same company, a domain consolidation onto armstrong.com (re-probed 2026-09-18); Website pointer moved to the canonical host''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 0
 artifact_total: 9
 common:
@@ -49,11 +49,59 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.armstrongceilings.com
+  url: https://www.armstrong.com
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.armstrongceilings.com/commercial/en-us/
+  url: https://www.armstrongceilings.com/commercial/en/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.armstrong.com/en-us/privacy.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.armstrong.com/en-us/terms.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.armstrong.com/en-us/news-insights.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.armstrong.com/en-us/contact.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ArmstrongWorldIndustries
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://investors.armstrong.com/
+coverage:
+  checked: '2026-09-18'
+  detail: 'Armstrong World Industries sells ceiling and wall systems: its corporate site (armstrongceilings.com and armstrongworldindustries.com now both redirect to www.armstrong.com) and the commercial product site publish BIM/Revit/CAD downloads and data sheets but no developer, API, OpenAPI, well-known or llms.txt surface, and its GitHub org holds four internal IT utilities (AEM/Brightcove connectors, an Akamai purge CLI, a java-saml fork), not a client library.'
+  evidence:
+  - status: 302
+    url: https://www.armstrongceilings.com
+  - status: 200
+    url: https://www.armstrong.com/
+  - status: 404
+    url: https://www.armstrong.com/openapi.json
+  - status: 404
+    url: https://www.armstrong.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.armstrong.com/llms.txt
+  - status: 404
+    url: https://www.armstrongceilings.com/openapi.json
+  - status: 404
+    url: https://www.armstrongceilings.com/.well-known/agent-card.json
+  - status: 0
+    url: https://api.armstrongceilings.com
+  - status: 200
+    url: https://api.github.com/orgs/armstrongworldindustries/repos
+  reason: not-a-software-company
+  state: none
 created: '2026-03-23'
 description: 'Armstrong World Industries (NYSE: AWI) is a leading global designer and manufacturer of innovative commercial and residential ceiling, wall, and suspension system solutions. Armstrong offers a broad portfolio of ceiling and wall products across mineral fiber, fiberglass, wood, metal, and specialty substrates for use in commercial construction and renovation projects worldwide. The company provides BIM content, product data, and specification tools for architects and designers but does not offer a public developer API.'
 features:
@@ -69,14 +117,14 @@ features:
   name: PROJECTWORKS Service
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/armstrong-world-industries.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: Armstrong World Industries
 nav: Providers
 network: true
 overview: 'Armstrong World Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Building Materials, Ceilings, Construction, and Manufacturing.
 
 
-  Armstrong World Industries'' developer surface includes documentation and 3 more developer resources.'
+  Armstrong World Industries'' developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
 press:
 - date: '2026-05-25'
   title: 'Armstrong''s AI Day: Insights from CIO and VP'
@@ -95,27 +143,27 @@ press:
   url: https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-armstrong-world-industries-inc
 random_paper: 1
 score:
-  band: minimal
-  composite: 6.9
+  band: emerging
+  composite: 13.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 16.7
     discoverability: 50.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
-  trend: flat
+  scored_at: '2026-09-18'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -142,5 +190,5 @@ use_cases:
   name: BIM Modeling
 - description: Specify ceiling and wall products optimized for noise reduction and acoustic performance in open-plan offices, classrooms, and healthcare facilities.
   name: Acoustic Design
-website: https://www.armstrongceilings.com
+website: https://www.armstrong.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: An anonymous Model Context Protocol endpoint served from www.puzzlemed.com and advertised by the company's own /llms.txt. It is the Wix platform Site Visitor Assistant, provisioned by the website host
@@ -165,7 +165,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 8
 apis:
 - description: OpenAI-compatible inference API for open-source AI models hosted on io.net's decentralized GPU network. Exposes /v1/models and /v1/chat/completions over the base URL https://api.intelligence.io.soluti
@@ -257,7 +257,7 @@ score:
     score: 100.0
   previous_composite: 35.6
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

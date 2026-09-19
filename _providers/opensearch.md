@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ modified: '2026-05-19'
 name: OpenSearch
 nav: Providers
 network: true
-overview: 'OpenSearch publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Action Groups API, Allowlist API, and 11 more. Tagged areas include Search, Analytics, Observability, Open-Source, and Security.
+overview: 'OpenSearch publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Action Groups API, Allowlist API, and 11 more. Tagged areas include OpenSearch, Search, Analytics, Observability, and Open-Source.
 
 
   The OpenSearch catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -336,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -375,6 +375,7 @@ skills:
   slug: trace-analytics
 slug: opensearch
 tags:
+- OpenSearch
 - Search
 - Analytics
 - Observability

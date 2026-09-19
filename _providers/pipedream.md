@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -1051,7 +1051,7 @@ modified: '2026-05-22'
 name: Pipedream
 nav: Providers
 network: true
-overview: 'Pipedream publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, App Categories API, and 13 more. Tagged areas include Pro-Code-API-Composition, Workflows, Connect, MCP, and Embedded Integrations.
+overview: 'Pipedream publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, App Categories API, and 13 more. Tagged areas include Pipedream, Pro-Code-API-Composition, Workflows, Connect, and MCP.
 
 
   The Pipedream catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1121,7 +1121,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1138,6 +1138,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: pipedream
 tags:
+- Pipedream
 - Pro-Code-API-Composition
 - Workflows
 - Connect

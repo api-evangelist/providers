@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ modified: '2026-05-19'
 name: Ollama
 nav: Providers
 network: true
-overview: 'Ollama publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Chat API, Chat Completions API, and 8 more. Tagged areas include Artificial Intelligence, LLM, and Models.
+overview: 'Ollama publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Chat API, Chat Completions API, and 8 more. Tagged areas include LLM, Ollama, Artificial Intelligence, and Models.
 
 
   Ollama''s developer surface includes authentication, documentation, FAQ, signup flow, pricing, GitHub presence, engineering blog, and 46 more developer resources.'
@@ -421,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -438,8 +438,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: ollama
 tags:
-- Artificial Intelligence
 - LLM
+- Ollama
+- Artificial Intelligence
 - Models
 website: https://ollama.com/
 ---

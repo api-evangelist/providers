@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 5
 apis:
 - baseURL: https://mylocalinfusion.com/wp-json/
@@ -121,11 +121,6 @@ common:
   title: ''
   type: SecondaryMarket
   url: https://www.nasdaqprivatemarket.com/
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/_original/local-infusion-wp-rest-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/local-infusion-wp-rest-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/overlays/local-infusion-wp-rest-overlay.yaml
   title: ''
@@ -217,7 +212,7 @@ network: true
 overview: 'Local Infusion publishes 5 APIs on the [APIs.io](https://apis.io/) network, including WordPress Content API, MCP API, WordPress Abilities API, and 2 more. Tagged areas include Company, Healthcare, Health Services, Infusion Therapy, and Specialty Pharmacy.
 
 
-  Local Infusion''s developer surface includes authentication, engineering blog, FAQ, and 26 more developer resources.'
+  Local Infusion''s developer surface includes authentication, engineering blog, FAQ, and 25 more developer resources.'
 plans:
 - name: Local Infusion Plans Pricing
   plan_count: 0
@@ -267,7 +262,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

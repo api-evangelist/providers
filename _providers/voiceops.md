@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: 'Live first-party remote Model Context Protocol server operated by VoiceOps. JSON-RPC 2.0 over HTTP (streamable HTTP transport), authenticated with a VoiceOps API key sent in the Authorization header. '
@@ -201,7 +201,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

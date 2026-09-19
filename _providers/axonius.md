@@ -10,36 +10,53 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-17'
+  score: 25.8
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Axonius is a cybersecurity asset management platform providing SaaS management, device discovery, and security policy enforcement across IT environments.
   name: Axonius
   slug: axonius
-artifact_total: 24
+artifact_total: 32
+asyncapis:
+- description: ''
+  name: Axonius Webhooks
+  slug: axonius-webhooks
+collections:
+- collection_type: postman
+  name: activity logs
+  slug: postman-axonius-activity-logs
+- collection_type: postman
+  name: custom data crud operations
+  slug: postman-axonius-custom-data
+- collection_type: postman
+  name: dashboards, charts, queries - import/export
+  slug: postman-axonius-dashboards-import-export
+- collection_type: postman
+  name: Devices
+  slug: postman-axonius-devices
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-trust-center.yml
@@ -74,11 +91,11 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.axonius.com/pricing
+  url: https://aws.amazon.com/marketplace/pp/prodview-bupmprfogelg4
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.axonius.com/terms-of-service
+  url: https://www.axonius.com/legal/terms-conditions
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -86,13 +103,119 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://docs.axonius.com/docs/getting-started
+  url: https://docs.axonius.com/docs/axonius-rest-api
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.axonius.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.axonius.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.axonius.com/
+- group: build
+  title: ''
+  type: Postman
+  url: https://github.com/Axonius/postman-minis
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/packages/axonius-packages.yml
+  title: ''
+  type: Packages
+  url: packages/axonius-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/packages/axonius-packages.yml
+  title: ''
+  type: SDKs
+  url: packages/axonius-packages.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/cli/axonius-cli.yml
+  title: ''
+  type: CLI
+  url: cli/axonius-cli.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/well-known/axonius-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/axonius-well-known.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/well-known/axonius-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/axonius-security.txt
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-vulnerability-disclosure.yml
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/axonius-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-vulnerability-disclosure.yml
+  title: ''
+  type: Security
+  url: security/axonius-vulnerability-disclosure.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/security/axonius-trust-center.yml
+  title: ''
+  type: Compliance
+  url: security/axonius-trust-center.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/conformance/axonius-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/axonius-conformance.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/authentication/axonius-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/axonius-authentication.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/mcp/axonius-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/axonius-mcp.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/lifecycle/axonius-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/axonius-lifecycle.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/changelog/axonius-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/axonius-changelog.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/conventions/axonius-conventions.yml
+  title: ''
+  type: Conventions
+  url: conventions/axonius-conventions.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/asyncapi/axonius-webhooks.yml
+  title: ''
+  type: Webhooks
+  url: asyncapi/axonius-webhooks.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/plans/axonius-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/axonius-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/rate-limits/axonius-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/axonius-rate-limits.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/llms/axonius-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/axonius-llms.txt
 - group: agent
   title: ''
   type: LlmsText
   url: https://docs.axonius.com/llms.txt
 created: '2026-03-27'
-description: Axonius is a cybersecurity asset management platform providing SaaS management, device discovery, and security policy enforcement across IT environments.
+description: Axonius is a cybersecurity asset management platform (Axonius Asset Cloud) that aggregates device, user, cloud, SaaS and vulnerability data from 800+ adapters into one correlated inventory, enforces security policies through automated enforcement actions and workflows, and exposes that inventory over a service-account REST API (API v2), an Axonius Query Language, a deprecated Python client and CLI, outbound webhooks, and an early-access MCP server.
 features:
 - description: Automatically discover all devices, users, and cloud assets across the environment.
   name: Asset Discovery
@@ -127,55 +250,73 @@ integrations:
 - description: Correlate SaaS user access data with identity from Okta.
   name: Okta
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: 'Axonius announced the Axonius MCP Server on 2026-07-21 (blog + GlobeNewswire press release): it "translates natural language questions into Axonius Query Language (AQL) and returns live answers" acros'
+  name: Axonius MCP Server
+  slug: axonius-mcp-server
+modified: '2026-09-18'
 name: Axonius
 nav: Providers
 network: true
-overview: 'Axonius publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Cybersecurity, SaaS Management, and SaaS Security.
+overview: 'Axonius publishes 1 API on the [APIs.io](https://apis.io/) network: Axonius. Tagged areas include Asset Management, Cybersecurity, SaaS Management, SaaS Security, and Vulnerability Management.
 
 
-  Axonius'' developer surface includes documentation, engineering blog, pricing, getting-started guide, and 8 more developer resources.'
+  The Axonius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Axonius'' developer surface includes documentation, engineering blog, pricing, getting-started guide, API reference, support, CLI, and 27 more developer resources.'
 plans:
 - name: Axonius Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: axonius-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Axonius Rate Limits
   slug: axonius-rate-limits
 score:
-  band: emerging
-  composite: 16.5
+  band: developing
+  composite: 49.9
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 31.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 33.4
   facets:
-    access_clarity: 39.5
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 48.1
-    operational_transparency: 10.5
+    access_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 41.6
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    operational_transparency: 36.8
   previous_composite: 16.5
+  provenance:
+    conformance: first-party
+    mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
-  trend: flat
+  scored_at: '2026-09-18'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/axonius/refs/heads/main/screenshots/axonius-2026-06-20T172834.png
 security:
+- kind: authentication
+  name: Axonius Authentication
+  slug: axonius-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Axonius Domain Security
   slug: axonius-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Axonius Vulnerability Disclosure
+  slug: axonius-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 - kind: trust-center
   name: Axonius Trust Center
   slug: axonius-trust-center
@@ -186,6 +327,9 @@ tags:
 - Cybersecurity
 - SaaS Management
 - SaaS Security
+- Vulnerability Management
+- IT Asset Management
+- Security Operations
 use_cases:
 - description: Maintain a complete, always-accurate inventory of all IT and OT assets.
   name: Asset Inventory

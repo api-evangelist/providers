@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: RESTful API for AppNeta Performance Manager, covering monitoring policies and policy groups, web paths, web applications (locations, targets, user flows), monitoring points, alarm connectors (v4), and
@@ -210,7 +210,7 @@ score:
     operational_transparency: 73.7
   previous_composite: 39.6
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

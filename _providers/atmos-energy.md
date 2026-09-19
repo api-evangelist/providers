@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: Online account management portal for Atmos Energy customers providing access to billing, payment, usage history, service requests, and account settings for residential and commercial natural gas custo
@@ -60,15 +60,19 @@ common:
 - group: start
   title: ''
   type: Portal
-  url: https://www.atmosenergy.com/account-center/
+  url: https://www.atmosenergy.com/accountcenter/logon/login.html
+- group: start
+  title: ''
+  type: Login
+  url: https://www.atmosenergy.com/accountcenter/logon/login.html
 - group: operate
   title: ''
   type: Contact
-  url: https://www.atmosenergy.com/contact-us/
+  url: https://www.atmosenergy.com/company/contact-us/
 - group: operate
   title: ''
   type: Support
-  url: https://www.atmosenergy.com/customer-service/
+  url: https://www.atmosenergy.com/customer-service/account-options/
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -76,7 +80,50 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.atmosenergy.com/terms-of-use/
+  url: https://www.atmosenergy.com/legal-statement/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.atmosenergy.com/news/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.atmosenergy.com/careers/working-atmos-energy/
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://www.investors.atmosenergy.com/
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/atmos-energy/refs/heads/main/llms/atmos-energy-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/atmos-energy-llms.txt
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/atmos-energy/refs/heads/main/plans/atmos-energy-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/atmos-energy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/atmos-energy/refs/heads/main/rate-limits/atmos-energy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/atmos-energy-rate-limits.yml
+coverage:
+  checked: '2026-09-18'
+  detail: Atmos Energy is a regulated natural-gas utility whose only digital surfaces are a login-gated, server-rendered Account Center web app (www.atmosenergy.com/accountcenter/) and a Builder Portal reached through that same login with phone-based registration; every contract and discovery path on the host (/openapi.json, /swagger.json, /graphql, /developers, /llms.txt, /.well-known/*) returns an honest 404 and no api., developer. or status. subdomain resolves.
+  evidence:
+  - status: 404
+    url: https://www.atmosenergy.com/openapi.json
+  - status: 404
+    url: https://www.atmosenergy.com/developers
+  - status: 404
+    url: https://www.atmosenergy.com/.well-known/api-catalog
+  - status: 200
+    url: https://www.atmosenergy.com/accountcenter/logon/login.html
+  - status: 200
+    url: https://www.atmosenergy.com/customer-service/builder-developer-resources/
+  reason: no-developer-program
+  state: none
 created: '2026-03-23'
 description: Atmos Energy is one of the largest natural-gas-only distributors in the United States, delivering natural gas to residential, commercial, public-authority, and industrial customers across multiple states including Texas, Louisiana, Mississippi, Tennessee, Colorado, Kansas, and Virginia. The company provides online account management, a Builder Portal for developers and contractors, and digital service request capabilities for natural gas connections and meter installations.
 features:
@@ -101,14 +148,14 @@ integrations:
 - description: Integration with state-level Low Income Home Energy Assistance Program (LIHEAP) for customer assistance.
   name: State Energy Assistance Programs
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: Atmos Energy
 nav: Providers
 network: true
 overview: 'Atmos Energy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Infrastructure, and Fortune 1000.
 
 
-  Atmos Energy''s developer surface includes developer portal, support, and 6 more developer resources.'
+  Atmos Energy''s developer surface includes developer portal, support, and 13 more developer resources.'
 plans:
 - name: Atmos Energy Plans Pricing
   plan_count: 1
@@ -136,21 +183,21 @@ rate_limits:
   slug: atmos-energy-rate-limits
 score:
   band: emerging
-  composite: 16.2
+  composite: 19.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
-    access_clarity: 23.7
+    access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 75.9
     operational_transparency: 5.3
   previous_composite: 16.2
   regulatory:
@@ -160,7 +207,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

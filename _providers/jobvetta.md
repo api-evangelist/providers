@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: REST access to live, vetted India job openings. `GET /jobs` searches by keyword (`q`), Indian city or state (`location`), posting age in days (`days`, 1–365) and result count (`limit`, 1–20, default 1
@@ -91,7 +91,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

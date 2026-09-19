@@ -26,15 +26,15 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-17'
+  score: 2.5
+  scored_at: '2026-09-18'
 api_count: 0
-artifact_total: 14
+artifact_total: 16
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/auto-owners-insurance/refs/heads/main/security/auto-owners-insurance-domain-security.yml
@@ -51,28 +51,65 @@ common:
   url: https://www.auto-owners.com
 - group: start
   title: ''
-  type: Portal
-  url: https://www.auto-owners.com/policyholders
+  type: CustomerPortal
+  url: https://customercenter.auto-owners.com/cp/sign-in
 - group: start
   title: ''
-  type: Signup
-  url: https://www.auto-owners.com/policyholders/create-account
+  type: PartnerPortal
+  url: https://www.auto-owners.com/agent-login
 - group: operate
   title: ''
   type: Support
-  url: https://www.auto-owners.com/contact-us
+  url: https://www.auto-owners.com/about/contact-us
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.auto-owners.com/privacy-legal/legal
+  url: https://www.auto-owners.com/terms-of-use
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.auto-owners.com/privacy-legal/privacy-policy
+  url: https://www.auto-owners.com/privacy
 - group: company
   title: ''
-  type: Blog
-  url: https://www.auto-owners.com/ao-blog
+  type: Careers
+  url: https://www.auto-owners.com/about/career-opportunities
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/auto-owners
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/auto-owners-insurance/refs/heads/main/llms/auto-owners-insurance-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/auto-owners-insurance-llms.txt
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/auto-owners-insurance/refs/heads/main/plans/auto-owners-insurance-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/auto-owners-insurance-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/auto-owners-insurance/refs/heads/main/rate-limits/auto-owners-insurance-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/auto-owners-insurance-rate-limits.yml
+coverage:
+  checked: '2026-09-18'
+  detail: 'Auto-Owners sells policies only through independent agents and ships no developer program: www.auto-owners.com/developers and /api return 404, the apex host redirects every path to the home page, the agent portal www.aoins.com answers every unauthenticated request with a 302 to its F5 /my.policy login, and the company''s own GitHub organization has no public repositories.'
+  evidence:
+  - status: 404
+    url: https://www.auto-owners.com/developers
+  - status: 404
+    url: https://www.auto-owners.com/api
+  - status: 400
+    url: https://www.auto-owners.com/openapi.json
+  - status: 302
+    url: https://www.aoins.com/api
+  - status: 404
+    url: https://customercenter.auto-owners.com/.well-known/agent-card.json
+  - status: 200
+    url: https://github.com/auto-owners
+  reason: no-developer-program
+  state: none
 created: '2025-01-01'
 description: Auto-Owners Insurance is a mutual insurance company headquartered in Lansing, Michigan, offering auto, home, life, business, and farm insurance products through a network of independent agents. Founded in 1916, the company is consistently rated among the top mutual insurance companies in the United States. Auto-Owners provides online account management, claims filing, and agent portal services but does not currently offer a public developer API.
 features:
@@ -95,14 +132,18 @@ integrations:
 - description: Adherence to ACORD data standards used in the insurance industry for data exchange between carriers, agencies, and industry partners.
   name: ACORD Standards
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: Auto-Owners Insurance
 nav: Providers
 network: true
 overview: 'Auto-Owners Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Home Insurance, Life Insurance, and Business Insurance.
 
 
-  Auto-Owners Insurance''s developer surface includes developer portal, signup flow, support, engineering blog, and 5 more developer resources.'
+  Auto-Owners Insurance''s developer surface includes support and 12 more developer resources.'
+plans:
+- name: Auto Owners Insurance Plans Pricing
+  plan_count: 0
+  slug: auto-owners-insurance-plans-pricing
 press:
 - date: '2026-05-25'
   title: A-O Blog
@@ -120,24 +161,28 @@ press:
   title: 'AI Cyberattacks Are Growing: What Businesses Can Do'
   url: https://www.auto-owners.com/ao-blog/-/blogs/ai-cyberattacks-are-growing-what-businesses-can-do
 random_paper: 13
+rate_limits:
+- limit_count: 0
+  name: Auto Owners Insurance Rate Limits
+  slug: auto-owners-insurance-rate-limits
 score:
   band: minimal
-  composite: 8.3
+  composite: 3.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.4
   facets:
-    access_clarity: 13.2
+    access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 16.7
+    developer_ergonomics: 4.8
     discoverability: 50.0
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -151,7 +196,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

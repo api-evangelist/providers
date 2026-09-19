@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -578,7 +578,7 @@ modified: '2026-09-16'
 name: Microsoft Teams
 nav: Providers
 network: true
-overview: 'Microsoft Teams publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bot Framework API, Apps API, Calls API, and 6 more. Tagged areas include Chat, Collaboration, Communications, Microsoft-365, and Productivity.
+overview: 'Microsoft Teams publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bot Framework API, Apps API, Calls API, and 6 more. Tagged areas include Microsoft Teams, Chat, Collaboration, Communications, and Microsoft-365.
 
 
   The Microsoft Teams catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -661,7 +661,7 @@ score:
       total: 9
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -686,6 +686,7 @@ security:
   summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, FedRAMP, HIPAA / HITECH, PCI DSS, CSA STAR, GDPR
 slug: microsoft-teams
 tags:
+- Microsoft Teams
 - Chat
 - Collaboration
 - Communications

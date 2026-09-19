@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 4
 apis:
 - description: Life insurance, annuities, and retirement products offered by Western & Southern Life Insurance Company. Customers can access account information, policy details, and manage their coverage through dig
@@ -168,7 +168,7 @@ score:
     regime_id: insurance
     score: 22.7
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

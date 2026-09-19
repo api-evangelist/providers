@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Co-Invest is Liquid delivered as a remote Model Context Protocol (MCP) server. Once connected, an MCP client can research markets (live prices, funding rates, open interest, whale positioning, liquida
@@ -239,7 +239,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

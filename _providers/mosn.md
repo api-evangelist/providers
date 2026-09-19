@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: MOSN is a cloud-native network proxy that supports multiple protocols (HTTP/1.1, HTTP/2, gRPC), dynamic routing, load balancing, observability via Prometheus metrics, TLS, and WASM-based custom extens
@@ -118,7 +118,7 @@ score:
     score: 50.0
   previous_composite: 18.7
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

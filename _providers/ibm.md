@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -703,7 +703,7 @@ modified: '2026-08-21'
 name: IBM
 nav: Providers
 network: true
-overview: 'IBM publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Claim Rules API, Policies API, and 4 more. Tagged areas include API Management, Artificial Intelligence, Billing, Cloud Computing, and Containers.
+overview: 'IBM publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Claim Rules API, Policies API, and 4 more. Tagged areas include Database, IBM, API Management, Artificial Intelligence, and Billing.
 
 
   The IBM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -780,7 +780,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -805,13 +805,14 @@ security:
   summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, ISO 9001, ISO 22301, FedRAMP, HIPAA, PCI DSS, GDPR
 slug: ibm
 tags:
+- Database
+- IBM
 - API Management
 - Artificial Intelligence
 - Billing
 - Cloud Computing
 - Containers
 - Data Governance
-- Database
 - DevOps
 - Enterprise
 - Generative AI

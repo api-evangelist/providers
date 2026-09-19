@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: UCSF's Shibboleth SAML 2.0 identity provider, registered in the InCommon Federation and re-exported to eduGAIN. Signed, versioned, publicly retrievable federation metadata describing SingleSignOnServi
@@ -339,7 +339,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

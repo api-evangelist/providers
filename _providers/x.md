@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 61.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 4
@@ -412,7 +412,7 @@ modified: '2026-08-28'
 name: X
 nav: Providers
 network: true
-overview: 'X publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Account API, Activity API, and 20 more. Tagged areas include Social, Social-Media, Posts, User, and Direct Messages.
+overview: 'X publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Activity API, Account API, Activity API, and 20 more. Tagged areas include Space, Conversations, X, Social, and Social-Media.
 
 
   The X catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -463,7 +463,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -484,6 +484,9 @@ security:
   summary_line: Hackerone
 slug: x
 tags:
+- Space
+- Conversations
+- X
 - Social
 - Social-Media
 - Posts
@@ -494,9 +497,7 @@ tags:
 - Real-Time
 - Trends
 - Media
-- Space
 - Content
-- Conversations
 - Agents
 - MCP
 website: https://x.com/

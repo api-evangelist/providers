@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 214
   human_in_the_loop: 0
@@ -120,11 +120,6 @@ common:
   title: ''
   type: SecondaryMarket
   url: https://www.hiive.com/securities/impulse-dynamics-stock
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/openapi/_original/impulse-dynamics-wp-rest-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/impulse-dynamics-wp-rest-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/overlays/impulse-dynamics-wp-rest-overlay.yaml
   title: ''
@@ -221,7 +216,7 @@ network: true
 overview: 'Impulse Dynamics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including wp/v2 API, MCP API, wp-abilities/v1 API, and 2 more. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Heart Failure.
 
 
-  Impulse Dynamics'' developer surface includes engineering blog, authentication, and 27 more developer resources.'
+  Impulse Dynamics'' developer surface includes engineering blog, authentication, and 26 more developer resources.'
 plans:
 - name: Impulse Dynamics Plans Pricing
   plan_count: 0
@@ -267,7 +262,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

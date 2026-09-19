@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - description: Gloo Mesh Enterprise (documented as "Gloo Mesh (Gloo Platform APIs)", current version 2.14, released 2026-09-09) is a service mesh management platform built on Istio that provides intra-mesh and multi
@@ -322,7 +322,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

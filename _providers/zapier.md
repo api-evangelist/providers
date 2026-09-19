@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 61.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -1429,7 +1429,7 @@ modified: '2026-06-20'
 name: Zapier
 nav: Providers
 network: true
-overview: 'Zapier publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Apps API, and 7 more. Tagged areas include Integration and iPaaS.
+overview: 'Zapier publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Apps API, and 7 more. Tagged areas include Zapier, Integration, and iPaaS.
 
 
   The Zapier catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1500,7 +1500,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1521,6 +1521,7 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: zapier
 tags:
+- Zapier
 - Integration
 - iPaaS
 use_cases:

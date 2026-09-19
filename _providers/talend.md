@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -184,6 +184,10 @@ collections:
   name: Talend Cloud Orchestration Artifacts Workspaces API
   slug: open-talend-workspaces-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/qlik/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/agentic-access/talend-agentic-access.yml
   title: ''
@@ -341,7 +345,7 @@ overview: 'Talend publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The Talend catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Talend''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 10 more developer resources.'
+  Talend''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 11 more developer resources.'
 plans:
 - name: Talend Plans Pricing
   plan_count: 1
@@ -400,7 +404,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

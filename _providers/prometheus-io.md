@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -415,7 +415,7 @@ modified: 2026-05-25 00:00:00+00:00
 name: Prometheus
 nav: Providers
 network: true
-overview: 'Prometheus publishes 18 APIs on the [APIs.io](https://apis.io/) network, including admin API, alert API, alertgroup API, and 15 more. Tagged areas include Monitoring, Metrics, Observability, Time Series, and Alerting.
+overview: 'Prometheus publishes 18 APIs on the [APIs.io](https://apis.io/) network, including admin API, alert API, alertgroup API, and 15 more. Tagged areas include Prometheus, Monitoring, Metrics, Observability, and Time Series.
 
 
   The Prometheus catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -472,7 +472,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -485,6 +485,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: prometheus-io
 tags:
+- Prometheus
 - Monitoring
 - Metrics
 - Observability

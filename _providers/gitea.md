@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -809,7 +809,7 @@ modified: '2026-06-20'
 name: Gitea
 nav: Providers
 network: true
-overview: 'Gitea publishes 9 APIs on the [APIs.io](https://apis.io/) network, including admin API, issue API, miscellaneous API, and 6 more. Tagged areas include Git, Source Control, DevOps, CI/CD, and Code Hosting.
+overview: 'Gitea publishes 9 APIs on the [APIs.io](https://apis.io/) network, including admin API, issue API, miscellaneous API, and 6 more. Tagged areas include Gitea, Git, Source Control, DevOps, and CI/CD.
 
 
   The Gitea catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -884,7 +884,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -918,6 +918,7 @@ solutions:
 - description: Stand-alone runner agent for executing Gitea Actions workflows on customer infrastructure.
   name: Gitea Actions Runner (act_runner)
 tags:
+- Gitea
 - Git
 - Source Control
 - DevOps

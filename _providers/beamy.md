@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -32,38 +32,87 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-17'
+  score: 5.0
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
-- description: Beamy provides a SaaS governance platform with browser extension-based discovery, SSO integration, spend analytics, user lifecycle management, and compliance reporting. Organizations use Beamy to achi
+- description: 'Beamy''s platform surface: browser-extension usage discovery, SSO-correlated identity, application and people sheets, segments, roles and permissions, and spend and renewal intelligence across a large '
   name: Beamy SaaS Management Platform
   slug: beamy
-artifact_total: 21
+artifact_total: 22
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://beamy.xyz
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.beamy.io/en/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://docs.beamy.io/en/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.beamy.io/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.beamy.io/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://beamy.xyz/privacy-policy
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/llms/beamy-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/beamy-llms.txt
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/security/beamy-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/beamy-domain-security.yml
-- group: company
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/authentication/beamy-authentication.yml
   title: ''
-  type: Website
-  url: https://www.beamy.io
-- group: docs
+  type: Authentication
+  url: authentication/beamy-authentication.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/lifecycle/beamy-lifecycle.yml
   title: ''
-  type: Documentation
-  url: https://www.beamy.io/product/
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.beamy.io/resources/blog/
+  type: Lifecycle
+  url: lifecycle/beamy-lifecycle.yml
 - group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/plans/beamy-plans-pricing.yml
   title: ''
-  type: PrivacyPolicy
-  url: https://www.beamy.io/privacy-policy/
+  type: Plans
+  url: plans/beamy-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/rate-limits/beamy-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/beamy-rate-limits.yml
+coverage:
+  checked: '2026-09-18'
+  detail: api.beamy.io is a Kong 3.9.3 gateway answering 401 'No API key found in request' on every path, and docs.beamy.io releases implementation documentation only after a lead form (email, name, company) and the full library only to logged-in Beamy customers; beamy.xyz itself is a four-page demo-request site.
+  evidence:
+  - status: 401
+    url: https://api.beamy.io/openapi.json
+  - status: 200
+    url: https://docs.beamy.io/en/articles/304306-how-to-access-beamy-s-documentation
+  - status: 404
+    url: https://beamy.xyz/pricing
+  - status: 301
+    url: https://www.beamy.io/product/
+  - status: 200
+    url: https://beamy.xyz
+  reason: customer-only-docs
+  state: gated
 created: '2026-03-27'
-description: Beamy is a SaaS discovery and governance platform that helps organizations identify unauthorized cloud applications (shadow IT), manage their SaaS portfolio, track spending, enforce security policies, and ensure compliance. Beamy uses browser extension-based detection and integrates with SSO, expense management, and ITSM systems to provide comprehensive SaaS visibility and control. The platform serves IT, security, and procurement teams seeking to reduce SaaS sprawl and govern their cloud application landscape.
+description: 'Beamy is an enterprise application-portfolio and usage-intelligence platform from Beamy SAS (Lille and Paris, France). It began as a SaaS discovery and governance product — browser-extension detection of shadow IT, SSO and ITSM integrations, spend and license tracking, security and compliance policy — and now positions itself as an AI-driven business transformation platform: modelling people, processes and applications from real usage signals so IT, finance and transformation leaders can rationalize their stack, negotiate renewals on actual consumption, and prioritize where to deploy AI. Sold to large enterprises (Veolia, Stellantis, Decathlon, Danske Bank, Equans) through a demo-request motion; its API sits behind a key-gated Kong gateway and its implementation documentation behind a lead form.'
 features:
 - description: Browser extension-based discovery of all SaaS applications used across the organization, including shadow IT.
   name: SaaS Discovery
@@ -94,51 +143,55 @@ integrations:
 - description: Expense management integration to identify and track SaaS purchases made via employee credit cards.
   name: Expensify
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: Beamy
 nav: Providers
 network: true
 overview: 'Beamy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SaaS Management, Shadow IT, IT Asset Management, Cloud Governance, and Security.
 
 
-  Beamy''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
+  Beamy''s developer surface includes documentation, authentication, and 10 more developer resources.'
 plans:
 - name: Beamy Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: beamy-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Beamy Rate Limits
   slug: beamy-rate-limits
 score:
   band: emerging
-  composite: 12.2
+  composite: 19.3
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 41.0
+    artifact_dirs: 11
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.1
   facets:
-    access_clarity: 26.3
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 59.3
-    operational_transparency: 7.9
+    developer_ergonomics: 16.7
+    discoverability: 75.9
+    operational_transparency: 15.8
   previous_composite: 12.2
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
-  trend: flat
+  scored_at: '2026-09-18'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/beamy/refs/heads/main/screenshots/beamy-2026-06-20T173122.png
 security:
+- kind: authentication
+  name: Beamy Authentication
+  slug: beamy-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Beamy Domain Security
   slug: beamy-domain-security
@@ -150,6 +203,9 @@ tags:
 - IT Asset Management
 - Cloud Governance
 - Security
+- Application Portfolio Management
+- Usage Analytics
+- AI Governance
 use_cases:
 - description: Discover and govern unauthorized cloud applications used by employees outside IT approval processes.
   name: Shadow IT Elimination
@@ -161,5 +217,5 @@ use_cases:
   name: Compliance Reporting
 - description: Centralize SaaS vendor relationships, contract renewals, and negotiation data in one platform.
   name: Vendor Management
-website: https://www.beamy.io
+website: https://beamy.xyz
 ---

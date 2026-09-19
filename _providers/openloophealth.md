@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://www.nasdaqprivatemarket.com/company/openloop/
 - group: company
   title: ''
   type: Website
@@ -72,7 +76,7 @@ network: true
 overview: 'OpenLoop Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Digital Health, and EHR.
 
 
-  OpenLoop Health''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  OpenLoop Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 10
 score:
   band: minimal
@@ -105,7 +109,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

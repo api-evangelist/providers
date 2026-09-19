@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -134,6 +134,10 @@ collections:
   name: Encompass Developer Connect API
   slug: open-encompass
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/intercontinental-exchange/
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/agentic-access/encompass-agentic-access.yml
   title: ''
@@ -200,7 +204,7 @@ network: true
 overview: 'Encompass publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Borrower Pairs API, Conditions API, and 7 more. Tagged areas include Mortgage, Loan Origination, LOS, Fintech, and ICE Mortgage Technology.
 
 
-  Encompass'' developer surface includes authentication, documentation, and 9 more developer resources.'
+  Encompass'' developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Encompass Plans Pricing
   plan_count: 2
@@ -242,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

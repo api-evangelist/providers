@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 49.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 2
 apis:
 - baseURL: https://api.dialnexa.com
@@ -317,7 +317,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Family of OAuth 2.0 secured REST APIs for the iHotelier Booking Engine 4.0 (CRS). Enables B2C / web-client applications to search availability, hold and create reservations (including group reservatio
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.2
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

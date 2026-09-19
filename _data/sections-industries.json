@@ -12,7 +12,7 @@
   "name": "Aerospace",
   "description": "",
   "icon": "/industries/assets/icons/aerospace.png",
-  "count": 371,
+  "count": 372,
   "roster_only": false
  },
  {
@@ -20,7 +20,7 @@
   "name": "Agriculture",
   "description": "",
   "icon": "/industries/assets/icons/agriculture.png",
-  "count": 279,
+  "count": 280,
   "roster_only": false
  },
  {
@@ -36,7 +36,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5499,
+  "count": 5504,
   "roster_only": false
  },
  {
@@ -44,7 +44,7 @@
   "name": "Automotive",
   "description": "",
   "icon": "/industries/assets/icons/automotive.png",
-  "count": 410,
+  "count": 411,
   "roster_only": false
  },
  {
@@ -52,7 +52,7 @@
   "name": "Banking & Open Banking",
   "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
   "icon": "savings",
-  "count": 859,
+  "count": 860,
   "roster_only": false
  },
  {
@@ -76,7 +76,7 @@
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1332,
+  "count": 1333,
   "roster_only": false
  },
  {
@@ -100,7 +100,7 @@
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 1122,
+  "count": 1124,
   "roster_only": false
  },
  {
@@ -124,7 +124,7 @@
   "name": "Construction",
   "description": "",
   "icon": "/industries/assets/icons/construction.png",
-  "count": 325,
+  "count": 326,
   "roster_only": false
  },
  {
@@ -172,7 +172,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2206,
+  "count": 2210,
   "roster_only": false
  },
  {
@@ -180,7 +180,7 @@
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2462,
+  "count": 2463,
   "roster_only": false
  },
  {
@@ -188,7 +188,7 @@
   "name": "Defense",
   "description": "",
   "icon": "/industries/assets/icons/defense.png",
-  "count": 322,
+  "count": 323,
   "roster_only": false
  },
  {
@@ -196,7 +196,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 3006,
+  "count": 3010,
   "roster_only": false
  },
  {
@@ -276,7 +276,7 @@
   "name": "Financial Technology",
   "description": "",
   "icon": "/industries/assets/icons/financial-technology.png",
-  "count": 2002,
+  "count": 2003,
   "roster_only": false
  },
  {
@@ -308,7 +308,7 @@
   "name": "Gaming & Interactive",
   "description": "Game studios and the engines, multiplayer backends, and immersive platforms behind interactive entertainment.",
   "icon": "sports_esports",
-  "count": 713,
+  "count": 714,
   "roster_only": false
  },
  {
@@ -316,7 +316,7 @@
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 866,
+  "count": 867,
   "roster_only": false
  },
  {
@@ -340,7 +340,7 @@
   "name": "Hospitality",
   "description": "",
   "icon": "/industries/assets/icons/hospitality.png",
-  "count": 299,
+  "count": 300,
   "roster_only": false
  },
  {
@@ -364,7 +364,7 @@
   "name": "Industrial",
   "description": "",
   "icon": "/industries/assets/icons/industrial.png",
-  "count": 1043,
+  "count": 1044,
   "roster_only": false
  },
  {
@@ -476,7 +476,7 @@
   "name": "Payments & Money Movement",
   "description": "Moving money — card acquiring and gateways, payment orchestration and checkout, payouts and disbursement, cross-border transfer and FX, issuing, BNPL and point of sale.",
   "icon": "payments",
-  "count": 1698,
+  "count": 1699,
   "roster_only": false
  },
  {
@@ -524,7 +524,7 @@
   "name": "Real Estate",
   "description": "",
   "icon": "/industries/assets/icons/real-estate.png",
-  "count": 635,
+  "count": 636,
   "roster_only": false
  },
  {
@@ -556,7 +556,7 @@
   "name": "Space & Satellite",
   "description": "Launch, satellites, ground segment, and the earth-observation and aviation data coming down from above.",
   "icon": "rocket_launch",
-  "count": 355,
+  "count": 356,
   "roster_only": false
  },
  {

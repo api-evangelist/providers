@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -194,11 +194,6 @@ common:
   title: ''
   type: SecondaryMarket
   url: https://forgeglobal.com/vestaron_stock/
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/openapi/_original/vestaron-content-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/vestaron-content-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/overlays/vestaron-content-overlay.yaml
   title: ''
@@ -295,7 +290,7 @@ network: true
 overview: 'Vestaron publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 6 more. Tagged areas include Company, Agriculture, AgTech, Biotechnology, and Crop Protection.
 
 
-  Vestaron''s developer surface includes product news, support, legal docs, YouTube channel, authentication, code examples, and 28 more developer resources.'
+  Vestaron''s developer surface includes product news, support, legal docs, YouTube channel, authentication, code examples, and 27 more developer resources.'
 random_paper: 2
 scopes:
 - name: Vestaron Scopes
@@ -343,7 +338,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true

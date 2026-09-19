@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -384,7 +384,7 @@ modified: '2026-05-30'
 name: ShipStation
 nav: Providers
 network: true
-overview: 'ShipStation publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Carriers API, Customers API, and 7 more. Tagged areas include E-Commerce, Labels, Logistics, Order Management, and Shipping.
+overview: 'ShipStation publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Carriers API, Customers API, and 7 more. Tagged areas include ShipStation, E-Commerce, Labels, Logistics, and Order Management.
 
 
   The ShipStation catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -461,7 +461,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -478,6 +478,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: shipstation
 tags:
+- ShipStation
 - E-Commerce
 - Labels
 - Logistics

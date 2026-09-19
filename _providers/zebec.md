@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: 'Zebec''s developer platform is delivered as first-party TypeScript SDKs that interact with Zebec''s on-chain streaming, payroll, card, staking, vault, DAO and cross-chain bridge programs across Solana, '
@@ -159,7 +159,7 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

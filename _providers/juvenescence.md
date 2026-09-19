@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 9
 apis:
 - baseURL: https://juvlabs.com/wp-json
@@ -165,11 +165,6 @@ common:
   title: ''
   type: SecondaryMarket
   url: https://forgeglobal.com/juvenescence_stock/
-- group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/juvenescence/refs/heads/main/openapi/_original/juvenescence-content-openapi.yml
-  title: ''
-  type: OpenAPI
-  url: openapi/_original/juvenescence-content-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/juvenescence/refs/heads/main/overlays/juvenescence-content-overlay.yaml
   title: ''
@@ -252,7 +247,7 @@ network: true
 overview: 'Juvenescence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Longevity, and Drug Discovery.
 
 
-  Juvenescence''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 30 more developer resources.'
+  Juvenescence''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 29 more developer resources.'
 plans:
 - name: Juvenescence Plans Pricing
   plan_count: 0
@@ -297,7 +292,7 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 10
 apis:
 - description: 'REST API of TUdatalib, the institutional research-data repository of TU Darmstadt. Verified live 2026-09-01: the API root returns HAL/JSON with dspaceName "TUdatalib System", dspaceVersion "DSpace 9.3'
@@ -226,7 +226,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

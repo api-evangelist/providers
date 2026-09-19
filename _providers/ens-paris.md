@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 3
 apis:
 - description: ENS-PSL runs its own Shibboleth identity provider under its own registrable domain. The SAML 2.0 entity descriptor is served at https://federation.ens.psl.eu/idp/shibboleth (HTTP 200, application/xml)
@@ -196,7 +196,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.1
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -1417,7 +1417,7 @@ modified: '2026-09-16'
 name: OpenAI
 nav: Providers
 network: true
-overview: 'OpenAI publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 47 more. Tagged areas include Artificial Intelligence, LLM, and T1.
+overview: 'OpenAI publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 47 more. Tagged areas include LLM, OpenAI, Artificial Intelligence, and T1.
 
 
   The OpenAI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1501,7 +1501,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1576,8 +1576,9 @@ skills:
   slug: notion-research-documentation
 slug: openai
 tags:
-- Artificial Intelligence
 - LLM
+- OpenAI
+- Artificial Intelligence
 - T1
 use_cases:
 - description: Build chatbots, virtual assistants, and customer support agents using Chat Completions or Responses API.

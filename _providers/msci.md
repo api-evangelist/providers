@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 10
 apis:
 - description: REST APIs for MSCI index data including index levels and performance, constituents, security master, dividends, and corporate events for MSCI indexes across supported variants and currencies.
@@ -189,7 +189,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

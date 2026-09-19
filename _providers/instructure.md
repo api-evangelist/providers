@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ modified: '2026-06-13'
 name: Instructure
 nav: Providers
 network: true
-overview: 'Instructure publishes 12 APIs on the [APIs.io](https://apis.io/) network, including ExternalTool API, Lti::AccountExternalTool API, Lti::AccountLookup API, and 9 more. Tagged areas include EdTech, Education, LMS, Canvas, and Courses.
+overview: 'Instructure publishes 12 APIs on the [APIs.io](https://apis.io/) network, including ExternalTool API, Lti::AccountExternalTool API, Lti::AccountLookup API, and 9 more. Tagged areas include Enrollment, Instructure, EdTech, Education, and LMS.
 
 
   The Instructure catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -398,7 +398,7 @@ score:
     regime_id: education
     score: 70.4
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -423,12 +423,13 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: instructure
 tags:
+- Enrollment
+- Instructure
 - EdTech
 - Education
 - LMS
 - Canvas
 - Courses
-- Enrollment
 - Assignments
 - Grades
 - Discussions

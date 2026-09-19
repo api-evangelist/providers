@@ -11,18 +11,18 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,20 +33,77 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-17'
+  score: 20.5
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: The Apinity API enables organizations to manage their compliant API marketplace programmatically, including API registration, discovery, subscription management, and governance policy enforcement acro
   name: Apinity.io API
   slug: apinity-io
-artifact_total: 21
+artifact_total: 22
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/security/apinity-io-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/apinity-io-domain-security.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.apinity.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.apinity.io/resources/get-help
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.apinity.io/release-notes/about-the-release-notes
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/changelog/apinity-io-changelog.yml
+  title: ''
+  type: ChangeLog
+  url: changelog/apinity-io-changelog.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/llms/apinity-io-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/apinity-io-llms.txt
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/well-known/apinity-io-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/apinity-io-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/well-known/apinity-io-openid-configuration.json
+  title: ''
+  type: OpenIDConnect
+  url: well-known/apinity-io-openid-configuration.json
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/lifecycle/apinity-io-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/apinity-io-lifecycle.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/conformance/apinity-io-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/apinity-io-conformance.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/packages/apinity-io-packages.yml
+  title: ''
+  type: Packages
+  url: packages/apinity-io-packages.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/plans/apinity-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apinity-io-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/rate-limits/apinity-io-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apinity-io-rate-limits.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -95,21 +152,24 @@ jsonld:
   property_count: 1
   slug: apinity-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: Apinity.io
 nav: Providers
 network: true
 overview: 'Apinity.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Governance, API Marketplace, Compliance, Discovery, and Integration Platform.
 
 
-  The Apinity.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
+  The Apinity.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Apinity.io''s developer surface includes documentation, support, changelog, and 13 more developer resources.'
 plans:
 - name: Apinity Io Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: apinity-io-plans-pricing
 random_paper: 15
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Apinity Io Rate Limits
   slug: apinity-io-rate-limits
 rules:
@@ -124,33 +184,39 @@ rules:
     warn: 3
   slug: apinity-io-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 19.1
+  band: thin
+  composite: 27.2
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 63.3
+    artifact_dirs: 22
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.8
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.1
   facets:
-    access_clarity: 15.8
-    contract_governance: 9.8
+    access_clarity: 7.9
+    contract_governance: 28.0
     contract_quality: 18.7
-    developer_ergonomics: 9.5
-    discoverability: 68.5
-    operational_transparency: 10.5
+    developer_ergonomics: 38.1
+    discoverability: 75.9
+    operational_transparency: 18.4
   previous_composite: 19.1
+  provenance:
+    conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
-  trend: flat
+  scored_at: '2026-09-18'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/screenshots/apinity-io-2026-06-20T172250.png
 security:
+- kind: authentication
+  name: Apinity Io Authentication
+  slug: apinity-io-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Apinity Io Domain Security
   slug: apinity-io-domain-security

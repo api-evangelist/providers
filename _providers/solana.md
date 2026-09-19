@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -542,7 +542,7 @@ modified: '2026-06-20'
 name: Solana
 nav: Providers
 network: true
-overview: 'Solana publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Cluster API, and 3 more. Tagged areas include Blockchain, Cryptocurrency, Web3, DeFi, and Transaction.
+overview: 'Solana publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Cluster API, and 3 more. Tagged areas include Solana, Blockchain, Cryptocurrency, Web3, and DeFi.
 
 
   The Solana catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -601,7 +601,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -618,6 +618,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: solana
 tags:
+- Solana
 - Blockchain
 - Cryptocurrency
 - Web3

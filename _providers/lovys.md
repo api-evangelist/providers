@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 1
 apis:
 - description: Partner/reseller REST API to embed Lovys insurance products — real-time quotes, plans/pricing/coverage, customer data, policy purchase and activation, and policy lifecycle/renewals across home, smartp
@@ -132,7 +132,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

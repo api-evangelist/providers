@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 0
 artifact_total: 8
 common:
@@ -57,6 +57,35 @@ common:
   title: ''
   type: Blog
   url: https://www.arkocorp.com/news-events/press-releases/rss
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.arkocorp.com/privacy-policy
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/arko/refs/heads/main/llms/arko-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/arko-llms.txt
+coverage:
+  checked: '2026-09-18'
+  detail: ARKO Corp is a convenience-store operator and fuel wholesaler whose entire public web presence is an investor-relations site, a WordPress subsidiary site and a loyalty-app marketing page; every /.well-known/ discovery path, /openapi.json, /swagger.json, /api-docs and /llms.txt returned 404 on arkocorp.com, gpminvestments.com, fasrewards.com and arkopetroleum.com, no developer subdomain resolves (the two wildcard-DNS domains serve the marketing page or a bare 404 on api./developer.), and the only machine-readable endpoint anywhere is the stock WordPress /wp-json discovery document on gpminvestments.com.
+  evidence:
+  - status: 404
+    url: https://www.arkocorp.com/openapi.json
+  - status: 404
+    url: https://www.arkocorp.com/.well-known/security.txt
+  - status: 404
+    url: https://www.arkocorp.com/llms.txt
+  - status: 404
+    url: https://www.gpminvestments.com/.well-known/api-catalog
+  - status: 404
+    url: https://api.fasrewards.com/openapi.json
+  - status: 404
+    url: https://api.arkopetroleum.com/openapi.json
+  - status: 200
+    url: https://www.gpminvestments.com/wp-json
+  reason: not-a-software-company
+  state: none
 created: '2026-03-21'
 description: 'ARKO Corp (Nasdaq: ARKO) is a Fortune 500 company and one of the largest operators of convenience stores and wholesalers of fuel in the United States. Through its subsidiary GPM Investments, ARKO operates approximately 1,400 company-operated stores under 25+ regional brands across 30+ states, as well as proprietary cardlock locations and a fleet fueling network. In 2026, ARKO completed the IPO of ARKO Petroleum Corp., which operates its wholesale, fleet fueling, and petroleum distribution segments.'
 features:
@@ -70,36 +99,36 @@ features:
   name: Cardlock Operations
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arko.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-18'
 name: ARKO Corp
 nav: Providers
 network: true
 overview: 'ARKO Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Stores, Fleet Fueling, Fuel, Petroleum, and Retail.
 
 
-  ARKO Corp''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
+  ARKO Corp''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
 random_paper: 11
 score:
   band: minimal
-  composite: 7.4
+  composite: 10.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
-    access_clarity: 0.0
+    access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 57.4
     operational_transparency: 0.0
   previous_composite: 7.4
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

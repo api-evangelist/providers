@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 3
 apis:
 - description: RESTful API providing access to Kelley Blue Book vehicle data, values, and content. Endpoints cover vehicle information, new and used pricing, expert and consumer ratings and reviews, cost-of-ownershi
@@ -144,7 +144,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 24.7
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false

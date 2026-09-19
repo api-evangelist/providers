@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -1253,7 +1253,7 @@ modified: '2026-05-22'
 name: Apigee
 nav: Providers
 network: true
-overview: 'Apigee publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, API Deployments API, API Observations API, and 38 more. Tagged areas include Advanced API Security, Agentic AI, Analytics, API Gateway, and API Governance.
+overview: 'Apigee publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, API Deployments API, API Observations API, and 38 more. Tagged areas include Apigee, Advanced API Security, Agentic AI, Analytics, and API Gateway.
 
 
   The Apigee catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1323,7 +1323,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -1344,6 +1344,7 @@ security:
   summary_line: security.txt · contact published
 slug: apigee
 tags:
+- Apigee
 - Advanced API Security
 - Agentic AI
 - Analytics

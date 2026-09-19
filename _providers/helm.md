@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ modified: '2026-05-19'
 name: Helm
 nav: Providers
 network: true
-overview: 'Helm publishes 3 APIs on the [APIs.io](https://apis.io/) network: ChartMuseum API, Charts API, and Repository API. Tagged areas include Charts, Cloud-Native, Container Orchestration, DevOps, and Kubernetes.
+overview: 'Helm publishes 3 APIs on the [APIs.io](https://apis.io/) network: ChartMuseum API, Charts API, and Repository API. Tagged areas include Helm, Charts, Cloud-Native, Container Orchestration, and DevOps.
 
 
   The Helm catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -272,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: true
@@ -285,6 +285,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: helm
 tags:
+- Helm
 - Charts
 - Cloud-Native
 - Container Orchestration

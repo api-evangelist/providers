@@ -27,7 +27,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -120,7 +120,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -163,7 +163,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -205,7 +205,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -255,7 +255,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -309,7 +309,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -352,7 +352,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -395,7 +395,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -444,7 +444,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -487,7 +487,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 14.6,
      "agent_band": "agent-aware",
@@ -530,7 +530,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -573,7 +573,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -623,7 +623,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -666,7 +666,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -709,7 +709,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -752,7 +752,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -809,7 +809,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -852,7 +852,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -895,7 +895,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -937,7 +937,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -980,7 +980,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1023,7 +1023,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1066,7 +1066,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1109,7 +1109,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1152,7 +1152,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1202,7 +1202,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1245,7 +1245,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1288,7 +1288,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1331,7 +1331,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1374,7 +1374,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1417,7 +1417,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1460,7 +1460,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1510,7 +1510,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1560,7 +1560,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1603,7 +1603,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1653,7 +1653,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1707,7 +1707,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1750,7 +1750,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1793,7 +1793,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1843,7 +1843,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1886,7 +1886,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1929,7 +1929,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1979,7 +1979,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2029,7 +2029,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2079,7 +2079,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2166,7 +2166,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2216,7 +2216,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2266,7 +2266,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2309,7 +2309,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2359,7 +2359,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2401,7 +2401,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -2443,7 +2443,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2486,7 +2486,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2529,7 +2529,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2572,7 +2572,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2621,7 +2621,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2664,7 +2664,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2713,7 +2713,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2762,7 +2762,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2805,7 +2805,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2848,7 +2848,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2891,7 +2891,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2940,7 +2940,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2982,7 +2982,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3032,7 +3032,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3075,7 +3075,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3118,7 +3118,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3161,7 +3161,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3203,7 +3203,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3231,10 +3231,9 @@
      "rank": 71
     },
     {
-     "name": "Chemtura",
-     "slug": "chemtura",
-     "description": "Chemtura Corporation was a global specialty chemicals company that developed, manufactured, and marketed chemical intermediates, additives, specialty chemicals, urethanes, organometallics, and modern plastics. In April 2017, Chemtura was acquired by LANXESS AG, the German specialty chemicals company headquartered in Cologne, and its operations were integrated into LANXESS's Performance Materials and other business segments. Chemtura products are now marketed and supported through LANXESS, which continues to serve agriculture, animal care, mobility, consumer goods, electrical and electronics, energy, food, and healthcare end markets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemtura/refs/heads/main/screenshots/chemtura-2026-06-20T174259.png",
+     "name": "Axiall",
+     "slug": "axiall",
+     "description": "Axiall Corporation was a manufacturer and international marketer of chemicals and building products, including chlorovinyls (chlor-alkali, PVC resin and vinyl compounds) and aromatics, for use in industrial and consumer applications. Westlake Chemical completed its acquisition of Axiall on 2016-08-31 and the Axiall brand and website have been absorbed into Westlake; the company published no developer program or API.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3246,7 +3245,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3274,10 +3273,10 @@
      "rank": 72
     },
     {
-     "name": "Ecolab",
-     "slug": "ecolab",
-     "description": "Ecolab is a Fortune 500 global leader in water, hygiene, and infection prevention solutions and services. The company helps customers in food, healthcare, hospitality, industrial, and energy markets keep their environments clean, safe, and healthy while protecting people and vital resources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/screenshots/ecolab-2026-06-20T180448.png",
+     "name": "Chemtura",
+     "slug": "chemtura",
+     "description": "Chemtura Corporation was a global specialty chemicals company that developed, manufactured, and marketed chemical intermediates, additives, specialty chemicals, urethanes, organometallics, and modern plastics. In April 2017, Chemtura was acquired by LANXESS AG, the German specialty chemicals company headquartered in Cologne, and its operations were integrated into LANXESS's Performance Materials and other business segments. Chemtura products are now marketed and supported through LANXESS, which continues to serve agriculture, animal care, mobility, consumer goods, electrical and electronics, energy, food, and healthcare end markets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemtura/refs/heads/main/screenshots/chemtura-2026-06-20T174259.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3289,7 +3288,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3317,10 +3316,10 @@
      "rank": 73
     },
     {
-     "name": "Hanqi Group",
-     "slug": "hanqigroup",
-     "description": "Beijing Hanqi Environmental Technology Co., Ltd. (Hanqi Group) is a Beijing-based environmental technology company specializing in full-process chemical and oily wastewater treatment for the petrochemical, coal-chemical, new-energy, industrial-park, and municipal sectors. With roughly 17 years of operating history, 140+ client references, and 80+ patents across physicochemical, biochemical, and oxidation process categories, Hanqi delivers engineered water-treatment technologies and services rather than software. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. Public research confirms no developer, API, SDK, or agent surface exists for this provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hanqigroup/refs/heads/main/screenshots/hanqigroup-2026-07-25T220635.png",
+     "name": "Ecolab",
+     "slug": "ecolab",
+     "description": "Ecolab is a Fortune 500 global leader in water, hygiene, and infection prevention solutions and services. The company helps customers in food, healthcare, hospitality, industrial, and energy markets keep their environments clean, safe, and healthy while protecting people and vital resources.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/screenshots/ecolab-2026-06-20T180448.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3332,7 +3331,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3360,10 +3359,10 @@
      "rank": 74
     },
     {
-     "name": "Hexion",
-     "slug": "hexion",
-     "description": "Hexion is a global leader in thermosetting resins, providing a broad range of adhesive, structural, and specialty resins to a wide variety of industries including coatings, construction, electronics, and automotive. Their purpose is to activate science to change our world.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hexion/refs/heads/main/screenshots/hexion-2026-06-20T182712.png",
+     "name": "Hanqi Group",
+     "slug": "hanqigroup",
+     "description": "Beijing Hanqi Environmental Technology Co., Ltd. (Hanqi Group) is a Beijing-based environmental technology company specializing in full-process chemical and oily wastewater treatment for the petrochemical, coal-chemical, new-energy, industrial-park, and municipal sectors. With roughly 17 years of operating history, 140+ client references, and 80+ patents across physicochemical, biochemical, and oxidation process categories, Hanqi delivers engineered water-treatment technologies and services rather than software. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. Public research confirms no developer, API, SDK, or agent surface exists for this provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hanqigroup/refs/heads/main/screenshots/hanqigroup-2026-07-25T220635.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3375,7 +3374,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3403,10 +3402,10 @@
      "rank": 75
     },
     {
-     "name": "PPG Industries",
-     "slug": "ppg-industries",
-     "description": "PPG Industries is a Fortune 500 global supplier of paints, coatings, and specialty materials serving customers in construction, consumer products, industrial, transportation markets, and aftermarkets. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with PPG Industries. As of the last review, no public APIs or developer portal have been identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ppg-industries/refs/heads/main/screenshots/ppg-industries-2026-06-20T192035.png",
+     "name": "Hexion",
+     "slug": "hexion",
+     "description": "Hexion is a global leader in thermosetting resins, providing a broad range of adhesive, structural, and specialty resins to a wide variety of industries including coatings, construction, electronics, and automotive. Their purpose is to activate science to change our world.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hexion/refs/heads/main/screenshots/hexion-2026-06-20T182712.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3418,7 +3417,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3446,10 +3445,10 @@
      "rank": 76
     },
     {
-     "name": "Rise Reforming",
-     "slug": "rise-reforming",
-     "description": "Rise Reforming is a climate-technology company that converts underutilized and flared waste biogas into valuable chemicals such as dimethyl ether (DME) and methanol. It deploys a modular, on-site reforming process at biogas sources like wastewater treatment plants, enabling localized, supply-secure chemical production and reducing dependence on centralized, fossil-fuel-based chemical manufacturing. A Y Combinator (Summer 2026) company, it is building the first wastewater biogas-to-methanol demonstration in the Americas at a Chicagoland wastewater facility. As a hardware and chemical-process company, it currently publishes no public web API, developer portal, or software SDK surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rise-reforming/refs/heads/main/screenshots/rise-reforming-2026-09-02T153853.png",
+     "name": "PPG Industries",
+     "slug": "ppg-industries",
+     "description": "PPG Industries is a Fortune 500 global supplier of paints, coatings, and specialty materials serving customers in construction, consumer products, industrial, transportation markets, and aftermarkets. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with PPG Industries. As of the last review, no public APIs or developer portal have been identified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ppg-industries/refs/heads/main/screenshots/ppg-industries-2026-06-20T192035.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3461,7 +3460,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3487,6 +3486,49 @@
       "agentic_commerce": false
      },
      "rank": 77
+    },
+    {
+     "name": "Rise Reforming",
+     "slug": "rise-reforming",
+     "description": "Rise Reforming is a climate-technology company that converts underutilized and flared waste biogas into valuable chemicals such as dimethyl ether (DME) and methanol. It deploys a modular, on-site reforming process at biogas sources like wastewater treatment plants, enabling localized, supply-secure chemical production and reducing dependence on centralized, fossil-fuel-based chemical manufacturing. A Y Combinator (Summer 2026) company, it is building the first wastewater biogas-to-methanol demonstration in the Americas at a Chicagoland wastewater facility. As a hardware and chemical-process company, it currently publishes no public web API, developer portal, or software SDK surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rise-reforming/refs/heads/main/screenshots/rise-reforming-2026-09-02T153853.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-18",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 78
     },
     {
      "name": "Rohm and Haas",
@@ -3529,7 +3571,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Solugen",
@@ -3547,7 +3589,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3572,7 +3614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Exxon Mobil",
@@ -3590,7 +3632,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3622,7 +3664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Entegris",
@@ -3640,49 +3682,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 81
-    },
-    {
-     "name": "MicroByre",
-     "slug": "microbyre",
-     "description": "MicroByre was a Berkeley, California synthetic biology company founded in 2017 by CEO and co-founder Sarah Richardson to \"domesticate\" wild-type bacteria — building an automated characterization and genetic-tool pipeline that made naturally occurring, never-before-engineered microbes tractable so they could ferment unrefined waste biomass into commodity chemicals, enzymes, food ingredients and probiotics at costs petrochemical routes could not match. It raised roughly $20.5M, including backing from Prime Coalition's Prime Impact Fund, and went out of business; Prime Coalition lists it as \"no longer active\" and C&EN reported the shutdown. MicroByre was a wet-lab platform company, not a software vendor: it published no developer program, no API, and no machine-readable contract, and its own domain no longer resolves to a web server.",
-     "score": 4.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 46.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3710,22 +3710,21 @@
      "rank": 82
     },
     {
-     "name": "NewMarket Corporation",
-     "slug": "newmarket",
-     "description": "NewMarket Corporation (NYSE: NEU) is a publicly traded specialty chemicals holding company headquartered in Richmond, Virginia. Through subsidiaries Afton Chemical and Ethyl Corporation, NewMarket develops petroleum additives for fuels and lubricants used worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newmarket/refs/heads/main/screenshots/newmarket-2026-06-20T190240.png",
+     "name": "MicroByre",
+     "slug": "microbyre",
+     "description": "MicroByre was a Berkeley, California synthetic biology company founded in 2017 by CEO and co-founder Sarah Richardson to \"domesticate\" wild-type bacteria — building an automated characterization and genetic-tool pipeline that made naturally occurring, never-before-engineered microbes tractable so they could ferment unrefined waste biomass into commodity chemicals, enzymes, food ingredients and probiotics at costs petrochemical routes could not match. It raised roughly $20.5M, including backing from Prime Coalition's Prime Impact Fund, and went out of business; Prime Coalition lists it as \"no longer active\" and C&EN reported the shutdown. MicroByre was a wet-lab platform company, not a software vendor: it published no developer program, no API, and no machine-readable contract, and its own domain no longer resolves to a web server.",
      "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 46.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3753,6 +3752,49 @@
      "rank": 83
     },
     {
+     "name": "NewMarket Corporation",
+     "slug": "newmarket",
+     "description": "NewMarket Corporation (NYSE: NEU) is a publicly traded specialty chemicals holding company headquartered in Richmond, Virginia. Through subsidiaries Afton Chemical and Ethyl Corporation, NewMarket develops petroleum additives for fuels and lubricants used worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newmarket/refs/heads/main/screenshots/newmarket-2026-06-20T190240.png",
+     "score": 4.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-18",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 84
+    },
+    {
      "name": "Utility Global",
      "slug": "utility-global",
      "description": "Utility Global is a Houston, Texas industrial decarbonization company founded in 2018. Its proprietary H2Gen and eXERO platform converts water into high-purity hydrogen using the residual electrochemical energy already present in industrial off-gases and biogenic gases — driving water electrolysis without electricity — while concentrating CO2 into a separate capture-ready stream. The company sells into steel, low-carbon fuels, and refining, petrochemicals and chemicals, and has run demonstration programs on blast-furnace off-gas at commercial steel facilities. It is a hardware and process-technology business, not a software vendor: its public web presence is a marketing site with no developer program, no API documentation, and no machine-readable contract of any kind.",
@@ -3767,7 +3809,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3799,7 +3841,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Arzeda",
@@ -3817,7 +3859,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3849,7 +3891,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "DuPont",
@@ -3867,50 +3909,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 86
-    },
-    {
-     "name": "Momentive Performance Materials",
-     "slug": "momentive-performance-materials",
-     "description": "Momentive Performance Materials is a global silicones and advanced materials company that produces specialty silicones, urethane additives, and quartz technologies for industrial and consumer markets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/momentive-performance-materials/refs/heads/main/screenshots/momentive-performance-materials-2026-06-20T185715.png",
-     "score": 4.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3938,9 +3937,10 @@
      "rank": 87
     },
     {
-     "name": "Nexeo Solutions Holdings",
-     "slug": "nexeo-solutions-holdings",
-     "description": "Nexeo Solutions was a leading global chemicals and plastics distributor before being acquired by Univar Solutions in 2019. This index tracks any developer resources or APIs associated with the legacy Nexeo Solutions brand.",
+     "name": "Momentive Performance Materials",
+     "slug": "momentive-performance-materials",
+     "description": "Momentive Performance Materials is a global silicones and advanced materials company that produces specialty silicones, urethane additives, and quartz technologies for industrial and consumer markets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/momentive-performance-materials/refs/heads/main/screenshots/momentive-performance-materials-2026-06-20T185715.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3952,7 +3952,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3980,30 +3980,22 @@
      "rank": 88
     },
     {
-     "name": "Phillips 66",
-     "slug": "phillips-66",
-     "description": "Phillips 66 is a diversified energy manufacturing and logistics company with midstream, chemicals, refining, and marketing and specialties businesses. This repository captures any APIs, developer tools, and machine-readable API artifacts for Phillips 66.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/phillips-66/refs/heads/main/screenshots/phillips-66-2026-06-20T191638.png",
-     "score": 3.8,
+     "name": "Nexeo Solutions Holdings",
+     "slug": "nexeo-solutions-holdings",
+     "description": "Nexeo Solutions was a leading global chemicals and plastics distributor before being acquired by Univar Solutions in 2019. This index tracks any developer resources or APIs associated with the legacy Nexeo Solutions brand.",
+     "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4030,11 +4022,11 @@
      "rank": 89
     },
     {
-     "name": "CDI Corp",
-     "slug": "cdi-corp",
-     "description": "CDI Corp (CDI Corporation) is a multidisciplinary engineering and technical resourcing firm founded in Philadelphia in 1950 as Comprehensive Designers, Inc., later listed on the NYSE from 1988 to 2017. After being taken private by AE Industrial Partners in September 2017 for approximately $176M ($8.25 per share), AE divested CDI's aerospace business to Belcan (2017), talent and technology services to Artech (2018), and architecture/engineering subsidiary L.R. Kimball to TranSystems (2021), refocusing the remaining CDI Engineering Solutions on integrated engineering, design, project support, procurement, and construction management for the energy and chemicals industries. On January 1, 2025 CDI Engineering Solutions, LLC became a wholly owned subsidiary of Tata Consulting Engineers and now trades as Tata Consulting Engineers USA, LLC, headquartered in Houston, TX with 650+ employees across ten engineering centers. CDI Corp has no public developer APIs; the company delivers engineering services and staff augmentation rather than software products. The tagline carried by the operating business is \"Quality Results. Sustainable Solutions. Safely Delivered.\"",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdi-corp/refs/heads/main/screenshots/cdi-corp-2026-06-20T174111.png",
-     "score": 3.3,
+     "name": "Phillips 66",
+     "slug": "phillips-66",
+     "description": "Phillips 66 is a diversified energy manufacturing and logistics company with midstream, chemicals, refining, and marketing and specialties businesses. This repository captures any APIs, developer tools, and machine-readable API artifacts for Phillips 66.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/phillips-66/refs/heads/main/screenshots/phillips-66-2026-06-20T191638.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4042,10 +4034,10 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4080,10 +4072,10 @@
      "rank": 90
     },
     {
-     "name": "Chevron",
-     "slug": "chevron",
-     "description": "Chevron Corporation is one of the world's largest integrated energy companies, with operations across upstream exploration and production, downstream refining and marketing, and the production and transportation of crude oil, natural gas, refined fuels, lubricants, petrochemicals, and renewable fuels. Chevron is headquartered in Houston, Texas, and operates globally under brands including Chevron, Texaco, and Caltex. Chevron does not currently publish a public consumer-facing developer API; supplier and partner integrations are handled through the Chevron Invoice and Payment Status (CIPS) system and the Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability, and IR websites.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chevron/refs/heads/main/screenshots/chevron-2026-06-20T174311.png",
+     "name": "CDI Corp",
+     "slug": "cdi-corp",
+     "description": "CDI Corp (CDI Corporation) is a multidisciplinary engineering and technical resourcing firm founded in Philadelphia in 1950 as Comprehensive Designers, Inc., later listed on the NYSE from 1988 to 2017. After being taken private by AE Industrial Partners in September 2017 for approximately $176M ($8.25 per share), AE divested CDI's aerospace business to Belcan (2017), talent and technology services to Artech (2018), and architecture/engineering subsidiary L.R. Kimball to TranSystems (2021), refocusing the remaining CDI Engineering Solutions on integrated engineering, design, project support, procurement, and construction management for the energy and chemicals industries. On January 1, 2025 CDI Engineering Solutions, LLC became a wholly owned subsidiary of Tata Consulting Engineers and now trades as Tata Consulting Engineers USA, LLC, headquartered in Houston, TX with 650+ employees across ten engineering centers. CDI Corp has no public developer APIs; the company delivers engineering services and staff augmentation rather than software products. The tagline carried by the operating business is \"Quality Results. Sustainable Solutions. Safely Delivered.\"",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdi-corp/refs/heads/main/screenshots/cdi-corp-2026-06-20T174111.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4095,7 +4087,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4130,10 +4122,10 @@
      "rank": 91
     },
     {
-     "name": "Fujian Deer Technology",
-     "slug": "fujian-deer-technology",
-     "description": "Fujian Deer Technology (福建德尔科技股份有限公司) is a Chinese specialty-chemicals manufacturer founded in June 2014 and headquartered in the Jiaoyang Industrial Concentration Zone, Shanghang County, Longyan City, Fujian Province. The company pursues a full fluorine-chemistry industry-chain strategy, researching, producing and selling basic chemical materials, fluorine-containing electronic gases, high-purity semiconductor wet electronic chemicals, new-energy (lithium battery) materials and other fluorinated advanced materials. Its electronic-grade gases include trifluoromethane, carbon tetrafluoride, sulfur hexafluoride, hexafluoroethane, chlorine trifluoride and octafluorocyclobutane, supplied into semiconductor chips, LED chips, flat-panel displays, communications optical fibre, power and energy-storage batteries, ultra-high-voltage transmission and transformation, and photovoltaic power generation. It is a designated national high-tech enterprise and is privately held; its shares appear on secondary-market venues. It manufactures physical materials and publishes no public API, developer program or machine-readable interface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fujian-deer-technology/refs/heads/main/screenshots/fujian-deer-technology-2026-09-02T145618.png",
+     "name": "Chevron",
+     "slug": "chevron",
+     "description": "Chevron Corporation is one of the world's largest integrated energy companies, with operations across upstream exploration and production, downstream refining and marketing, and the production and transportation of crude oil, natural gas, refined fuels, lubricants, petrochemicals, and renewable fuels. Chevron is headquartered in Houston, Texas, and operates globally under brands including Chevron, Texaco, and Caltex. Chevron does not currently publish a public consumer-facing developer API; supplier and partner integrations are handled through the Chevron Invoice and Payment Status (CIPS) system and the Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability, and IR websites.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chevron/refs/heads/main/screenshots/chevron-2026-06-20T174311.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4145,7 +4137,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4180,10 +4172,10 @@
      "rank": 92
     },
     {
-     "name": "HollyFrontier",
-     "slug": "hollyfrontier",
-     "description": "HollyFrontier Corporation (NYSE: HFC) was an independent petroleum refiner and marketer headquartered in Dallas, Texas, formed by the 2011 merger of Holly Corporation and Frontier Oil. It operated refineries across the mid-continent, southwest and Rocky Mountain regions, producing and marketing gasoline, diesel fuel, jet fuel, asphalt and specialty lubricant products, and held the general partner interest in Holly Energy Partners. In 2022 HollyFrontier completed its transactions with The Sinclair Companies and was reorganized under a new parent, HF Sinclair Corporation (NYSE: DINO); the HollyFrontier brand no longer operates independently and www.hollyfrontier.com now redirects to www.hfsinclair.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hollyfrontier/refs/heads/main/screenshots/hollyfrontier-2026-07-25T221320.png",
+     "name": "Fujian Deer Technology",
+     "slug": "fujian-deer-technology",
+     "description": "Fujian Deer Technology (福建德尔科技股份有限公司) is a Chinese specialty-chemicals manufacturer founded in June 2014 and headquartered in the Jiaoyang Industrial Concentration Zone, Shanghang County, Longyan City, Fujian Province. The company pursues a full fluorine-chemistry industry-chain strategy, researching, producing and selling basic chemical materials, fluorine-containing electronic gases, high-purity semiconductor wet electronic chemicals, new-energy (lithium battery) materials and other fluorinated advanced materials. Its electronic-grade gases include trifluoromethane, carbon tetrafluoride, sulfur hexafluoride, hexafluoroethane, chlorine trifluoride and octafluorocyclobutane, supplied into semiconductor chips, LED chips, flat-panel displays, communications optical fibre, power and energy-storage batteries, ultra-high-voltage transmission and transformation, and photovoltaic power generation. It is a designated national high-tech enterprise and is privately held; its shares appear on secondary-market venues. It manufactures physical materials and publishes no public API, developer program or machine-readable interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fujian-deer-technology/refs/heads/main/screenshots/fujian-deer-technology-2026-09-02T145618.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4195,7 +4187,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4230,10 +4222,10 @@
      "rank": 93
     },
     {
-     "name": "Praxair",
-     "slug": "praxair",
-     "description": "Praxair was an American multinational industrial gases company that merged with Linde AG in 2018 to form Linde plc. Praxair operations in the United States now operate as Linde. The company supplies atmospheric, process, and specialty gases, along with related equipment and services to a range of industries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/praxair/refs/heads/main/screenshots/praxair-2026-06-20T192041.png",
+     "name": "HollyFrontier",
+     "slug": "hollyfrontier",
+     "description": "HollyFrontier Corporation (NYSE: HFC) was an independent petroleum refiner and marketer headquartered in Dallas, Texas, formed by the 2011 merger of Holly Corporation and Frontier Oil. It operated refineries across the mid-continent, southwest and Rocky Mountain regions, producing and marketing gasoline, diesel fuel, jet fuel, asphalt and specialty lubricant products, and held the general partner interest in Holly Energy Partners. In 2022 HollyFrontier completed its transactions with The Sinclair Companies and was reorganized under a new parent, HF Sinclair Corporation (NYSE: DINO); the HollyFrontier brand no longer operates independently and www.hollyfrontier.com now redirects to www.hfsinclair.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hollyfrontier/refs/heads/main/screenshots/hollyfrontier-2026-07-25T221320.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4245,7 +4237,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4280,10 +4272,10 @@
      "rank": 94
     },
     {
-     "name": "sh-eco",
-     "slug": "sh-eco",
-     "description": "SH-ECO (翊科聚合物 / Yike Polymer) is a Chinese medical-device materials manufacturer specializing in the research, production, and customized fabrication of medical catheters and membrane materials. Its product range spans single-lumen tubing, multi-lumen tubing, composite/multi-layer tubing, and injection-molded components serving healthcare and multiple industrial applications. The company is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a company profile. It publishes a corporate marketing website but exposes no public developer or API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sh-eco/refs/heads/main/screenshots/sh-eco-2026-09-02T155054.png",
+     "name": "Praxair",
+     "slug": "praxair",
+     "description": "Praxair was an American multinational industrial gases company that merged with Linde AG in 2018 to form Linde plc. Praxair operations in the United States now operate as Linde. The company supplies atmospheric, process, and specialty gases, along with related equipment and services to a range of industries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/praxair/refs/heads/main/screenshots/praxair-2026-06-20T192041.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4295,13 +4287,13 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -4330,22 +4322,30 @@
      "rank": 95
     },
     {
-     "name": "Axiall",
-     "slug": "axiall",
-     "description": "Axiall Corporation is a manufacturer and international marketer of chemicals and building products, including chlorovinyls and aromatics, for use in industrial and consumer applications.",
-     "score": 3.2,
+     "name": "sh-eco",
+     "slug": "sh-eco",
+     "description": "SH-ECO (翊科聚合物 / Yike Polymer) is a Chinese medical-device materials manufacturer specializing in the research, production, and customized fabrication of medical catheters and membrane materials. Its product range spans single-lumen tubing, multi-lumen tubing, composite/multi-layer tubing, and injection-molded components serving healthcare and multiple industrial applications. The company is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a company profile. It publishes a corporate marketing website but exposes no public developer or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sh-eco/refs/heads/main/screenshots/sh-eco-2026-09-02T155054.png",
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 31.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4386,7 +4386,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4436,7 +4436,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4486,7 +4486,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -4533,7 +4533,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4633,7 +4633,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4682,7 +4682,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-17",
+     "scored_at": "2026-09-18",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

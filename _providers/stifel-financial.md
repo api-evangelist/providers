@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
 api_count: 3
 apis:
 - description: Stifel Bank account data accessible via Finicity (Mastercard) open banking aggregation API, enabling third-party applications to retrieve account balances, transaction history, and investment portfoli
@@ -147,7 +147,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-17'
+  scored_at: '2026-09-18'
   trend: flat
   upsert:
     applies: false
