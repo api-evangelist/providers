@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Momentive Performance Materials is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Materials, Silicones, and Specialty Chemicals.
 press:
-- date: '2026-05-25'
+- date: ''
   title: NY-MOMENTIVE-PERFORMANCE | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3774435/ny-momentive-performance?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: Momentive Performance Materials Announces Series Of ...
   url: https://www.prnewswire.com/news-releases/momentive-performance-materials-announces-series-of-steps-to-accelerate-growth-in-specialty-chemicals-301106762.html
-- date: '2026-05-25'
+- date: ''
   title: Piper Sandler Advises Momentive Performance Materials ...
   url: https://www.sttinfo.fi/tiedote/69885989/piper-sandler-advises-momentive-performance-materials-on-the-sale-of-its-consumer-sealants-business-to-henkel-corporation?publisherId=58763726
-- date: '2026-05-25'
+- date: ''
   title: Momentive Acquires KCC to Enhance Silicone Capabilities
   url: https://www.cosmeticsandtoiletries.com/news/companies/news/21843934/momentive-performance-materials-momentive-acquires-kcc-to-enhance-silicone-capabilities
-- date: '2026-05-25'
+- date: ''
   title: Momentive Performance Materials Inc. Upgraded to
   url: https://www.spglobal.com/ratings/es/regulatory/article/-/view/type/HTML/id/3305974
 random_paper: 12
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Graybar's Azure API Management developer portal. The portal is publicly reachable and serves a sign-in/sign-up flow and a single published product ("Starter", the Azure APIM default), but the anonymou
@@ -111,19 +111,19 @@ plans:
   plan_count: 1
   slug: graybar-electric-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Graybar names a new executive for AI, digital transformation
   url: https://www.digitalcommerce360.com/2025/07/02/graybar-new-executive-ai-digital-transformation-ecommerce-growth/
-- date: '2026-05-25'
+- date: ''
   title: 2024 annual report
   url: https://www.sec.gov/Archives/edgar/data/205402/000020540225000017/Graybar_2024_ARS_Flatnd.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'Graybar Electric: Seven Steps to Industry 4.0'
   url: https://www.proquest.com/docview/2333685394/2D3102A2EC9D415APQ/3
-- date: '2026-05-25'
+- date: ''
   title: Information Statement (Form DEF 14C)
   url: https://www.publicnow.com/view/4314BC4AFE8EA53637A0863B509C926C0645572D
-- date: '2026-05-25'
+- date: ''
   title: Explore how Graybar stays connected to customers
   url: https://www.sap.com/asset/dynamic/2025/03/febfef39-f87e-0010-bca6-c68f7e60039b.html
 random_paper: 4
@@ -154,7 +154,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 16
 common:
@@ -157,19 +157,19 @@ plans:
   plan_count: 0
   slug: american-water-works-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Role of Generative AI (GenAI) for the Global Water ...
   url: https://www.waterrf.org/research/projects/role-generative-ai-genai-global-water-sector
-- date: '2026-05-25'
+- date: ''
   title: AWWA releases white paper to help water utilities plan for ...
   url: https://www.awwa.org/AWWA-Articles/awwa-releases-white-paper-to-help-water-utilities-plan-for-data-centers/
-- date: '2026-05-25'
+- date: ''
   title: American Water Reinforces Need for Long Term ...
   url: https://www.prnewswire.com/news-releases/american-water-reinforces-need-for-long-term-investments-as-awwa-issues-new-report-on-us-water-systems-302740639.html
-- date: '2026-05-25'
+- date: ''
   title: 'AWWA''s new white paper, Cooling the Cloud: Water ...'
   url: https://www.facebook.com/AmericanWaterWorksAssociation/posts/awwas-new-white-paper-cooling-the-cloud-water-utilities-in-a-data-driven-world-h/1229587995870572/
-- date: '2026-05-25'
+- date: ''
   title: Financial Release Details
   url: https://ir.amwater.com/news-and-events/financial-releases/financial-release-details/2019/American-Water-Announces-10-Year-Capital-Spending-Plan-Sets-Long-Term-Growth-Targets-and-Announces-2020-Earnings-Guidance/default.aspx
 random_paper: 11
@@ -208,7 +208,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

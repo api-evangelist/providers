@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Host Hotels & Resorts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Hotels, REIT, Real-Estate, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Host Hotels & Resorts stock (US44107J1043): Q1 results ...'
   url: https://www.ad-hoc-news.de/boerse/news/ueberblick/host-hotels-and-resorts-stock-us44107j1043-q1-results-and-travel/69351695
-- date: '2026-05-25'
+- date: ''
   title: Host Hotels & Resorts, Inc. (HST) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4900449-host-hotels-and-resorts-inc-hst-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Noble Announces Pioneering Strategic Partnership with ...
   url: https://www.prnewswire.com/news-releases/noble-announces-pioneering-strategic-partnership-with-host-hotels--resorts-301485629.html
-- date: '2026-05-25'
+- date: ''
   title: Host Hotels & Resorts 2025 Corporate Responsibility Report
   url: https://www.hosthotels.com/-/media/HostHotels/Files/DownloadLinksAssets/CR-Highlights/Host_Hotels_Resorts_Inc_2025_Corporate_Responsibility_Report.pdf
-- date: '2026-05-25'
+- date: ''
   title: HST Investor Presentation - Q1 2026
   url: https://www.hosthotels.com/-/media/HostHotels/Files/DownloadLinksAssets/InvestorPresentations/Host_Hotels_Resorts_Inc_Investor_Presentation.pdf
 random_paper: 19
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Zions Treasury Internet Banking provides businesses with a secure online platform for managing treasury operations including ACH payments, domestic and international wire transfers, account transfers,
@@ -118,19 +118,19 @@ plans:
   plan_count: 3
   slug: zions-bancorp-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Zions Profit 'Marred' by Charge Tied to Bad Loans
   url: https://www.wsj.com/finance/banking/zions-logs-higher-third-quarter-profit-despite-50-million-charge-8d38e852
-- date: '2026-05-25'
+- date: ''
   title: Zions Bancorporation, National Association Reports First ...
   url: https://finance.yahoo.com/markets/stocks/articles/zions-bancorporation-national-association-reports-201000841.html
-- date: '2026-05-25'
+- date: ''
   title: Zions Bancorporation Q1 2026 earnings jump 38%
   url: https://www.stocktitan.net/sec-filings/ZION/8-k-zions-bancorporation-national-association-ut-reports-material-eve-c88df85228fc.html
-- date: '2026-05-25'
+- date: ''
   title: Zions Bancorp. - Latest News
   url: https://www.americanbanker.com/organization/zions-bancorp
-- date: '2026-05-25'
+- date: ''
   title: Zions Bancorporation, National Association Reports Fourth ...
   url: https://zionsbancorp.com/news-events/press-releases/news-details/2024/Zions-Bancorporation-National-Association-Reports-Fourth-Quarter-Financial-Results/default.aspx
 random_paper: 7
@@ -164,7 +164,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

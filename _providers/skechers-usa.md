@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Skechers operates a direct-to-consumer digital commerce platform at skechers.com that enables online shopping for footwear, apparel, and accessories. The platform integrates with e-commerce infrastruc
@@ -124,19 +124,19 @@ plans:
   plan_count: 3
   slug: skechers-usa-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: SKECHERS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/13951664/skechers?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: o9 Solutions Partners With Skechers to Digitally Transform ...
   url: https://www.businesswire.com/news/home/20240122515552/en/o9-Solutions-Partners-With-Skechers-to-Digitally-Transform-the-Companys-Retail-Planning-Processes
-- date: '2026-05-25'
+- date: ''
   title: 오나인솔루션즈, 글로벌 스포츠 브랜드 스케쳐스(Skechers) ...
   url: https://o9solutions.com/ko/news/customer-case-skechers-o9-digital-brain
-- date: '2026-05-25'
+- date: ''
   title: The problem with generative AI, and how it relates to Skechers ...
   url: https://www.instagram.com/reel/DU_LgGaFSxG/
-- date: '2026-05-25'
+- date: ''
   title: 'When IR Met AI: How the Technology Is Shaping Earnings- ...'
   url: https://www.wsj.com/articles/when-ir-met-ai-how-the-technology-is-shaping-earnings-day-prep-5054a057
 random_paper: 20
@@ -180,7 +180,7 @@ score:
     - north-america
   previous_composite: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The Weis Markets Vendor Integration API enables supplier and vendor partners to exchange purchase orders, invoices, item management data, and vendor contact information electronically. The platform us
@@ -108,19 +108,19 @@ plans:
   plan_count: 3
   slug: weis-markets-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: WEIS MARKETS REPORTS FOURTH QUARTER AND ...
   url: https://www.prnewswire.com/news-releases/weis-markets-reports-fourth-quarter-and-fiscal-year-2025-results-302712905.html
-- date: '2026-05-25'
+- date: ''
   title: WEIS MARKETS, INC_December 27, 2025
   url: https://www.sec.gov/Archives/edgar/data/105418/000010541826000024/wmk-20251227x10k.htm
-- date: '2026-05-25'
+- date: ''
   title: Weis Markets ensures product freshness with AI
   url: https://chainstoreage.com/weis-markets-ensures-product-freshness-ai
-- date: '2026-05-25'
+- date: ''
   title: Weis Markets partners with Cognira to enhance promotion ...
   url: https://cognira.com/news/weis-markets-partners-with-cognira-to-enhance-promotion-efficiency-and-results/
-- date: '2026-05-25'
+- date: ''
   title: Weis Markets Partners With Cognira to Enhance Promotion ...
   url: https://www.businesswire.com/news/home/20251001115503/en/Weis-Markets-Partners-With-Cognira-to-Enhance-Promotion-Efficiency-and-Results
 random_paper: 12
@@ -148,7 +148,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

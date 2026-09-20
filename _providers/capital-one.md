@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 14
 apis:
 - description: The Capital One Account Lookup API is a DevExchange product that lets approved partners resolve and retrieve consumer account information such as balances, transaction history, and account status. Int
@@ -221,19 +221,19 @@ plans:
   plan_count: 1
   slug: capital-one-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Capital One and Clarity Money Announce Data Sharing ...
   url: https://investor.capitalone.com/news-releases/news-release-details/capital-one-and-clarity-money-announce-data-sharing-agreement
-- date: '2026-05-25'
+- date: ''
   title: Capital One
   url: https://www.facebook.com/capitalone/posts/were-proud-to-announce-that-capital-one-has-joined-the-partnership-on-ai-a-leadi/951935256295459/
-- date: '2026-05-25'
+- date: ''
   title: Capital One Center
   url: https://usc-capitalone.webflow.io/
-- date: '2026-05-25'
+- date: ''
   title: Q4 2025 Earnings Release Presentation
   url: https://investor.capitalone.com/static-files/0f5f3bba-b1f9-42c7-8c20-de9c73876ac6
-- date: '2026-05-25'
+- date: ''
   title: Capital One reaps post-acquisition rewards
   url: https://www.bankingdive.com/news/capital-one-discover-integration-q3-earnings-auto-opportunity-profit-revenue-net-interest-income/803523/
 random_paper: 1
@@ -280,7 +280,7 @@ score:
     regime_id: banking_open_finance
     score: 49.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

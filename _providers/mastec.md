@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: MasTec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Infrastructure, Construction, and Energy.
 press:
-- date: '2026-05-25'
+- date: ''
   title: MasTec Announces the Retirement of J. Marc Lewis as ...
   url: https://www.prnewswire.com/news-releases/mastec-announces-the-retirement-of-j-marc-lewis-as-vice-president-of-investor-relations-and-appointment-of-christopher-mecray-as-successor-302420486.html
-- date: '2026-05-25'
+- date: ''
   title: A Look At MasTec (MTZ) Valuation As AI Data Center And ...
   url: https://simplywall.st/stocks/us/capital-goods/nyse-mtz/mastec/news/a-look-at-mastec-mtz-valuation-as-ai-data-center-and-backlog
-- date: '2026-05-25'
+- date: ''
   title: MasTec schedules first-quarter earnings release and ...
   url: https://www.sahmcapital.com/news/content/mastec-schedules-first-quarter-earnings-release-and-conference-call-2026-04-17
-- date: '2026-05-25'
+- date: ''
   title: I could h
   url: https://investors.mastec.com/static-files/70ec2215-4e76-4b8b-af58-4ecb685b2867
-- date: '2026-05-25'
+- date: ''
   title: 'Bull of the Day: MasTec, Inc. (MTZ)'
   url: https://finance.yahoo.com/news/bull-day-mastec-inc-mtz-080000848.html
 random_paper: 21
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

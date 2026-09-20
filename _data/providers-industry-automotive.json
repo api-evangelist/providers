@@ -1,6 +1,6 @@
 {
- "total": 411,
- "shown": 411,
+ "total": 412,
+ "shown": 412,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 68.5,
      "agent_band": "agent-ready",
@@ -59,18 +59,18 @@
      "slug": "here",
      "description": "As global mobility becomes increasingly connected, electrified and automated, HERE Technologies is leading the way to a safer, greener future. Our location platform is integrated into more than 160 million vehicles across the planet, using fresh and accurate data that we have been building for over 35 years - and continue to refresh daily. Our experience in mapmaking has made HERE one of the leading innovators in location technology and spatial intelligence.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/screenshots/here-2026-06-20T182640.png",
-     "score": 71.0,
+     "score": 69.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 87.0,
       "contract_quality": 65.1,
       "contract_governance": 18.2,
-      "operational_transparency": 92.1,
+      "operational_transparency": 84.2,
       "developer_ergonomics": 63.7,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 55.9,
      "agent_band": "agent-native",
@@ -124,7 +124,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -173,7 +173,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 38.0,
      "agent_band": "agent-ready",
@@ -216,7 +216,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -259,7 +259,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -309,7 +309,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 36.2,
      "agent_band": "agent-ready",
@@ -363,7 +363,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -413,7 +413,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -441,6 +441,56 @@
      "rank": 9
     },
     {
+     "name": "Audatex",
+     "slug": "audatex",
+     "description": "Audatex (a Solera company) provides automotive claims and repair solutions with data and technology services for the automotive insurance, collision repair, and fleet management industries. It publishes the AudaConnect API platform for third-party integration (Audatex UK: assessments, vehicle reference data, parts orders, images, total-loss quotes and notification subscriptions, plus a bodyshop-management BMS API), an Intelligent Vehicle Inspection API Gateway (image capture, AI triage, video assessment, webhooks), and North American GIC / Dashboard Assignment integration APIs. APIs are RESTful with JSON/XML support, secured with OAuth 2.0 (AudaConnect portal and an OpenID Connect identity server), and access is granted through the AudaConnect service desk rather than self-service sign-up.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/audatex/refs/heads/main/screenshots/audatex-2026-06-20T172546.png",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 51.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 63.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 39.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
+    },
+    {
      "name": "Avito",
      "slug": "avito",
      "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where individuals and businesses buy and sell across goods, vehicles, real estate, jobs and services. For business sellers and integrators Avito publishes a public Developer Portal (developers.avito.ru) exposing 25 OpenAPI 3.0.0 REST APIs on api.avito.ru covering item/listing management, autoload feed ingestion, the buyer-seller messenger, delivery, order and stock management, ratings and reviews, advertising and CPA/promotion campaigns, short-term rental, jobs (Avito.Rabota), and Autoteka vehicle history. All APIs use OAuth 2.0 (authorization_code for acting on behalf of users, client_credentials for a business's own account) with scoped access and per-minute rate limiting.",
@@ -456,7 +506,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -481,7 +531,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Volteras",
@@ -499,7 +549,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -531,7 +581,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Mercedes-Benz Mercedes me",
@@ -549,7 +599,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 43.3,
      "agent_band": "agent-ready",
@@ -574,49 +624,6 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 12
-    },
-    {
-     "name": "Lyft",
-     "slug": "lyft",
-     "description": "Lyft is a transportation network company operating ride-hailing, bikeshare, scooter-share and related mobility services across the United States and Canada. Its API surface has two halves that behave very differently. The ride-hailing developer program — the Rides and Concierge APIs on api.lyft.com, used for patient transport, employee transit and customer-service ride booking — is gated: www.lyft.com/developers redirects to a sign-in, access is granted through a Lyft Business relationship, and the old documentation host developer.lyft.com no longer resolves. The micromobility side is wide open: Lyft serves live GBFS feeds for eight bikeshare and scooter systems (Citi Bike, Divvy, Bay Wheels, Bluebikes, Capital Bikeshare, Biketown, and its own DC and Denver fleets) anonymously from gbfs.lyft.com, alongside a public RFC 8414 OAuth metadata document that publishes the platform's full 47-scope vocabulary.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png",
-     "score": 51.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 71.3,
-      "contract_governance": 28.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 58.9,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 13
     },
     {
@@ -635,7 +642,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -678,7 +685,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -721,7 +728,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -771,7 +778,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 43.9,
      "agent_band": "agent-ready",
@@ -814,7 +821,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -842,38 +849,37 @@
      "rank": 18
     },
     {
-     "name": "Hyundai",
-     "slug": "hyundai",
-     "description": "Hyundai Motor Company is a South Korean multinational automotive manufacturer and, through Hyundai Developers, the operator of a connected-car data platform for third-party developers. The platform exposes the Hyundai integrated account over OAuth 2.0 and serves nineteen documented REST operations covering user profile, vehicle list, connected-service contract dates, odometer, distance-to-empty, EV battery and charging state, and seven warning-light indicators, sourced from vehicles enrolled in Bluelink. Access is governed by a two-stage consent model built around the Korean Personal Information Protection Act — a per-vehicle OAuth consent plus a separate third-party data-provision consent — and a manual commercialization review before any real customer vehicle data is released. The API reference, a public sample-test tier with fixture vehicles, and the developer guide are all readable without an account; data is limited to vehicles in South Korea.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/screenshots/hyundai-2026-06-20T183205.png",
-     "score": 48.8,
+     "name": "Cox Automotive",
+     "slug": "cox-automotive",
+     "description": "Cox Automotive is one of the world's largest providers of products and services spanning the automotive ecosystem, operating a portfolio of brands that includes Manheim (wholesale vehicle auctions and remarketing), Kelley Blue Book (vehicle valuations and editorial data), Autotrader, Dealertrack (DMS, registration and titling, credit applications), vAuto, VinSolutions, Xtime, Dealer.com, HomeNet and Esntial. Its public API surface is split across several developer properties: the Kelley Blue Book Developer Portal (developer.kbb.com) publishes Swagger 2.0 contracts for the IDWS 4.0 vehicle and editorial services, the Advertising Data API, the Instant Cash Offer API and the Batch VIN API; the Manheim Developer Portal (developer.manheim.com) documents a hypermedia REST suite covering auctions, inventory, marketplace offerings, valuations, condition reports, images, users and a publish/subscribe event notification service; and the Cox Automotive Integration Platform / API Storefront (developer.coxautoinc.com) fronts the partner-gated catalogue of more than seventy runtime services visible on the public Cox Automotive API status page. Access to every environment is granted after a review by a Cox Automotive account representative, with keys issued through the Boomi/Mashery gateway.",
+     "score": 48.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 48.1,
+      "discoverability": 68.5,
+      "contract_quality": 52.2,
       "contract_governance": 18.2,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 57.1,
-      "access_clarity": 42.1
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 70.8,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "agent_score": 29.3,
+     "agent_score": 32.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -900,7 +906,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
@@ -928,40 +934,33 @@
      "rank": 20
     },
     {
-     "name": "Audatex",
-     "slug": "audatex",
-     "description": "Audatex (a Solera company) provides automotive claims and repair solutions with data and technology services for the automotive insurance, collision repair, and fleet management industries. It publishes the AudaConnect API platform for third-party integration (Audatex UK: assessments, vehicle reference data, parts orders, images, total-loss quotes and notification subscriptions, plus a bodyshop-management BMS API), an Intelligent Vehicle Inspection API Gateway (image capture, AI triage, video assessment, webhooks), and North American GIC / Dashboard Assignment integration APIs. APIs are RESTful with JSON/XML support, secured with OAuth 2.0 (AudaConnect portal and an OpenID Connect identity server), and access is granted through the AudaConnect service desk rather than self-service sign-up.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/audatex/refs/heads/main/screenshots/audatex-2026-06-20T172546.png",
-     "score": 47.9,
+     "name": "Lyft",
+     "slug": "lyft",
+     "description": "Lyft is a transportation network company operating ride-hailing, bikeshare, scooter-share and related mobility services across the United States and Canada. Its API surface has two halves that behave very differently. The ride-hailing developer program — the Rides and Concierge APIs on api.lyft.com, used for patient transport, employee transit and customer-service ride booking — is gated: www.lyft.com/developers redirects to a sign-in, access is granted through a Lyft Business relationship, and the old documentation host developer.lyft.com no longer resolves. The micromobility side is wide open: Lyft serves live GBFS feeds for eight bikeshare and scooter systems (Citi Bike, Divvy, Bay Wheels, Bluebikes, Capital Bikeshare, Biketown, and its own DC and Denver fleets) anonymously from gbfs.lyft.com, alongside a public RFC 8414 OAuth metadata document that publishes the platform's full 47-scope vocabulary.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png",
+     "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 51.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 21.1
+      "discoverability": 75.9,
+      "contract_quality": 71.3,
+      "contract_governance": 28.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 58.9,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 51.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 39.0,
+     "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "served",
       "idempotency": false,
-      "error_semantics": "verified",
+      "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": true,
@@ -976,6 +975,49 @@
       "agentic_commerce": false
      },
      "rank": 21
+    },
+    {
+     "name": "Hyundai",
+     "slug": "hyundai",
+     "description": "Hyundai Motor Company is a South Korean multinational automotive manufacturer and, through Hyundai Developers, the operator of a connected-car data platform for third-party developers. The platform exposes the Hyundai integrated account over OAuth 2.0 and serves nineteen documented REST operations covering user profile, vehicle list, connected-service contract dates, odometer, distance-to-empty, EV battery and charging state, and seven warning-light indicators, sourced from vehicles enrolled in Bluelink. Access is governed by a two-stage consent model built around the Korean Personal Information Protection Act — a per-vehicle OAuth consent plus a separate third-party data-provision consent — and a manual commercialization review before any real customer vehicle data is released. The API reference, a public sample-test tier with fixture vehicles, and the developer guide are all readable without an account; data is limited to vehicles in South Korea.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyundai/refs/heads/main/screenshots/hyundai-2026-06-20T183205.png",
+     "score": 47.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 48.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 61.9,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 29.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
     },
     {
      "name": "Dana",
@@ -993,7 +1035,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1018,7 +1060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Sunbit",
@@ -1036,7 +1078,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1075,7 +1117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "State Farm",
@@ -1093,7 +1135,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1125,7 +1167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Autodesk PowerMill",
@@ -1143,7 +1185,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -1168,7 +1210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "RunBuggy",
@@ -1186,7 +1228,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 33.9,
      "agent_band": "agent-ready",
@@ -1211,7 +1253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Volkswagen",
@@ -1229,7 +1271,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1254,7 +1296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Dealer.com",
@@ -1272,7 +1314,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
@@ -1297,7 +1339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "May Mobility",
@@ -1315,7 +1357,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1340,7 +1382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Sheeva",
@@ -1358,7 +1400,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1390,7 +1432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Conversica",
@@ -1408,7 +1450,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1440,7 +1482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Vehicles.dev",
@@ -1458,7 +1500,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 38.8,
      "agent_band": "agent-native",
@@ -1483,7 +1525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Shiftmove",
@@ -1501,7 +1543,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -1526,7 +1568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Automile",
@@ -1544,7 +1586,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 28.2,
      "agent_band": "agent-aware",
@@ -1569,7 +1611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Renesas",
@@ -1587,7 +1629,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 40.8,
      "agent_band": "agent-ready",
@@ -1612,7 +1654,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Automotive Grade Linux",
@@ -1630,7 +1672,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -1655,7 +1697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Gracenote",
@@ -1673,16 +1715,16 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "agent_score": 29.5,
+     "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": "documented",
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "partial",
@@ -1693,12 +1735,12 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Meero",
@@ -1716,7 +1758,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 42.5,
      "agent_band": "agent-ready",
@@ -1741,7 +1783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Ryder System",
@@ -1759,7 +1801,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1784,7 +1826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Advance Auto Parts",
@@ -1802,7 +1844,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 38.5,
      "agent_band": "agent-ready",
@@ -1827,7 +1869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Telenav",
@@ -1845,7 +1887,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1877,7 +1919,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Smartcar",
@@ -1895,7 +1937,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1911,48 +1953,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Cox Automotive",
-     "slug": "cox-automotive",
-     "description": "Cox Automotive is one of the world's largest providers of products and services spanning the automotive ecosystem, operating a portfolio of brands that includes Manheim (wholesale vehicle auctions and remarketing), Kelley Blue Book (vehicle valuations and editorial data), Autotrader, Dealertrack (DMS, registration and titling, credit applications), vAuto, VinSolutions, Xtime, Dealer.com, HomeNet and Esntial. Its public API surface is split across several developer properties: the Kelley Blue Book Developer Portal (developer.kbb.com) publishes Swagger 2.0 contracts for the IDWS 4.0 vehicle and editorial services, the Advertising Data API, the Instant Cash Offer API and the Batch VIN API; the Manheim Developer Portal (developer.manheim.com) documents a hypermedia REST suite covering auctions, inventory, marketplace offerings, valuations, condition reports, images, users and a publish/subscribe event notification service; and the Cox Automotive Integration Platform / API Storefront (developer.coxautoinc.com) fronts the partner-gated catalogue of more than seventy runtime services visible on the public Cox Automotive API status page. Access to every environment is granted after a review by a Cox Automotive account representative, with keys issued through the Boomi/Mashery gateway.",
-     "score": 40.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 52.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 39.9,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "agent_score": 32.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -1980,7 +1980,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -2023,7 +2023,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -2066,7 +2066,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 37.1,
      "agent_band": "agent-ready",
@@ -2119,7 +2119,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2169,16 +2169,16 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "agent_score": 32.9,
+     "agent_score": 51.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "na",
       "mcp_server": "verified",
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": false,
@@ -2189,9 +2189,9 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 48
@@ -2211,7 +2211,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2261,7 +2261,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2310,16 +2310,16 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "agent_score": 20.1,
-     "agent_band": "agent-aware",
+     "agent_score": 36.3,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "verified",
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -2330,9 +2330,9 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 51
@@ -2353,7 +2353,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2396,7 +2396,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -2439,7 +2439,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 18.9,
      "agent_band": "agent-aware",
@@ -2482,7 +2482,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2525,7 +2525,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2568,7 +2568,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2611,7 +2611,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2654,7 +2654,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2697,7 +2697,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -2740,7 +2740,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -2782,7 +2782,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2825,7 +2825,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -2868,7 +2868,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -2910,7 +2910,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -2953,7 +2953,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -2995,7 +2995,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3038,7 +3038,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3081,7 +3081,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -3123,7 +3123,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -3166,7 +3166,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -3209,7 +3209,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3259,7 +3259,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3308,7 +3308,7 @@
       "developer_ergonomics": 23.2,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 39.7,
      "agent_band": "agent-ready",
@@ -3351,7 +3351,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3394,7 +3394,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3444,7 +3444,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -3487,7 +3487,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3530,7 +3530,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -3573,7 +3573,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3623,7 +3623,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
@@ -3666,7 +3666,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -3709,7 +3709,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -3751,7 +3751,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -3794,7 +3794,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3844,7 +3844,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -3887,7 +3887,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3937,7 +3937,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -3980,7 +3980,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4030,7 +4030,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4073,7 +4073,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
@@ -4116,7 +4116,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -4159,7 +4159,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4209,16 +4209,16 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "agent_score": 8.6,
+     "agent_score": 21.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -4229,9 +4229,9 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 94
@@ -4252,7 +4252,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4295,7 +4295,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -4338,7 +4338,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -4381,7 +4381,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4424,7 +4424,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -4467,7 +4467,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -4510,7 +4510,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -4553,7 +4553,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4596,7 +4596,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4656,7 +4656,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -4699,7 +4699,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4749,7 +4749,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4799,7 +4799,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4849,7 +4849,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -4892,7 +4892,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -4935,7 +4935,7 @@
       "developer_ergonomics": 10.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4978,7 +4978,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5021,7 +5021,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5064,7 +5064,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5114,7 +5114,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5164,7 +5164,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5214,7 +5214,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -5256,7 +5256,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5305,7 +5305,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -5333,49 +5333,6 @@
      "rank": 118
     },
     {
-     "name": "AutoNation",
-     "slug": "autonation",
-     "description": "AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png",
-     "score": 20.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 119
-    },
-    {
      "name": "Hireology",
      "slug": "hireology",
      "description": "Hireology is a purpose-built applicant tracking system (ATS) and hiring platform for multi-location, high-volume employers, with deep specialization in retail automotive, healthcare (including long-term and home care), and hospitality. The platform spans the full hiring lifecycle — candidate sourcing and job distribution, applicant engagement and texting, structured screening and skills assessments, interview and evaluation workflows, hiring decisions, and onboarding handoff — plus reporting and analytics that help operators hire consistently, faster, and at scale across locations. Hireology integrates with payroll, HRIS, background-check, scheduling, and job-board partners such as ADP, UKG, BambooHR, Indeed, CDK, Dealertrack, and Accurate. It maintains a SOC 2 Type II program and a public Trust Center. Hireology does not publish a public developer API portal or OpenAPI specification; integrations are delivered through named partner connectors. It was surfaced through the API Evangelist network as a portfolio company of Bain Capital Ventures.",
@@ -5391,7 +5348,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5423,7 +5380,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Lendbuzz",
@@ -5441,7 +5398,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5466,7 +5423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Envisics",
@@ -5484,7 +5441,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
@@ -5509,7 +5466,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "Amkor Technology",
@@ -5527,7 +5484,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5552,7 +5509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Kleio",
@@ -5570,7 +5527,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -5595,6 +5552,49 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 123
+    },
+    {
+     "name": "AutoNation",
+     "slug": "autonation",
+     "description": "AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png",
+     "score": 19.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 124
     },
     {
@@ -5612,7 +5612,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5662,7 +5662,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5705,7 +5705,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5748,7 +5748,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
@@ -5791,7 +5791,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5834,7 +5834,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5877,7 +5877,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5927,7 +5927,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5969,7 +5969,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -6012,7 +6012,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6021,14 +6021,14 @@
       "score": 52.7,
       "matched_via": "tags"
      },
-     "agent_score": 11.4,
+     "agent_score": 27.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "documented",
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -6039,9 +6039,9 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 134
@@ -6062,7 +6062,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -6105,7 +6105,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -6148,7 +6148,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
@@ -6190,7 +6190,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6233,7 +6233,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6275,7 +6275,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6324,7 +6324,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6367,7 +6367,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6417,7 +6417,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6460,7 +6460,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6503,7 +6503,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6546,7 +6546,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6589,7 +6589,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6632,7 +6632,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -6674,7 +6674,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 9.7,
      "agent_band": "agent-aware",
@@ -6717,7 +6717,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6760,7 +6760,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6802,7 +6802,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6845,7 +6845,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6888,7 +6888,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6931,7 +6931,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -6974,7 +6974,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 13.3,
      "agent_band": "agent-aware",
@@ -7017,7 +7017,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7060,7 +7060,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7103,7 +7103,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7146,7 +7146,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7189,7 +7189,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7232,7 +7232,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7275,7 +7275,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7318,7 +7318,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -7361,7 +7361,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7404,7 +7404,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7447,7 +7447,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7490,7 +7490,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7533,7 +7533,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7576,7 +7576,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -7619,7 +7619,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7662,7 +7662,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7705,7 +7705,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7748,7 +7748,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7791,7 +7791,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7834,7 +7834,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7877,7 +7877,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7920,7 +7920,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7963,7 +7963,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8013,7 +8013,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8063,7 +8063,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8106,7 +8106,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8149,7 +8149,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8192,7 +8192,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8234,7 +8234,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8284,7 +8284,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8327,7 +8327,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8369,7 +8369,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8412,7 +8412,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8455,7 +8455,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8498,7 +8498,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8541,7 +8541,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8583,7 +8583,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -8625,7 +8625,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8667,7 +8667,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8710,7 +8710,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8753,7 +8753,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8796,7 +8796,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8839,7 +8839,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 13.3,
      "agent_band": "agent-aware",
@@ -8882,7 +8882,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8925,7 +8925,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8968,7 +8968,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9011,7 +9011,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9054,7 +9054,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9096,7 +9096,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9139,7 +9139,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9182,7 +9182,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9225,7 +9225,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9268,7 +9268,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9311,7 +9311,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9354,7 +9354,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9396,7 +9396,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9439,7 +9439,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9482,7 +9482,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9525,7 +9525,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9568,7 +9568,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9611,7 +9611,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9654,7 +9654,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -9697,7 +9697,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9740,7 +9740,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9783,7 +9783,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9826,7 +9826,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9869,7 +9869,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9919,7 +9919,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9968,7 +9968,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10018,7 +10018,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10068,7 +10068,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10111,7 +10111,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10161,7 +10161,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10203,7 +10203,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10246,7 +10246,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10289,7 +10289,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10323,8 +10323,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 179,
-   "shown": 179,
+   "count": 180,
+   "shown": 180,
    "providers": [
     {
      "name": "Leapmotor",
@@ -10342,7 +10342,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10385,7 +10385,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10427,7 +10427,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10470,7 +10470,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10520,7 +10520,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10570,7 +10570,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10613,7 +10613,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10656,7 +10656,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10698,7 +10698,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10741,7 +10741,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10784,7 +10784,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10827,7 +10827,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10870,7 +10870,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10958,7 +10958,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11001,7 +11001,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11044,7 +11044,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -11129,7 +11129,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11224,7 +11224,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11274,7 +11274,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11317,7 +11317,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11360,7 +11360,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11447,7 +11447,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11490,7 +11490,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11533,7 +11533,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -11576,7 +11576,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11619,7 +11619,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11669,7 +11669,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11711,7 +11711,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11754,7 +11754,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11797,7 +11797,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11847,7 +11847,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11890,7 +11890,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11940,7 +11940,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -11983,7 +11983,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12026,7 +12026,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12076,7 +12076,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12119,7 +12119,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12168,7 +12168,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12211,7 +12211,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12253,7 +12253,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12295,7 +12295,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12338,7 +12338,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12381,7 +12381,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -12424,7 +12424,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12474,7 +12474,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12517,7 +12517,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -12560,7 +12560,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12602,7 +12602,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12652,7 +12652,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12694,7 +12694,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -12737,7 +12737,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12780,7 +12780,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12823,7 +12823,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12866,7 +12866,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12909,7 +12909,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12952,7 +12952,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12995,7 +12995,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13038,7 +13038,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13081,7 +13081,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13124,7 +13124,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13167,7 +13167,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13210,7 +13210,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13260,7 +13260,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13303,7 +13303,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13346,7 +13346,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13389,7 +13389,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13431,7 +13431,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13474,7 +13474,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13517,7 +13517,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13560,7 +13560,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13610,7 +13610,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13660,7 +13660,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13703,7 +13703,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13753,7 +13753,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13803,7 +13803,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13891,7 +13891,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13934,7 +13934,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13977,7 +13977,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14020,7 +14020,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14070,7 +14070,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14113,7 +14113,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14163,7 +14163,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14213,7 +14213,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14256,7 +14256,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14299,7 +14299,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14342,7 +14342,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14385,7 +14385,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14435,7 +14435,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -14478,7 +14478,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14520,7 +14520,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14562,7 +14562,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -14605,7 +14605,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14648,7 +14648,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14691,7 +14691,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14734,7 +14734,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14776,7 +14776,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14819,7 +14819,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14862,7 +14862,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14905,7 +14905,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14948,7 +14948,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15034,7 +15034,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15121,7 +15121,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15208,7 +15208,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15251,7 +15251,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15294,7 +15294,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15379,7 +15379,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15421,7 +15421,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15464,7 +15464,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15507,7 +15507,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15550,7 +15550,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15770,7 +15770,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15813,7 +15813,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15856,7 +15856,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15898,7 +15898,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15941,7 +15941,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15984,7 +15984,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16027,7 +16027,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16070,7 +16070,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16112,7 +16112,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16154,7 +16154,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16196,7 +16196,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16238,7 +16238,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16281,7 +16281,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16324,7 +16324,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16366,7 +16366,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16409,7 +16409,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16452,7 +16452,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16494,7 +16494,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16537,7 +16537,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16579,7 +16579,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16622,7 +16622,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16664,7 +16664,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16707,7 +16707,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16750,7 +16750,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16793,7 +16793,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16828,22 +16828,21 @@
      "rank": 380
     },
     {
-     "name": "Genuine Parts Company",
-     "slug": "genuine-parts",
-     "description": "Genuine Parts Company is a Fortune 500 service organization engaged in the distribution of automotive replacement parts (the parent of NAPA Auto Parts), industrial replacement parts, and electrical materials and electronic components.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genuine-parts/refs/heads/main/screenshots/genuine-parts-2026-06-20T181742.png",
+     "name": "Airtouch",
+     "slug": "airtouch",
+     "description": "AirTouch (Shanghai) Intelligent Technology Co., Ltd. (隔空科技) is a Shanghai-based fabless semiconductor company founded in November 2017 that designs microwave and millimeter-wave radar sensor chips — 5.8 GHz, 10.525 GHz, 24 GHz, 60 GHz and 77 GHz series, including SoC parts with an integrated 32-bit MCU and antenna-in-package (AiP) variants — for smart lighting, security, home appliances, smart home and automotive / two-wheeler ADAS. Backed by Intel Capital, Xiaomi, TCL Venture Capital and Fosun, with R&D centers in Ningbo, Guangzhou and Shenzhen. The company sells silicon, modules and reference designs and publishes no public API, SDK, developer portal or machine-readable contract.",
      "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 46.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16871,10 +16870,10 @@
      "rank": 381
     },
     {
-     "name": "NIO",
-     "slug": "nio",
-     "description": "NIO is a Chinese electric vehicle manufacturer and technology company that develops smart electric vehicles, battery swap technology, and related autonomous driving and connectivity services. NIO provides developer APIs for vehicle data, energy services, and connected car features.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nio/refs/heads/main/screenshots/nio-2026-06-20T190330.png",
+     "name": "Genuine Parts Company",
+     "slug": "genuine-parts",
+     "description": "Genuine Parts Company is a Fortune 500 service organization engaged in the distribution of automotive replacement parts (the parent of NAPA Auto Parts), industrial replacement parts, and electrical materials and electronic components.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genuine-parts/refs/heads/main/screenshots/genuine-parts-2026-06-20T181742.png",
      "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16886,7 +16885,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16914,6 +16913,49 @@
      "rank": 382
     },
     {
+     "name": "NIO",
+     "slug": "nio",
+     "description": "NIO is a Chinese electric vehicle manufacturer and technology company that develops smart electric vehicles, battery swap technology, and related autonomous driving and connectivity services. NIO provides developer APIs for vehicle data, energy services, and connected car features.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nio/refs/heads/main/screenshots/nio-2026-06-20T190330.png",
+     "score": 4.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 383
+    },
+    {
      "name": "MisMar",
      "slug": "mismar",
      "description": "MisMar (مسمار) is a Saudi Arabian automotive maintenance and repair platform that connects vehicle owners with certified service centers. It runs a consumer mobile app (B2C) alongside a Network-as-a-Service (NaaS) platform and Workshop Management System (WMS) that digitize fleet management, order processing, and workshop operations for business (B2B), government (B2G), and insurance partners. Services span fault diagnostics, accident restoration, oil and battery and tire changes, periodic maintenance, car wash, and protective treatments across 45+ Saudi cities, with at-home or center-based delivery and warranty coverage. MisMar is a portfolio company of 500 Global. No public developer API, OpenAPI, or SDK surface is currently published.",
@@ -16928,7 +16970,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16960,7 +17002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 384
     },
     {
      "name": "PACCAR",
@@ -16977,50 +17019,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 384
-    },
-    {
-     "name": "Toyota Motor Corporation",
-     "slug": "toyota-motor-corporation",
-     "description": "The world's largest automobile manufacturer by production volume, producing a wide range of vehicles from sedans and SUVs to hybrids and hydrogen fuel cell cars. Pioneer of lean manufacturing and hybrid technology through the iconic Prius.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toyota-motor-corporation/refs/heads/main/screenshots/toyota-motor-corporation-2026-06-20T195510.png",
-     "score": 4.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 35.2,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17048,22 +17047,22 @@
      "rank": 385
     },
     {
-     "name": "O'Reilly Automotive",
-     "slug": "oreilly-automotive",
-     "description": "O'Reilly Automotive is a Fortune 500 specialty retailer of automotive aftermarket parts, tools, supplies, equipment, and accessories serving both do-it-yourself customers and professional service providers. This repository captures the APIs, developer tools, and machine-readable API artifacts for O'Reilly Automotive.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oreilly-automotive/refs/heads/main/screenshots/oreilly-automotive-2026-06-20T191207.png",
-     "score": 4.1,
+     "name": "Toyota Motor Corporation",
+     "slug": "toyota-motor-corporation",
+     "description": "The world's largest automobile manufacturer by production volume, producing a wide range of vehicles from sedans and SUVs to hybrids and hydrogen fuel cell cars. Pioneer of lean manufacturing and hybrid technology through the iconic Prius.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toyota-motor-corporation/refs/heads/main/screenshots/toyota-motor-corporation-2026-06-20T195510.png",
+     "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17091,9 +17090,10 @@
      "rank": 386
     },
     {
-     "name": "Penske Automotive",
-     "slug": "penske-automotive",
-     "description": "Penske Automotive Group is a Fortune 500 diversified international transportation services company that operates automotive and commercial truck dealerships principally in the United States, Canada, and Western Europe. No public APIs have been documented at this time.",
+     "name": "O'Reilly Automotive",
+     "slug": "oreilly-automotive",
+     "description": "O'Reilly Automotive is a Fortune 500 specialty retailer of automotive aftermarket parts, tools, supplies, equipment, and accessories serving both do-it-yourself customers and professional service providers. This repository captures the APIs, developer tools, and machine-readable API artifacts for O'Reilly Automotive.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oreilly-automotive/refs/heads/main/screenshots/oreilly-automotive-2026-06-20T191207.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17105,7 +17105,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17133,30 +17133,22 @@
      "rank": 387
     },
     {
-     "name": "Borqs",
-     "slug": "borqs",
-     "description": "Borqs Technologies Inc. is a global Internet of Things (IoT) platform solution provider delivering customizable, differentiated and scalable smart-connected IoT software, hardware and cloud-service platforms. Founded in 2007, Borqs is a Google-licensed Android and Android Wear partner with R&D centers in the U.S., India and China, and debuted publicly on Nasdaq (BRQS) in August 2017. Its BorqsWare platform powers smartphones, tablets, wearables, in-vehicle infotainment (IVI), M2M and smart-appliance solutions, and in 2021 it expanded into solar and energy storage systems (ESS) via its Holu Hou Energy acquisition. Borqs is now a Sasken Group company. No public developer API, OpenAPI, or developer portal is published; this profile carries company identity and a live domain-security probe.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/borqs/refs/heads/main/screenshots/borqs-2026-07-25T203631.png",
-     "score": 4.0,
+     "name": "Penske Automotive",
+     "slug": "penske-automotive",
+     "description": "Penske Automotive Group is a Fortune 500 diversified international transportation services company that operates automotive and commercial truck dealerships principally in the United States, Canada, and Western Europe. No public APIs have been documented at this time.",
+     "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 3.6,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -17183,10 +17175,10 @@
      "rank": 388
     },
     {
-     "name": "GM OnStar",
-     "slug": "gm-onstar",
-     "description": "GM OnStar is General Motors' connected vehicle services platform, originally launched in 1996 as an in-vehicle safety, security, and concierge service and since extended into a commercial data platform under OnStar Business Solutions. The OnStar Business Solutions API and Data Services product delivers near-real-time embedded telematics straight from properly equipped 2015-model-year-or-newer GM vehicles — Chevrolet, Buick, GMC, and Cadillac — without aftermarket hardware, exposing vehicle location, speed, ignition status, odometer, fuel level, EV state-of-charge and charging status, tire pressure, seatbelt status, diagnostic trouble codes, and driver-behavior events such as hard brake and hard acceleration. The product is packaged into tiered plans (commonly referenced as API Starter and API Pro) and is distributed primarily through OnStar's enterprise channel under the GM Envolve commercial brand, plus integrations with fleet management providers including Samsara, Geotab, Wheels, Verizon Connect, and other approved telematic service providers. There is no public self-serve developer portal or published OpenAPI specification — access is gated through GM/OnStar sales (developer.gm.com is a request-access endpoint) or via an authorized integration partner. Consumer-facing OnStar mobile features (remote start, remote lock, vehicle locate, in-vehicle Wi-Fi, Super Cruise telemetry) are delivered through GM's myChevrolet, myBuick, myGMC, and myCadillac apps and are not part of the published API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gm-onstar/refs/heads/main/screenshots/gm-onstar-2026-06-20T181932.png",
+     "name": "Borqs",
+     "slug": "borqs",
+     "description": "Borqs Technologies Inc. is a global Internet of Things (IoT) platform solution provider delivering customizable, differentiated and scalable smart-connected IoT software, hardware and cloud-service platforms. Founded in 2007, Borqs is a Google-licensed Android and Android Wear partner with R&D centers in the U.S., India and China, and debuted publicly on Nasdaq (BRQS) in August 2017. Its BorqsWare platform powers smartphones, tablets, wearables, in-vehicle infotainment (IVI), M2M and smart-appliance solutions, and in 2021 it expanded into solar and energy storage systems (ESS) via its Holu Hou Energy acquisition. Borqs is now a Sasken Group company. No public developer API, OpenAPI, or developer portal is published; this profile carries company identity and a live domain-security probe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/borqs/refs/heads/main/screenshots/borqs-2026-07-25T203631.png",
      "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17194,11 +17186,11 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 3.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17233,22 +17225,30 @@
      "rank": 389
     },
     {
-     "name": "Lithia Motors",
-     "slug": "lithia-motors",
-     "description": "Lithia Motors is one of the largest automotive retailers in the United States, operating new and used vehicle dealerships and providing related vehicle financing, service, and parts.",
+     "name": "GM OnStar",
+     "slug": "gm-onstar",
+     "description": "GM OnStar is General Motors' connected vehicle services platform, originally launched in 1996 as an in-vehicle safety, security, and concierge service and since extended into a commercial data platform under OnStar Business Solutions. The OnStar Business Solutions API and Data Services product delivers near-real-time embedded telematics straight from properly equipped 2015-model-year-or-newer GM vehicles — Chevrolet, Buick, GMC, and Cadillac — without aftermarket hardware, exposing vehicle location, speed, ignition status, odometer, fuel level, EV state-of-charge and charging status, tire pressure, seatbelt status, diagnostic trouble codes, and driver-behavior events such as hard brake and hard acceleration. The product is packaged into tiered plans (commonly referenced as API Starter and API Pro) and is distributed primarily through OnStar's enterprise channel under the GM Envolve commercial brand, plus integrations with fleet management providers including Samsara, Geotab, Wheels, Verizon Connect, and other approved telematic service providers. There is no public self-serve developer portal or published OpenAPI specification — access is gated through GM/OnStar sales (developer.gm.com is a request-access endpoint) or via an authorized integration partner. Consumer-facing OnStar mobile features (remote start, remote lock, vehicle locate, in-vehicle Wi-Fi, Super Cruise telemetry) are delivered through GM's myChevrolet, myBuick, myGMC, and myCadillac apps and are not part of the published API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gm-onstar/refs/heads/main/screenshots/gm-onstar-2026-06-20T181932.png",
      "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 31.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -17275,22 +17275,21 @@
      "rank": 390
     },
     {
-     "name": "Winnebago Industries",
-     "slug": "winnebago-industries",
-     "description": "Winnebago Industries is a leading North American manufacturer of outdoor lifestyle products under the Winnebago, Grand Design, Newmar, Chris-Craft, Barletta, and Lithionics Battery brands. The company designs, manufactures, and markets recreational vehicles, marine products, and supporting components. Winnebago Industries does not currently publish a public developer portal or API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/winnebago-industries/refs/heads/main/screenshots/winnebago-industries-2026-06-20T201517.png",
+     "name": "Lithia Motors",
+     "slug": "lithia-motors",
+     "description": "Lithia Motors is one of the largest automotive retailers in the United States, operating new and used vehicle dealerships and providing related vehicle financing, service, and parts.",
      "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 31.5,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17318,22 +17317,22 @@
      "rank": 391
     },
     {
-     "name": "Pep Boys-Manny, Moe & Jack",
-     "slug": "pep-boys-manny-moe-and-jack",
-     "description": "Pep Boys is a leading automotive aftermarket service and retail chain operating service centers and tire and parts stores throughout the United States.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pep-boys-manny-moe-and-jack/refs/heads/main/screenshots/pep-boys-manny-moe-and-jack-2026-06-20T191558.png",
-     "score": 3.8,
+     "name": "Winnebago Industries",
+     "slug": "winnebago-industries",
+     "description": "Winnebago Industries is a leading North American manufacturer of outdoor lifestyle products under the Winnebago, Grand Design, Newmar, Chris-Craft, Barletta, and Lithionics Battery brands. The company designs, manufactures, and markets recreational vehicles, marine products, and supporting components. Winnebago Industries does not currently publish a public developer portal or API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/winnebago-industries/refs/heads/main/screenshots/winnebago-industries-2026-06-20T201517.png",
+     "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 31.5,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17376,7 +17375,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17426,7 +17425,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17461,30 +17460,23 @@
      "rank": 394
     },
     {
-     "name": "Chery",
-     "slug": "chery",
-     "description": "Chery Automobile Co., Ltd. is a Chinese state-owned automobile manufacturer headquartered in Wuhu, Anhui, and one of China's largest passenger-vehicle exporters, conducting business in more than 130 countries and regions. Its brand portfolio spans the core Chery marque (TIGGO and ARRIZO SUV and sedan series), the Fengyun and OMODA/JAECOO new-energy lines, and the QQ city-car brand, with a growing emphasis on the CSH (Chery Super Hybrid) powertrain and connected-vehicle technology. Chery was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network for enrichment. As an automotive manufacturer, Chery publishes corporate and consumer web properties but no public developer portal or API surface was found during this pass.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chery/refs/heads/main/screenshots/chery-2026-07-25T205203.png",
-     "score": 3.3,
+     "name": "Pep Boys-Manny, Moe & Jack",
+     "slug": "pep-boys-manny-moe-and-jack",
+     "description": "Pep Boys is a leading automotive aftermarket service and retail chain operating service centers and tire and parts stores throughout the United States.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pep-boys-manny-moe-and-jack/refs/heads/main/screenshots/pep-boys-manny-moe-and-jack-2026-06-20T191558.png",
+     "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 31.5,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -17511,10 +17503,10 @@
      "rank": 395
     },
     {
-     "name": "DeepWay 深向",
-     "slug": "deepway",
-     "description": "DeepWay (深向科技 / Shenxiang Technology) is a Chinese intelligent new-energy heavy-truck company, backed by Baidu and Qiming Venture Partners, that designs and manufactures electric autonomous freight trucks it calls RoboTrucks. Its vehicle line includes the Xingchen II (深向星辰 II) and Xingtu (深向星途) electric heavy trucks paired with the Tianji (天玑) driver-assistance and autonomous driving stack, an AI-based fleet management platform, and a vehicle-owner mobile app. DeepWay reports 7,500+ activated L2 vehicles, a 30%+ subscription rate, and 300M+ km of assisted-driving operation, and follows a roadmap from L2 assistance (2023) to L4 platooning (2025) to single-vehicle L4 autonomy (2028). Its business model progresses from vehicle sales to subscription services to large-scale autonomous logistics capacity. As of this enrichment pass DeepWay publishes no public developer API, SDK, documentation portal, or machine-readable specification — this profile captures company identity and a domain-security probe only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deepway/refs/heads/main/screenshots/deepway-2026-07-25T211626.png",
+     "name": "Chery",
+     "slug": "chery",
+     "description": "Chery Automobile Co., Ltd. is a Chinese state-owned automobile manufacturer headquartered in Wuhu, Anhui, and one of China's largest passenger-vehicle exporters, conducting business in more than 130 countries and regions. Its brand portfolio spans the core Chery marque (TIGGO and ARRIZO SUV and sedan series), the Fengyun and OMODA/JAECOO new-energy lines, and the QQ city-car brand, with a growing emphasis on the CSH (Chery Super Hybrid) powertrain and connected-vehicle technology. Chery was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network for enrichment. As an automotive manufacturer, Chery publishes corporate and consumer web properties but no public developer portal or API surface was found during this pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chery/refs/heads/main/screenshots/chery-2026-07-25T205203.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17526,7 +17518,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17561,9 +17553,10 @@
      "rank": 396
     },
     {
-     "name": "Graham Holdings",
-     "slug": "graham-holdings",
-     "description": "Graham Holdings (NYSE: GHC) is a diversified holding company with operations in education, television broadcasting, digital media, manufacturing, healthcare, automotive, restaurants, and custom framing. Principal subsidiaries include Kaplan (educational services), Graham Media Group and Social News Desk (broadcasting and social media tools), The Slate Group and Foreign Policy (digital publishing), Code3 and City Cast (digital marketing and local news), Hoover Treated Wood Products, Joyce/Dayton, Group Dekko, and Forney (manufacturing), Graham Healthcare Group (home health and hospice), Graham Automotive (dealerships), Clyde's Restaurant Group (including Old Ebbitt Grill), and Framebridge (online custom framing). No public developer APIs have been identified across the portfolio.",
+     "name": "DeepWay 深向",
+     "slug": "deepway",
+     "description": "DeepWay (深向科技 / Shenxiang Technology) is a Chinese intelligent new-energy heavy-truck company, backed by Baidu and Qiming Venture Partners, that designs and manufactures electric autonomous freight trucks it calls RoboTrucks. Its vehicle line includes the Xingchen II (深向星辰 II) and Xingtu (深向星途) electric heavy trucks paired with the Tianji (天玑) driver-assistance and autonomous driving stack, an AI-based fleet management platform, and a vehicle-owner mobile app. DeepWay reports 7,500+ activated L2 vehicles, a 30%+ subscription rate, and 300M+ km of assisted-driving operation, and follows a roadmap from L2 assistance (2023) to L4 platooning (2025) to single-vehicle L4 autonomy (2028). Its business model progresses from vehicle sales to subscription services to large-scale autonomous logistics capacity. As of this enrichment pass DeepWay publishes no public developer API, SDK, documentation portal, or machine-readable specification — this profile captures company identity and a domain-security probe only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deepway/refs/heads/main/screenshots/deepway-2026-07-25T211626.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17575,57 +17568,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 397
-    },
-    {
-     "name": "Hyundai Bluelink",
-     "slug": "hyundai-bluelink",
-     "description": "Hyundai Bluelink is Hyundai Motor America's connected vehicle service for Hyundai owners, providing remote vehicle control, vehicle status and diagnostics, navigation and route services, safety and security features, and EV-specific charging and climate management. Bluelink is delivered to owners through the MyHyundai with Bluelink mobile app (iOS and Android), the in-vehicle infotainment head unit, the owner web portal at owners.hyundaiusa.com, and connected smart-home and voice integrations (Amazon Alexa, Google Assistant, smartwatch apps). Feature sets vary by model year and subscription tier — typically Bluelink, Bluelink+, and Bluelink Connected Care / Remote / Guidance bundles — and include remote start with climate, remote door lock/unlock, remote horn and lights, vehicle finder, stolen vehicle recovery and SVI, automatic collision notification, SOS emergency assistance, monthly vehicle health reports, destination search (powered by Google), in-vehicle Wi-Fi hotspot (via AT&T on supported models), and EV-specific remote charge start/stop, charge schedule, charge-level monitoring, and pre-conditioning. Bluelink is a consumer-facing, owner-authenticated service. Hyundai does not publish a public developer portal, public OpenAPI specification, or self-serve API keys for third-party integration with Bluelink vehicle endpoints; access is limited to authenticated owners through Hyundai's first-party apps and to enterprise partners under contract (fleet, insurance telematics, charging networks, smart-home platforms). A community ecosystem of reverse-engineered, unofficial Python and Node.js clients (Hyundai-Kia-Connect/hyundai_kia_connect_api, Home Assistant integrations, Bluelinky) is used by enthusiasts and home automation users, but these are not endorsed, supported, or governed by Hyundai and may break at any time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyundai-bluelink/refs/heads/main/screenshots/hyundai-bluelink-2026-06-20T183107.png",
-     "score": 3.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17657,12 +17600,12 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 397
     },
     {
-     "name": "Icahn Enterprises",
-     "slug": "icahn-enterprises",
-     "description": "Icahn Enterprises L.P. is a diversified holding company engaged in the investment, energy, automotive, food packaging, real estate, home fashion, and pharmaceutical industries through its operating subsidiaries. The company does not currently publish public developer APIs; investor relations, SEC filings, and corporate communications are provided through its corporate website.",
+     "name": "Graham Holdings",
+     "slug": "graham-holdings",
+     "description": "Graham Holdings (NYSE: GHC) is a diversified holding company with operations in education, television broadcasting, digital media, manufacturing, healthcare, automotive, restaurants, and custom framing. Principal subsidiaries include Kaplan (educational services), Graham Media Group and Social News Desk (broadcasting and social media tools), The Slate Group and Foreign Policy (digital publishing), Code3 and City Cast (digital marketing and local news), Hoover Treated Wood Products, Joyce/Dayton, Group Dekko, and Forney (manufacturing), Graham Healthcare Group (home health and hospice), Graham Automotive (dealerships), Clyde's Restaurant Group (including Old Ebbitt Grill), and Framebridge (online custom framing). No public developer APIs have been identified across the portfolio.",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17674,7 +17617,57 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 398
+    },
+    {
+     "name": "Hyundai Bluelink",
+     "slug": "hyundai-bluelink",
+     "description": "Hyundai Bluelink is Hyundai Motor America's connected vehicle service for Hyundai owners, providing remote vehicle control, vehicle status and diagnostics, navigation and route services, safety and security features, and EV-specific charging and climate management. Bluelink is delivered to owners through the MyHyundai with Bluelink mobile app (iOS and Android), the in-vehicle infotainment head unit, the owner web portal at owners.hyundaiusa.com, and connected smart-home and voice integrations (Amazon Alexa, Google Assistant, smartwatch apps). Feature sets vary by model year and subscription tier — typically Bluelink, Bluelink+, and Bluelink Connected Care / Remote / Guidance bundles — and include remote start with climate, remote door lock/unlock, remote horn and lights, vehicle finder, stolen vehicle recovery and SVI, automatic collision notification, SOS emergency assistance, monthly vehicle health reports, destination search (powered by Google), in-vehicle Wi-Fi hotspot (via AT&T on supported models), and EV-specific remote charge start/stop, charge schedule, charge-level monitoring, and pre-conditioning. Bluelink is a consumer-facing, owner-authenticated service. Hyundai does not publish a public developer portal, public OpenAPI specification, or self-serve API keys for third-party integration with Bluelink vehicle endpoints; access is limited to authenticated owners through Hyundai's first-party apps and to enterprise partners under contract (fleet, insurance telematics, charging networks, smart-home platforms). A community ecosystem of reverse-engineered, unofficial Python and Node.js clients (Hyundai-Kia-Connect/hyundai_kia_connect_api, Home Assistant integrations, Bluelinky) is used by enthusiasts and home automation users, but these are not endorsed, supported, or governed by Hyundai and may break at any time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyundai-bluelink/refs/heads/main/screenshots/hyundai-bluelink-2026-06-20T183107.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17709,10 +17702,9 @@
      "rank": 399
     },
     {
-     "name": "Ola Electric",
-     "slug": "ola-electric",
-     "description": "Ola Electric is an Indian electric-vehicle manufacturer building electric scooters (the S1 family), electric motorcycles (the Roadster line), and home energy solutions (Ola Shakti battery systems), all designed and produced in India around its in-house 4680 Bharat Cell and ferrite-motor technology. Backed by SoftBank Vision Fund, the company operates a nationwide Hypercharger fast-charging network and Hyperservice center footprint across India. As a consumer EV and energy hardware manufacturer, Ola Electric publishes no public developer API, developer portal, SDK, or API reference; this profile is maintained in the API Evangelist network as a company identity record rather than an API provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ola-electric/refs/heads/main/screenshots/ola-electric-2026-08-07T190106.png",
+     "name": "Icahn Enterprises",
+     "slug": "icahn-enterprises",
+     "description": "Icahn Enterprises L.P. is a diversified holding company engaged in the investment, energy, automotive, food packaging, real estate, home fashion, and pharmaceutical industries through its operating subsidiaries. The company does not currently publish public developer APIs; investor relations, SEC filings, and corporate communications are provided through its corporate website.",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17724,7 +17716,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17759,6 +17751,56 @@
      "rank": 400
     },
     {
+     "name": "Ola Electric",
+     "slug": "ola-electric",
+     "description": "Ola Electric is an Indian electric-vehicle manufacturer building electric scooters (the S1 family), electric motorcycles (the Roadster line), and home energy solutions (Ola Shakti battery systems), all designed and produced in India around its in-house 4680 Bharat Cell and ferrite-motor technology. Backed by SoftBank Vision Fund, the company operates a nationwide Hypercharger fast-charging network and Hyperservice center footprint across India. As a consumer EV and energy hardware manufacturer, Ola Electric publishes no public developer API, developer portal, SDK, or API reference; this profile is maintained in the API Evangelist network as a company identity record rather than an API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ola-electric/refs/heads/main/screenshots/ola-electric-2026-08-07T190106.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 401
+    },
+    {
      "name": "Openbay",
      "slug": "openbay",
      "description": "Openbay is an award-winning online automotive service platform and marketplace that connects vehicle owners with local repair shops and service providers, offering upfront estimates, online booking, messaging, and payment. Its consumer marketplace lets drivers compare and book automotive repair and maintenance, while Openbay+ embeds that commerce into partner and OEM channels and Openbay Otis provides a SaaS platform for repair shops. Backed by a16z and GV, the company was added to the API Evangelist network as a portfolio lead; this pass found no publicly accessible self-serve developer API surface (the marketing site and consumer app are Cloudflare-protected and expose no real /.well-known documents or llms.txt).",
@@ -17774,7 +17816,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17806,7 +17848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 402
     },
     {
      "name": "PurismEV Inc.",
@@ -17824,7 +17866,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -17856,7 +17898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 403
     },
     {
      "name": "Allison Transmission Holdings",
@@ -17874,7 +17916,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17899,7 +17941,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 404
     },
     {
      "name": "REV Group",
@@ -17917,7 +17959,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -17946,7 +17988,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 405
     },
     {
      "name": "Vontier",
@@ -17964,63 +18006,13 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 8.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 405
-    },
-    {
-     "name": "Parrot",
-     "slug": "useparrot",
-     "description": "Parrot (useparrot.com) is a Y Combinator-backed startup (Spring 2026 batch) building an agentic, all-in-one management platform for collision and auto repair shops. Its AI agents automate estimate auditing, parts procurement (voice agents that compare supplier quotes), insurance claim follow-ups, invoice reconciliation, tax filing, payments and invoicing, inventory management, team coordination, and inbound call handling, and it integrates with CCC ONE, Audatex, and Mitchell 1. Parrot does not currently publish a public API or developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/useparrot/refs/heads/main/screenshots/useparrot-2026-09-02T165233.png",
-     "score": 3.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 9.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -18049,158 +18041,22 @@
      "rank": 406
     },
     {
-     "name": "Garrett Motion",
-     "slug": "garrett-motion",
-     "description": "Profile for Garrett Motion in the API Evangelist network. Fortune F1000 (rank 739).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/garrett-motion/refs/heads/main/screenshots/garrett-motion-2026-06-20T181649.png",
-     "score": 2.6,
+     "name": "Parrot",
+     "slug": "useparrot",
+     "description": "Parrot (useparrot.com) is a Y Combinator-backed startup (Spring 2026 batch) building an agentic, all-in-one management platform for collision and auto repair shops. Its AI agents automate estimate auditing, parts procurement (voice agents that compare supplier quotes), insurance claim follow-ups, invoice reconciliation, tax filing, payments and invoicing, inventory management, team coordination, and inbound call handling, and it integrates with CCC ONE, Audatex, and Mitchell 1. Parrot does not currently publish a public API or developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/useparrot/refs/heads/main/screenshots/useparrot-2026-09-02T165233.png",
+     "score": 3.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 25.9,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 407
-    },
-    {
-     "name": "Polaris",
-     "slug": "polaris",
-     "description": "Profile for Polaris in the API Evangelist network. Fortune F500 (rank 424).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/polaris/refs/heads/main/screenshots/polaris-2026-06-20T191850.png",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 408
-    },
-    {
-     "name": "Wabash National",
-     "slug": "wabash-national",
-     "description": "Profile for Wabash National in the API Evangelist network. Fortune F1000 (rank 913).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wabash-national/refs/heads/main/screenshots/wabash-national-2026-06-20T201154.png",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 409
-    },
-    {
-     "name": "Carro",
-     "slug": "carro",
-     "description": "Carro is a Singapore-headquartered used-car marketplace and automotive fintech platform, founded in 2015 and widely described as Southeast Asia's largest online used-car retailer. It operates a data-driven marketplace for buying and selling pre-owned vehicles across Singapore, Indonesia, Thailand, Malaysia and Japan, and pairs it with adjacent services: car financing (Genie Financial Services), motor insurance, aftersales servicing and workshops (Carro Care), and car subscription. Carro reached unicorn status in 2021 in a round led by SoftBank Vision Fund 2. It was added to the API Evangelist network as a portfolio company of SoftBank Vision Fund; as of this pass Carro publishes no public developer portal, API documentation, or machine-readable API definition, so this profile is company-identity only.",
-     "score": 2.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -18232,13 +18088,149 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 407
+    },
+    {
+     "name": "Garrett Motion",
+     "slug": "garrett-motion",
+     "description": "Profile for Garrett Motion in the API Evangelist network. Fortune F1000 (rank 739).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/garrett-motion/refs/heads/main/screenshots/garrett-motion-2026-06-20T181649.png",
+     "score": 2.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 25.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "undetermined": true,
+      "note": "provider declares no identity tags; regime could not be determined"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 408
+    },
+    {
+     "name": "Polaris",
+     "slug": "polaris",
+     "description": "Profile for Polaris in the API Evangelist network. Fortune F500 (rank 424).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/polaris/refs/heads/main/screenshots/polaris-2026-06-20T191850.png",
+     "score": 2.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 25.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 409
+    },
+    {
+     "name": "Wabash National",
+     "slug": "wabash-national",
+     "description": "Profile for Wabash National in the API Evangelist network. Fortune F1000 (rank 913).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wabash-national/refs/heads/main/screenshots/wabash-national-2026-06-20T201154.png",
+     "score": 2.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 25.9,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "undetermined": true,
+      "note": "provider declares no identity tags; regime could not be determined"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 410
     },
     {
-     "name": "Rote",
-     "slug": "rote",
-     "description": "Rote is an AI-native insurance department for auto body shops, backed by Y Combinator (Winter 2027 batch). The platform uses AI agents to handle the entire negotiation lifecycle between collision-repair shops and insurance carriers, autonomously filing and defending claims using technical repair data so that shops recover revenue lost to denied or undervalued estimates. Founded in San Francisco by Aditya Mittal and Gabriel Castillo, Rote is an early-stage company presenting a marketing website only; no public API, developer portal, SDK, or OpenAPI surface has been published to date. This profile was surfaced as a Y Combinator portfolio lead and enriched from the company's public website.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rote/refs/heads/main/screenshots/rote-2026-09-02T154133.png",
+     "name": "Carro",
+     "slug": "carro",
+     "description": "Carro is a Singapore-headquartered used-car marketplace and automotive fintech platform, founded in 2015 and widely described as Southeast Asia's largest online used-car retailer. It operates a data-driven marketplace for buying and selling pre-owned vehicles across Singapore, Indonesia, Thailand, Malaysia and Japan, and pairs it with adjacent services: car financing (Genie Financial Services), motor insurance, aftersales servicing and workshops (Carro Care), and car subscription. Carro reached unicorn status in 2021 in a round led by SoftBank Vision Fund 2. It was added to the API Evangelist network as a portfolio company of SoftBank Vision Fund; as of this pass Carro publishes no public developer portal, API documentation, or machine-readable API definition, so this profile is company-identity only.",
      "score": 2.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -18250,7 +18242,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -18283,6 +18275,56 @@
       "agentic_commerce": false
      },
      "rank": 411
+    },
+    {
+     "name": "Rote",
+     "slug": "rote",
+     "description": "Rote is an AI-native insurance department for auto body shops, backed by Y Combinator (Winter 2027 batch). The platform uses AI agents to handle the entire negotiation lifecycle between collision-repair shops and insurance carriers, autonomously filing and defending claims using technical repair data so that shops recover revenue lost to denied or undervalued estimates. Founded in San Francisco by Aditya Mittal and Gabriel Castillo, Rote is an early-stage company presenting a marketing website only; no public API, developer portal, SDK, or OpenAPI surface has been published to date. This profile was surfaced as a Y Combinator portfolio lead and enriched from the company's public website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rote/refs/heads/main/screenshots/rote-2026-09-02T154133.png",
+     "score": 2.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 9.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 412
     }
    ]
   }

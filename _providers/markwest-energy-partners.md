@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: MarkWest Energy Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Pipelines, Acquired, and MPLX.
 press:
-- date: '2026-05-25'
+- date: ''
   title: John Fox, Founder, Former Chairman and CEO of ...
   url: https://www.prnewswire.com/news-releases/john-fox-founder-former-chairman-and-ceo-of-markwest-energy-partners-issues-open-letter-to-the-board-of-directors-of-marathon-petroleum-corporation-supporting-recent-decisions-and-the-appointment-of-michael-hennigan-as-ceo-301032202.html
-- date: '2026-05-25'
+- date: ''
   title: Pipeline Operator MPLX to Buy MarkWest Energy Partners
   url: https://www.nytimes.com/2015/07/14/business/dealbook/pipeline-operator-mplx-to-buy-markwest-energy-partners.html
-- date: '2026-05-25'
+- date: ''
   title: MPLX to buy MarkWest for $15.63 billion, creating fourth- ...
   url: https://www.reuters.com/article/business/mplx-to-buy-markwest-for-1563-billion-creating-fourth-largest-mlp-idUSKCN0PN14B/
-- date: '2026-05-25'
+- date: ''
   title: MPLX L.P. 'BBB-' Rating Affirmed, MarkWest Energy
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/1492336
-- date: '2026-05-25'
+- date: ''
   title: MLP of Marathon Petroleum Acquires MarkWest Energy ...
   url: https://www.oilandgas360.com/mlp-of-marathon-petroleum-acquires-markwest-energy-partners-for-20-billion/
 random_paper: 11
@@ -101,7 +101,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

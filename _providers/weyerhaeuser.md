@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Weyerhaeuser's API Management platform enabling partner and customer integration with wood products ordering, supply chain management, and customer connect portal services. The portal provides automat
@@ -125,19 +125,19 @@ plans:
   plan_count: 3
   slug: weyerhaeuser-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Weyerhaeuser Trains AI to Map Every Tree in its 10M-Acre ...
   url: https://woodcentral.com.au/weyerhaeuser-trains-ai-to-map-every-tree-in-its-10m-acre-estate/
-- date: '2026-05-25'
+- date: ''
   title: Using Artificial Intelligence to Fine-Tune the Dryers at Our ...
   url: https://www.weyerhaeuser.com/blog/innovation-sutton-osb-mill-ai-power/
-- date: '2026-05-25'
+- date: ''
   title: 'Weyerhaeuser AI: 7 bold moves digitizing the forest'
   url: https://www.progressiverobot.com/2026/04/24/weyerhaeuser-ai-forest-digitization/
-- date: '2026-05-25'
+- date: ''
   title: Weyerhaeuser targets $1 billion profit gain with AI forestry ...
   url: https://www.nipimpressions.com/weyerhaeuser-targets-1-billion-profit-gain-with-ai-forestry-tools-cms-20306
-- date: '2026-05-25'
+- date: ''
   title: America's Largest Landowner Is Using AI to Digitize the ...
   url: https://www.wsj.com/tech/ai/americas-largest-landowner-is-using-ai-to-digitize-the-forest-bd3eec86
 random_paper: 7
@@ -165,7 +165,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 24.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

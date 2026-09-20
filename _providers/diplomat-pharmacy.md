@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,19 +73,19 @@ nav: Providers
 network: true
 overview: Diplomat Pharmacy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Pharmacy, Specialty Pharmacy, Pharmaceuticals, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tech Data, Diplomat Pharmacy rise; Helmerich & Payne falls
   url: https://vancouver.citynews.ca/2019/11/29/tech-data-diplomat-pharmacy-rise-helmerich-payne-falls/
-- date: '2026-05-25'
+- date: ''
   title: Diplomat Pharmacy, Inc. - Drug pipelines, Patents, Clinical ...
   url: https://synapse-patsnap-com.libproxy1.nus.edu.sg/organization/c6794f39332b4496ab7d1b26f2009af8
-- date: '2026-05-25'
+- date: ''
   title: Diplomat Announces Review of Strategic Alternatives
   url: https://www.prnewswire.com/news-releases/diplomat-announces-review-of-strategic-alternatives-300899272.html
-- date: '2026-05-25'
+- date: ''
   title: KAHN SWICK & FOTI, LLC REMINDS INVESTORS WITH ...
   url: https://www.biospace.com/diplomat-pharmacy-shareholder-alert-by-former-louisiana-attorney-general-kahn-swick-and-amp-foti-llc-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-diplomat-pharmacy-inc-dplo
-- date: '2026-05-25'
+- date: ''
   title: Diplomat Pharmacy agrees to $300 million buyout by ...
   url: https://www.reuters.com/article/business/diplomat-pharmacy-agrees-to-300-million-buyout-by-unitedhealth-idUSKBN1YD12Q/
 random_paper: 18
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

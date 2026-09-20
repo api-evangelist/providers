@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 9
 apis:
 - description: AAR's parts supply division distributes new and used aircraft and engine parts to commercial airlines, MROs, and government customers globally. Shipped and received 23 million commercial parts in FY20
@@ -178,19 +178,19 @@ plans:
   plan_count: 1
   slug: aar-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: AAR is excited to announce the launch of Airvoyant, an AI- ...
   url: https://www.instagram.com/p/DXZDtFaCleM/
-- date: '2026-05-25'
+- date: ''
   title: AAR launches Airvoyant℠, an AI-driven procurement ...
   url: https://www.prnewswire.com/news-releases/aar-launches-airvoyant-an-ai-driven-procurement-platform-for-airlines-and-mros-302748577.html
-- date: '2026-05-25'
+- date: ''
   title: AAR launches Airvoyant AI buying platform for airlines
   url: https://www.stocktitan.net/news/AIR/aar-launches-airvoyant-sm-an-ai-driven-procurement-platform-for-eyurv106zf5r.html
-- date: '2026-05-25'
+- date: ''
   title: News & Events | AAR
   url: https://www.aar.org/news/
-- date: '2026-05-25'
+- date: ''
   title: After-Action Review for AI (AAR/AI)
   url: https://dl.acm.org/doi/10.1145/3453173
 random_paper: 0
@@ -226,7 +226,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

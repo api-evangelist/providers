@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Levi Strauss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Retail, Jeans, Fashion, and Consumer Goods.
 press:
-- date: '2026-05-25'
+- date: ''
   title: LS&Co. Partners with Lalaland.ai
   url: https://www.levistrauss.com/2023/03/22/lsco-partners-with-lalaland-ai/
-- date: '2026-05-25'
+- date: ''
   title: Levi's and Lalaland.ai collaboration crisis - Maiolo - 2024
   url: https://onlinelibrary.wiley.com/doi/full/10.1111/1468-5973.12527
-- date: '2026-05-25'
+- date: ''
   title: Levi Strauss & Co. partners with Microsoft to develop next- ...
   url: https://www.prnewswire.com/news-releases/levi-strauss--co-partners-with-microsoft-to-develop-next-gen-superagent-302616399.html
-- date: '2026-05-25'
+- date: ''
   title: Levi Strauss & Co. Partners with Microsoft to Build Next- ...
   url: https://www.businesswire.com/news/home/20251117227569/en/Levi-Strauss-Co.-Partners-with-Microsoft-to-Build-Next-Gen-Super-Agent
-- date: '2026-05-25'
+- date: ''
   title: Levi Strauss appoints an artificial intelligence officer
   url: https://www.retaildive.com/news/levi-strauss-appoints-an-artificial-intelligence-officer/548964/
 random_paper: 12
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

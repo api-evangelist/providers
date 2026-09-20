@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 12
 apis:
 - description: 'The American Express Token Service (AETS) API allows developers to securely tokenize cardholder data, providing a layer of security for online transactions. By generating unique tokens that represent '
@@ -242,19 +242,19 @@ plans:
   plan_count: 1
   slug: american-express-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Graphite TM Business Cash Unlimited Card
   url: https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-launches-new-graphite-business-cash-unlimited-c.html
-- date: '2026-05-25'
+- date: ''
   title: American Express
   url: https://www.facebook.com/AmericanExpressUS/posts/today-we-are-introducing-the-amex-agentic-commerce-experiences-ace-developer-kit/1518453912976501/
-- date: '2026-05-25'
+- date: ''
   title: Ahead of earnings, Amex adds more tools to feed its AI plans
   url: https://www.americanbanker.com/payments/news/amex-agrees-to-buy-more-tools-to-feed-its-ai-plans
-- date: '2026-05-25'
+- date: ''
   title: American Express
   url: https://www.facebook.com/AmericanExpressUS/posts/were-excited-to-share-that-we-have-entered-into-an-agreement-to-acquire-hyper-an/1520164826138743/
-- date: '2026-05-25'
+- date: ''
   title: How Amex exploits new AI tools
   url: https://www.paymentsdive.com/news/how-amex-exploits-new-ai-tools/816000/
 random_paper: 5
@@ -301,7 +301,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,19 +69,19 @@ overview: 'Iron Mountain is profiled on the [APIs.io](https://apis.io/) network.
 
   Iron Mountain''s developer surface includes support and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: the crucial role of data in AI
   url: https://www.ironmountain.com/en-nz/about-us/newsroom/press-releases/2025/may/iron-mountain-insights-featured-on-mysecurity-marketplace-the-crucial-role-of-data-in-ai
-- date: '2026-05-25'
+- date: ''
   title: Newsroom | Iron Mountain United Kingdom
   url: https://www.ironmountain.com/en-gb/about-us/newsroom
-- date: '2026-05-25'
+- date: ''
   title: Unlock the true power of AI by starting with your data. ...
   url: https://www.facebook.com/ironmountain/posts/unlock-the-true-power-of-ai-by-starting-with-your-data-transforming-dormant-info/1369654961862326/
-- date: '2026-05-25'
+- date: ''
   title: Iron Mountain launches updates to its InSight DXP platform
   url: https://www.ironmountain.com/about-us/media-center/press-releases/2025/october/iron-mountain-insight-dxp-platform
-- date: '2026-05-25'
+- date: ''
   title: Iron Mountain Named 2026 Google Cloud Partner of ...
   url: https://www.businesswire.com/news/home/20260421310205/en/Iron-Mountain-Named-2026-Google-Cloud-Partner-of-the-Year-Business-Applications-Media-Entertainment
 random_paper: 18
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

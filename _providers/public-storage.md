@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Public Storage is profiled on the [APIs.io](https://apis.io/) network
 
   Public Storage''s developer surface includes engineering blog and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Officers & Trustees - Investor Relations - Public Storage
   url: https://investors.publicstorage.com/governance/officers-trustees/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Public Storage Accelerates Growth with Simply Self ...
   url: https://www.breit.com/press-releases/article/public-storage-accelerates-growth-with-simply-self-storage-acquisition/
-- date: '2026-05-25'
+- date: ''
   title: Public Storage and Welltower Announce Strategic Data ...
   url: https://www.prnewswire.com/news-releases/public-storage-and-welltower-announce-strategic-data-science-partnership-to-advance-application-of-ai-in-real-estate-investing-302700397.html
-- date: '2026-05-25'
+- date: ''
   title: Public Storage Accelerates Growth with Simply Self ...
   url: https://www.linkedin.com/posts/public-storage_public-storage-accelerates-growth-with-simply-activity-7089661040111603712-bUS1
-- date: '2026-05-25'
+- date: ''
   title: Why Are Public Storage and Welltower Partnering on AI
   url: https://www.kavout.com/market-lens/why-are-public-storage-and-welltower-partnering-on-ai
 random_paper: 11
@@ -119,7 +119,7 @@ score:
     - north-america
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

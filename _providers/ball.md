@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 12
 common:
@@ -102,19 +102,19 @@ overview: 'Ball Corporation is profiled on the [APIs.io](https://apis.io/) netwo
 
   Ball Corporation''s developer surface includes engineering blog and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence
   url: https://investorsforhumanrights.org/taxonomy/term/51?page=1
-- date: '2026-05-25'
+- date: ''
   title: Ball Corporation – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/ball-corporation-enterprise-tech-analysis/
-- date: '2026-05-25'
+- date: ''
   title: Ball State Joins a National Effort to Rethink Curriculum ...
   url: https://blogs.bsu.edu/teaching-innovation/2026/04/01/ball-state-joins-a-national-effort-to-rethink-curriculum-design-with-ai/
-- date: '2026-05-25'
+- date: ''
   title: 'AI Plays Ball: Artificial Intelligence and the Business of Sports'
   url: https://www.mheducation.com/highered/blog/2025/12/ai-plays-ball-artificial-intelligence-and-the-business-of-sports.html
-- date: '2026-05-25'
+- date: ''
   title: Reflecting its commitment to delivering advisor-first ...
   url: https://www.facebook.com/RaymondJames/posts/reflecting-its-commitment-to-delivering-advisor-first-technology-the-firm-has-an/1394319819394063/
 random_paper: 15
@@ -149,7 +149,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

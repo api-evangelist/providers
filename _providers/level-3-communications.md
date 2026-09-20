@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Level 3 Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Internet Service Provider, Fiber, Networking, and Historical.
 press:
-- date: '2026-05-25'
+- date: ''
   title: level 3 communications releases new saas network ...
   url: https://appdevelopermagazine.com/search/level-3-communications-releases-new-saas-network-security-solution
-- date: '2026-05-25'
+- date: ''
   title: Level 3 Communications LVLT Stock News, Sentiment, ...
   url: https://www.cityfalcon.ai/news/directory/stocks/level-3-communications-lvlt
-- date: '2026-05-25'
+- date: ''
   title: Level 3 Communications 2026 Company Profile
   url: https://pitchbook.com/profiles/company/12772-63
-- date: '2026-05-25'
+- date: ''
   title: CenturyLink completes acquisition of Level 3
   url: https://www.prnewswire.com/news-releases/centurylink-completes-acquisition-of-level-3-300547357.html
-- date: '2026-05-25'
+- date: ''
   title: Level 3 Communications Leads Council to Define New ...
   url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1998/m06/level-3-communications-leads-council-to-define-new-standards-for-network-interconnection.html
 random_paper: 12
@@ -105,7 +105,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -66,19 +66,19 @@ nav: Providers
 network: true
 overview: Flowers Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bakery, Consumer Packaged Goods, Food, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Wonder bread maker taking 'comprehensive review' of ...
   url: https://www.fooddive.com/news/wonder-bread-maker-taking-comprehensive-review-of-business-amid-slump/812228/
-- date: '2026-05-25'
+- date: ''
   title: FLOWERS FOODS, INC. TO ACQUIRE SIMPLE MILLS
   url: https://www.prnewswire.com/news-releases/flowers-foods-inc-to-acquire-simple-mills-302345725.html
-- date: '2026-05-25'
+- date: ''
   title: annual report 2024
   url: https://investors.flowersfoods.com/~/media/Files/F/Flowers-Foods-V3/documents/Annual%20Report/flowers-foods-2024-annual-report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Flowers-Foods-2023-Corporate-Responsibility-Report.pdf
   url: https://flowersfoods.com/wp-content/uploads/2024/09/Flowers-Foods-2023-Corporate-Responsibility-Report.pdf
-- date: '2026-05-25'
+- date: ''
   title: 2024 Corporate Responsibility Report
   url: https://flowersfoods.com/wp-content/uploads/2025/08/Flowers-Foods-2024-Corporate-Responsibility-Report.pdf
 random_paper: 12
@@ -108,7 +108,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

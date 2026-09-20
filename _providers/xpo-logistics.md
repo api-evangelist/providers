@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,19 +94,19 @@ overview: 'XPO Logistics is profiled on the [APIs.io](https://apis.io/) network.
 
   XPO Logistics'' developer surface includes changelog, engineering blog, and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: XPO Logistics to present benefits of its technological ...
   url: https://europenews.xpo.com/en/2964/xpo-to-present-its-technological-solutions-at-the-11th-smart-energy-congress/
-- date: '2026-05-25'
+- date: ''
   title: XPO leans on AI to minimize miles, handling for LTL freight
   url: https://www.truckingdive.com/news/xpo-ai-technology-linehaul-optimization-improve-freight-flows/748248/
-- date: '2026-05-25'
+- date: ''
   title: XPO and Google Cloud Enter Into Multi-Year Partnership to ...
   url: https://www.prnewswire.com/news-releases/xpo-and-google-cloud-enter-into-multi-year-partnership-to-build-faster-more-efficient-supply-chains-301561712.html
-- date: '2026-05-25'
+- date: ''
   title: How Is Technology Changing the Logistics Industry?
   url: https://europenews.xpo.com/en/2945/supply-chains-are-more-digital-than-you-think/
-- date: '2026-05-25'
+- date: ''
   title: XPO Logistics Announces Four New Technology Initiatives ...
   url: https://investors.xpo.com/news-releases/news-release-details/xpo-logistics-announces-four-new-technology-initiatives-less/
 random_paper: 1
@@ -130,7 +130,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 7.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

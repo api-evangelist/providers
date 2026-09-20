@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,19 +68,19 @@ nav: Providers
 network: true
 overview: TRW Automotive Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Safety Systems, ADAS, Braking, and Steering.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?ld=ASXXSCTUSDirect&page=166
-- date: '2026-05-25'
+- date: ''
   title: TRW Automotive Reports Rise in Profits
   url: https://www.aftermarketnews.com/trw-automotive-reports-rise-in-profits/
-- date: '2026-05-25'
+- date: ''
   title: TRW Continues Investment In China With Opening Of ...
   url: https://www.prnewswire.com/news-releases/trw-continues-investment-in-china-with-opening-of-three-new-plants-300068162.html
-- date: '2026-05-25'
+- date: ''
   title: TRW's 3Q earnings quadruple
   url: https://www.autonews.com/article/20071030/ANA02/71030004/trw-s-3q-earnings-quadruple/
-- date: '2026-05-25'
+- date: ''
   title: TRW Automotive Selects Sherlock Automated Design Analysis ...
   url: https://ai-online.com/2011/09/trw-automotive-selects-sherlock-automated-design-analysis-software-from-dfr-solutions/
 random_paper: 20
@@ -104,7 +104,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

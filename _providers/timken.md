@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Interactive engineering tools for bearing selection, bearing life calculation, tolerance lookup, lubrication, gear force calculations, and precision bearing selection. Accessible through Timken's engi
@@ -123,19 +123,19 @@ plans:
   plan_count: 3
   slug: timken-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Timken Details Strategy and Announces 2028 Financial ...
   url: https://www.prnewswire.com/news-releases/timken-details-strategy-and-announces-2028-financial-targets-at-investor-day-302777953.html
-- date: '2026-05-25'
+- date: ''
   title: Timken Reports Fourth-Quarter and Full-Year 2025 Results
   url: https://investors.timken.com/financial-news/press-release/2026/Timken-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 'Timken: Putting career development in motion with AI ...'
   url: https://www.sap.com/asset/dynamic/2026/01/56419c3f-3a7f-0010-bca6-c68f7e60039b.html
-- date: '2026-05-25'
+- date: ''
   title: 'Press Release: Timken Reports First-Quarter 2026 Results'
   url: https://www.moomoo.com/news/post/69462214/press-release-timken-reports-first-quarter-2026-results
-- date: '2026-05-25'
+- date: ''
   title: The Timken Company
   url: https://www.facebook.com/timken/?locale=ro_RO
 random_paper: 10
@@ -174,7 +174,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,19 +57,19 @@ nav: Providers
 network: true
 overview: The Priceline Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Priceline to buy travel research site Kayak for $1.8B
   url: https://www.computerworld.com/article/1538418/priceline-to-buy-travel-research-site-kayak-for-1-8b.html
-- date: '2026-05-25'
+- date: ''
   title: Priceline Group changes name to Booking Holdings
   url: https://www.phocuswire.com/Priceline-Group-now-Bookings-Holdings
-- date: '2026-05-25'
+- date: ''
   title: New Survey from The Priceline Group Reveals Insights into ...
   url: https://www.prnewswire.com/news-releases/new-survey-from-the-priceline-group-reveals-insights-into-how-travelers-expect-technology-to-transform-experiences-300282329.html
-- date: '2026-05-25'
+- date: ''
   title: 'Booking Holdings'' AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/booking-holdings-ai-strategy-analysis-of-dominance-in-new-era-of-travel/
-- date: '2026-05-25'
+- date: ''
   title: Priceline Launches New AI-Powered Trip Intelligence ...
   url: https://www.hotelnewsresource.com/article130195.html
 random_paper: 17
@@ -99,7 +99,7 @@ score:
       reason: never_enriched
   previous_composite: 3.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

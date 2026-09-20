@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Pfizer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 100.
 press:
-- date: '2026-05-25'
+- date: ''
   title: XtalPi and Pfizer Expand Strategic Collaboration to ...
   url: https://www.prnewswire.com/news-releases/xtalpi-and-pfizer-expand-strategic-collaboration-to-advance-ai-driven-drug-discovery-and-materials-science-simulations-302494033.html
-- date: '2026-05-25'
+- date: ''
   title: 'Artificial Intelligence: On a mission to Make Clinical Drug ...'
   url: https://www.pfizer.com/news/articles/artificial_intelligence_on_a_mission_to_make_clinical_drug_development_faster_and_smarter
-- date: '2026-05-25'
+- date: ''
   title: Driving Patient-Centric Innovation in Life Sciences Using ...
   url: https://aws.amazon.com/solutions/case-studies/pfizer-PACT-case-study/
-- date: '2026-05-25'
+- date: ''
   title: A New Consumer Digital Product Providing Answers You ...
   url: https://www.pfizer.com/news/articles/introducing_health_answers_pfizer_new_consumer_digital_product_providing_answers
-- date: '2026-05-25'
+- date: ''
   title: 'Accelerating Innovation: Pfizer''s 2025 AI Festival'
   url: https://www.pfizer.com/news/articles/accelerating_innovation_pfizers_2025_ai_festival
 random_paper: 18
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -217,19 +217,19 @@ plans:
   plan_count: 1
   slug: western-union-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Western Union forms strategic partnership with HCLTech to ...
   url: https://www.prnewswire.com/news-releases/western-union-forms-strategic-partnership-with-hcltech-to-transition-to-an-ai-led-platform-operating-model-302409306.html
-- date: '2026-05-25'
+- date: ''
   title: Western Union Banks On First-Party Data To Woo Brands ...
   url: https://www.adexchanger.com/commerce/western-union-is-banking-on-first-party-data-to-woo-brands-to-its-new-media-network/
-- date: '2026-05-25'
+- date: ''
   title: Techstars & Western Union Accelerator Announce 2020 Class ...
   url: https://ir.westernunion.com/news/archived-press-releases/press-release-details/2020/Techstars--Western-Union-Accelerator-Announce-2020-Class-Leading-the-Future-of-Inclusive-Finance/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Western Union to Tap Stablecoins and AI for Greater ...
   url: https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2025/western-union-to-tap-stablecoins-and-ai-for-greater-efficiencies/
-- date: '2026-05-25'
+- date: ''
   title: Western Union Builds on Accelerator Momentum with New ...
   url: https://ir.westernunion.com/news/archived-press-releases/press-release-details/2019/Western-Union-Builds-on-Accelerator-Momentum-with-New-Artificial-Intelligence-Projects/default.aspx
 random_paper: 10
@@ -286,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

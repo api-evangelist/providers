@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,19 +89,19 @@ nav: Providers
 network: true
 overview: PetSmart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Pets, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Paws and profits: PetSmart announces new executive vice ...'
   url: https://www.dvm360.com/view/paws-and-profits-petsmart-announces-new-executive-vice-president-and-more
-- date: '2026-05-25'
+- date: ''
   title: Petlibro Expands Access to AI-Powered Luma Smart Litter ...
   url: https://www.prnewswire.com/news-releases/petlibro-expands-access-to-ai-powered-luma-smart-litter-box-with-petsmart-launch-302715600.html
-- date: '2026-05-25'
+- date: ''
   title: How PetSmart is using AI in its revamped loyalty program
   url: https://www.modernretail.co/marketing/how-petsmart-is-using-ai-in-its-revamped-loyalty-program/
-- date: '2026-05-25'
+- date: ''
   title: Boosting Customer Engagement and Loyalty With AI ...
   url: https://www.databricks.com/customers/petsmart/ai
-- date: '2026-05-25'
+- date: ''
   title: PetSmart Charities and Deutsch LA Support Crowded ...
   url: https://petsmartcharities.org/press-releases/petsmart-charities-and-deutsch-la-support-crowded-shelters-with-ai-tool-rescue-writer-ahead-of-national-adoption-week-nov-6-12
 random_paper: 0
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

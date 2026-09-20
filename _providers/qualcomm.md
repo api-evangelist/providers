@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,19 +121,19 @@ plans:
   plan_count: 1
   slug: qualcomm-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Qualcomm - News & Events - Press Releases
   url: https://investor.qualcomm.com/news-events/press-releases/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: QUALCOMM Incorporated (QCOM) Latest Press Releases ...
   url: https://ca.finance.yahoo.com/quote/QCOM/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: AI Research Areas | Intelligence on Devices
   url: https://www.qualcomm.com/research/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Investor Events
   url: https://investor.qualcomm.com/news-events/investor-events/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Qualcomm Technologies, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/qualcomm-technologies%2C-inc./
 random_paper: 5
@@ -168,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

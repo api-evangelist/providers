@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ overview: 'Dynegy is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Dynegy''s developer surface includes signup flow, support, and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: AEP And Dynegy Complete Ownership Transfer For Co- ...
   url: https://www.prnewswire.com/news-releases/aep-and-dynegy-complete-ownership-transfer-for-co-owned-plants-300454639.html
-- date: '2026-05-25'
+- date: ''
   title: Merchant M&A Chatter Picks Up With Vistra Reportedly Setting ...
   url: https://www.spglobal.com/market-intelligence/en/news-insights/research/merchant-ma-chatter-picks-up-with-vistra-reportedly-setting-sights-on-dynegy
-- date: '2026-05-25'
+- date: ''
   title: Dynegy to exit energy trading, but industry rebound seen in ...
   url: https://www.computerworld.com/article/1335982/dynegy-to-exit-energy-trading-but-industry-rebound-seen-in-03.html
-- date: '2026-05-25'
+- date: ''
   title: Dynegy Inc.
   url: https://www.sec.gov/enforcement-litigation/litigation-releases/lr-17744
-- date: '2026-05-25'
+- date: ''
   title: AI + EV = Can Utilities Generate Enough Power?
   url: https://gabelli.com/research/ai-ev-can-utilities-generate-enough-power/
 random_paper: 18
@@ -124,7 +124,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: PACCAR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Fortune 500, Manufacturing, and Trucks.
 press:
-- date: '2026-05-25'
+- date: ''
   title: PACCAR Investor Presentation
   url: https://s202.q4cdn.com/173635405/files/doc_financials/2026/q1/1Q26-Investor-Presentation.pdf
-- date: '2026-05-25'
+- date: ''
   title: PACCAR Achieves Very Good Annual Revenues and Net ...
   url: https://www.nasdaq.com/press-release/paccar-achieves-very-good-annual-revenues-and-net-income-2026-01-27
-- date: '2026-05-25'
+- date: ''
   title: PACCAR Inc - Investor Relations
   url: https://investors.paccar.com/overview/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: PACCAR Achieves Very Good Annual Revenues and Net ...
   url: https://www.paccar.com/news/current-news/2026/paccar-achieves-very-good-annual-revenues-and-net-income/
-- date: '2026-05-25'
+- date: ''
   title: Financial Results
   url: https://investors.paccar.com/financials/quarterly-results/default.aspx
 random_paper: 2
@@ -111,7 +111,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

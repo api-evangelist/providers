@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,19 +91,19 @@ nav: Providers
 network: true
 overview: Chemtura is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Additives, Chemical Intermediates, Chemicals, and Cologne.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Terence Tan - IT & Operations
   url: https://sg.linkedin.com/in/terence-tan-6b88594
-- date: '2026-05-25'
+- date: ''
   title: 'Artificial Intelligence Safety and Research: Anthropic ...'
   url: https://www.orrick.com/en/News/2023/06/Artificial-Intelligence-Safety-and-Research
-- date: '2026-05-25'
+- date: ''
   title: KIK Custom Products Acquires BioLab/Bayrol Consumer ...
   url: https://www.prnewswire.com/news-releases/kik-custom-products-acquires-biolabbayrol-consumer-products-business-from-chemtura-238442061.html
-- date: '2026-05-25'
+- date: ''
   title: can artificial intelligence arbitrate Investor-State disputes? ...
   url: https://www.nzlii.org/nz/journals/UOtaLawTD/2024/3.html
-- date: '2026-05-25'
+- date: ''
   title: PA-CHEMTURA-CORPORATION | Business Wire
   url: https://via.ritzau.dk/pressemeddelelse/9995980/pa-chemtura-corporation?publisherId=90456
 random_paper: 21
@@ -135,7 +135,7 @@ score:
     - europe
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

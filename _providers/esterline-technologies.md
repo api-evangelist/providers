@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,19 +57,19 @@ nav: Providers
 network: true
 overview: Esterline Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: TransDigm to buy aerospace supplier Esterline ...
   url: https://www.airport-technology.com/news/transdigm-buy-aerospace-supplier-esterline-technologies-4bn/
-- date: '2026-05-25'
+- date: ''
   title: Esterline's CMC integrated glass cockpit selected for Peruvian ...
   url: https://skiesmag.com/press-releases/18391-esterline-s-cmc-integrated-glass-cockpit-selected-for-peruvi-html/
-- date: '2026-05-25'
+- date: ''
   title: Esterline Technologies 2026 Company Profile
   url: https://pitchbook.com/profiles/company/30677-59
-- date: '2026-05-25'
+- date: ''
   title: TransDigm Completes Acquisition of Esterline Technologies
   url: https://www.prnewswire.com/news-releases/transdigm-completes-acquisition-of-esterline-technologies-300812443.html
-- date: '2026-05-25'
+- date: ''
   title: COMPANY NEWS; ESTERLINE TECHNOLOGIES ...
   url: https://www.nytimes.com/1998/08/11/business/company-news-esterline-technologies-agrees-to-add-kirkhill-rubber.html
 random_paper: 12
@@ -99,7 +99,7 @@ score:
       reason: never_enriched
   previous_composite: 3.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

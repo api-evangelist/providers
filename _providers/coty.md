@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -130,19 +130,19 @@ overview: 'Coty is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
   Coty''s developer surface includes product news, YouTube channel, engineering blog, and 17 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Coty Builds End-to-End Gen AI Content System
   url: https://p2pi.com/coty-builds-end-end-gen-ai-content-system
-- date: '2026-05-25'
+- date: ''
   title: Coty Partners With Pencil to Build End-to-End Gen AI ...
   url: https://www.businesswire.com/news/home/20260504103992/en/Coty-Partners-With-Pencil-to-Build-End-to-End-Gen-AI-Content-System
-- date: '2026-05-25'
+- date: ''
   title: Coty Enters Strategic Collaboration With Openai To ...
   url: https://www.coty.com/news/coty-enters-strategic-collaboration-with-openai-to-strengthen-responsible-ai-adoption-across-the-organization
-- date: '2026-05-25'
+- date: ''
   title: Coty "Supercharge with AI" Enterprise Upskilling Program ...
   url: https://www.coty.com/news/coty-supercharge-with-ai-enterprise-upskilling-program-wins-newsweek-ai-impact-award
-- date: '2026-05-25'
+- date: ''
   title: Coty launches digital accelerator start-up program
   url: https://www.coty.com/news/coty-launches-digital-accelerator-start-up-program
 random_paper: 7
@@ -166,7 +166,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

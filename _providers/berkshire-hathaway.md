@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,7 +22,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-18'
+  score: 6.8
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The BNSF API Center provides customer APIs for programmatic integration with BNSF Railway freight shipping operations. APIs enable real-time shipment tracing, intermodal hub operations, pricing and ra
@@ -54,6 +54,84 @@ common:
   title: ''
   type: Website
   url: https://www.berkshirehathaway.com
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.berkshirehathaway.com/news/2026news.html
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://www.berkshirehathaway.com/reports.html
+- group: other
+  title: ''
+  type: Governance
+  url: https://www.berkshirehathaway.com/govern/govern.html
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://www.berkshirehathaway.com/govern/code.html
+- group: other
+  title: ''
+  type: Sustainability
+  url: https://www.berkshirehathaway.com/sustainability/sustainabilityintro.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.berkshirehathaway.com/disclaimer.html
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/well-known/berkshire-hathaway-well-known.yml
+  title: ''
+  type: WellKnownProbe
+  url: well-known/berkshire-hathaway-well-known.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/regulatory/berkshire-hathaway-regulatory-posture.yml
+  title: ''
+  type: RegulatoryPosture
+  url: regulatory/berkshire-hathaway-regulatory-posture.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/llms/berkshire-hathaway-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/berkshire-hathaway-llms.txt
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/plans/berkshire-hathaway-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/berkshire-hathaway-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/rate-limits/berkshire-hathaway-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/berkshire-hathaway-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/berkshire-hathaway/refs/heads/main/finops/berkshire-hathaway-finops.yml
+  title: ''
+  type: FinOps
+  url: finops/berkshire-hathaway-finops.yml
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bnsf/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/geico/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/precision-castparts/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/dairyqueen/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/alleghany/
+- group: company
+  title: ''
+  type: About
+  url: https://www.berkshirehathaway.com/subs/sublinks.html
 created: '2026-03-21'
 description: Berkshire Hathaway is a multinational conglomerate holding company headquartered in Omaha, Nebraska. The company's diversified subsidiaries span insurance (GEICO, Berkshire Hathaway Specialty Insurance, National Indemnity), freight rail transportation (BNSF Railway), utilities and energy (Berkshire Hathaway Energy), manufacturing (Precision Castparts, Iscar), wholesale distribution (McLane Company), and services and retailing. BNSF Railway, one of North America's largest freight rail networks, operates a public API Center providing customer APIs for shipment tracking, pricing, scheduling, and waybill management.
 features:
@@ -78,64 +156,64 @@ integrations:
 - description: BNSF customer APIs enable direct integration with ERP and procurement systems to automate freight cost management, scheduling, and shipment visibility without manual portal access.
   name: Enterprise Resource Planning
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-19'
 name: Berkshire Hathaway
 nav: Providers
 network: true
 overview: Berkshire Hathaway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Conglomerate, Energy, Finance, Freight Rail, and Insurance.
 plans:
 - name: Berkshire Hathaway Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: berkshire-hathaway-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Greg Abel said at the 2026 Berkshire Hathaway annual ...
   url: https://www.facebook.com/cnbc/posts/greg-abel-said-at-the-2026-berkshire-hathaway-annual-shareholders-meeting-that-t/1361201429214580/
-- date: '2026-05-25'
+- date: ''
   title: 'Berkshire Hathaway Uses AI Agents: 10 Ways to ...'
   url: https://www.klover.ai/berkshire-hathaway-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025/
-- date: '2026-05-25'
+- date: ''
   title: Berkshire Hathaway Takes Reserved Stance on Artificial ...
   url: https://www.linkedin.com/posts/cnbc_berkshire-annual-meeting-live-warren-buffetts-activity-7456363880903176192-fOVM
-- date: '2026-05-25'
+- date: ''
   title: Why Buffett's Alphabet Bet Raises AI Cycle Questions
   url: https://www.vantagemarkets.com/en/academy/buffett-alphabet-ai-cycle-analysis/
-- date: '2026-05-25'
+- date: ''
   title: 'Berkshire Hathaway Specialty''s Mirza: How Generative AI ...'
   url: https://www.ambest.com/video/MediaArchive.aspx?lid=1068187747001&vid=6341117189112
 random_paper: 11
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Berkshire Hathaway Rate Limits
   slug: berkshire-hathaway-rate-limits
 score:
   band: emerging
-  composite: 16.5
+  composite: 25.5
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 12
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
-    access_clarity: 15.8
+    access_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 59.3
-    operational_transparency: 7.9
+    discoverability: 68.5
+    operational_transparency: 39.5
   previous_composite: 16.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 8.1
+    score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  trend: flat
+  scored_at: '2026-09-19'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

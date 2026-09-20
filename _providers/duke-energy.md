@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,19 +58,19 @@ nav: Providers
 network: true
 overview: Duke Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: News Releases | Duke Energy | News Center
   url: https://news.duke-energy.com/releases/duke-energy-focused-on-customers-futurestrategy-ceo-tells-shareholders?page=3
-- date: '2026-05-25'
+- date: ''
   title: 'Duke Energy''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/duke-energy-ai-strategy-analysis-of-dominance-in-utilities-ai/
-- date: '2026-05-25'
+- date: ''
   title: Duke Energy leverages AI to protect customers and combat ...
   url: https://investors.duke-energy.com/news/news-details/2026/Duke-Energy-leverages-AI-to-protect-customers-and-combat-scams/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Duke Energy
   url: https://www.facebook.com/duke.energy/posts/ai-and-emerging-technologies-are-reshaping-energy-demand-and-duke-energy-is-read/1246937060796699/
-- date: '2026-05-25'
+- date: ''
   title: Duke Energy leverages AI to protect customers and combat ...
   url: https://www.prnewswire.com/news-releases/duke-energy-leverages-ai-to-protect-customers-and-combat-scams-302686573.html
 random_paper: 20
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

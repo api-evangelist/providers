@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -360,19 +360,19 @@ plans:
   plan_count: 1
   slug: bank-of-america-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Bank of America reports AI-driven workforce boost as ...
   url: https://www.bizjournals.com/charlotte/news/2026/01/14/bank-of-america-bac-jobs-ai-technology-labor-work.html
-- date: '2026-05-25'
+- date: ''
   title: 'Broadcom''s bold AI opportunity: Bank of America resets'
   url: https://www.facebook.com/sacramentobee/posts/broadcoms-bold-ai-opportunity-bank-of-america-resets-expectations/1386850996819716/
-- date: '2026-05-25'
+- date: ''
   title: Bank Of America Bets Big On AI With $4 Billion Investment ...
   url: https://www.benzinga.com/tech/25/04/44878856/bank-of-america-bets-big-on-ai-with-4-billion-investment-and-its-already-paying-off
-- date: '2026-05-25'
+- date: ''
   title: Bank of America AI CashPro Forecasting saves ...
   url: https://www.stocktitan.net/news/BAC/bof-a-s-ai-solution-cash-pro-forecasting-tm-helps-clients-navigate-xglvcv7x13mx.html
-- date: '2026-05-25'
+- date: ''
   title: Bank of America's Moynihan Says AI's Economic Benefit Is ' ...
   url: https://www.bloomberg.com/news/articles/2025-12-22/bofa-s-moynihan-says-ai-s-economic-benefit-is-kicking-in-more
 random_paper: 7
@@ -440,7 +440,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

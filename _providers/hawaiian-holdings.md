@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Hawaiian Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Aviation, Travel, Holding Company, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Hawaiian Air shareholders approve acquisition, marking ' ...
   url: https://www.hawaiinewsnow.com/2024/02/16/hawaiian-air-shareholders-approve-alaska-air-acquisition-marking-important-milestone/
-- date: '2026-05-25'
+- date: ''
   title: Alaska Airlines and Hawaiian Airlines to Combine ...
   url: https://www.prnewswire.com/news-releases/alaska-airlines-and-hawaiian-airlines-to-combine-expanding-benefits-and-choice-for-travelers-throughout-hawaii-and-the-west-coast-302003943.html
-- date: '2026-05-25'
+- date: ''
   title: Alaska Airlines completes purchase of Hawaiian Airlines
   url: https://klewtv.com/news/nation-world/alaska-airlines-completes-purchase-hawaiian-airlines-faa-flight-airport-flying
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1172222/000117222221000019/ha-20210128.htm
-- date: '2026-05-25'
+- date: ''
   title: Page 27 – Alaska Airlines, Hawaiian Airlines and Horizon Air
   url: https://news.alaskaair.com/page/27/?p=t
 random_paper: 19
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

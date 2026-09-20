@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The MyStericycle.com customer portal provides healthcare organizations with 24/7 online access to account management, waste pickup scheduling, HIPAA and OSHA compliance training, compliance reporting,
@@ -106,19 +106,19 @@ plans:
   plan_count: 1
   slug: stericycle-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: WM Completes Acquisition of Stericycle
   url: https://investors.wm.com/news-releases/news-release-details/wm-completes-acquisition-stericycle
-- date: '2026-05-25'
+- date: ''
   title: WM Completes Acquisition of Stericycle
   url: https://www.sec.gov/Archives/edgar/data/823768/000110465924113690/tm2427004d3_ex99-1.htm
-- date: '2026-05-25'
+- date: ''
   title: Stericycle (SRCL) Rose Following an Acquisition ...
   url: https://finance.yahoo.com/news/stericycle-srcl-rose-following-acquisition-074933097.html
-- date: '2026-05-25'
+- date: ''
   title: Carenet Health Acquires Stericycle Communication Solutions
   url: https://ai-techpark.com/carenet-health-acquires-stericycle-communication-solutions/
-- date: '2026-05-25'
+- date: ''
   title: Stericycle Opens State-of-the-Art Regulated Medical Waste ...
   url: https://www.prnewswire.com/news-releases/stericycle-opens-state-of-the-art-regulated-medical-waste-incineration-facility-in-nevada-302286800.html
 random_paper: 1
@@ -163,7 +163,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

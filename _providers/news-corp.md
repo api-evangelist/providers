@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,30 +57,30 @@ nav: Providers
 network: true
 overview: News Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Comment on News Corp to Report Fiscal 2015 Full Year Earnings by binance signup bonus
   url: https://newscorp.com/2015/07/21/news-corp-to-report-fiscal-2015-full-year-earnings/#comment-9012
-- date: '2026-05-25'
+- date: ''
+  title: News Corp to Report Fiscal 2026 First Quarter Earnings
+  url: https://newscorp.com/2025/10/23/news-corp-to-report-fiscal-2026-first-quarter-earnings/
+- date: ''
+  title: News Corp Hosts Dow Jones Investor Briefing
+  url: https://newscorp.com/2026/03/16/news-corp-hosts-dow-jones-investor-briefing/
+- date: ''
+  title: Comment on News Corp Reports Second Quarter Results for Fiscal 2019 by Registrera dig
+  url: https://newscorp.com/2019/02/07/news-corp-reports-second-quarter-results-for-fiscal-2019/#comment-9005
+- date: ''
+  title: Comment on News Corporation Announces Details Regarding Proposed Separation of Businesses by create binance account
+  url: https://newscorp.com/2012/12/03/news-corporation-announces-details-regarding-proposed-separation-of-businesses/#comment-9010
+- date: ''
+  title: Comment on Our History by x srcset=http://oast.me/3E2MMUz1UWB9IZ8LYENJWRBcEnc.php
+  url: https://newscorp.com/about-news-corp/#comment-9009
+- date: ''
+  title: News Corp to Participate in the Morgan Stanley Technology, Media & Telecom Conference
+  url: https://newscorp.com/2026/02/24/news-corp-to-participate-in-the-morgan-stanley-technology-media-telecom-conference-5/
+- date: ''
   title: Symbolic.ai Partners with News Corp on AI-Native ...
   url: https://www.linkedin.com/posts/symbolic-ai_symbolic-partners-with-news-corp-to-deploy-activity-7417611941235531776-yTQy
-- date: '2026-05-25'
-  title: All eyes on News Corp earnings as AI licensing fuels ...
-  url: https://www.investing.com/news/earnings/all-eyes-on-news-corp-earnings-as-ai-licensing-fuels-growth-hopes-93CH-4669330
-- date: '2026-05-25'
-  title: News Corp is essentially an AI 'input company', chief ...
-  url: https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m
-- date: '2026-05-25'
-  title: News Corp and OpenAI Sign Landmark Multi-Year Global ...
-  url: https://investors.newscorp.com/news-releases/news-release-details/news-corp-and-openai-sign-landmark-multi-year-global-partnership
-- date: '2026-05-25'
-  title: News Corp Australia outlines its approach to using AI in ...
-  url: https://www.inma.org/blogs/conference/post.cfm/news-corp-australia-outlines-its-approach-to-using-ai-in-its-newsrooms
-- date: '2026-05-25'
-  title: Comment on News Corp Declares Semi-Annual Dividend by binance US-registrera
-  url: https://newscorp.com/2016/02/10/news-corp-declares-semi-annual-dividend/#comment-9013
-- date: '2026-05-25'
-  title: Comment on News Corporation Announces Details Regarding Proposed Separation of Businesses by Registrera dig
-  url: https://newscorp.com/2012/12/03/news-corporation-announces-details-regarding-proposed-separation-of-businesses/#comment-9011
 random_paper: 2
 score:
   band: minimal
@@ -108,7 +108,7 @@ score:
       reason: never_enriched
   previous_composite: 3.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

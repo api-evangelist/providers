@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: NRG Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fortune 500, and Utilities.
 press:
-- date: '2026-05-25'
+- date: ''
   title: NRG Energy Inc
   url: https://www.reuters.com/company/nrg-energy-inc/
-- date: '2026-05-25'
+- date: ''
   title: NRG Energy Controls Both Power Generation and ...
   url: https://finance.yahoo.com/news/nrg-energy-controls-both-power-113300907.html
-- date: '2026-05-25'
+- date: ''
   title: Houston-based NRG Energy announces plans for four new ...
   url: https://www.houstonpublicmedia.org/articles/news/energy-environment/2025/03/05/515340/nrg-energy-announces-plans-for-4-new-natural-gas-plants-to-power-a-i/
-- date: '2026-05-25'
+- date: ''
   title: NRG Energy Inc. to Acquire Premier Power Portfolio from LS ...
   url: https://investors.nrg.com/news-releases/news-release-details/nrg-energy-inc-acquire-premier-power-portfolio-ls-power
-- date: '2026-05-25'
+- date: ''
   title: NRG Energy invests in AI tech to enhance grid stability
   url: https://www.investing.com/news/company-news/nrg-energy-invests-in-ai-tech-to-enhance-grid-stability-93CH-3924537
 random_paper: 10
@@ -101,7 +101,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

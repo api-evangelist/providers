@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 5
 apis:
 - description: The Fantasy Sports APIs provide URIs used to access fantasy sports data, supporting retrieval of Fantasy Football, Baseball, Basketball and Hockey data including game, league, team, player, roster and
@@ -219,19 +219,19 @@ plans:
   plan_count: 0
   slug: yahoo-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence
   url: https://finance.yahoo.com/topic/artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: AI News, Updates, Products and Reviews
   url: https://tech.yahoo.com/ai/
-- date: '2026-05-25'
+- date: ''
   title: Yahoo - The rapid growth of cloud computing and artificial ...
   url: https://www.facebook.com/yahoofinance/photos/the-rapid-growth-of-cloud-computing-and-artificial-intelligence-has-fueled-deman/1084123300249114/
-- date: '2026-05-25'
+- date: ''
   title: Introducing Yahoo Scout, a New AI Answer Engine
   url: https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine
-- date: '2026-05-25'
+- date: ''
   title: How to Structure Press Releases for Maximum AI Visibility
   url: https://finance.yahoo.com/news/structure-press-releases-maximum-ai-091000311.html
 random_paper: 16
@@ -267,7 +267,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

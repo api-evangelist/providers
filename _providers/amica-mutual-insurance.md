@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Amica Mutual Insurance provides a full range of personal insurance products including auto, home, life, condo, renters, marine, motorcycle, umbrella, and flood insurance. The company does not currentl
@@ -170,19 +170,19 @@ plans:
   plan_count: 0
   slug: amica-mutual-insurance-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Amica Mutual Insurance Joins HOVER and CoreLogic to ...
   url: https://iconoutlook.com/amica-mutual-insurance-joins-hover-and-corelogic-to-transform-underwriting-inspections/
-- date: '2026-05-25'
+- date: ''
   title: Amica Mutual Insurance Company Delivers Outstanding ...
   url: https://www.businesswire.com/news/home/20250319522296/en/Amica-Mutual-Insurance-Company-Delivers-Outstanding-Customer-Care-with-Strategy-One
-- date: '2026-05-25'
+- date: ''
   title: Amica Mutual Insurance Company News Monitoring
   url: https://insurance.einnews.com/news/amica-mutual-insurance-company
-- date: '2026-05-25'
+- date: ''
   title: Insurer Expands AI to Assess Climate Risk
   url: https://rethinking65.com/insurer-expands-ai-to-assess-climate-risk/
-- date: '2026-05-25'
+- date: ''
   title: Amica Mutual Insurance Expands Partnership With ZestyAI ...
   url: https://www.prnewswire.com/news-releases/amica-mutual-insurance-expands-partnership-with-zestyai-to-enhance-property-risk-assessment-in-the-face-of-increasing-climate-risks-302208765.html
 random_paper: 7
@@ -218,7 +218,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

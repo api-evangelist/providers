@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -509,19 +509,19 @@ plans:
   plan_count: 3
   slug: advanced-micro-devices-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: AMD and Meta Announce Expanded Strategic Partnership ...
   url: https://ir.amd.com/news-events/press-releases/detail/1279/amd-and-meta-announce-expanded-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus
-- date: '2026-05-25'
+- date: ''
   title: Press Release dated July 30, 2024
   url: https://www.sec.gov/Archives/edgar/data/2488/000000248824000121/q22024991.htm
-- date: '2026-05-25'
+- date: ''
   title: AMD Announces “Advancing AI 2025”
   url: https://ir.amd.com/news-events/press-releases/detail/1243/amd-announces-advancing-ai-2025
-- date: '2026-05-25'
+- date: ''
   title: Advanced Micro Devices has secured massive AI ...
   url: https://www.facebook.com/Neewtoop/posts/advanced-micro-devices-has-secured-massive-ai-infrastructure-deals-with-meta-and/998984876042705/
-- date: '2026-05-25'
+- date: ''
   title: Advanced Micro Devices, Inc. (AMD) Stock Price, News ...
   url: https://finance.yahoo.com/quote/AMD/
 random_paper: 11
@@ -590,7 +590,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -626,19 +626,19 @@ plans:
   plan_count: 3
   slug: apple-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Apple Intelligence gets even more powerful with new ...
   url: https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/
-- date: '2026-05-25'
+- date: ''
   title: Introducing Apple Intelligence for iPhone, iPad, and Mac
   url: https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/
-- date: '2026-05-25'
+- date: ''
   title: Apple Intelligence is available today on iPhone, iPad, and ...
   url: https://www.apple.com/newsroom/2024/10/apple-intelligence-is-available-today-on-iphone-ipad-and-mac/
-- date: '2026-05-25'
+- date: ''
   title: Use Apple Intelligence on your iPhone
   url: https://support.apple.com/guide/iphone/intro-to-apple-intelligence-iphc28624b81/ios
-- date: '2026-05-25'
+- date: ''
   title: Joint statement from Google and Apple
   url: https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/
 random_paper: 2
@@ -695,7 +695,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

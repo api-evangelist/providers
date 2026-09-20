@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Superior Energy Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oil and Gas, Oilfield Services, Energy, Well Services, and Drilling.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Nabors Announces Sale of Quail Tools to Superior Energy ...
   url: https://www.prnewswire.com/news-releases/nabors-announces-sale-of-quail-tools-to-superior-energy-services-for-600-million-302534943.html
-- date: '2026-05-25'
+- date: ''
   title: Superior Energy Services Announces First Quarter 2024 ...
   url: https://energynow.com/2024/05/superior-energy-services-announces-first-quarter-2024-results-and-conference-call/
-- date: '2026-05-25'
+- date: ''
   title: Superior Energy Services Inc. Assigned 'B+' Rating
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3449249
-- date: '2026-05-25'
+- date: ''
   title: Superior Energy Acquires Abaco Drilling Technologies
   url: https://www.linkedin.com/posts/superior-energy-services_superiorenergy-acquisition-wellboretechnologies-activity-7419763990438002688-VXsI
-- date: '2026-05-25'
+- date: ''
   title: Superior Energy Services - Rental & Well Service Brands
   url: https://superiorenergy.com/
 random_paper: 11
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

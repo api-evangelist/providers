@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Leggett and Platt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, Bedding Components, Automotive Seating, Aerospace, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Somnigroup International, the World's Leading Bedding ...
   url: https://www.prnewswire.com/news-releases/somnigroup-international-the-worlds-leading-bedding-company-to-acquire-leggett--platt-a-diversified-component-manufacturer-and-key-somnigroup-supplier-in-an-all-stock-transaction-302740344.html
-- date: '2026-05-25'
+- date: ''
   title: Leggett & Platt Q1 sales fall, Somnigroup deal set
   url: https://www.stocktitan.net/sec-filings/LEG/10-q-leggett-platt-inc-quarterly-earnings-report-3bb186bdf706.html
-- date: '2026-05-25'
+- date: ''
   title: Leggett & Platt Closes the Sale of its Aerospace Products Group
   url: https://leggett.gcs-web.com/node/63526/pdf
-- date: '2026-05-25'
+- date: ''
   title: 2024 ANNUAL REPORT
   url: https://leggett.com/document/load/2024-annual-report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Somnigroup to Acquire Leggett & Platt for $2.5 Billion | News
   url: https://www.clearygottlieb.com/news-and-insights/news-listing/somnigroup-to-acquire-leggett-and-platt
 random_paper: 0
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

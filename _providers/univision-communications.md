@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: ViX is the world's largest Spanish-language streaming service offering over 65,000 hours of content across free (ad-supported) and premium subscription tiers. ViX provides programmatic advertising acc
@@ -109,19 +109,19 @@ plans:
   plan_count: 1
   slug: univision-communications-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Veritone® Announces Multi-Market Agreement with Univision ...
   url: https://financialpost.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/veritone-announces-multi-market-agreement-with-univision-radio-network-to-provide-near-real-time-intelligence-for-ad-campaigns-and-branded-solutions
-- date: '2026-05-25'
+- date: ''
   title: Univision Local Media Joins the Sinclair and ...
   url: https://www.nexstar.tv/univision-local-media-joins-sinclair-nexstar-consortium-promote-broadcast-spectrum-aggregation-innovation-monetization/
-- date: '2026-05-25'
+- date: ''
   title: Univision Partners With Google to Transform Its Business ...
   url: https://www.googlecloudpresscorner.com/2021-04-26-Univision-Partners-With-Google-to-Transform-Its-Business-and-Become-the-Media-Company-of-Tomorrow
-- date: '2026-05-25'
+- date: ''
   title: Univision Partners With Google to Transform Its Business ...
   url: https://www.prnewswire.com/news-releases/univision-partners-with-google-to-transform-its-business-and-become-the-media-company-of-tomorrow-301276246.html
-- date: '2026-05-25'
+- date: ''
   title: Veritone® Announces Multi-Market Agreement with Univision ...
   url: https://investors.veritone.com/news-events/press-releases/detail/167/veritone-announces-multi-market-agreement-with-univision-radio-network-to-provide-near-real-time-intelligence-for-ad-campaigns-and-branded-solutions
 random_paper: 2
@@ -149,7 +149,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

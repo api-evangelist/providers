@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,19 +132,19 @@ plans:
   plan_count: 4
   slug: nasdaq-omx-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: NASDAQ OMX Selects Cisco Technology for High ...
   url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2011/m07/nasdaq-omx-selects-cisco-technology-for-high-performance-options-trading-networks.html
-- date: '2026-05-25'
+- date: ''
   title: Invesco Expands Longstanding Partnership with Nasdaq ...
   url: https://www.prnewswire.com/news-releases/invesco-expands-longstanding-partnership-with-nasdaq-with-two-new-thematic-technology-etfs-301310370.html
-- date: '2026-05-25'
+- date: ''
   title: Rocket Fuel Inc. [FUEL] to Ring the NASDAQ Stock Market ...
   url: https://ir.nasdaq.com/news-releases/news-release-details/rocket-fuel-inc-fuel-ring-nasdaq-stock-market-opening-bell
-- date: '2026-05-25'
+- date: ''
   title: Amdocs CEO and President Eli Gelman rings the opening ...
   url: https://www.facebook.com/Amdocs/posts/amdocs-ceo-and-president-eli-gelman-rings-the-opening-bell-this-morning-at-the-n/10152476442936976/
-- date: '2026-05-25'
+- date: ''
   title: Nasdaq and Wall Street Executives Testify on Artificial ...
   url: https://www.c-span.org/program/house-committee/nasdaq-and-wall-street-executives-testify-on-artificial-intelligence/670205
 random_paper: 13
@@ -185,7 +185,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

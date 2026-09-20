@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -66,19 +66,19 @@ nav: Providers
 network: true
 overview: Murphy Oil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Exploration, Natural Gas, Oil, and Oil and Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 10th Annual AI in Oil & Gas Conference
   url: https://www.industryevents.com/events/10th-annual-ai-in-oil-gas-conference
-- date: '2026-05-25'
+- date: ''
   title: Murphy Oil makes oil discovery in exploration well offshore ...
   url: https://www.oilandgas360.com/murphy-oil-makes-oil-discovery-in-exploration-well-offshore-vietnam/
-- date: '2026-05-25'
+- date: ''
   title: Murphy Oil Corporation starts oil production
   url: https://www.facebook.com/groups/410043010859506/posts/501784821685324/
-- date: '2026-05-25'
+- date: ''
   title: We transform… opportunity value energy
   url: https://www.murphyoilcorp.com/wp-content/uploads/2021/05/Murphy-Oil-Corporation-2020-Sustainability-Report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Murphy Oil Corporation announces second quarter 2023 ...
   url: https://energynow.com/2023/08/murphy-oil-corporation-announces-second-quarter-2023-financial-and-operating-results-strategic-portfolio-repositioning/
 random_paper: 12
@@ -114,7 +114,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

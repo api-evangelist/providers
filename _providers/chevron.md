@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 11
 common:
@@ -111,19 +111,19 @@ nav: Providers
 network: true
 overview: Chevron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Caltex, Chemicals, Crude Oil, Downstream, and Energy.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Intelligent operations in action: By using data from drones ...'
   url: https://www.facebook.com/Chevron/posts/intelligent-operations-in-action-by-using-data-from-drones-and-ai-anthony-and-hi/1385875790244274/
-- date: '2026-05-25'
+- date: ''
   title: Chevron uses AI to bring reliable energy to data centers
   url: https://www.chevron.com/newsroom/2025/q1/chevron-uses-ai-to-bring-reliable-energy-to-data-centers
-- date: '2026-05-25'
+- date: ''
   title: Honeywell and Chevron Collaborate on AI-Assisted ...
   url: https://www.honeywell.com/us/en/press/2024/10/honeywell-and-chevron-collaborate-on-ai-assisted-solutions-for-refining-processes
-- date: '2026-05-25'
+- date: ''
   title: As the use of AI grows, so does the need for energy to ...
   url: https://www.facebook.com/Chevron/posts/as-the-use-of-ai-grows-so-does-the-need-for-energy-to-power-data-centers-america/1159771336188055/
-- date: '2026-05-25'
+- date: ''
   title: Chevron Picks Texas for First AI Data Center Power Project
   url: https://energynow.com/2025/11/chevron-picks-texas-for-first-ai-data-center-power-project/
 random_paper: 9
@@ -158,7 +158,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

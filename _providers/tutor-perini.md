@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Tutor Perini is profiled on the [APIs.io](https://apis.io/) network. 
 
   Tutor Perini''s developer surface includes product news and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Why analysts recommend Tutor Perini Corporation stock
   url: https://therecatthelakefront.com/ati-del/456/Why-analysts-recommend-Tutor-Perini-Corporation-stock
-- date: '2026-05-25'
+- date: ''
   title: Tutor Perini subsidiary nabs 2 California projects
   url: https://www.constructiondive.com/news/tutor-perini-subsidiary-2-california-projects/809013/
-- date: '2026-05-25'
+- date: ''
   title: Tutor Perini details 2026 votes and 2025 surge | TPC Proxy ...
   url: https://www.stocktitan.net/sec-filings/TPC/def-14a-tutor-perini-corp-definitive-proxy-statement-a90195d9ff09.html
-- date: '2026-05-25'
+- date: ''
   title: Tutor Perini Sees 'Blowout' 2026 as Backlog Nears $20B ...
   url: https://www.constructionowners.com/news/tutor-perini-sees-blowout-2026-as-backlog-nears-20b-explores-data-center-expansion
-- date: '2026-05-25'
+- date: ''
   title: Tutor Perini expects strong 2026 with $19.8 billion backlog
   url: https://www.facebook.com/MenottiEnterprise/posts/tutor-perini-eyes-data-center-opportunities-the-heavy-civil-contractor-said-it-s/1545078134290446/
 random_paper: 12
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

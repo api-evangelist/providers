@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -85,19 +85,19 @@ plans:
   plan_count: 0
   slug: cablevision-systems-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cablevision Seeks Adelphia for $16 Billion 04/06/2005
   url: https://www.mediapost.com/publications/article/28973/cablevision-seeks-adelphia-for-16-billion.html
-- date: '2026-05-25'
+- date: ''
   title: Cablevision Systems Corporation
   url: https://www.nytimes.com/topic/company/cablevision-systems-corporation
-- date: '2026-05-25'
+- date: ''
   title: Cablevision Launches Satellite
   url: https://www.lightreading.com/cable-technology/cablevision-launches-satellite
-- date: '2026-05-25'
+- date: ''
   title: Cablevision Unveils New Optimum Logo, Launches ...
   url: https://www.prnewswire.com/news-releases/cablevision-unveils-new-optimum-logo-launches-consumer-focused-branding-campaign-168779316.html
-- date: '2026-05-25'
+- date: ''
   title: 2025 Columbia-Dream Sports AI Innovation Symposium
   url: https://www.newswise.com/articles/2025-columbia-dream-sports-ai-innovation-symposium
 random_paper: 2
@@ -131,7 +131,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

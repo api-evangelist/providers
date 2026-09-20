@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -234,19 +234,19 @@ plans:
   plan_count: 1
   slug: wells-fargo-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Banks chase AI-fueled efficiencies
   url: https://www.ciodive.com/news/banks-citigroup-wells-fargo-jpmorgan-chase-goldman-sachs-AI-earnings/802912/
-- date: '2026-05-25'
+- date: ''
   title: Wells Fargo Scales AI to Meet Surging Customer Demand
   url: https://www.pymnts.com/news/digital-banking/2026/wells-fargo-scales-ai-to-meet-surging-customer-demand/
-- date: '2026-05-25'
+- date: ''
   title: Wells Fargo Reaches Major Digital Milestones
   url: https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Reaches-Major-Digital-Milestones/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Wells Fargo Names Faraz Shafiq as Head of AI Products ...
   url: https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Names-Faraz-Shafiq-as-Head-of-AI-Products-and-Solutions/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Wells Fargo, BNP Paribas bolster AI leadership
   url: https://www.bankingdive.com/news/wells-fargo-ai-faraz-shafiq-saul-van-beurden-bnp-paribas/810717/
 random_paper: 1
@@ -308,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

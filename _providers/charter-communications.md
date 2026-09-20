@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -193,19 +193,19 @@ plans:
   plan_count: 2
   slug: charter-communications-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: SPECTRUM BUSINESS AND RINGCENTRAL EXPAND ...
   url: https://www.prnewswire.com/news-releases/spectrum-business-and-ringcentral-expand-partnership-with-ai-contact-center-and-conversation-intelligence-to-transform-customer-experiences-302711074.html
-- date: '2026-05-25'
+- date: ''
   title: Charter Announces Strategic Collaboration With AWS
   url: https://corporate.charter.com/newsroom/charter-strategic-collaboration-with-amazon-web-services
-- date: '2026-05-25'
+- date: ''
   title: Charter Communications Launches Spectrum Voice ID ...
   url: https://corporate.charter.com/newsroom/charter-communications-launches-spectrum-voice-id-accelerates-ai-use-to-enhance-customer-experience
-- date: '2026-05-25'
+- date: ''
   title: Spectrum Reach Introduces AI Ad Platform with Waymark
   url: https://corporate.charter.com/newsroom/spectrum-reach-introduces-ai-ad-platform-with-waymark
-- date: '2026-05-25'
+- date: ''
   title: 'AI Inside: Artificial Intelligence for Network and Customer ...'
   url: https://techexpo.scte.org/session/ai-inside-artificial-intelligence-for-network-and-customer-experience-innovation/
 random_paper: 15
@@ -257,7 +257,7 @@ score:
     regime_id: telecommunications
     score: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

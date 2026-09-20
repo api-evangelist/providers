@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -149,19 +149,19 @@ plans:
   plan_count: 0
   slug: eastman-kodak-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.kodak.com/en/company/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: Kodak posts Q1 2026 revenue of $265 million | KODK 8-K ...
   url: https://www.stocktitan.net/sec-filings/KODK/8-k-eastman-kodak-co-reports-material-event-b02bd4b6ee83.html
-- date: '2026-05-25'
+- date: ''
   title: Kodak Reports Fourth-Quarter and Full-Year 2025 ...
   url: https://www.businesswire.com/news/home/20260312377142/en/Kodak-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results
-- date: '2026-05-25'
+- date: ''
   title: Kodak Reports Second-Quarter 2025 Financial Results
   url: https://www.kodak.com/en/company/press-release/q2-2025-financial-results/
-- date: '2026-05-25'
+- date: ''
   title: Kodak press-release
   url: https://www.silverfast.com/show/kodak-press-release/de.html
 random_paper: 14
@@ -191,7 +191,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

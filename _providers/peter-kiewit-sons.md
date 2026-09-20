@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,30 +75,30 @@ nav: Providers
 network: true
 overview: Peter Kiewit Sons' is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Construction, and Engineering.
 press:
-- date: '2026-05-25'
-  title: NWMO chooses vendors for Canadian repository
-  url: https://www.ans.org/news/2025-05-15/article-7027/nwmo-chooses-vendors-for-canadian-repository/
-- date: '2026-05-25'
-  title: Peter Kiewit Sons to Build National Fiber Optic Network
-  url: https://www.nytimes.com/1998/01/21/business/peter-kiewit-sons-to-build-national-fiber-optic-network.html
-- date: '2026-05-25'
-  title: Kiewit Corporation Leaders, Founders, and Executives
-  url: https://www.executivegov.com/articles/kiewit-corporation-leaders-founders-and-executives-who-are-they
-- date: '2026-05-25'
-  title: Peter Kiewit Sons ULC is designing and constructing ...
-  url: https://www.linkedin.com/posts/kiewit_peter-kiewit-sons-ulc-is-designing-and-constructing-activity-6504092423055032320-XJjZ
-- date: '2026-05-25'
-  title: Former Kiewit CEO remembered for philanthropic efforts
-  url: https://canada.constructconnect.com/joc/news/usa/2021/09/former-kiewit-ceo-remembered-for-philanthropic-efforts
-- date: '2026-04-27'
+- date: ''
+  title: Kiewit Named One of Canada’s Best Workplaces for 16th Consecutive Year
+  url: https://www.kiewit.com/newsroom/kiewit-named-one-of-canadas-best-workplaces-for-16th-consecutive-year/
+- date: ''
   title: 'Time Capsule: Record-Breaking Bridges'
   url: https://www.kiewit.com/newsroom/time-capsule-record-breaking-bridges/
-- date: '2026-04-27'
+- date: ''
+  title: NWMO chooses vendors for Canadian repository
+  url: https://www.ans.org/news/2025-05-15/article-7027/nwmo-chooses-vendors-for-canadian-repository/
+- date: ''
   title: Kiewit’s 85 Years in Canada
   url: https://www.kiewit.com/newsroom/kiewits-85-years-in-canada/
-- date: '2026-04-27'
-  title: Protecting What Lies Below
-  url: https://www.kiewit.com/newsroom/protecting-what-lies-below/
+- date: ''
+  title: Peter Kiewit Sons to Build National Fiber Optic Network
+  url: https://www.nytimes.com/1998/01/21/business/peter-kiewit-sons-to-build-national-fiber-optic-network.html
+- date: ''
+  title: Austin Transit Partnership Selects Contractor to Deliver  Operations and Maintenance Facility
+  url: https://www.kiewit.com/newsroom/austin-transit-partnership-selects-contractor-to-deliver-operations-and-maintenance-facility/
+- date: ''
+  title: NNSA Announces Approval to Begin Full Construction of SRS Specialized Training Facility for Plutonium Pit Production
+  url: https://www.kiewit.com/newsroom/nnsa-announces-approval-to-begin-full-construction-of-srs-specialized-training-facility-for-plutonium-pit-production/
+- date: ''
+  title: Oglethorpe Power Selects Kiewit Subsidiary for New Monroe County Combined-Cycle Plant
+  url: https://www.kiewit.com/newsroom/oglethorpe-power-selects-kiewit-subsidiary-the-industrial-company-tic-as-epc-partner-for-new-monroe-county-combined-cycle-plant/
 random_paper: 0
 score:
   band: minimal
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

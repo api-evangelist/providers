@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,19 +81,19 @@ overview: 'Panera Bread is profiled on the [APIs.io](https://apis.io/) network. 
 
   Panera Bread''s developer surface includes authentication and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Panera Tests New AI Technology for Bakery-Cafe Drive- ...
   url: https://www.panerabread.com/en-us/press/press-room/panera-tests-new-ai-technology.html
-- date: '2026-05-25'
+- date: ''
   title: A Quick Dive into the Current State of Drive-Thru Solutions
   url: https://partech.com/2023/03/14/drive-thru-technology-is-evolving-as-we-know-it-a-quick-dive-into-the-current-state-of-drive-thru-solutions/
-- date: '2026-05-25'
+- date: ''
   title: Panera Bread News & Media
   url: https://www.kioskmarketplace.com/companies/panera-bread/media/
-- date: '2026-05-25'
+- date: ''
   title: Panera pilots talking restaurant bot to enhance guest ...
   url: https://www.bakeryandsnacks.com/Article/2022/08/30/Panera-pilots-talking-restaurant-bot-to-enhance-guest-experience-in-drive-thru-bakery-cafes/
-- date: '2026-05-25'
+- date: ''
   title: Panera tests automated coffee brewing system
   url: https://www.facebook.com/groups/334753240947835/posts/653552035734619/
 random_paper: 20
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

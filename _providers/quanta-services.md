@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Quanta Services is profiled on the [APIs.io](https://apis.io/) networ
 
   Quanta Services'' developer surface includes product news and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Quanta Services to Host & Webcast its 2026 Investor Day
   url: https://www.prnewswire.com/news-releases/quanta-services-to-host--webcast-its-2026-investor-day-302707096.html
-- date: '2026-05-25'
+- date: ''
   title: Big Tech Is on an AI Spending Spree. Quanta Services ...
   url: https://www.barrons.com/articles/quanta-services-ai-spending-raise-outlook-e81cd5ec
-- date: '2026-05-25'
+- date: ''
   title: Quanta Services was proud to take part in the Powering AI
   url: https://www.facebook.com/quantaservicesinc/posts/quanta-services-was-proud-to-take-part-in-the-powering-ai-global-leadership-summ/1876006149845436/
-- date: '2026-05-25'
+- date: ''
   title: Quanta Services, Inc. (PWR) Positioned for AI Infrastructure ...
   url: https://finance.yahoo.com/news/quanta-services-inc-pwr-positioned-151614401.html
-- date: '2026-05-25'
+- date: ''
   title: 'Stock Of The Day: Quanta Services Forges New Buy Point'
   url: https://www.investors.com/research/ibd-stock-of-the-day/quanta-services-stock-buy-point/
 random_paper: 1
@@ -116,7 +116,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -76,19 +76,19 @@ plans:
   plan_count: 1
   slug: moog-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Moog Now Accepting Orders for Software Development ...
   url: https://spacenews.com/moog-now-accepting-orders-for-software-development-units-for-new-high-speed-space-computers/
-- date: '2026-05-25'
+- date: ''
   title: Marquis Who's Who Recognizes Guillaume J. Moog, PhD ...
   url: https://www.24-7pressrelease.com/press-release/509273/marquis-whos-who-recognizes-guillaume-j-moog-phd-for-pioneering-contributions-in-data-science-and-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Moog Inc. Announces Acquisition of Data Collection Limited
   url: https://www.linkedin.com/posts/moogaircraft_moog-inc-announces-acquisition-of-data-collection-activity-7127648510010617857--mOY
-- date: '2026-05-25'
+- date: ''
   title: Moog and Unibap AB to collaborate on Artificial ...
   url: https://www.moog.com/news/operating-group-news/2019/Moog-UnibapAB-Collaboration.html
-- date: '2026-05-25'
+- date: ''
   title: Moog to Share Innovations in Advanced Spacecraft ...
   url: https://www.moog.com/news/operating-group-news/2025/moog-advanced-space-computing-at-satellite-2025-conference.html
 random_paper: 16
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

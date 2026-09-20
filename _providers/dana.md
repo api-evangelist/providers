@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -238,19 +238,19 @@ plans:
   plan_count: 1
   slug: dana-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Dana named inaugural winner of the EY/Microsoft Digital ...
   url: https://www.prnewswire.com/news-releases/dana-named-inaugural-winner-of-the-eymicrosoft-digital-innovation-award-300251296.html
-- date: '2026-05-25'
+- date: ''
   title: Dana Holding Corp. 'BB' Corporate Credit Rating A
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/1170016
-- date: '2026-05-25'
+- date: ''
   title: 'Dana Holding Corporation: Optimizing Products and Processes ...'
   url: https://www.hpcwire.com/aiwire/2011/06/09/dana_holding_corporation_optimizing_products_and_processes_with_hpc/
-- date: '2026-05-25'
+- date: ''
   title: Dana Holding Corporation News and Press Releases
   url: https://www.prnewswire.com/news/dana-holding-corporation/?page=2
-- date: '2026-05-25'
+- date: ''
   title: Dana and Chrysler relations fester as costs rise
   url: https://www.autonews.com/article/20080807/OEM02/308079998/dana-and-chrysler-relations-fester-as-costs-rise/
 random_paper: 8
@@ -313,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'KAR Auction Services (Historical) is profiled on the [APIs.io](https:
 
   KAR Auction Services (Historical)''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: TradeRev Unveils 'H' — Artificial Intelligence to Enhance the Digital ...
   url: https://corporate.openlane.com/traderev-unveils-h-artificial-intelligence-to-enhance-the-digital-auction-experience/
-- date: '2026-05-25'
+- date: ''
   title: Data science, AI part of 'reimagined' OPENLANE
   url: https://www.autoremarketing.com/ar/technology/data-science-ai-part-reimagined-openlane/
-- date: '2026-05-25'
+- date: ''
   title: KAR Global Announces Strategic Investment in AI ...
   url: https://www.prnewswire.com/news-releases/kar-global-announces-strategic-investment-in-ai-powered-vehicle-inspections-technology-301247753.html
-- date: '2026-05-25'
+- date: ''
   title: KAR Global Announces Strategic Investment in AI-Powered ...
   url: https://ir.corporate.openlane.com/investor-relations/investor-news/press-release-details/2021/KAR-Global-Announces-Strategic-Investment-in-AI-Powered-Vehicle-Inspections-Technology/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 'PRESS RELEASE: Simplifying car remarketing through AI'
   url: https://cms.openlane.eu/en/blogs/blog/2023/02/06/press-release-simplifying-car-remarketing-through-ai
 random_paper: 7
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

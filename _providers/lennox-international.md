@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Community-maintained, reverse-engineered Python library for communicating with Lennox S30, S40, E30, and M30 climate controls via the Lennox cloud or local LAN. Powers the popular Home Assistant integ
@@ -93,19 +93,19 @@ plans:
   plan_count: 3
   slug: lennox-international-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Lennox Reaffirms 2026 Guidance and Announces 2030 ...
   url: https://investor.lennox.com/news-releases/news-release-details/lennox-reaffirms-2026-guidance-and-announces-2030-long-term
-- date: '2026-05-25'
+- date: ''
   title: Lennox Invests in AI Agents to Enhance Technician ...
   url: https://www.prnewswire.com/news-releases/lennox-invests-in-ai-agents-to-enhance-technician-support-and-customer-experience-302552797.html
-- date: '2026-05-25'
+- date: ''
   title: Lennox Reports First Quarter Results
   url: https://investor.lennox.com/news-releases/news-release-details/lennox-reports-first-quarter-results
-- date: '2026-05-25'
+- date: ''
   title: Lennox Reports Second Quarter Results
   url: https://investor.lennox.com/news-releases/news-release-details/lennox-reports-second-quarter-results
-- date: '2026-05-25'
+- date: ''
   title: Lennox International Inc. Profile
   url: https://www.bccresearch.com/company-index/profile/lennox-international-inc?srsltid=AfmBOorRBARnkkRZj2UsZOk6uoXXDrepIdMjx4-APHTr8IL-wATR43Ah
 random_paper: 15
@@ -133,7 +133,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

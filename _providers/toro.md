@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -246,19 +246,19 @@ plans:
   plan_count: 4
   slug: toro-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tornado Infrastructure Equipment Securityholders Approve ...
   url: https://www.palmbeachdailynews.com/press-release/story/14829/tornado-infrastructure-equipment-securityholders-approve-arrangement-with-the-toro-company/
-- date: '2026-05-25'
+- date: ''
   title: Guillermo del Toro said, “I would rather die than use AI.”
   url: https://www.linkedin.com/posts/rosacamero_guillermo-del-toro-said-i-would-rather-activity-7393552851609731072-WI3A
-- date: '2026-05-25'
+- date: ''
   title: Autonomous Solutions
   url: https://www.thetorocompany.com/autonomous-solutions
-- date: '2026-05-25'
+- date: ''
   title: Guillermo del Toro Denounces AI While Accepting ' ...
   url: https://www.reddit.com/r/movies/comments/1pbvfzr/guillermo_del_toro_denounces_ai_while_accepting/
-- date: '2026-05-25'
+- date: ''
   title: tbh me anytime del Toro speaks, but the anti-ai stance is * ...
   url: https://www.facebook.com/groups/1404116417142065/posts/1817161845837518/
 random_paper: 12
@@ -315,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

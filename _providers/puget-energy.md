@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Puget Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utility, Natural Gas, and Pacific Northwest.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Newsroom
   url: https://perkinscoie.com/newsroom
-- date: '2026-05-25'
+- date: ''
   title: Puget Energy seeks $1.5B multiyear rate plan for power ...
   url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/03/puget-energy-seeks-1-5-b-multiyear-rate-plan-for-power-costs-clean-energy
-- date: '2026-05-25'
+- date: ''
   title: Annual Report for Fiscal Year Ending December 31, 2025 ...
   url: https://www.publicnow.com/view/1EEC60760BF05D128FB02C96D63BD64936E0D1CA
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/81100/000108539220000003/psd-20191231.htm
-- date: '2026-05-25'
+- date: ''
   title: SUSTAINABILITY REPORT
   url: https://www.pse.com/-/media/PDFs/Sustainability/2025_PSERY24SustainabilityReport.pdf
 random_paper: 12
@@ -110,7 +110,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,19 +68,19 @@ nav: Providers
 network: true
 overview: Hanesbrands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Consumer Goods, Retail, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Infosys and HanesBrands Inc. Collaborate to Unlock Hyper ...
   url: https://www.prnewswire.com/news-releases/infosys-and-hanesbrands-inc-collaborate-to-unlock-hyper-productivity-and-ai-driven-efficiency-302553903.html
-- date: '2026-05-25'
+- date: ''
   title: HanesBrands Joins Gildan, Creating Global Apparel Leader
   url: https://www.linkedin.com/posts/hanesbrands-inc-_gildan-makingapparelbetter-activity-7401289154594189312-9jSi
-- date: '2026-05-25'
+- date: ''
   title: Infosys
   url: https://www.facebook.com/Infosys/posts/infosys-announced-a-strategic-partnership-with-hanesbrands-inc-a-global-leader-i/1206304598198397/
-- date: '2026-05-25'
+- date: ''
   title: Gildan and HanesBrands Agree to Combine To Create a ...
   url: https://gildancorp.com/media/uploads/events/event/press_release/bbgildan-hanesbrands_pr_20250812_final.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'Hanesbrands & Wipro: Advancing Digital Transformation ...'
   url: https://www.wipro.com/newsroom/press-releases/2024/hanesbrands-inc-strengthens-wipro-partnership-to-accelerate-digital-transformation/
 random_paper: 17
@@ -104,7 +104,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

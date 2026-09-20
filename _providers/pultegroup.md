@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'PulteGroup is profiled on the [APIs.io](https://apis.io/) network. Ta
 
   PulteGroup''s developer surface includes product news and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: PulteGroup Pilots Innovative New Construction Process
   url: https://www.pultegroup.com/investor-relations/news/news-details/2025/PulteGroup-Pilots-Innovative-New-Construction-Process/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: PulteGroup, Inc. Reports First Quarter 2025 Financial Results
   url: https://pultegroupinc.com/investor-relations/news/news-details/2025/PulteGroup-Inc--Reports-First-Quarter-2025-Financial-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 𝗣𝘂𝗹𝘁𝗲𝗚𝗿𝗼𝘂𝗽 just turned new homes into 𝗱𝗮𝘁𝗮 ...
   url: https://www.instagram.com/p/DX9XNhQk0qt/
-- date: '2026-05-25'
+- date: ''
   title: Nvidia and PulteGroup are helping this startup put mini ...
   url: https://www.reddit.com/r/technology/comments/1t5ndtw/nvidia_and_pultegroup_are_helping_this_startup/
-- date: '2026-05-25'
+- date: ''
   title: 'Partners in Innovation: Whirlpool Corporation Secures 4- ...'
   url: https://www.prnewswire.com/news-releases/partners-in-innovation-whirlpool-corporation-secures-4-year-renewal-with-pultegroup-300465695.html
 random_paper: 11
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

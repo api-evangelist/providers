@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Publix Super Markets is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Grocery, Supermarket, Retail, and Pharmacy.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Alter Eco Expands Distribution with Publix Grocery Stores
   url: https://www.vvdailypress.com/press-release/story/47559/alter-eco-expands-distribution-with-publix-grocery-stores/
-- date: '2026-05-25'
+- date: ''
   title: Publix case | Marketing homework help
   url: https://www.sweetstudy.com/files/publix.doc
-- date: '2026-05-25'
+- date: ''
   title: Instacart to enable 15-minute Publix grocery delivery, ...
   url: https://www.theledger.com/story/business/2022/03/25/publix-instacart-online-shopping-2-markets-15-minute-fast-grocery-delivery/7150973001/
-- date: '2026-05-25'
+- date: ''
   title: Expanded OTC and Grocery Access via BAS
   url: https://nationsbenefits.com/press-releases/nationsbenefits-publix-point-of-sale-integration
-- date: '2026-05-25'
+- date: ''
   title: What Can Other Grocery Retailers Learn From Publix's ...
   url: https://retailwire.com/discussion/publix-success/
 random_paper: 0
@@ -107,7 +107,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

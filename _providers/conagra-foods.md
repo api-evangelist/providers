@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,19 +94,19 @@ nav: Providers
 network: true
 overview: ConAgra Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Alias, Branded Foods, CPG, Consumer Packaged Goods, and Historical.
 press:
-- date: '2026-05-25'
+- date: ''
   title: News Releases
   url: https://www.conagrabrands.com/news-room?item=g7rqBLVLuv81UAmrh20MpxJ7whd2MIUrZeqRYSE1VVd0o0Mz97ZvF3kIoFPSkQSwCdLW/Q7F9G0BAX%20xuSO0vw%3D%3D&news-release-category=All&news-release-keyword=&news-release-year=All&t=2&page=6
-- date: '2026-05-25'
+- date: ''
   title: Company Leadership
   url: https://www.conagrabrands.com/our-company/corporate-leadership
-- date: '2026-05-25'
+- date: ''
   title: News Releases
   url: https://www.conagrabrands.com/news-room?c=202310&p=sustainable_energy&page=6
-- date: '2026-05-25'
+- date: ''
   title: Conagra Brands Strategic Audit - DigitalCommons@UNL
   url: https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1855&context=honorstheses
-- date: '2026-05-25'
+- date: ''
   title: Conagra Brands Enhances its Artificial Intelligence Capabilities ...
   url: https://www.stlamerican.com/online-features/press-releases/conagra-brands-enhances-its-artificial-intelligence-capabilities-with-human-centered-approach/
 random_paper: 17
@@ -130,7 +130,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 6.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 4
 apis:
 - description: TIAA's retirement plan services for individual participants, covering 403(b), 457(b), 401(k), and IRA accounts. Products include TIAA Traditional fixed annuity, CREF variable annuities (stock, bond, m
@@ -141,19 +141,19 @@ plans:
   plan_count: 1
   slug: tiaa-cref-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: TIAA Teams Up with Google Cloud to Enhance Client ...
   url: https://www.tiaa.org/public/about-tiaa/news-press/news/2022/09-07
-- date: '2026-05-25'
+- date: ''
   title: TIAA Launches TIAA gAIt to Delight Clients and Deliver ...
   url: https://www.tiaa.org/public/about-tiaa/news-press/news/2024/07-17
-- date: '2026-05-25'
+- date: ''
   title: SEC Announces $97 Million Enforcement Action Against ...
   url: https://www.sec.gov/newsroom/press-releases/2021-123
-- date: '2026-05-25'
+- date: ''
   title: TIAA's Digital, Data, And AI Transformation
   url: https://www.forbes.com/sites/randybean/2023/06/11/tackling-retirement-inequality-tiaas-digital-data-and-ai-transformation/
-- date: '2026-05-25'
+- date: ''
   title: Participation in TIAA's Lifetime Income Solutions ...
   url: https://www.prnewswire.com/news-releases/participation-in-tiaas-lifetime-income-solutions-accelerates-as-plan-sponsors-embrace-annuity-embedded-defaults-302730672.html
 random_paper: 18
@@ -198,7 +198,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

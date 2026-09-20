@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -114,19 +114,19 @@ overview: 'Valspar is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Valspar''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: PGA Tour in significant Valspar, Dream Finders Homes ...
   url: https://www.sportcal.com/sponsorship/pga-tour-in-significant-valspar-dream-finders-homes-renewals/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?utm_adgroup=Bills_HARP_Dupe_Mobile&utm_term=tbillqtrssm.jpg_1be794_Bills_HARP_Dupe_Mobile_date&vt_session_id=BE3450E055D711E9B2D9BC764E10CDDC&page=441
-- date: '2026-05-25'
+- date: ''
   title: Sherwin-Williams Completes Acquisition Of Valspar ...
   url: https://www.prnewswire.com/news-releases/sherwin-williams-completes-acquisition-of-valspar-creates-the-global-leader-in-paint-and-coatings-300467108.html
-- date: '2026-05-25'
+- date: ''
   title: Valspar® Announces "Warm Eucalyptus" as 2026 Color of ...
   url: https://www.prnewswire.com/news-releases/valspar-announces-warm-eucalyptus-as-2026-color-of-the-year-302522300.html
-- date: '2026-05-25'
+- date: ''
   title: Sherwin-Williams paint company to buy Valspar for $9.3 ...
   url: https://www.reuters.com/article/business/sherwin-williams-paint-company-to-buy-valspar-for-93-billion-idUSKCN0WM0W1/
 random_paper: 13
@@ -161,7 +161,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,19 +121,19 @@ plans:
   plan_count: 0
   slug: equity-residential-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Equity Residential saw AI, automation bump in 2025
   url: https://www.multifamilydive.com/news/equity-residential-2025-earnings-q4/811880/
-- date: '2026-05-25'
+- date: ''
   title: Big apartment landlords lean in to AI and proptechs as ...
   url: https://funnelleasing.com/businessinsider_ai_proptech_adds_business_flexibility/
-- date: '2026-05-25'
+- date: ''
   title: 'AI in Residential Real Estate: Efficiency Gains and Equity ...'
   url: https://papers.ssrn.com/sol3/Delivery.cfm/6784680.pdf?abstractid=6784680&mirid=1
-- date: '2026-05-25'
+- date: ''
   title: Dirk Wakeham's Post
   url: https://www.linkedin.com/posts/dirkwakeham_avalonbay-communities-and-equity-residential-activity-7463285335716704256-Sf7l
-- date: '2026-05-25'
+- date: ''
   title: eqr-def14a_20200625.htm
   url: https://www.sec.gov/Archives/edgar/data/906107/000156459020017733/eqr-def14a_20200625.htm
 random_paper: 20
@@ -161,7 +161,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

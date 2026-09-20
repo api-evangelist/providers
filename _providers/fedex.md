@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -166,19 +166,19 @@ plans:
   plan_count: 1
   slug: fedex-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: FedEx to Offer Access to AI-Powered Post-Purchase ...
   url: https://newsroom.fedex.com/newsroom/global-english/fedex-to-offer-access-to-ai-powered-post-purchase-solutions-for-enterprises
-- date: '2026-05-25'
+- date: ''
   title: FedEx and Cisco Transform Business Through AI Workflows
   url: https://www.virtasant.com/ai-today/unlocking-potential-ai-workflows-at-fedex-cisco
-- date: '2026-05-25'
+- date: ''
   title: FedEx Freight Adds AI Tools to Boost Win Percentage - TT
   url: https://www.ttnews.com/articles/fedex-freight-ai-tools-2026
-- date: '2026-05-25'
+- date: ''
   title: Technology and Innovation Policy Perspectives
   url: https://www.fedex.com/en-us/about/policy/technology-innovation.html
-- date: '2026-05-25'
+- date: ''
   title: FedEx Announces Expansion of FedEx Fulfillment With ...
   url: https://newsroom.fedex.com/newsroom/global-english/fedex-announces-expansion-of-fedex-fulfillment-with-nimble-alliance
 random_paper: 18
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

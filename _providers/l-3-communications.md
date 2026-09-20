@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,28 +82,28 @@ overview: 'L-3 Communications is profiled on the [APIs.io](https://apis.io/) net
 
   L-3 Communications'' developer surface includes engineering blog and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
+  title: L3Harris Announces Quarterly Dividend
+  url: https://www.l3harris.com/newsroom/press-release/2026/04/l3harris-announces-quarterly-dividend
+- date: ''
+  title: L3Harris to Boost Polish Navy Combat Power with Advanced Ship System
+  url: https://www.l3harris.com/newsroom/press-release/2026/05/l3harris-boost-polish-navy-combat-power-advanced-ship-system
+- date: ''
+  title: L3Harris Closes $1B Investment from Department of War  in Missile Solutions Business
+  url: https://www.l3harris.com/newsroom/press-release/2026/04/l3harris-closes-1b-investment-department-war-missile-solutions
+- date: ''
   title: Enabling Persistent Arctic Surveillance
   url: https://www.l3harris.com/newsroom/editorial/2026/05/enabling-persistent-arctic-surveillance
-- date: '2026-05-25'
+- date: ''
   title: L3 Technologies 2026 Company Profile
   url: https://pitchbook.com/profiles/company/41238-73
-- date: '2026-05-25'
-  title: Peraton's Steve Schorer Wins 2026 Wash100 Award for ...
-  url: https://www.peraton.com/news/peratons-steve-schorer-wins-2026-wash100-award-for-driving-transformative-technology-efforts/
-- date: '2026-05-25'
-  title: Search | NYU Tandon School of Engineering
-  url: https://engineering.nyu.edu/search?search=fc%20coins%20xbox%20free%20Coinsnight.com%20FC%2026%20coins%2030%25%20OFF%20code%3A%20FC2026.%20Excellent%20service%20no%20problems%20encountered%20ever.aNg1&sitewide%5B0%5D=content_type%3Aarticle&sitewide%5B1%5D=content_type%3Aevent&sitewide%5B2%5D=content_type%3Alab&sitewide%5B3%5D=content_type%3Apeople&sitewide%5B4%5D=content_type%3Aprogram&sitewide%5B5%5D=content_type%3Aresearch_group&sitewide%5B6%5D=content_type%3Aprofile&page=28
-- date: '2026-05-25'
-  title: L3Harris Technologies has secured its largest full-rate ...
-  url: https://www.facebook.com/ukdefencejournal/posts/l3harris-technologies-has-secured-its-largest-full-rate-production-contract-for-/1326371279536132/
-- date: '2026-05-25'
-  title: Lockheed Martin Adds L-3 Communications to Its Aerial ...
-  url: https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-adds-l-3-communications-its-aerial-common-sensor
-- date: '2026-05-21'
-  title: 'From Payload to Platform: Autonomous ISR Where It Actually Matters'
-  url: https://www.l3harris.com/newsroom/editorial/2026/05/payload-platform-autonomous-isr-where-it-actually-matters
-- date: '2026-05-20'
+- date: ''
+  title: NASA Receives L3Harris’ Modified Next-Generation Research Aircraft
+  url: https://www.l3harris.com/newsroom/press-release/2026/04/nasa-receives-l3harris-modified-next-generation-research-aircraft
+- date: ''
+  title: To Deliver for the Warfighter, Acquisition Reform Must Provide a Level Playing Field
+  url: https://www.l3harris.com/newsroom/editorial/2026/05/deliver-warfighter-acquisition-reform-must-provide-level-playing-field
+- date: ''
   title: VAMPIRE Confirms Integrated Capability During Live Exercises
   url: https://www.l3harris.com/newsroom/editorial/2026/05/vampire-confirms-integrated-capability-during-live-exercises
 random_paper: 2
@@ -133,7 +133,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

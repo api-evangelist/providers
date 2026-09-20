@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,19 +57,19 @@ nav: Providers
 network: true
 overview: Edison International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: EEI Announces 2025 Domestic Edison Award Winner
   url: https://www.eei.org/en/news/news/all/eei-announces-2025-domestic-edison-award-winner
-- date: '2026-05-25'
+- date: ''
   title: 'Edison International: Home'
   url: https://www.edison.com/
-- date: '2026-05-25'
+- date: ''
   title: Using AI, Machine Learning to Track Decades-Old Power Poles
   url: https://energized.edison.com/stories/using-ai-machine-learning-to-track-decades-old-power-poles
-- date: '2026-05-25'
+- date: ''
   title: ThinkLabs AI Closes $28 M Series A Led by Energy Impact
   url: https://www.globenewswire.com/news-release/2026/03/31/3265239/0/en/thinklabs-ai-closes-28-m-series-a-led-by-energy-impact-partners-backed-by-nventures-and-edison-international.html
-- date: '2026-05-25'
+- date: ''
   title: '#eei2025 | Pedro Pizarro | 33 comments'
   url: https://www.linkedin.com/posts/pedro-pizarro-087a5287_eei2025-activity-7335781073370460160-1oAC
 random_paper: 19
@@ -99,7 +99,7 @@ score:
       reason: never_enriched
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

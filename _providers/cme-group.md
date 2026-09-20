@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 7
 apis:
 - description: A set of JSON RESTful web service APIs that provide access to product and instrument reference data for CME Group, BrokerTec, EBS, hosted partners, and CME Group-cleared markets. Supports OAuth-secure
@@ -219,19 +219,19 @@ plans:
   plan_count: 3
   slug: cme-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Market data policy education center
   url: https://www.cmegroup.com/market-data/license-data/market-data-policy-education-center.html
-- date: '2026-05-25'
+- date: ''
   title: 'CME Group''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/cme-group-ai-strategy-analysis-of-dominance-in-financial-ai-commodities/
-- date: '2026-05-25'
+- date: ''
   title: CME Group and Silicon Data Launch Compute Futures ...
   url: https://www.linkedin.com/posts/carmenrli_today-were-announcing-that-cme-group-and-activity-7460040679461679106-zsyL
-- date: '2026-05-25'
+- date: ''
   title: CME Group and Google Cloud Announce New Chicago ...
   url: https://www.cmegroup.com/media-room/press-releases/2024/6/26/cme_group_and_googlecloudannouncenewchicagoareaprivatecloudregio.html
-- date: '2026-05-25'
+- date: ''
   title: CME Group and Silicon Data Partner to Launch First ...
   url: https://www.prnewswire.com/news-releases/cme-group-and-silicon-data-partner-to-launch-first-compute-futures-302769215.html
 random_paper: 9
@@ -272,7 +272,7 @@ score:
     regime_id: securities_market_data
     score: 91.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

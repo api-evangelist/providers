@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -114,19 +114,19 @@ overview: 'Valmont Industries is profiled on the [APIs.io](https://apis.io/) net
 
   Valmont Industries'' developer surface includes developer portal, engineering blog, and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Valmont to Acquire Prospera Technologies, Global Leader ...
   url: https://www.businesswire.com/news/home/20210505005364/en/Valmont-to-Acquire-Prospera-Technologies-Global-Leader-in-Agricultural-Artificial-Intelligence-Machine-Learning
-- date: '2026-05-25'
+- date: ''
   title: 0001104659-21-063111 | 8-K | iXBRL Viewer | Valmont Industries INC
   url: https://investors.valmont.com/node/9336/ixbrl-viewer
-- date: '2026-05-25'
+- date: ''
   title: 1 Stock Is Powering the AI Boom and the Next Farm ...
   url: https://finance.yahoo.com/markets/stocks/articles/1-stock-powering-ai-boom-133000573.html
-- date: '2026-05-25'
+- date: ''
   title: Valmont Industries, Inc.'s Post
   url: https://www.linkedin.com/posts/valmontindustriesinc_valmont-to-acquire-prospera-technologies-activity-6795799294902341632-5fye
-- date: '2026-05-25'
+- date: ''
   title: Valmont and Prospera Technologies Announce Roadmap ...
   url: https://www.prnewswire.com/news-releases/valmont-and-prospera-technologies-announce-roadmap-to-autonomous-crop-management-technology-through-global-partnership-300797955.html
 random_paper: 20
@@ -161,7 +161,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

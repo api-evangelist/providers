@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -247,19 +247,19 @@ plans:
   plan_count: 3
   slug: rockwell-collins-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pradeep Ramalingam - Rockwell Collins
   url: https://sg.linkedin.com/in/pradeep-ramalingam-43246965
-- date: '2026-05-25'
+- date: ''
   title: United Technologies acquires Rockwell Collins for $30 ...
   url: https://www.therobotreport.com/united-technologies-acquires-rockwell-collins-30-billion/
-- date: '2026-05-25'
+- date: ''
   title: Digital Careers | Collins Aerospace
   url: https://www.rtx.com/collinsaerospace/careers/digital-careers
-- date: '2026-05-25'
+- date: ''
   title: United Technologies Announces Intention to Separate Into ...
   url: https://www.prnewswire.com/news-releases/united-technologies-announces-intention-to-separate-into-three-independent-companies-completes-acquisition-of-rockwell-collins-300755507.html
-- date: '2026-05-25'
+- date: ''
   title: Rockwell Collins Airport Solutions Enhance Operations at ...
   url: https://www.airport-technology.com/contractors/consult/arinc-airports/pressreleases/terminal-operations-noi-bai/
 random_paper: 18
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

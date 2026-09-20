@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 6
 common:
@@ -140,19 +140,19 @@ plans:
   plan_count: 0
   slug: hologic-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: New Data on Hologic's AI-Powered Mammography ...
   url: https://www.hologic.com/about/press-release/new-data-hologics-ai-powered-mammography-technology-be-presented-eusobi
-- date: '2026-05-25'
+- date: ''
   title: 'Hologic: AI-powered cervical cancer screening for all'
   url: https://www.slalom.com/us/en/customer-stories/using-ai-to-advance-cervical-cancer-screening-for-all
-- date: '2026-05-25'
+- date: ''
   title: New Clinical Evidence on Hologic's AI-Powered ...
   url: https://www.hologic.com/about/press-release/new-clinical-evidence-hologics-ai-powered-mammography-solutions-will-be
-- date: '2026-05-25'
+- date: ''
   title: New Evidence Backs Hologic's AI-Powered Mammography ...
   url: https://www.hologic.com/about/press-release/new-evidence-backs-hologics-ai-powered-mammography-technology-detecting
-- date: '2026-05-25'
+- date: ''
   title: Hologic's AI-Driven Breast Cancer Screening Technology ...
   url: https://www.hologic.com/about/press-release/hologics-ai-driven-breast-cancer-screening-technology-earns-medtech
 random_paper: 15
@@ -189,7 +189,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

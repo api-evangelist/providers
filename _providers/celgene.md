@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: Celgene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biopharmaceutical, Clinical Trials, Oncology, Pharma, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Celgene to use Exscientia's AI platform in effort ...
   url: https://firstwordpharma.com/story/4760717
-- date: '2026-05-25'
+- date: ''
   title: Exscientia announces multi-target, AI-driven drug ...
   url: https://www.businesswire.com/news/home/20210519005180/en/Exscientia-announces-multi-target-AI-driven-drug-discovery-collaboration-with-Bristol-Myers-Squibb
-- date: '2026-05-25'
+- date: ''
   title: Exscientia announces new AI pharma collaboration
   url: https://www.dundee.ac.uk/stories/exscientia-announces-new-ai-pharma-collaboration
-- date: '2026-05-25'
+- date: ''
   title: Celgene and Evotec's partner Exscientia enter 3-year AI ...
   url: https://www.evotec.com/news/celgene-and-evotecs-partner-exscientia-enter-3-year-ai-drug-discovery-collaboration-focused-on-accelerating-drug-discovery-in-oncology-and-autoimmunity
-- date: '2026-05-25'
+- date: ''
   title: Exscientia Raises US$26 Million in Series B Financing ...
   url: https://www.prnewswire.com/news-releases/exscientia-raises-us-26-million-in-series-b-financing-round-to-accelerate-scaling-as-the-leading-ai-drug-discovery-company-885022729.html
 random_paper: 19
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

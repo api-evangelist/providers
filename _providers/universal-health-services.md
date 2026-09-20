@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,19 +73,19 @@ overview: 'Universal Health Services is profiled on the [APIs.io](https://apis.i
 
   Universal Health Services'' developer surface includes engineering blog and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: UNIVERSAL HEALTH SERVICES, INC. ANNOUNCES ...
   url: https://www.prnewswire.com/news-releases/universal-health-services-inc-announces-financial-results-for-the-three-month-period-ended-march-31-2026-302754586.html
-- date: '2026-05-25'
+- date: ''
   title: Stories Archives - Page 32 of 153
   url: https://uhs.com/our-stories/page/32/
-- date: '2026-05-25'
+- date: ''
   title: Universal Health Services Launches Hippocratic AI's ...
   url: https://uhs.com/news/universal-health-services-launches-hippocratic-ais-generative-ai-healthcare-agents-to-assist-with-post-discharge-patient-engagement/
-- date: '2026-05-25'
+- date: ''
   title: Advancing Behavioral Health Outcomes Using Innovative ...
   url: https://uhs.com/news/advancing-behavioral-health-outcomes-using-innovative-artificial-intelligence-ai/
-- date: '2026-05-25'
+- date: ''
   title: UHS News Releases | UHS, King of Prussia, PA
   url: https://uhs.com/news-releases/
 random_paper: 21
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 6.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Sonoco Products is profiled on the [APIs.io](https://apis.io/) networ
 
   Sonoco Products'' developer surface includes developer portal and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sonoco Products Company - Financials - Quarterly Results
   url: https://investor.sonoco.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: SONOCO PRODUCTS CO Earnings Call Transcript FY25 Q4
   url: https://www.stockinsights.ai/us/SON/earnings-transcript/fy25-q4-1d13
-- date: '2026-05-25'
+- date: ''
   title: Sonoco reports 'strong productivity savings' in Q1 earnings
   url: https://www.wastetodaymagazine.com/news/sonoco-reports-productivity-savings-in-q1-earnings/
-- date: '2026-05-25'
+- date: ''
   title: Sonoco Products Co (SON) Stock Price, Trades & News
   url: https://www.gurufocus.com/stock/SON/summary
-- date: '2026-05-25'
+- date: ''
   title: Sonoco Reports First Quarter 2026 Results
   url: https://investor.sonoco.com/news/news-details/2026/Sonoco-Reports-First-Quarter-2026-Results/default.aspx
 random_paper: 2
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

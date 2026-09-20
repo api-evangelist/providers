@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Intuitive Surgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Robotic Surgery, Medical Devices, Healthcare, Surgery, and Da Vinci.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Future of Surgical Robotics | Da Vinci | Ion
   url: https://www.intuitive.com/en-us/about-us/newsroom/future-surgical-robotics
-- date: '2026-05-25'
+- date: ''
   title: Integrated Intelligence in Robotic Surgery | Newsroom
   url: https://www.intuitive.com/en-us/about-us/newsroom/integrated-intelligence
-- date: '2026-05-25'
+- date: ''
   title: 'Intuitive Surgical''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/intuitive-surgical-ai-strategy-analysis-of-dominance-in-surgical-ai/
-- date: '2026-05-25'
+- date: ''
   title: Intuitive expands AI and advanced imaging integration in ...
   url: https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-expands-ai-and-advanced-imaging-integration-ion
-- date: '2026-05-25'
+- date: ''
   title: Press Resources | Newsroom
   url: https://www.intuitive.com/en-us/about-us/newsroom/press-resources
 random_paper: 4
@@ -105,7 +105,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

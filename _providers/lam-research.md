@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,19 +66,19 @@ overview: 'Lam Research is profiled on the [APIs.io](https://apis.io/) network. 
 
   Lam Research''s developer surface includes engineering blog and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://newsroom.lamresearch.com/press-releases?o=90
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://investor.lamresearch.com/2023-04-10-Lam-Research-AI-Study-Identifies-Game-Changing-Development-Approach-for-Speeding-Up,-Slashing-Cost-of-Chip-Innovation
-- date: '2026-05-25'
+- date: ''
   title: Lam Research Announces Leadership Transitions to ...
   url: https://www.prnewswire.com/news-releases/lam-research-announces-leadership-transitions-to-increase-company-velocity-for-the-ai-era-302678154.html
-- date: '2026-05-25'
+- date: ''
   title: Lam Engineers vs. Artificial Intelligence
   url: https://newsroom.lamresearch.com/humans-vs-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: AI is only as powerful as the chips fueling it. Advanced ...
   url: https://www.facebook.com/LamResearchCorporation/posts/ai-is-only-as-powerful-as-the-chips-fueling-it-advanced-packaging-is-the-technol/1210743711094850/
 random_paper: 16
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,19 +60,19 @@ nav: Providers
 network: true
 overview: Marsh & McLennan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Insurance, Risk Management, Consulting, and Professional Services.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Search
   url: https://www.corporate.marsh.com/search.html
-- date: '2026-05-25'
+- date: ''
   title: 'AI in Insurance: Changing the Industry | MMA'
   url: https://www.marshmma.com/us/mma/ai-in-insurance.html
-- date: '2026-05-25'
+- date: ''
   title: Marsh McLennan launches AI tool
   url: https://www.captiveinternational.com/news/marsh-mclennan-launches-ai-tool
-- date: '2026-05-25'
+- date: ''
   title: Marsh Global
   url: https://www.facebook.com/MarshGlobal1/posts/new-release-today-marsh-announced-the-launch-of-risk-companion-the-next-iteratio/1420657280100474/
-- date: '2026-05-25'
+- date: ''
   title: 'Marsh & McLennan''s''s Glaser: Artificial Intelligence Should ...'
   url: https://www.ambest.com/v.asp?v=dglaser218
 random_paper: 20
@@ -102,7 +102,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

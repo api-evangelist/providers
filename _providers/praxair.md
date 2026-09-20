@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,19 +64,19 @@ nav: Providers
 network: true
 overview: Praxair is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial Gases, Manufacturing, Energy, Chemicals, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Linde, Praxair announce mega merger
   url: https://www.hmenews.com/article/linde-praxair-announce-mega-merger
-- date: '2026-05-25'
+- date: ''
   title: Linde-Praxair merger could boost Air Products' fortunes, ...
   url: https://www.mcall.com/2016/12/21/linde-praxair-merger-could-boost-air-products-fortunes-analysts-say/
-- date: '2026-05-25'
+- date: ''
   title: Open Markets Institute Reacts to FTC Approval of $80 ...
   url: https://www.openmarketsinstitute.org/publications/open-markets-institute-reacts-ftc-approval-80-billion-linde-praxair-merger
-- date: '2026-05-25'
+- date: ''
   title: Understanding Consumer Trends How the Acquisition of ...
   url: https://www.cognitivemarketresearch.com/blog/understanding-consumer-trends-how-the-acquisition-of-air-products-and-chemicals-by-linde-helped-shape-global-operations
-- date: '2026-05-25'
+- date: ''
   title: Linde, Praxair agree $73 billion merger to create global ...
   url: https://www.reuters.com/article/business/linde-praxair-agree-73-billion-merger-to-create-global-gases-leader-idUSKBN18S60X/
 random_paper: 11
@@ -106,7 +106,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

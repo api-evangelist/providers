@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'Antero Resources Corporation (NYSE: AR) files annual reports (10-K), quarterly reports (10-Q), current reports (8-K), proxy statements, and other regulatory disclosures with the U.S. Securities and Ex'
@@ -117,30 +117,30 @@ plans:
   plan_count: 1
   slug: antero-resources-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 10-K Filing
   url: https://www.anteroresources.com/investors/sec-filings/all-sec-filings/content/0001558370-24-001162/ar-20231231x10k.htm
-- date: '2026-05-25'
-  title: Why Antero Resources Corporation (AR) Is Skyrocketing ...
-  url: https://finance.yahoo.com/news/why-antero-resources-corporation-ar-112447343.html
-- date: '2026-05-25'
-  title: Antero Resources to acquire HG Energy assets for $2.8 ...
-  url: https://in.investing.com/news/company-news/antero-resources-to-acquire-hg-energy-assets-for-28-billion-93CH-5142178
-- date: '2026-05-25'
-  title: Antero Resources Announces First Quarter 2026 Financial ...
-  url: https://www.prnewswire.com/news-releases/antero-resources-announces-first-quarter-2026-financial-and-operating-results-302757804.html
-- date: '2026-05-25'
-  title: XBRL Viewer
-  url: https://www.sec.gov/ix?doc=/Archives/edgar/data/0001433270/000110465925042687/tm2513565d1_8k.htm
-- date: '2026-04-29'
+- date: ''
   title: Antero Resources Announces First Quarter 2026 Financial and Operating Results
   url: https://www.anteroresources.com/news-events/press-releases/detail/257/antero-resources-announces-first-quarter-2026-financial-and
-- date: '2026-04-15'
+- date: ''
+  title: Antero Resources and Antero Midstream Announce Michael N. Kennedy to Serve as Chief Executive Officer, President and Director
+  url: https://www.anteroresources.com/news-events/press-releases/detail/248/antero-resources-and-antero-midstream-announce-michael-n
+- date: ''
+  title: Why Antero Resources Corporation (AR) Is Skyrocketing ...
+  url: https://finance.yahoo.com/news/why-antero-resources-corporation-ar-112447343.html
+- date: ''
   title: Antero Resources Announces First Quarter 2026 Earnings Release Date and Conference Call
   url: https://www.anteroresources.com/news-events/press-releases/detail/256/antero-resources-announces-first-quarter-2026-earnings
-- date: '2026-02-11'
-  title: Antero Resources Announces Fourth Quarter 2025 Results and 2026 Guidance
-  url: https://www.anteroresources.com/news-events/press-releases/detail/255/antero-resources-announces-fourth-quarter-2025-results-and
+- date: ''
+  title: Antero Resources Announces Fourth Quarter 2025 Earnings Release Date and Conference Call
+  url: https://www.anteroresources.com/news-events/press-releases/detail/254/antero-resources-announces-fourth-quarter-2025-earnings
+- date: ''
+  title: Antero Resources to acquire HG Energy assets for $2.8 ...
+  url: https://in.investing.com/news/company-news/antero-resources-to-acquire-hg-energy-assets-for-28-billion-93CH-5142178
+- date: ''
+  title: Antero Resources Announces Third Quarter 2025 Financial and Operating Results
+  url: https://www.anteroresources.com/news-events/press-releases/detail/251/antero-resources-announces-third-quarter-2025-financial-and
 random_paper: 9
 rate_limits:
 - limit_count: 1
@@ -174,7 +174,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

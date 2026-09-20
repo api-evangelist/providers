@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Legg Mason is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Investment Management, Financial-Services, Acquired, and Franklin Templeton.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Franklin Templeton and Wand AI Forge Multi-Year Strategic ...
   url: https://investors.franklinresources.com/news-center/press-releases/press-release-details/2025/Franklin-Templeton-and-Wand-AI-Forge-Multi-Year-Strategic-Partnership-to-Advance-Agentic-AI-in-Asset-Management/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Legg Mason Charged With Violating the FCPA
   url: https://www.sec.gov/newsroom/press-releases/2018-168
-- date: '2026-05-25'
+- date: ''
   title: Annual Report by Investment Company (Form N-CSR)
   url: https://www.publicnow.com/view/3AD608B6FEADD78DDCEE2B29D2E10AE1F1C57217?1766519326
-- date: '2026-05-25'
+- date: ''
   title: Franklin Resources compra a su rival, Legg Mason
   url: https://invezz.com/news/2020/02/18/franklin-resources-buys-rival-asset-manager-legg-mason/
-- date: '2026-05-25'
+- date: ''
   title: Legg Mason Reports Assets Under Management and ...
   url: https://www.prnewswire.com/news-releases/legg-mason-reports-assets-under-management-and-flows-for-january-2020-301003411.html
 random_paper: 12
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

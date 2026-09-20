@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: MetLife is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Fortune 500, and Insurance.
 press:
-- date: '2026-05-25'
+- date: ''
   title: News
   url: https://www.metlife.com/about-us/newsroom/
-- date: '2026-05-25'
+- date: ''
   title: Global Responsible Artificial Intelligence Policy
   url: https://www.metlife.com/about-us/corporate-governance/ai/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at MetLife - Three Use Cases
   url: https://emerj.com/artificial-intelligence-at-metlife/
-- date: '2026-05-25'
+- date: ''
   title: MetLife and Aura Introduce New Category of AI-Powered ...
   url: https://www.metlife.com/about-us/newsroom/2025/may/metlife-and-aura-introduce-new-category-of-ai-powered-tools-to-us-employer-benefits-channel-to-take-on-the-mental-health-crisis/
-- date: '2026-05-25'
+- date: ''
   title: MetLife Study Finds AI Acceleration Is Creating New ...
   url: https://www.metlife.com/about-us/newsroom/2026/march/metlife-study-finds-ai-acceleration-is-creating-new-concerns-in-todays-workplace/
 random_paper: 16
@@ -109,7 +109,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

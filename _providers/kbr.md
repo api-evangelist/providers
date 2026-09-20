@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,19 +102,19 @@ overview: 'KBR is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
   KBR''s developer surface includes product news, YouTube channel, and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: KBR Forms Strategic Alliance with Tagup to Accelerate AI- ...
   url: https://www.kbr.com/en/insights-news/press-release/kbr-forms-strategic-alliance-tagup-accelerate-ai-powered-global-defense-operations
-- date: '2026-05-25'
+- date: ''
   title: KBR Announces Strategic Investment in Applied ...
   url: https://www.globenewswire.com/news-release/2026/03/23/3260180/0/en/kbr-announces-strategic-investment-in-applied-computing-to-accelerate-ai-driven-innovation-across-energy-and-industrial-markets.html
-- date: '2026-05-25'
+- date: ''
   title: KBR Launches INSITE 3.0, Expanding Digital Platform and ...
   url: https://www.kbr.com/en/insights-news/press-release/kbr-launches-insite-30-expanding-digital-platform-and-advancing-ai-driven-growth-strategy
-- date: '2026-05-25'
+- date: ''
   title: KBR Announces Strategic Investment in Applied ...
   url: https://www.kbr.com/en/insights-news/press-release/kbr-announces-strategic-investment-applied-computing-accelerate-ai-driven-innovation-across-energy-and-industrial-markets
-- date: '2026-05-25'
+- date: ''
   title: KBR Awarded $75M Contract to Provide Innovative ...
   url: https://www.kbr.com/en/insights-news/press-release/kbr-awarded-75m-contract-provide-innovative-solutions-us-department
 random_paper: 11
@@ -144,7 +144,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,19 +57,19 @@ nav: Providers
 network: true
 overview: Targa Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Infrastructure, Midstream, Natural Gas, Natural Gas Liquids, and Oil and Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Brandon Palomino, P.E., MBA - Nuclear Engineer
   url: https://www.linkedin.com/in/brandon-palomino-p-e-mba-16a6a2119
-- date: '2026-05-25'
+- date: ''
   title: TARGA RESOURCES CORP.
   url: https://www.sec.gov/Archives/edgar/data/1389170/000119312524073922/d783514dars.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'TYG: From Midstream Yield Vehicle To Scaled Energy ...'
   url: https://seekingalpha.com/article/4841129-tyg-cef-midstream-yield-vehicle-to-scaled-energy-infrastructure-platform
-- date: '2026-05-25'
+- date: ''
   title: 'Atlas Energy : Pipeline Partners, L.P. | MarketScreener'
   url: https://www.marketscreener.com/quote/stock/TARGA-ENERGY-LP-30731/news/Atlas-Energy-Pipeline-Partners-L-P-Announces-Class-E-Preferred-Unit-Distribution-19057419/
-- date: '2026-05-25'
+- date: ''
   title: 'Atlas Energy : Resource Partners, L.P. | MarketScreener'
   url: https://www.marketscreener.com/quote/stock/TARGA-ENERGY-LP-30731/news/Atlas-Energy-Resource-Partners-L-P-Announces-Pricing-of-Class-D-Cumulative-Redeemable-Perpetua-19104180/
 random_paper: 12
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

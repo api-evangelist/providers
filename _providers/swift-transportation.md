@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Knight-Swift Transportation supports EDI integration for freight tendering, shipment tracking, and invoicing. Trading partners can submit load tenders (EDI 204), receive responses (EDI 990), get shipm
@@ -103,19 +103,19 @@ plans:
   plan_count: 3
   slug: swift-transportation-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Announcements Archives
   url: https://www.knighttrans.com/knight-life/category/announcements/
-- date: '2026-05-25'
+- date: ''
   title: AI Provides a Predictive Edge for Fleet Maintenance - TT
   url: https://www.ttnews.com/articles/ai-predictive-fleet-maintenance
-- date: '2026-05-25'
+- date: ''
   title: Knight-Swift Transportation Implements Netradyne's ...
   url: https://www.businesswire.com/news/home/20250403264641/en/Knight-Swift-Transportation-Implements-Netradynes-Advanced-Artificial-Intelligence-for-Enhanced-Fleet-Safety
-- date: '2026-05-25'
+- date: ''
   title: Knight-Swift Transportation Implements Netradyne's ...
   url: https://www.nasdaq.com/press-release/knight-swift-transportation-implements-netradynes-advanced-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Swift Transportation
   url: https://www.facebook.com/DriveSwift/posts/we-are-thrilled-to-announce-swift-transportations-partnership-with-netradyneat-k/1082165473940179/
 random_paper: 12
@@ -143,7 +143,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

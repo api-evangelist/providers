@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,25 +64,25 @@ nav: Providers
 network: true
 overview: Pep Boys-Manny, Moe & Jack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Retail, and Services.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pep Boys agrees to be acquired for about $791M
   url: https://journalrecord.com/2012/01/30/pep-boys-agrees-to-be-acquired-for-about-791m-finance/
-- date: '2026-05-25'
+- date: ''
   title: Pep Boys Accepts Icahn's Bid Over Bridgestone
   url: https://www.automotive-fleet.com/news/pep-boys-accepts-icahns-bid-over-bridgestone
-- date: '2026-05-25'
+- date: ''
   title: Icahn Enterprises to Acquire Pep Boys
   url: https://www.prnewswire.com/news-releases/icahn-enterprises-to-acquire-pep-boys-300197829.html
-- date: '2026-05-25'
+- date: ''
   title: Icahn Enterprises L.P. said Wednesday that its current chief ...
   url: https://www.facebook.com/marketwatch/posts/icahn-enterprises-lp-said-wednesday-that-its-current-chief-executive-david-wille/779126987420958/
-- date: '2026-05-25'
+- date: ''
   title: Pep Boys agrees to be bought by Icahn for $1 billion
   url: https://www.chicagotribune.com/2015/12/30/pep-boys-agrees-to-be-bought-by-icahn-for-1-billion/
 random_paper: 5
 score:
   band: minimal
-  composite: 3.8
+  composite: 3.5
   coverage:
     artifact_dirs: 6
     catalog_earned: 17.0
@@ -90,17 +90,17 @@ score:
     catalog_gap: 98.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 31.5
-    operational_transparency: 5.3
+    operational_transparency: 2.6
   previous_composite: 3.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

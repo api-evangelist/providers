@@ -92,19 +92,19 @@ overview: 'RCS Capital is profiled on the [APIs.io](https://apis.io/) network. T
 
   RCS Capital''s developer surface includes documentation, code examples, and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: RCS Capital Sells Wholesale Unit to Apollo for $25M
   url: https://www.wealthmanagement.com/ibd-news/rcs-capital-sells-wholesale-unit-to-apollo-for-25m
-- date: '2026-05-25'
+- date: ''
   title: Brokerage RCS Capital bankruptcy to take Cetera private
   url: https://www.reuters.com/article/breakingviews/brokerage-rcs-capital-bankruptcy-to-take-cetera-private-idUSKCN0VA3EZ/
-- date: '2026-05-25'
+- date: ''
   title: C. Thomas McMillen
   url: https://www.nexstar.tv/c-thomas-mcmillen/
-- date: '2026-05-25'
+- date: ''
   title: RCS Capital Corporation Completes Acquisition of Cetera ...
   url: https://www.prnewswire.com/news-releases/rcs-capital-corporation-completes-acquisition-of-cetera-financial-group-257218501.html
-- date: '2026-05-25'
+- date: ''
   title: 'Rcs: capital increase from 27 June to 5 July - FIRSTonline'
   url: https://www.firstonline.info/en/rcs-capital-increase-from-27-June-to-5-July/
 random_paper: 7

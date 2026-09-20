@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -71,19 +71,19 @@ overview: 'Reynolds American is profiled on the [APIs.io](https://apis.io/) netw
 
   The Reynolds American catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Reynolds American To Acquire Lorillard In Transaction ...
   url: https://www.prnewswire.com/news-releases/reynolds-american-to-acquire-lorillard-in-transaction-valued-at-274-billion-267143881.html
-- date: '2026-05-25'
+- date: ''
   title: Reynolds American companies plan to invest more than $3.2 ...
   url: https://www.instagram.com/reel/DVg18tRiX_r/
-- date: '2026-05-25'
+- date: ''
   title: British American Tobacco to Take Over Reynolds ...
   url: https://www.nytimes.com/2017/01/17/business/dealbook/british-american-tobacco-reynolds-cigarettes-merger.html
-- date: '2026-05-25'
+- date: ''
   title: Reynolds American companies plan to invest more than $3.2 ...
   url: https://www.facebook.com/ReynoldsAmericanInc/posts/reynolds-american-companies-plan-to-invest-more-than-32-billion-in-us-operations/1480126300788555/
-- date: '2026-05-25'
+- date: ''
   title: Reynolds American CEO David Waterfield on Growing ...
   url: https://www.linkedin.com/posts/reynoldsamericaninc_yesterday-reynolds-american-inc-president-activity-7430296497134399488-6ZU7
 random_paper: 19
@@ -123,7 +123,7 @@ score:
     - north-america
   previous_composite: 7.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

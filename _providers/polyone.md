@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,19 +69,19 @@ overview: 'Polyone is profiled on the [APIs.io](https://apis.io/) network.
 
   Polyone''s developer surface includes engineering blog and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Anti-AI sentiment is increasing across Ohio, with a growing ...
   url: https://www.facebook.com/News5Cleveland/posts/anti-ai-sentiment-is-increasing-across-ohio-with-a-growing-number-of-cities-and-/1485652313607132/
-- date: '2026-05-25'
+- date: ''
   title: New GTDC Research Details Distribution's Influence on AI, Cloud ...
   url: https://kommunikasjon.ntb.no/pressemelding/18823030/new-gtdc-research-details-distributions-influence-on-ai-cloud-and-hyperscaler-sales-and-adoption?publisherId=17848946&lang=en
-- date: '2026-05-25'
+- date: ''
   title: PolyOne Completes Clariant Masterbatch Acquisition ...
   url: https://www.prnewswire.com/news-releases/polyone-completes-clariant-masterbatch-acquisition-announces-new-name-avient-corporation-301086507.html
-- date: '2026-05-25'
+- date: ''
   title: MBZUAI Unveils First-of-its-Kind Undergraduate Program in ...
   url: https://via.tt.se/pressmeddelande/3813004/mbzuai-unveils-first-of-its-kind-undergraduate-program-in-artificial-intelligence-designed-to-empower-future-ai-leaders?publisherId=3236991&lang=en
-- date: '2026-05-25'
+- date: ''
   title: Innodata Selected by Palantir to Accelerate Advanced ...
   url: https://via.ritzau.dk/pressemeddelelse/14773949/innodata-selected-by-palantir-to-accelerate-advanced-initiatives-in-ai-powered-rodeo-modernization?publisherId=13560585&lang=en
 random_paper: 4
@@ -108,7 +108,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

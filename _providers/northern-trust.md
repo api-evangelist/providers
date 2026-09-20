@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 7
 apis:
 - description: The Custody API in the Northern Trust API Store gives institutional clients programmatic access to global custody data — holdings, positions, safekept assets, settlements, and account-level custody in
@@ -164,19 +164,19 @@ overview: 'Northern Trust publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
   Northern Trust''s developer surface includes documentation, getting-started guide, signup flow, support, engineering blog, authentication, and 13 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Stewardship in Focus: Artificial Intelligence'
   url: https://www.northerntrust.com/content/dam/northerntrust/pws/nt/documents/asset-management/stewardship-in-focus-artificial-intelligence.pdf
-- date: '2026-05-25'
+- date: ''
   title: Party Like It's 2026 | The View from Here
   url: https://www.northerntrust.com/japan/insights-research/2026/the-view-from-here/party-like-its-2026
-- date: '2026-05-25'
+- date: ''
   title: AI's Evolution in Financial Services and Its Impact on the ...
   url: https://www.northerntrust.com/united-states/insights-research/2025/asset-servicing/ai-evolution-financial-services-impact-on-future
-- date: '2026-05-25'
+- date: ''
   title: Northern Trust Asset Management Forecasts AI-Driven ...
   url: https://www.businesswire.com/news/home/20260114204324/en/Northern-Trust-Asset-Management-Forecasts-AI-Driven-Strength-in-Private-Markets-United-States-Japan-and-Australia-to-Lead-Equity-Returns-over-Next-Decade
-- date: '2026-05-25'
+- date: ''
   title: Uncovering Alpha In The Networked Economy
   url: https://www.northerntrust.com/content/dam/northerntrust/pws/nt/documents/asset-management/uncovering-alpha-in-the-networked-economy.pdf
 random_paper: 7
@@ -220,7 +220,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

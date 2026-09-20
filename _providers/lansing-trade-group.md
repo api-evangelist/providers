@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ overview: 'Lansing Trade Group is profiled on the [APIs.io](https://apis.io/) ne
 
   Lansing Trade Group''s developer surface includes product news and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Agribusiness News recent news | page 373 of 526
   url: https://www.feedstuffs.com/agribusiness-news?NL=FP-006&Issue=FP-006_20190613_FP-006_180&sfvc4enews=42&cl=article_2_2&utm_rid=CPG02000003720166&utm_campaign=39485&utm_medium=email&elq2=bafd807fbc3341f4b60f0635dccc67cf&page=373
-- date: '2026-05-25'
+- date: ''
   title: The Andersons Strategy and Business Model
   url: https://umbrex.com/resources/company-profiles/the-andersons/
-- date: '2026-05-25'
+- date: ''
   title: The Andersons, Inc. to Acquire Lansing Trade Group, LLC
   url: https://www.linkedin.com/posts/theandersonsinc_the-andersons-inc-to-acquire-lansing-trade-activity-6591065743763271681-zm8w?trk=public_profile_like_view
-- date: '2026-05-25'
+- date: ''
   title: Weekly Roundup 3/13/17
   url: https://dronecenter.bard.edu/weekly-roundup-31317/
-- date: '2026-05-25'
+- date: ''
   title: The Andersons, Inc. Completes Acquisition of Lansing ...
   url: https://www.prnewswire.com/news-releases/the-andersons-inc-completes-acquisition-of-lansing-trade-group-llc-announces-inducement-grants-under-nasdaq-listing-rule-5635-300771803.html
 random_paper: 9
@@ -117,7 +117,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

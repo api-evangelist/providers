@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,30 +76,30 @@ nav: Providers
 network: true
 overview: Fossil Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fashion, Accessories, Watches, Wearables, and Retail.
 press:
-- date: '2026-05-25'
-  title: Fossil Partners with AI E-Commerce Company ...
-  url: https://metric.al/blog/fossil-partners-with-ai-e-commerce-company-metrical-to-boost-revenue-and-maintain-margins/
-- date: '2026-05-25'
-  title: FOSSIL GROUP, INC. APPOINTS SHANNON FREEZE AS ...
-  url: https://www.prnewswire.com/news-releases/fossil-group-inc-appoints-shannon-freeze-as-chief-people-and-communications-officer-302680854.html
-- date: '2026-05-25'
-  title: Fossil Group, | FOSL Stock Price, Company Overview & ...
-  url: https://www.forbes.com/companies/fossil-group/
-- date: '2026-05-25'
-  title: Website Privacy and Security - Fossil Support
-  url: https://support.fossilgroup.com/s/article/Website-Privacy-and-Security-1616590591948?language=en_US
-- date: '2026-05-25'
-  title: Fossil BIG TIC campaign lifts recall 57% in beta - FOSL
-  url: https://www.stocktitan.net/news/FOSL/in-mobi-launches-ad-experiences-with-fossil-as-first-brand-fxjo8szlrl37.html
-- date: '2026-05-19'
-  title: FOSSIL GROUP NYC Hosts Bring Your Child To Work Day
-  url: https://www.fossilgroup.com/fossil-group-nyc-hosts-bring-your-child-to-work-day/
-- date: '2026-05-19'
-  title: FOSSIL GROUP, Inc. To Participate in TD Cowen’s Future of the Consumer Conference
-  url: https://www.fossilgroup.com/wp-content/uploads/2026/05/TD-Cowen-Conference-Participation-5.19.26.pdf
-- date: '2026-05-13'
+- date: ''
   title: FOSSIL Group, Inc. Reports First Quarter 2026 Financial Results
   url: https://www.fossilgroup.com/wp-content/uploads/2026/05/Q1-2026-Earnings-release.pdf
+- date: ''
+  title: Fossil Partners with AI E-Commerce Company ...
+  url: https://metric.al/blog/fossil-partners-with-ai-e-commerce-company-metrical-to-boost-revenue-and-maintain-margins/
+- date: ''
+  title: Fossil Group, Inc. Announces Date for First Quarter 2026 Earnings Release and Conference Call
+  url: https://www.fossilgroup.com/wp-content/uploads/2026/04/Q1-2026-Earnings-Call-Announcement.pdf
+- date: ''
+  title: FOSSIL Group, Inc. Reports Third Quarter 2025 Financial Results
+  url: https://www.fossilgroup.com/wp-content/uploads/2025/11/Q3-2025-Earnings-release.pdf
+- date: ''
+  title: FOSSIL GROUP NYC Hosts Bring Your Child To Work Day
+  url: https://www.fossilgroup.com/fossil-group-nyc-hosts-bring-your-child-to-work-day/
+- date: ''
+  title: FOSSIL GROUP, INC. APPOINTS SHANNON FREEZE AS ...
+  url: https://www.prnewswire.com/news-releases/fossil-group-inc-appoints-shannon-freeze-as-chief-people-and-communications-officer-302680854.html
+- date: ''
+  title: Fossil Group, | FOSL Stock Price, Company Overview & ...
+  url: https://www.forbes.com/companies/fossil-group/
+- date: ''
+  title: Fossil Group, Inc. Announces Date for Fourth Quarter and Full Year 2025 Earnings Release and Conference Call
+  url: https://www.fossilgroup.com/wp-content/uploads/2026/02/Q4-2025-Earnings-Call-Announcement.pdf
 random_paper: 4
 score:
   band: minimal
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

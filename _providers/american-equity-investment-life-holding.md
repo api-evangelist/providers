@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 17
 common:
@@ -152,19 +152,19 @@ plans:
   plan_count: 0
   slug: american-equity-investment-life-holding-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: ael-20231231
   url: https://www.sec.gov/Archives/edgar/data/1039828/000103982824000020/ael-20231231.htm
-- date: '2026-05-25'
+- date: ''
   title: American Equity Operating Entities Upgraded To 'A
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3165704
-- date: '2026-05-25'
+- date: ''
   title: AM Best Affirms Credit Ratings of American Equity Investment ...
   url: https://news.ambest.com/newscontent.aspx?refnum=235246
-- date: '2026-05-25'
+- date: ''
   title: Brookfield Reinsurance signs deal for American Equity ...
   url: https://www.advisor.ca/industry-news/industry/brookfield-reinsurance-signs-deal-for-american-equity-investment-life-holding-co/
-- date: '2026-05-25'
+- date: ''
   title: American Equity Recognized for Award-Winning Customer ...
   url: https://www.businesswire.com/news/home/20221031005652/en/American-Equity-Recognized-for-Award-Winning-Customer-Satisfaction-Among-Annuity-Providers-in-the-U.S.-by-J.D.-Power
 random_paper: 5
@@ -203,7 +203,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

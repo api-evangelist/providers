@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Nu Skin Enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beauty, Personal Care, Supplements, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: nu skin enterprises, inc.
   url: https://www.sec.gov/Archives/edgar/data/1021561/000114036124008111/ef20015265_10k.htm
-- date: '2026-05-25'
+- date: ''
   title: Will Nu Skin (NUS) Leverage AI Innovation to Deepen ...
   url: https://simplywall.st/stocks/us/household/nyse-nus/nu-skin-enterprises/news/will-nu-skin-nus-leverage-ai-innovation-to-deepen-customer-l
-- date: '2026-05-25'
+- date: ''
   title: NU SKIN ENTERPRISES INC Earnings Call Transcript ...
   url: https://www.stockinsights.ai/us/NUS/earnings-transcript/fy25-q1-9f0d
-- date: '2026-05-25'
+- date: ''
   title: 'Nu Skin Launches Prysm iO™: A Revolutionary AI ...'
   url: https://www.businesswire.com/news/home/20260402013607/en/Nu-Skin-Launches-Prysm-iO-A-Revolutionary-AI-Powered-Platform-for-Personalized-Nutritional-Wellness
-- date: '2026-05-25'
+- date: ''
   title: Nu Skin Introduces the Next Generation of Smart Skincare with ...
   url: https://ir.nuskin.com/news-releases/news-release-details/nu-skin-introduces-next-generation-smart-skincare-ageloc-lumispa/
 random_paper: 0
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

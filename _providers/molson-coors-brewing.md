@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,19 +66,19 @@ overview: 'Molson Coors Brewing is profiled on the [APIs.io](https://apis.io/) n
 
   Molson Coors Brewing''s developer surface includes engineering blog and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Molson Coors'' Earnings Preview: What to Expect'
   url: https://www.barchart.com/story/news/33431345/molson-coors-earnings-preview-what-to-expect
-- date: '2026-05-25'
+- date: ''
   title: CrowdStrike and Molson Coors Beverage have been highlighted ...
   url: https://www.tradingview.com/news/zacks:139bf2107094b:0-crowdstrike-and-molson-coors-beverage-have-been-highlighted-as-zacks-bull-and-bear-of-the-day/
-- date: '2026-05-25'
+- date: ''
   title: Molson Coors Cloud Move Adds Visibility - AIwire
   url: https://www.hpcwire.com/aiwire/2013/10/14/molson-coors-cloud-move-adds-visibility/
-- date: '2026-05-25'
+- date: ''
   title: Molson Coors Canada and HEXO Announce Agreement to ...
   url: https://www.newswire.ca/news-releases/molson-coors-canada-and-hexo-announce-agreement-to-create-joint-venture-focused-on-non-alcoholic-cannabis-infused-beverages-for-the-canadian-market-689719921.html
-- date: '2026-05-25'
+- date: ''
   title: Molson Canadian breaks new ground with the launch of ...
   url: https://www.prnewswire.com/news-releases/molson-canadian-breaks-new-ground-with-the-launch-of-molson-canadian-cider-512560441.html
 random_paper: 8
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

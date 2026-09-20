@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,19 +86,19 @@ overview: 'Worthington Industries is profiled on the [APIs.io](https://apis.io/)
 
   Worthington Industries'' developer surface includes documentation and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Worthington Industries, Inc.
   url: https://argano.com/insights/client-stories/worthington-industries-inc.html
-- date: '2026-05-25'
+- date: ''
   title: Worthington Industries Inc. Downgraded To 'BBB-'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3097065
-- date: '2026-05-25'
+- date: ''
   title: Impact Story Empowering Growth
   url: https://www.worthingtonenterprises.com/our-impact/people/impact-story--empowering-growth
-- date: '2026-05-25'
+- date: ''
   title: Worthington Steel Q3 sales rise 12%, margins tighten
   url: https://www.stocktitan.net/sec-filings/WS/8-k-worthington-steel-inc-reports-material-event-75fedfbd9770.html
-- date: '2026-05-25'
+- date: ''
   title: Worthington Steel CEO Geoff Gilmore on EVs, AI and tariffs
   url: https://www.bizjournals.com/columbus/news/2025/02/26/worthington-steel-ceo-on-evs-ai-and-m-a.html
 random_paper: 8
@@ -122,7 +122,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

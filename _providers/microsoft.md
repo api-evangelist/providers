@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -966,19 +966,19 @@ plans:
   plan_count: 3
   slug: microsoft-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Microsoft Source
   url: https://news.microsoft.com/source/
-- date: '2026-05-25'
+- date: ''
   title: Latest news - Source
   url: https://news.microsoft.com/source/view-all/
-- date: '2026-05-25'
+- date: ''
   title: The Microsoft Cloud Blog | Build the future of your business ...
   url: https://www.microsoft.com/en-us/microsoft-cloud/blog/
-- date: '2026-05-25'
+- date: ''
   title: Microsoft AI - Business Solutions and Tools
   url: https://www.microsoft.com/en-us/ai
-- date: '2026-05-25'
+- date: ''
   title: Microsoft announces $5.5 billion spend and new ...
   url: https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/
 random_paper: 14
@@ -1029,7 +1029,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 10
@@ -1028,19 +1028,19 @@ plans:
   plan_count: 0
   slug: avaya-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Avaya Chooses Gemini Enterprise and Google Workspace ...
   url: https://www.businesswire.com/news/home/20251230219645/en/Avaya-Chooses-Gemini-Enterprise-and-Google-Workspace-for-AI-Driven-Collaboration-and-Next-Gen-Workplace-Productivity
-- date: '2026-05-25'
+- date: ''
   title: 'Avaya news: Avaya Infinity to support secure AI interaction'
   url: https://www.convergedsystems.com/blog/avaya-news-july-2025-avaya-infinity-platform-to-add-ai-model-context-protocol-mcp/
-- date: '2026-05-25'
+- date: ''
   title: 'Avaya Infinity Platform: AI-Powered CCaaS & CX Solutions'
   url: https://www.avaya.com/en/products/infinity-platform/
-- date: '2026-05-25'
+- date: ''
   title: Avaya to support Model Context Protocol, collaborate with ...
   url: https://www.linkedin.com/posts/avaya_avaya-is-thrilled-to-share-that-the-avaya-activity-7353409534989635584-MN14
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence | Avaya Trust Center
   url: https://www.avaya.com/en/trust-center/artificial-intelligence/
 random_paper: 2
@@ -1054,8 +1054,8 @@ scopes:
   slug: avaya-scopes
   summary_line: 1 scope · clientCredentials/password
 score:
-  band: strong
-  composite: 64.2
+  band: developing
+  composite: 50.4
   coverage:
     artifact_dirs: 29
     catalog_earned: 40.0
@@ -1063,14 +1063,14 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -13.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 71.5
-    developer_ergonomics: 78.0
+    developer_ergonomics: 37.5
     discoverability: 81.5
-    operational_transparency: 60.5
+    operational_transparency: 36.8
   previous_composite: 64.2
   provenance:
     agentic_access: derived
@@ -1083,8 +1083,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  trend: flat
+  scored_at: '2026-09-19'
+  trend: falling
   upsert:
     applies: true
     score: 11.1

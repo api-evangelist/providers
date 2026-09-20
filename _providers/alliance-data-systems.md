@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -328,19 +328,19 @@ plans:
   plan_count: 3
   slug: alliance-data-systems-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Bread to be Acquired by Alliance Data Systems for $450 ...
   url: https://www.stblaw.com/about-us/news/view/2020/10/29/bread-to-be-acquired-by-alliance-data-systems-for-$450-million
-- date: '2026-05-25'
+- date: ''
   title: Alliance Data Inks $450M Deal For FinTech Bread
   url: https://www.pymnts.com/news/partnerships-acquisitions/2020/alliance-data-inks-450m-deal-for-fintech-bread/
-- date: '2026-05-25'
+- date: ''
   title: Alliance Data Completes Acquisition of Bread®
   url: https://www.prnewswire.com/news-releases/alliance-data-completes-acquisition-of-bread-301186414.html
-- date: '2026-05-25'
+- date: ''
   title: Alliance Data becomes Bread, taking buy now/pay later ...
   url: https://www.americanbanker.com/payments/news/alliance-data-becomes-bread-taking-buy-now-pay-later-units-name
-- date: '2026-05-25'
+- date: ''
   title: 'Q2: Alliance Data Systems Bets On Conversant''s Pipeline'
   url: https://www.adexchanger.com/online-advertising/q2-alliance-data-systems-bets-on-coversants-pipeline/
 random_paper: 5
@@ -424,7 +424,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

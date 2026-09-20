@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 7
 common:
@@ -167,19 +167,19 @@ plans:
   plan_count: 0
   slug: xylem-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Reimagining Water Management: Generative AI as a ...'
   url: https://www.bluefieldresearch.com/research/reimagining-water-management-generative-ai-as-a-strategic-utility-asset/
-- date: '2026-05-25'
+- date: ''
   title: By 2050, AI could add 30 trillion liters of water demand ...
   url: https://www.facebook.com/XylemIncorporated/posts/by-2050-ai-could-add-30-trillion-liters-of-water-demand-each-year-that-scale-car/1289921993170804/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Investor Relations - SEC Filings | Xylem
   url: https://xyleminc.gcs-web.com/news-events/news-releases
-- date: '2026-05-25'
+- date: ''
   title: AI's Water Demand to Surge Nearly 130% by 2050
   url: https://www.xylem.com/en-il/about-xylem/newsroom/press-releases/ais-water-demand-to-surge-nearly-130-by-2050--new-research-shows-how-to-build-a-water-secure-ai-economy/
-- date: '2026-05-25'
+- date: ''
   title: '99.1'
   url: https://www.sec.gov/Archives/edgar/data/1524472/000152447226000065/xyl04282026ex991.htm
 random_paper: 9
@@ -220,7 +220,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

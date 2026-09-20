@@ -51,19 +51,19 @@ nav: Providers
 network: true
 overview: Computer Sciences Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Defunct, Enterprise Services, Information Technology, and Outsourcing.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Emerging Artificial Intelligence Applications in Computer ...
   url: https://www.iospress.com/node15242/books/emerging-artificial-intelligence-applications-in-computer-engineering
-- date: '2026-05-25'
+- date: ''
   title: The Role of Artificial Intelligence in Computer Science ...
   url: https://www.mdpi.com/2076-3417/15/7/3960
-- date: '2026-05-25'
+- date: ''
   title: UMass Lowell is advancing the future of artificial ...
   url: https://www.instagram.com/p/DXrfx6QGgXJ/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence - Khoury College of Computer Sciences
   url: https://www.khoury.northeastern.edu/research_areas/artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: UW Board of Regents approves UW–Madison proposal to ...
   url: https://news.wisc.edu/uw-board-of-regents-approves-uw-madison-proposal-to-create-college-of-computing-and-artificial-intelligence/
 random_paper: 9

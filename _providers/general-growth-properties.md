@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,19 +57,19 @@ nav: Providers
 network: true
 overview: General Growth Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Retail, Shopping Malls, Acquired, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'General Growth Properties: To The Brink and Back | PDF'
   url: https://www.scribd.com/document/273359037/General-Growth-Properties-To-the-Brink-and-Back
-- date: '2026-05-25'
+- date: ''
   title: General Growth Return On Asset vs Price To Earnings To Growth
   url: https://www.macroaxis.com/profitability/GGP/Return-On-Asset/Price-To-Earnings-To-Growth
-- date: '2026-05-25'
+- date: ''
   title: General Growth Properties 2026 Company Profile
   url: https://pitchbook.com/profiles/company/25169-05
-- date: '2026-05-25'
+- date: ''
   title: 'Genl Growth Propert : General Growth Properties Announces ...'
   url: https://www.marketscreener.com/quote/stock/GENERAL-GROWTH-PRO-12754/news/Genl-Growth-Propert-General-Growth-Properties-Announces-Second-Quarter-Earnings-Conference-Call-We-216992/
-- date: '2026-05-25'
+- date: ''
   title: General Growth Properties Inc.(GGP,N) reports earnings for Qtr ...
   url: https://www.nytimes.com/1995/04/27/business/general-growth-properties-inc-ggpn-reports-earnings-for-qtr-to-mar-31.html
 random_paper: 18
@@ -101,7 +101,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

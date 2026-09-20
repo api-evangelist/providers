@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -763,19 +763,19 @@ plans:
   plan_count: 1
   slug: visa-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Visa launches new AI tools to manage the charge dispute ...
   url: https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html
-- date: '2026-05-25'
+- date: ''
   title: Visa Opens the Door to AI-Driven Shopping for Businesses ...
   url: https://www.businesswire.com/news/home/20260408772335/en/Visa-Opens-the-Door-to-AI-Driven-Shopping-for-Businesses-Worldwide
-- date: '2026-05-25'
+- date: ''
   title: 'Visa Defines the Next Era of Commerce: When AI Becomes ...'
   url: https://investor.visa.com/news/news-details/2026/Visa-Defines-the-Next-Era-of-Commerce-When-AI-Becomes-the-Customer/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Enabling AI agents to buy securely and seamlessly | Visa
   url: https://corporate.visa.com/en/products/intelligent-commerce.html
-- date: '2026-05-25'
+- date: ''
   title: Visa's 30-Year AI Legacy Fuels Launch of New Global AI ...
   url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20076.html
 random_paper: 17
@@ -838,7 +838,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

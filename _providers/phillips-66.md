@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Phillips 66 is profiled on the [APIs.io](https://apis.io/) network. T
 
   Phillips 66''s developer surface includes engineering blog and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Phillips 66 beats Q1 estimates by $0.88 per share as ...
   url: https://www.oilandgas360.com/phillips-66-beats-q1-estimates-by-0-88-per-share-as-refining-margins-surge/
-- date: '2026-05-25'
+- date: ''
   title: Elliott Announces Shareholders Vote for Change at Phillips ...
   url: https://www.prnewswire.com/news-releases/elliott-announces-shareholders-vote-for-change-at-phillips-66-302461930.html
-- date: '2026-05-25'
+- date: ''
   title: Phillips 66 and Mach 1 Revolutionize Their Checkout ...
   url: https://investor.ncrvoyix.com/news-releases/news-release-details/phillips-66-and-mach-1-revolutionize-their-checkout-experience?mobile=1
-- date: '2026-05-25'
+- date: ''
   title: Digital Transformation for Sustainability
   url: https://www.phillips66.com/newsroom/our-digital-capabilities-are-empowering-our-people/
-- date: '2026-05-25'
+- date: ''
   title: Phillips 66 – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/phillips-66-enterprise-tech-analysis/
 random_paper: 10
@@ -120,7 +120,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

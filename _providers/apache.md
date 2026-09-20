@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The Apache Software Foundation hosts 300+ open source projects spanning big data, cloud, messaging, databases, build tools, and more. The ASF provides infrastructure, governance, and community support
@@ -124,19 +124,19 @@ plans:
   plan_count: 3
   slug: apache-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Apache Software Foundation Launches $10M ...
   url: https://news.apache.org/foundation/entry/the-apache-software-foundation-launches-10m-responsible-ai-initiative-with-initial-1-75m-donation
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.dremio.com/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: Press Room
   url: https://www.alibabacloud.com/en/press-room?_p_lc=1
-- date: '2026-05-25'
+- date: ''
   title: Commvault Delivers Industry-First Cyber Resilience for AI ...
   url: https://www.prnewswire.com/news-releases/commvault-delivers-industry-first-cyber-resilience-for-ai-data-lakehouses-on-aws-with-support-for-apache-iceberg-tables-302570244.html
-- date: '2026-05-25'
+- date: ''
   title: The Apache Software Foundation Launches Responsible ...
   url: https://www.hpcwire.com/aiwire/2026/04/10/the-apache-software-foundation-launches-responsible-ai-initiative/
 random_paper: 16
@@ -164,7 +164,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

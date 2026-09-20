@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Nike provides APIs for product catalog access, inventory, store locations, and e-commerce integration. The platform supports partners and developers building experiences around Nike products.
@@ -74,19 +74,19 @@ plans:
   plan_count: 1
   slug: nike-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Nike Unveils Project Amplify, the World's First Powered ...
   url: https://about.nike.com/en/newsroom/releases/nike-project-amplify-official-images
-- date: '2026-05-25'
+- date: ''
   title: 'Nike on Instagram: "There is no finish line when it comes to ...'
   url: https://www.instagram.com/reel/DQJxDm9joWp/?hl=en
-- date: '2026-05-25'
+- date: ''
   title: Nike uses AI for personalized retail, boosts digital sales
   url: https://www.linkedin.com/posts/adrian-pearson-jr-474089239_nike-ai-retailinnovation-activity-7380664867831283713-Hh9H
-- date: '2026-05-25'
+- date: ''
   title: Nike Debuts its First Neuroscience-Based Footwear to ...
   url: https://about.nike.com/en/newsroom/releases/nike-mind-001-mind-002-official-images
-- date: '2026-05-25'
+- date: ''
   title: Nike Creates New Innovation Engine to Power Athletes ...
   url: https://about.nike.com/en/newsroom/releases/nike-new-innovation-engine-announcement
 random_paper: 5
@@ -114,7 +114,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

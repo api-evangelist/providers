@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,19 +68,19 @@ nav: Providers
 network: true
 overview: DISH Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Television, Satellite, Streaming, Wireless, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Dish Using IBM AI for 5G Network, ConnectMaine's New ...
   url: https://broadbandbreakfast.com/dish-using-ibm-ai-for-5g-network-connectmaines-new-grants-intuit-buys-mailchimp-stl-hires-former-ericsson-exec/
-- date: '2026-05-25'
+- date: ''
   title: DISH Sets Data in Motion with Confluent, Unlocking ...
   url: https://www.prnewswire.com/news-releases/dish-sets-data-in-motion-with-confluent-unlocking-the-power-of-the-first-5g-smart-network-301469480.html
-- date: '2026-05-25'
+- date: ''
   title: DISH Selects ASAPP for its Customer Experience ...
   url: https://www.asapp.com/press/dish-selects-asapp-for-its-customer-experience-performance-cxp-platform
-- date: '2026-05-25'
+- date: ''
   title: DISH Selects IBM's AI-Powered Automation and Network ...
   url: https://newsroom.ibm.com/2021-09-14-DISH-Selects-IBMs-AI-Powered-Automation-and-Network-Orchestration-Software-and-Services-for-New-Cloud-Native-5G-Network
-- date: '2026-05-25'
+- date: ''
   title: DISH Selects Palo Alto Networks to Help Secure 5G Network
   url: https://www.paloaltonetworks.com/company/press/2021/dish-selects-palo-alto-networks-to-help-secure-5g-network
 random_paper: 15
@@ -104,7 +104,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

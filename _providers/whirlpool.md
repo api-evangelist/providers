@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: The Whirlpool connected appliances cloud API enables control and monitoring of Whirlpool, Maytag, KitchenAid, and Consul smart appliances including washers, dryers, ovens, refrigerators, and air condi
@@ -129,19 +129,19 @@ plans:
   plan_count: 1
   slug: whirlpool-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Whirlpool Corporation Migrates SAP Systems to ...
   url: https://www.googlecloudpresscorner.com/2021-06-03-Whirlpool-Corporation-Migrates-SAP-Systems-to-Google-Cloud-for-Sustainable-Growth
-- date: '2026-05-25'
+- date: ''
   title: Whirlpool Corporation recently held its first ATLAS Data & ...
   url: https://www.instagram.com/p/CyBOb8SO0ic/
-- date: '2026-05-25'
+- date: ''
   title: Smart Appliances
   url: https://www.whirlpool.com/smart-appliances.html
-- date: '2026-05-25'
+- date: ''
   title: 'Whirlpool CEO: AI is making kitchens and appliances smarter'
   url: https://fortune.com/videos/watch/Whirlpool-CEO-AI-is-making-kitchens-and-appliances-smarter-/7c21f374-e607-4cb5-845d-f4674a9d6e52
-- date: '2026-05-25'
+- date: ''
   title: Whirlpool Announces Strategic Recapitalization to ...
   url: https://www.prnewswire.com/news-releases/whirlpool-announces-strategic-recapitalization-to-accelerate-deleveraging-and-strategic-growth-302694986.html
 random_paper: 2
@@ -180,7 +180,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

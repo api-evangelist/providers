@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,19 +128,19 @@ plans:
   plan_count: 1
   slug: procter-and-gamble-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: How P&G Transforms Business Through Technology
   url: https://us.pg.com/blogs/innovation-at-scale-transforming-business-through-technology/
-- date: '2026-05-25'
+- date: ''
   title: How Procter & Gamble Uses AI to Unlock New Insights ...
   url: https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/
-- date: '2026-05-25'
+- date: ''
   title: 'Procter & Gamble Uses AI Agents: 10 Ways to ...'
   url: https://www.klover.ai/procter-gamble-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025/
-- date: '2026-05-25'
+- date: ''
   title: Google Cloud Helps Power More Personalized Experience ...
   url: https://www.googlecloudpresscorner.com/2020-07-14-Google-Cloud-Helps-Power-More-Personalized-Experience-for-Procter-Gamble-Consumers
-- date: '2026-05-25'
+- date: ''
   title: How Procter & Gamble is Leveraging AI to Democratize ...
   url: https://www.youtube.com/watch?v=DjxguIe1tqc
 random_paper: 20
@@ -175,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

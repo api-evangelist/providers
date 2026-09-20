@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,30 +82,30 @@ overview: 'Old Republic International is profiled on the [APIs.io](https://apis.
 
   Old Republic International''s developer surface includes engineering blog and 7 more developer resources.'
 press:
-- date: '2026-05-25'
-  title: 'Earnings call transcript: Old Republic Q2 2025 sees steady ...'
-  url: https://www.investing.com/news/transcripts/earnings-call-transcript-old-republic-q2-2025-sees-steady-growth-amid-market-challenges-93CH-4287147
-- date: '2026-05-25'
-  title: A Look at Old Republic International's Valuation Following ...
-  url: https://finance.yahoo.com/news/look-old-republic-international-valuation-134221622.html
-- date: '2026-05-25'
-  title: OLD REPUBLIC REPORTS RESULTS FOR THE FIRST ...
-  url: https://www.prnewswire.com/news-releases/old-republic-reports-results-for-the-first-quarter-2026-302751056.html
-- date: '2026-05-25'
-  title: Old Republic Q1 2026 earnings lifted by investment gains
-  url: https://www.stocktitan.net/sec-filings/ORI/8-k-old-republic-international-corp-reports-material-event-f8ebdd0954e2.html
-- date: '2026-05-25'
-  title: Old Republic International | ORI Stock Price, Company ...
-  url: https://www.forbes.com/companies/old-republic-international/
-- date: '2021-03-22'
-  title: Old Republic Announces Formation of a New Inland Marine Entity
-  url: https://oldrepublic.com/news/old-republic-announces-formation-of-a-new-inland-marine-entity
-- date: '2021-01-08'
-  title: Old Republic Aligns Construction Insurance Subsidiaries
-  url: https://oldrepublic.com/news/old-republic-aligns-construction-insurance-subsidiaries
-- date: '2020-01-15'
+- date: ''
+  title: Old Republic Appoints New Chief Operating Officer to Home Protection Business
+  url: https://oldrepublic.com/news/old-republic-appoints-new-chief-operating-officer-to-home-protection-business
+- date: ''
+  title: Three PMA Clients Win Top Awards for Workers' Compensation Excellence
+  url: https://oldrepublic.com/news/three-pma-clients-win-top-awards-for-workers-compensation-excellence
+- date: ''
   title: John "JT" Helms Elected Secretary of National Agricultural Aviation Association (NAAA)
   url: https://oldrepublic.com/news/john-jt-helms-elected-secretary-of-national-agricultural-aviation-association-naaa
+- date: ''
+  title: 'Earnings call transcript: Old Republic Q2 2025 sees steady ...'
+  url: https://www.investing.com/news/transcripts/earnings-call-transcript-old-republic-q2-2025-sees-steady-growth-amid-market-challenges-93CH-4287147
+- date: ''
+  title: PMA Companies Names Kara Thompson Vice President & Chief Segment Officer, Specialty Markets Underwriting
+  url: https://oldrepublic.com/news/pma-companies-names-kara-thompson-vice-president-chief-segment-officer-specialty-markets-underwriting
+- date: ''
+  title: Old Republic Aligns Construction Insurance Subsidiaries
+  url: https://oldrepublic.com/news/old-republic-aligns-construction-insurance-subsidiaries
+- date: ''
+  title: A Look at Old Republic International's Valuation Following ...
+  url: https://finance.yahoo.com/news/look-old-republic-international-valuation-134221622.html
+- date: ''
+  title: OLD REPUBLIC REPORTS RESULTS FOR THE FIRST ...
+  url: https://www.prnewswire.com/news-releases/old-republic-reports-results-for-the-first-quarter-2026-302751056.html
 random_paper: 1
 score:
   band: minimal
@@ -133,7 +133,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,19 +65,19 @@ overview: 'Hain Celestial Group is profiled on the [APIs.io](https://apis.io/) n
 
   Hain Celestial Group''s developer surface includes product news and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Hain Celestial Ushers in a Healthier Start to the Year with ...
   url: https://www.prnewswire.com/news-releases/hain-celestial-ushers-in-a-healthier-start-to-the-year-with-better-for-you-convenient-options-302344425.html
-- date: '2026-05-25'
+- date: ''
   title: Hain Celestial Unveils New Innovation Experience Center ...
   url: https://www.newswire.ca/news-releases/hain-celestial-unveils-new-innovation-experience-center-to-shape-the-future-of-better-for-you-offerings-891865164.html
-- date: '2026-05-25'
+- date: ''
   title: Hain Celestial sells North American snacks business for ...
   url: https://finance.yahoo.com/news/hain-celestial-sells-north-american-110000007.html
-- date: '2026-05-25'
+- date: ''
   title: WaterWorld - Hain Celestial to Sharpen Strategic Focus
   url: https://markets.financialcontent.com/pennwell.waterworld/article/gnwcq-2026-2-2-hain-celestial-to-sharpen-strategic-focus-enters-into-agreement-to-sell-north-america-snacks-business
-- date: '2026-05-25'
+- date: ''
   title: 'WATCH: How Hain Celestial tackles supply chain risk with ...'
   url: https://peak.ai/hub/blog/watch-how-hain-celestial-tackles-supply-chain-risk-with-inventory-ai/
 random_paper: 11
@@ -107,7 +107,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

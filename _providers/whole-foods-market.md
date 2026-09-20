@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -94,19 +94,19 @@ overview: 'Whole Foods Market is profiled on the [APIs.io](https://apis.io/) net
 
   The Whole Foods Market catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Why Amazon's Whole Foods experiment may fail
   url: https://www.linkedin.com/posts/chriswaltonretail_amazons-whole-foods-market-foods-experiment-activity-7394378549425561600-p5rS
-- date: '2026-05-25'
+- date: ''
   title: Mill and Amazon team up to launch industry-first food ...
   url: https://www.prnewswire.com/news-releases/mill-and-amazon-team-up-to-launch-industry-first-food-waste-innovation-at-whole-foods-market-stores-302642994.html
-- date: '2026-05-25'
+- date: ''
   title: 'Amazon Buying Whole Foods Market: Inside A Game- ...'
   url: https://www.constellationr.com/insights/news/amazon-buying-whole-foods-market-inside-game-changing-move-retail
-- date: '2026-05-25'
+- date: ''
   title: Whole Foods to launch in-store food waste infrastructure
   url: https://www.grocerydive.com/news/whole-foods-market-amazon-mill-industries-in-store-on-site-food-waste-technology-sustainability/808122/
-- date: '2026-05-25'
+- date: ''
   title: Whole Foods Market and Amazon unite for one-stop ...
   url: https://www.aboutamazon.com/news/retail/whole-foods-household-essentials-amazon
 random_paper: 12
@@ -141,7 +141,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

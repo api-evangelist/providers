@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'Ashland''s digital product finder tool enables customers to search and filter the specialty chemicals portfolio by application, industry, function, and chemistry type to identify the right ingredients '
@@ -97,21 +97,21 @@ plans:
   plan_count: 3
   slug: ashland-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ashland
   url: https://www.facebook.com/AshlandInc/posts/ashland-is-excited-for-the-much-anticipated-release-of-biodegradable-long-acting/1261814765949129/
-- date: '2026-05-25'
-  title: 'Ashland Inc. (ASH) Investigation: Bronstein, Gewirtz & ...'
-  url: https://natlawreview.com/press-releases/ashland-inc-ash-investigation-bronstein-gewirtz-grossman-llc-encourages
-- date: '2026-05-25'
-  title: Technology content resources in Ashland, VA
-  url: https://www.teamlogicit.com/AshlandVA/Resources?query=productivity+%26+collaboration&page=2
-- date: '2026-05-25'
-  title: Press Releases | Ashland Inc. - Investor Relations
-  url: https://investor.ashland.com/press-releases?mobile=1&page=8
 - date: ''
   title: Pomerantz Law Firm Investigates Claims On Behalf of ...
   url: https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-ashland-inc
+- date: ''
+  title: 'Ashland Inc. (ASH) Investigation: Bronstein, Gewirtz & ...'
+  url: https://natlawreview.com/press-releases/ashland-inc-ash-investigation-bronstein-gewirtz-grossman-llc-encourages
+- date: ''
+  title: Technology content resources in Ashland, VA
+  url: https://www.teamlogicit.com/AshlandVA/Resources?query=productivity+%26+collaboration&page=2
+- date: ''
+  title: Press Releases | Ashland Inc. - Investor Relations
+  url: https://investor.ashland.com/press-releases?mobile=1&page=8
 random_paper: 5
 rate_limits:
 - limit_count: 5
@@ -142,7 +142,7 @@ score:
     - north-america
   previous_composite: 14.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

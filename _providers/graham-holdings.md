@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -127,19 +127,19 @@ nav: Providers
 network: true
 overview: Graham Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Broadcasting, Conglomerate, Custom Framing, and Digital Media.
 press:
-- date: '2026-05-25'
+- date: ''
   title: A Look At Graham Holdings (GHC) Valuation Following ...
   url: https://simplywall.st/stocks/us/consumer-services/nyse-ghc/graham-holdings/news/a-look-at-graham-holdings-ghc-valuation-following-deciles-ne
-- date: '2026-05-25'
+- date: ''
   title: 2025 ANNUAL LETTER TO OUR SHAREHOLDERS
   url: https://www.ghco.com/static-files/1fcdfcb7-4d8f-4ca1-8a57-7d5d508f9246
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for Graham Holdings Co filed 02/26/2025
   url: https://www.ghco.com/static-files/d43e6f46-dc9b-4822-857a-4ee153433587
-- date: '2026-05-25'
+- date: ''
   title: Graham Holdings Company (GHC-N) Press Releases
   url: https://www.theglobeandmail.com/investing/markets/stocks/GHC-N/pressreleases/
-- date: '2026-05-25'
+- date: ''
   title: 'Graham Holdings (GHC): Evaluating Valuation After ...'
   url: https://finance.yahoo.com/news/graham-holdings-ghc-evaluating-valuation-090900483.html
 random_paper: 7
@@ -169,7 +169,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

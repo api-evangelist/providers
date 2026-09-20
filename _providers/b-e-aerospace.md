@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,19 +65,19 @@ overview: 'B/E Aerospace is profiled on the [APIs.io](https://apis.io/) network.
 
   B/E Aerospace''s developer surface includes documentation and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Michael Menghini - Collins Aerospace
   url: https://www.linkedin.com/in/michael-menghini
-- date: '2026-05-25'
+- date: ''
   title: B/E Aerospace says exploring possible sale or merger
   url: https://www.reuters.com/article/world/americas/be-aerospace-says-exploring-possible-sale-or-merger-idUSBREA4305Y/
-- date: '2026-05-25'
+- date: ''
   title: B/E Aerospace 2026 Company Profile
   url: https://pitchbook.com/profiles/company/41058-46
-- date: '2026-05-25'
+- date: ''
   title: B/E Aerospace To Split Into 2 Separate Companies
   url: https://www.law360.com/articles/546376/b-e-aerospace-to-split-into-2-separate-companies
-- date: '2026-05-25'
+- date: ''
   title: Philippine Economic Zone Authority
   url: https://www.facebook.com/PEZAPH/posts/-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%91%F0%9D%90%80-%F0%9D%90%92%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-on-26-may-2025-be-aerospace-collins-aerospace/1022466243333653/
 random_paper: 4
@@ -107,7 +107,7 @@ score:
       reason: never_enriched
   previous_composite: 7.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

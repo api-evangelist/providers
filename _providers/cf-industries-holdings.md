@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'CF Industries exchanges orders, shipments, and invoices with distributors, rail carriers, and industrial customers through traditional EDI transactions and private B2B integrations rather than public '
@@ -104,19 +104,19 @@ plans:
   plan_count: 1
   slug: cf-industries-holdings-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: CF Industries Holdings, Inc. (CF) Presents at 21st Annual ...
   url: https://seekingalpha.com/article/4903814-cf-industries-holdings-inc-cf-presents-at-21st-annual-global-farm-to-market-conference
-- date: '2026-05-25'
+- date: ''
   title: CF Industries Reports Q1 2026 Earnings $615M $983M ...
   url: https://www.linkedin.com/posts/cf-industries_q1-earningspdf-activity-7460063535046373376-YhDK
-- date: '2026-05-25'
+- date: ''
   title: CF Industries Holdings, Inc. — AI Adoption Tracker
   url: https://wiresift.com/ai-adoption/cf
-- date: '2026-05-25'
+- date: ''
   title: 'CF Industries: A Leading Global Manufacturer of Hydrogen ...'
   url: https://www.cfindustries.com/
-- date: '2026-05-25'
+- date: ''
   title: CF Industries and NextEra Energy Resources announce a ...
   url: https://www.prnewswire.com/news-releases/cf-industries-and-nextera-energy-resources-announce-a-memorandum-of-understanding-for-a-green-hydrogen-project-in-oklahoma-to-support-decarbonization-of-the-agriculture-supply-chain-301806063.html
 random_paper: 1
@@ -150,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

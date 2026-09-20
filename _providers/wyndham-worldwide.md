@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,19 +61,19 @@ nav: Providers
 network: true
 overview: Wyndham Worldwide Corporation is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Wyndham Hotels & Resorts Appoints Alexandra A. Jung to ...
   url: https://www.prnewswire.com/news-releases/wyndham-hotels--resorts-appoints-alexandra-a-jung-to-board-of-directors-302616494.html
-- date: '2026-05-25'
+- date: ''
   title: Wyndham Hotels & Resorts Selects AWS as Its Preferred ...
   url: https://www.businesswire.com/news/home/20210811005880/en/Wyndham-Hotels-Resorts-Selects-AWS-as-Its-Preferred-Cloud-Provider-to-Enhance-Guest-Experiences
-- date: '2026-05-25'
+- date: ''
   title: FTC files lawsuit over data breaches at Wyndham Worldwide
   url: https://www.computerworld.com/article/1548356/ftc-files-lawsuit-over-data-breaches-at-wyndham-worldwide.html
-- date: '2026-05-25'
+- date: ''
   title: Wyndham Hotels &amp; Resorts Reports Q1 2026 Results
   url: https://www.sahmcapital.com/news/content/wyndham-hotels-amp-resorts-reports-q1-2026-results-full-earnings-call-transcript-2026-04-30
-- date: '2026-05-25'
+- date: ''
   title: WYNDHAM HOTELS & RESORTS REPORTS STRONG ...
   url: https://www.prnewswire.com/news-releases/wyndham-hotels--resorts-reports-strong-first-quarter-results-302757605.html
 random_paper: 0
@@ -108,7 +108,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

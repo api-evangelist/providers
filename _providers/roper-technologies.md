@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 9
 apis:
 - description: Aderant provides comprehensive business management software for law firms and professional services organizations. Its API surfaces support matter management, time and billing, financial reporting, bu
@@ -136,19 +136,19 @@ plans:
   plan_count: 1
   slug: roper-technologies-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Roper Technologies'' AI Strategy: Analysis of Dominance ...'
   url: https://www.klover.ai/roper-technologies-ai-strategy-analysis-of-dominance-as-tech-conglomerate-ai/
-- date: '2026-05-25'
+- date: ''
   title: Roper Technologies to acquire CentralReach
   url: https://www.ropertech.com/news-releases/news-release-details/roper-technologies-acquire-centralreach
-- date: '2026-05-25'
+- date: ''
   title: Roper Technologies announces first quarter financial results
   url: https://www.ropertech.com/news-releases/news-release-details/roper-technologies-announces-first-quarter-financial-results-2
-- date: '2026-05-25'
+- date: ''
   title: Roper Technologies raises 2026 profit forecast as AI ...
   url: https://finance.yahoo.com/sectors/technology/articles/roper-technologies-raises-2026-profit-120945767.html
-- date: '2026-05-25'
+- date: ''
   title: Roper Technologies strengthens AI leadership with key ...
   url: https://www.ropertech.com/news-releases/news-release-details/roper-technologies-strengthens-ai-leadership-key-executive/
 random_paper: 11
@@ -193,7 +193,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -461,30 +461,30 @@ plans:
   plan_count: 3
   slug: teradata-plans-pricing
 press:
-- date: '2026-05-25'
-  title: Teradata
-  url: https://www.facebook.com/Teradata/posts/teradata-is-recognized-as-a-leader-in-nucleus-research-dsml-platforms-value-matr/1382241110599967/
-- date: '2026-05-25'
-  title: Teradata Enables AI Agents to Autonomously Process Text ...
-  url: https://www.prnewswire.com/news-releases/teradata-enables-ai-agents-to-autonomously-process-text-images-and-audio-at-enterprise-scale-302707423.html
-- date: '2026-05-25'
-  title: Teradata launches AI Factory
-  url: https://www.teradata.com/press-releases/2025/teradata-launches-ai-factory
-- date: '2026-05-25'
-  title: Teradata Enables AI Agents
+- date: ''
+  title: Teradata Named a Leader in Data Fabric Platforms, Q4 2025 Analyst Evaluation
+  url: https://www.teradata.com/press-releases/2026/leader-in-data-fabric-platforms
+- date: ''
+  title: Teradata Named a Leader in Nucleus Research 2026 DSML Platform Technology Value Matrix
+  url: https://www.teradata.com/press-releases/2026/leader-in-nucleus-research-2026
+- date: ''
+  title: Teradata to Present at Upcoming Investor Conferences
+  url: https://www.teradata.com/press-releases/2025/teradata-investor-conference
+- date: ''
+  title: Teradata Enables AI Agents to Autonomously Process Text, Images, and Audio at Enterprise Scale
   url: https://www.teradata.com/press-releases/2026/teradata-enables-ai-agents
-- date: '2026-05-25'
-  title: AI/ML
-  url: https://www.teradata.com/insights/ai-and-machine-learning
-- date: '2026-05-19'
+- date: ''
+  title: Teradata Announces 2025 Fourth Quarter and Full-Year Earnings Release Date
+  url: https://www.teradata.com/press-releases/2026/teradata-announces-2025-fourth-quarter-and-full-year-earnings-release-date
+- date: ''
+  title: Teradata AI Services Deliver Production-Ready Agentic Use Cases that Drive Measurable Business Impact
+  url: https://www.teradata.com/press-releases/2025/teradata-ai-services-deliver-production-ready-agentic-use-cases
+- date: ''
   title: Teradata Delivers Autonomous Knowledge and Data Sovereignty Without Compromise
   url: https://www.teradata.com/press-releases/2026/autonomous-knowledge-and-data-sovereignty
-- date: '2026-05-12'
-  title: Teradata Recognized as Exemplary Across Seven Categories in 2026 ISG Buyers Guides™ for AI and Data Platforms
-  url: https://www.teradata.com/press-releases/2026/teradata-recognized-2026-isg-buyers-guides
-- date: '2026-05-07'
-  title: Introducing the Teradata Autonomous Knowledge Platform
-  url: https://www.teradata.com/press-releases/2026/introducing-the-autonomous-knowledge-platform
+- date: ''
+  title: Teradata Accelerates AI Innovation with More than 150 Enterprise AI Engagements in 2025
+  url: https://www.teradata.com/press-releases/2026/teradata-accelerates-150-enterprise-ai-engage
 random_paper: 2
 rate_limits:
 - limit_count: 5
@@ -539,7 +539,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

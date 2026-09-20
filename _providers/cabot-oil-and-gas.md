@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -84,19 +84,19 @@ plans:
   plan_count: 0
   slug: cabot-oil-and-gas-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cabot Oil & Gas Corporation and Cimarex Energy have ...
   url: https://www.linkedin.com/posts/coterra-energy_cabot-oil-gas-corporation-and-cimarex-energy-activity-6849697849010077696-IA6p
-- date: '2026-05-25'
+- date: ''
   title: Cabot Oil & Gas Corporation provides operational update
   url: https://www.oilandgas360.com/cabot-oil-gas-corporation-provides-operational-update-2/
-- date: '2026-05-25'
+- date: ''
   title: Cabot Oil & Gas Corporation - $17 Billion Merger with ...
   url: https://www.bakerbotts.com/experience/c/cabot-oil--gas-corporation--17-billion-m
-- date: '2026-05-25'
+- date: ''
   title: Cabot Oil & Gas and Cimarex Energy Shareholders ...
   url: https://www.prnewswire.com/news-releases/cabot-oil--gas-and-cimarex-energy-shareholders-approve-merger-301388252.html
-- date: '2026-05-25'
+- date: ''
   title: Cabot Oil & Gas Corp
   url: https://www.reuters.com/company/cabot-oil-gas-corp/
 random_paper: 18
@@ -130,7 +130,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

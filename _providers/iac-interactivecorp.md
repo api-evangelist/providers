@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: IAC/InterActiveCorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Conglomerate, Internet, Media, and Parent Company.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Letter from Barry Diller to IAC Shareholders
   url: https://www.prnewswire.com/news-releases/letter-from-barry-diller-to-iac-shareholders-iac-announces-name-change-to-people-incorporated-302755687.html
-- date: '2026-05-25'
+- date: ''
   title: IAC Announces Name Change to People Incorporated
   url: https://ir.iac.com/news-releases/news-release-details/letter-barry-diller-iac-shareholders-iac-announces-name-change
-- date: '2026-05-25'
+- date: ''
   title: People Inc. Announces AI Content Partnership with Meta
   url: https://www.stocktitan.net/news/IAC/people-inc-announces-ai-content-partnership-with-er6qwslhw92x.html
-- date: '2026-05-25'
+- date: ''
   title: 'Earnings call transcript: IAC/InterActiveCorp Q3 2025 ...'
   url: https://www.investing.com/news/transcripts/earnings-call-transcript-iacinteractivecorp-q3-2025-misses-revenue-forecast-93CH-4331094
-- date: '2026-05-25'
+- date: ''
   title: IAC launches tender offer to acquire Care.com
   url: https://www.staffingindustry.com/Editorial/Healthcare-Staffing-Report/Archive-Healthcare-Staffing-Report/Feb.-13-2020/IAC-launches-tender-offer-to-acquire-Care.com
 random_paper: 6
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

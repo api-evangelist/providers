@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -113,19 +113,19 @@ plans:
   plan_count: 0
   slug: hyatt-hotels-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Hyatt opens up ChatGPT to employees
   url: https://www.phocuswire.com/news/technology/hyatt-chatgpt-enterprise
-- date: '2026-05-25'
+- date: ''
   title: Way's Premier Experiential Platform Powers Ancillary and ...
   url: https://www.prnewswire.com/news-releases/ways-premier-experiential-platform-powers-ancillary-and-loyalty-experiences-for-hyatt-302537321.html
-- date: '2026-05-25'
+- date: ''
   title: Bullish Hoplamazian talks AI, 2026 pace, more
   url: https://www.hotelinvestmenttoday.com/Financials/C-Corps/Bullish-Hoplamazian-talks-AI-2026-pace-more
-- date: '2026-05-25'
+- date: ''
   title: Hyatt Unveils New Suite of Events Offerings, Together by ...
   url: https://newsroom.hyatt.com/together_by_hyatt
-- date: '2026-05-25'
+- date: ''
   title: 'Transforming Hospitality: AI''s Game-Changing Role in Hotels'
   url: https://transformhospitality.com/blog/transforming-hospitality-ais-game-changing-role-in-hotels/
 random_paper: 0
@@ -135,7 +135,7 @@ rate_limits:
   slug: hyatt-hotels-rate-limits
 score:
   band: minimal
-  composite: 6.0
+  composite: 6.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 27.0
@@ -143,14 +143,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 50.0
-    operational_transparency: 7.9
+    operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -158,7 +158,7 @@ score:
     - north-america
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

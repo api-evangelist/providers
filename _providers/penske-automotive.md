@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Penske Automotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, Transportation, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Jack Hollis posted this
   url: https://www.linkedin.com/posts/hollisjack_penske-automotive-group-acquires-longo-toyota-activity-7399061815567224832-sSAo
-- date: '2026-05-25'
+- date: ''
   title: PENSKE AUTOMOTIVE GROUP INCREASES PRESENCE ...
   url: https://www.prnewswire.com/news-releases/penske-automotive-group-increases-presence-in-california-and-texas-302620129.html
-- date: '2026-05-25'
+- date: ''
   title: Penske Automotive Group and Cox ...
   url: https://www.coxautoinc.com/insights-hub/penske-automotive-group-and-cox-automotive-debut-automated-platform-for-retailing-used-vehicles-esntial-commerce/
-- date: '2026-05-25'
+- date: ''
   title: News Release Archive - Press Releases - S&P Global
   url: https://press.spglobal.com/index.php?s=2429&utm_medium=email&utm_source=Eloqua&utm_campaign=Client-Onboarding-Whitepaper&Webinar-Followup=&l=5&o=550
-- date: '2026-05-25'
+- date: ''
   title: Penske expands service-scheduling AI pilot nationally
   url: https://www.autonews.com/service-and-parts/penske-automotive-group-expands-ai-pilot-nationally/
 random_paper: 10
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

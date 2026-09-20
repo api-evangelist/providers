@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,19 +80,19 @@ nav: Providers
 network: true
 overview: EchoStar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Communications, Connectivity, Fortune 500, IoT, and Satellite.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Investor Relations
   url: https://ir.echostar.com/index.php/press-releases?mobile=../&page=23
-- date: '2026-05-25'
+- date: ''
   title: Latest SATS News - EchoStar Mobile Partners with Jersey Teleco...
   url: https://www.stocktitan.net/news/SATS/page-27.html
-- date: '2026-05-25'
+- date: ''
   title: EchoStar Case Study
   url: https://cloud.google.com/customers/echostar
-- date: '2026-05-25'
+- date: ''
   title: EchoStar Announces Spectrum Sale and Hybrid Mobile ...
   url: https://www.prnewswire.com/news-releases/echostar-announces-spectrum-sale-and-hybrid-mobile-network-operator-mno-agreement-steps-toward-resolving-federal-communications-commissions-fcc-inquiries-302538317.html
-- date: '2026-05-25'
+- date: ''
   title: EchoStar Corporation | Englewood CO
   url: https://www.facebook.com/EchoStar/
 random_paper: 21
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

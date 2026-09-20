@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,19 +89,19 @@ overview: 'Hershey is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Hershey''s developer surface includes engineering blog and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Inside Hershey's Shift to Real-Time, AI-Driven Marketing
   url: https://www.thehersheycompany.com/en_us/home/newsroom/blog/inside-hersheys-shift-to-real-time-ai-driven-marketing.html
-- date: '2026-05-25'
+- date: ''
   title: How The Hershey Company started communicating with AI ...
   url: https://www.ragan.com/hershey-company-ashleigh-pollart-ai/
-- date: '2026-05-25'
+- date: ''
   title: Hershey applies AI across its supply chain operations
   url: https://www.artificialintelligence-news.com/news/hershey-applies-ai-across-its-supply-chain-operations/
-- date: '2026-05-25'
+- date: ''
   title: Hershey's and Coca-Cola modernize creativity with AI ...
   url: https://www.emarketer.com/content/hershey-s-coca-cola-modernize-creativity-with-ai-systems
-- date: '2026-05-25'
+- date: ''
   title: HERSHEY ANNOUNCES AI-ENABLED DECISION
   url: https://www.facebook.com/tristatenewscenter/posts/hershey-announces-ai-enabled-decision-making-the-hershey-company-is-embracing-ai/1553526290109232/
 random_paper: 12
@@ -130,7 +130,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

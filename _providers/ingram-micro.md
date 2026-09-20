@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -134,19 +134,19 @@ plans:
   plan_count: 3
   slug: ingram-micro-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://ingrammicrosaudi.com/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: Ingram Micro expands AI automation and digital technology
   url: https://www.digitalcommerce360.com/2026/03/05/ingram-micro-ai-automation-sales-q4-2025/
-- date: '2026-05-25'
+- date: ''
   title: 'Sales Briefing Assistant: Ingram Micro''s Agentic AI Boosts ...'
   url: https://www.channelpronetwork.com/2025/11/03/how-msps-benefit-from-sales-briefing-assistant-ingram-micros-new-agentic-ai/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Ingram Micro United Kingdom
   url: https://uk.ingrammicro.eu/imagine-next-hub/press-releases
-- date: '2026-05-25'
+- date: ''
   title: Ingram Micro Announces Agentic AI Capabilities, Adds ...
   url: https://www.businesswire.com/news/home/20251028908276/en/Ingram-Micro-Announces-Agentic-AI-Capabilities-Adds-Googles-Gemini-Models-to-Xvantage-AI-Factory
 random_paper: 11
@@ -181,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

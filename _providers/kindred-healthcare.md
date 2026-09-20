@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,19 +91,19 @@ overview: 'Kindred Healthcare is profiled on the [APIs.io](https://apis.io/) net
 
   Kindred Healthcare''s developer surface includes product news and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: El Camino Health
   url: https://www.facebook.com/elcaminohealth/posts/we-are-pleased-to-announce-that-we-have-entered-a-joint-venture-with-kindred-hea/4994182960610135/
-- date: '2026-05-25'
+- date: ''
   title: BIONIK Laboratories Announces Multi-Year Purchase ...
   url: https://www.prnewswire.com/news-releases/bionik-laboratories-announces-multi-year-purchase-agreement-and-ongoing-relationship-with-kindred-hospital-rehabilitation-services-for-inmotion-arm-robotic-systems-300767332.html
-- date: '2026-05-25'
+- date: ''
   title: Kindred Healthcare Improves Care Access with a Digitized ...
   url: https://www.ntst.com/company/news/news-release-kindred-healthcare-improves-care-access-with-a-digitized-front-door
-- date: '2026-05-25'
+- date: ''
   title: Kindred Hospital Expands EksoGT Pilot to Enhance Stroke Rehab ...
   url: https://rehabpub.com/conditions/kindred-hospital-expands-eksogt-pilot-enhance-stroke-rehab/
-- date: '2026-05-25'
+- date: ''
   title: Anchor Health Properties Engaged to Develop Tampa ...
   url: https://www.tgh.org/news/tgh-press-releases/2020/october/anchor-health-properties-engaged-to-develop-tampa-general-hospital-and-kindred-healthcares-first
 random_paper: 19
@@ -133,7 +133,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

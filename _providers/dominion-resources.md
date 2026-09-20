@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Dominion Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electricity, Natural Gas, Utility, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: NextEra to Buy Dominion Energy for $67 Billion. AI Data ...
   url: https://news.futunn.com/en/post/73268628/nextera-to-buy-dominion-energy-for-67-billion-ai-data
-- date: '2026-05-25'
+- date: ''
   title: AI-driven electricity demand sparks a wave of utility ...
   url: https://www.moomoo.com/news/post/70205860/ai-driven-electricity-demand-sparks-a-wave-of-utility-mergers
-- date: '2026-05-25'
+- date: ''
   title: The AI boom is now reshaping the power industry. NextEra ...
   url: https://www.instagram.com/reel/DYgCllOAcy8/
-- date: '2026-05-25'
+- date: ''
   title: NextEra Energy is seeking to acquire Dominion ...
   url: https://www.facebook.com/WMBBTV/posts/nextera-energy-is-seeking-to-acquire-dominion-energy-in-an-all-stock-deal-valued/1424991343006673/
-- date: '2026-05-25'
+- date: ''
   title: NextEra-Dominion Deal Signals Era of AI Utility Mega ...
   url: https://www.bloomberg.com/news/articles/2026-05-18/nextera-dominion-deal-signals-new-era-of-ai-utility-mega-mergers
 random_paper: 1
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

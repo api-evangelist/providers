@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Exide Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Batteries, Manufacturing, Automotive, Industrial, and Recycling.
 press:
-- date: '2026-05-25'
+- date: ''
   title: EXIDE TECHNOLOGIES COMPLETES COMPREHENSIVE NEW ...
   url: https://kommunikasjon.ntb.no/pressemelding/17867026/exide-technologies-completes-comprehensive-new-financing-and-recapitalization?publisherId=4954260
-- date: '2026-05-25'
+- date: ''
   title: Press Release
   url: https://mb.cision.com/Main/21731/4345070/4078577.pdf
-- date: '2026-05-25'
+- date: ''
   title: Exide Technologies launches innovative lithium-ion ...
   url: https://www.prnewswire.com/news-releases/exide-technologies-launches-innovative-lithium-ion-solition-material-handling-battery-302281691.html
-- date: '2026-05-25'
+- date: ''
   title: Press Release
   url: https://www.exidegroup.com/sites/default/files/2025-06/dcw-frankfurt-2025-pr-en.pdf
-- date: '2026-05-25'
+- date: ''
   title: Exide Technologies to present energy storage solutions for ...
   url: https://www.exidegroup.com/eu/en/news/exide-technologies-present-energy-storage-solutions-data-center-applications-data-centre-world
 random_paper: 8
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

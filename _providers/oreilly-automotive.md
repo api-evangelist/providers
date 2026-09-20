@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: O'Reilly Automotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Automotive, and Retail.
 press:
-- date: '2026-05-25'
+- date: ''
   title: O'Reilly outlines 2026 EPS of $3.15-$3.25 while keeping ...
   url: https://seekingalpha.com/news/4583462-oreilly-outlines-2026-eps-of-3_15-3_25-while-keeping-comps-at-3-percentminus-5-percent
-- date: '2026-05-25'
+- date: ''
   title: O'Reilly Automotive, Inc. (ORLY) Latest Press Releases & ...
   url: https://finance.yahoo.com/quote/ORLY/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: O'Reilly Automotive Inc (ORLY) AI Stock Analysis
   url: https://danelfin.com/stock/ORLY
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/898173/000089817324000006/orly-20240207x8k.htm
-- date: '2026-05-25'
+- date: ''
   title: O'Reilly Automotive (NASDAQ:ORLY) has outperformed ...
   url: https://www.facebook.com/Benzinga/posts/oreilly-automotive-nasdaqorly-has-outperformed-the-market-over-the-past-20-years/1415261083932891/
 random_paper: 0
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

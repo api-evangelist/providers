@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,19 +91,19 @@ overview: 'Reliance Steel & Aluminum is profiled on the [APIs.io](https://apis.i
 
   The Reliance Steel & Aluminum catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Reliance Steel & Aluminum Co. Agrees to Acquire ...
   url: https://finance.yahoo.com/news/reliance-steel-aluminum-co-agrees-115000119.html
-- date: '2026-05-25'
+- date: ''
   title: Reliance Steel & Aluminum Co. Completes Acquisition Of ...
   url: https://www.prnewswire.com/news-releases/reliance-steel--aluminum-co-completes-acquisition-of-tubular-steel-inc-300198791.html
-- date: '2026-05-25'
+- date: ''
   title: 'Tag: Reliance Steel & Aluminum'
   url: https://aws.amazon.com/blogs/apn/tag/reliance-steel-aluminum/
-- date: '2026-05-25'
+- date: ''
   title: Steel Industry Press Releases | Global Steel Updates
   url: https://www.steel-technology.com/pressreleases?page=308
-- date: '2026-05-25'
+- date: ''
   title: Reliance Steel & Aluminum Annual Report 2025 ...
   url: https://stocklight.com/stocks/us/nyse-rs/reliance-steel-aluminum/annual-reports/nyse-rs-2025-10K-25678709.pdf
 random_paper: 6
@@ -127,7 +127,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

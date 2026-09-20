@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Exelon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utility, Electric, Gas, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Exelon Uses Synthetic Data Generation of Grid ...
   url: https://resources.nvidia.com/en-us-energy-utilities/exelon-uses-syntheti
-- date: '2026-05-25'
+- date: ''
   title: Exelon's data-center demand grows 12% in third quarter, ...
   url: https://www.reuters.com/business/energy/exelon-beats-quarterly-profit-estimates-higher-electricity-rates-2025-11-04/
-- date: '2026-05-25'
+- date: ''
   title: President and CEO of Exelon Calvin Butler joined Bret Baier ...
   url: https://www.instagram.com/reel/DWHB6gfgGYQ/
-- date: '2026-05-25'
+- date: ''
   title: What AI-Driven Data Centers Mean for Energy Demands
   url: https://www.exeloncorp.com/grid/what-ai-driven-data-centers-mean-for-energy-demands
-- date: '2026-05-25'
+- date: ''
   title: Co-location
   url: https://www.exeloncorp.com/policy-and-issues/Co-location
 random_paper: 13
@@ -122,7 +122,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

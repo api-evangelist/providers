@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -234,19 +234,19 @@ plans:
   plan_count: 3
   slug: td-ameritrade-holding-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Broadridge to Acquire TD Ameritrade Retirement Plan ...
   url: https://www.broadridge.com/press-release/2019/broadridge-acquires-td-ameritrade-retirement-plan-custody-trust-assets
-- date: '2026-05-25'
+- date: ''
   title: Charles Schwab Corp. is planning to use artificial ...
   url: https://www.facebook.com/bloombergbusiness/posts/charles-schwab-corp-is-planning-to-use-artificial-intelligence-to-extend-benefit/1397432698909486/
-- date: '2026-05-25'
+- date: ''
   title: TD Ameritrade Invests in ErisX, a New Regulated ...
   url: https://www.lifehealth.com/td-ameritrade-invests-erisx-new-regulated-cryptocurrency-exchange-spot-futures-trading/
-- date: '2026-05-25'
+- date: ''
   title: TD Ameritrade Launches AI-Driven Educational Platform
   url: https://www.investopedia.com/news/td-ameritrade-launches-aidriven-educational-platform/
-- date: '2026-05-25'
+- date: ''
   title: TD Bank Financial Group - Media Room - Media Releases
   url: https://td.mediaroom.com/index.php?s=19518&%3Bitem=35847&o=965
 random_paper: 11
@@ -314,7 +314,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -90,19 +90,19 @@ nav: Providers
 network: true
 overview: Viacom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Entertainment, Streaming, Broadcasting, and Television.
 press:
-- date: '2026-05-25'
+- date: ''
   title: AI at Disney, Viacom, and Other Entertainment Giants
   url: https://emerj.com/ai-at-disney-viacom-and-other-entertainment-giants/
-- date: '2026-05-25'
+- date: ''
   title: AI is coming for your job after all. These new ...
   url: https://www.facebook.com/marketwatch/posts/ai-is-coming-for-your-job-after-all-these-new-announcements-prove-it/1340876701245981/
-- date: '2026-05-25'
+- date: ''
   title: Viacom | part of Artificial Intelligence in Practice
   url: https://ieeexplore.ieee.org/document/10950732/
-- date: '2026-05-25'
+- date: ''
   title: The Impact of Artificial Intelligence In The Newsroom And ...
   url: https://pollackgroup.com/the-impact-of-artificial-intelligence-in-the-newsroom-and-what-it-means-for-public-relations-professionals/
-- date: '2026-05-25'
+- date: ''
   title: How Viacom uses artificial intelligence to predict the ...
   url: https://digiday.com/media/viacom-uses-artificial-intelligence-predict-success-social-campaigns/
 random_paper: 1
@@ -134,7 +134,7 @@ score:
       reason: never_enriched
   previous_composite: 7.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

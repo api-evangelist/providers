@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,19 +60,19 @@ nav: Providers
 network: true
 overview: Joy Global (Komatsu Mining) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Heavy Equipment, and Industrial.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Komatsu buying Joy Global for $3.7B
   url: https://dailyreporter.com/2016/07/21/komatsu-buying-joy-global-in-deal-valued-at-about-3-7b/
-- date: '2026-05-25'
+- date: ''
   title: Verisk Analytics Set to Join the S&P 500; Joy Global ...
   url: https://www.prnewswire.com/news-releases/verisk-analytics-set-to-join-the-sp-500-joy-global-to-join-sp-midcap-400-300152089.html
-- date: '2026-05-25'
+- date: ''
   title: Joy Global Inc.'s Post
   url: https://www.linkedin.com/posts/joy-global_we-are-excited-to-announce-that-komatsu-has-activity-6255407768925204480-dmaR
-- date: '2026-05-25'
+- date: ''
   title: Komatsu to buy U.S. mining equipment rival Joy Global for ...
   url: https://www.reuters.com/article/business/komatsu-to-buy-us-mining-equipment-rival-joy-global-for-29-billion-idUSKCN1010K2/
-- date: '2026-05-25'
+- date: ''
   title: Joy Global Inc. announces the acquisition of LeTourneau ...
   url: https://www.mlex.com/mlex/articles/2236199/company-statement-joy-global-inc-announces-the-acquisition-of-letourneau-technologies-inc
 random_paper: 18
@@ -96,7 +96,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

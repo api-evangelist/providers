@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'Undocumented first-party REST surface served from The Clorox Company''s corporate WordPress site. Two Clorox-authored namespaces sit alongside WordPress core: tcc/v1 exposes a Safety Data Sheet index a'
@@ -165,19 +165,19 @@ plans:
   plan_count: 0
   slug: clorox-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'New mindset, new platforms: How Clorox innovates twice ...'
   url: https://www.thecloroxcompany.com/blog/innovating-to-win-with-consumers-and-kantar/
-- date: '2026-05-25'
+- date: ''
   title: How the Owner of Hidden Valley Ranch Learned to Love AI
   url: https://www.linkedin.com/posts/the-clorox-company_how-the-owner-of-hidden-valley-ranch-learned-activity-7348122895639900160-ySgj
-- date: '2026-05-25'
+- date: ''
   title: Clorox Reports Q1 Fiscal Year 2026 Results, Updates ...
   url: https://www.prnewswire.com/news-releases/clorox-reports-q1-fiscal-year-2026-results-updates-outlook-302603097.html
-- date: '2026-05-25'
+- date: ''
   title: 'Innovation Spotlight: How The Clorox Company Uses AI ...'
   url: https://consumerbrandsassociation.org/blog/innovation-spotlight-how-the-clorox-company-uses-ai-to-meet-consumer-demand/
-- date: '2026-05-25'
+- date: ''
   title: How Clorox Used AI and Chatbots for Customer Service ...
   url: https://www.chiefmarketer.com/how-clorox-used-ai-and-chatbots-for-customer-service-inquiries-during-the-pandemic/
 random_paper: 3
@@ -209,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

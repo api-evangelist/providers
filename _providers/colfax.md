@@ -61,19 +61,19 @@ nav: Providers
 network: true
 overview: Colfax Corporation (Historical) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fabrication Technology, Historical, Industrial, Medical Technology, and Spin-Off.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Equitable Algorithms: How Human-Centered AI Can ...'
   url: https://www.relmanlaw.com/media/news/1090_2021.05_Hayes_HFSC_AI_Task_Force_Testimony.pdf
-- date: '2026-05-25'
+- date: ''
   title: HOW HUMAN-CENTERED AI CAN ADDRESS SYSTEMIC ...
   url: https://www.govinfo.gov/content/pkg/CHRG-117hhrg44838/html/CHRG-117hhrg44838.htm
-- date: '2026-05-25'
+- date: ''
   title: LDF, SBPC, and Upstart Announce Final Monitorship ...
   url: https://www.naacpldf.org/press-release/ldf-sbpc-and-upstart-announce-final-monitorship-report-on-ai-and-fair-lending/
-- date: '2026-05-25'
+- date: ''
   title: Disparate Impact as Uniquely Relevant in the Age of AI
   url: https://civilrights.org/disparate-impact-age-of-ai/
-- date: '2026-05-25'
+- date: ''
   title: Untether AI Partners with Colfax International to Provide ...
   url: https://www.businesswire.com/news/home/20210204005099/en/Untether-AI-Partners-with-Colfax-International-to-Provide-Peak-Performance-in-AI-Edge-Servers
 random_paper: 21

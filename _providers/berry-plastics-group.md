@@ -6,34 +6,9 @@ access_model:
   pricing: unknown
   public: false
   source:
-  - '{''url'': ''https://www.berryglobal.com'', ''status'': 307, ''note'': ''declared website redirects to https://www.amcor.com/ — a different registrable domain (berryglobal.com -> amcor.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - '{''url'': ''https://www.berryglobal.com'', ''status'': 307, ''note'': ''declared website 307s every path to https://packagingsolutions.amcor.com/ and lands on https://www.amcor.com/ — a different registrable domain (berryglobal.com -> amcor.com); Amcor completed its combination with Berry Global on 2025-04-30 (re-probed 2026-09-19; first noted 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-18'
 api_count: 0
 artifact_total: 12
 common:
@@ -49,17 +24,33 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/berry-global
-- group: start
+  url: https://www.linkedin.com/company/berryglobal
+- group: other
   title: ''
-  type: Portal
-  url: https://www.berryglobal.com/en/products
+  type: Successor
+  url: https://www.amcor.com/
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/berryglobal
+coverage:
+  checked: '2026-09-19'
+  detail: Berry Plastics Group became Berry Global in 2017 and was absorbed into Amcor on 2025-04-30 — www.berryglobal.com now 307s every path (root, /en/products, every /.well-known/ document, /llms.txt, /openapi.json) to packagingsolutions.amcor.com, where they 404 or bounce to a Sitecore not-found page, and neither the company nor its acquirer ever published a developer program.
+  evidence:
+  - status: 307
+    url: https://www.berryglobal.com/
+  - status: 307
+    url: https://www.berryglobal.com/en/products
+  - status: 404
+    url: https://packagingsolutions.amcor.com/.well-known/security.txt
+  - status: 404
+    url: https://packagingsolutions.amcor.com/openapi.json
+  - status: 200
+    url: https://www.amcor.com/media/news/amcor-completes-combination-with-berry-global
+  reason: defunct
+  state: none
 created: '2026-04-19'
-description: Berry Plastics Group was a manufacturer and marketer of plastic packaging products, nonwoven specialty materials, and engineered materials serving customers across consumer and industrial markets. The company was renamed Berry Global Group in 2017 to reflect its global operations and diversified product portfolio beyond plastics. As Berry Global, the company subsequently merged with Amcor in 2024.
+description: Berry Plastics Group was a manufacturer and marketer of plastic packaging products, nonwoven specialty materials, and engineered materials serving customers across consumer and industrial markets. The company was renamed Berry Global Group in 2017 to reflect its global operations and diversified product portfolio beyond plastics. As Berry Global, the company agreed in November 2024 to an all-stock combination with Amcor plc, which completed on 30 April 2025; berryglobal.com now redirects to Amcor's packaging site. It never published a developer program, an API, or a machine-readable contract of any kind.
 features:
 - description: Plastic containers, pails, and rigid packaging for food, beverage, and industrial markets.
   name: Rigid Open Top Packaging
@@ -78,57 +69,28 @@ integrations:
 - description: Berry Global (formerly Berry Plastics) merged with Amcor in 2024 creating a global packaging leader.
   name: Amcor
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-19'
 name: Berry Plastics Group
 nav: Providers
 network: true
-overview: 'Berry Plastics Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Packaging, Plastics, Manufacturing, Materials, and Consumer Goods.
-
-
-  Berry Plastics Group''s developer surface includes developer portal and 4 more developer resources.'
+overview: Berry Plastics Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Packaging, Plastics, Manufacturing, Materials, and Consumer Goods.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Berry Plastics Group, Inc. completed the acquisition of AEP ...
   url: https://uk.marketscreener.com/quote/stock/BERRY-GLOBAL-GROUP-11658375/news/Berry-Plastics-Group-Inc-completed-the-acquisition-of-AEP-Industries-Inc--35224197/
-- date: '2026-05-25'
+- date: ''
   title: Berry Plastics To Buy Smaller Rival In $765M Cash, Stock Deal
   url: https://www.law360.com/articles/832595/berry-plastics-to-buy-smaller-rival-in-765m-cash-stock-deal
-- date: '2026-05-25'
+- date: ''
   title: Berry Plastics Group, Inc. Announces Agreement to ...
   url: https://njbmagazine.com/njb-news-now/berry-plastics-group-inc-announces-agreement-acquire-aep-industries-inc/
-- date: '2026-05-25'
+- date: ''
   title: Berry Plastics Adds Digimarc Barcode to Consumer ...
   url: https://www.prnewswire.com/news-releases/berry-plastics-adds-digimarc-barcode-to-consumer-packaging-solutions-300356525.html
-- date: '2026-05-25'
+- date: ''
   title: Berry Plastics Shares Details of Financial Performance and Plasti...
   url: https://www.industrialinfo.com/news/article/berry-plastics-shares-details-of-financial-performance-and-plastics-industry--231672
 random_paper: 16
-score:
-  band: minimal
-  composite: 7.6
-  coverage:
-    artifact_dirs: 6
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 50.0
-    operational_transparency: 5.3
-  previous_composite: 7.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/berry-plastics-group/refs/heads/main/screenshots/berry-plastics-group-2026-06-20T173147.png
 security:
 - kind: domain-security

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,30 +74,30 @@ overview: 'VF Corporation is profiled on the [APIs.io](https://apis.io/) network
 
   VF Corporation''s developer surface includes developer portal, engineering blog, and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: VF Corporation Hosts Investor Day
   url: https://www.stocktitan.net/news/VFC/vf-corporation-hosts-investor-r7x024anoln8.html
-- date: '2026-05-25'
+- date: ''
   title: VF Corporation enters partnership with Nedap to unlock ...
   url: https://www.prnewswire.com/news-releases/vf-corporation-enters-partnership-with-nedap-to-unlock-end-to-end-inventory-visibility-across-its-global-store-estate-302747170.html
-- date: '2026-05-25'
+- date: ''
   title: vf corporation returns to revenue growth for the full year in fy'26
   url: https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000028/q42026earningspressrelease.htm
-- date: '2026-05-25'
+- date: ''
+  title: VF Corporation Releases Second Quarter Fiscal 2026 Financial Results
+  url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1859/vf-corporation-releases-second-quarter-fiscal-2026
+- date: ''
   title: VF Corporation to Sell Dickies to Bluestar Alliance
   url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1855/vf-corporation-to-sell-dickies-to-bluestar-alliance
-- date: '2026-05-25'
-  title: Cemtrex Receives Virtual Reality (VR) Application Order ...
-  url: https://ir.cemtrex.com/news-events/press-releases/detail/54/cemtrex-receives-virtual-reality-vr-application-order
-- date: '2026-05-20'
-  title: VF Corporation Returns to Revenue Growth for the Full Year in FY'26 With Expanded Margins and Reduced Debt
-  url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1866/vf-corporation-returns-to-revenue-growth-for-the-full-year
-- date: '2026-04-29'
+- date: ''
+  title: 'Building on Progress: VF Corporation’s FY25 Environmental and Social Responsibility Report Shares VF Sustainability and Social Impact'
+  url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1857/building-on-progress-vf-corporations-fy25-environmental
+- date: ''
   title: VF Corporation Announces Fourth Quarter Fiscal 2026 Earnings and Conference Call Date
   url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1865/vf-corporation-announces-fourth-quarter-fiscal-2026
-- date: '2026-03-03'
-  title: VF Corporation Announces Participation at Citi’s 2026 Global Consumer & Retail Conference
-  url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1864/vf-corporation-announces-participation-at-citis-2026
+- date: ''
+  title: VF Corporation Announces Third Quarter Fiscal 2026 Earnings and Conference Call Date
+  url: https://www.vfc.com/investors/news-events-presentations/press-releases/detail/1861/vf-corporation-announces-third-quarter-fiscal-2026-earnings
 random_paper: 0
 score:
   band: minimal
@@ -124,7 +124,7 @@ score:
     - north-america
   previous_composite: 7.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

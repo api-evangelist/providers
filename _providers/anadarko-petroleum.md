@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Anadarko Petroleum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Deepwater, Energy, Natural Gas, Oil and Gas, and Petroleum.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Anadarko Petroleum Corporation; Rule 14a-8 no-action letter
   url: https://www.sec.gov/divisions/corpfin/cf-noaction/14a-8/2019/asyousowetal030419-14a8.pdf
-- date: '2026-05-25'
+- date: ''
   title: Anadarko Petroleum reports earnings for Qtr to March 31
   url: https://www.nytimes.com/1990/04/27/business/anadarko-petroleum-reports-earnings-for-qtr-to-march-31.html
-- date: '2026-05-25'
+- date: ''
   title: Anadarko Boosted CEO's Payout Just Before $33 Billion ...
   url: https://www.oilandgas360.com/anadarko-boosted-ceos-payout-just-before-33-billion-chevron-merger/
-- date: '2026-05-25'
+- date: ''
   title: An Inside Look at Anadarko Petroleum's Digital ...
   url: https://onepetro.org/JPT/article/70/11/40/208603/An-Inside-Look-at-Anadarko-Petroleum-s-Digital
-- date: '2026-05-25'
+- date: ''
   title: Anadarko Announces New Board Member and Promotion ...
   url: https://www.prnewswire.com/news-releases/anadarko-announces-new-board-member-and-promotion-of-amanda-mcmillian-300144415.html
 random_paper: 19

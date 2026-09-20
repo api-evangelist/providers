@@ -27,15 +27,15 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-18'
+  score: 2.5
+  scored_at: '2026-09-19'
 api_count: 0
-artifact_total: 14
+artifact_total: 16
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/betapage/refs/heads/main/security/betapage-domain-security.yml
@@ -52,10 +52,6 @@ common:
   url: https://betapage.co/
 - group: start
   title: ''
-  type: Login
-  url: https://betapage.co/login
-- group: start
-  title: ''
   type: Portal
   url: https://betapage.co/submit
 - group: company
@@ -66,14 +62,6 @@ common:
   title: ''
   type: Support
   url: https://help.betapage.co/
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://help.betapage.co/post/how-do-i-get-started
-- group: other
-  title: ''
-  type: Marketplace
-  url: https://deals.betapage.co/
 - group: other
   title: ''
   type: X
@@ -86,6 +74,63 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/betapage
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://pitchwall.co/pages/advertise
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/betapage/refs/heads/main/plans/betapage-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/betapage-plans-pricing.yml
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/betapage/refs/heads/main/rate-limits/betapage-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/betapage-rate-limits.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/betapage/refs/heads/main/regulatory/betapage-regulatory-posture.yml
+  title: ''
+  type: RegulatoryPosture
+  url: regulatory/betapage-regulatory-posture.yml
+- group: other
+  title: ''
+  type: DataSubjectRequest
+  url: https://pitchwall.co/pages/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://pitchwall.co/pages/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://pitchwall.co/pages/privacy-policy
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://pitchwall.co/pages/faqs
+- group: operate
+  title: ''
+  type: Contact
+  url: https://pitchwall.co/pages/contact
+coverage:
+  checked: '2026-09-19'
+  detail: 'BetaPage is now PitchWall (every betapage.co path 301s to pitchwall.co) and neither brand ships a developer program: pitchwall.co/api, /docs, /developers and /openapi.json all 404, api.betapage.co and api.pitchwall.co do not resolve, the GitHub org has 0 repositories, and the word "API" appears nowhere on the home page, FAQ, advertise page or help center.'
+  evidence:
+  - status: 301
+    url: https://betapage.co/
+  - status: 404
+    url: https://pitchwall.co/api
+  - status: 404
+    url: https://pitchwall.co/openapi.json
+  - status: 404
+    url: https://pitchwall.co/developers
+  - status: 404
+    url: https://pitchwall.co/.well-known/agent-card.json
+  - status: 200
+    url: https://github.com/betapage
+  reason: no-developer-program
+  state: none
 created: '2026-04-19'
 description: BetaPage was a startup discovery and listing platform where founders, makers, and early adopters could discover and submit beta-stage and newly launched tech products. The platform served a community of 65,000+ startup founders and tech enthusiasts with 40,000+ tech products listed. BetaPage has since rebranded and redirects to PitchWall (pitchwall.co), an AI product discovery platform. No public developer API has been identified for BetaPage or its successor PitchWall.
 features:
@@ -108,28 +153,36 @@ integrations:
 - description: BetaPage has rebranded and now redirects to PitchWall (pitchwall.co), an AI product discovery platform.
   name: PitchWall
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-19'
 name: BetaPage
 nav: Providers
 network: true
 overview: 'BetaPage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Startups, Product Launch, Startup Directory, Early Adopters, and Beta Testing.
 
 
-  BetaPage''s developer surface includes developer portal, engineering blog, support, getting-started guide, and 8 more developer resources.'
+  BetaPage''s developer surface includes developer portal, engineering blog, support, pricing, FAQ, and 13 more developer resources.'
+plans:
+- name: Betapage Plans Pricing
+  plan_count: 4
+  slug: betapage-plans-pricing
 random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Betapage Rate Limits
+  slug: betapage-rate-limits
 score:
-  band: minimal
-  composite: 8.8
+  band: emerging
+  composite: 20.1
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    artifact_dirs: 8
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.3
   facets:
-    access_clarity: 6.6
+    access_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 10.7
@@ -137,8 +190,8 @@ score:
     operational_transparency: 2.6
   previous_composite: 8.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  trend: flat
+  scored_at: '2026-09-19'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 16
 common:
@@ -87,19 +87,19 @@ nav: Providers
 network: true
 overview: Williams-Sonoma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, E-Commerce, Home Furnishings, Kitchenware, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Williams-Sonoma partners with OpenAI
   url: https://businessofhome.com/articles/williams-sonoma-partners-with-openai
-- date: '2026-05-25'
+- date: ''
   title: Williams-Sonoma turns to AI to curb headcount growth
   url: https://www.ciodive.com/news/williams-sonoma-AI-curb-headcount-growth-cost-savings/743203/
-- date: '2026-05-25'
+- date: ''
   title: Williams-Sonoma to test ads in ChatGPT
   url: https://www.retaildive.com/news/williams-sonoma-tests-ads-chatgpt-generative-ai-product-discovery/812107/
-- date: '2026-05-25'
+- date: ''
   title: Williams-Sonoma, Inc. and Salesforce Team Up to Serve ...
   url: https://www.salesforce.com/news/press-releases/2023/09/12/williams-sonoma-salesforce-customer/
-- date: '2026-05-25'
+- date: ''
   title: Williams-Sonoma's AI-powered customer service boosts ...
   url: https://www.linkedin.com/posts/marcbenioff_how-williams-sonoma-went-from-ai-concept-activity-7389392655702552577-8Nsj
 random_paper: 2
@@ -123,7 +123,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

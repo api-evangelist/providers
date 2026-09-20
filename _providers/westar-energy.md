@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 11
 common:
@@ -83,19 +83,19 @@ overview: 'Westar Energy is profiled on the [APIs.io](https://apis.io/) network.
 
   Westar Energy''s developer surface includes developer portal, documentation, and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://indexarsolutions.com/category/press-releases/?cst&query-d959cd23-page=7
-- date: '2026-05-25'
+- date: ''
   title: eSmart Systems partners with Evergy to inspect their entire ...
   url: https://www.esmartsystems.com/news-and-resources/esmart-systems-partners-with-evergy-to-inspect-their-entire-transmission-line-system-utilizing-artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: Evergy Releases 2025 Results, Announces New Large ...
   url: https://investors.evergy.com/news-releases/news-release-details/evergy-releases-2025-results-announces-new-large-customers
-- date: '2026-05-25'
+- date: ''
   title: Westar Energy Inc Ks 8-K Earnings Release, Regulated Disclosure
   url: https://last10k.com/sec-filings/54507/0001193125-26-210269.htm
-- date: '2026-05-25'
+- date: ''
   title: Evergy Announces Second Quarter 2025 Results ...
   url: https://investors.evergy.com/news-releases/news-release-details/evergy-announces-second-quarter-2025-results-declares-quarterly
 random_paper: 15
@@ -125,7 +125,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

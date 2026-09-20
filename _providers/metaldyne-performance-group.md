@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,19 +50,19 @@ nav: Providers
 network: true
 overview: Metaldyne Performance Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Powertrain, Components, Manufacturing, and Industrial.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Metaldyne Performance Group Inc reports qtrly earnings ...
   url: https://www.reuters.com/article/business/metaldyne-performance-group-inc-reports-qtrly-earnings-per-share-of-024-idUSL8N1G96LI/
-- date: '2026-05-25'
+- date: ''
   title: M&A Advisory | Middle Market Investment Banking | Page 38
   url: https://peakstonegroup.com/news-insights/page/38/
-- date: '2026-05-25'
+- date: ''
   title: Metaldyne Performance Group Inc. Completes Merger of ...
   url: https://www.prnewswire.com/news-releases/metaldyne-performance-group-inc-completes-merger-of-grede-hhi-group-and-metaldyne-269883401.html
-- date: '2026-05-25'
+- date: ''
   title: Metaldyne Performance Group to Consolidate Brands
   url: https://www.prnewswire.com/news-releases/metaldyne-performance-group-to-consolidate-brands-300300974.html
-- date: '2026-05-25'
+- date: ''
   title: Supplier Metaldyne Performance files for stock offering
   url: https://www.autonews.com/article/20140823/OEM10/140829942/supplier-metaldyne-performance-files-for-stock-offering/
 random_paper: 8
@@ -92,7 +92,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

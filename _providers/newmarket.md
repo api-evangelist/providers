@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,30 +74,30 @@ overview: 'NewMarket Corporation is profiled on the [APIs.io](https://apis.io/) 
 
   NewMarket Corporation''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
+  title: NewMarket Corporation Increases Quarterly Dividend
+  url: https://www.newmarket.com/news/2025/10/newmarket-corporation-increases-quarterly-dividend-4/
+- date: ''
+  title: NewMarket Corporation Completes the Acquisition of Calca Solutions, LLC
+  url: https://www.newmarket.com/news/2025/10/newmarket-corporation-completes-the-acquisition-of-calca-solutions-llc/
+- date: ''
   title: Newmarket-Aurora MPP's motion passes for 'responsible ...
   url: https://www.newmarkettoday.ca/local-news/newmarket-aurora-mpps-motion-passes-for-responsible-use-of-ai-8758380
-- date: '2026-05-25'
-  title: NewMarket signals ongoing strength in petroleum ...
-  url: https://seekingalpha.com/news/4551472-newmarket-signals-ongoing-strength-in-petroleum-additives-and-specialty-materials-amid-market
-- date: '2026-05-25'
-  title: Newmarket awarded for tracking downtown parking with AI
-  url: https://www.thetrillium.ca/municipalities-newsletter/newmarket-awarded-for-tracking-downtown-parking-with-ai-9321993
-- date: '2026-05-25'
-  title: 3Wire Advises AE Industrial-Backed AMPAC on its $700 ...
-  url: https://www.3wp.com/news-insights/3wire-advises-ae-industrial-backed-ampac-on-its-700-million-acquisition-by-newmarket
-- date: '2026-05-25'
-  title: Newmarket was embracing 'AI' well before it becoming ...
-  url: https://www.facebook.com/groups/312928843543136/posts/1243602397142438/
-- date: '2026-04-24'
-  title: NewMarket Corporation Announces Quarterly Dividend
-  url: https://www.newmarket.com/news/2026/04/newmarket-corporation-announces-quarterly-dividend-4/
-- date: '2026-04-23'
+- date: ''
   title: NewMarket Corporation Reports First Quarter 2026 Results
   url: https://www.newmarket.com/news/2026/04/newmarket-corporation-reports-first-quarter-2026-results/
-- date: '2026-03-31'
-  title: NewMarket Corporation Schedules Conference Call and Webcast to Review First Quarter 2026 Results
-  url: https://www.newmarket.com/news/2026/03/newmarket-corporation-schedules-conference-call-and-webcast-to-review-first-quarter-2026-results/
+- date: ''
+  title: NewMarket Corporation Schedules Conference Call and Webcast to Review Third Quarter 2025 Financial Results
+  url: https://www.newmarket.com/news/2025/10/newmarket-corporation-schedules-conference-call-and-webcast-to-review-third-quarter-2025-financial-results/
+- date: ''
+  title: NewMarket Corporation Schedules Conference Call and Webcast to Review Fourth Quarter and Full Year 2025 Financial Results
+  url: https://www.newmarket.com/news/2026/01/newmarket-corporation-schedules-conference-call-and-webcast-to-review-fourth-quarter-and-full-year-2025-financial-results/
+- date: ''
+  title: NewMarket Corporation Announces Quarterly Dividend
+  url: https://www.newmarket.com/news/2026/04/newmarket-corporation-announces-quarterly-dividend-4/
+- date: ''
+  title: NewMarket Corporation Reports Fourth Quarter and Full Year 2025 Results
+  url: https://www.newmarket.com/news/2026/02/newmarket-corporation-reports-fourth-quarter-and-full-year-2025-results/
 random_paper: 6
 score:
   band: minimal
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

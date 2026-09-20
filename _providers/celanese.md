@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 artifact_total: 6
 collections:
@@ -102,19 +102,19 @@ plans:
   plan_count: 0
   slug: celanese-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Celanese Designing the Future at K 2025
   url: https://www.celanese.com/news-and-media/2025/october/celanese-designing-the-future-at-k-2025
-- date: '2026-05-25'
+- date: ''
   title: Telecom Polymers
   url: https://www.celanese.com/industries/telecom
-- date: '2026-05-25'
+- date: ''
   title: Radix and Celanese Partnership Leverages AI to Harness the ...
   url: https://www.radixeng.com/post/radix-and-celanese-partnership-leverages-ai-to-harness-the-power-of-industrial-data
-- date: '2026-05-25'
+- date: ''
   title: Fourth Quarter 2025 Earnings Prepared Comments
   url: https://www.sec.gov/Archives/edgar/data/1306830/000130683026000017/q420258-kex991a.htm
-- date: '2026-05-25'
+- date: ''
   title: Celanese's Chemille AI Assistant Revolutionizes Material ...
   url: https://www.linkedin.com/posts/useready_materialsscience-enterpriseai-chemicalindustry-activity-7433474582881259520-V9F8
 random_paper: 18
@@ -142,7 +142,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

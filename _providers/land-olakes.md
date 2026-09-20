@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,19 +50,19 @@ nav: Providers
 network: true
 overview: Land O'Lakes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Food, Animal Nutrition, Cooperative, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Land O'Lakes and Microsoft launch AI-powered Oz for ...
   url: https://www.linkedin.com/posts/landolakesinc_the-wizard-of-crops-microsofts-oz-aims-activity-7394421577527803904-AIkf
-- date: '2026-05-25'
+- date: ''
   title: Land O'Lakes on a roll with new Butter Balls product launch
   url: https://www.prnewswire.com/news-releases/land-olakes-on-a-roll-with-new-butter-balls-product-launch-301567623.html
-- date: '2026-05-25'
+- date: ''
   title: Why Land O'Lakes is piloting a new AI tool called 'Oz' in bid ...
   url: https://finance.yahoo.com/news/why-land-o-lakes-piloting-165921387.html
-- date: '2026-05-25'
+- date: ''
   title: Microsoft and Land O'Lakes, Inc. are working to accelerate ...
   url: https://www.landolakesinc.com/press/microsoft-and-land-o-lakes-inc-are-working-to-accelerate-agriculture-through-broadband-access-and/
-- date: '2026-05-25'
+- date: ''
   title: Land O'Lakes and Microsoft partner to accelerate AI ...
   url: https://news.microsoft.com/source/2025/11/12/land-olakes-and-microsoft-partner-to-accelerate-ai-innovation-in-agriculture/
 random_paper: 21
@@ -92,7 +92,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,19 +80,19 @@ overview: 'Resolute Forest Products is profiled on the [APIs.io](https://apis.io
 
   The Resolute Forest Products catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Resolute Forest Products Inc. Press Releases | Cision
   url: https://www.newswire.ca/news/resolute-forest-products-inc/
-- date: '2026-05-25'
+- date: ''
   title: Resolute and Fibrek Complete Second Step Arrangement
   url: https://www.prnewswire.com/news-releases/resolute-and-fibrek-complete-second-step-arrangement-164565286.html
-- date: '2026-05-25'
+- date: ''
   title: 'One Year of Domtar: Celebrating Our Progress'
   url: https://www.domtar.com/integrated-domtar-highlights-year-one/
-- date: '2026-05-25'
+- date: ''
   title: Canada's Paper Excellence to buy Resolute Forest ...
   url: https://www.reuters.com/markets/us/canadas-paper-excellence-buy-resolute-forest-products-27-bln-deal-2022-07-06/
-- date: '2026-05-25'
+- date: ''
   title: Paper Excellence acquires Resolute Forest Products | Work
   url: https://www.torys.com/work/2022/07/296eef18-d4aa-4451-bd37-acae30a77034
 random_paper: 8
@@ -123,7 +123,7 @@ score:
     - north-america
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: J.Crew Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Apparel, Specialty Retailer, Fashion, and E-Commerce.
 press:
-- date: '2026-05-25'
+- date: ''
   title: J.Crew hires new CIO in bid to revitalize fading brand
   url: https://www.cio.com/article/240751/j-crew-hires-new-cio-in-bid-to-revitalize-fading-brand.html
-- date: '2026-05-25'
+- date: ''
   title: J.Crew | Latest news, analysis and jobs
   url: https://www.businessoffashion.com/organisations/j-crew-1/
-- date: '2026-05-25'
+- date: ''
   title: J.Crew Group boosts efficiency with custom AI agents and AWS
   url: https://www.linkedin.com/posts/kathleenaschneider_jcrew-group-streamlines-it-vendor-and-customer-activity-7358526503615172608-wSop
-- date: '2026-05-25'
+- date: ''
   title: J.Crew Group, Inc. Announces Comprehensive Agreement ...
   url: https://www.prnewswire.com/news-releases/jcrew-group-inc-announces-comprehensive-agreement-to-deleverage-balance-sheet-and-position-jcrew-and-madewell-for-long-term-profitable-growth-301051688.html
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: J. Crew Group Inc. Downgraded To'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/11477263
 random_paper: 19
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

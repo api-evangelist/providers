@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ overview: 'Las Vegas Sands is profiled on the [APIs.io](https://apis.io/) networ
 
   Las Vegas Sands'' developer surface includes product news and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Tag: Las Vegas Sands'
   url: https://www.intelligize.com/tag/las-vegas-sands/
-- date: '2026-05-25'
+- date: ''
   title: Las Vegas Sands Corp. (LVS) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4893079-las-vegas-sands-corp-lvs-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: This Friday at Preview Las Vegas, we dive into a timely ...
   url: https://www.facebook.com/vegaschamber/posts/this-friday-at-preview-las-vegas-we-dive-into-a-timely-conversation-on-artificia/1306677398172050/
-- date: '2026-05-25'
+- date: ''
   title: Las Vegas Sands Reports First Quarter 2026 Results
   url: https://www.prnewswire.com/news-releases/las-vegas-sands-reports-first-quarter-2026-results-302750790.html
-- date: '2026-05-25'
+- date: ''
   title: Las Vegas Sands details 2026 proxy and pay overhaul
   url: https://www.stocktitan.net/sec-filings/LVS/def-14a-las-vegas-sands-corp-definitive-proxy-statement-a4938dbbd0c8.html
 random_paper: 7
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

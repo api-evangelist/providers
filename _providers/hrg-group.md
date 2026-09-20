@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -54,19 +54,19 @@ nav: Providers
 network: true
 overview: HRG Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Products, Holding Company, and Insurance.
 press:
-- date: '2026-05-25'
+- date: ''
   title: HRG Group, Inc. Sets Date for 2018 Annual Meeting of ...
   url: https://www.prnewswire.com/news-releases/hrg-group-inc-sets-date-for-2018-annual-meeting-of-stockholders-300622951.html
-- date: '2026-05-25'
+- date: ''
   title: Dual stream deep learning for fake news-aware stock ...
   url: https://www.sciencedirect.com/science/article/pii/S2666827026000484
-- date: '2026-05-25'
+- date: ''
   title: Bill Drew
   url: https://govciomedia.com/authors/bill-drew/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/0000109177/000010917721000058/spb-20210930.htm
-- date: '2026-05-25'
+- date: ''
   title: Spectrum Brands fusionne avec HRG dans une opération à $10 ...
   url: https://www.reuters.com/article/spectrum-hrg-idFRL8N1QG5C4/
 random_paper: 21
@@ -102,7 +102,7 @@ score:
     regime_id: insurance
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

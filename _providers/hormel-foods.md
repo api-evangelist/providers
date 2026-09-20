@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Hormel Foods is profiled on the [APIs.io](https://apis.io/) network. 
 
   Hormel Foods'' developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Hormel Foods Announces Corporate Restructuring to ...
   url: https://www.prnewswire.com/news-releases/hormel-foods-announces-corporate-restructuring-to-support-strategic-priorities-and-long-term-growth-302603817.html
-- date: '2026-05-25'
+- date: ''
   title: Tracking the AI Revolution - Features
   url: https://www.hormelfoods.com/inspired/story/tracking-the-ai-revolution/
-- date: '2026-05-25'
+- date: ''
   title: Revolutionizing Food Innovation with AI - Features
   url: https://www.hormelfoods.com/inspired/story/revolutionizing-food-innovation-with-ai/
-- date: '2026-05-25'
+- date: ''
   title: Hormel Foods Deploys AI for Demand Forecasting and ...
   url: https://www.linkedin.com/posts/paul-young-055632b_hormel-foods-has-implemented-artificial-activity-7446966999789948928--G9Z
-- date: '2026-05-25'
+- date: ''
   title: Hormel modernizes supply chain with AI planning platform
   url: https://www.supplychaindive.com/news/hormel-supply-chain-ai-planning-platform/816293/
 random_paper: 21
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

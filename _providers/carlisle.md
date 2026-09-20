@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Carlisle Construction Materials and Carlisle's other operating segments exchange purchase orders, acknowledgments, advance ship notices, and invoices with distributors, retailers, and large contractor
@@ -108,19 +108,19 @@ plans:
   plan_count: 3
   slug: carlisle-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pennsylvania Data Center Partners and PowerHouse ...
   url: https://www.americanrepartners.com/news/pennsylvania-data-center-partners-and-powerhouse-data-centers-launch-joint-venture-to-build-next-gen-1-35-gw-hyperscale-data-center-campus-in-carlisle-pennsylvania
-- date: '2026-05-25'
+- date: ''
   title: Nvidia and Microsoft Back AI for Genomic Data | Mike Carlisle ...
   url: https://www.linkedin.com/posts/carlislemike_ai-artificialintelligence-intelligence-activity-7416615564543983616-RM2I
-- date: '2026-05-25'
+- date: ''
   title: Our Stories
   url: https://www.carlisle.com/our-stories/our-stories-archive/our-stories/2025/Carlisle-Companies-is-helping-bridge-the-gap-between-energy-capacity-and-growing-energy-demand-in-the-U-S-/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence Task Force (AITF) 90 Day Update
   url: https://www.dhs.gov/sites/default/files/2024-05/24_02_14_sec_signed_ai_task_force_memo_508.pdf.pdf
-- date: '2026-05-25'
+- date: ''
   title: Ducker Carlisle Adds Data and AI Services to Help Clients ...
   url: https://www.prnewswire.com/news-releases/ducker-carlisle-adds-data-and-ai-services-to-help-clients-accelerate-growth-302309287.html
 random_paper: 11
@@ -148,7 +148,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

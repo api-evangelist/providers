@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,19 +86,19 @@ overview: 'Owens & Minor is profiled on the [APIs.io](https://apis.io/) network.
 
   Owens & Minor''s developer surface includes engineering blog and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: OWENS & MINOR, INC_December 31, 2024
   url: https://www.sec.gov/Archives/edgar/data/75252/000155837025001940/omi-20241231x10k.htm
-- date: '2026-05-25'
+- date: ''
   title: PLATINUM EQUITY TO ACQUIRE PRODUCTS & ...
   url: https://www.prnewswire.com/news-releases/platinum-equity-to-acquire-products--healthcare-services-business-from-owens--minor-302577545.html
-- date: '2026-05-25'
+- date: ''
   title: Owens & Minor Announces Major Innovations to Products ...
   url: https://www.businesswire.com/news/home/20250409265381/en/Owens-Minor-Announces-Major-Innovations-to-Products-Healthcare-Services-Network
-- date: '2026-05-25'
+- date: ''
   title: Owens & Minor rebrands after $375M sale
   url: https://www.beckershospitalreview.com/supply-chain/owens-minor-rebrands-after-375m-sale/
-- date: '2026-05-25'
+- date: ''
   title: Owens & Minor is in talks to sell Products & Healthcare ...
   url: https://www.massdevice.com/owens-minor-to-sell-products-healthcare-services/
 random_paper: 6
@@ -128,7 +128,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

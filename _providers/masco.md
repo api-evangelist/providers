@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,19 +83,19 @@ nav: Providers
 network: true
 overview: Masco Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Improvement, Building Products, Plumbing, Paint, and Cabinets.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Masco Corporation (via Public) / Proxy Statement (Form DEF 14A)
   url: https://www.publicnow.com/view/0D7EAD8934FD6BC03A593C9014AC2E72BD8F8F85?1775854304
-- date: '2026-05-25'
+- date: ''
   title: Masco Corporation to Host Investor Day on May 13, 2026
   url: https://www.barchart.com/story/news/1317054/masco-corporation-to-host-investor-day-on-may-13-2026
-- date: '2026-05-25'
+- date: ''
   title: Masco Corporation Provides Strategic Update and Long- ...
   url: https://www.gurufocus.com/news/8855424/masco-corporation-provides-strategic-update-and-longterm-financial-targets?mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Masco sets first-quarter earnings release and conference call
   url: https://www.sahmcapital.com/news/content/masco-sets-first-quarter-earnings-release-and-conference-call-2026-03-23
-- date: '2026-05-25'
+- date: ''
   title: Mattoboard Announces Backing from Masco, Home Depot ...
   url: https://www.prnewswire.com/news-releases/mattoboard-announces-backing-from-masco-home-depot-ventures-and-top-vcs-around-the-globe-to-digitize-the-interior-design-studio-302373674.html
 random_paper: 3
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

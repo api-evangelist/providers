@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -597,19 +597,19 @@ plans:
   plan_count: 2
   slug: aflac-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Aflac Incorporated Discloses Cybersecurity Incident
   url: https://www.prnewswire.com/news-releases/aflac-incorporated-discloses-cybersecurity-incident-302487036.html
-- date: '2026-05-25'
+- date: ''
   title: Aflac Breach Highlights Need for Proactive Cybersecurity ...
   url: https://www.linkedin.com/posts/dcass001_aflac-data-breach-affects-2265-million-activity-7416841698208555008-obqx
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at Aflac - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-aflac/
-- date: '2026-05-25'
+- date: ''
   title: Privacy Policy
   url: https://www.aflac.com/about-aflac/privacy-policy.aspx
-- date: '2026-05-25'
+- date: ''
   title: Why Aflac isn't rushing generative AI adoption
   url: https://www.ciodive.com/news/Aflac-CIO-Shelia-Anderson-generative-ai-cloud-strategy/742503/
 random_paper: 19
@@ -679,7 +679,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

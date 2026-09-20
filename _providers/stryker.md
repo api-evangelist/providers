@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -119,19 +119,19 @@ overview: 'Stryker is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   The Stryker catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Stryker to buy smart hospital technology firm Care.ai
   url: https://www.healthcaredive.com/news/stryker-buy-care-ai-smart-hospital/724057/
-- date: '2026-05-25'
+- date: ''
   title: Latest care.ai® News
   url: https://www.care.ai/news.html
-- date: '2026-05-25'
+- date: ''
   title: Stryker announces definitive agreement to acquire care.ai, ...
   url: https://www.stryker.com/us/en/about/news/2024/stryker-announces-definitive-agreement-to-acquire-care-ai--a-lea.html
-- date: '2026-05-25'
+- date: ''
   title: Stryker completes acquisition of care.ai
   url: https://www.stryker.com/us/en/about/news/2024/stryker-completes-acquisition-of-care-ai.html
-- date: '2026-05-25'
+- date: ''
   title: Advanced Digital Healthcare
   url: https://www.stryker.com/us/en/portfolios/medical-surgical-equipment/advanced-digital-healthcare.html
 random_paper: 18
@@ -172,7 +172,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

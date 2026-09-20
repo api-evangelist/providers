@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,19 +50,19 @@ nav: Providers
 network: true
 overview: Omnicom Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Omnicom Completes Acquisition of Interpublic, Forming the ...
   url: https://www.omc.com/newsroom/omnicom-completes-acquisition-of-interpublic-forming-the-worlds-leading-marketing-and-sales-company-built-for-intelligent-growth-in-the-next-era/
-- date: '2026-05-25'
+- date: ''
   title: 'Omnicom Unveils the New Omni: an AI-Driven Marketing ...'
   url: https://www.prnewswire.com/news-releases/omnicom-unveils-the-new-omni-an-ai-driven-marketing-intelligence-platform-delivering-measurable-sales-growth-for-brands-302654787.html
-- date: '2026-05-25'
+- date: ''
   title: Omnicom's layoffs come as the advertising industry ...
   url: https://www.facebook.com/FastCompany/posts/omnicoms-layoffs-come-as-the-advertising-industry-competes-with-ai-reshaping-cre/1228254195835707/
-- date: '2026-05-25'
+- date: ''
   title: It's “Grow-Time” For Omnicom Group And Its Customers
   url: https://www.forrester.com/blogs/its-grow-time-for-omnicom-group-and-its-customers/
-- date: '2026-05-25'
+- date: ''
   title: 'Omnicom AI: Strategy in PR Dominance'
   url: https://www.klover.ai/omnicom_ai_strategy_in_pr_dominance/
 random_paper: 14
@@ -94,7 +94,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

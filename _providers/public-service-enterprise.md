@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Public Service Enterprise Group is profiled on the [APIs.io](https://
 
   Public Service Enterprise Group''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Public Service Enterprise Group Inc. PEG | US News Best Stocks
   url: https://money.usnews.com/investing/stocks/peg-public-service-enterprise-group-inc
-- date: '2026-05-25'
+- date: ''
   title: PSEG Q1 2026 earnings rise; EPS hits $1.55 | PEG 8-K Filing
   url: https://www.stocktitan.net/sec-filings/PEG/8-k-public-service-enterprise-group-inc-reports-material-event-e057bf7f2329.html
-- date: '2026-05-25'
+- date: ''
   title: PSEG ANNOUNCES 2025 RESULTS
   url: https://investor.pseg.com/investor-news-and-events/financial-news/financial-news-details/2026/PSEG-ANNOUNCES-2025-RESULTS/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: US utility PSEG hikes up spending plan as data center ...
   url: https://www.reuters.com/business/energy/utility-public-service-enterprise-forecasts-higher-2025-profit-raises-spending-2025-02-25/
-- date: '2026-05-25'
+- date: ''
   title: PSEG ANNOUNCES FIRST QUARTER 2026 RESULTS
   url: https://www.prnewswire.com/news-releases/pseg-announces-first-quarter-2026-results-302762109.html
 random_paper: 19
@@ -116,7 +116,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

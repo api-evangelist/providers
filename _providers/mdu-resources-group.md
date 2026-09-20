@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ overview: 'MDU Resources Group is profiled on the [APIs.io](https://apis.io/) ne
 
   MDU Resources Group''s developer surface includes engineering blog and 2 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sustainability Report 2023
   url: https://www.mdu.com/wp-content/uploads/2024/06/MDU_2023_ESG_report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Integrity
   url: https://www.mdu.com/about-us/integrity/
-- date: '2026-05-25'
+- date: ''
   title: 2024 ANNUAL REPORT
   url: https://s29.q4cdn.com/584607104/files/doc_financials/2024/ar/MDUR_AR_10K_PROXY_WEB-compressed_2.pdf
-- date: '2026-05-25'
+- date: ''
   title: MDU Resources Group Announces Increased Capital ...
   url: https://www.prnewswire.com/news-releases/mdu-resources-group-announces-increased-capital-investment-plan-for-2026-2030-302622109.html
-- date: '2026-05-25'
+- date: ''
   title: MDU expands LTIP share pool and updates conduct code
   url: https://www.stocktitan.net/sec-filings/MDU/8-k-mdu-resources-group-inc-reports-material-event-f115bf1b99de.html
 random_paper: 2
@@ -104,7 +104,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

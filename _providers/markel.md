@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Markel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Insurance, and Specialty Insurance.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Markel International Launches AI Center and Appoints Head ...
   url: https://news.ambest.com/newscontent.aspx?refnum=273200&altsrc=23
-- date: '2026-05-25'
+- date: ''
   title: Markel Canada Partners with hyperexponential to Build AI ...
   url: https://www.businesswire.com/news/home/20260512062496/en/Markel-Canada-Partners-with-hyperexponential-to-Build-AI-Native-Underwriting-Environment
-- date: '2026-05-25'
+- date: ''
   title: Markel International launches AI Centre of Enablement ...
   url: https://www.prnewswire.com/news-releases/markel-international-launches-ai-centre-of-enablement-with-appointment-of-head-of-ai-302711411.html
-- date: '2026-05-25'
+- date: ''
   title: Jump, Markel launch AI collaboration - Business Insurance
   url: https://www.businessinsurance.com/jump-markel-launch-ai-collaboration/
-- date: '2026-05-25'
+- date: ''
   title: Halo ai and Markel Launch the Next Generation of Equine ...
   url: https://finance.yahoo.com/news/halo-ai-markel-launch-next-150300788.html
 random_paper: 20
@@ -109,7 +109,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

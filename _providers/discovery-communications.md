@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Discovery Communications is profiled on the [APIs.io](https://apis.io
 
   Discovery Communications'' developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Warner Bros. Discovery Announces Commencement of ...
   url: https://www.prnewswire.com/news-releases/warner-bros-discovery-announces-commencement-of-consent-solicitations-302776827.html
-- date: '2026-05-25'
+- date: ''
   title: 'The 5th Paradigm: AI-Driven Scientific Discovery'
   url: https://cacm.acm.org/opinion/the-5th-paradigm-ai-driven-scientific-discovery/
-- date: '2026-05-25'
+- date: ''
   title: Discovery Makes $100 Million Investment in Digital Content ...
   url: https://www.eeworldonline.com/discovery-makes-100-million-investment-in-digital-content-company/
-- date: '2026-05-25'
+- date: ''
   title: Warner Bros. Discovery to split into two companies ...
   url: https://apnews.com/article/warner-brothers-discovery-streaming-cable-cnn-tnt-1cdafec11e6cb542ca644e20dd29e826
-- date: '2026-05-25'
+- date: ''
   title: Discovery Communications Invests $100 Million In Group ...
   url: https://www.adexchanger.com/publishers/discovery-communications-invests-100-million-group-nine-media/
 random_paper: 12
@@ -110,7 +110,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

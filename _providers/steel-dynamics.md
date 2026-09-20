@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,19 +88,19 @@ overview: 'Steel Dynamics is profiled on the [APIs.io](https://apis.io/) network
 
   Steel Dynamics'' developer surface includes engineering blog and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Steel Dynamics, Inc.
   url: https://www.sec.gov/Archives/edgar/data/1022671/000155837025002901/stld-20250425xdef14a.htm
-- date: '2026-05-25'
+- date: ''
   title: Steel Dynamics Provides Fourth Quarter 2025 Earnings ...
   url: https://www.prnewswire.com/news-releases/steel-dynamics-provides-fourth-quarter-2025-earnings-guidance-302644694.html
-- date: '2026-05-25'
+- date: ''
   title: Noodle.ai and SMS digital launch AI-fueled application for ...
   url: https://www.sms-group.com/es-es/press-and-media/press-releases/press-release-detail/noodleai-and-sms-digital-launch-ai-fueled-application-for-the-steel-industry
-- date: '2026-05-25'
+- date: ''
   title: Sustainable steel supply deal for Tuscaloosa.
   url: https://group.mercedes-benz.com/sustainability/resources-circularity/materials/co2-reduced-steel-tuscaloosa.html
-- date: '2026-05-25'
+- date: ''
   title: Steel Dynamics schedules first-quarter earnings call and ...
   url: https://www.sahmcapital.com/news/content/steel-dynamics-schedules-first-quarter-earnings-call-and-webcast-2026-04-09
 random_paper: 12
@@ -135,7 +135,7 @@ score:
       reason: never_enriched
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Eversource Energy is profiled on the [APIs.io](https://apis.io/) netw
 
   Eversource Energy''s developer surface includes support and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: '"AI in Utilities: Insights from Eversource, NYPA, and more"'
   url: https://www.linkedin.com/posts/jeremiah-karpowicz_dtech-ai-utilities-activity-7382417874205925376-QNTl
-- date: '2026-05-25'
+- date: ''
   title: Eversource | UConn Tech Park | University of Connecticut
   url: https://techpark.uconn.edu/category/eversource/
-- date: '2026-05-25'
+- date: ''
   title: 'Outsmarting outages: AI predicts disruptions before they ...'
   url: https://www.utilitydive.com/news/outsmarting-outages-ai-predicts-disruptions-before-they-happen/743367/
-- date: '2026-05-25'
+- date: ''
   title: 'EVERSOURCE ENERGY (Form: DEF 14A, Received'
   url: https://content.edgar-online.com/ExternalLink/EDGAR/0001104659-25-026671.html?hash=7b8aa2efe447653bed202b05a3bec0bee900227b28c608585fee99b05d6ff2e6&dest=tm252357-3_def14a_htm_tI1EO2
-- date: '2026-05-25'
+- date: ''
   title: How an agile SAP approach gave Eversource a power surge
   url: https://www.ey.com/en_us/insights/consulting/how-an-agile-sap-approach-gave-eversource-a-power-surge
 random_paper: 4
@@ -116,7 +116,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -141,19 +141,19 @@ plans:
   plan_count: 0
   slug: brinker-international-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: BRINKER INTERNATIONAL REPORTS FIRST QUARTER ...
   url: https://www.prnewswire.com/news-releases/brinker-international-reports-first-quarter-of-fiscal-2026-results-and-reiterates-fiscal-2026-guidance-302597831.html
-- date: '2026-05-25'
+- date: ''
   title: 'Case Study: Brinker International'
   url: https://blackboxintelligence.com/resources/case-studies/case-study-brinker-international/
-- date: '2026-05-25'
+- date: ''
   title: Financials - Quarterly Results
   url: https://investors.brinker.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Brinker makes dining digital with Red Hat
   url: https://www.redhat.com/en/success-stories/brinker
-- date: '2026-05-25'
+- date: ''
   title: BRINKER INTERNATIONAL REPORTS THIRD QUARTER ...
   url: https://www.prnewswire.com/news-releases/brinker-international-reports-third-quarter-of-fiscal-2026-results-and-updates-fiscal-2026-guidance-302756567.html
 random_paper: 16
@@ -186,7 +186,7 @@ score:
     - north-america
   previous_composite: 13.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

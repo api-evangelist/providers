@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Green Plains is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biofuel, Ethanol, Agriculture, Energy, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: GPRE Dividends at Risk? — The Surprising SEC Filings Green ...
   url: https://moneysense.ai/sec-filings/company/gpre
-- date: '2026-05-25'
+- date: ''
   title: Green Plains Announces Leadership Transition
   url: https://greenstocknews.com/news/nasdaq/gpre/green-plains-inc-announces-leadership-transition
-- date: '2026-05-25'
+- date: ''
   title: United, Tallgrass, and Green Plains Form Joint Venture to ...
   url: https://www.prnewswire.com/news-releases/united-tallgrass-and-green-plains-form-joint-venture-to-develop-new-sustainable-aviation-fuel-technology-using-ethanol-301734695.html
-- date: '2026-05-25'
+- date: ''
   title: Green Plains Inc. (GPRE) Q1 2026 Earnings Call Transcript
   url: https://seekingalpha.com/article/4902414-green-plains-inc-gpre-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Green Plains Inc. (GPRE) reports earnings - Quartz
   url: https://qz.com/green-plains-inc-gpre-reports-earnings-1851758511
 random_paper: 11
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

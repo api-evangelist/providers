@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,19 +113,19 @@ overview: 'Cintas is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Cintas'' developer surface includes support, engineering blog, and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cintas Builds Generative AI-Powered Internal Knowledge ...
   url: https://www.prnewswire.com/news-releases/cintas-builds-generative-ai-powered-internal-knowledge-center-with-google-cloud-302111348.html
-- date: '2026-05-25'
+- date: ''
   title: What impact is AI having on media localization? (Prof. Jorge ...
   url: https://www.youtube.com/watch?v=vDcr-QlT3rA
-- date: '2026-05-25'
+- date: ''
   title: 'From Legacy to Innovation: How Cintas is Transforming ...'
   url: https://lemongrasscloud.com/articles/legacy-to-innovation-how-cintas-is-transforming-with-cloud-data-and-ai/
-- date: '2026-05-25'
+- date: ''
   title: 'Cintas'' AI Strategy: Analysis of Dominance in Business ...'
   url: https://www.klover.ai/cintas-ai-strategy-analysis-of-dominance-in-business-services-ai/
-- date: '2026-05-25'
+- date: ''
   title: 2025-form-10-k.pdf
   url: https://www.cintas.com/docs/default-source/investor-relations/annual-reports/2025-form-10-k.pdf
 random_paper: 4
@@ -149,7 +149,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

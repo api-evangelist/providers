@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -112,19 +112,19 @@ plans:
   plan_count: 1
   slug: enterprise-products-partners-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Letter to Investors
   url: https://www.enterpriseproducts.com/media-library/epd/71accb1e-e1fd-4523-9c31-53d107c49a86.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'Enterprise Products'' AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/enterprise-products-ai-strategy-analysis-of-dominance-in-energy-services-pipelines-ai/
-- date: '2026-05-25'
+- date: ''
   title: Why Long-Term Investors Should Look at Enterprise ...
   url: https://finance.yahoo.com/news/why-long-term-investors-look-160000040.html
-- date: '2026-05-25'
+- date: ''
   title: Leadership
   url: https://www.enterpriseproducts.com/about-us/leadership/
-- date: '2026-05-25'
+- date: ''
   title: EPD Enterprise Products Partners LP Common Units Stock ...
   url: https://seekingalpha.com/symbol/EPD
 random_paper: 16
@@ -170,7 +170,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

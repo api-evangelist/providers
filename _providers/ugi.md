@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: UGI International manages LPG and natural gas distribution operations across Europe, primarily through Flaga, AvantiGas, and other regional brands serving 17 European countries with liquid petroleum g
@@ -100,19 +100,19 @@ plans:
   plan_count: 1
   slug: ugi-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: UGI Energy Services and Prime Data Centers Forge ...
   url: https://www.ugicorp.com/news-releases/news-release-details/ugi-energy-services-and-prime-data-centers-forge-strategic
-- date: '2026-05-25'
+- date: ''
   title: UGI Energy Services, Prime Data Centers Announce $100 ...
   url: https://www.facebook.com/PaEnvironmentDigest/posts/ugi-energy-services-prime-data-centers-announce-100-million-partnership-to-devel/1534293588657129/
-- date: '2026-05-25'
+- date: ''
   title: UGI to build gas pipeline for Prime data center in ...
   url: https://www.investing.com/news/company-news/ugi-to-build-gas-pipeline-for-prime-data-center-in-pennsylvania-93CH-4665359
-- date: '2026-05-25'
+- date: ''
   title: UGI Energy Services Blog | artificial intelligence
   url: https://blog.ugies.com/topic/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: 'Press Release: UGI Selects IntelliShift for Vehicle AI Video ...'
   url: https://intellishift.com/resources/blog/press-release-ugi-selects-intellishift-for-vehicle-ai-video-deployment/
 random_paper: 17
@@ -157,7 +157,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

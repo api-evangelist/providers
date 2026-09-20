@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Tractor Supply is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Commerce, EDI, Retail, and Rural Lifestyle.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tractor Supply Wins 2024 CIO 100 Award
   url: https://corporate.tractorsupply.com/newsroom/news-releases/news-releases-details/2024/Tractor-Supply-Wins-2024-CIO-100-Award/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Tractor Supply Company shows the power of AI in retail | IBM
   url: https://listen.casted.us/public/95/AI-in-Action-9040dcb1/8208c186
-- date: '2026-05-25'
+- date: ''
   title: Tractor Supply expands AI, ecommerce and delivery network
   url: https://www.digitalcommerce360.com/2026/01/30/tractor-supply-ai-ecommerce-delivery-network-sales-q4-2025/
-- date: '2026-05-25'
+- date: ''
   title: Tractor Supply Co. transforms its marketing content through ...
   url: https://www.prnewswire.com/news-releases/tractor-supply-co-transforms-its-marketing-content-through-new-itg-partnership-302757285.html
-- date: '2026-05-25'
+- date: ''
   title: Tractor Supply Named One of Computerworld's Best ...
   url: https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2024/Tractor-Supply-Named-One-of-Computerworlds-Best-Places-to-Work-in-IT/default.aspx
 random_paper: 1
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

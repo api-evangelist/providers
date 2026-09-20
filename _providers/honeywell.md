@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Honeywell Forge is the connected enterprise platform that provides developer integration capabilities for building automation, industrial IoT, aerospace data, and connected building management. Access
@@ -88,19 +88,19 @@ plans:
   plan_count: 1
   slug: honeywell-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Accelerate Your AI Journey with Honeywell
   url: https://www.honeywell.com/us/en/ai
-- date: '2026-05-25'
+- date: ''
   title: HONEYWELL UNVEILS AI-POWERED BUILDING ...
   url: https://www.prnewswire.com/news-releases/honeywell-unveils-ai-powered-building-management-solution-302477304.html
-- date: '2026-05-25'
+- date: ''
   title: Honeywell Unveils Commercial Launch of AI-Powered ...
   url: https://www.honeywell.com/us/en/press/2026/03/honeywell-unveils-commercial-launch-of-ai-powered-control-room-assistant-following-successful-pilot
-- date: '2026-05-25'
+- date: ''
   title: Honeywell To Power Energy Sector With New Artificial ...
   url: https://www.honeywell.com/us/en/press/2024/10/honeywell-to-power-energy-sector
-- date: '2026-05-25'
+- date: ''
   title: 'Industrial AI Insights: Key Findings from Honeywell'
   url: https://www.honeywell.com/us/en/ai/research
 random_paper: 15
@@ -128,7 +128,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 17.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

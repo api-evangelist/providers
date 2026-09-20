@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ overview: 'Oshkosh is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Oshkosh''s developer surface includes engineering blog and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Oshkosh Brings Autonomy, AI and more to CES 2026
   url: https://www.oshkoshcorp.com/news/2026/01-06-26-bringing-autonomy-ai-connectivity-and-electrification-to-ces-2026
-- date: '2026-05-25'
+- date: ''
   title: Oshkosh Corporation to Debut Advanced Technology in ...
   url: https://www.businesswire.com/news/home/20251216152586/en/Oshkosh-Corporation-to-Debut-Advanced-Technology-in-Autonomy-AI-Connectivity-and-Electrification-at-CES-2026
-- date: '2026-05-25'
+- date: ''
   title: Oshkosh to Debut Advanced Technology at CES 2026
   url: https://www.oshkoshcorp.com/news/2025/12-16-25-oshkosh-to-debut-advanced-technology-at-ces-2026
-- date: '2026-05-25'
+- date: ''
   title: Oshkosh Corporation Introduces AI-Enabled Material ...
   url: https://www.morningstar.com/news/business-wire/20260319053286/oshkosh-corporation-introduces-ai-enabled-material-contamination-detection-technology-developed-by-mcneilus
-- date: '2026-05-25'
+- date: ''
   title: Oshkosh Corporation
   url: https://www.facebook.com/oshkoshcorporation/posts/were-excited-to-announce-that-oshkosh-corporation-has-been-named-a-cio-100-award/1367076805458783/
 random_paper: 19
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

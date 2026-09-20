@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -54,19 +54,19 @@ nav: Providers
 network: true
 overview: Mercury General is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Mercury Creates CTO Position to Drive Digital Strategy
   url: https://newsroom.mercuryinsurance.com/mercury-creates-chief-technology-officer-position-to-drive-digital-strategy
-- date: '2026-05-25'
+- date: ''
   title: Mercury General Strategy and Business Model
   url: https://umbrex.com/resources/company-profiles/mercury-general/
-- date: '2026-05-25'
+- date: ''
   title: Former CTO at Artificial Intelligence Firm Appen Joins Mercury ...
   url: https://news.ambest.com/newscontent.aspx?refnum=248336&altsrc=9
-- date: '2026-05-25'
+- date: ''
   title: Mercury General Corporation Announces Fourth Quarter ...
   url: https://www.prnewswire.com/news-releases/mercury-general-corporation-announces-fourth-quarter-and-fiscal-2025-results-and-declares-quarterly-dividend-302689756.html
-- date: '2026-05-25'
+- date: ''
   title: Annual Report for Fiscal Year Ending December 31, 2024 ...
   url: https://www.publicnow.com/view/52A756E10F4C61184DE58E0B543465DBF9749AB8?1739310479
 random_paper: 14
@@ -102,7 +102,7 @@ score:
     regime_id: insurance
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

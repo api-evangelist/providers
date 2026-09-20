@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 5
 apis:
 - description: Comprehensive financial planning and advisory services from Thrivent Financial, offering personalized advice across investments, insurance, estate planning, and retirement. Services include free Money
@@ -124,19 +124,19 @@ plans:
   plan_count: 3
   slug: thrivent-financial-for-lutherans-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Parents' Retirement Threatened as High Costs Drive Adult ...
   url: https://newsroom.thrivent.com/2025-04-30-Parents-Retirement-Threatened-as-High-Costs-Drive-Adult-Children-Home,-Thrivents-Annual-Boomerang-Kids-Survey-Shows
-- date: '2026-05-25'
+- date: ''
   title: Thrivent Financial for Lutherans Boosts Holdings in Equity ...
   url: https://www.marketbeat.com/instant-alerts/filing-thrivent-financial-for-lutherans-boosts-holdings-in-equity-lifestyle-properties-inc-els-2026-05-17/
-- date: '2026-05-25'
+- date: ''
   title: Thrivent to Add 600 New Financial Advisers in 2026 as Part of ...
   url: https://news.ambest.com/newscontent.aspx?refnum=273194&altsrc=23
-- date: '2026-05-25'
+- date: ''
   title: Thrivent Receives A++ (Superior) Rating, Stable Outlook ...
   url: https://www.prnewswire.com/news-releases/thrivent-receives-a-superior-rating-stable-outlook-from-am-best-302609261.html
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Thrivent Financial for Lutherans'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12298853
 random_paper: 5
@@ -175,7 +175,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

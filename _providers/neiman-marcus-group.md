@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,30 +64,30 @@ nav: Providers
 network: true
 overview: Neiman Marcus Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Luxury, Department Store, and Fortune 1000.
 press:
-- date: '2026-05-25'
-  title: HBC completes acquisition of Neiman Marcus Group
-  url: https://www.rbccm.com/en/expertise/transactions/deal.page?dcr=templatedata/rbccm/deals/data/2025/01/hbc_completes_acquisition_of_neiman_marcus_group
-- date: '2026-05-25'
-  title: Saks Promises 'Innovation' After Neiman Marcus Acquisition
-  url: https://www.pymnts.com/news/retail/2024/saks-promises-innovation-and-growth-after-completing-neiman-marcus-acquisition/
-- date: '2026-05-25'
-  title: Saks Global Announces Additional Actions to Strengthen ...
-  url: https://www.prnewswire.com/news-releases/saks-global-announces-additional-actions-to-strengthen-luxury-retail-positioning-and-drive-profitable-and-sustainable-growth-302684169.html
-- date: '2026-05-25'
-  title: Industry Insights
-  url: https://www.afslaw.com/services/1121/all
-- date: '2026-05-25'
-  title: Saks Global completes $2.7 billion Neiman Marcus ...
-  url: https://www.digitalcommerce360.com/2024/12/31/saks-global-completes-neiman-marcus-acquisition/
-- date: '2026-05-01'
-  title: Saks Global Receives Disclosure Statement Approval, Advancing Toward Confirmation and Emergence
-  url: https://www.saksglobal.com/2026-05-01-Saks-Global-Receives-Disclosure-Statement-Approval,-Advancing-Toward-Confirmation-and-Emergence
-- date: '2026-04-02'
+- date: ''
+  title: Saks Global Announces Additional Actions to Strengthen Luxury Retail Positioning and Drive Profitable and Sustainable Growth
+  url: https://www.saksglobal.com/2026-02-10-Saks-Global-Announces-Additional-Actions-to-Strengthen-Luxury-Retail-Positioning-and-Drive-Profitable-and-Sustainable-Growth
+- date: ''
   title: Saks Global Enters into Restructuring Support Agreement with Its Capital Partners
   url: https://www.saksglobal.com/2026-04-02-Saks-Global-Enters-into-Restructuring-Support-Agreement-with-Its-Capital-Partners
-- date: '2026-03-16'
+- date: ''
+  title: Saks Global Receives Disclosure Statement Approval, Advancing Toward Confirmation and Emergence
+  url: https://www.saksglobal.com/2026-05-01-Saks-Global-Receives-Disclosure-Statement-Approval,-Advancing-Toward-Confirmation-and-Emergence
+- date: ''
+  title: HBC completes acquisition of Neiman Marcus Group
+  url: https://www.rbccm.com/en/expertise/transactions/deal.page?dcr=templatedata/rbccm/deals/data/2025/01/hbc_completes_acquisition_of_neiman_marcus_group
+- date: ''
+  title: Saks Global Advances Store Portfolio Optimization to Solidify Position as the Premier Luxury Destination and Drive Sustainable Growth
+  url: https://www.saksglobal.com/2026-03-06-Saks-Global-Advances-Store-Portfolio-Optimization-to-Solidify-Position-as-the-Premier-Luxury-Destination-and-Drive-Sustainable-Growth
+- date: ''
+  title: Saks Promises 'Innovation' After Neiman Marcus Acquisition
+  url: https://www.pymnts.com/news/retail/2024/saks-promises-innovation-and-growth-after-completing-neiman-marcus-acquisition/
+- date: ''
   title: Saks Global Secures Access to Additional $300 Million of $1.75 Billion in Committed Capital
   url: https://www.saksglobal.com/2026-03-16-Saks-Global-Secures-Access-to-Additional-300-Million-of-1-75-Billion-in-Committed-Capital
+- date: ''
+  title: Saks Global Announces Additional Actions to Strengthen ...
+  url: https://www.prnewswire.com/news-releases/saks-global-announces-additional-actions-to-strengthen-luxury-retail-positioning-and-drive-profitable-and-sustainable-growth-302684169.html
 random_paper: 16
 score:
   band: minimal
@@ -109,7 +109,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

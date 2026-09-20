@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Concho Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct, Energy, Exploration, Natural Gas, and Oil and Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Concho Resources Increases Delaware Acreage with ...
   url: https://www.oilandgas360.com/concho-resources-increases-delaware-acreage-430-million-acquisition/
-- date: '2026-05-25'
+- date: ''
   title: 'ConocoPhillips to Acquire Concho Resources: All-Stock ...'
   url: https://www.instagram.com/p/CGiWusHDzlb/
-- date: '2026-05-25'
+- date: ''
   title: ConocoPhillips to acquire Concho Resources to create 23 ...
   url: https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/101920-conocophillips-to-acquire-concho-resources-to-create-23-billion-boe-resource-base
-- date: '2026-05-25'
+- date: ''
   title: Enverus and Concho Resources Develop Solution to ...
   url: https://www.prnewswire.com/news-releases/enverus-and-concho-resources-develop-solution-to-reduce-erroneous-overbilling-300989861.html
-- date: '2026-05-25'
+- date: ''
   title: ConocoPhillips to buy Concho Resources for $9.7 bln in ...
   url: https://www.reuters.com/world/asia-pacific/conocophillips-buy-concho-resources-97-bln-2020s-top-shale-deal-2020-10-19/
 random_paper: 16

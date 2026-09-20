@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -211,19 +211,19 @@ plans:
   plan_count: 1
   slug: taylor-morrison-home-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Taylor Morrison Introduces Board Fellowship to Increase ...
   url: https://newsroom.taylormorrison.com/2023-02-16-Taylor-Morrison-Introduces-Board-Fellowship-to-Increase-Diversity-Among-Public-Companies
-- date: '2026-05-25'
+- date: ''
   title: Taylor Morrison Home Corp Announces First Quarter 2025 ...
   url: https://www.gurufocus.com/news/2751417/taylor-morrison-home-corp-announces-first-quarter-2025-earnings-release-date?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Taylor Morrison Reports First Quarter 2026 Results
   url: https://www.prnewswire.com/news-releases/taylor-morrison-reports-first-quarter-2026-results-302749452.html
-- date: '2026-05-25'
+- date: ''
   title: Liquid Death, Taylor Morrison team up to give away ...
   url: https://www.orlandosentinel.com/2026/04/04/liquid-death-taylor-morrison-team-up-to-give-away-sparkling-water-piped-home/
-- date: '2026-05-25'
+- date: ''
   title: Taylor Morrison Announces Date for First Quarter 2026 Earnings ...
   url: https://www.barchart.com/story/news/939225/taylor-morrison-announces-date-for-first-quarter-2026-earnings-release-and-webcast-conference-call
 random_paper: 3
@@ -290,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

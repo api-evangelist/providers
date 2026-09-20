@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 10
 common:
@@ -115,19 +115,19 @@ overview: 'Big Lots is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   Big Lots'' developer surface includes support and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: I think AI is confused - that's BIG LOTS🤦‍♀️🤦‍♀️
   url: https://www.facebook.com/groups/552120983463431/posts/1324936509515204/
-- date: '2026-05-25'
+- date: ''
   title: Manhattan Archives
   url: https://coresight.com/coresight_100_type/manhattan/
-- date: '2026-05-25'
+- date: ''
   title: Big Lots Closes Strategic Deal With Gordon Brothers
   url: https://www.mytotalretail.com/article/big-lots-closes-strategic-deal-with-gordon-brothers-saving-200-to-400-stores/
-- date: '2026-05-25'
+- date: ''
   title: Big Lots, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/big-lots%2C-inc./
-- date: '2026-05-25'
+- date: ''
   title: Big Lots Says Previously Announced Sale Has Fallen ...
   url: https://www.pymnts.com/news/retail/2024/big-lots-says-previously-announced-sale-has-fallen-through/
 random_paper: 9
@@ -151,7 +151,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

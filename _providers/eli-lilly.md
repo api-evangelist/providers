@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,19 +70,19 @@ overview: 'Eli Lilly is profiled on the [APIs.io](https://apis.io/) network. Tag
 
   Eli Lilly''s developer surface includes engineering blog and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Lilly launches TuneLab platform to give biotechnology ...
   url: https://investor.lilly.com/news-releases/news-release-details/lilly-launches-tunelab-platform-give-biotechnology-companies
-- date: '2026-05-25'
+- date: ''
   title: Lilly TuneLab™ X revvity signals
   url: https://www.instagram.com/p/DVRUXlblBrz/
-- date: '2026-05-25'
+- date: ''
   title: Insilico Medicine Announces Global R&D Collaboration ...
   url: https://insilico.com/news/uiy12zcjg1-insilico-medicine-announces-global-rampd
-- date: '2026-05-25'
+- date: ''
   title: Insilico Medicine Announces Global R&D Collaboration ...
   url: https://www.prnewswire.com/news-releases/insilico-medicine-announces-global-rd-collaboration-with-lilly-302727884.html
-- date: '2026-05-25'
+- date: ''
   title: NVIDIA and Lilly Announce Co-Innovation AI Lab to Reinvent ...
   url: https://investor.lilly.com/news-releases/news-release-details/nvidia-and-lilly-announce-co-innovation-ai-lab-reinvent-drug
 random_paper: 7
@@ -112,7 +112,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

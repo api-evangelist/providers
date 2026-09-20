@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,19 +107,19 @@ plans:
   plan_count: 1
   slug: general-dynamics-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: GENERAL | definition in the Cambridge English Dictionary
   url: https://dictionary.cambridge.org/us/dictionary/english/general
-- date: '2026-05-25'
+- date: ''
   title: The General® Car Insurance | Get a Quote to Insure Your Car
   url: https://www.thegeneral.com/
-- date: '2026-05-25'
+- date: ''
   title: GENERAL Definition & Meaning
   url: https://www.merriam-webster.com/dictionary/general
-- date: '2026-05-25'
+- date: ''
   title: General (United States)
   url: https://en.wikipedia.org/wiki/General_(United_States)
-- date: '2026-05-25'
+- date: ''
   title: 'General Motors: Iconic Vehicles for Every Drive'
   url: https://www.gm.com/
 random_paper: 7
@@ -165,7 +165,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

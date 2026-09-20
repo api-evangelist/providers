@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 17
 common:
@@ -96,19 +96,19 @@ plans:
   plan_count: 1
   slug: autoliv-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Annual Report 2025
   url: https://www.autoliv.com/sites/autoliv/files/2026-02/ALV_AR_10-K_2025_Horizontal_Final.pdf
-- date: '2026-05-25'
+- date: ''
   title: Volvo Cars and Autoliv team up with NVIDIA to develop ...
   url: https://www.volvocars.com/us/media/press-releases/E77B5AFE5726BAD5/
-- date: '2026-05-25'
+- date: ''
   title: Digitalization & Automation at Autoliv
   url: https://www.autoliv.com/company/digitalization-automation-autoliv
-- date: '2026-05-25'
+- date: ''
   title: Autoliv to Discontinue Manufacturing Operations in Türkiye
   url: https://www.prnewswire.com/news-releases/autoliv-to-discontinue-manufacturing-operations-in-turkiye-302766735.html
-- date: '2026-05-25'
+- date: ''
   title: NANGA SYSTEMS' Post
   url: https://www.linkedin.com/posts/nanga-systems_the-recent-press-release-that-autoliv-is-activity-7445439948893184000-nIRn
 random_paper: 2
@@ -136,7 +136,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 8.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

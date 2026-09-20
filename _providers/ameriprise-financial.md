@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Ameriprise Financial is a diversified financial services company providing financial planning, products, and services including wealth management, asset management, insurance, and annuities. The compa
@@ -161,19 +161,19 @@ plans:
   plan_count: 0
   slug: ameriprise-financial-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: LPL, Ameriprise wade into AI applications for advisors
   url: https://www.investmentnews.com/fintech/lpl-ameriprise-wade-into-ai-applications-for-advisors/240737
-- date: '2026-05-25'
+- date: ''
   title: The State of AI Ahead of NVIDIA's Earnings Report This ...
   url: https://www.ameriprise.com/newsroom/commentary/the-state-of-ai-ahead-of-nvidias-earnings-report-this-week
-- date: '2026-05-25'
+- date: ''
   title: Wait. Did someone just call the cops to break up the AI party?
   url: https://www.ameriprise.com/financial-news-research/insights/break-up-the-ai-party
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence and your financial life
   url: https://www.ameriprise.com/financial-goals-priorities/personal-finance/ai-and-your-financial-life
-- date: '2026-05-25'
+- date: ''
   title: 'AI stocks: Boom or bust? Ameriprise Chief Market Strategist ...'
   url: https://www.instagram.com/reel/DSkc7-Dkgq0/
 random_paper: 5
@@ -207,7 +207,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

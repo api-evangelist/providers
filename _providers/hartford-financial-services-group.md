@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,16 +82,16 @@ overview: 'Hartford Financial Services Group is profiled on the [APIs.io](https:
 
   Hartford Financial Services Group''s developer surface includes product news and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Hartford Appoints Annette Rippert To Its Board Of ...
   url: https://newsroom.thehartford.com/newsroom-home/news-releases/news-release-details/2025/The-Hartford-Appoints-Annette-Rippert-To-Its-Board-Of-Directors/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/874766/000087476620000052/form8-kcover6302020.htm
-- date: '2026-05-25'
+- date: ''
   title: The Hartford Announces New Organizational Structure ...
   url: https://insurancenewsnet.com/oarticle/the-hartford-announces-new-organizational-structure-combining-operations-and-technology
-- date: '2026-05-25'
+- date: ''
   title: IBM Signs Technology Services Agreement with The ...
   url: https://www.prnewswire.com/news-releases/ibm-signs-technology-services-agreement-with-the-hartford-to-support-business-initiatives-119771294.html
 - date: ''
@@ -124,7 +124,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

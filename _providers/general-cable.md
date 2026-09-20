@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: General Cable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Wire and Cable, Manufacturing, Industrial, Acquired, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Prysmian Group Selects IBM To Help Accelerate Digital ...
   url: https://www.prnewswire.com/news-releases/prysmian-group-selects-ibm-to-help-accelerate-digital-transformation-with-adoption-of-ibm-cloud-301037946.html
-- date: '2026-05-25'
+- date: ''
   title: KY-GEN-CABLE/PRYSMIAN | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/12998858/ky-gen-cableprysmian?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: Prysmian North America
   url: https://www.facebook.com/PrysmianNorthAmerica/photos/prysmian-group-announces-the-launch-of-its-new-organization-and-begins-its-integ/2141003875914701/
-- date: '2026-05-25'
+- date: ''
   title: Prysmian's Post
   url: https://www.linkedin.com/posts/prysmian_prysmian-group-is-proud-to-announce-the-formal-activity-6879075627777957889-6u-b
-- date: '2026-05-25'
+- date: ''
   title: Prysmian to acquire General Cable for $3B in cash
   url: https://www.fibre-systems.com/news/prysmian-acquire-general-cable-3b-cash
 random_paper: 6
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

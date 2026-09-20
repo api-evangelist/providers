@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -134,19 +134,19 @@ overview: 'Coach is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
   Coach''s developer surface includes support, engineering blog, YouTube channel, and 18 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: COACH INTRODUCES "FIND YOUR COURAGE"
   url: https://www.prnewswire.com/news-releases/coach-introduces-find-your-courage-302063081.html
-- date: '2026-05-25'
+- date: ''
   title: 'Research: AI Can Provide 90% of Career Coaching…But ...'
   url: https://www.conference-board.org/press/ai-can-provide-career-coaching-but-humans-still-matter
-- date: '2026-05-25'
+- date: ''
   title: AI Coach for Business Breakthroughs and Team ...
   url: https://www.facebook.com/groups/698593531630485/posts/1195734565249710/
-- date: '2026-05-25'
+- date: ''
   title: CoachHub Launches AI Coach AIMY™ 2.0 in Next Major ...
   url: https://www.prnewswire.com/news-releases/coachhub-launches-ai-coach-aimy-2-0-in-next-major-leap-for-ai-powered-coaching-at-scale-302603414.html
-- date: '2026-05-25'
+- date: ''
   title: Press Archive
   url: https://www.coachhub.com/press-archive
 random_paper: 4
@@ -175,7 +175,7 @@ score:
     - north-america
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

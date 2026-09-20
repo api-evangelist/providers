@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,19 +94,19 @@ overview: 'Murphy USA is profiled on the [APIs.io](https://apis.io/) network. Ta
 
   Murphy USA''s developer surface includes support and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Murphy USA signals 45 to 55 new sites in 2026 while ...
   url: https://seekingalpha.com/news/4583125-murphy-usa-signals-45-to-55-new-sites-in-2026-while-keeping-guidance-unchanged-amid-fuel
-- date: '2026-05-25'
+- date: ''
   title: Murphy USA Inc (MUSA-N) Press Releases
   url: https://www.theglobeandmail.com/investing/markets/stocks/MUSA-N/pressreleases/
-- date: '2026-05-25'
+- date: ''
   title: 'From Manual to Strategic: Murphy USA''s IR Transformation'
   url: https://q4blog.com/how-murphy-usa-unlocked-their-full-potential-with-q4/
-- date: '2026-05-25'
+- date: ''
   title: Murphy USA Q1 2026 earnings preview
   url: https://www.msn.com/en-us/money/savingandinvesting/murphy-usa-q1-2026-earnings-preview/ar-AA21X21Z?ocid=finance-verthp-feeds
-- date: '2026-05-25'
+- date: ''
   title: How Murphy USA is gearing up for the future
   url: https://www.cstoredive.com/news/how-murphy-usa-is-gearing-up-for-the-future/709562/
 random_paper: 17
@@ -141,7 +141,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

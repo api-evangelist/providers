@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: NVIDIA provides developer APIs for GPU computing, AI/ML model training and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU services.
@@ -127,19 +127,19 @@ plans:
   plan_count: 5
   slug: nvidia-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: NVIDIA Corporation - News - Press Release Details
   url: https://investor.nvidia.com/news/press-release-details/
-- date: '2026-05-25'
+- date: ''
   title: Latest News | NVIDIA Newsroom
   url: https://nvidianews.nvidia.com/news/latest
-- date: '2026-05-25'
+- date: ''
   title: NVIDIA and Corning Announce Long-Term Partnership to ...
   url: https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure
-- date: '2026-05-25'
+- date: ''
   title: NVIDIA Third-Party Press Release and Blog Guidelines
   url: https://www.nvidia.com/en-us/about-nvidia/pr-guidelines/
-- date: '2026-05-25'
+- date: ''
   title: Dell AI Factory with NVIDIA Delivers Proven Path to ...
   url: https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~03~dell-ai-factory-with-nvidia-delivers-proven-path-to-enterprise-ai-roi.htm
 random_paper: 19
@@ -167,7 +167,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 24.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

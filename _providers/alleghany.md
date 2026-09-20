@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -92,19 +92,19 @@ nav: Providers
 network: true
 overview: Alleghany Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Reinsurance, Property and Casualty, Specialty Insurance, and Excess and Surplus.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Familiarity, similarity driving Berkshire's Alleghany deal
   url: https://www.spglobal.com/market-intelligence/en/news-insights/articles/2022/3/familiarity-similarity-driving-berkshire-s-alleghany-deal-69456428
-- date: '2026-05-25'
+- date: ''
   title: Berkshire Hathaway to acquire Alleghany for $11.6bn
   url: https://www.reinsurancene.ws/berkshire-hathaway-to-acquire-alleghany-for-11-6bn/
-- date: '2026-05-25'
+- date: ''
   title: Warren Buffett ends drought with Berkshire's $11.6 bln ...
   url: https://www.reuters.com/business/finance/berkshire-hathaway-acquire-alleghany-116-bln-deal-2022-03-21/
-- date: '2026-05-25'
+- date: ''
   title: Berkshire Hathaway Insurance Vice Chair Calls AI 'Very ...
   url: https://news.ambest.com/NewsContent.aspx?refnum=274297&altsrc=23
-- date: '2026-05-25'
+- date: ''
   title: Alleghany Capital Corporation Announces Investment In ...
   url: https://www.prnewswire.com/news-releases/alleghany-capital-corporation-announces-investment-in-ips-integrated-project-services-300170111.html
 random_paper: 3
@@ -134,7 +134,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

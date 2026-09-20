@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,19 +81,19 @@ overview: 'Tower International is profiled on the [APIs.io](https://apis.io/) ne
 
   The Tower International catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Phoenix Tower International Closes on the Acquisition of ...
   url: https://www.prnewswire.com/news-releases/phoenix-tower-international-closes-on-the-acquisition-of-approximately-3-700-sites-from-bouygues-telecom-and-sfr-302649279.html
-- date: '2026-05-25'
+- date: ''
   title: Phoenix Tower International buys TowerTel in Italy
   url: https://www.lightreading.com/5g/phoenix-tower-international-buys-towertel-in-italy
-- date: '2026-05-25'
+- date: ''
   title: DRONE VOLT announces the signing of a major service ...
   url: https://www.actusnews.com/en/dronevolt/pr/2026/01/26/drone-volt-announces-the-signing-of-a-major-service-contract-with-phoenix-tower-international-to-support-its-digital-twin
-- date: '2026-05-25'
+- date: ''
   title: Phoenix Tower International to acquire 3700 sites from ...
   url: https://www.linkedin.com/posts/phoenix-tower-international_phoenix-tower-international-enters-exclusive-activity-7356301560441700352-jazK
-- date: '2026-05-25'
+- date: ''
   title: BCLP advises the shareholders of Infracos on its ...
   url: https://www.bclplaw.com/en-US/events-insights-news/bclp-advises-the-shareholders-of-infracos-on-its-acquisition-by-phoenix-tower-international-pti.html
 random_paper: 4
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

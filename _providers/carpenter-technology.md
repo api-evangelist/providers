@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -139,19 +139,19 @@ overview: 'Carpenter Technology is profiled on the [APIs.io](https://apis.io/) n
 
   Carpenter Technology''s developer surface includes engineering blog and 17 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Carpenter Technology Vs Intelligent
   url: https://danelfin.com/stocks/CRS-carpenter-technology-vs-INTJ-intelligent-compare
-- date: '2026-05-25'
+- date: ''
   title: Carpenter Technology Corporation (CRS) reports earnings
   url: https://qz.com/carpenter-technology-corporation-crs-reports-earnings-1851752130
-- date: '2026-05-25'
+- date: ''
   title: 'Carpenter Technology: This Stock Will Melt Up'
   url: https://www.barrons.com/articles/carpenter-technology-stock-melt-up-b57d0b6e
-- date: '2026-05-25'
+- date: ''
   title: Carpenter Technology's New $500 Million Steel Alloy Mill ...
   url: https://www.industrialinfo.com/news/article/carpenter-technologys-new-500-million-steel-alloy-mill-takes-shape-in-alabama--231932
-- date: '2026-05-25'
+- date: ''
   title: A Look At Carpenter Technology (CRS) Valuation After ...
   url: https://finance.yahoo.com/news/look-carpenter-technology-crs-valuation-151330338.html
 random_paper: 3
@@ -183,7 +183,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

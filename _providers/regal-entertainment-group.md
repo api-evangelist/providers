@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -187,19 +187,19 @@ plans:
   plan_count: 1
   slug: regal-entertainment-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Regal Entertainment Group Ratings Placed On Credi
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/1366316
-- date: '2026-05-25'
+- date: ''
   title: Entertainment Goes Mobile with Regal App - RMN Digital
   url: https://www.rmndigital.com/entertainment-goes-mobile-with-regal-app/
-- date: '2026-05-25'
+- date: ''
   title: COMPANY NEWS; REGAL, A MOVIE THEATER CHAIN, PLANS ...
   url: https://www.nytimes.com/2002/04/23/business/company-news-regal-a-movie-theater-chain-plans-a-public-offering.html
-- date: '2026-05-25'
+- date: ''
   title: Regal Cinemas Partners with Diet Coke to Offer ...
   url: https://www.prnewswire.com/news-releases/regal-cinemas-partners-with-diet-coke-to-offer-moviegoers-a-chance-to-meet-global-superstar-taylor-swift-during-her-upcoming-tour-279342882.html
-- date: '2026-05-25'
+- date: ''
   title: News
   url: https://www.motionpictures.org/news/
 random_paper: 2
@@ -256,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

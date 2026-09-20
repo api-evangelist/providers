@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 168
   human_in_the_loop: 0
@@ -238,19 +238,19 @@ plans:
   plan_count: 0
   slug: clean-harbors-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for Clean Harbors INC filed 02/18/2026
   url: https://ir.cleanharbors.com/static-files/6b594bf5-0d42-431a-ad55-00d59200cb4c
-- date: '2026-05-25'
+- date: ''
   title: Clean Harbors Announces Acquisition of Terra Nova ...
   url: https://investor.wedbush.com/wedbush/article/bizwire-2026-5-14-clean-harbors-announces-acquisition-of-terra-nova-solutions
-- date: '2026-05-25'
+- date: ''
   title: 'Hazardous Waste Management: Safety and Compliance'
   url: https://www.waste360.com/hazardous-waste/hazardous-waste-management-safety-and-compliance
-- date: '2026-05-25'
+- date: ''
   title: First Quarter 2026 Investor Review
   url: https://ir.cleanharbors.com/static-files/e2b1bdd3-68eb-412b-ae86-2f389b7fb5c8
-- date: '2026-05-25'
+- date: ''
   title: Depot Connect International Streamlines Portfolio with ...
   url: https://www.prnewswire.com/news-releases/depot-connect-international-streamlines-portfolio-with-sale-of-industrial-and-rail-services-to-clean-harbors-302692747.html
 random_paper: 15
@@ -283,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -49,19 +49,19 @@ nav: Providers
 network: true
 overview: NII Holdings is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'NII HOLDINGS INC : Entry into a Material Definitive Agreement ...'
   url: https://www.marketscreener.com/news.php?id_news=29746691
-- date: '2026-05-25'
+- date: ''
   title: NII Holdings Announces Voluntary Filing For Relief Under ...
   url: https://www.prnewswire.com/news-releases/nii-holdings-announces-voluntary-filing-for-relief-under-chapter-11-275171001.html
-- date: '2026-05-25'
+- date: ''
   title: NII Holdings sees good growth, Mexico sweet spot
   url: https://www.reuters.com/article/world/us/nii-holdings-sees-good-growth-mexico-sweet-spot-idUSN19185235/
-- date: '2026-05-25'
+- date: ''
   title: NII Holdings Customer Success Story
   url: https://workspace.google.com/customers/nii-holdings/
-- date: '2026-05-25'
+- date: ''
   title: Mike Tolber - NII Holdings, Inc.
   url: https://www.linkedin.com/in/mike-tolber-53b433180
 random_paper: 11
@@ -94,7 +94,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

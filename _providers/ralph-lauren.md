@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,19 +93,19 @@ overview: 'Ralph Lauren is profiled on the [APIs.io](https://apis.io/) network. 
 
   The Ralph Lauren catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ralph Lauren Introduces Ask Ralph, a New Conversational ...
   url: https://corporate.ralphlauren.com/pr_250909_AskRalph.html
-- date: '2026-05-25'
+- date: ''
   title: Ralph Lauren's “Ask Ralph” Shows the Problem With AI in ...
   url: https://electricrunwayreport.substack.com/p/ralph-laurens-ask-ralph-shows-the
-- date: '2026-05-25'
+- date: ''
   title: Ralph Lauren Has Entered the AI Age
   url: https://www.wsj.com/articles/ralph-lauren-has-entered-the-ai-age-85fab407
-- date: '2026-05-25'
+- date: ''
   title: Ralph Lauren Rolls Out Conversational Shopping ...
   url: https://www.pymnts.com/news/artificial-intelligence/2025/ralph-lauren-begins-rollout-ai-powered-conversational-shopping-experience/
-- date: '2026-05-25'
+- date: ''
   title: Ralph Lauren elevates AI to the C-suite
   url: https://www.ciodive.com/news/ralph-lauren-AI-tech-leader-strategy-agentic/802773/
 random_paper: 17
@@ -129,7 +129,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

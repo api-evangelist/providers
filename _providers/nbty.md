@@ -38,19 +38,19 @@ nav: Providers
 network: true
 overview: NBTY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Vitamins, Nutritional Supplements, Manufacturing, Defunct, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: NBTY Inc. Term Loan Rated 'B+'; Corporate Credit
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/1616472
-- date: '2026-05-25'
+- date: ''
   title: NBTY Inc. Becomes The Nature's Bounty Co., Reflecting its ...
   url: https://www.prnewswire.com/news-releases/nbty-inc-becomes-the-natures-bounty-co-reflecting-its-commitment-to-global-wellness-300361781.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?initialSessionID=131-1057030-8998649&page=350
-- date: '2026-05-25'
+- date: ''
   title: Carlyle hires Goldman Sachs to help sell Nature's Bounty
   url: https://www.reuters.com/article/world/americas/carlyle-hires-goldman-sachs-to-help-sell-natures-bounty-sources-idUSKBN14Q0YH/
-- date: '2026-05-25'
+- date: ''
   title: Supplement giant NBTY agrees to genetic testing of its ...
   url: https://www.seattletimes.com/nation-world/supplement-giant-nbty-agrees-to-genetic-testing-of-its-herbal-products/
 random_paper: 5

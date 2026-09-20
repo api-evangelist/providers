@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,19 +70,19 @@ overview: 'Nationwide is profiled on the [APIs.io](https://apis.io/) network. Ta
 
   Nationwide''s developer surface includes engineering blog and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: White House Releases AI Framework to Govern Tech for ...
   url: https://netchoice.org/white-house-releases-ai-framework-to-govern-tech-for-americans-nationwide/
-- date: '2026-05-25'
+- date: ''
   title: Nationwide plans three-year $300 million AI investment
   url: https://www.repairerdrivennews.com/2025/11/05/nationwide-plans-three-year-300-million-ai-investment-fio-reports-on-ai-trends/
-- date: '2026-05-25'
+- date: ''
   title: NSF Launches AI-Ready America Initiative With ...
   url: https://www.meritalk.com/articles/nsf-launches-ai-ready-america-initiative-with-nationwide-hub-funding/
-- date: '2026-05-25'
+- date: ''
   title: Nationwide to spend $1.5B on tech including AI >> See the ...
   url: https://www.facebook.com/ColumbusBusinessFirst/posts/nationwide-to-spend-15b-on-tech-including-ai-see-the-full-article-below-%EF%B8%8F/1429812245821039/
-- date: '2026-05-25'
+- date: ''
   title: Nationwide announces $1.5 billion investment to accelerate ...
   url: https://news.nationwide.com/nationwide-announces-15-billion-investment-to-accelerate-technology-ai/
 random_paper: 18
@@ -112,7 +112,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

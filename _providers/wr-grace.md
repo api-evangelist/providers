@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,19 +78,19 @@ overview: 'W. R. Grace is profiled on the [APIs.io](https://apis.io/) network. T
 
   W. R. Grace''s developer surface includes documentation and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Grace and Molecule.one to Transform Peptide Building ...
   url: https://grace.com/newsroom/press-releases/2025-press-releases/Grace-and-Moleculeone-to-Transform-Peptide-Building-Block-Synthesis-with-AI/
-- date: '2026-05-25'
+- date: ''
   title: W.R. Grace Holdings LLC's Proposed $500 Million S
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3506111
-- date: '2026-05-25'
+- date: ''
   title: W. R. Grace CDMO Updates AI-Driven Drug Development ...
   url: https://www.linkedin.com/posts/outsourced-pharma_outsourced-pharma-ai-drug-development-capabilities-activity-7425248102707724289-f616
-- date: '2026-05-25'
+- date: ''
   title: Standard Industries Announces Molecule.one as Winner of ...
   url: https://grace.com/newsroom/press-releases/2025-press-releases/standard-industries-announces-molecule-one-as-winner-of--1-milli/
-- date: '2026-05-25'
+- date: ''
   title: Standard Industries Launches a $1 Million AI Challenge to ...
   url: https://www.prnewswire.com/news-releases/standard-industries-launches-a-1-million-ai-challenge-to-transform-chemical-innovation-302082496.html
 random_paper: 0
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

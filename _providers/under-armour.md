@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -220,19 +220,19 @@ plans:
   plan_count: 1
   slug: under-armour-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Corporate Governance
   url: https://about.underarmour.com/en/investors/corporate-governance.html
-- date: '2026-05-25'
+- date: ''
   title: UNDER ARMOUR REPORTS FOURTH QUARTER AND ...
   url: https://www.prnewswire.com/news-releases/under-armour-reports-fourth-quarter-and-full-year-fiscal-2026-results-provides-initial-fiscal-2027-outlook-302768815.html
-- date: '2026-05-25'
+- date: ''
   title: Forever Is Made Now
   url: https://about.underarmour.com/en/stories/2024/03/forever-is-made-now.html
-- date: '2026-05-25'
+- date: ''
   title: Under Armour Creates the Ultimate Team Talk Using ...
   url: https://about.underarmour.com/en/stories/2023/08/under-armour-creates-the-ultimate-team-talk-using-the-power-of-a.html
-- date: '2026-05-25'
+- date: ''
   title: Under Armour's digital push continues through slumped ...
   url: https://www.ciodive.com/news/under-armours-digital-push-continues-through-slumped-financials/586002/
 random_paper: 17
@@ -300,7 +300,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

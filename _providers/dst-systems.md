@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: DST Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Healthcare, Outsourcing, and Legacy.
 press:
-- date: '2026-05-25'
+- date: ''
   title: SS&C Technologies to acquire DST Systems for $5.4bn
   url: https://www.privatebankerinternational.com/news/ssc-technologies-acquire-dst-systems-5-4bn/
-- date: '2026-05-25'
+- date: ''
   title: Software Maker SS&C to Buy DST Systems in $5.4 Billion ...
   url: https://www.wealthmanagement.com/financial-technology/software-maker-ss-c-to-buy-dst-systems-in-5-4-billion-deal
-- date: '2026-05-25'
+- date: ''
   title: Regulators Struggle with AI; SS&C Snaps up DST Systems
   url: https://www.waterstechnology.com/industry-issues-initiatives/3469411/waters-wavelength-podcast-episode-104-regulators-struggle-with-ai-ssc-snaps-up-dst-systems
-- date: '2026-05-25'
+- date: ''
   title: DST Systems, Inc. Shareholders Approve Merger With SS&C
   url: https://www.prnewswire.com/news-releases/dst-systems-inc-shareholders-approve-merger-with-ssc-300621173.html
-- date: '2026-05-25'
+- date: ''
   title: indico Founder to Speak at DST Systems' 2018 ADVANCE
   url: https://www.globenewswire.com/news-release/2018/02/05/1332837/0/en/indico-founder-to-speak-at-dst-systems-2018-advance-conference.html
 random_paper: 2
@@ -110,7 +110,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: ITT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Manufacturing, Engineered Components, Transportation, and Oil and Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Intel Simplifies Physical AI Deployment with Intel Robotics ...
   url: https://newsroom.intel.com/artificial-intelligence/postcard-from-itt-2025-intel-physical-ai-deployment-with-robotics-ai-suite
-- date: '2026-05-25'
+- date: ''
   title: ITT Announces New Board of Directors Appointments and $1 ...
   url: https://investors.itt.com/news-releases/news-release-details/itt-announces-new-board-directors-appointments-and-1-billion/
-- date: '2026-05-25'
+- date: ''
   title: Lone Star Announces Sale of SPX FLOW to ITT Inc. - Via TT
   url: https://via.tt.se/pressmeddelande/4177141/lone-star-announces-sale-of-spx-flow-to-itt-inc?publisherId=259167&lang=en
-- date: '2026-05-25'
+- date: ''
   title: ITT CEO Luca Savi Discusses SPX FLOW Acquisition on ...
   url: https://www.linkedin.com/posts/itt_itt-flow-nyse-activity-7437515093598281728-QW7g
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence (AI) Development Services
   url: https://www.intimetec.com/artificial-intelligence
 random_paper: 7
@@ -101,7 +101,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

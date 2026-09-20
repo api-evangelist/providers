@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Mi Triple-S is the online provider portal for Triple-S Salud, offering healthcare providers access to insured eligibility verification, claims and payments management, re-credentialing, and provider d
@@ -133,19 +133,19 @@ plans:
   plan_count: 3
   slug: triple-s-management-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Revenue for Triple-S Management (GTS)
   url: https://companiesmarketcap.com/triple-s-management/revenue/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1171662/000095010321012760/dp156655_8k.htm
-- date: '2026-05-25'
+- date: ''
   title: GuideWell to Acquire Triple-S Management in ...
   url: https://www.prnewswire.com/news-releases/guidewell-to-acquire-triple-s-management-in-combination-designed-to-drive-health-care-affordability-and-improve-health-outcomes-in-florida-and-puerto-rico-301361460.html
-- date: '2026-05-25'
+- date: ''
   title: Triple-S, MCS, Liberty announce Puerto Rico hires
   url: https://newsismybusiness.com/triple-s-mcs-liberty-announce-puerto-rico-hires/
-- date: '2026-05-25'
+- date: ''
   title: Health Insurance Company Seeks Supreme Court Review ...
   url: https://www.taxnotes.com/research/federal/court-documents/court-petitions-and-briefs/health-insurance-company-seeks-supreme-court-review-of-decision-to/wkvm
 random_paper: 0
@@ -190,7 +190,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

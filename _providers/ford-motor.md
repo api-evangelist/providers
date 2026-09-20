@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,19 +109,19 @@ plans:
   plan_count: 2
   slug: ford-motor-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ford Establishes New Product Creation and ...
   url: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-establishes-product-creation-industrialization-organization
-- date: '2026-05-25'
+- date: ''
   title: Car shoppers are becoming increasingly reliant on artificial ...
   url: https://www.facebook.com/jalopnik/posts/car-shoppers-are-becoming-increasingly-reliant-on-artificial-intelligence-ford-p/1300015721982247/
-- date: '2026-05-25'
+- date: ''
   title: Ford launches Pro AI for multibillion-dollar commercial ...
   url: https://www.cnbc.com/2026/03/10/ford-pro-ai.html
-- date: '2026-05-25'
+- date: ''
   title: Ford to launch eyes-off driving system in 2028, automaker ...
   url: https://www.autonews.com/ford/an-ces-2026-ford-doug-field-panel-0107/
-- date: '2026-05-25'
+- date: ''
   title: 'Ford''s Simple Vision for Smart Tech: Make It for Everyone'
   url: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-affordable-smart-vehicle-technology-strategy
 random_paper: 21
@@ -156,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

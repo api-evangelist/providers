@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: PPG Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Manufacturing, Coatings, Paints, and Specialty Materials.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'PPG Q3 2025: Automotive Refinishing Down; OEM ...'
   url: https://www.autobodynews.com/news/ppg-q3-2025-automotive-refinishing-down-oem-products-up-paint-maker-cuts-guidance
-- date: '2026-05-25'
+- date: ''
   title: 287 Results
   url: https://www.ppg.com/en-ID/about-ppg/search
-- date: '2026-05-25'
+- date: ''
   title: AI and Digitalization | PPG
   url: https://www.ppg.com/en-US/about-ppg/innovation/ai-and-digitalization
-- date: '2026-05-25'
+- date: ''
   title: PPG demonstrates innovative coatings through robotic ...
   url: https://investor.ppg.com/news/news-details/2025/PPG-demonstrates-innovative-coatings-through-robotic-street-art-application/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: PPG
   url: https://www.facebook.com/ppgindustries/posts/in-an-environment-where-every-minute-counts-our-technical-service-helps-customer/1237238018538005/
 random_paper: 18
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

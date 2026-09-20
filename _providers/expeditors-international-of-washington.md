@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'Read-only REST/JSON API that lets a contracted Expeditors customer pull real-time shipment, container, order-management container, consignment and cross-dock tracking data into its own enterprise and '
@@ -171,19 +171,19 @@ plans:
   plan_count: 0
   slug: expeditors-international-of-washington-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Expeditors Reports First Quarter 2026 EPS of $1.71
   url: https://investor.expeditors.com/press-releases/2026/05-05-2026-133057120
-- date: '2026-05-25'
+- date: ''
   title: EX-99.1
   url: https://www.sec.gov/Archives/edgar/data/746515/000119312526066101/expd-ex99_1.htm
-- date: '2026-05-25'
+- date: ''
   title: November 4, 2025, Expeditors International of Washingt
   url: https://investor.expeditors.com/~/media/Files/E/Expeditors-IR-V2/press-release/2025/EXPD%20Q325%20financial%20results%20FINAL%2011-4-25.pdf
-- date: '2026-05-25'
+- date: ''
   title: Expeditors Reports Third Quarter 2025 EPS of $1.64
   url: https://investor.expeditors.com/press-releases/2025/11-04-2025-133046620
-- date: '2026-05-25'
+- date: ''
   title: EXPEDITORS REPORTS FOURTH QUARTER 2025 EPS OF ...
   url: https://investor.expeditors.com/~/media/Files/E/Expeditors-IR-V2/press-release/2026/EXPDQ41.PDF
 random_paper: 17
@@ -219,7 +219,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

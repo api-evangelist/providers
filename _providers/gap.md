@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -124,19 +124,19 @@ overview: 'Gap is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
   Gap''s developer surface includes support, engineering blog, and 12 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Gap Inc. Taps Gemini Enterprise to Become 'AI-First' Retailer
   url: https://www.chiefmarketer.com/gap-inc-taps-gemini-enterprise-to-become-ai-first-retailer/
-- date: '2026-05-25'
+- date: ''
   title: Gap goes all-in on Google AI. Old Navy, Banana Republic ...
   url: https://www.facebook.com/groups/augmented/posts/1338047877377594/
-- date: '2026-05-25'
+- date: ''
   title: Gap Inc. Sets Out to Reimagine Retail Powered by Google ...
   url: https://www.prnewswire.com/news-releases/gap-inc-sets-out-to-reimagine-retail-powered-by-google-clouds-ai-302579074.html
-- date: '2026-05-25'
+- date: ''
   title: Gap Inc. Is Using AI to Reimagine Retail, With New ...
   url: https://www.gapinc.com/en-us/articles/2025/11/gap-inc-is-using-ai-to-reimagine-retail,-with-new-
-- date: '2026-05-25'
+- date: ''
   title: Inspectorio's AI Platform Will Enable Greater Traceability in ...
   url: https://www.businesswire.com/news/home/20260409206762/en/Inspectorios-AI-Platform-Will-Enable-Greater-Traceability-in-Gap-Inc.-Global-Supply-Chain
 random_paper: 4
@@ -160,7 +160,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

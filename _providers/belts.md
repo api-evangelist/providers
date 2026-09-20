@@ -8,31 +8,6 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-18'
 api_count: 0
 artifact_total: 16
 common:
@@ -50,9 +25,31 @@ common:
   type: Website
   url: https://webstore.ansi.org/industry/conveyors/belt-standards
 - group: docs
-  title: CEMA Publications and Standards
+  title: CEMA Technical Resources
   type: Documentation
-  url: https://cemanet.org/resources/publications/
+  url: https://cemanet.org/technical-resources/
+- group: docs
+  title: CEMA ANSI Standards
+  type: Documentation
+  url: https://cemanet.org/ansi-standards/
+coverage:
+  checked: '2026-09-19'
+  detail: '"Belts" is a topical index of the conveyor-belt ecosystem, not a company: apis[] is empty and the only hosts the record names belong to the standards bodies it cites (CEMA at cemanet.org, ANSI at ansi.org), neither of which publishes a developer program or a machine-readable contract - cemanet.org 404s /openapi.json, /swagger.json, /api-docs and /llms.txt and WAF-403s every /.well-known/* path (its only 200 JSON is WordPress''s own /wp-json/ platform surface), and every ansi.org host answers a Cloudflare JS challenge (403) for every path probed.'
+  evidence:
+  - status: 200
+    url: https://cemanet.org/
+  - status: 404
+    url: https://cemanet.org/openapi.json
+  - status: 404
+    url: https://cemanet.org/llms.txt
+  - status: 403
+    url: https://cemanet.org/.well-known/agent-card.json
+  - status: 403
+    url: https://webstore.ansi.org/industry/conveyors/belt-standards
+  - status: 403
+    url: https://ansi.org/.well-known/api-catalog
+  reason: not-a-software-company
+  state: none
 created: '2024-01-15'
 description: Belts covers the landscape of APIs, data standards, and digital resources related to conveyor belts and industrial belt systems. This topic encompasses conveyor belt monitoring and predictive maintenance APIs, industrial IoT sensor data for belt condition tracking, and the standards bodies that govern belt conveyor design and safety. Key organizations include CEMA (Conveyor Equipment Manufacturers Association) and ANSI, which define design, installation, and safety standards for belt conveyors used in mining, manufacturing, food processing, and bulk material handling industries.
 features:
@@ -82,7 +79,7 @@ jsonld:
   property_count: 23
   slug: belts-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-19'
 name: Belts
 nav: Providers
 network: true
@@ -92,34 +89,8 @@ overview: 'Belts is profiled on the [APIs.io](https://apis.io/) network. Tagged 
   The Belts catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Belts'' developer surface includes documentation and 3 more developer resources.'
+  Belts'' developer surface includes documentation and 4 more developer resources.'
 random_paper: 10
-score:
-  band: minimal
-  composite: 10.6
-  coverage:
-    artifact_dirs: 6
-    catalog_earned: 38.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 14.7
-    developer_ergonomics: 9.5
-    discoverability: 50.0
-    operational_transparency: 0.0
-  previous_composite: 10.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/screenshots/belts-2026-06-20T173127.png
 security:
 - kind: domain-security

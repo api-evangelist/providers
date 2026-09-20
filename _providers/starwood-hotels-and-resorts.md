@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,19 +194,19 @@ plans:
   plan_count: 1
   slug: starwood-hotels-and-resorts-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Document 4 - file: exhibit991-pressreleasexan.htm'
   url: https://www.sec.gov/Archives/edgar/data/1524358/000152435826000004/exhibit991-pressreleasexan.htm
-- date: '2026-05-25'
+- date: ''
   title: SH HOTELS & RESORTS BECOMES STARWOOD ...
   url: https://www.prnewswire.com/news-releases/sh-hotels--resorts-becomes-starwood-hotels-marking-a-decade-of-transformation-and-growth-302392494.html
-- date: '2026-05-25'
+- date: ''
   title: Starwood Hotels Return and Expansion
   url: https://www.facebook.com/groups/marriottmy/posts/4046549028966977/
-- date: '2026-05-25'
+- date: ''
   title: Starwood Hotels new logo and its future under Barry ...
   url: https://www.linkedin.com/posts/ivin-oommen-0a1a58173_the-official-new-logo-of-starwood-hotels-activity-7303608764274778113-PTy_
-- date: '2026-05-25'
+- date: ''
   title: CT-STARWOOD-HOTELS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3177140/ct-starwood-hotels?publisherId=90456
 random_paper: 16
@@ -263,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

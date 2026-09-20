@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: McCormick is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food, Recipes, Seasoning, Spices, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: U.S. Senator Dave McCormick visited the University of ...
   url: https://www.facebook.com/WVIATVFM/posts/us-senator-dave-mccormick-visited-the-university-of-pennsylvanias-ai-driven-airf/1596664032307366/
-- date: '2026-05-25'
+- date: ''
   title: McCormick & Company and IBM Announce Collaboration ...
   url: https://www.prnewswire.com/news-releases/mccormick--company-and-ibm-announce-collaboration-pioneering-the-use-of-artificial-intelligence-in-flavor-and-food-product-development-300788878.html
-- date: '2026-05-25'
+- date: ''
   title: McCormick & Company and IBM Announce Collaboration ...
   url: https://ir.mccormick.com/news-releases/news-release-details/mccormick-company-and-ibm-announce-collaboration-pioneering-use
-- date: '2026-05-25'
+- date: ''
   title: 'FACT SHEET: MORE THAN $90 BILLION IN ...'
   url: https://www.mccormick.senate.gov/news/press-releases/fact-sheet-more-than-90-billion-in-investments-announced-at-senator-mccormicks-pennsylvania-energy-and-innovation-summit/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Representative Mccormick
   url: https://mccormick.house.gov/media/press-releases?page=3
 random_paper: 6
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

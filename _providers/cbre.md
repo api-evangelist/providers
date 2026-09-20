@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,19 +167,19 @@ plans:
   plan_count: 1
   slug: cbre-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: CBRE chooses AI veteran to fill new C-suite role
   url: https://www.costar.com/article/401170000/cbre-creates-c-level-role-adds-leader-with-ai-history
-- date: '2026-05-25'
+- date: ''
   title: Investment in artificial intelligence is fueling office demand ...
   url: https://www.facebook.com/foxsanantonio/posts/investment-in-artificial-intelligence-is-fueling-office-demand-in-a-handful-of-t/1383861323789368/
-- date: '2026-05-25'
+- date: ''
   title: CBRE Investment Management's AI-Enhanced Data ...
   url: https://www.cbreim.com/press-releases/cbreim-ai-enhanced-data-collection-global-real-estate-secondaries-excess-us23-billion-annually
-- date: '2026-05-25'
+- date: ''
   title: CBRE Deepens AI And Data Center Push As Valuation ...
   url: https://finance.yahoo.com/news/cbre-deepens-ai-data-center-210925799.html
-- date: '2026-05-25'
+- date: ''
   title: Companies Add Artificial Intelligence Expertise with ...
   url: https://www.cbre.com/press-releases/companies-add-artificial-intelligence-expertise-with-specialized-jobs-skills-amid-slower-tech-talent
 random_paper: 16
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

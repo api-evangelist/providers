@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -143,19 +143,19 @@ plans:
   plan_count: 1
   slug: jones-lang-lasalle-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: JLL unveils first GPT model for commercial real estate
   url: https://www.prnewswire.com/news-releases/jll-unveils-first-gpt-model-for-commercial-real-estate-301890405.html
-- date: '2026-05-25'
+- date: ''
   title: Decode your building's story with JLL Azara, powered ...
   url: https://www.facebook.com/jll/posts/decode-your-buildings-story-with-jll-azara-powered-by-jll-falconreal-time-intell/1296376262523390/
-- date: '2026-05-25'
+- date: ''
   title: JLL Falcon kicks off new era of AI-powered CRE innovation
   url: https://ir.jll.com/news-releases/press-release-details/2024/JLL-Falcon-kicks-off-new-era-of-AI-powered-CRE-innovation/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Jones Lang LaSalle (JLL) Gains Analyst Confidence Amid ...
   url: https://finance.yahoo.com/news/jones-lang-lasalle-jll-gains-134305389.html
-- date: '2026-05-25'
+- date: ''
   title: JLL News and Press Releases
   url: https://www.prnewswire.com/news/jll/
 random_paper: 3
@@ -190,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

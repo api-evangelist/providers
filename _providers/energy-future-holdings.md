@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -80,19 +80,19 @@ nav: Providers
 network: true
 overview: Energy Future Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electricity, Utilities, Power Generation, and Electricity Transmission.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Utility 2.0: The Deep-Dive on Vistra Corp''s (VST) AI- ...'
   url: https://markets.financialcontent.com/stocks/article/finterra-2026-1-22-utility-20-the-deep-dive-on-vistra-corps-vst-ai-powered-transformation
-- date: '2026-05-25'
+- date: ''
   title: 'Factbox: Energy Future Holdings'' road to bankruptcy'
   url: https://www.reuters.com/article/world/americas/factbox-energy-future-holdings-road-to-bankruptcy-idUSBREA3S0K5/
-- date: '2026-05-25'
+- date: ''
   title: Energy Future Holdings Corp., the Second-Largest Public ...
   url: https://lawreview.law.lsu.edu/archives/2310
-- date: '2026-05-25'
+- date: ''
   title: Ace Welch - Energy Future Holdings
   url: https://www.linkedin.com/in/ace-welch-455b4526
-- date: '2026-05-25'
+- date: ''
   title: AI + EV = Can Utilities Generate Enough Power?
   url: https://gabelli.com/research/ai-ev-can-utilities-generate-enough-power/
 random_paper: 19
@@ -133,7 +133,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

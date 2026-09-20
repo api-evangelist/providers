@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 5
 apis:
 - description: The Lumen Developer Center publishes Lumen's enterprise API catalog, including Location, Quoting, Ordering, Service Inventory, Billing, Outbound Notification, and Trouble Ticket APIs. All APIs use OAu
@@ -190,19 +190,19 @@ plans:
   plan_count: 2
   slug: centurylink-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.blueplanet.com/about/press-releases
-- date: '2026-05-25'
+- date: ''
   title: How Lumen and Corning Are Enabling AI with Fiber
   url: https://blog.centurylink.com/from-glass-to-global-impact-how-lumen-and-corning-are-building-the-fiber-behind-ai-innovation/
-- date: '2026-05-25'
+- date: ''
   title: CenturyLink completes acquisition of Level 3
   url: https://www.prnewswire.com/news-releases/centurylink-completes-acquisition-of-level-3-300547357.html
-- date: '2026-05-25'
+- date: ''
   title: CenturyLink Data Center Sale Continues Trend
   url: https://www.telecompetitor.com/centurylink-data-center-sale-continues-telecom-data-center-divestiture-trend/
-- date: '2026-05-25'
+- date: ''
   title: Finance Press
   url: https://centurylink.net/finance/category/press
 random_paper: 20
@@ -239,7 +239,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

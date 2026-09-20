@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -112,19 +112,19 @@ overview: 'Convergys is profiled on the [APIs.io](https://apis.io/) network. Tag
 
   Convergys'' developer surface includes engineering blog and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: NEC to acquire Convergys data management business for US ...
   url: https://www.computerworld.com/article/1445866/nec-to-acquire-convergys-data-management-business-for-us-449-million.html
-- date: '2026-05-25'
+- date: ''
   title: Convergys Analytics
   url: https://www.cxnetwork.com/cx-experience/articles/convergys-analytics
-- date: '2026-05-25'
+- date: ''
   title: Concentrix gets up close and personal with ...
   url: https://www.horsesforsources.com/convergys-concentrix_062918/
-- date: '2026-05-25'
+- date: ''
   title: SYNNEX Corporation Announces Acquisition of Convergys ...
   url: https://www.prnewswire.com/news-releases/synnex-corporation-announces-acquisition-of-convergys-to-close-on-october-5-2018-300724049.html
-- date: '2026-05-25'
+- date: ''
   title: 'It''s here. #Concentrix completes the acquisition of # ...'
   url: https://www.facebook.com/convergysglobal/posts/its-here-concentrix-completes-the-acquisition-of-convergys-creating-the-worlds-g/10156626173185786/
 random_paper: 2
@@ -148,7 +148,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 9
 apis:
 - description: 'The Boeing Aircraft Models API provides model characteristics of commercial and business aviation aircraft including ICAO/IATA codes, engine specifications, wingspan, weight, and height. Data sourced '
@@ -115,19 +115,19 @@ plans:
   plan_count: 1
   slug: boeing-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Innovation
   url: https://www.boeing.com/innovation
-- date: '2026-05-25'
+- date: ''
   title: Boeing HorizonX Invests in Artificial Intelligence Leader ...
   url: https://www.prnewswire.com/news-releases/boeing-horizonx-invests-in-artificial-intelligence-leader-sparkcognition-300479137.html
-- date: '2026-05-25'
+- date: ''
   title: Boeing Defense, Space & Security Partners with Palantir to ...
   url: https://investors.boeing.com/investors/news/press-release-details/2025/Boeing-Defense-Space--Security-Partners-with-Palantir-to-Accelerate-AI-Adoption-Across-Defense-Classified-Programs/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Shaping AI for the Sky
   url: https://www.boeing.com/innovation/innovation-quarterly/2025/12/shaping-ai-for-the-sky
-- date: '2026-05-25'
+- date: ''
   title: News Releases | Boeing Newsroom
   url: https://boeing.mediaroom.com/news-releases-statements?item=131225
 random_paper: 12
@@ -155,7 +155,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

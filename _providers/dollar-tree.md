@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -95,19 +95,19 @@ plans:
   plan_count: 1
   slug: dollar-tree-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Dollar Tree (DLTR) Earnings Beat Drives Margin ...
   url: https://finance.yahoo.com/news/dollar-tree-dltr-earnings-beat-161120768.html
-- date: '2026-05-25'
+- date: ''
   title: Dollar Tree unlocks major energy and emissions savings ...
   url: https://brainboxai.com/en/case-studies/dollar-tree-unlocks-major-energy-and-emissions-savings-with-brainbox-ai
-- date: '2026-05-25'
+- date: ''
   title: 'AI Bytes: Dollar Tree - Pete Weishaupt - Medium'
   url: https://peteweishaupt.medium.com/ai-bytes-dollar-tree-9aefa9c2c7
-- date: '2026-05-25'
+- date: ''
   title: dltr-20260131
   url: https://corporate.dollartree.com/investors/sec-filings/content/0000935703-26-000025/dltr-20260131.htm
-- date: '2026-05-25'
+- date: ''
   title: Dollar General eyes AI optimization with new role
   url: https://www.grocerydive.com/news/dollar-general-ai-optimization-executive-role/804881/
 random_paper: 15
@@ -135,7 +135,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

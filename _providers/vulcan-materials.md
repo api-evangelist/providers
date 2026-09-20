@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -98,19 +98,19 @@ overview: 'Vulcan Materials Company is profiled on the [APIs.io](https://apis.io
 
   The Vulcan Materials Company catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: AI Data Center Buildout In Focus With Major Industry ...
   url: https://www.investors.com/news/data-centers-ai-crh-vulcan-materials-martin-marietta-world-of-concrete/
-- date: '2026-05-25'
+- date: ''
   title: EPD for Vulcan Materials Corporation
   url: https://www.astm.org/standards-and-solutions/certification/environmental-product-declarations/epd-pcr/epd-for-vulcan-materials-corporation
-- date: '2026-05-25'
+- date: ''
   title: Vulcan Materials (VMC) Latest News & Stock Updates - Page 1
   url: https://public.com/stocks/vmc/news
-- date: '2026-05-25'
+- date: ''
   title: VULCAN MATERIALS COMPANY ANNOUNCES CEO ...
   url: https://www.prnewswire.com/news-releases/vulcan-materials-company-announces-ceo-succession-plan-302581504.html
-- date: '2026-05-25'
+- date: ''
   title: Vulcan Materials 2026 proxy details CEO shift, pay - VMC
   url: https://www.stocktitan.net/sec-filings/VMC/def-14a-vulcan-materials-co-definitive-proxy-statement-4382cb092fff.html
 random_paper: 6
@@ -139,7 +139,7 @@ score:
     - north-america
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

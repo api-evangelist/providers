@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,19 +50,19 @@ nav: Providers
 network: true
 overview: Altria is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Altria''s AI Strategy: Analysis of Dominance in Tobacco'
   url: https://www.klover.ai/altria-ai-strategy-analysis-of-dominance-in-tobacco/
-- date: '2026-05-25'
+- date: ''
   title: Reaffirms 2026 Full-Year Earnings Guidance - Altria Group, Inc.
   url: https://investor.altria.com/press-releases/news-details/2026/Altria-Presents-as-Part-of-the-Consumer-Analyst-Group-of-New-York-Conference-Reaffirms-2026-Full-Year-Earnings-Guidance/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Altria Reports 2026 First-Quarter Results; Reaffirms Full-Year ...
   url: https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2026-First-Quarter-Results-Reaffirms-Full-Year-Guidance/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Altria Group, Inc. Press Release, dated
   url: https://www.sec.gov/Archives/edgar/data/764180/000076418024000056/exhibit991erq12024.htm
-- date: '2026-05-25'
+- date: ''
   title: Innovate With Us
   url: https://www.altria.com/en/innovate-with-us
 random_paper: 21
@@ -94,7 +94,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

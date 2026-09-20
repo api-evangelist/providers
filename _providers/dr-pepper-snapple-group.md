@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -106,19 +106,19 @@ overview: 'Keurig Dr Pepper (formerly Dr Pepper Snapple Group) is profiled on th
 
   Keurig Dr Pepper (formerly Dr Pepper Snapple Group)''s developer surface includes engineering blog and 13 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Keurig Dr. Pepper, Vistra and Nvidia are among market ...
   url: https://www.facebook.com/dallasmorningnews/posts/keurig-dr-pepper-vistra-and-nvidia-are-among-market-movers-that-will-give-impora/1372442534924581/
-- date: '2026-05-25'
+- date: ''
   title: 'Keurig Dr Pepper: Unlocking Value By Spinning Off Coffee'
   url: https://seekingalpha.com/article/4823344-keurig-dr-pepper-unlocking-value-by-spinning-off-coffee
-- date: '2026-05-25'
+- date: ''
   title: Keurig to take control of Dr Pepper Snapple in $18.7-billion ...
   url: https://www.latimes.com/business/la-fi-dr-pepper-snapple-keurig-20180129-story.html
-- date: '2026-05-25'
+- date: ''
   title: Dr Pepper Snapple Group Case Study
   url: https://www.trintech.com/case-study/dr-pepper-snapple-group/
-- date: '2026-05-25'
+- date: ''
   title: Keurig Dr Pepper Reports Q4 and Full Year 2025 Results ...
   url: https://www.prnewswire.com/news-releases/keurig-dr-pepper-reports-q4-and-full-year-2025-results-and-provides-2026-outlook-302695312.html
 random_paper: 3
@@ -142,7 +142,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

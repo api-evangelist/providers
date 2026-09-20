@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,28 +91,28 @@ overview: 'Range Resources is profiled on the [APIs.io](https://apis.io/) networ
 
   Range Resources'' developer surface includes product news, engineering blog, and 8 more developer resources.'
 press:
-- date: '2026-05-25'
-  title: Range Resources to gain from gas rebound, driving fastest ...
-  url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/range-resources-to-gain-from-gas-rebound-driving-fastest-growth-in-two-years
-- date: '2026-05-25'
-  title: How is AI Powered? | Range Resources Corporation
-  url: https://www.facebook.com/RangeResourcesCorporation/videos/how-is-ai-powered/1269794097405450/
-- date: '2026-05-25'
-  title: XBRL Viewer
-  url: https://www.sec.gov/ix?doc=/Archives/edgar/data/315852/000095017024018535/rrc-20240221.htm
-- date: '2026-05-25'
-  title: Data Center Talk Underway for Marcellus Gas-fired Power
-  url: https://www.hartenergy.com/exclusives/range-confirms-data-center-talk-underway-marcellus-gas-fired-power-210885/
-- date: '2026-05-25'
-  title: Range Resources Corporation (RRC) Q1 2026 Earnings ...
-  url: https://seekingalpha.com/article/4892899-range-resources-corporation-rrc-q1-2026-earnings-call-transcript
-- date: '2026-04-21'
-  title: Range Announces First Quarter 2026 Results
-  url: https://www.rangeresources.com/range-announces-first-quarter-2026-results/
-- date: '2026-04-03'
-  title: Range Announces Conference Call to Discuss First Quarter 2026 Financial Results
-  url: https://www.rangeresources.com/range-announces-conference-call-to-discuss-first-quarter-2026-financial-results/
-- date: '2026-03-05'
+- date: ''
+  title: Range Announces Third Quarter 2025 Conference Call
+  url: https://www.rangeresources.com/range-announces-first-quarter-2025-results/
+- date: ''
+  title: Range Announces Conference Call to Discuss First Quarter 2025 Financial Results
+  url: https://www.rangeresources.com/range-announces-conference-call-to-discuss-first-quarter-2025-financial-results/
+- date: ''
+  title: Range Declares Quarterly Dividend
+  url: https://www.rangeresources.com/range-declares-quarterly-dividend-8/
+- date: ''
+  title: Range Increases Quarterly Dividend by 11%
+  url: https://www.rangeresources.com/range-increases-quarterly-dividend-by-11/
+- date: ''
+  title: Range Announces Conference Call to Discuss Fourth Quarter 2024 Financial Results
+  url: https://www.rangeresources.com/range-announces-conference-call-to-discuss-fourth-quarter-2024-financial-results/
+- date: ''
+  title: Range Resources Receives 2026 Pittsburgh Excellence in Ethics Award
+  url: https://www.rangeresources.com/range-resources-receives-2026-pittsburgh-excellence-in-ethics-award/
+- date: ''
+  title: Range Named Among America’s 2025 Most Responsible Companies for Fourth Consecutive Year
+  url: https://www.rangeresources.com/range-named-among-americas-2025-most-responsible-companies-for-fourth-consecutive-year/
+- date: ''
   title: Range an Official Partner for World Engineering Day
   url: https://www.rangeresources.com/range-resources-an-official-partner-for-world-engineering-day-for-sustainable-development-2026-an-international-day-proclaimed-by-unesco/
 random_paper: 17
@@ -142,7 +142,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

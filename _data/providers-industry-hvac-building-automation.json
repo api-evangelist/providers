@@ -26,7 +26,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -87,7 +87,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -148,7 +148,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 41.5,
      "agent_band": "agent-ready",
@@ -191,7 +191,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -234,7 +234,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -283,16 +283,16 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "agent_score": 43.3,
+     "agent_score": 55.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "verified",
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "verified",
@@ -303,9 +303,9 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 6
@@ -326,9 +326,9 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "agent_score": 50.2,
+     "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -347,7 +347,7 @@
       "agent_card": false,
       "dry_run_mode": false,
       "delegated_identity": "served",
-      "protected_resource_metadata": false,
+      "protected_resource_metadata": "verified",
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
@@ -369,7 +369,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -411,7 +411,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -461,7 +461,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -504,7 +504,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -547,7 +547,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -597,7 +597,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -657,7 +657,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -685,54 +685,11 @@
      "rank": 14
     },
     {
-     "name": "Commusoft",
-     "slug": "commusoft",
-     "description": "Commusoft is a cloud-based field service management software platform founded in 2006, purpose-built for trades businesses including HVAC, plumbing, electrical, and building maintenance contractors. The platform provides a comprehensive REST API that enables developers and integration partners to manage jobs, customers, engineers, quotes, invoices, parts, and service histories programmatically. Commusoft's API powers integrations with accounting tools such as QuickBooks, Xero, and Sage, as well as payment processors like Stripe and GoCardless, and workflow automation platforms like Zapier. The API is documented on Apiary and supports OAuth-based authentication, enabling secure third-party access to job management workflows and customer data. With over 10,000 active users completing 2.1 million jobs annually, Commusoft sits at the intersection of field operations and digital integration for service businesses.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/screenshots/commusoft-2026-06-20T174826.png",
-     "score": 38.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 59.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "agent_score": 22.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
      "name": "BRICK Schema",
      "slug": "brick",
      "description": "BRICK is an open-source community-driven ontology standard for standardizing semantic descriptions of physical, logical, and virtual assets in buildings and the relationships between them. Using Semantic Web (RDF/OWL) technology, BRICK v1.4.4 enables interoperability across building management systems, reducing the cost of deploying analytics and energy efficiency initiatives. It supports HVAC, lighting, fire, security, and other building subsystems under a unified extensible vocabulary with SHACL-based validation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/screenshots/brick-2026-06-20T173653.png",
-     "score": 37.5,
+     "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -740,10 +697,10 @@
       "contract_quality": 45.2,
       "contract_governance": 22.0,
       "operational_transparency": 18.4,
-      "developer_ergonomics": 54.2,
+      "developer_ergonomics": 58.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -775,6 +732,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 15
+    },
+    {
+     "name": "Commusoft",
+     "slug": "commusoft",
+     "description": "Commusoft is a cloud-based field service management software platform founded in 2006, purpose-built for trades businesses including HVAC, plumbing, electrical, and building maintenance contractors. The platform provides a comprehensive REST API that enables developers and integration partners to manage jobs, customers, engineers, quotes, invoices, parts, and service histories programmatically. Commusoft's API powers integrations with accounting tools such as QuickBooks, Xero, and Sage, as well as payment processors like Stripe and GoCardless, and workflow automation platforms like Zapier. The API is documented on Apiary and supports OAuth-based authentication, enabling secure third-party access to job management workflows and customer data. With over 10,000 active users completing 2.1 million jobs annually, Commusoft sits at the intersection of field operations and digital integration for service businesses.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/screenshots/commusoft-2026-06-20T174826.png",
+     "score": 38.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 59.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 22.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 16
     },
     {
@@ -793,7 +793,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -843,7 +843,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -892,7 +892,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -935,7 +935,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -944,14 +944,14 @@
       "score": 63.5,
       "matched_via": "tags"
      },
-     "agent_score": 16.5,
-     "agent_band": "agent-aware",
+     "agent_score": 32.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "verified",
-      "auth_clarity": "bearer",
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -962,9 +962,9 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 20
@@ -985,7 +985,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -1028,7 +1028,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -1071,7 +1071,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1121,7 +1121,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1164,7 +1164,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1214,7 +1214,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1255,8 +1255,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 23,
-   "shown": 23,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "Infraspeak",
@@ -1274,7 +1274,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -1317,7 +1317,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1366,7 +1366,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1409,7 +1409,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1516,7 +1516,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1566,7 +1566,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1616,7 +1616,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1666,7 +1666,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1708,7 +1708,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1751,7 +1751,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1793,7 +1793,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1843,7 +1843,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1893,7 +1893,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1936,7 +1936,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1979,7 +1979,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2029,7 +2029,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2079,7 +2079,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2122,7 +2122,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2165,7 +2165,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2215,7 +2215,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2250,10 +2250,10 @@
      "rank": 47
     },
     {
-     "name": "Comfort Systems USA",
-     "slug": "comfort-systems-usa",
-     "description": "Comfort Systems USA is a major US corporation and Fortune 1000 company. The Comfort Systems USA API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comfort-systems-usa/refs/heads/main/screenshots/comfort-systems-usa-2026-06-20T174811.png",
+     "name": "Modine Manufacturing",
+     "slug": "modine-manufacturing",
+     "description": "Modine Manufacturing is a major US corporation and Fortune 1000 company. The Modine Manufacturing API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/modine-manufacturing/refs/heads/main/screenshots/modine-manufacturing-2026-06-20T185655.png",
      "score": 11.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2265,7 +2265,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2291,49 +2291,6 @@
       "agentic_commerce": false
      },
      "rank": 48
-    },
-    {
-     "name": "Modine Manufacturing",
-     "slug": "modine-manufacturing",
-     "description": "Modine Manufacturing is a major US corporation and Fortune 1000 company. The Modine Manufacturing API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/modine-manufacturing/refs/heads/main/screenshots/modine-manufacturing-2026-06-20T185655.png",
-     "score": 11.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
     }
    ]
   },
@@ -2342,8 +2299,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 24,
-   "shown": 24,
+   "count": 25,
+   "shown": 25,
    "providers": [
     {
      "name": "Aeterlink Corp.",
@@ -2360,7 +2317,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2392,7 +2349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Watsco",
@@ -2410,7 +2367,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2435,7 +2392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Aeroseal",
@@ -2453,7 +2410,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2485,7 +2442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "UpSmith",
@@ -2503,7 +2460,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2535,7 +2492,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Green Fusion",
@@ -2553,7 +2510,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2585,7 +2542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Sealed",
@@ -2603,7 +2560,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2635,7 +2592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Regal Beloit",
@@ -2653,7 +2610,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2685,7 +2642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "GeoGrid",
@@ -2703,7 +2660,50 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 56
+    },
+    {
+     "name": "Tradeway",
+     "slug": "tradeway",
+     "description": "Tradeway is an AI-powered field assistant for residential trade contractors working in electrical, plumbing, and HVAC. Technicians use it to plan jobs step by step with the right materials and code requirements, to identify parts from a photo with nearby supplier pricing and sourcing, and to get hands-free answers to technical questions on the job site. For business owners it centralizes crew history and field activity into a single view, reducing callbacks and rework through built-in code checks and standardized, repeatable processes so new hires can bill like veterans. Tradeway is backed by Bloomberg Beta. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or API documentation; this profile captures its identity and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradeway/refs/heads/main/screenshots/tradeway-2026-09-02T164100.png",
+     "score": 6.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2731,22 +2731,21 @@
      "rank": 57
     },
     {
-     "name": "Tradeway",
-     "slug": "tradeway",
-     "description": "Tradeway is an AI-powered field assistant for residential trade contractors working in electrical, plumbing, and HVAC. Technicians use it to plan jobs step by step with the right materials and code requirements, to identify parts from a photo with nearby supplier pricing and sourcing, and to get hands-free answers to technical questions on the job site. For business owners it centralizes crew history and field activity into a single view, reducing callbacks and rework through built-in code checks and standardized, repeatable processes so new hires can bill like veterans. Tradeway is backed by Bloomberg Beta. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or API documentation; this profile captures its identity and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradeway/refs/heads/main/screenshots/tradeway-2026-09-02T164100.png",
-     "score": 6.3,
+     "name": "AEOL",
+     "slug": "aeol",
+     "description": "AEOL (AEOL KOREA Co., Ltd. / 주식회사 에이올코리아) is a South Korean advanced-materials and climate-technology manufacturer founded in February 2018 out of the Korea University Campus Town programme and headquartered in Seongnam, Gyeonggi Province. The company holds a twenty-year exclusive licence from the Korea Research Institute of Chemical Technology to manufacture and sell Metal-Organic Framework (MOF) materials, and was the first Korean firm to commercialise MOF production at scale. It turns that porous-adsorbent chemistry into physical equipment: MOF desiccant rotors and hybrid dehumidifiers that regenerate at low temperature instead of using refrigerant compression, all-in-one units combining heat-recovery ventilation with UV-LED and HEPA air purification and auxiliary cooling, harmful-gas and odour adsorption products such as the Red Dot-awarded Mofresh Mini, and the CarbonSorV rotary wheel for continuous CO2 capture shown at CES 2025. AEOL won a CES 2024 Innovation Award and the FIX 2024 Grand Innovation Award, has raised roughly USD 10-23 million from investors including KU Startup, BlissVine Ventures, JCGI, KNET Investment Partners and NH Venture Investment, and sells through appliance-maker R&D partnerships and distribution agreements in North America and New Zealand. AEOL sells hardware and materials, not software: it operates a single Korean-language Cafe24-hosted corporate site with no developer section, publishes no API documentation, SDK, webhook or machine-readable API contract of any kind, and maintains no public code repositories or package-registry releases.",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 53.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "access_clarity": 6.6
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2774,21 +2773,22 @@
      "rank": 58
     },
     {
-     "name": "AEOL",
-     "slug": "aeol",
-     "description": "AEOL (AEOL KOREA Co., Ltd. / 주식회사 에이올코리아) is a South Korean advanced-materials and climate-technology manufacturer founded in February 2018 out of the Korea University Campus Town programme and headquartered in Seongnam, Gyeonggi Province. The company holds a twenty-year exclusive licence from the Korea Research Institute of Chemical Technology to manufacture and sell Metal-Organic Framework (MOF) materials, and was the first Korean firm to commercialise MOF production at scale. It turns that porous-adsorbent chemistry into physical equipment: MOF desiccant rotors and hybrid dehumidifiers that regenerate at low temperature instead of using refrigerant compression, all-in-one units combining heat-recovery ventilation with UV-LED and HEPA air purification and auxiliary cooling, harmful-gas and odour adsorption products such as the Red Dot-awarded Mofresh Mini, and the CarbonSorV rotary wheel for continuous CO2 capture shown at CES 2025. AEOL won a CES 2024 Innovation Award and the FIX 2024 Grand Innovation Award, has raised roughly USD 10-23 million from investors including KU Startup, BlissVine Ventures, JCGI, KNET Investment Partners and NH Venture Investment, and sells through appliance-maker R&D partnerships and distribution agreements in North America and New Zealand. AEOL sells hardware and materials, not software: it operates a single Korean-language Cafe24-hosted corporate site with no developer section, publishes no API documentation, SDK, webhook or machine-readable API contract of any kind, and maintains no public code repositories or package-registry releases.",
-     "score": 5.4,
+     "name": "Nortek",
+     "slug": "nortek",
+     "description": "Nortek is a global manufacturer of HVAC, data center cooling, and cleanroom systems, organized into three divisions: Nortek Air Solutions, Nortek Data Center Cooling, and Nortek Cleanroom Solutions. No public developer portal or OpenAPI specifications have been identified at this time; this repository tracks Nortek for future API discovery and integration intelligence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nortek/refs/heads/main/screenshots/nortek-2026-06-20T190412.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 53.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2816,10 +2816,10 @@
      "rank": 59
     },
     {
-     "name": "Nortek",
-     "slug": "nortek",
-     "description": "Nortek is a global manufacturer of HVAC, data center cooling, and cleanroom systems, organized into three divisions: Nortek Air Solutions, Nortek Data Center Cooling, and Nortek Cleanroom Solutions. No public developer portal or OpenAPI specifications have been identified at this time; this repository tracks Nortek for future API discovery and integration intelligence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nortek/refs/heads/main/screenshots/nortek-2026-06-20T190412.png",
+     "name": "View",
+     "slug": "view",
+     "description": "View, Inc. is a smart-glass and smart-building technology company founded in 2007 and headquartered in Milpitas, California, with manufacturing in Olive Branch, Mississippi. View makes View Dynamic Glass, electrochromic architectural windows whose tint adjusts automatically to sunlight, glare, and heat, alongside a connected Smart Building Platform in which each pane is individually IP-addressable and app-controllable and layered with sensors and services such as SmartProtect (an Azure IoT integration that alerts building managers when glass breaks). Backed by the SoftBank Vision Fund, View went public via SPAC in 2021 and filed for Chapter 11 bankruptcy in 2024, transitioning back to private ownership under its lenders. View exposes no public developer API surface; its GitHub organization (viewinc) mirrors third-party C/C++ and IoT firmware libraries used internally rather than first-party SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/view/refs/heads/main/screenshots/view-2026-09-02T165908.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2831,7 +2831,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2859,49 +2859,6 @@
      "rank": 60
     },
     {
-     "name": "View",
-     "slug": "view",
-     "description": "View, Inc. is a smart-glass and smart-building technology company founded in 2007 and headquartered in Milpitas, California, with manufacturing in Olive Branch, Mississippi. View makes View Dynamic Glass, electrochromic architectural windows whose tint adjusts automatically to sunlight, glare, and heat, alongside a connected Smart Building Platform in which each pane is individually IP-addressable and app-controllable and layered with sensors and services such as SmartProtect (an Azure IoT integration that alerts building managers when glass breaks). Backed by the SoftBank Vision Fund, View went public via SPAC in 2021 and filed for Chapter 11 bankruptcy in 2024, transitioning back to private ownership under its lenders. View exposes no public developer API surface; its GitHub organization (viewinc) mirrors third-party C/C++ and IoT firmware libraries used internally rather than first-party SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/view/refs/heads/main/screenshots/view-2026-09-02T165908.png",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-18",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 61
-    },
-    {
      "name": "500net Technology Co., Ltd.",
      "slug": "500nettechnologycoltd",
      "description": "500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-building, smart-factory, smart-parking and AI+IoT platforms for enterprise clients. Its published solution set covers BA central-monitoring systems, smart property-management and parking operations, the 500net-EMS energy-management platform, carbon-footprint / ESG inventory reporting, digital twins, AMR robotics and AI/AOI inspection, integrated across heterogeneous controllers over RS-485/Modbus, wired, wireless and 4G/5G links. Work is delivered as project-based system integration for named enterprise customers; the company publishes a corporate site and an investor section but no public developer program, API reference, SDK or machine-readable contract.",
@@ -2916,7 +2873,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2948,7 +2905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Comfy *",
@@ -2966,7 +2923,49 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 62
+    },
+    {
+     "name": "FogHorn Systems (Johnson Controls)",
+     "slug": "foghorn-systems-johnson-controls",
+     "description": "FogHorn Systems was a Sunnyvale, California developer of edge AI and machine learning software for the industrial and commercial Internet of Things (IIoT). Its Lightning Edge AI platform and Lightning EdgeML brought real-time streaming analytics and ML inference to constrained on-premises edge hardware for predictive maintenance, machine optimization, and operational intelligence use cases. Johnson Controls acquired FogHorn in January 2022 and folded its team and technology into the OpenBlue suite of smart, autonomous building solutions, with the former Sunnyvale headquarters operating as a Johnson Controls \"AI Hub.\" FogHorn no longer operates as a standalone brand and publishes no independent public developer surface — no developer portal, API reference, SDKs, or GitHub organization resolve as of this enrichment pass; the former foghorn.io/foghorn.ai domains are parked. This profile is retained as a network company record with no public API artifacts to harvest.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2994,9 +2993,10 @@
      "rank": 63
     },
     {
-     "name": "FogHorn Systems (Johnson Controls)",
-     "slug": "foghorn-systems-johnson-controls",
-     "description": "FogHorn Systems was a Sunnyvale, California developer of edge AI and machine learning software for the industrial and commercial Internet of Things (IIoT). Its Lightning Edge AI platform and Lightning EdgeML brought real-time streaming analytics and ML inference to constrained on-premises edge hardware for predictive maintenance, machine optimization, and operational intelligence use cases. Johnson Controls acquired FogHorn in January 2022 and folded its team and technology into the OpenBlue suite of smart, autonomous building solutions, with the former Sunnyvale headquarters operating as a Johnson Controls \"AI Hub.\" FogHorn no longer operates as a standalone brand and publishes no independent public developer surface — no developer portal, API reference, SDKs, or GitHub organization resolve as of this enrichment pass; the former foghorn.io/foghorn.ai domains are parked. This profile is retained as a network company record with no public API artifacts to harvest.",
+     "name": "Keepe",
+     "slug": "keepe",
+     "description": "Keepe operates a US nationwide service-provider network of vetted technicians covering HVAC, plumbing, electrical, furnace and heating, air conditioning, home appliances, and EV charger installation and repair. The platform streamlines the full home-services workflow end to end - recruiting, sourcing, dispatching, authorizing, and paying qualified technicians - so property managers, warranty companies, and insurers can get high-quality repair work completed reliably across markets. Keepe runs a consumer/technician mobile app and a private application backend at api.keepe.com; it does not publish a public developer API, developer portal, or API documentation. This profile was surfaced as a Techstars portfolio company and enriched by the API Evangelist pipeline with the infrastructure signals that are publicly observable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keepe/refs/heads/main/screenshots/keepe-2026-07-25T223555.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3008,7 +3008,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3036,11 +3036,11 @@
      "rank": 64
     },
     {
-     "name": "Keepe",
-     "slug": "keepe",
-     "description": "Keepe operates a US nationwide service-provider network of vetted technicians covering HVAC, plumbing, electrical, furnace and heating, air conditioning, home appliances, and EV charger installation and repair. The platform streamlines the full home-services workflow end to end - recruiting, sourcing, dispatching, authorizing, and paying qualified technicians - so property managers, warranty companies, and insurers can get high-quality repair work completed reliably across markets. Keepe runs a consumer/technician mobile app and a private application backend at api.keepe.com; it does not publish a public developer API, developer portal, or API documentation. This profile was surfaced as a Techstars portfolio company and enriched by the API Evangelist pipeline with the infrastructure signals that are publicly observable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keepe/refs/heads/main/screenshots/keepe-2026-07-25T223555.png",
-     "score": 5.0,
+     "name": "Comfort Systems USA",
+     "slug": "comfort-systems-usa",
+     "description": "Comfort Systems USA (NYSE: FIX) is a Houston-based mechanical, electrical and plumbing contractor — one of the largest in the United States — that installs, services and maintains HVAC, piping, electrical and building-automation systems for commercial, industrial and institutional buildings through more than 45 operating companies in over 170 locations. Its business lines are construction (engineering and design, prefabrication, virtual construction), modular and off-site construction, building services (maintenance, on-demand and retrofit) and building automation (controls, monitoring, security and energy management). The company publishes no public API, developer program, SDK or machine-readable contract; its web presence is a WordPress marketing site and an investor-relations site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comfort-systems-usa/refs/heads/main/screenshots/comfort-systems-usa-2026-06-20T174811.png",
+     "score": 4.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3049,11 +3049,18 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
-     "agent_score": 0.0,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3064,7 +3071,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -3094,7 +3101,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3186,7 +3193,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3235,7 +3242,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3278,7 +3285,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3327,7 +3334,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3377,7 +3384,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3427,7 +3434,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-18",
+     "scored_at": "2026-09-19",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

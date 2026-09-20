@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,19 +91,19 @@ overview: 'CIT Group is profiled on the [APIs.io](https://apis.io/) network. Tag
 
   CIT Group''s developer surface includes support and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: First Citizens Completes Merger With CIT Group
   url: https://www.prnewswire.com/news-releases/first-citizens-completes-merger-with-cit-group-301453104.html
-- date: '2026-05-25'
+- date: ''
   title: Client First Citizens and CIT Group Announce Merger to ...
   url: https://www.smithlaw.com/newsroom/news/Client-First-Citizens-and-CIT-Group-Announce-Merger-to-Create-19th-Largest-Bank-in-U-S
-- date: '2026-05-25'
+- date: ''
   title: 2021 Press Releases
   url: https://www.fdic.gov/news/press-releases/2021
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: CIT Group Inc. Ratings Placed On'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/11704974
-- date: '2026-05-25'
+- date: ''
   title: First Citizens rebrands CIT businesses, Discover launches ...
   url: https://www.americanbanker.com/list/first-citizens-rebrands-cit-businesses-discover-launches-new-campaign
 random_paper: 20
@@ -133,7 +133,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

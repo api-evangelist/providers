@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Chubb Studio is Chubb's embedded insurance technology platform that enables digital partners (banks, retailers, travel platforms, fintechs, OEMs, and other distributors) to integrate Chubb's insurance
@@ -181,19 +181,19 @@ plans:
   plan_count: 1
   slug: chubb-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Digital business accelerated
   url: https://www.chubb.com/content/dam/aem-chubb-global/digital-business-accelerated/pdf/chubb_digital-business_research-report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Chubb Launches AI-Powered Embedded Insurance Engine
   url: https://news.chubb.com/2025-11-12-Chubb-Launches-AI-Powered-Embedded-Insurance-Engine
-- date: '2026-05-25'
+- date: ''
   title: News Release Archive - News Releases
   url: https://chubb.mediaroom.com/news-releases?item=125834
-- date: '2026-05-25'
+- date: ''
   title: Chubb to cut up to 20% of workforce in 'radical' AI drive
   url: https://www.insurancebusinessmag.com/us/news/breaking-news/chubb-to-cut-up-to-20-of-workforce-in-radical-ai-drive-559950.aspx
-- date: '2026-05-25'
+- date: ''
   title: Chubb Launches AI-Powered Embedded Insurance Engine
   url: https://www.prnewswire.com/news-releases/chubb-launches-ai-powered-embedded-insurance-engine-302611988.html
 random_paper: 10
@@ -227,7 +227,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

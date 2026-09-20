@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Pepco Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Electric, and Natural Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pepco, Exelon close deal after getting final approval
   url: https://www.reuters.com/article/business/pepco-exelon-close-deal-after-getting-final-approval-idUSKCN0WP2GU/
-- date: '2026-05-25'
+- date: ''
   title: Search
   url: https://www.esource.com/search?f%5B0%5D=service_name_taxonomy_term_name%3ABusiness%20Marketing%20Service&page=4
-- date: '2026-05-25'
+- date: ''
   title: Thought Leadership | Press Releases
   url: https://www.epri.com/Press-Releases/
-- date: '2026-05-25'
+- date: ''
   title: Janell Thomas - Pepco Holdings
   url: https://www.linkedin.com/in/janell-thomas-9a738b142
-- date: '2026-05-25'
+- date: ''
   title: Exelon to Acquire Pepco Holdings Inc., Creating the ...
   url: https://njbmagazine.com/njb-news-now/exelon-acquire-pepco-holdings-inc-creating-leading-mid-atlantic-electric-gas-utility/
 random_paper: 6
@@ -117,7 +117,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

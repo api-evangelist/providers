@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,30 +71,30 @@ nav: Providers
 network: true
 overview: General Electric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Aviation, Energy, Manufacturing, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
+  title: GE Vernova launches new portfolio of Grid Automation solutions to enhance grid resilience
+  url: https://www.ge.com/news/press-releases/ge-vernova-launches-new-portfolio-of-grid-automation-solutions-to-enhance-grid-resilience
+- date: ''
   title: GE Vernova unveils new AI-based software to advance ...
   url: https://www.ge.com/news/press-releases/ge-vernova-unveils-new-ai-based-software-to-advance-industrial-sustainability-operations-goals
-- date: '2026-05-25'
-  title: Artificial Intelligence | GE News
-  url: https://www.ge.com/news/taxonomy/term/315
-- date: '2026-05-25'
-  title: GE HealthCare drives growth with investment in AI ...
-  url: https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-drives-growth-with-investment-in-ai-enabled-medical-devices-and-tops-fdas-list-of-ai-authorizations-for-4th-year-with-100?srsltid=AfmBOooLfvsp0EkfeweHnoq42I0O0zhIdq2LdPyeu609aGP1_k7L2VGv
-- date: '2026-05-25'
-  title: GE Aerospace Launches Company-wide Generative AI ...
-  url: https://www.geaerospace.com/news/press-releases/ge-aerospace-launches-company-wide-generative-ai-platform-employees
-- date: '2026-05-25'
-  title: GE Vernova whitepapers offer pragmatic approach on AI ...
-  url: https://www.gevernova.com/news/press-releases/ge-vernova-whitepapers-offer-pragmatic-approach-ai-more-intelligent-energy-grids
-- date: '2025-10-12'
+- date: ''
+  title: GE Board of Directors Approves Spin-Off of GE Vernova; GE Vernova and GE Aerospace to Launch April 2, 2024
+  url: https://www.ge.com/news/press-releases/ge-board-of-directors-approves-spin-off-of-ge-vernova-ge-vernova-and-ge-aerospace-to
+- date: ''
+  title: Opening of Australia&#039;s first dual-fuel gas and green hydrogen capable power plant in New South Wales
+  url: https://www.ge.com/news/press-releases/opening-of-australia-first-dual-fuel-gas-and-green-hydrogen-capable-power-plant-in
+- date: ''
+  title: GE Vernova’s Nuclear Fuel business receives regulatory approval to manufacture higher enrichment fuel
+  url: https://www.ge.com/news/press-releases/ge-vernova-nuclear-fuel-business-receives-regulatory-approval-to-manufacture-higher-enrichment-fuel
+- date: ''
   title: Testing with Ellie
   url: https://www.ge.com/news/press-releases/testing-with-ellie
-- date: '2024-04-02'
-  title: GE Aerospace Launches as Independent, Investment-Grade Public Company Following Completion of GE Vernova Spin-Off
-  url: https://www.ge.com/news/press-releases/ge-aerospace-launches-as-independent-investment-grade-public-company-following
-- date: '2024-03-18'
-  title: GE Vernova’s Power Conversion business to supply integrated full electric propulsion systems for the Republic of Singapore Navy’s Multi-Role Combat Vessel program
-  url: https://www.ge.com/news/press-releases/ge-vernova-power-conversion-supply-integrated-full-electric-propulsion-systems-singapore-navy-multi-role-combat-vessel
+- date: ''
+  title: Artificial Intelligence | GE News
+  url: https://www.ge.com/news/taxonomy/term/315
+- date: ''
+  title: GE Vernova unveils new AI-based software to advance industrial sustainability and operations goals simultaneously
+  url: https://www.ge.com/news/press-releases/ge-vernova-unveils-new-ai-based-software-to-advance-industrial-sustainability-operations-goals
 random_paper: 16
 score:
   band: minimal
@@ -122,7 +122,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

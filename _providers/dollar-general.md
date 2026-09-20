@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Dollar General is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Discount Retail, Fortune 500, and Vendor Management.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Dollar General eyes AI optimization with new role
   url: https://www.retaildive.com/news/dollar-general-ai-optimization-executive-role/804748/
-- date: '2026-05-25'
+- date: ''
   title: Dollar General Corporation Announces Artificial ...
   url: https://www.andnowuknow.com/quick-dish/dollar-general-corporation-announces-artificial-intelligence-ai/anuk-staff/101424
-- date: '2026-05-25'
+- date: ''
   title: DG Media Network to Introduce AI-Enabled In-Store Audio ...
   url: https://www.businesswire.com/news/home/20260413141741/en/DG-Media-Network-to-Introduce-AI-Enabled-In-Store-Audio-Network-Across-Thousands-of-Dollar-General-Stores
-- date: '2026-05-25'
+- date: ''
   title: In-Store AI Ads Coming to 6000 Dollar General Locations
   url: https://progressivegrocer.com/store-ai-ads-coming-6000-dollar-general-locations
-- date: '2026-05-25'
+- date: ''
   title: Dollar General expands retail media network with AI ...
   url: https://cspdailynews.com/technologyservices/dollar-general-expands-retail-media-network-ai-powered-audio-unified-ad
 random_paper: 9
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 6
 apis:
 - description: The core open-source, git-native desktop API client (a lightweight Postman/Insomnia alternative). Compose and send HTTP, REST, GraphQL, and gRPC requests, organize them into collections, manage enviro
@@ -255,7 +255,7 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 24.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
@@ -263,14 +263,14 @@ score:
     developer_ergonomics: 59.5
     discoverability: 72.2
     operational_transparency: 65.8
-  previous_composite: 25.7
+  previous_composite: 49.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  trend: rising
+  scored_at: '2026-09-19'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

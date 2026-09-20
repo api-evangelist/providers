@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,19 +83,19 @@ overview: 'CSX Corporation is profiled on the [APIs.io](https://apis.io/) networ
 
   CSX Corporation''s developer surface includes developer portal and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: CSX embraces AI in drive to improve operations
   url: https://www.facebook.com/TrainsMagazine/posts/csx-embraces-ai-in-drive-to-improve-operations/1451690377002573/
-- date: '2026-05-25'
+- date: ''
   title: CSX CEO Touts AI Efficiency, U.S.-Led Growth and Service ...
   url: https://finance.yahoo.com/news/csx-ceo-touts-ai-efficiency-030715155.html
-- date: '2026-05-25'
+- date: ''
   title: 'CSX''s AI Strategy: Analysis of Dominance in Rail ...'
   url: https://www.klover.ai/csx-ai-strategy-analysis-of-dominance-in-rail-transportation-ai/
-- date: '2026-05-25'
+- date: ''
   title: CSX Modernizes Data Platform with Infosys & Microsoft
   url: https://www.prnewswire.com/news-releases/csx-modernizes-data-platform-with-infosys--microsoft-302695751.html
-- date: '2026-05-25'
+- date: ''
   title: CSX Introduces ChatBot to Streamline Real Estate Inquiries
   url: https://www.csx.com/index.cfm/customers/csx-introduces-chatbot-to-streamline-real-estate-inquiries/
 random_paper: 4
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

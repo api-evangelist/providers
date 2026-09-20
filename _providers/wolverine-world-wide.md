@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,19 +66,19 @@ overview: 'Wolverine World Wide is profiled on the [APIs.io](https://apis.io/) n
 
   Wolverine World Wide''s developer surface includes support and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Wolverine Worldwide Reports First Quarter 2026 Results
   url: https://www.gurufocus.com/news/8858720/wolverine-worldwide-reports-first-quarter-2026-results?mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Wolverine World Wide, Inc. (WWW) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4904588-wolverine-world-wide-inc-www-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Wolverine World Wide Vs Intelligent
   url: https://danelfin.com/stocks/WWW-wolverine-world-wide-vs-INTJ-intelligent-compare
-- date: '2026-05-25'
+- date: ''
   title: Head of Investor Relations - Wolverine Worldwide
   url: https://builtin.com/job/senior-director-investor-relations/3314882
-- date: '2026-05-25'
+- date: ''
   title: Wolverine Worldwide To Acquire Collective Brands ...
   url: https://www.prnewswire.com/news-releases/wolverine-worldwide-to-acquire-collective-brands-performance--lifestyle-group-149646735.html
 random_paper: 8
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

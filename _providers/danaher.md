@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,19 +103,19 @@ nav: Providers
 network: true
 overview: Danaher is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Conglomerate, Diagnostics, Life Sciences, and Medical Devices.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.danaher.com/press-releases
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence
   url: https://www.danaher.com/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Danaher Reports Second Quarter 2025 Results
   url: https://investors.danaher.com/2025-07-22-Danaher-Reports-Second-Quarter-2025-Results
-- date: '2026-05-25'
+- date: ''
   title: Press Releases - Danaher Investor Relations
   url: https://investors.danaher.com/press-releases?l=50
-- date: '2026-05-25'
+- date: ''
   title: Danaher | Events and Presentations
   url: https://investors.danaher.com/events-presentations
 random_paper: 19
@@ -145,7 +145,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

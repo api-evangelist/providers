@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -96,19 +96,19 @@ plans:
   plan_count: 0
   slug: caesars-entertainment-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Caesars Entertainment Las Vegas Resorts Elevates Customer ...
   url: https://investor.caesars.com/news-releases/news-release-details/caesars-entertainment-las-vegas-resorts-elevates-customer
-- date: '2026-05-25'
+- date: ''
   title: Caesars Entertainment Posts Narrower Loss as Revenue ...
   url: https://www.wsj.com/business/earnings/caesars-entertainment-posts-narrower-loss-as-revenue-rises-a2030564
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Caesars Entertainment, Inc.
   url: https://investor.caesars.com/press-releases?items_per_page=25&mobile=1&page=66
-- date: '2026-05-25'
+- date: ''
   title: Caesars Entertainment Partners with IBM and Salesforce ...
   url: https://www.prnewswire.com/news-releases/caesars-entertainment-partners-with-ibm-and-salesforce-leveraging-technology-to-deliver-transformative-vip-experiences-300711945.html
-- date: '2026-05-25'
+- date: ''
   title: Caesars Entertainment Defines & Measures ROI for Test ...
   url: https://www.parasoft.com/resources/case-studies/caesars-entertainment-defines-and-measures-roi-for-test-automation/
 random_paper: 11
@@ -136,7 +136,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,19 +114,19 @@ plans:
   plan_count: 3
   slug: motorola-solutions-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: What is Artificial Intelligence(AI)? - Motorola Solutions
   url: https://www.motorolasolutions.com/en_us/solutions/what-is-ai.html
-- date: '2026-05-25'
+- date: ''
   title: Motorola Solutions Introduces 'AI Nutrition Labels,' a First for ...
   url: https://www.motorolasolutions.com/newsroom/press-releases/motorola-solutions-introduces-ai-nutrition-labels.html
-- date: '2026-05-25'
+- date: ''
   title: Motorola Solutions acquires Blue Eye, leading provider of AI ...
   url: https://www.motorolasolutions.com/newsroom/press-releases/motorola-solutions-acquires-blue-eye.html
-- date: '2026-05-25'
+- date: ''
   title: Motorola Solutions Buys 911 Call Center AI Firm HyperYou
   url: https://www.govtech.com/biz/motorola-solutions-buys-911-call-center-ai-firm-hyperyou
-- date: '2026-05-25'
+- date: ''
   title: Motorola Solutions Opens New AI and Resilience Software ...
   url: https://www.businesswire.com/news/home/20260521618405/en/Motorola-Solutions-Opens-New-AI-and-Resilience-Software-Hub-in-Boston-Massachusetts
 random_paper: 16
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

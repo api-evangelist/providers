@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Con-way is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct, Freight, Less-Than-Truckload, Logistics, and Shipping.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Con-way Freight Expands Freightliner Natural Gas- ...
   url: https://www.truckinginfo.com/news/con-way-freight-expands-freightliner-natural-gas-powered-tractors-in-its-fleet
-- date: '2026-05-25'
+- date: ''
   title: Road Systems, Inc. Becomes Con-way Manufacturing
   url: https://www.prnewswire.com/news-releases/road-systems-inc-becomes-con-way-manufacturing-219792541.html
-- date: '2026-05-25'
+- date: ''
   title: Con-Way Cruising With Expert System | CIO
   url: https://www.cio.com/article/270091/supply-chain-management-con-way-cruising-with-expert-system.html
-- date: '2026-05-25'
+- date: ''
   title: Desta Tessema - Con-way
   url: https://www.linkedin.com/in/desta-tessema-82822923
-- date: '2026-05-25'
+- date: ''
   title: XPO closes purchase of Con-way; layoffs begin within ...
   url: https://www.dcvelocity.com/articles/27607-xpo-closes-purchase-of-con-way-layoffs-begin-within-con-way-system
 random_paper: 20

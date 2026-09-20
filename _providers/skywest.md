@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: SkyWest Airlines flight data including flight status, schedules, and routes is accessible through third-party aviation APIs such as AirLabs. SkyWest operates under IATA code OO / ICAO code SKW and ser
@@ -126,19 +126,19 @@ plans:
   plan_count: 3
   slug: skywest-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 2024 ANNUAL REPORT - SkyWest Incorporated
   url: https://inc.skywest.com/assets/Uploads/AnnualReports/2024-Annual-Report-and-Proxy-Statement.pdf
-- date: '2026-05-25'
+- date: ''
   title: Barkley Regional Airport prepares for SkyWest launch ...
   url: https://www.wpsdlocal6.com/news/barkley-regional-airport-prepares-for-skywest-launch-mobile-id-upgrades/article_522bc4f6-b4a8-4719-b708-3792d2d9d3d1.html
-- date: '2026-05-25'
+- date: ''
   title: 2025 ANNUAL REPORT - SkyWest Incorporated
   url: https://inc.skywest.com/assets/Uploads/AnnualReports/2025Annual-Report-and-Proxy-Statement.pdf
-- date: '2026-05-25'
+- date: ''
   title: Could AI Have Prevented SkyWest Airliner's Near Collision ...
   url: https://www.scientificamerican.com/article/could-ai-have-prevented-skywest-airliners-near-collision-with-a-b52-bomber/
-- date: '2026-05-25'
+- date: ''
   title: SkyWest set to deploy CAE's next-generation Flight ...
   url: https://www.prnewswire.com/news-releases/skywest-set-to-deploy-caes-next-generation-flight-operations-solutions-301836499.html
 random_paper: 2
@@ -166,7 +166,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

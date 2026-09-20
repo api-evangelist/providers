@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -154,19 +154,19 @@ plans:
   plan_count: 2
   slug: global-payments-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Global Payments Inc. (@GlobalPaymentsInc)
   url: https://www.facebook.com/GlobalPaymentsInc/
-- date: '2026-05-25'
+- date: ''
   title: AI's vital role in payments and commerce
   url: https://www.globalpayments.com/insights/ai-in-payments-and-commerce
-- date: '2026-05-25'
+- date: ''
   title: BofA's New GenAI Assistant Transforms Global Payments ...
   url: https://www.prnewswire.com/news-releases/bofas-new-genai-assistant-transforms-global-payments-solutions-302570314.html
-- date: '2026-05-25'
+- date: ''
   title: Global Payments Unveils AI-First Genius Handheld Built for ...
   url: https://www.businesswire.com/news/home/20260512297137/en/Global-Payments-Unveils-AI-First-Genius-Handheld-Built-for-the-Future-of-Commerce
-- date: '2026-05-25'
+- date: ''
   title: Global Payments Joins Forces with AWS to Deliver ...
   url: https://investors.globalpayments.com/news-events/press-releases/detail/49/global-payments-joins-forces-with-aws-to-deliver-the-future
 random_paper: 11
@@ -212,7 +212,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

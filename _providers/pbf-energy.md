@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: PBF Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fortune 500, Logistics, Petroleum, and Refining.
 press:
-- date: '2026-05-25'
+- date: ''
   title: SUSTAINABILITY REPORT
   url: https://www.pbfenergy.com/wp-content/uploads/2025/09/2024-PBF-Sustainability-Report.pdf
-- date: '2026-05-25'
+- date: ''
   title: PBF Energy details 2026 virtual annual meeting, pay plan
   url: https://www.stocktitan.net/sec-filings/PBF/def-14a-pbf-energy-inc-definitive-proxy-statement-34a2a6e98ec4.html
-- date: '2026-05-25'
+- date: ''
   title: PBF Energy Provides Update on Martinez Refinery
   url: https://www.prnewswire.com/news-releases/pbf-energy-provides-update-on-martinez-refinery-302393812.html
-- date: '2026-05-25'
+- date: ''
   title: PBF Energy Inc. (PBF) Q1 2026 Earnings Call Transcript
   url: https://seekingalpha.com/article/4896811-pbf-energy-inc-pbf-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Unisys Stealth to Protect Critical Data at PBF Energy ...
   url: https://www.unisys.com/news-release/unisys-stealth-to-protect-critical-data-at-pbf-energy-locations/
 random_paper: 17
@@ -121,7 +121,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

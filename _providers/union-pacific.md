@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -222,24 +222,24 @@ plans:
   plan_count: 1
   slug: union-pacific-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: UNP Union Pacific Corporation Latest Press Releases
   url: https://seekingalpha.com/symbol/UNP/press-releases
-- date: '2026-05-25'
+- date: ''
   title: 'Union Pacific''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/union-pacific-ai-strategy-analysis-of-dominance-in-railroad/
-- date: '2026-05-25'
+- date: ''
   title: QScreen AI Appoints Former Union Pacific Vice President ...
   url: https://www.newsfilecorp.com/release/294734/QScreen-AI-Appoints-Former-Union-Pacific-Vice-President-as-Strategic-Advisor-to-Drive-Expansion-into-North-American-Rail-and-Transportation-Markets
-- date: '2026-05-25'
-  title: Our track inspectors are getting a high-tech assist. With AI ...
-  url: https://www.facebook.com/unionpacific/posts/our-track-inspectors-are-getting-a-high-tech-assistwith-ai-powered-machine-visio/1400107518819198/
-- date: '2026-05-25'
-  title: Union Pacific's AI Chat Gives Employees Tool to Save ...
-  url: https://www.up.com/news/service/ai-chatgpt-tool-it-240205
-- date: '2026-05-22'
+- date: ''
   title: AI is Enhancing How Union Pacific Inspects Track
   url: https://www.up.com/news/safety/ai-powered-vision-inspects-track-260522
+- date: ''
+  title: Our track inspectors are getting a high-tech assist. With AI ...
+  url: https://www.facebook.com/unionpacific/posts/our-track-inspectors-are-getting-a-high-tech-assistwith-ai-powered-machine-visio/1400107518819198/
+- date: ''
+  title: Union Pacific's AI Chat Gives Employees Tool to Save ...
+  url: https://www.up.com/news/service/ai-chatgpt-tool-it-240205
 random_paper: 19
 rate_limits:
 - limit_count: 1
@@ -294,7 +294,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

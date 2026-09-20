@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'The public Esri ArcGIS Online feature-service catalog Hawaiian Electric serves under tenant gfBpz2hbsVDgru6D. Twenty-three FeatureServers are shared publicly and answer anonymous queries: the External'
@@ -120,19 +120,19 @@ plans:
   plan_count: 0
   slug: hawaiian-electric-industries-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Hawaiian Electric Industries Inc. has sold over 90% of its ...
   url: https://www.facebook.com/staradvertiser/posts/hawaiian-electric-industries-inc-has-sold-over-90-of-its-subsidiary-american-sav/977490881142703/
-- date: '2026-05-25'
+- date: ''
   title: Hawaiian Electric Industries, Inc. (HE) Q3 2025 Earnings ...
   url: https://seekingalpha.com/article/4840645-hawaiian-electric-industries-inc-he-q3-2025-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Hawaiian Electric Industries (NYSE:HE) - Stock Analysis
   url: https://simplywall.st/stocks/us/utilities/nyse-he/hawaiian-electric-industries
-- date: '2026-05-25'
+- date: ''
   title: Hawaiian Electric Continues to Advance Wildfire Safety ...
   url: https://www.hei.com/investor-relations/news-and-events/news/news-details/2024/Hawaiian-Electric-Continues-to-Advance-Wildfire-Safety-Efforts/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 'Wall Street Recap: Can Hawaiian Electric Industries Inc. (HWI) stock ...'
   url: https://www.fitnessatfive.com/ati-del/258/Can-Hawaiian-Electric-Industries-Inc.-(HWI)-stock-sustain-institutional-flows
 random_paper: 5
@@ -141,8 +141,8 @@ rate_limits:
   name: Hawaiian Electric Industries Rate Limits
   slug: hawaiian-electric-industries-rate-limits
 score:
-  band: emerging
-  composite: 21.6
+  band: thin
+  composite: 26.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -150,12 +150,12 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.9
   facets:
-    access_clarity: 10.5
+    access_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 21.4
+    developer_ergonomics: 31.0
     discoverability: 75.9
     operational_transparency: 31.6
   previous_composite: 21.6
@@ -166,9 +166,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 28.4
+    score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

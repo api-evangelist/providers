@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -136,19 +136,19 @@ plans:
   plan_count: 0
   slug: andersons-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Andersons launches corporate VC arm, Maumee ...
   url: https://agfundernews.com/andersons-launches-corporate-vc-arm-maumee-ventures-invest-agtech
-- date: '2026-05-25'
+- date: ''
   title: The Andersons, Inc. - Terms of Use
   url: https://www.andersonsinc.com/terms-of-use/
-- date: '2026-05-25'
+- date: ''
   title: The Andersons reaffirms $7 EPS target by end of 2028 ...
   url: https://seekingalpha.com/news/4587102-the-andersons-reaffirms-7-eps-target-by-end-of-2028-while-guiding-to-225m-2026-capex
-- date: '2026-05-25'
+- date: ''
   title: The Andersons, Inc. Acquires Majority Ownership ...
   url: https://www.linkedin.com/posts/theandersonsinc_the-andersons-inc-acquires-majority-ownership-activity-7259199698412961792-ouL3
-- date: '2026-05-25'
+- date: ''
   title: The Andersons, Inc. Reports First Quarter Results
   url: https://www.prnewswire.com/news-releases/the-andersons-inc-reports-first-quarter-results-302762937.html
 random_paper: 5
@@ -194,7 +194,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

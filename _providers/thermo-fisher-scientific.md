@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -226,19 +226,19 @@ plans:
   plan_count: 1
   slug: thermo-fisher-scientific-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Thermo Fisher, Lundbeck Announce New OpenAI ...
   url: https://www.appliedclinicaltrialsonline.com/view/thermo-fisher-lundbeck-announce-new-openai-partnerships-advancing-ai-drug-development
-- date: '2026-05-25'
+- date: ''
   title: Thermo Fisher's approach to AI is built on readiness ...
   url: https://www.facebook.com/thermofisher/posts/thermo-fishers-approach-to-ai-is-built-on-readiness-that-stems-from-years-of-del/873593251728102/
-- date: '2026-05-25'
+- date: ''
   title: Thermo Fisher's growing AI ecosystem aims to transform how ...
   url: https://corporate.thermofisher.com/content/tfcorpsite/us/en/index/newsroom/Our-stories/AI-ecosystem.html
-- date: '2026-05-25'
+- date: ''
   title: News Details - Investors - Thermo Fisher Scientific
   url: https://ir.thermofisher.com/investors/news-events/news/news-details/2025/Thermo-Fisher-Scientific-to-Accelerate-Life-Science-Breakthroughs-with-OpenAI/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Thermo Fisher and NVIDIA Partner to Expand AI Driven ...
   url: https://www.chromatographyonline.com/view/thermo-fisher-and-nvidia-partner-to-expand-ai-driven-laboratory-automation
 random_paper: 1
@@ -300,7 +300,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

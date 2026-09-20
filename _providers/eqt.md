@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -127,19 +127,19 @@ overview: 'EQT Corporation is profiled on the [APIs.io](https://apis.io/) networ
 
   EQT Corporation''s developer surface includes support, engineering blog, and 13 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: EQT And Context Labs Announce Strategic Partnership
   url: https://ir.eqt.com/investor-relations/news/news-release-details/2023/EQT-And-Context-Labs-Announce-Strategic-Partnership/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: News Releases
   url: https://www.perficient.com/about/newsroom/news-releases
-- date: '2026-05-25'
+- date: ''
   title: EQT Group's Post
   url: https://www.linkedin.com/posts/eqt-group_today-were-proud-to-introduce-eqts-ai-activity-7452400818386980864-uf-h
-- date: '2026-05-25'
+- date: ''
   title: A Powerful Synergy of AI and Human Expertise
   url: https://eqtgroup.com/en/about/motherbrain
-- date: '2026-05-25'
+- date: ''
   title: EQT Introduces AI Infrastructure Strategy to Help Build ...
   url: https://www.prnewswire.com/news-releases/eqt-introduces-ai-infrastructure-strategy-to-help-build-the-foundation-of-the-ai-economy-302748973.html
 random_paper: 0
@@ -176,7 +176,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'PerkinElmer is profiled on the [APIs.io](https://apis.io/) network. T
 
   PerkinElmer''s developer surface includes support and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: MA-PERKINELMER | Business Wire
   url: https://via.ritzau.dk/pressemeddelelse/13592050/ma-perkinelmer?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: 'Next-Gen Lab Transformation solution: PerkinElmer & ...'
   url: https://www.persistent.com/client-success/persistent-helps-perkinelmer-develop-a-next-gen-laboratory-transformation-solution/
-- date: '2026-05-25'
+- date: ''
   title: PerkinElmer Launches Online, Open Access COVID-19 Data ...
   url: https://news.revvity.com/press-announcements/press-releases/press-release-details/2020/PerkinElmer-Launches-Online-Open-Access-COVID-19-Data-Dashboards-to-Accelerate-Antiviral-Therapeutics-Research-07-22-2020/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Outdated Methodologies Are Holding You Back
   url: https://www.perkinelmer.com/library/breaking-the-mold-outdated-methodologies-are-holding-you-back.html
-- date: '2026-05-25'
+- date: ''
   title: Prahlad Singh – Research & Diagnostics At Revvity ( ...
   url: https://www.instagram.com/p/DXCpPhGFAY5/
 random_paper: 16
@@ -120,7 +120,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

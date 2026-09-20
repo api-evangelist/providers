@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Lexmark International is profiled on the [APIs.io](https://apis.io/) 
 
   Lexmark International''s developer surface includes support and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Xerox Completes the Acquisition of Lexmark, Uniting Two ...
   url: https://investors.xerox.com/news-releases/news-release-details/xerox-completes-acquisition-lexmark-uniting-two-industry-leaders
-- date: '2026-05-25'
+- date: ''
   title: Lexmark Centralizes AI-Powered Cloud Solutions and ...
   url: https://www.prnewswire.com/news-releases/lexmark-centralizes-ai-powered-cloud-solutions-and-expands-9-series-printer-lineup-302367074.html
-- date: '2026-05-25'
+- date: ''
   title: Lexmark Partners with HARMAN Digital Transformation ...
   url: https://news.harman.com/releases/lexmark-partners-with-harman-digital-transformation-solutions-to-co-develop-industrial-iot-applications
-- date: '2026-05-25'
+- date: ''
   title: Lexmark Cloud Print Infrastructure as a Service
   url: https://media.lexmark.com/www/idml/assets/asset_12724/media/en_GB/pdfs/low.pdf
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence and the Future of Work
   url: https://www.nationalacademies.org/event/44014_11-2024_artificial-intelligence-and-the-future-of-work-report-release-webinar
 random_paper: 1
@@ -114,7 +114,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 6.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

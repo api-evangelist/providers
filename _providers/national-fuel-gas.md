@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: National Fuel Gas Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utility, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Document
   url: https://www.sec.gov/Archives/edgar/data/0000070145/000007014526000014/nfg-3312026xexhibit99x8k.htm
-- date: '2026-05-25'
+- date: ''
   title: National Fuel Gas great way to play AI boom
   url: https://gabelli.com/media/billionaire-investor-mario-gabelli-national-fuel-gas-great-way-to-play-ai-boom/
-- date: '2026-05-25'
+- date: ''
   title: News & Events - Press Releases
   url: https://investor.nationalfuelgas.com/news-and-events/press-releases/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: National Fuel to Acquire CenterPoint's Ohio Natural Gas ...
   url: https://investor.nationalfuelgas.com/news-and-events/press-releases/press-releases-details/2025/National-Fuel-to-Acquire-CenterPoints-Ohio-Natural-Gas-Utility-Business/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: National Fuel Gas furnishes Q1 2026 earnings release | NFG 8-K ...
   url: https://www.stocktitan.net/sec-filings/NFG/8-k-national-fuel-gas-co-reports-material-event-9b4c523a6a22.html
 random_paper: 15
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

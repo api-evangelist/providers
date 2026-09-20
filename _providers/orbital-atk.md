@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Orbital ATK is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Defense, Launch Vehicles, Satellite, and Spacecraft.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Orbital ATK Inc. (Formerly Allia'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/9029481
-- date: '2026-05-25'
+- date: ''
   title: 'Category: Press Releases'
   url: https://www.govconwire.com/category/press-releases/page/421
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://aerospace.org/press-releases-archive?page=4
-- date: '2026-05-25'
+- date: ''
   title: According to a press release issued this morning Northrop ...
   url: https://www.facebook.com/Amanda.Mangan.News/posts/according-to-a-press-release-issued-this-morning-northrop-grumman-corporation-an/1589962124360223/
-- date: '2026-05-25'
+- date: ''
   title: Northrop Grumman to Acquire Orbital ATK for $9.2 Billion
   url: https://kommunikasjon.ntb.no/pressemelding/15882142/northrop-grumman-to-acquire-orbital-atk-for-92-billion?publisherId=4954260
 random_paper: 14
@@ -104,7 +104,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Philip Morris International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Philip Morris exec says AI raises value of judgment
   url: https://www.stocktitan.net/news/PM/philip-morris-international-s-moira-gilchrist-positions-human-x7k8pwcbrfbm.html
-- date: '2026-05-25'
+- date: ''
   title: Philip Morris International Opens Dialogue on the Future of ...
   url: https://www.pmi.com/media-center/press-releases/press-details?newsId=29491
-- date: '2026-05-25'
+- date: ''
   title: Responsible use of artificial intelligence (AI)
   url: https://www.pmi.com/sustainability/responsible-ai
-- date: '2026-05-25'
+- date: ''
   title: Philip Morris International's Moira Gilchrist Positions ...
   url: https://www.pmi.com/investor-relations/press-releases-and-events/press-releases-overview/press-release-details?newsId=30046
-- date: '2026-05-25'
+- date: ''
   title: Philip Morris International Opens Dialogue on the Future of ...
   url: https://finance.yahoo.com/news/philip-morris-international-opens-dialogue-100300894.html
 random_paper: 17
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

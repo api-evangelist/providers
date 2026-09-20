@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,19 +94,19 @@ overview: 'EMCOR Group is profiled on the [APIs.io](https://apis.io/) network. T
 
   EMCOR Group''s developer surface includes documentation, product news, and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Emcor Stock: AI Data Center Play Forms New Base And ...'
   url: https://www.investors.com/stock-lists/ibd-big-cap-20/emcor-eme-stock-ai-data-center-play-new-base-breaks-out-early-entry/
-- date: '2026-05-25'
+- date: ''
   title: How Investors Are Reacting To EMCOR Group (EME) ...
   url: https://finance.yahoo.com/markets/stocks/articles/investors-reacting-emcor-group-eme-070748593.html
-- date: '2026-05-25'
+- date: ''
   title: This construction and engineering firm is set become a key ...
   url: https://www.valens-research.com/investor-essentials-daily/this-construction-and-engineering-firm-is-set-become-a-key-player-as-hyperscalers-look-to-get-the-most-out-of-their-data-centers/
-- date: '2026-05-25'
+- date: ''
   title: Is EMCOR Group's AI Data Center Boom Quietly ...
   url: https://simplywall.st/stocks/us/capital-goods/nyse-eme/emcor-group/news/is-emcor-groups-ai-data-center-boom-quietly-reshaping-its-co
-- date: '2026-05-25'
+- date: ''
   title: Buy Top AI Data Center Stock EME and Hold
   url: https://finance.yahoo.com/news/buy-top-ai-data-center-120000615.html
 random_paper: 6
@@ -136,7 +136,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,19 +61,19 @@ nav: Providers
 network: true
 overview: Maxim Integrated Products is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Analog Devices Completes Acquisition of Maxim Integrated
   url: https://via.tt.se/pressmeddelande/3304926/analog-devices-completes-acquisition-of-maxim-integrated?publisherId=259167
-- date: '2026-05-25'
+- date: ''
   title: 'Maxim Integrated Products, Inc.: Latest Headlines - Nasdaq Stock ...'
   url: https://www.marketscreener.com/quote/stock/MAXIM-INTEGRATED-PRODUCTS-69728/news-key-events/
-- date: '2026-05-25'
+- date: ''
   title: Analog Devices' purchase of Maxim Integrated combines ...
   url: https://www.facebook.com/marketwatch/posts/analog-devices-purchase-of-maxim-integrated-combines-powers-in-the-arcane-analog/10157569655761848/
-- date: '2026-05-25'
+- date: ''
   title: MAX78000 AI microcontroller and Xailient's Detectum ...
   url: https://xailient.com/pressrelease/maxim-integrated-teams-with-xailient-to-provide-worlds-fastest-and-lowest-power-iot-face-detection/
-- date: '2026-05-25'
+- date: ''
   title: Maxim Integrated Products, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/maxim-integrated-products%2C-inc./
 random_paper: 3
@@ -103,7 +103,7 @@ score:
       reason: never_enriched
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

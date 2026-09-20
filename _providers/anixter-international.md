@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'Anixter (now part of Wesco International) provides B2B eCommerce integration services including EDI (Electronic Data Interchange) for purchase orders, invoices, and shipping notices, punchout catalog '
@@ -154,19 +154,19 @@ plans:
   plan_count: 0
   slug: anixter-international-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: WESCO International and Anixter ...
   url: https://www.prnewswire.com/news-releases/wesco-international-and-anixter-international-announce-merger-agreement-to-create-a-premier-electrical-and-data-communications-distribution-and-supply-chain-services-company-300985474.html
-- date: '2026-05-25'
+- date: ''
   title: What's New
   url: https://www.anixter.com/en_gb/about-us/news-and-events/news.html
-- date: '2026-05-25'
+- date: ''
   title: WESCO International Announces Completion of Merger ...
   url: https://www.sdmmag.com/articles/98194-wesco-international-announces-completion-of-merger-with-anixter
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/52795/000119312519324432/d860223d8k.htm
-- date: '2026-05-25'
+- date: ''
   title: Anixter International Inc. Announces the Acquisition of Tri-Ed
   url: https://securitytoday.com/articles/2014/08/11/anixter-international-inc-announces-the-acquisition-of-tri-ed.aspx?admgarea=ht.accesscontrol
 random_paper: 8
@@ -197,7 +197,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

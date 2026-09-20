@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,19 +70,19 @@ nav: Providers
 network: true
 overview: Targa Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Infrastructure, Fortune 500, Midstream, Natural Gas, and Natural Gas Liquids.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Targa Resources Corp. to Acquire Blackstone Energy ...
   url: https://energynow.com/2023/01/targa-resources-corp-to-acquire-blackstone-energy-partners-25-interest-in-grand-prix-ngl-pipeline-for-1-05-billion/
-- date: '2026-05-25'
+- date: ''
   title: Atlas Energy And Atlas Pipeline Complete Mergers With ...
   url: https://www.prnewswire.com/news-releases/atlas-energy-and-atlas-pipeline-complete-mergers-with-targa-resources-corp-and-targa-resources-partners-300043015.html
-- date: '2026-05-25'
+- date: ''
   title: 'Targa Resources (TRGP): Earnings, Debt, and Growth in ...'
   url: https://www.monexa.ai/blog/targa-resources-trgp-navigating-growth-debt-and-ma-TRGP-2025-02-28
-- date: '2026-05-25'
+- date: ''
   title: Targa Resources Corp. (TRGP) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4900483-targa-resources-corp-trgp-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: 'Targa Resources (TRGP): Dominating the Permian Basin ...'
   url: https://finance.yahoo.com/news/targa-resources-trgp-dominating-permian-212533352.html
 random_paper: 19
@@ -112,7 +112,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

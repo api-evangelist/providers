@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,19 +75,19 @@ overview: 'Regency Energy Partners is profiled on the [APIs.io](https://apis.io/
 
   The Regency Energy Partners catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'American Energy Partners Update: What is McClendon Up ...'
   url: https://www.oilandgas360.com/american-energy-partners-update-mcclendon-now/
-- date: '2026-05-25'
+- date: ''
   title: Energy Transfer Values Regency At $11.2B In Buyout Deal
   url: https://www.law360.com/articles/614859/energy-transfer-values-regency-at-11-2b-in-buyout-deal
-- date: '2026-05-25'
+- date: ''
   title: Congratulations to Clint Green on his new role as Chief ...
   url: https://www.facebook.com/EnergyTransferFacts/posts/congratulations-to-clint-green-on-his-new-role-as-chief-executive-officer-at-usa/938561131646612/
-- date: '2026-05-25'
+- date: ''
   title: Merger with Energy Transfer Partners, LP | Experience
   url: https://www.bakerbotts.com/en/experience/r/regency-energy-partners-lp--merger-with
-- date: '2026-05-25'
+- date: ''
   title: Regency Energy to buy field services co for $185 million
   url: https://www.reuters.com/article/business/regency-energy-to-buy-field-services-co-for-185-million-idUSTRE67822L/
 random_paper: 14
@@ -117,7 +117,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

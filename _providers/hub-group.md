@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,19 +75,19 @@ overview: 'HUB Group is profiled on the [APIs.io](https://apis.io/) network. Tag
 
   The HUB Group catalog on APIs.io includes 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for HUB Group INC filed 02/27/2024
   url: https://investors.hubgroup.com/static-files/1aa0fa85-baaf-48ec-ac6e-f41d7384e7d0
-- date: '2026-05-25'
+- date: ''
   title: The Way Ahead
   url: https://www.hubgroup.com/thewayahead/
-- date: '2026-05-25'
+- date: ''
   title: Hub Group (HUBG) Shares Crater Amid Admitted Improper ...
   url: https://www.prnewswire.com/news-releases/hub-group-hubg-shares-crater-amid-admitted-improper-accounting--hagens-berman-302686811.html
-- date: '2026-05-25'
+- date: ''
   title: Supply Chain Logistics Technology
   url: https://www.hubgroup.com/supply-chain-logistics-technology/
-- date: '2026-05-25'
+- date: ''
   title: Hub Group Using AI, Machine Learning for Real-Time ...
   url: https://www.truckinginfo.com/news/hub-group-using-ai-machine-learning-for-real-time-visibility-of-shipments
 random_paper: 19
@@ -128,7 +128,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -18079,30 +18079,30 @@ plans:
   plan_count: 6
   slug: salesforce-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Salesforce Newsroom
   url: https://www.salesforce.com/news/
-- date: '2026-05-25'
-  title: 'Salesforce Investor Relations: Salesforce.com, Inc.'
-  url: https://investor.salesforce.com/overview/default.aspx
-- date: '2026-05-25'
-  title: Press Releases Archives
-  url: https://www.salesforce.com/news/content-types/press-releases/
-- date: '2026-05-25'
-  title: Introducing Salesforce Headless 360. No Browser Required.
-  url: https://www.salesforce.com/news/stories/salesforce-headless-360-announcement/
-- date: '2026-05-25'
-  title: Artificial Intelligence (AI) at Salesforce
-  url: https://www.salesforce.com/artificial-intelligence/
-- date: '2026-05-21'
+- date: ''
+  title: Informatica Deepens Collaboration with Microsoft to Deliver Trusted Data for Agentic AI and Analytics at Scale
+  url: https://www.salesforce.com/news/press-releases/2026/05/20/informatica-deepens-collaboration-with-microsoft/
+- date: ''
+  title: Informatica Deepens Strategic Partnership with Google Cloud, Bringing Headless Data Management and CLAIRE® Conversational AI to the Enterprise
+  url: https://www.salesforce.com/news/press-releases/2026/05/20/informatica-deepens-strategic-partnership-with-google-cloud/
+- date: ''
   title: How Salesforce Is Scaling Accessibility in the Age of AI
   url: https://www.salesforce.com/news/stories/salesforce-scaling-accessibility-age-of-ai/
-- date: '2026-05-21'
+- date: ''
+  title: Informatica Brings Headless Data Management and Iceberg Governance  to Snowflake
+  url: https://www.salesforce.com/news/linked-content/informatica-brings-headless-data-management-and-iceberg-governance-to-snowflake/
+- date: ''
+  title: Informatica Announces Headless Data Management for AWS to Power Trusted, Enterprise-Ready Agentic Workflows
+  url: https://www.salesforce.com/news/press-releases/2026/05/20/informatica-announces-headless-data-management-aws/
+- date: ''
   title: 'When AI Becomes Invisible: The Rise of Ambient Intelligence'
   url: https://www.salesforce.com/news/linked-content/when-ai-becomes-invisible-the-rise-of-ambient-intelligence/
-- date: '2026-05-21'
-  title: 'More than 50,000 Hours Back: What a Year of Manager Agent Taught Us'
-  url: https://www.salesforce.com/news/stories/lessons-from-one-year-of-manager-agent/
+- date: ''
+  title: 'Salesforce Investor Relations: Salesforce.com, Inc.'
+  url: https://investor.salesforce.com/overview/default.aspx
 random_paper: 7
 rate_limits:
 - limit_count: 9
@@ -18176,7 +18176,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

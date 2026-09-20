@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Manitowoc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cranes, Construction, Lifting Equipment, Industrial, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Manitowoc letter asks if AI data centers belong in our ...
   url: https://www.aol.com/news/manitowoc-letter-asks-ai-data-090234738.html
-- date: '2026-05-25'
+- date: ''
   title: Manitowoc County residents are pushing back against a ...
   url: https://www.facebook.com/wfrvlocal5/posts/manitowoc-county-residents-are-pushing-back-against-a-potential-plan-that-would-/1511590850975326/
-- date: '2026-05-25'
+- date: ''
   title: Manitowoc letter urges nuclear option for data center power
   url: https://www.htrnews.com/story/opinion/readers/2026/04/18/manitowoc-htr-letter-data-centers-farmland-nuclear-solar-cooling/89626892007/
-- date: '2026-05-25'
+- date: ''
   title: Manitowoc County commission advances proposal for ...
   url: https://fox11online.com/news/local/manitowoc-county-commission-advances-proposal-for-moratorium-on-data-centers
-- date: '2026-05-25'
+- date: ''
   title: Manitowoc County Board enacts an 18-month moratorium ...
   url: https://www.instagram.com/p/DXw5PNKFJ7T/
 random_paper: 9
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

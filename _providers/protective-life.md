@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Protective Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Asset Protection, Financial-Services, Insurance, and Life Insurance.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Protective Life Corp. Ratings Affirmed On Announc
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3150288
-- date: '2026-05-25'
+- date: ''
   title: Protective Life Corporation
   url: https://www.fitchratings.com/research/insurance/protective-life-corporation-02-06-2025
-- date: '2026-05-25'
+- date: ''
   title: Great-West Sells U.S. Insurance, Annuities Unit to ...
   url: https://www.wealthmanagement.com/insurance/great-west-sells-u-s-insurance-annuities-unit-to-protective-in-a-1-2-billion-deal
-- date: '2026-05-25'
+- date: ''
   title: Today Protective announced a planned CEO transition ...
   url: https://www.facebook.com/ProtectiveLife/posts/today-protective-announced-a-planned-ceo-transition-along-with-additional-key-le/1382692993889262/
-- date: '2026-05-25'
+- date: ''
   title: Protective Life to acquire Abry Partners' portfolio company
   url: https://www.reinsurancene.ws/protective-life-to-acquire-abry-partners-portfolio-company/
 random_paper: 14
@@ -109,7 +109,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

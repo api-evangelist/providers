@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -140,12 +140,34 @@ overview: '410 Medical is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   410 Medical''s developer surface includes engineering blog, product news, training material, support, and 16 more developer resources.'
+press:
+- date: ''
+  title: Thornton Fire Department launches in-field whole blood transfusion program
+  url: https://410medical.com/news/thornton-fire-department-launches-in-field-whole-blood-transfusion-program/
+- date: ''
+  title: Monarch Fire blood transfusion program credited with saving 2 lives
+  url: https://410medical.com/news/monarch-fire-blood-transfusion-program-credited-with-saving-2-lives/
+- date: ''
+  title: LIFE FORCE Air Medical debuts portable rapid fluid and blood resuscitation system
+  url: https://410medical.com/news/life-force-air-medical-debuts-portable-rapid-fluid-and-blood-resuscitation-system/
+- date: ''
+  title: Plano first responders to launch whole blood program in July
+  url: https://410medical.com/news/plano-first-responders-to-launch-whole-blood-program-in-july/
+- date: ''
+  title: Trump’s Transportation Department Hosts Emergency Medical Services Personnel, Spotlights Lifesaving Innovations During ‘Save a Life Day’
+  url: https://410medical.com/news/trumps-transportation-department-hosts-emergency-medical-services-personnel-spotlights-lifesaving-innovations-during-save-a-life-day/
+- date: ''
+  title: New whole‑blood program credited with saving Dallas officer’s life
+  url: https://410medical.com/news/new-whole-blood-program-credited-with-saving-dallas-officers-life/
+- date: ''
+  title: 410 Medical Secures $12 Million in Growth Financing to Accelerate Commercial Expansion
+  url: https://410medical.com/news/410-medical-secures-12-million-in-growth-financing-to-accelerate-commercial-expansion/
 random_paper: 10
 score:
   band: minimal
   composite: 8.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -172,7 +194,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

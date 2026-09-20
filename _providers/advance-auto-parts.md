@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -476,19 +476,19 @@ plans:
   plan_count: 1
   slug: advance-auto-parts-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Premium Guard Inc. Named 2025 E-Commerce Vendor of ...
   url: https://www.prnewswire.com/news-releases/premium-guard-inc-named-2025-e-commerce-vendor-of-the-year-by-advance-auto-parts-302658791.html
-- date: '2026-05-25'
+- date: ''
   title: Advance Auto Parts Cuts 2025 Outlook As Sales Fall
   url: https://www.wsj.com/business/earnings/advance-auto-parts-cuts-2025-outlook-amid-weaker-results-4dbf7195
-- date: '2026-05-25'
+- date: ''
   title: Advance Auto Parts Vendor Portal | Alloy.ai Integrations
   url: https://alloy.ai/integrations/advance-auto-parts
-- date: '2026-05-25'
+- date: ''
   title: Shweta Bhatia - Advance Auto Parts
   url: https://www.linkedin.com/in/shweta-bhatia25
-- date: '2026-05-25'
+- date: ''
   title: Advance Auto Parts reshapes footprint and 2025 results
   url: https://www.stocktitan.net/sec-filings/AAP/10-k-advance-auto-parts-inc-files-annual-report-a1f015e6e77e.html
 random_paper: 3
@@ -552,7 +552,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

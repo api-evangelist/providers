@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -87,19 +87,19 @@ overview: 'Voya Financial is profiled on the [APIs.io](https://apis.io/) network
 
   The Voya Financial catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Learn how Voya Financial used AI and machine
   url: https://www.facebook.com/MicrosoftinBusiness/posts/learn-how-voya-financial-used-ai-and-machine-learning-to-transform-its-investmen/10159673606868393/
-- date: '2026-05-25'
+- date: ''
   title: Voya celebrates success of 24/7 chatbot and emerging ...
   url: https://www.theglobeandmail.com/investing/markets/stocks/VOYA/pressreleases/12061687/
-- date: '2026-05-25'
+- date: ''
   title: Voya Financial joins the Workday Wellness Partner ...
   url: https://www.businesswire.com/news/home/20250911276055/en/Voya-Financial-joins-the-Workday-Wellness-Partner-Program-to-enhance-employee-wellness-through-AI-powered-benefits
-- date: '2026-05-25'
+- date: ''
   title: Machine Intelligence Dynamic Global Equity
   url: https://institutional.voya.com/investment-capabilities/machine-intelligence-ai-driven/machine-intelligence-dynamic-global-equity
-- date: '2026-05-25'
+- date: ''
   title: Voya celebrates success of 24/7 chatbot and emerging ...
   url: https://www.voya.com/news/2022/11/voya-celebrates-success-247-chatbot-and-emerging-artificial-intelligence-capabilities
 random_paper: 17
@@ -140,7 +140,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

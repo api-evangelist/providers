@@ -66,19 +66,19 @@ overview: 'Cimarex Energy is profiled on the [APIs.io](https://apis.io/) network
 
   Cimarex Energy''s developer surface includes product news and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cimarex Energy Co. News and Press Releases
   url: https://www.prnewswire.com/news/cimarex-energy-co./?page=2
-- date: '2026-05-25'
+- date: ''
   title: 'Devon Energy: An Oil Company With An AI Obsession'
   url: https://seekingalpha.com/article/4856912-devon-energy-an-oil-company-with-an-ai-obsession
-- date: '2026-05-25'
+- date: ''
   title: Cabot Oil & Gas Corporation and Cimarex Energy have ...
   url: https://www.linkedin.com/posts/coterra-energy_cabot-oil-gas-corporation-and-cimarex-energy-activity-6849697849010077696-IA6p
-- date: '2026-05-25'
+- date: ''
   title: Kimmeridge Calls for Overhaul at Coterra, Says 2021 ...
   url: https://energynow.com/2025/11/kimmeridge-calls-for-overhaul-at-coterra-says-2021-merger-a-failure/
-- date: '2026-05-25'
+- date: ''
   title: OAG Analytics Announces Strategic Partnership with Cimarex ...
   url: https://www.prnewswire.com/news-releases/oag-analytics-announces-strategic-partnership-with-cimarex-energy-300890540.html
 random_paper: 10

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,19 +84,19 @@ nav: Providers
 network: true
 overview: HCA Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Hospitals, Medical, Health Systems, and Alias.
 press:
-- date: '2026-05-25'
+- date: ''
   title: HCA Healthcare Reports First Quarter 2026 Results
   url: https://www.earningswhispers.com/d/hca
-- date: '2026-05-25'
+- date: ''
   title: 'Forbes Earnings Preview: HCA Holdings'
   url: https://www.forbes.com/sites/narrativescience/2011/10/28/forbes-earnings-preview-hca-holdings/
-- date: '2026-05-25'
+- date: ''
   title: HCA Healthcare (HCA)
   url: https://www.trefis.com/data/companies/HCA
-- date: '2026-05-25'
+- date: ''
   title: 'Earnings call transcript: HCA Holdings exceeds Q4 EPS ...'
   url: https://www.investing.com/news/transcripts/earnings-call-transcript-hca-holdings-exceeds-q4-eps-forecasts-stock-rises-93CH-4480239
-- date: '2026-05-25'
+- date: ''
   title: HCA HCA Healthcare, Inc. Stock Price & Overview
   url: https://seekingalpha.com/symbol/HCA
 random_paper: 13
@@ -126,7 +126,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

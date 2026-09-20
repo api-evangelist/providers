@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 6
 common:
@@ -193,19 +193,19 @@ plans:
   plan_count: 0
   slug: fannie-mae-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Special Topics Archive
   url: https://www.fanniemae.com/data-and-insights/surveys-indices/special-topics/special-topics-archive
-- date: '2026-05-25'
+- date: ''
   title: FHFA 2025 AI Compliance Plan
   url: https://www.fhfa.gov/reports/fhfa-ai-compliance-plan/2025
-- date: '2026-05-25'
+- date: ''
   title: Fannie Mae Launches AI Fraud Detection Technology ...
   url: https://www.prnewswire.com/news-releases/fannie-mae-launches-ai-fraud-detection-technology-partnership-with-palantir-302467272.html
-- date: '2026-05-25'
+- date: ''
   title: Fannie Mae Launches AI Fraud Detection Technology ...
   url: https://www.fanniemae.com/newsroom/fannie-mae-news/fannie-mae-launches-ai-fraud-detection-technology-partnership-palantir
-- date: '2026-05-25'
+- date: ''
   title: Mortgage Lender Sentiment Survey
   url: https://www.fanniemae.com/data-and-insights/surveys/mortgage-lender-sentiment-survey
 random_paper: 9
@@ -246,7 +246,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

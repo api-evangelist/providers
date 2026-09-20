@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 13
 common:
@@ -131,19 +131,19 @@ overview: 'YRC Worldwide is profiled on the [APIs.io](https://apis.io/) network.
 
   YRC Worldwide''s developer surface includes documentation, FAQ, legal docs, support, and 12 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Augment Raises $85M Series A to Supercharge Augie ...
   url: https://www.businesswire.com/news/home/20250904472410/en/Augment-Raises-%2485M-Series-A-to-Supercharge-Augie-The-AI-Teammate-for-Logistics
-- date: '2026-05-25'
+- date: ''
   title: YRC to tap James Welch, long-time trucking executive, as ...
   url: https://www.dcvelocity.com/articles/25511-yrc-to-tap-james-welch-long-time-trucking-executive-as-new-ceo
-- date: '2026-05-25'
+- date: ''
   title: Yellow Corp trucking company shares plunge as ...
   url: https://www.21alivenews.com/2023/07/28/yellow-corp-trucking-company-shares-plunge-bankruptcy-looms/
-- date: '2026-05-25'
+- date: ''
   title: YRC Worldwide, Teamsters Set to Meet
   url: https://www.truckinginfo.com/news/yrc-worlwide-and-teamsters-set-to-meet
-- date: '2026-05-25'
+- date: ''
   title: Yellow is shutting down and headed for bankruptcy, the ...
   url: https://fox5sandiego.com/news/business/ap-business/ap-yellow-is-shutting-down-and-headed-for-bankruptcy-the-teamsters-union-says-heres-what-to-know/
 random_paper: 14
@@ -167,7 +167,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

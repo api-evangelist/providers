@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,19 +177,19 @@ plans:
   plan_count: 1
   slug: teledyne-technologies-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Teledyne FLIR OEM Advances State of the Art in Infrared ...
   url: https://www.teledyne.com/en-us/news/Pages/teledyne-flir-oem-advances-state-of-the-art-in-infrared-imaging.aspx
-- date: '2026-05-25'
+- date: ''
   title: News - Teledyne FLIR OEM
   url: https://oem.flir.com/about/news/
-- date: '2026-05-25'
+- date: ''
   title: Innovation at every layer. Teledyne FLIR OEM delivers ...
   url: https://www.facebook.com/FLIR/posts/innovation-at-every-layerteledyne-flir-oem-delivers-industry-leading-ndaa-compli/1252638966900095/
-- date: '2026-05-25'
+- date: ''
   title: Test Solutions for Enhanced AI Performance
   url: https://www.teledynelecroy.com/serialdata/artificial_intelligence
-- date: '2026-05-25'
+- date: ''
   title: Teledyne to Hold Investor Meetings
   url: https://www.teledyne.com/en-us/news/Pages/teledyne-to-hold-investor-meetings-20250902.aspx
 random_paper: 9
@@ -251,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

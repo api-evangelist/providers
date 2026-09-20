@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,19 +50,19 @@ nav: Providers
 network: true
 overview: Alliant Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Meta Advances Efforts to Power AI Data Centers
   url: https://www.industrialinfo.com/iirenergy/industry-news/article/meta-advances-efforts-to-power-ai-data-centers--349183
-- date: '2026-05-25'
+- date: ''
   title: Alliant Energy is asking state regulators to approve custom ...
   url: https://www.facebook.com/wisconsinpublicradio/posts/alliant-energy-is-asking-state-regulators-to-approve-custom-electric-rates-for-m/1367701172037690/
-- date: '2026-05-25'
+- date: ''
   title: Alliant Energy ordered to refile data center power plans
   url: https://dailyreporter.com/2026/03/09/alliant-energy-refile-data-center-contract/
-- date: '2026-05-25'
+- date: ''
   title: Meta announces $1 billion Data Center Investment in ...
   url: https://www.alliantenergy.com/news/news-center/2025/11/111225-metabeaverdamannouncement
-- date: '2026-05-25'
+- date: ''
   title: Large Energy Users and Data Centers
   url: https://www.alliantenergy.com/our-energy/data-centers
 random_paper: 6
@@ -94,7 +94,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

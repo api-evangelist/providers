@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'Air Products and Chemicals provides industrial, specialty, and process gases including hydrogen, helium, nitrogen, oxygen, argon, and carbon dioxide. The company also offers gas generation equipment, '
@@ -211,19 +211,19 @@ plans:
   plan_count: 1
   slug: air-products-and-chemicals-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Air Products to Showcase Glass Industry Solutions at 86th ...
   url: https://www.stocktitan.net/news/APD/air-products-to-showcase-industrial-gas-solutions-at-the-86th-q2ley1a37ofs.html
-- date: '2026-05-25'
+- date: ''
   title: Air Products & Chemicals, Inc.
   url: https://www.energy.gov/hgeo/air-products-chemicals-inc
-- date: '2026-05-25'
+- date: ''
   title: 'Air Products and Chemicals'' AI Strategy: Analysis of ...'
   url: https://www.klover.ai/air-products-and-chemicals-ai-strategy-analysis-of-dominance-in-industrial-gas-ai/
-- date: '2026-05-25'
+- date: ''
   title: 2025 Annual Report
   url: https://www.airproducts.com/-/media/files/en/900/900-25-045-glb-annual-report-2025.pdf
-- date: '2026-05-25'
+- date: ''
   title: Air Products & Chemicals Inc. APD
   url: https://decarbonfuse.com/companies/air-products-chemicals-inc
 random_paper: 5
@@ -270,7 +270,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

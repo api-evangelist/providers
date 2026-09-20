@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: hhgregg is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Appliances, Electronics, E-Commerce, and Retail.
 press:
-- date: '2026-05-25'
+- date: ''
   title: HHGregg Takes Actions To Backpedal Bankruptcy Rumors
   url: https://www.pymnts.com/news/retail/2017/hhgregg-takes-actions-to-backpedal-bankruptcy-rumors/
-- date: '2026-05-25'
+- date: ''
   title: HHGregg said to prepare for bankruptcy as soon as next ...
   url: https://www.sun-sentinel.com/2017/02/24/hhgregg-said-to-prepare-for-bankruptcy-as-soon-as-next-month/
-- date: '2026-05-25'
+- date: ''
   title: Hhgregg closing its Newport News store
   url: https://www.dailypress.com/2017/03/02/hhgregg-closing-its-newport-news-store/
-- date: '2026-05-25'
+- date: ''
   title: hhgregg Announces Black Friday Doorbusters
   url: https://www.prnewswire.com/news-releases/hhgregg-announces-black-friday-doorbusters-300360120.html
-- date: '2026-05-25'
+- date: ''
   title: Hhgregg closing 88 stores nationwide, Rockford location ...
   url: https://www.wifr.com/content/news/Hhgregg-closing-88-stores-nationwide-415336973.html
 random_paper: 6
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

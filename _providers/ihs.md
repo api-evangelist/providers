@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: IHS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Energy, Financial-Services, Information Services, and Legacy.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Indian Health Service to Debut EHR in 2025 Amid New ...
   url: https://govciomedia.com/indian-health-service-to-debut-ehr-in-2025-amid-new-modernization-plan/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases & Official Announcements
   url: https://isimarkets.com/news/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases & Press Information
   url: https://www.ihs.ac.at/news-and-events/media/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: 'Artificial intelligence: opportunities and implications for the ...'
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7322190/
-- date: '2026-05-25'
+- date: ''
   title: Health IT-enabled infrastructure helps reduce American ...
   url: https://healthit.gov/blog/electronic-health-and-medical-records/health-itenabled-infrastructure-helps-reduce-american-indian-alaska-natives-health-disparities/
 random_paper: 16
@@ -113,7 +113,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

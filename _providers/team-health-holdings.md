@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Team Health Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Physician Staffing, Hospital Services, Emergency Medicine, and Hospital Medicine.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'TeamHealth : Holdings, Inc. to Present at Upcoming Investor ...'
   url: https://www.marketscreener.com/quote/stock/TEAMHEALTH-HOLDINGS-INC-5809857/news/TeamHealth-Holdings-Inc-to-Present-at-Upcoming-Investor-Conferences-22991968/
-- date: '2026-05-25'
+- date: ''
   title: TeamHealth Completes Acquisition of IPC Healthcare to ...
   url: https://www.prnewswire.com/news-releases/teamhealth-completes-acquisition-of-ipc-healthcare-to-create-leading-physician-services-organization-300183439.html
-- date: '2026-05-25'
+- date: ''
   title: Team Health Holdings 2026 Company Profile
   url: https://pitchbook.com/profiles/company/10295-11
-- date: '2026-05-25'
+- date: ''
   title: Team Health Holdings Inc. Downgraded To 'CCC' Fro
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3087231
-- date: '2026-05-25'
+- date: ''
   title: Team Health to Be Acquired by Blackstone
   url: https://www.stblaw.com/about-us/news/view/2016/10/31/team-health-to-be-acquired-by-blackstone
 random_paper: 19
@@ -105,7 +105,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

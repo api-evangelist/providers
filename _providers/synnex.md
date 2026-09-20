@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -202,19 +202,19 @@ plans:
   plan_count: 1
   slug: synnex-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: TD SYNNEX Releases AI Game Plan to Support Partners ...
   url: https://news.tdsynnex.com/news/td-synnex-releases-ai-game-plan-to-support-partners-effort-to-accelerate-ai-adoption-with-customers/
-- date: '2026-05-25'
+- date: ''
   title: News - TD Synnex
   url: https://news.tdsynnex.com/
-- date: '2026-05-25'
+- date: ''
   title: AI Is the Future. Let's Build It Together!
   url: https://connect.tdsynnex.be/vendor/hpe/ai-is-the-future-lets-build-it-together/
-- date: '2026-05-25'
+- date: ''
   title: AI and analytics leader SAS selects TD SYNNEX as ...
   url: https://www.sas.com/cs_cz/news/press-releases/2023/september/ai-and-analytics-leader-sas-selects-td-synnex-as-primary-global-.html
-- date: '2026-05-25'
+- date: ''
   title: TD SYNNEX Evolves AI Go-to-Market Strategy Through ...
   url: https://www.thecannatareport.com/td-synnex-ai-gtm/
 random_paper: 17
@@ -271,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

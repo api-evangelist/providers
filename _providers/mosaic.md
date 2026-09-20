@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -150,19 +150,19 @@ plans:
   plan_count: 0
   slug: mosaic-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Mosaic Insurance and DXC Technology launch innovative ...
   url: https://www.mosaicinsurance.com/resources/press-releases/~/mosaic-insurance-and-dxc-technology-launch-innovative-technology-platform-for-specialty-insurance/
-- date: '2026-05-25'
+- date: ''
   title: Adtran launches Mosaic One Clarity to transform network ...
   url: https://www.adtran.com/en/newsroom/press-releases/20251014-adtran-launches-mosaic-one-clarity-to-transform-network-operations
-- date: '2026-05-25'
+- date: ''
   title: Databricks Unveils New Mosaic AI Capabilities to Help ...
   url: https://www.databricks.com/company/newsroom/press-releases/databricks-unveils-new-mosaic-ai-capabilities-help-customers-build
-- date: '2026-05-25'
+- date: ''
   title: Mosaic Raises $18M Series A To Build AI-Driven ...
   url: https://www.prnewswire.com/news-releases/mosaic-raises-18m-series-a-to-build-ai-driven-operating-system-for-deal-makers-302749548.html
-- date: '2026-05-25'
+- date: ''
   title: MOSAIC Coalition Launches to Operationalize AI Security ...
   url: https://www.cisecurity.org/about-us/media/press-release/mosaic-coalition-launches-to-operationalize-ai-security-standards-and-reduce-industry-fragmentation
 random_paper: 20
@@ -186,7 +186,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

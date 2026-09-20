@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 355
   human_in_the_loop: 3
@@ -266,19 +266,19 @@ plans:
   plan_count: 1
   slug: tegna-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Nexstar Media Group's proposed acquisition of Tegna Inc. ...
   url: https://www.facebook.com/12NewsNow/posts/nexstar-media-groups-proposed-acquisition-of-tegna-inc-was-announced-in-august-2/1411894880980522/
-- date: '2026-05-25'
+- date: ''
   title: 'Ask ChatGPT: Why Should I Advertise with TEGNA?'
   url: https://www.tegna.com/advertise/ask-chatgpt-why-should-i-advertise-with-tegna/
-- date: '2026-05-25'
+- date: ''
   title: How Local Stations Are Leveraging AI To Increase ...
   url: https://tvnewscheck.com/ai/article/how-local-stations-are-leveraging-ai-to-increase-revenue-and-improve-efficiencies/
-- date: '2026-05-25'
+- date: ''
   title: Big Tent AI Comments to OMB
   url: https://publicknowledge.org/policy/big-tent-ai-comments-to-omb/
-- date: '2026-05-25'
+- date: ''
   title: Nexstar Media Group, Inc. Enters into Definitive Agreement ...
   url: https://www.nexstar.tv/nexstar-media-group-inc-enters-into-definitive-agreement-to-acquire-tegna-inc-for-6-2-billion-in-accretive-transaction/
 random_paper: 21
@@ -343,7 +343,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

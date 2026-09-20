@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Toll Brothers is profiled on the [APIs.io](https://apis.io/) network.
 
   Toll Brothers'' developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Toll Brothers Pulls Back on Home Deliveries Outlook
   url: https://www.wsj.com/business/earnings/toll-brothers-pulls-back-on-home-deliveries-outlook-875f132d
-- date: '2026-05-25'
+- date: ''
   title: Toll Brothers features Amazon's Just Walk Out Technology ...
   url: https://www.tollbrothers.com/blog/toll-brothers-features-amazons-just-walk-out-technology-regency-at-folsom-ranch
-- date: '2026-05-25'
+- date: ''
   title: Create Your Dream Home with AI - And Find Out if it Really ...
   url: https://www.prnewswire.com/news-releases/create-your-dream-home-with-ai--and-find-out-if-it-really-exists-on-realtorcom-301799985.html
-- date: '2026-05-25'
+- date: ''
   title: Toll Brothers Expands into Fayetteville/Bentonville Market
   url: https://www.linkedin.com/posts/toll-brothers_toll-brothers-to-acquire-private-home-builder-activity-7452476332933992449-KSDp
-- date: '2026-05-25'
+- date: ''
   title: Toll Brothers Technographics, Software Purchases, AI and ...
   url: https://www.appsruntheworld.com/customers-database/customers/view/toll-brothers-inc-united-states
 random_paper: 19
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

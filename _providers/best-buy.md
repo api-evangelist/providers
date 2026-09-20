@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -418,19 +418,19 @@ plans:
   plan_count: 2
   slug: best-buy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Best Buy, Google Cloud, and Accenture Partner to Create a ...
   url: https://www.prnewswire.com/news-releases/best-buy-google-cloud-and-accenture-partner-to-create-a-better-customer-support-experience-with-generative-ai-302111387.html
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence Archives - Best Buy Corporate News ...
   url: https://corporate.bestbuy.com/tag/artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: Best Buy case study
   url: https://cloud.google.com/customers/bestbuy
-- date: '2026-05-25'
+- date: ''
   title: Best Buy launches AI-powered delivery tracking
   url: https://www.retaildive.com/news/best-buy-launches-artificial-intelligence-delivery-tracking/724541/
-- date: '2026-05-25'
+- date: ''
   title: How Best Buy Uses AI To Transform Customer Experience
   url: https://www.forbes.com/sites/maribellopez/2025/06/17/how-best-buy-uses-ai-to-transform-customer-experience/
 random_paper: 19
@@ -490,7 +490,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

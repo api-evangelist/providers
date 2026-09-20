@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 10
 common:
@@ -119,19 +119,19 @@ overview: 'AGL Resources is profiled on the [APIs.io](https://apis.io/) network.
 
   AGL Resources'' developer surface includes engineering blog and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Southern Company (SO) and the New Energy Tsunami
   url: https://markets.financialcontent.com/stocks/article/finterra-2026-2-19-the-ai-utility-southern-company-so-and-the-new-energy-tsunami
-- date: '2026-05-25'
+- date: ''
   title: 'Forbes Earnings Preview: AGL Resources Inc.'
   url: https://www.forbes.com/sites/narrativescience/2013/02/03/forbes-earnings-preview-agl-resources-inc/
-- date: '2026-05-25'
+- date: ''
   title: Southern Company and AGL Resources complete merger, ...
   url: https://www.prnewswire.com/news-releases/southern-company-and-agl-resources-complete-merger-create-a-leading-us-energy-company-300293200.html
-- date: '2026-05-25'
+- date: ''
   title: Power demand is skyrocketing from AI, electrification and ...
   url: https://www.facebook.com/WilliamsEnergyCo/posts/power-demand-is-skyrocketing-from-ai-electrification-and-industrial-reshoring-bu/904918505241219/
-- date: '2026-05-25'
+- date: ''
   title: Southern Company--AGL Resources combination ...
   url: https://www.prnewswire.com/news-releases/southern-company--agl-resources-combination-enhances-customer-focused-business-model-300132249.html
 random_paper: 20
@@ -166,7 +166,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

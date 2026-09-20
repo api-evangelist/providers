@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: WABCO's fleet management and telematics capabilities, now delivered through ZF's Commercial Vehicle Control Systems division. Provides remote diagnostics, vehicle connectivity, real-time fleet trackin
@@ -99,19 +99,19 @@ plans:
   plan_count: 3
   slug: wabco-holdings-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: WABCO and Mobileye Introduce Advanced Driver ...
   url: https://www.oemoffhighway.com/electronics/smart-systems/automated-systems/press-release/12259947/wabco-and-mobileye-introduce-advanced-driver-assistance-system-and-road-experience-management-technology
-- date: '2026-05-25'
+- date: ''
   title: ZF Presseinformation
   url: https://press.zf.com/press/media/en/press_media/2020/pdf_1/kits_4/global_en_de_2/zf_vitrual_media_talk_cv/tx2020-10-06_PI-ZF-CV_Virtual_Media_Talk__en.pdf
-- date: '2026-05-25'
+- date: ''
   title: ZF Launches Advanced WABCO TOOLBOX PLUS ...
   url: https://www.prnewswire.com/news-releases/zf-launches-advanced-wabco-toolbox-plus-diagnostic-software-301093170.html
-- date: '2026-05-25'
+- date: ''
   title: WABCO Holdings Inc.
   url: https://www.sec.gov/Archives/edgar/data/1390844/000139084420000003/wbc10k12312019.htm
-- date: '2026-05-25'
+- date: ''
   title: WABCO Holdings Inc. Business Report FY ended Dec. 2017
   url: https://www.marklines.com/en/top500/cf/s500_370_hl2017
 random_paper: 17
@@ -139,7 +139,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

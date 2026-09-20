@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,19 +104,19 @@ nav: Providers
 network: true
 overview: Foot Locker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Retail, Footwear, Apparel, and E-Commerce.
 press:
-- date: '2026-05-25'
+- date: ''
   title: FOOT LOCKER, INC. REPORTS PRELIMINARY FIRST ...
   url: https://www.prnewswire.com/news-releases/foot-locker-inc-reports-preliminary-first-quarter-2025-financial-results-302456491.html
-- date: '2026-05-25'
+- date: ''
   title: Foot Locker analyzes customer feedback with AI
   url: https://chainstoreage.com/foot-locker-analyzes-customer-feedback-ai
-- date: '2026-05-25'
+- date: ''
   title: How Foot Locker Stepped Into a Gen AI Marketing Journey
   url: https://www.smartly.io/resources/how-foot-locker-stepped-into-a-gen-ai-marketing-journey
-- date: '2026-05-25'
+- date: ''
   title: DICK'S Sporting Goods Completes Acquisition of Foot Locker
   url: https://www.prnewswire.com/news-releases/dicks-sporting-goods-completes-acquisition-of-foot-locker-302548690.html
-- date: '2026-05-25'
+- date: ''
   title: Foot Locker – InMoment
   url: https://inmoment.com/customer-stories/foot-locker-uses-ai-npl-text-analytics/
 random_paper: 3
@@ -140,7 +140,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

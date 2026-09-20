@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -130,19 +130,19 @@ plans:
   plan_count: 0
   slug: selective-insurance-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: selective insurance group, inc.
   url: https://www.sec.gov/Archives/edgar/data/230557/000110465925028157/tm252568d4_def14a.htm
-- date: '2026-05-25'
+- date: ''
   title: Selective Insurance Group
   url: https://www.reinsurancene.ws/tag/selective-insurance-group/
-- date: '2026-05-25'
+- date: ''
   title: Selective Insurance Group Inc Earnings Call Transcripts
   url: https://www.morningstar.com/stocks/xnas/sigi/earnings-transcript
-- date: '2026-05-25'
+- date: ''
   title: SIGI 1Q25 Conf Call Transcript
   url: https://www.selective.com/~/media/Files/S/Selective-V2/reports-presentations/earnings/sigi-1q25-conf-call-transcript.pdf
-- date: '2026-05-25'
+- date: ''
   title: Selective Insurance Group, Inc.
   url: https://www.fitchratings.com/research/insurance/selective-insurance-group-inc-20-05-2025
 random_paper: 5
@@ -178,7 +178,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

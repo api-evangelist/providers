@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-09-18'
+  score: 23.2
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
   description: The sitepackage API from TYPO3 — 1 operation(s) for sitepackage.
   name: TYPO3 sitepackage API
   slug: typo3-sitepackage-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -171,6 +171,10 @@ common:
   title: ''
   type: FinOps
   url: finops/typo3-finops.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/hauptsacheNet/typo3-mcp-server
 created: '2026-06-13'
 description: TYPO3 is an open-source enterprise PHP content management system providing REST APIs via the TYPO3 Headless extension and get.typo3.org release API for managing pages, content elements, media, navigation, and site configuration. The headless JSON content API delivers structured page and content data to decoupled frontend applications such as PWAs and SPAs.
 finops:
@@ -184,7 +188,11 @@ jsonld:
   property_count: 4
   slug: typo3-context
 layout: provider
-modified: '2026-06-13'
+mcp_servers:
+- description: ''
+  name: MCP Server Source
+  slug: mcp-server-source
+modified: '2026-09-19'
 name: TYPO3
 nav: Providers
 network: true
@@ -194,7 +202,7 @@ overview: 'TYPO3 publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The TYPO3 catalog on APIs.io includes 1 JSON-LD context.
 
 
-  TYPO3''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
+  TYPO3''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Typo3 Plans Pricing
   plan_count: 3
@@ -234,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,30 +78,30 @@ overview: 'Calpine is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Calpine''s developer surface includes engineering blog and 6 more developer resources.'
 press:
-- date: '2026-05-25'
-  title: Constellation's $30 Billion Calpine Talks Are Fueled by AI
-  url: https://www.bloomberg.com/opinion/articles/2025-01-08/calpine-constellation-deal-an-electricity-renaissance-is-fueled-by-ai-and-gas
-- date: '2026-05-25'
-  title: Calpine and CyrusOne Announce Phase 2 of Powered ...
-  url: https://www.prnewswire.com/news-releases/calpine-and-cyrusone-announce-phase-2-of-powered-land-agreement-to-support-hyperscale-data-center-at-thad-hill-energy-center-in-texas-302602881.html
-- date: '2026-05-25'
-  title: Jordi Vilanova's Post
-  url: https://www.linkedin.com/posts/jvilanova_constellation-energy-to-buy-calpine-in-blockbuster-activity-7283555869403836416-pScP
-- date: '2026-05-25'
-  title: Constellation To Acquire Calpine; Creates America's ...
-  url: https://energynow.com/2025/01/constellation-to-acquire-calpine-creates-americas-leading-producer-of-clean-and-reliable-energy-to-meet-growing-demand-for-customers-and-communities/
-- date: '2026-05-25'
-  title: 'Constellation Acquisition of Calpine: Creating the Right ...'
-  url: https://investors.constellationenergy.com/static-files/e9b4442f-2109-4082-bb18-5d6d56926a89
-- date: '2026-02-09'
-  title: Constellation and CyrusOne Announce Agreement to Support New Data Center Facility at Freestone Energy Center in Texas
-  url: https://www.calpine.com/constellation-and-cyrusone-announce-agreement-to-support-new-data-center-facility-at-freestone-energy-center-in-texas/
-- date: '2026-01-07'
-  title: Constellation Completes Calpine Transaction, Powering America’s Clean Energy Future
-  url: https://www.calpine.com/constellation-completes-calpine-transaction-powering-americas-clean-energy-future/
-- date: '2025-12-05'
-  title: Constellation Reaches Resolution with U.S. Department of Justice for Calpine Transaction
-  url: https://www.calpine.com/constellation-reaches-resolution-with-u-s-department-of-justice-for-calpine-transaction/
+- date: ''
+  title: Constellation’s Calpine Deal Clears Texas Regulatory Review
+  url: https://www.calpine.com/constellations-calpine-deal-clears-texas-regulatory-review/
+- date: ''
+  title: Calpine Ramps Up Investment in Texas Grid with Quail Run Acquisition
+  url: https://www.calpine.com/calpine-ramps-up-investment-in-texas-grid-with-quail-run-acquisition/
+- date: ''
+  title: Calpine Announces Execution of Full-Scale Demonstration Project Cost Sharing Agreement With DOE for Baytown Decarbonization Project
+  url: https://www.calpine.com/calpine-announces-execution-of-full-scale-demonstration-project-cost-sharing-agreement-with-doe-for-baytown-decarbonization-project/
+- date: ''
+  title: Calpine Secures Texas Energy Fund Loan for Pin Oak Creek Peaking Facility in Freestone County
+  url: https://www.calpine.com/calpine-secures-texas-energy-fund-loan-for-pin-oak-creek-peaking-facility-in-freestone-county/
+- date: ''
+  title: Calpine, ExxonMobil Sign CO2 Transportation and Storage Agreement for Power Generation Project
+  url: https://www.calpine.com/calpine-exxonmobil-sign-co2-transportation-and-storage-agreement-for-power-generation-project/
+- date: ''
+  title: Calpine Accelerates PJM Development Program
+  url: https://www.calpine.com/calpine-accelerates-pjm-development-program/
+- date: ''
+  title: Calpine and CyrusOne Announce Phase 2 of Powered Land Agreement to Support Hyperscale Data Center at Thad Hill Energy Center in Texas
+  url: https://www.calpine.com/calpine-and-cyrusone-announce-phase-2-of-powered-land-agreement-to-support-hyperscale-data-center-at-thad-hill-energy-center-in-texas/
+- date: ''
+  title: Andrew Novotny Takes the Helm as Calpine’s New CEO
+  url: https://www.calpine.com/andrew-novotny-takes-the-helm-as-calpines-new-ceo/
 random_paper: 6
 score:
   band: minimal
@@ -134,7 +134,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

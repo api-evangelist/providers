@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,19 +98,19 @@ overview: 'Kinder Morgan is profiled on the [APIs.io](https://apis.io/) network.
 
   Kinder Morgan''s developer surface includes product news and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Kinder Morgan''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/kinder-morgan-ai-strategy-analysis-of-dominance-in-energy-infrastructure-ai/
-- date: '2026-05-25'
+- date: ''
   title: Kinder Morgan Reports Second Quarter 2024 Financial ...
   url: https://ir.kindermorgan.com/news/news-details/2024/Kinder-Morgan-Reports-Second-Quarter-2024-Financial-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Kinder Morgan Earnings Miss; AI, Cryptocurrency Demand ...
   url: https://www.investors.com/news/kinder-morgan-earnings-ai-cryptocurrency-demand/
-- date: '2026-05-25'
+- date: ''
   title: Kinder Morgan Sees Artificial Intelligence (AI) Driving ...
   url: https://www.barchart.com/story/news/25792032/kinder-morgan-sees-artificial-intelligence-ai-driving-growth-but-not-how-you-think
-- date: '2026-05-25'
+- date: ''
   title: User | chroniclejournal.com - The Backbone of the AI Revolution
   url: http://markets.chroniclejournal.com/chroniclejournal/article/finterra-2026-4-15-the-backbone-of-the-ai-revolution-a-comprehensive-research-feature-on-kinder-morgan-inc-kmi
 random_paper: 6
@@ -140,7 +140,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

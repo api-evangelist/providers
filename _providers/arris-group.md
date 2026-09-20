@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'ARRIS Group publishes no API. The entry is retained to record the measurement: probed 2026-09-07, no OpenAPI, Swagger, AsyncAPI, GraphQL SDL, MCP endpoint, agent card or Postman collection was found o'
@@ -130,19 +130,19 @@ plans:
   plan_count: 0
   slug: arris-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Will Comcast Abandon ARRIS Group for Apple?
   url: https://www.fool.com/investing/general/2014/03/24/will-comcast-abandon-arris-group-for-apple.aspx
-- date: '2026-05-25'
+- date: ''
   title: ARRIS Completes Pace Acquisition
   url: https://www.prnewswire.com/news-releases/arris-completes-pace-acquisition-300198914.html
-- date: '2026-05-25'
+- date: ''
   title: ARRIS Group Major Strategic Acquisition, eBay Quarterly ...
   url: https://www.gurufocus.com/news/332164/arris-group-major-strategic-acquisition-ebay-quarterly-profit-above-consensus?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Google Sells Motorola Home to Arris Group for $2.35 Billion
   url: https://www.datamation.com/trends/google-sells-motorola-home-to-arris-group-for-2-35-billion/
-- date: '2026-05-25'
+- date: ''
   title: Arris Wins 4K STB Deal With Altice
   url: https://www.lightreading.com/network-technology/arris-wins-4k-stb-deal-with-altice
 random_paper: 3
@@ -176,7 +176,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

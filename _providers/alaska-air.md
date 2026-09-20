@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -435,19 +435,19 @@ plans:
   plan_count: 1
   slug: alaska-air-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Alaska Airlines and UP.Labs launch Odysee, an AI- ...
   url: https://news.alaskaair.com/company/alaska-airlines-up-labs-launch-odysee-ai-enabled-startup-taking-a-new-approach-to-schedule-optimization/
-- date: '2026-05-25'
+- date: ''
   title: Alaska Airlines Group Sets Innovation Path at APEX TECH ...
   url: https://apex.aero/articles/alaska-airlines-group-sets-innovation-path-at-apex-tech-2025-keynote/
-- date: '2026-05-25'
+- date: ''
   title: Alaska Airlines and Airspace Intelligence announce first-of- ...
   url: https://news.alaskaair.com/newsroom/alaska-airlines-and-airspace-intelligence-announce-first-of-its-kind-partnership-to-optimize-air-traffic-flow-with-artificial-intelligence-and-machine-learning/
-- date: '2026-05-25'
+- date: ''
   title: Alaska Air Group details 2025 operations and risks - ALK
   url: https://www.stocktitan.net/sec-filings/ALK/10-k-alaska-air-group-inc-files-annual-report-e351e80cfb66.html
-- date: '2026-05-25'
+- date: ''
   title: Alaska Airlines and Tailsight launch AI-powered ...
   url: https://www.prnewswire.com/news-releases/alaska-airlines-and-tailsight-launch-ai-powered-maintenance-planning-solution-302744315.html
 random_paper: 14
@@ -509,7 +509,7 @@ score:
       marker_coverage: 100.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

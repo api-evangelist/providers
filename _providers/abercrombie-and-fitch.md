@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 15
 common:
@@ -138,19 +138,19 @@ overview: 'Abercrombie and Fitch is profiled on the [APIs.io](https://apis.io/) 
 
   Abercrombie and Fitch''s developer surface includes developer portal, engineering blog, release notes, and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'At #NRF2026, Abercrombie & Fitch CEO Fran Horowitz— ...'
   url: https://www.facebook.com/NationalRetailFederation/posts/at-nrf2026-abercrombie-fitch-ceo-fran-horowitzrecipient-of-nrfs-visionary-awards/1434482775385254/
-- date: '2026-05-25'
+- date: ''
   title: Press Release
   url: https://www.sec.gov/Archives/edgar/data/1018840/000101884026000006/q42025pressrelease.htm
-- date: '2026-05-25'
+- date: ''
   title: How Abercrombie & Fitch Co. Optimizes Planning with AI
   url: https://wwd.com/sourcing-journal/industry-news/webinar-how-abercrombie-fitch-co-optimizes-planning-with-ai-syrup-tech-1238832967/
-- date: '2026-05-25'
+- date: ''
   title: Q4 2025 Business Update Press Release
   url: https://abercrombieandfitchcompany.gcs-web.com/static-files/cab02da6-a4ab-477b-a60b-e9ef819752e7
-- date: '2026-05-25'
+- date: ''
   title: Inside the digital transformation of Abercrombie & Fitch
   url: https://nrf.com/blog/inside-digital-transformation-abercrombie-fitch
 random_paper: 2
@@ -174,7 +174,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 16.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

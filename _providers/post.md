@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,19 +86,19 @@ overview: 'Post Holdings is profiled on the [APIs.io](https://apis.io/) network.
 
   Post Holdings'' developer surface includes product news, engineering blog, and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Koley Jessen Represents Perfection Pet Foods in $235M ...
   url: https://www.koleyjessen.com/insights/news/perfection-pet-foods-sale-to-post-holdings
-- date: '2026-05-25'
+- date: ''
   title: Post Holdings, Inc. 2025 Sustainability Report
   url: https://www.postholdings.com/post-holdings-2025-sustainability-report/
-- date: '2026-05-25'
+- date: ''
   title: Post Holdings, Inc. 2024 Annual Report
   url: https://www.postholdings.com/wp-content/uploads/2024/12/Post-Holdings-2024-Annual-Report-FINAL.pdf
-- date: '2026-05-25'
+- date: ''
   title: Post Holdings Reports Results for the Second Quarter of ...
   url: https://www.prnewswire.com/news-releases/post-holdings-reports-results-for-the-second-quarter-of-fiscal-year-2026-affirms-fiscal-year-2026-outlook-302766094.html
-- date: '2026-05-25'
+- date: ''
   title: Privacy Notice
   url: https://www.postholdings.com/privacy-notice/
 random_paper: 14
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

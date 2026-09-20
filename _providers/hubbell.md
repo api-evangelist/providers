@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,19 +71,19 @@ overview: 'Hubbell is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   The Hubbell catalog on APIs.io includes 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Hubbell: Embracing a New Era with an Evolved Mission ...'
   url: https://www.prnewswire.com/news-releases/hubbell-embracing-a-new-era-with-an-evolved-mission-and-brand-identity-302161360.html
-- date: '2026-05-25'
+- date: ''
   title: Aclara Partners with Utilidata to Bring Distributed AI to the Grid ...
   url: https://hubbell.gcs-web.com/news-releases/news-release-details/aclara-partners-utilidata-bring-distributed-ai-grid-edge
-- date: '2026-05-25'
+- date: ''
   title: Hubbell Incorporated 2024 Annual Report - Investor
   url: https://investor.hubbell.com/ar2024/
-- date: '2026-05-25'
+- date: ''
   title: Hubbell Incorporated
   url: https://cn.linkedin.com/company/hubbellincorporated?trk=ppro_cprof
-- date: '2026-05-25'
+- date: ''
   title: 'Artificial Intelligence Part 1: The Basics for Utilities'
   url: https://blog.hubbell.com/en/aclara/artificial-intelligence-part-1-the-basics-for-utilities
 random_paper: 8
@@ -124,7 +124,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,19 +66,19 @@ overview: 'Packaging Corporation of America is profiled on the [APIs.io](https:/
 
   Packaging Corporation of America''s developer surface includes engineering blog and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Packaging Corporation of America Schedules Conference ...
   url: https://www.barchart.com/story/news/34819629/packaging-corporation-of-america-schedules-conference-call-to-discuss-third-quarter-2025-operating-results
-- date: '2026-05-25'
+- date: ''
   title: Packaging Corp of America schedules Q1 2026 earnings call
   url: https://intellectia.ai/news/monitor/packaging-corp-of-america-schedules-q1-2026-earnings-call
-- date: '2026-05-25'
+- date: ''
   title: Packaging Corp of America tops profit estimates as box ...
   url: https://seekingalpha.com/news/4578344-packaging-corp-of-america-tops-profit-estimates-as-box-demand-improves
-- date: '2026-05-25'
+- date: ''
   title: Packaging Corp of America stock (US6951561022)
   url: https://www.ad-hoc-news.de/boerse/news/ueberblick/packaging-corp-of-america-stock-us6951561022-earnings-momentum-and/69384919
-- date: '2026-05-25'
+- date: ''
   title: Orion Press Releases
   url: https://www.orionlabs.io/category/press-releases/
 random_paper: 19
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,19 +72,19 @@ nav: Providers
 network: true
 overview: OneMain Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Personal Loans, Consumer Finance, Lending, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pagaya Announces New Lending Partnership with ...
   url: https://investor.pagaya.com/news-releases/news-release-details/pagaya-announces-new-lending-partnership-onemain-financial
-- date: '2026-05-25'
+- date: ''
   title: 'OneMain Holdings: A 7.2% Yielder With Ample Margin Of ...'
   url: https://seekingalpha.com/article/4896605-onemain-holdings-7-percent-yielder-with-ample-margin-of-safety
-- date: '2026-05-25'
+- date: ''
   title: OneMain Financial Expands Commitment to ...
   url: https://www.prnewswire.com/news-releases/onemain-financial-expands-commitment-to-financial-education-credit-worthy-curriculum-will-reach-2-000-high-schools-annually-through-2029--302540016.html
-- date: '2026-05-25'
+- date: ''
   title: OneMain Holdings Inc. to Release Fourth Quarter Earnings and ...
   url: https://www.sahmcapital.com/news/content/onemain-holdings-inc-to-release-fourth-quarter-earnings-and-host-conference-call-2026-01-15
-- date: '2026-05-25'
+- date: ''
   title: OneMain 2026 proxy outlines pay, buybacks, proposals
   url: https://www.stocktitan.net/sec-filings/OMF/def-14a-one-main-holdings-inc-definitive-proxy-statement-b56119e0ab68.html
 random_paper: 16
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

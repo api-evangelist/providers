@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: BMS Medical Information Online provides US healthcare providers with prescribing information, medical inquiry submission, and product/regimen libraries for BMS medicines across oncology, hematology, i
@@ -140,19 +140,19 @@ plans:
   plan_count: 0
   slug: bristol-myers-squibb-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Science Firsthand: Predicting new possibilities in drug ...'
   url: https://www.bms.com/life-and-science/science/predictive-molecule-invention.html
-- date: '2026-05-25'
+- date: ''
   title: Corporate news details
   url: https://news.bms.com/news/details/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Tempus Expands Strategic Collaboration with Bristol Myers ...
   url: https://www.tempus.com/news/pr/tempus-expands-strategic-collaboration-with-bristol-myers-squibb-to-enhance-the-probability-of-success-across-clinical-development-programs-in-oncology-and-neuroscience/?srsltid=AfmBOopP82Z39HypdcQ5atFZGKjb7FN-dLZrhJlFnEOjfYJoRTGxSec5
-- date: '2026-05-25'
+- date: ''
   title: Evinova, Bristol Myers Squibb Partner to Apply AI to Global ...
   url: https://www.appliedclinicaltrialsonline.com/view/evinova-bristol-myers-squibb-partner-ai-global-clinical-development
-- date: '2026-05-25'
+- date: ''
   title: Our technologies
   url: https://www.bms.com/about-us/our-company/our-technologies.html
 random_paper: 17
@@ -189,7 +189,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

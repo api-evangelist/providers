@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: American Electric Power operates an Azure API Management instance (apim-aep-prod-use2-001) fronted by the "AEP API Management" developer portal at developer.aep.com and the gateway host api.aep.com. T
@@ -145,19 +145,19 @@ plans:
   plan_count: 0
   slug: american-electric-power-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Investors Boost American Electric Power on AI Growth
   url: https://www.marketbeat.com/originals/investors-boost-american-electric-power-on-ai-growth/
-- date: '2026-05-25'
+- date: ''
   title: AEP Reports Third-Quarter 2025 Operating Earnings ...
   url: https://www.aep.com/news/stories/view/10534/
-- date: '2026-05-25'
+- date: ''
   title: AEP ANNOUNCES PUBLIC OFFERING OF COMMON ...
   url: https://www.prnewswire.com/news-releases/aep-announces-public-offering-of-common-stock-with-a-forward-component-302770068.html
-- date: '2026-05-25'
+- date: ''
   title: American Electric Power expects strong growth in new data ...
   url: https://www.reuters.com/business/energy/american-electric-power-beats-q2-profit-estimates-data-center-demand-boost-2024-07-30/
-- date: '2026-05-25'
+- date: ''
   title: AEP Receives U.S. Department of Energy Loan Guarantee ...
   url: https://www.aep.com/news/stories/view/10501/
 random_paper: 12
@@ -198,7 +198,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

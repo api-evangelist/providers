@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,30 +67,30 @@ nav: Providers
 network: true
 overview: Buckeye Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fuel Storage, Infrastructure, Petroleum, and Pipelines.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Buckeye Partners dodges shareholder's lawsuit over ...
   url: https://www.reuters.com/legal/transactional/buckeye-partners-dodges-shareholders-lawsuit-over-acquisition-payouts-2022-02-10/
-- date: '2026-05-25'
-  title: Buckeye Partners, L.P.
-  url: https://www.fitchratings.com/research/corporate-finance/buckeye-partners-lp-23-04-2025
-- date: '2026-05-25'
-  title: Buckeye Partners, L.P. to fund the continuation and expansion of ...
-  url: https://www.facebook.com/LamarUniversity/posts/buckeye-partners-lp-to-fund-the-continuation-and-expansion-of-an-lu-led-research/547867594207506/
-- date: '2026-05-25'
-  title: Buckeye Partners LP Upgraded To 'BB' From 'BB-' O
-  url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3443433
-- date: '2026-05-25'
-  title: $6.5 billion deal that will take Buckeye Partners private is ...
-  url: https://www.mcall.com/2019/10/23/65-billion-deal-that-will-take-buckeye-partners-private-is-set-to-close-nov-1/
-- date: '2026-02-10'
-  title: Buckeye Partners Raises $1.7 Million for St. Jude Children’s Research Hospital
-  url: https://www.buckeye.com/press-releases/buckeye-partners-raises-1-7-million-for-st-jude-childrens-research-hospital
-- date: '2025-07-22'
-  title: Buckeye Energy Holdings Spins Out Its Ownership Interest in Swift Current Energy to Funds Managed by IFM Investors
-  url: https://www.buckeye.com/press-releases/buckeye-energy-holdings-spins-out-its-ownership-interest-in-swift-current-energy-to-funds-managed-by-ifm-investors
-- date: '2023-07-17'
-  title: Buckeye Partners Acquires Carbon Capture Company Elysian
-  url: https://www.buckeye.com/press-releases/buckeye-partners-acquires-carbon-capture-company-elysian
+- date: ''
+  title: BPL Provides Corporate Update
+  url: https://www.buckeye.com/press-releases/bpl-provides-corporate-update
+- date: ''
+  title: BPL Reports Fourth Quarter and Full Year 2018 Financial Results; Announces Cash Distribution
+  url: https://www.buckeye.com/press-releases/bpl-reports-fourth-quarter-and-full-year-2018-financial-results-announces-cash-distribution
+- date: ''
+  title: BPL Reports Second Quarter 2019 Financial Results
+  url: https://www.buckeye.com/press-releases/bpl-reports-second-quarter-2019-financial-results
+- date: ''
+  title: BPL Takes Additional Steps Toward Bi-Directional Laurel Service
+  url: https://www.buckeye.com/press-releases/bpl-takes-additional-steps-toward-bi-directional-laurel-service
+- date: ''
+  title: IFM Investors Completes Acquisition of Buckeye Partners, L.P.
+  url: https://www.buckeye.com/press-releases/ifm-investors-completes-acquisition-of-buckeye-partners-l-p
+- date: ''
+  title: Buckeye Partners, L.P. Announces Early Settlement Date and Extension of Early Expiration Time in Connection with Its Tender for Its Junior Subordinate Notes Due 2078
+  url: https://www.buckeye.com/press-releases/buckeye-partners-l-p-announces-early-settlement-date-and-extension-of-early-expiration-time-in-connection-with-its-tender-for-its-junior-subordinate-notes-due-2078
+- date: ''
+  title: BPL To Release Earnings and Hold Conference Call for 2019 First Quarter Financial Results
+  url: https://www.buckeye.com/press-releases/bpl-to-release-earnings-and-hold-conference-call-for-2019-first-quarter-financial-results
 random_paper: 18
 score:
   band: minimal
@@ -118,7 +118,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

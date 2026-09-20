@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,19 +76,19 @@ nav: Providers
 network: true
 overview: MWI Veterinary Supply is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Animal Health, Distribution, Pharmaceuticals, Veterinary, and Veterinary Supply.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Summary Annual Report 2025
   url: https://s203.q4cdn.com/785768684/files/doc_financials/2025/ar/tm2533035d4_ars.pdf
-- date: '2026-05-25'
+- date: ''
   title: Animal Health
   url: https://octanecdn.com/cfawcom/cfawcom_926533952.pdf
-- date: '2026-05-25'
+- date: ''
   title: Additional Tick Coverage for Merck's BRAVECTO QUANTUM
   url: https://brakkeconsulting.com/this-week-in-animal-health-additional-tick-coverage-for-mercks-bravecto-quantum/
-- date: '2026-05-25'
+- date: ''
   title: JAVMA News in - AVMA Journals
   url: https://avmajournals.avma.org/view/journals/javma/242/7/javma.242.7.868.xml
-- date: '2026-05-25'
+- date: ''
   title: MWI - Furscription Asset Purchase Agreement.
   url: https://www.sec.gov/Archives/edgar/data/1842356/000184235625000088/furscription-assetpurchase.htm
 random_paper: 5
@@ -118,7 +118,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

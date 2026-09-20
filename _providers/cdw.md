@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The CDW Catalog API uses JSON to deliver customers real-time pricing and inventory status alongside any special pricing or catalog restrictions. It supports integration with eProcurement platforms for
@@ -95,19 +95,19 @@ plans:
   plan_count: 1
   slug: cdw-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 2025 CDW AI Report
   url: https://www.cdw.com/content/cdw/en/solutions/artificial-intelligence-ai/2025-cdw-ai-report.html
-- date: '2026-05-25'
+- date: ''
   title: Lessons Learned From CDW's AI Research Report
   url: https://healthtechmagazine.net/article/2025/07/lessons-learned-cdws-ai-research-report
-- date: '2026-05-25'
+- date: ''
   title: Mission, a CDW Company, Achieves AWS Agentic AI ...
   url: https://www.prnewswire.com/news-releases/mission-a-cdw-company-achieves-aws-agentic-ai-specialization-expanding-enterprise-ai-capabilities-302626953.html
-- date: '2026-05-25'
+- date: ''
   title: CDW LLC - Financials - Quarterly Results
   url: https://investor.cdw.com/financials/quarterly-results/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence (AI) Solutions
   url: https://www.cdw.com/content/cdw/en/solutions/ai-and-data/artificial-intelligence-ai.html
 random_paper: 10
@@ -135,7 +135,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

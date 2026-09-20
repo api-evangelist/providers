@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Halliburton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fortune 500, Oil and Gas, and Oilfield Services.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases - Halliburton
   url: https://halliburton.gcs-web.com/news-and-events/press-releases?_correlationId=1896&page=9
-- date: '2026-05-25'
+- date: ''
   title: News and Press Releases
   url: https://www.halliburton.com/en/about-us/press-release
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://ir.halliburton.com/news-and-events/press-releases
-- date: '2026-05-25'
+- date: ''
   title: World's first AI-enabled technology successfully ...
   url: https://www.halliburton.com/en/about-us/press-release/world-first-ai-enabled-technology-successfully-implemented-by-aiq-and-halliburton-in-adnoc-upstream-operations
-- date: '2026-05-25'
+- date: ''
   title: Accelerating Digital Supply Chain Transformation
   url: https://www.halliburton.com/en/about-us/press-release/halliburton-accenture-digital-supply-chain-transformation
 random_paper: 0
@@ -113,7 +113,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

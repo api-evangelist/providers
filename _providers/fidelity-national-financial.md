@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Fidelity National Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real-Estate, Mortgage, and Annuities.
 press:
-- date: '2026-05-25'
+- date: ''
   title: FNF Reports Second Quarter 2024 Financial Results
   url: https://www.investor.fnf.com/news-releases/news-release-details/fnf-reports-second-quarter-2024-financial-results/
-- date: '2026-05-25'
+- date: ''
   title: Fidelity National Financial Names Jason Nadeau As Chief ...
   url: https://www.prnewswire.com/news-releases/fidelity-national-financial-names-jason-nadeau-as-chief-artificial-intelligence-officer-302153562.html
-- date: '2026-05-25'
+- date: ''
   title: Fidelity National Financial Names Jason Nadeau As Chief ...
   url: https://www.investor.fnf.com/news-releases/news-release-details/fidelity-national-financial-names-jason-nadeau-chief-artificial
-- date: '2026-05-25'
+- date: ''
   title: Fidelity National Financial, Inc.
   url: https://www.sec.gov/Archives/edgar/data/1331875/000110465925040185/tm252368d4_def14a.htm
-- date: '2026-05-25'
+- date: ''
   title: Fidelity National Financial Names Jason Nadeau As Chief ...
   url: https://nationalmortgageprofessional.com/news/fidelity-national-financial-names-jason-nadeau-chief-artificial-intelligence-officer
 random_paper: 7
@@ -113,7 +113,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

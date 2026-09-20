@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -90,21 +90,21 @@ overview: 'RPC is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
   RPC''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
 press:
-- date: '2026-05-25'
-  title: 'AI Technologies in Legal Practice: Revolutionizing Law Firms'
-  url: https://rpcgrowthstrategies.com/blogs/post/10-ai-assisted-legal-tech-vendors-delivering-reliable-productivity-to-law-firms/
-- date: '2026-05-25'
-  title: AI legal services & compliance experts
-  url: https://www.rpclegal.com/expertise/solutions/artificial-intelligence/
-- date: '2026-05-25'
-  title: Preliminary Guidelines on the Use of Artificial Intelligence ...
-  url: https://www.njcourts.gov/sites/default/files/notices/2024/01/n240125a.pdf
-- date: '2026-05-25'
-  title: 2024-April-Report-and-Recommendations-of-the-Task- ...
-  url: https://nysba.org/wp-content/uploads/2022/03/2024-April-Report-and-Recommendations-of-the-Task-Force-on-Artificial-Intelligence.pdf?srsltid=AfmBOoq_4FkgcXCrzUgvch379a_WyTvhOtROIDI9lFhLCSDedX0DkDJv
 - date: ''
   title: RPC launches Porter, its in-house AI assistant built to ...
   url: https://www.rpclegal.com/press-and-media/rpc-launches-porter
+- date: ''
+  title: 'AI Technologies in Legal Practice: Revolutionizing Law Firms'
+  url: https://rpcgrowthstrategies.com/blogs/post/10-ai-assisted-legal-tech-vendors-delivering-reliable-productivity-to-law-firms/
+- date: ''
+  title: AI legal services & compliance experts
+  url: https://www.rpclegal.com/expertise/solutions/artificial-intelligence/
+- date: ''
+  title: Preliminary Guidelines on the Use of Artificial Intelligence ...
+  url: https://www.njcourts.gov/sites/default/files/notices/2024/01/n240125a.pdf
+- date: ''
+  title: 2024-April-Report-and-Recommendations-of-the-Task- ...
+  url: https://nysba.org/wp-content/uploads/2022/03/2024-April-Report-and-Recommendations-of-the-Task-Force-on-Artificial-Intelligence.pdf?srsltid=AfmBOoq_4FkgcXCrzUgvch379a_WyTvhOtROIDI9lFhLCSDedX0DkDJv
 random_paper: 17
 rules:
 - effective_rule_count: 5
@@ -143,7 +143,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

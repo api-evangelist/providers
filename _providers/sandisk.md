@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The SanDisk iXpand SDK enables third-party iOS application developers to access and manage iXpand Flash Drive storage through the Lightning interface. It provides File System APIs with a familiar file
@@ -116,19 +116,19 @@ plans:
   plan_count: 3
   slug: sandisk-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: SanDisk's next report carries a high bar
   url: https://www.facebook.com/TheStreet/posts/sandisks-next-report-carries-a-high-barsandisks-next-earnings-report-could-show-/1504098784644834/
-- date: '2026-05-25'
+- date: ''
   title: Sandisk, Western Digital Report Jumps in Third-Quarter ...
   url: https://www.wsj.com/business/earnings/sandisk-western-digital-report-jumps-in-third-quarter-profit-on-ai-data-storage-demand-fa592c02
-- date: '2026-05-25'
+- date: ''
   title: Inside Sandisk's Massive AI Shift (NASDAQ:SNDK)
   url: https://seekingalpha.com/article/4908371-inside-sandisks-massive-ai-shift
-- date: '2026-05-25'
+- date: ''
   title: Sandisk Reports Fiscal Second Quarter 2026 Financial ...
   url: https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-second-quarter-2026-financial-results
-- date: '2026-05-25'
+- date: ''
   title: Sandisk Announces Launch of Secondary Offering ...
   url: https://investor.sandisk.com/news-releases/news-release-details/sandisk-announces-launch-secondary-offering-common-stock-0
 random_paper: 1
@@ -156,7 +156,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 19.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Knights of Columbus is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: As artificial intelligence (AI) rapidly advances, it has ...
   url: https://www.facebook.com/KnightsofColumbus/posts/as-artificial-intelligence-ai-rapidly-advances-it-has-sparked-both-excitement-an/1164940642346902/
-- date: '2026-05-25'
+- date: ''
   title: A Voice for Humanity
   url: https://www2.kofc.org/en/news-room/columbia/2025/may/a-voice-for-humanity.html
-- date: '2026-05-25'
+- date: ''
   title: Crux and Knights of Columbus to Partner
   url: https://www.prnewswire.com/news-releases/crux-and-knights-of-columbus-to-partner-300236596.html
-- date: '2026-05-25'
+- date: ''
   title: Knights of Columbus
   url: https://www.facebook.com/KnightsofColumbus/posts/hustle-culture-workaholism-artificial-intelligence-the-modern-workplace-raises-n/1233137882193844/
-- date: '2026-05-25'
+- date: ''
   title: The Catholic Church's response to AI — so far
   url: https://www.catholicworldreport.com/2026/05/15/the-catholic-churchs-response-to-ai-so-far/
 random_paper: 1
@@ -98,7 +98,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Lincoln Electric Holdings is profiled on the [APIs.io](https://apis.i
 
   Lincoln Electric Holdings'' developer surface includes support, GitHub presence, and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Lincoln Electric Holdings, Inc. (LECO) Q1 2026 Earnings ...
   url: https://seekingalpha.com/article/4896743-lincoln-electric-holdings-inc-leco-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Lincoln Electric Q1 2026 earnings rise | LECO 8-K Filing
   url: https://www.stocktitan.net/sec-filings/LECO/8-k-lincoln-electric-holdings-inc-reports-material-event-8a0cd3c1fdae.html
-- date: '2026-05-25'
+- date: ''
   title: News Archives - Lincoln Electric Automation
   url: https://coldwatermachine.com/category/news/
-- date: '2026-05-25'
+- date: ''
   title: Financials - Quarterly Results - Lincoln Electric Holdings, Inc.
   url: https://ir.lincolnelectric.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Lincoln Electric Reports First Quarter 2026 Results
   url: https://www.businesswire.com/news/home/20260430107151/en/Lincoln-Electric-Reports-First-Quarter-2026-Results
 random_paper: 10
@@ -114,7 +114,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

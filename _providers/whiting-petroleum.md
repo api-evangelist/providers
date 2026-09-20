@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,19 +87,19 @@ overview: 'Whiting Petroleum is profiled on the [APIs.io](https://apis.io/) netw
 
   The Whiting Petroleum catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Whiting Petroleum Completes $6 Billion All-Stock ...
   url: https://www.oilandgas360.com/whiting-petroleum-completes-6-billion-stock-acquisition-kodiak-oil-gas/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/0001255474/000119312522189511/d306292d8k.htm
-- date: '2026-05-25'
+- date: ''
   title: In the race to keep up with skyrocketing demand for crude ...
   url: https://www.facebook.com/texastribune/posts/in-the-race-to-keep-up-with-skyrocketing-demand-for-crude-oil-and-gas-companies-/1467672732071913/
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Whiting Petroleum Corp. Outlook'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/8719632
-- date: '2026-05-25'
+- date: ''
   title: Whiting and Oasis Complete Combination, Establishing ...
   url: https://www.prnewswire.com/news-releases/whiting-and-oasis-complete-combination-establishing-chord-energy-301579674.html
 random_paper: 14
@@ -129,7 +129,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

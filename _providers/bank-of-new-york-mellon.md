@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -327,19 +327,19 @@ plans:
   plan_count: 3
   slug: bank-of-new-york-mellon-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: BNY, America's Oldest Bank, Signs Multiyear Deal With ...
   url: https://www.wsj.com/articles/bny-americas-oldest-bank-signs-multiyear-deal-with-openai-74987d1d
-- date: '2026-05-25'
+- date: ''
   title: BNY signs multiyear deal with OpenAI for AI tools
   url: https://www.linkedin.com/posts/isabelle-bousquette_my-latest-in-todays-print-edition-of-the-activity-7301076608004640768-Jybu
-- date: '2026-05-25'
+- date: ''
   title: BNY Mellon is all-in on digital
   url: https://www.americanbanker.com/news/bny-mellon-is-all-in-on-digital
-- date: '2026-05-25'
+- date: ''
   title: BNY embraces role on small lenders' AI journey
   url: https://www.bankingdive.com/news/bny-ai-community-banks-initiative-razzaque/811224/
-- date: '2026-05-25'
+- date: ''
   title: BNY Shares Jump 65% As AI Hiring Push Accelerates
   url: https://finance.yahoo.com/sectors/technology/articles/bny-shares-jump-65-ai-115004909.html
 random_paper: 13
@@ -417,7 +417,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

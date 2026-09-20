@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -95,19 +95,19 @@ overview: 'RS Legacy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
   RS Legacy''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'RS Legacy Corp. (fka RSHCQ) : Pulled the Trigger Bought 100K ...'
   url: https://investorshub.advfn.com/boards/read_msg.aspx?message_id=97600751
-- date: '2026-05-25'
+- date: ''
   title: RadioShack Trading Is Halted After News of Dispute Emerges
   url: https://www.nytimes.com/2014/12/03/business/radioshack-trading-is-halted-after-news-of-dispute-emerges.html
-- date: '2026-05-25'
+- date: ''
   title: Press Kit New Škoda Enyaq
   url: https://cdn.skoda-storyboard.com/2025/05/Press_Kit_New_Skoda_Enyaq_492b58d1.pdf
-- date: '2026-05-25'
+- date: ''
   title: Claire H Babrowski Net Worth (2026)
   url: https://www.gurufocus.com/insider/21372/claire-h-babrowski
-- date: '2026-05-25'
+- date: ''
   title: State AGs Keep Eye On RadioShack Customers' Personal Data
   url: https://www.law360.com/articles/636062/state-ags-keep-eye-on-radioshack-customers-personal-data
 random_paper: 1
@@ -142,7 +142,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,19 +82,19 @@ overview: 'Universal Forest Products is profiled on the [APIs.io](https://apis.i
 
   Universal Forest Products'' developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: UFPI UFP Industries, Inc. Stock Price & Overview
   url: https://seekingalpha.com/symbol/UFPI
-- date: '2026-05-25'
+- date: ''
   title: Deckorators® Signs Agreement to Acquire Expanded ...
   url: https://www.prnewswire.com/news-releases/deckorators-signs-agreement-to-acquire-expanded-manufacturing-capabilities-accelerating-innovation-in-outdoor-living-302734877.html
-- date: '2026-05-25'
+- date: ''
   title: 'Universal Forest Products Inc (UFPI:NAS): Analytics, ...'
   url: https://www.plunkettresearch.com/industries/universal-forest-products-inc-ufpinas-analytics-extensive-financial-metrics-and-benchmarks-against-averages-and-top-companies-within-its-industry/
-- date: '2026-05-25'
+- date: ''
   title: Universal Forest Products Inc. agreed to acquire National Fiber ...
   url: https://www.marketscreener.com/quote/stock/UFP-INDUSTRIES-INC-11225/news/Universal-Forest-Products-Inc-agreed-to-acquire-National-Fiber-38845702/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/912767/000091276723000013/ufpi-20230502x8k.htm
 random_paper: 0
@@ -118,7 +118,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

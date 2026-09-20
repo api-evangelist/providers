@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 6
 common:
@@ -176,19 +176,19 @@ plans:
   plan_count: 0
   slug: expedia-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Expedia introduced its AI trip-planning chatbot Roamie two ...
   url: https://www.facebook.com/Skiftnews/posts/expedia-introduced-its-ai-trip-planning-chatbot-roamie-two-years-ago-but-ceo-ari/1293646796224631/
-- date: '2026-05-25'
+- date: ''
   title: 'Expedia Group Reveals ''The AI Trust Gap'': Travelers ...'
   url: https://www.businesswire.com/news/home/20260414532485/en/Expedia-Group-Reveals-The-AI-Trust-Gap-Travelers-Embrace-AI-for-Planning-but-Rely-on-Trusted-Brands-to-Book
-- date: '2026-05-25'
+- date: ''
   title: News
   url: https://ir.expediagroup.com/news-and-events/media/
-- date: '2026-05-25'
+- date: ''
   title: 'Put Your Trip on Autopilot: Expedia Group Introduces New ...'
   url: https://www.expedia.com/newsroom/spring-product-release-2024/
-- date: '2026-05-25'
+- date: ''
   title: Expedia Group sees reward and risk in the rise of AI- ...
   url: https://www.geekwire.com/2026/expedia-group-sees-reward-and-risk-in-the-rise-of-ai-powered-travel/
 random_paper: 10
@@ -219,7 +219,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

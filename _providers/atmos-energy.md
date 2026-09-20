@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Online account management portal for Atmos Energy customers providing access to billing, payment, usage history, service requests, and account settings for residential and commercial natural gas custo
@@ -161,19 +161,19 @@ plans:
   plan_count: 1
   slug: atmos-energy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Atmos Energy Raises Profit Forecast on AI Demand
   url: https://www.linkedin.com/posts/anushka-chourasia_atmos-energy-raises-annual-profit-forecast-activity-7457934384726163456--n8q
-- date: '2026-05-25'
+- date: ''
   title: Atmos Energy responds to rate hike concerns
   url: https://www.instagram.com/reel/DTyl8aeDULZ/
-- date: '2026-05-25'
+- date: ''
   title: Customer Service
   url: https://www.atmosenergy.com/news/atmos-energy-ranks-1-customer-satisfaction-residential-natural-gas-service-midwest-south-among/
-- date: '2026-05-25'
+- date: ''
   title: 'Atmos Energy : Latest CRS Report Demonstrates Commitment ...'
   url: https://www.marketscreener.com/news/atmos-energy-latest-crs-report-demonstrates-commitment-to-our-communities-people-and-operations-ce7f59d8df8ef02d
-- date: '2026-05-25'
+- date: ''
   title: Atmos Energy raises annual profit forecast on strong ...
   url: https://www.reuters.com/business/energy/atmos-energy-raises-annual-profit-forecast-strong-natural-gas-demand-2026-05-06/
 random_paper: 11
@@ -183,7 +183,7 @@ rate_limits:
   slug: atmos-energy-rate-limits
 score:
   band: emerging
-  composite: 19.5
+  composite: 22.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 44.0
@@ -191,23 +191,23 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 3.3
+  delta: 2.9
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 75.9
     operational_transparency: 5.3
-  previous_composite: 16.2
+  previous_composite: 19.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 13.5
+    score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

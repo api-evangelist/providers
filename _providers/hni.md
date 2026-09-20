@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The Hearth & Home Technologies storefront implements the Universal Commerce Protocol (UCP) over an anonymous Model Context Protocol endpoint. A tools/list probe on 2026-09-13 returned 13 tools — searc
@@ -159,19 +159,19 @@ plans:
   plan_count: 0
   slug: hni-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: The companies have closed on the acquisition deal, HNI ...
   url: https://www.facebook.com/woodtv/posts/the-companies-have-closed-on-the-acquisition-deal-hni-announced-today/1362395972586911/
-- date: '2026-05-25'
+- date: ''
   title: HNI signals fifth year of double-digit EPS growth with $120 ...
   url: https://seekingalpha.com/news/4557045-hni-signals-fifth-year-of-double-digit-eps-growth-with-120m-synergy-target-following
-- date: '2026-05-25'
+- date: ''
   title: HNI Corporation
   url: https://www.hnicorp.com/
-- date: '2026-05-25'
+- date: ''
   title: HNI to purchase Steelcase Inc., HNI's headquarters ...
   url: https://www.kwqc.com/2025/08/04/hni-purchase-steelcase-inc-hnis-headquarters-remain-muscatine/
-- date: '2026-05-25'
+- date: ''
   title: HNI) 2026 proxy details Steelcase deal, pay and ESG
   url: https://www.stocktitan.net/sec-filings/HNI/def-14a-hni-corp-definitive-proxy-statement-3603a98d9fc3.html
 random_paper: 11
@@ -213,7 +213,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

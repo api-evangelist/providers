@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,19 +82,19 @@ overview: 'W. R. Berkley is profiled on the [APIs.io](https://apis.io/) network.
 
   W. R. Berkley''s developer surface includes developer portal and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Major insurers including AIG, Great American, and WR ...
   url: https://www.facebook.com/techcrunch/posts/major-insurers-including-aig-great-american-and-wr-berkley-are-asking-us-regulat/1200198688640663/
-- date: '2026-05-25'
+- date: ''
   title: 'W. R. Berkley at UBS Conference: Strategic Focus on AI ...'
   url: https://www.investing.com/news/transcripts/w-r-berkley-at-ubs-conference-strategic-focus-on-ai-and-market-dynamics-93CH-4497739
-- date: '2026-05-25'
+- date: ''
   title: W. R. Berkley Corporation - Financials - Quarterly Results
   url: https://ir.berkley.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Technology Insurance
   url: https://www.berkley.com/business-insurance/technology
-- date: '2026-05-25'
+- date: ''
   title: W. R. Berkley Corporation Reports Third Quarter 2025 ...
   url: https://www.prnewswire.com/news-releases/w-r-berkley-corporation-reports-third-quarter-2025-results-302589367.html
 random_paper: 16
@@ -124,7 +124,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

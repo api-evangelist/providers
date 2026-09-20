@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -165,19 +165,19 @@ plans:
   plan_count: 0
   slug: sentry-insurance-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sentry Lloyds of TX 'AApi' Financial Strength Rating Affirmed
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/133737
-- date: '2026-05-25'
+- date: ''
   title: APCIA Announces 2024 Class of Emerging Leaders
   url: https://www.publicnow.com/view/659C381469DE64D5A91998C958D93C8DB8C58B01
-- date: '2026-05-25'
+- date: ''
   title: David Shah-Pettyjohn, AINS - Claims Representative at ...
   url: https://www.linkedin.com/in/david-pettyjohn
-- date: '2026-05-25'
+- date: ''
   title: Affirms Ratings of Sentry Ins Group Members - Best's News
   url: https://news.ambest.com/newscontent.aspx?altsrc=149&refnum=233871
-- date: '2026-05-25'
+- date: ''
   title: Dairyland Privacy Policy
   url: https://www.dairylandinsurance.com/privacy
 random_paper: 4
@@ -226,7 +226,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

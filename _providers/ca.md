@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 6
 apis:
 - description: Enterprise API management platform (formerly CA API Management / Layer 7) that provides API gateways, developer portals, policy enforcement, and identity integration for hybrid and multi-cloud deploym
@@ -166,19 +166,19 @@ plans:
   plan_count: 3
   slug: ca-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: After AI layoffs, Newsom orders state government to find ...
   url: https://calmatters.org/economy/technology/2026/05/california-ai-layoffs-order/
-- date: '2026-05-25'
+- date: ''
   title: Governor Newsom signs first-of-its-kind executive order to ...
   url: https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases Archive - California Federation of Labor ...
   url: https://calaborfed.org/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: CA.gov Artificial Intelligence (A.I.) Collection
   url: https://archive-it.org/collections/23471
-- date: '2026-05-25'
+- date: ''
   title: Governor Newsom signs SB 53, advancing California's world ...
   url: https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/
 random_paper: 20
@@ -206,7 +206,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

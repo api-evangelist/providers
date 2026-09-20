@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -142,19 +142,19 @@ plans:
   plan_count: 3
   slug: etrade-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: How to Invest in the Artificial Intelligence (AI) Boom
   url: https://us.etrade.com/knowledge/library/perspectives/market-happenings/megatrends-how-to-invest-in-the-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence | Learn and Invest | E*TRADE
   url: https://us.etrade.com/knowledge/thematic-investing/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Morgan Stanley finalises $13bn E*TRADE acquisition deal
   url: https://www.privatebankerinternational.com/news/morgan-stanley-finalises-13bn-etrade-acquisition-deal/
-- date: '2026-05-25'
+- date: ''
   title: E*TRADE from Morgan Stanley
   url: https://www.facebook.com/ETRADE/posts/take-your-strategy-to-the-next-level-with-etrades-powerful-platforms-now-superch/1243747861116570/
-- date: '2026-05-25'
+- date: ''
   title: Morgan Stanley Dives Deeper Into Retail With E*Trade Deal
   url: https://www.wealthmanagement.com/equities/morgan-stanley-dives-deeper-into-retail-with-e-trade-deal
 random_paper: 13
@@ -195,7 +195,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

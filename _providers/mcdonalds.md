@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: McDonald's does not expose a public, self-service API. Ordering, delivery integration, menu data, loyalty, and restaurant information flow through bilateral partner integrations rather than open devel
@@ -94,19 +94,19 @@ plans:
   plan_count: 1
   slug: mcdonalds-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Where Innovation Meets Scale: An Update on McDonald''s ...'
   url: https://corporate.mcdonalds.com/corpmcd/our-stories/article/digitizing-the-arches.html
-- date: '2026-05-25'
+- date: ''
   title: Dec 6, 2023
   url: https://www.googlecloudpresscorner.com/2023-12-06-McDonalds-and-Google-Cloud-Announce-Strategic-Partnership-to-Connect-Latest-Cloud-Technology-and-Apply-Generative-AI-Solutions-Across-its-Restaurants-Worldwide
-- date: '2026-05-25'
+- date: ''
   title: McDonald's Gives Its Restaurants an AI Makeover
   url: https://www.wsj.com/articles/mcdonalds-gives-its-restaurants-an-ai-makeover-2134f01e
-- date: '2026-05-25'
+- date: ''
   title: Optimising McDonald's global AI Strategy
   url: https://expleo.com/global/en/case-studies/optimising-mcdonalds-global-ai-strategy/
-- date: '2026-05-25'
+- date: ''
   title: McDonald's is experimenting with AI in ways that could ...
   url: https://www.facebook.com/masslive/posts/mcdonalds-is-experimenting-with-ai-in-ways-that-could-change-your-drive-thru-exp/1330329255807686/
 random_paper: 3
@@ -134,7 +134,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

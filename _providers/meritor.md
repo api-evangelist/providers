@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Meritor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cummins completes acquisition of Meritor COLUMBUS, Ind.
   url: https://www.facebook.com/cbusnews/posts/cummins-completes-acquisition-of-meritorcolumbus-ind-cummins-inc-announced-wedne/1701049970268963/
-- date: '2026-05-25'
+- date: ''
   title: Meritor Shareholders Approve Acquisition By Cummins
   url: https://www.prnewswire.com/news-releases/meritor-shareholders-approve-acquisition-by-cummins-301556116.html
-- date: '2026-05-25'
+- date: ''
   title: IN-CUMMINS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/13659617/in-cummins?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: ArvinMeritor Changes Name to Meritor Inc.; Closes Trailer ...
   url: https://www.aftermarketnews.com/arvinmeritor-changes-name-to-meritor-inc-closes-trailer-axle-business-in-europe/
-- date: '2026-05-25'
+- date: ''
   title: Cummins completes acquisition of Meritor
   url: https://www.cummins.com/en-na/news/releases/2022/08/03/cummins-completes-acquisition-meritor
 random_paper: 0
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

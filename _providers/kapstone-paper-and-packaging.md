@@ -37,19 +37,19 @@ nav: Providers
 network: true
 overview: KapStone Paper and Packaging is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Containerboard, Corrugated, Defunct, and Packaging.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Emily T. Chen | People
   url: https://www.mcdermottlaw.com/people/emily-t-chen/
-- date: '2026-05-25'
+- date: ''
   title: The Target Report - RSSing.com
   url: https://target2622.rssing.com/chan-54400276/all_p3.html
-- date: '2026-05-25'
+- date: ''
   title: Starting today, IPACK-IMA brings together world-class ...
   url: http://globalprintmonitor.info/en/blogs/packaging/72453-starting-today-ipack-ima-brings-together-world-class-leaders-in-processing-packaging-and-new-materials
-- date: '2026-05-25'
+- date: ''
   title: Articles related to paper
   url: https://www.nipimpressions.com/news.php?keyword=paper
-- date: '2026-05-25'
+- date: ''
   title: Sack Kraft Paper Market Size Accelerating at 5.8% CAGR
   url: https://www.openpr.com/news/4493241/sack-kraft-paper-market-size-accelerating-at-5-8-cagr-by-key
 random_paper: 8

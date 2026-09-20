@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 7
 common:
@@ -104,19 +104,19 @@ overview: 'Ryland Group is profiled on the [APIs.io](https://apis.io/) network. 
 
   The Ryland Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Ryland Group 2026 Company Profile
   url: https://pitchbook.com/profiles/company/40361-95
-- date: '2026-05-25'
+- date: ''
   title: Standard Pacific, Ryland Group to create 4th largest U.S. ...
   url: https://www.constructiondive.com/news/standard-pacific-ryland-group-to-create-4th-largest-us-homebuilder-with/400754/
-- date: '2026-05-25'
+- date: ''
   title: Ryland Group Inc.
   url: https://www.nytimes.com/topic/company/ryland-group-inc
-- date: '2026-05-25'
+- date: ''
   title: Ryland Group 'BBB-' Credit Rating Affirmed; Outlook Is Stable
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/554035
-- date: '2026-05-25'
+- date: ''
   title: Ryland/Standard Pacific merger complete as trading ...
   url: https://www.constructiondive.com/news/rylandstandard-pacific-merger-complete-as-trading-begins-for-new-calatlant/406642/
 random_paper: 20
@@ -151,7 +151,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

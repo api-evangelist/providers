@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -133,19 +133,19 @@ plans:
   plan_count: 3
   slug: live-nation-entertainment-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Live Nation Entertainment, Inc. (LYV) Presents at J.P. ...
   url: https://seekingalpha.com/article/4907113-live-nation-entertainment-inc-lyv-presents-at-j-p-morgan-54th-annual-global-technology-media
-- date: '2026-05-25'
+- date: ''
   title: Live Nation Entertainment Q1 Earnings Call Highlights
   url: https://www.theglobeandmail.com/investing/markets/stocks/LYV/pressreleases/1873250/live-nation-entertainment-q1-earnings-call-highlights/
-- date: '2026-05-25'
+- date: ''
   title: Live Nation Entertainment, Inc. Stock (LYV) - Quote Nyse
   url: https://www.marketscreener.com/quote/stock/LIVE-NATION-ENTERTAINMENT-13449/
-- date: '2026-05-25'
+- date: ''
   title: LIVE NATION ENTERTAINMENT FULL YEAR AND ...
   url: https://www.prnewswire.com/news-releases/live-nation-entertainment-full-year-and-fourth-quarter-2025-results-302693023.html
-- date: '2026-05-25'
+- date: ''
   title: Live Nation Entertainment Full Year And Fourth Quarter ...
   url: https://newsroom.livenation.com/news/live-nation-entertainment-full-year-and-fourth-quarter-2025-results/
 random_paper: 3
@@ -180,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

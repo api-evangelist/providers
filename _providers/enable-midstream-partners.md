@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Enable Midstream Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Crude Oil, Energy, Midstream, and Natural Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Enable Midstream Partners 2026 Company Profile
   url: https://pitchbook.com/profiles/company/56373-31
-- date: '2026-05-25'
+- date: ''
   title: Enable-Energy Transfer's $7.2B merger gets mixed ...
   url: https://www.spglobal.com/market-intelligence/en/news-insights/articles/2021/2/enable-energy-transfer-s-7-2b-merger-gets-mixed-reviews-amid-m-a-frustration-62714571
-- date: '2026-05-25'
+- date: ''
   title: Enable Midstream earnings decline
   url: https://journalrecord.com/enable-midstream-earnings-decline/
-- date: '2026-05-25'
+- date: ''
   title: Enable Midstream Partners, LP Common Units representing ...
   url: https://markets.financialcontent.com/dailynews/quote/news?ChannelType=PRESSRELEASES&Symbol=NY%3AENBL
-- date: '2026-05-25'
+- date: ''
   title: OGE Energy Corp. announces the successful close of ...
   url: https://www.prnewswire.com/news-releases/oge-energy-corp-announces-the-successful-close-of-the-merger-between-energy-transfer-and-enable-midstream-partners-301436738.html
 random_paper: 20
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

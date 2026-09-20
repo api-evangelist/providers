@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,19 +84,19 @@ nav: Providers
 network: true
 overview: Owens Corning is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Building Materials, Manufacturing, Insulation, and Roofing.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Owens Corning Roofing
   url: https://www.facebook.com/OwensCorningRoofing/posts/designed-to-support-todays-evolving-roofing-marketplace-roof-scoutour-newest-owe/1382902023872127/
-- date: '2026-05-25'
+- date: ''
   title: 2022 Owens Corning Sustainability Report
   url: https://www.owenscorning.com/en-us/corporate/sustainability/docs/2023/2022-Owens-Corning-Sustainability-Report.pdf
-- date: '2026-05-25'
+- date: ''
   title: OC Stock AI Analysis - Owens Corning
   url: https://danelfin.com/stock/OC
-- date: '2026-05-25'
+- date: ''
   title: Northstar Enterprise + Defense Expands Leadership in ...
   url: https://www.prnewswire.com/news-releases/northstar-enterprise--defense-expands-leadership-in-modular-data-centers-with-owens-corning-collaboration-and-ai-optimized-edge-infrastructure-302591461.html
-- date: '2026-05-25'
+- date: ''
   title: Owens Corning, Roof Scout Launch Virtual Sales Tool
   url: https://www.roofingcontractor.com/articles/102170-owens-corning-roof-scout-launch-virtual-sales-tool
 random_paper: 11
@@ -120,7 +120,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

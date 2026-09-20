@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Monsanto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Biotechnology, Crop Science, Seed, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Monsanto's “Data + Analytics” Frontier
   url: https://medium.com/@nvenkatraman/monsantos-data-analytics-frontier-69ca9108bc8b
-- date: '2026-05-25'
+- date: ''
   title: Bayer Investor and Media Update
   url: https://www.bayer.com/en/investors/bayer-investor-and-media-update
-- date: '2026-05-25'
+- date: ''
   title: DataRobot to partner with Monsanto Company on AI ...
   url: https://iot-now.com/2018/03/08/78256-datarobot-partner-monsanto-company-ai-initiatives/
-- date: '2026-05-25'
+- date: ''
   title: 'Bugs and Bytes: Monsanto-Bayer to dominate in Microbials ...'
   url: https://www.etcgroup.org/sites/www.etcgroup.org/files/files/info_brief_microbials_and_bayer-monsanto_0.pdf
-- date: '2026-05-25'
+- date: ''
   title: Bayer and Monsanto to Create a Global Leader in Agriculture
   url: https://www.prnewswire.com/news-releases/bayer-and-monsanto-to-create-a-global-leader-in-agriculture-300327863.html
 random_paper: 21
@@ -103,7 +103,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

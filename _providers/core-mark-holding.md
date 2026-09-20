@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,19 +95,19 @@ nav: Providers
 network: true
 overview: Core-Mark Holding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Candy, Consumer Packaged Goods, Convenience Stores, and Distribution.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Coffee Service News
   url: https://www.vendingtimes.com/topics/coffee-service/news/?page=36
-- date: '2026-05-25'
+- date: ''
   title: Performance Food Group & Digital Turbine Set to Join S&P ...
   url: https://www.prnewswire.com/news-releases/performance-food-group--digital-turbine-set-to-join-sp-midcap-400-treehouse-foods--ligand-pharmaceuticals-to-join-sp-smallcap-600-301365584.html
-- date: '2026-05-25'
+- date: ''
   title: Core-Mark Holding Company 2026 Profile
   url: https://pitchbook.com/profiles/company/42057-10
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: http://www.sec.gov/ix?doc=/Archives/edgar/data/1318084/000119312521164783/d170257d8k.htm
-- date: '2026-05-25'
+- date: ''
   title: Analytics, Extensive Financial Metrics, and Benchmarks Against ...
   url: https://www.plunkettresearch.com/core-mark-holding-company-inc-corenas-analytics-extensive-financial-metrics-and-benchmarks-against-averages-and-top-companies-within-its-industry
 random_paper: 11
@@ -131,7 +131,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

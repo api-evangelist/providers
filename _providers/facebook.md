@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -697,19 +697,19 @@ plans:
   plan_count: 4
   slug: facebook-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: How Meta uses information for generative AI models
   url: https://www.facebook.com/privacy/genai/
-- date: '2026-05-25'
+- date: ''
   title: How Facebook Uses Artificial Intelligence
   url: https://blog.kambria.io/how-facebook-uses-artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence News (@theartificialintelligencee)
   url: https://www.facebook.com/theartificialintelligencee/
-- date: '2026-05-25'
+- date: ''
   title: 'Meta: Digital Marketing and Artificial Intelligence (AI) at ...'
   url: https://www.hbs.edu/faculty/Pages/item.aspx?num=68063
-- date: '2026-05-25'
+- date: ''
   title: 'Introducing the Meta AI App: A New Way to Access Your AI ...'
   url: https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/
 random_paper: 12
@@ -766,7 +766,7 @@ score:
       marker_coverage: 100.0
       total: 27
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -191,19 +191,19 @@ plans:
   plan_count: 1
   slug: regions-financial-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Regions Says AI Lifts Productivity 20% as Loan Growth Cools
   url: https://www.pymnts.com/earnings/2026/regions-says-ai-lifts-productivity-20percent-loan-growth-cools/
-- date: '2026-05-25'
+- date: ''
   title: Regions Bank Taps IBM's AI to Power Next Generation ...
   url: https://www.prnewswire.com/news-releases/regions-bank-taps-ibms-ai-to-power-next-generation-customer-service-300837762.html
-- date: '2026-05-25'
+- date: ''
   title: Regions Bank and CRE FinTech Blooma Collaborate to ...
   url: https://ir.regions.com/news-events/press-releases/news-details/2023/Regions-Bank-and-CRE-FinTech-Blooma-Collaborate-to-Modernize-Lending-Workflow-02-15-2023/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 'Generative Artificial Intelligence: The Next Disruptive ...'
   url: https://www.regions.com/-/media/pdfs/wealth-management/Generative-Artificial-Intelligence-6923V5.pdf?revision=3dff6e95-3e98-4aeb-b8be-0e7c3d4790d5
-- date: '2026-05-25'
+- date: ''
   title: Regions AI tool helps steer cross-selling
   url: https://www.americanbanker.com/news/regions-ai-tool-helps-steer-cross-selling
 random_paper: 21
@@ -271,7 +271,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,19 +58,19 @@ nav: Providers
 network: true
 overview: Pinnacle West Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pinnacle West Capital Is Up 17% Year to Date. Here&#8217
   url: https://www.tikr.com/blog/pinnacle-west-capital-is-up-17-year-to-date-heres-what-could-drive-the-next-move
-- date: '2026-05-25'
+- date: ''
   title: Pinnacle West Reports Lower 2025 First-Quarter Financial ...
   url: https://www.businesswire.com/news/home/20250501684779/en/Pinnacle-West-Reports-Lower-2025-First-Quarter-Financial-Results
-- date: '2026-05-25'
+- date: ''
   title: Quarterly Report for Quarter Ending June 30, 2025 (Form 10-Q)
   url: https://www.publicnow.com/view/97ABF375F4384862232C1D26836001BD40FBE69B?1754484452
-- date: '2026-05-25'
+- date: ''
   title: Pinnacle West Reports Lower 2025 First-Quarter Financial ...
   url: https://www.pinnaclewest.com/newsroom/company-news/news-release-details/2025/Pinnacle-West-Reports-Lower-2025-First-Quarter-Financial-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Pinnacle West Capital Corporation (PNW) Q1 2026 ...
   url: https://seekingalpha.com/article/4898073-pinnacle-west-capital-corporation-pnw-q1-2026-earnings-call-transcript
 random_paper: 5
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,19 +68,19 @@ nav: Providers
 network: true
 overview: McKesson is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Fortune 500, Healthcare, Medical Supplies, and Pharmaceuticals.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at McKesson - Three Use Cases
   url: https://emerj.com/artificial-intelligence-at-mckesson-three-use-cases/
-- date: '2026-05-25'
+- date: ''
   title: AI in Community Oncology
   url: https://www.mckesson.com/stories-insights/ai-in-community-oncology/
-- date: '2026-05-25'
+- date: ''
   title: Technology Solutions for Specialty Practices
   url: https://www.mckesson.com/specialty/technology-solutions-specialty-practices/
-- date: '2026-05-25'
+- date: ''
   title: Reducing Administrative Burden with AI Tools
   url: https://www.mckesson.com/stories-insights/reducing-administrative-burden-with-ai-tools/
-- date: '2026-05-25'
+- date: ''
   title: McKesson ties AI, automation, specialty tech to Q3 sales ...
   url: https://www.digitalcommerce360.com/2026/02/05/mckesson-ai-automation-specialty-tech-q3-sales/
 random_paper: 9
@@ -110,7 +110,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -12,16 +12,17 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-09-18'
+  score: 41.0
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -504,19 +505,19 @@ plans:
   plan_count: 0
   slug: adt-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'The shift from ''smart'' to ''intelligent'': How ADT Is redefining ...'
   url: https://newsroom.adt.com/innovations/the-shift-from-smart-to-intelligent-how-adt-is-redefining-the-future-of-home-security
-- date: '2026-05-25'
+- date: ''
   title: ADT Invests in Percepta Labs, “Ethical AI” Security ...
   url: https://newsroom.adt.com/adt-commercial/adt-invests-percepta-labs-ethical-ai-security-technology-startup
-- date: '2026-05-25'
+- date: ''
   title: AI Enhances Safety with ADT's Origin Acquisition
   url: https://www.linkedin.com/posts/darrin-reilly-b0022b7_adt-acquires-origin-ai-to-power-ai-sensing-activity-7432567635315343360-5LtZ
-- date: '2026-05-25'
+- date: ''
   title: ADT Buys Origin AI – Security Providers are Becoming ...
   url: https://www.parksassociates.com/blogs/home-systems-and-controls/adt-buys-origin-ai-security-providers-are-becoming-whole-home-intelligence-platforms
-- date: '2026-05-25'
+- date: ''
   title: How ADT embraces AI to make every second count.
   url: https://sierra.ai/customers/adt
 random_paper: 5
@@ -580,7 +581,7 @@ score:
       total: 12
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

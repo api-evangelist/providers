@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,19 +236,19 @@ plans:
   plan_count: 1
   slug: tenet-healthcare-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tenet to deploy Commure's AI scribe at physician network
   url: https://www.healthcaredive.com/news/tenet-deploys-commure-ai-scribe-physician-network/733663/
-- date: '2026-05-25'
+- date: ''
   title: Press Release issued on February
   url: https://www.sec.gov/Archives/edgar/data/70318/000007031826000003/thc-20260202exh991.htm
-- date: '2026-05-25'
+- date: ''
   title: '#WhatsUpTenet Here''s the latest across Tenet Healthcare''s ...'
   url: https://www.facebook.com/tenetglobalbusinesscenter/posts/whatsuptenet-heres-the-latest-across-tenet-healthcares-network-gbcs-mother-compa/905654302216243/
-- date: '2026-05-25'
+- date: ''
   title: Tenet Announces Accretive Transaction and Previews ...
   url: https://investor.tenethealth.com/press-releases/press-release-details/2026/Tenet-Announces-Accretive-Transaction-and-Previews-Strong-2025-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at Tenet Healthcare
   url: https://emerj.com/artificial-intelligence-at-tenet-healthcare/
 random_paper: 2
@@ -316,7 +316,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

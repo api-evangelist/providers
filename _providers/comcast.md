@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 15.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Firebolt is Comcast's application platform for building apps that run on TVs, set-top boxes, and other connected home devices. The Firebolt SDK exposes a family of JavaScript APIs (Lifecycle, Metrics,
@@ -251,19 +251,19 @@ plans:
   plan_count: 0
   slug: comcast-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: How Comcast Used AI and Unified Search to Transform ...
   url: https://www.coveo.com/blog/comcast-employee-experience/
-- date: '2026-05-25'
+- date: ''
   title: Comcast Technology Solutions' VideoAI™ Integrated with ...
   url: https://www.prnewswire.com/news-releases/comcast-technology-solutions-videoai-integrated-with-orange-logic-marketplace-for-ai-powered-management-of-video-assets-and-metadata-302448471.html
-- date: '2026-05-25'
+- date: ''
   title: Comcast Pushes AI to the Edge to Power the Nation's ...
   url: https://corporate.comcast.com/press/releases/comcast-pushes-ai-to-the-edge-to-power-the-nations-smartest-broadband-network
-- date: '2026-05-25'
+- date: ''
   title: Comcast Advertising Introduces New AI Platform to Help ...
   url: https://comcastadvertising.com/news/comcast-advertising-introduces-new-ai-platform-to-help-small-and-local-businesses-create-cost-effective-commercials-in-minutes/
-- date: '2026-05-25'
+- date: ''
   title: 'Comcast''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/comcast-ai-strategy-analysis-of-dominance-in-telecommunications-and-media/
 random_paper: 20
@@ -300,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

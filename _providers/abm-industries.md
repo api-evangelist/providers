@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: ABM Connect is a data intelligence platform that unifies facility, financial, equipment, IoT, and service-delivery data into a real-time, action-focused view. It aggregates data from front-line team m
@@ -172,19 +172,19 @@ plans:
   plan_count: 0
   slug: abm-industries-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: AI-Driven Solutions & Strategies in Facilities Management
   url: https://www.abm.com/perspectives/ai-driven-facility-management-strategies-webinar
-- date: '2026-05-25'
+- date: ''
   title: ABM Industries
   url: https://www.facebook.com/ABMIndustries/posts/what-role-does-ai-play-for-a-facility-solutions-provider-like-abm-in-the-latest-/1466518238842988/
-- date: '2026-05-25'
+- date: ''
   title: 'AI in Facilities: Data-Driven Strategies'
   url: https://www.abm.com/perspectives/ai-data-readiness-best-practices-facility-management
-- date: '2026-05-25'
+- date: ''
   title: ABM Industries Incorporated Stock Report
   url: https://www.roic.ai/quote/ABM/classic
-- date: '2026-05-25'
+- date: ''
   title: ABM Expands Position and Capabilities in Fast-Growing ...
   url: https://investor.abm.com/news-releases/news-release-details/abm-expands-position-and-capabilities-fast-growing-data-center
 random_paper: 17
@@ -220,7 +220,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

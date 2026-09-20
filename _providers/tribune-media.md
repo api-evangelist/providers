@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -242,30 +242,30 @@ plans:
   plan_count: 3
   slug: tribune-media-plans-pricing
 press:
-- date: '2026-05-25'
-  title: AN News
-  url: https://newspapers.org/an-news/?page_size=20&category_id=902&sub_type=stories%2Cphotos%2Cvideos%2Cspecialsections%2Cprintissues%2Ceeditions%2Cpackages%2Cmagazines%2Cmaps%2Cfeeds%2Cpolls&page=67
-- date: '2026-05-25'
-  title: 💻 Byron Allen on consolidating media assets and funding ...
-  url: https://www.facebook.com/djenvy/posts/-byron-allen-on-consolidating-media-assets-and-funding-aidriven-local-news/1514662133360299/
-- date: '2026-05-25'
-  title: Daily Tribune's media snowflakery and AI articles
-  url: https://www.facebook.com/groups/708242270391120/posts/1450915709457102/
-- date: '2026-05-25'
-  title: tronc/Tribune
-  url: https://www.usnewsdeserts.com/reports/expanding-news-desert/enduring-legacy-new-media-barons/tronc-tribune/
-- date: '2026-05-25'
-  title: Nexstar Media Group Enters into Definitive Agreement to ...
-  url: https://www.nexstar.tv/nexstar_agrees_to_acquire_tribune/
-- date: '2019-10-16'
+- date: ''
+  title: Covers Media Group Announces the Launch of their New Sportsbetting Podcast Lineup
+  url: http://www.tribunemedia.com/covers-media-group-announces-the-launch-of-their-new-sportsbetting-podcast-lineup/
+- date: ''
+  title: WGN Morning News Celebrates 25th Anniversary with Live Primetime Special
+  url: http://www.tribunemedia.com/wgn-morning-news-celebrates-25th-anniversary-with-live-primetime-special/
+- date: ''
   title: Press Coverage
   url: http://www.tribunemedia.com/press-coverage/
-- date: '2019-09-19'
+- date: ''
   title: Nexstar Media Group Completes Tribune Media Acquisition Creating the Nation’s Largest Local Television Broadcaster
   url: http://www.tribunemedia.com/nexstar-media-group-completes-tribune-media-acquisition-creating-the-nations-largest-local-television-broadcaster/
-- date: '2019-09-19'
+- date: ''
+  title: WHO-HD’s 20th Annual RVTV Cy-Hawk Tailgate Hits The Road Monday
+  url: http://www.tribunemedia.com/who-hds-20th-annual-rvtv-cy-hawk-tailgate-hits-the-road-monday/
+- date: ''
+  title: AN News
+  url: https://newspapers.org/an-news/?page_size=20&category_id=902&sub_type=stories%2Cphotos%2Cvideos%2Cspecialsections%2Cprintissues%2Ceeditions%2Cpackages%2Cmagazines%2Cmaps%2Cfeeds%2Cpolls&page=67
+- date: ''
   title: About Nexstar
   url: http://nexstar.tv#new_tab
+- date: ''
+  title: KTXL/FOX 40 Sacramento, Stockton, Modesto To Debut New News Set and Redesigned Studio
+  url: http://www.tribunemedia.com/ktxl-fox-40-sacramento-stockton-modesto-to-debut-new-news-set-and-redesigned-studio/
 random_paper: 20
 rate_limits:
 - limit_count: 5
@@ -320,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

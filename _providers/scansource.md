@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -221,19 +221,19 @@ plans:
   plan_count: 1
   slug: scansource-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: ScanSource, Inc. (SCSC) Q3 2026 Earnings Call Transcript
   url: https://seekingalpha.com/article/4901024-scansource-inc-scsc-q3-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: ScanSource's Post
   url: https://www.linkedin.com/posts/scansource_executiveleadership-companygrowth-pressrelease-activity-6959867268562399232-vTqf?trk=public_profile_like_view
-- date: '2026-05-25'
+- date: ''
   title: Retail
   url: https://www.scansource.com/resource-center/market-resource-center/retail
-- date: '2026-05-25'
+- date: ''
   title: Blog
   url: https://intelisys.com/blog/
-- date: '2026-05-25'
+- date: ''
   title: ScanSource Q3 Earnings Call Highlights
   url: https://www.theglobeandmail.com/investing/markets/stocks/SCSC/pressreleases/1832981/scansource-q3-earnings-call-highlights/
 random_paper: 0
@@ -289,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

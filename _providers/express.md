@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications, including routing, middleware support, and HTTP utility meth
@@ -100,19 +100,19 @@ plans:
   plan_count: 3
   slug: express-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.googlecloudpresscorner.com/artificial-intelligence?l=50&o=300
-- date: '2026-05-25'
+- date: ''
   title: How Amex exploits new AI tools
   url: https://www.paymentsdive.com/news/how-amex-exploits-new-ai-tools/816000/
-- date: '2026-05-25'
+- date: ''
   title: American Express
   url: https://www.facebook.com/AmericanExpressUS/posts/were-excited-to-share-that-we-have-entered-into-an-agreement-to-acquire-hyper-an/1520164826138743/
-- date: '2026-05-25'
+- date: ''
   title: Adobe Introduces New AI Assistant in Adobe Express that ...
   url: https://news.adobe.com/news/2025/10/adobe-max-2025-express-ai-assistant
-- date: '2026-05-25'
+- date: ''
   title: American Express Global Business Travel Unveils New ...
   url: https://www.amexglobalbusinesstravel.com/press-releases/american-express-global-business-travel-unveils-new-initiative-to-drive-ai-innovation-and-governance/
 random_paper: 8
@@ -140,7 +140,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

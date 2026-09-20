@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -230,19 +230,19 @@ plans:
   plan_count: 3
   slug: texas-instruments-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Texas Instruments boosts in-house chip output for AI ...
   url: https://www.facebook.com/nikkeiasia/posts/texas-instruments-boosts-in-house-chip-output-for-ai-infrastructure-boom/1391104596386135/
-- date: '2026-05-25'
+- date: ''
   title: 'Texas Instruments Earnings: All Aboard the AI Train'
   url: https://www.morningstar.com/stocks/texas-instruments-earnings-all-aboard-ai-train
-- date: '2026-05-25'
+- date: ''
   title: TI expands microcontroller portfolio and software ...
   url: https://www.prnewswire.com/news-releases/ti-expands-microcontroller-portfolio-and-software-ecosystem-to-enable-edge-ai-in-every-device-302708210.html
-- date: '2026-05-25'
+- date: ''
   title: Texas Instruments plans to invest more than $60 billion ...
   url: https://www.ti.com/about-ti/newsroom/news-releases/2025/texas-instruments-plans-to-invest-more-than--60-billion-to-manufacture-billions-of-foundational-semiconductors-in-the-us.html
-- date: '2026-05-25'
+- date: ''
   title: TI's new power-management solutions enable scalable AI ...
   url: https://www.ti.com/about-ti/newsroom/news-releases/2025/tis-new-power-management-solutions-enable-scalable-ai-infrastructures.html
 random_paper: 18
@@ -304,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,19 +50,19 @@ nav: Providers
 network: true
 overview: Crown Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Crown Holdings, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/crown-holdings%2C-inc./
-- date: '2026-05-25'
+- date: ''
   title: CROWN HOLDINGS, INC. REPORTS FIRST QUARTER ...
   url: https://www.prnewswire.com/news-releases/crown-holdings-inc-reports-first-quarter-2026-results-302754715.html
-- date: '2026-05-25'
+- date: ''
   title: Crown Holdings Raises Guidance, Claims Strong ...
   url: https://www.wsj.com/business/earnings/crown-holdings-raises-guidance-claims-strong-performance-495f4a2a
-- date: '2026-05-25'
+- date: ''
   title: Crown Holdings Supports Efforts to Raise Aluminum ...
   url: https://finance.yahoo.com/news/crown-holdings-supports-efforts-raise-134500835.html
-- date: '2026-05-25'
+- date: ''
   title: BUILT TO PERFORM
   url: https://www.crowncork.com/sites/default/files/2025-03/2024_Annual_Report-Crown_Holdings_Inc.pdf
 random_paper: 2
@@ -94,7 +94,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

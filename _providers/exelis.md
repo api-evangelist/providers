@@ -52,19 +52,19 @@ nav: Providers
 network: true
 overview: Exelis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Defense, Acquired, L3Harris, and Electronic Warfare.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Generative Artificial Intelligence in the DoD Acquisition ...
   url: https://acqirc.org/events/generative-artificial-intelligence-in-the-dod-acquisition-lifecycle/
-- date: '2026-05-25'
+- date: ''
   title: News & Announcements
   url: https://saalex.com/news-announcements/
-- date: '2026-05-25'
+- date: ''
   title: SparkCognition Government Systems Appoints Lieutenant ...
   url: https://www.prnewswire.com/news-releases/sparkcognition-government-systems-appoints-lieutenant-general-ken-hunzeker-ret-to-board-of-directors-301518687.html
-- date: '2026-05-25'
+- date: ''
   title: Harris completes $4.75 billion acquisition of Exelis
   url: https://rbj.net/2015/05/29/harris-completes-4-75-billion-acquisition-of-exelis/
-- date: '2026-05-25'
+- date: ''
   title: SAIC
   url: https://www.govconwire.com/s/company/saic/page/770
 random_paper: 12

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,19 +103,19 @@ overview: 'Devon Energy is profiled on the [APIs.io](https://apis.io/) network. 
 
   Devon Energy''s developer surface includes engineering blog, support, and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Devon Energy Corp. (DVN)
   url: https://s2.q4cdn.com/462548525/files/doc_presentations/2026/DVN-CTRA-Merger_WebcastTranscript.pdf
-- date: '2026-05-25'
+- date: ''
   title: Devon Energy Empowers Teams with AI and ChatDVN
   url: https://www.linkedin.com/posts/treylowe_for-devon-energy-ai-in-drilling-comes-down-activity-7417202227309613057-vp1b
-- date: '2026-05-25'
+- date: ''
   title: Devon Energy and Coterra Energy to Combine, Creating a ...
   url: https://investors.devonenergy.com/investors/press-releases/press-release-details/2026/Devon-Energy-and-Coterra-Energy-to-Combine-Creating-a-Premier-Shale-Operator/
-- date: '2026-05-25'
+- date: ''
   title: Devon Energy Stays Ahead Of Technology Curve
   url: https://www.aogr.com/magazine/cover-story/devon-energy-stays-ahead-of-technology-curve
-- date: '2026-05-25'
+- date: ''
   title: Devon Energy and Coterra Energy Complete Merger
   url: https://investors.devonenergy.com/investors/press-releases/press-release-details/2026/Devon-Energy-and-Coterra-Energy-Complete-Merger/
 random_paper: 3
@@ -150,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

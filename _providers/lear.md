@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Lear is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
   Lear''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Palantir and Lear Announce Five-Year Partnership ...
   url: https://www.lear.com/newsroom/palantir-and-lear-announce-five-year-partnership-expansion-to-accelerate-automotive-technology-transformation-ybzjj
-- date: '2026-05-25'
+- date: ''
   title: Lear Completes Acquisition of WIP Industrial Automation
   url: https://www.facebook.com/LearCorporation/posts/today-lear-completed-its-acquisition-of-wip-industrial-automation-a-developer-of/899639075537686/
-- date: '2026-05-25'
+- date: ''
   title: Lear Reports Second Quarter 2024 Results
   url: https://ir.lear.com/news-releases/news-release-details/lear-reports-second-quarter-2024-results/
-- date: '2026-05-25'
+- date: ''
   title: Lear Corporation's Post
   url: https://www.linkedin.com/posts/lear-corporation_lear-to-enhance-automation-and-artificial-activity-7190667267594956804-ZP7_
-- date: '2026-05-25'
+- date: ''
   title: Lear to Enhance Automation and Artificial Intelligence ...
   url: https://www.prnewswire.com/news-releases/lear-to-enhance-automation-and-artificial-intelligence-capabilities-through-strategic-acquisition-of-wip-industrial-automation-302129330.html
 random_paper: 2
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

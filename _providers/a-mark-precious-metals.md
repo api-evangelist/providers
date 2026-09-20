@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 4
 apis:
 - description: A-Mark's wholesale precious metals trading platform enables dealers and financial institutions to buy and sell gold, silver, platinum, and palladium bullion products. Offers spot, forward, and deferre
@@ -183,19 +183,19 @@ plans:
   plan_count: 0
   slug: a-mark-precious-metals-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Monex Acquisition: A-Mark Rebrands to Gold.com, Moves ...'
   url: https://www.latimes.com/b2b/banking-finance/story/2025-11-25/a-mark-rebrands-gold-com-acquires-monex-33-million
-- date: '2026-05-25'
+- date: ''
   title: A-Mark Precious Metals, Inc. - Investor Relations
   url: https://ir.gold.com/sec-filings/all-sec-filings/content/0001193125-25-200462/0001193125-25-200462.pdf
-- date: '2026-05-25'
+- date: ''
   title: A-Mark Precious Metals Sets Fiscal First Quarter Earnings ...
   url: https://www.gurufocus.com/news/2556779/amark-precious-metals-sets-fiscal-first-quarter-earnings-call-for-wednesday-november-6-at-430-pm-et?mobile=true%3Fmobile%3Dtrue&mobile=true
-- date: '2026-05-25'
+- date: ''
   title: 10-K - 09/11/2025 - A-Mark Precious Metals, Inc.
   url: https://www.sec.gov/Archives/edgar/data/1591588/000119312525227653/amrk_ars_fy_25.pdf
-- date: '2026-05-25'
+- date: ''
   title: Global Privacy Policy
   url: https://www.amark.com/privacy-policy/
 random_paper: 1
@@ -237,7 +237,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

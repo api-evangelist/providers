@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Sonic Automotive is profiled on the [APIs.io](https://apis.io/) netwo
 
   Sonic Automotive''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sonic Automotive Accelerates Strategic Growth Trajectory ...
   url: https://www.prnewswire.com/news-releases/sonic-automotive-accelerates-strategic-growth-trajectory-with-breakout-powersports-expansion-302747702.html
-- date: '2026-05-25'
+- date: ''
   title: CDK EXTENDS RELATIONSHIP WITH SONIC AUTOMOTIVE
   url: https://www.cdkglobal.com/media-center/cdk-extends-relationship-sonic-automotive
-- date: '2026-05-25'
+- date: ''
   title: CDK Extends Relationship With Sonic Automotive
   url: https://www.businesswire.com/news/home/20240930078450/en/CDK-Extends-Relationship-With-Sonic-Automotive
-- date: '2026-05-25'
+- date: ''
   title: NETSOL Powers Sonic Automotive Digital Retail
   url: https://www.cbtnews.com/netsol-chosen-by-sonic-automotive-to-power-next-gen-digital-retail-experience/
-- date: '2026-05-25'
+- date: ''
   title: Company News | Sonic Automotive Group
   url: https://www.dealer.com/canada/company-news/sonic-automotive-group-partners-with-dealer-com/
 random_paper: 14
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

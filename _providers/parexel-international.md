@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,19 +70,19 @@ nav: Providers
 network: true
 overview: Parexel International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biopharmaceutical, Clinical Research, Healthcare, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Parexel International Corporation
   url: https://newsroom.parexel.com/press-releases
-- date: '2026-05-25'
+- date: ''
   title: AI in Clinical Development
   url: https://www.parexel.com/solutions/parexelai/ai-in-clinical-development
-- date: '2026-05-25'
+- date: ''
   title: Parexel Announces AI Partnership with Weave Bio to ...
   url: https://newsroom.parexel.com/news-releases/news-release-details/parexel-announces-ai-partnership-weave-bio-accelerate-regulatory
-- date: '2026-05-25'
+- date: ''
   title: Parexel and Partex Announce Innovative Alliance ...
   url: https://newsroom.parexel.com/news-releases/news-release-details/parexel-and-partex-announce-innovative-alliance-leveraging
-- date: '2026-05-25'
+- date: ''
   title: Parexel Unveils New Industry Report
   url: https://newsroom.parexel.com/news-releases/news-release-details/parexel-unveils-new-industry-report-global-survey-more-500/
 random_paper: 20
@@ -112,7 +112,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

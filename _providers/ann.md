@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Ann Taylor's affiliate program enables publishers and content creators to earn commissions on sales generated through affiliate links to anntaylor.com. Available through affiliate networks including F
@@ -132,19 +132,19 @@ plans:
   plan_count: 1
   slug: ann-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: The case for placing AI at the heart of digitally robust ...
   url: https://www.brookings.edu/articles/the-case-for-placing-ai-at-the-heart-of-digitally-robust-financial-regulation/
-- date: '2026-05-25'
+- date: ''
   title: Department of War's Artificial Intelligence-First Agenda
   url: https://www.hklaw.com/en/insights/publications/2026/02/department-of-wars-ai-first-agenda-a-new-era-for-defense-contractors
-- date: '2026-05-25'
+- date: ''
   title: Exploring Artificial Intelligence and the Future of Primary Care
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11237194/
-- date: '2026-05-25'
+- date: ''
   title: Incyte Launches The Unseen Journey to Elevate ...
   url: https://investor.incyte.com/news-releases/news-release-details/incyte-launches-unseen-journey-elevate-hidden-impact
-- date: '2026-05-25'
+- date: ''
   title: How Artificial Intelligence is Powering Education with Dr. Ann ...
   url: https://www.youtube.com/watch?v=2h3LcP7IAiQ
 random_paper: 9
@@ -172,7 +172,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

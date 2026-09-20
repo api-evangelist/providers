@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Curtiss-Wright is profiled on the [APIs.io](https://apis.io/) network
 
   Curtiss-Wright''s developer surface includes product news and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Curtiss-Wright To Speed AI Innovation With NVIDIA ...
   url: https://curtisswright.com/news/press-releases/news-release-details/2025/Curtiss-Wright-To-Speed-AI-Innovation-With-NVIDIA-Software-And-Hardware
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence
   url: https://defense-solutions.curtisswright.com/capabilities/applications/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Curtiss-Wright debuts GPU module for graphics, video ...
   url: https://skiesmag.com/press-releases/curtiss-wright-debuts-gpu-module-for-graphics-video-processing-and-ai-ml-at-the-tactical-edge/
-- date: '2026-05-25'
+- date: ''
   title: Curtiss-Wright advances manufacturing with automation ...
   url: https://www.facebook.com/onecwcareers/posts/from-kevin-rayment-vice-president-and-chief-operating-officercurtiss-wrights-tea/1055529063242084/
-- date: '2026-05-25'
+- date: ''
   title: News
   url: https://defense-solutions.curtisswright.com/media-center/news
 random_paper: 13
@@ -120,7 +120,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 6
 common:
@@ -91,19 +91,19 @@ nav: Providers
 network: true
 overview: Chesapeake Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Expand Energy, Exploration, Marcellus, and Natural Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Chesapeake Energy
   url: https://decarbonfuse.com/companies/chesapeake-energy
-- date: '2026-05-25'
+- date: ''
   title: Chesapeake Energy Corp. is buying Southwestern ...
   url: https://www.facebook.com/Investopedia/posts/chesapeake-energy-corp-is-buying-southwestern-energy-co-to-become-the-largest-na/765851035566707/
-- date: '2026-05-25'
+- date: ''
   title: Chesapeake Energy Corporation Consolidates ...
   url: https://www.prnewswire.com/news-releases/chesapeake-energy-corporation-consolidates-haynesville-with-at--market-acquisition-of-vine-energy-inc-301353004.html
-- date: '2026-05-25'
+- date: ''
   title: Chesapeake Energy Corporation Announces Completion of ...
   url: https://via.ritzau.dk/pressemeddelelse/131109/chesapeake-energy-corporation-announces-completion-of-232-billion-utica-shale-joint-venture-transaction-with-total-ep-usa-inc?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: tm243657-1_s4 - none - 58.1072356s
   url: https://www.sec.gov/Archives/edgar/data/895126/000110465924029464/tm243657-1_s4.htm
 random_paper: 13
@@ -138,7 +138,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

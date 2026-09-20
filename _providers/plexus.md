@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,19 +90,19 @@ overview: 'Plexus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Plexus'' developer surface includes engineering blog and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Special topic: Artificial Intelligence'
   url: https://plexusinvestments.com/site/en/special-topic-artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: Riverside Research Announces Strategic Partnership with ...
   url: https://www.prnewswire.com/news-releases/riverside-research-announces-strategic-partnership-with-plexus-corp-302776378.html
-- date: '2026-05-25'
+- date: ''
   title: Our AI journey at Plexus has sparked innovation across ...
   url: https://www.facebook.com/PlexusCorp/posts/our-ai-journey-at-plexus-has-sparked-innovation-across-our-entire-global-organiz/1143150547848747/
-- date: '2026-05-25'
+- date: ''
   title: How AI Content Generation is Transforming Public ...
   url: https://plexuspr.com/how-ai-content-generation-is-transforming-public-relations-strategies/
-- date: '2026-05-25'
+- date: ''
   title: Plexus Secures $6 Million to Accelerate AI-Driven Growth ...
   url: https://www.businesswire.com/news/home/20250513494756/en/Plexus-Secures-%246-Million-to-Accelerate-AI-Driven-Growth-Strategy
 random_paper: 13
@@ -132,7 +132,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

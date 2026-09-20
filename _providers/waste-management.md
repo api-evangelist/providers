@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -224,19 +224,19 @@ plans:
   plan_count: 1
   slug: waste-management-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Veolia and Mistral AI_ join forces to revolutionize resource ...
   url: https://www.veolia.com/en/our-media/press-releases/veolia-and-mistral-ai-join-forces-revolutionize-resource-efficiency
-- date: '2026-05-25'
+- date: ''
   title: What is AI in Waste Management Market Size?
   url: https://www.insightaceanalytic.com/report/ai-in-waste-management-market/2354
-- date: '2026-05-25'
+- date: ''
   title: 'Smart waste management: A paradigm shift enabled by ...'
   url: https://www.sciencedirect.com/science/article/pii/S2949750724000385
-- date: '2026-05-25'
+- date: ''
   title: AI and Machine Learning for Optimizing Waste ...
   url: https://ascelibrary.org/doi/10.1061/JHTRBP.HZENG-1483
-- date: '2026-05-25'
+- date: ''
   title: WM Announces New, Modernized High-Tech Recycling and ...
   url: https://investors.wm.com/news-releases/news-release-details/wm-announces-new-modernized-high-tech-recycling-and-renewable
 random_paper: 18
@@ -294,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

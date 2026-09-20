@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'The one callable, machine-reachable surface in the American Eagle Outfitters estate: a Universal Commerce Protocol shopping server, transported over MCP, on the Unsubscribed brand storefront. Anonymou'
@@ -191,19 +191,19 @@ plans:
   plan_count: 0
   slug: american-eagle-outfitters-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Grid Dynamics Helps American Eagle To Reimagine ...
   url: https://www.griddynamics.com/press-releases/pr-5-18-2021
-- date: '2026-05-25'
+- date: ''
   title: American Eagle turns to AI for help managing inventory
   url: https://www.supplychaindive.com/news/american-eagle-ai-inventory-management-Q2-earnings/693719/
-- date: '2026-05-25'
+- date: ''
   title: American Eagle jeans, Aerie's anti-AI pledge, and Sydney ...
   url: https://www.facebook.com/businessinsider/posts/american-eagle-jeans-aeries-anti-ai-pledge-and-sydney-sweeney-boosted-revenue-st/1222224646442484/
-- date: '2026-05-25'
+- date: ''
   title: Aerie by AEO vows to avoid AI-generated images in ads
   url: https://www.linkedin.com/posts/adweek_aeriereal-activity-7382069002602323968-LsV9
-- date: '2026-05-25'
+- date: ''
   title: American Eagle uses Meta AI ads to get Gen Z to stores
   url: https://adage.com/article/digital-marketing-ad-tech-news/american-eagle-uses-meta-ai-ads-get-gen-z-stores/2606366/
 random_paper: 15
@@ -245,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

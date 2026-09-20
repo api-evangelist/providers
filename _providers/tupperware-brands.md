@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,19 +64,19 @@ nav: Providers
 network: true
 overview: Tupperware Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Goods, Direct Sales, Kitchen Products, Retail, and Storage Products.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tupperware Brands 2026 Company Profile
   url: https://pitchbook.com/profiles/company/41318-56
-- date: '2026-05-25'
+- date: ''
   title: Tupperware Brands Shares Jump as Third Quarter Sales Return ...
   url: https://www.instagram.com/p/CG5tmW1DKc7/
-- date: '2026-05-25'
+- date: ''
   title: AI predicts Orlando-based Tupperware's stock will surge
   url: https://www.bizjournals.com/orlando/news/2023/09/18/ai-prediction-tupperware-stock-surge-florida.html
-- date: '2026-05-25'
+- date: ''
   title: 'Tupperware Stock Prediction: How Did It TUP Surge by ...'
   url: https://iknowfirst.com/tupperware-stock-prediction-how-did-it-tup-surge-by-323-in-2020
-- date: '2026-05-25'
+- date: ''
   title: Tupperware Brands Corporation Reaches Agreement to ...
   url: https://www.prnewswire.com/news-releases/tupperware-brands-corporation-reaches-agreement-to-form-the-new-tupperware-company-302283842.html
 random_paper: 0
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

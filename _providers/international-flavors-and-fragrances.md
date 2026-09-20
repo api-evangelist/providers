@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: International Flavors & Fragrances is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Products, Flavors, Fortune 500, Fragrances, and Ingredients.
 press:
-- date: '2026-05-25'
+- date: ''
   title: ScentChat Adds Real Time Consumer Feedback to ...
   url: https://www.iff.com/media/news/iff-adds-real-time-consumer-feedback-into-fragrance-creation-with-introduction-of-ai-powered-scentchat-app/
-- date: '2026-05-25'
+- date: ''
   title: IFF) swings to Q1 profit and keeps 2026 outlook intact
   url: https://www.stocktitan.net/sec-filings/IFF/8-k-international-flavors-fragrances-inc-reports-material-event-10c35ab14c6d.html
-- date: '2026-05-25'
+- date: ''
   title: 'IFF Introduces Science of Performance: A New Approach to ...'
   url: https://www.businesswire.com/news/home/20250401696884/en/IFF-Introduces-Science-of-Performance-A-New-Approach-to-Elevating-Scent-Design
-- date: '2026-05-25'
+- date: ''
   title: Is AI About to Revolutionize Fragrance? - by Avery Gilbert
   url: https://averygilbert.substack.com/p/is-ai-about-to-revolutionize-fragrance
-- date: '2026-05-25'
+- date: ''
   title: IFF
   url: https://www.facebook.com/InternationalFlavorsandFragrances/posts/-a-135-year-legacy-a-future-powered-by-bioscience-and-regenerative-aiiff-ceo-eri/1153883630118934/
 random_paper: 7
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

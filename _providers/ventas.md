@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -95,19 +95,19 @@ overview: 'Ventas is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   The Ventas catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: How Ventas is using AI for real estate & net zero
   url: https://www.mckinsey.com/industries/real-estate/our-insights/how-ventas-used-machine-learning-and-ai-to-create-a-net-zero-plan
-- date: '2026-05-25'
+- date: ''
   title: Financials - Quarterly Results - Ventas IR
   url: https://ir.ventasreit.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Performance Marketing Agency, Beeby Clark+Meyler ...
   url: https://www.prnewswire.com/news-releases/performance-marketing-agency-beeby-clarkmeyler-pushes-the-boundaries-of-ai-led-advertising-with-the-release-of-ventas-ai-an-ai-stack-delivering-more-measurable-and-rapid-creative-testing-and-optimization-302179293.html
-- date: '2026-05-25'
+- date: ''
   title: Creative Testing at Scale - Ventas AI
   url: https://www.beebyclarkmeyler.com/ventas-ai
-- date: '2026-05-25'
+- date: ''
   title: Ventas Reports Fourth Quarter and Full Year 2025 Results ...
   url: https://ir.ventasreit.com/news/news-details/2026/Ventas-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Outlook-and-Increases-Dividend/default.aspx
 random_paper: 19
@@ -148,7 +148,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

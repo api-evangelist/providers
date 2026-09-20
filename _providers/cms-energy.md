@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -318,19 +318,19 @@ plans:
   plan_count: 2
   slug: cms-energy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: CMS) boosts Q1 2026 profit, maps $24.1B clean-energy ...
   url: https://www.stocktitan.net/sec-filings/CMS/10-q-cms-energy-corp-quarterly-earnings-report-15fb12484bdd.html
-- date: '2026-05-25'
+- date: ''
   title: CMS Energy Announces the Early Results and Upsizing of ...
   url: https://www.cmsenergy.com/investor-relations/news-releases/news-release-details/2025/CMS-Energy-Announces-the-Early-Results-and-Upsizing-of-its-Cash-Tender-Offer-for-Certain-Outstanding-Debt-Securities/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: CMS Energy Corp. and Terry Woolley
   url: https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-8403
-- date: '2026-05-25'
+- date: ''
   title: Consumers Energy Selected by U.S. Department of ...
   url: https://www.cmsenergy.com/investor-relations/news-releases/news-release-details/2024/Consumers-Energy-Selected-by-U.S.-Department-of-Energy-for-Nearly-20-Million-to-Add-Real-Time-Visibility-to-Grid/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: CMS Energy Exceeds Earnings Guidance in 2025, Raises ...
   url: https://www.prnewswire.com/news-releases/cms-energy-exceeds-earnings-guidance-in-2025-raises-2026-adjusted-eps-guidance-302679615.html
 random_paper: 6
@@ -379,7 +379,7 @@ score:
     regime_id: energy_utilities
     score: 89.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

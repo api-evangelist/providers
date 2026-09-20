@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: Harman International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Automotive, Connected Car, Consumer Electronics, and Enterprise.
 press:
-- date: '2026-05-25'
+- date: ''
   title: MI-HARMAN | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/13659574/mi-harman?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: Today marks a major step forward in automotive innovation ...
   url: https://www.facebook.com/HarmanInt/posts/today-marks-a-major-step-forward-in-automotive-innovation-harman-announced-a-def/1173633901637391/
-- date: '2026-05-25'
+- date: ''
   title: HARMAN Unveils Intelligent Healthcare Platform at HARMAN ...
   url: https://news.harman.com/releases/harman-unveils-intelligent-healthcare-platform-at-harman-explore-during-ces-2023
-- date: '2026-05-25'
+- date: ''
   title: Harman International Industries Debt Financing (2016)
   url: https://www.startuphub.ai/investment_rounds/harman-international-industries-debt-financing-2016
-- date: '2026-05-25'
+- date: ''
   title: HARMAN and Baidu DuerOS Collaborate on AI Solutions for ...
   url: https://news.harman.com/releases/harman-and-baidu-dueros-collaborate-on-ai-solutions-for-china-automotive-market
 random_paper: 7
@@ -115,7 +115,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

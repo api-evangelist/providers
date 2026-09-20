@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,19 +155,19 @@ plans:
   plan_count: 1
   slug: walt-disney-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Disney's New Advertising Solutions from Global Tech & ...
   url: https://thewaltdisneycompany.com/news/tech-data-showcase-advertising-2026/
-- date: '2026-05-25'
+- date: ''
   title: The Walt Disney Company and OpenAI reach landmark ...
   url: https://openai.com/index/disney-sora-agreement/
-- date: '2026-05-25'
+- date: ''
   title: Disney has officially opened the floodgates on AI ...
   url: https://www.facebook.com/comicbookdotcom/posts/disney-has-officially-opened-the-floodgates-on-ai-as-reports-are-now-in-that-the/1264375688889438/
-- date: '2026-05-25'
+- date: ''
   title: Disney's Groundbreaking AI Deal is Dead.
   url: https://www.disneytouristblog.com/disneys-groundbreaking-ai-deal-is-dead/
-- date: '2026-05-25'
+- date: ''
   title: The Walt Disney Company and OpenAI Reach Agreement ...
   url: https://thewaltdisneycompany.com/news/disney-openai-sora-agreement/
 random_paper: 15
@@ -224,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Brookdale Senior Living is profiled on the [APIs.io](https://apis.io/
 
   Brookdale Senior Living''s developer surface includes engineering blog and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Deerfield Management Supports Brookdale Senior Living
   url: https://www.prnewswire.com/news-releases/deerfield-management-supports-brookdale-senior-living-302427677.html
-- date: '2026-05-25'
+- date: ''
   title: Digital Transformation at Brookdale Senior Living
   url: https://pintel.ai/digital-transformation/brookdale-senior-living
-- date: '2026-05-25'
+- date: ''
   title: Tech it to the Limit
   url: https://www.brookdale.com/en/brookdale-life/blogs/2018/04/tech-it-to-the-limit.html
-- date: '2026-05-25'
+- date: ''
   title: Deerfield Management Supports Brookdale Senior Living
   url: https://deerfield.com/news/deerfield-management-supports-brookdale-senior-living
-- date: '2026-05-25'
+- date: ''
   title: News
   url: http://news.brookdale.com/content/newsroom/en/news.html?offset=68
 random_paper: 10
@@ -120,7 +120,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

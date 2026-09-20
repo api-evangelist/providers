@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -156,19 +156,19 @@ plans:
   plan_count: 1
   slug: jb-hunt-transport-services-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Google and JBHT Announce Strategic Alliance
   url: https://www.jbhunt.com/content/dam/jbhunt/jbh/pr/press-releases/Google%20and%20JBHT%20Announce%20Strategic%20Alliance.pdf
-- date: '2026-05-25'
+- date: ''
   title: J.B. Hunt Transport Services Inc. Case Study
   url: https://cloud.google.com/customers/jb-hunt
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.googlecloudpresscorner.com/press-releases?l=10&o=700
-- date: '2026-05-25'
+- date: ''
   title: Google and J.B. Hunt Announce Strategic Alliance to ...
   url: https://www.prnewswire.com/news-releases/google-and-jb-hunt-announce-strategic-alliance-to-accelerate-innovation-in-transportation-and-logistics-301230485.html
-- date: '2026-05-25'
+- date: ''
   title: J.B. Hunt Teams up with Google for Next-Generation ...
   url: https://www.truckinginfo.com/news/j-b-hunt-teams-up-with-google-for-next-generation-supply-chain-technology
 random_paper: 19
@@ -203,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

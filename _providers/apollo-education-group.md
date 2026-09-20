@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The University of Phoenix identity provider, running ForgeRock Access Management in the /alpha realm. The OpenID Connect discovery document is served anonymously (HTTP 200, 2026-09-04) at https://logi
@@ -148,19 +148,19 @@ plans:
   plan_count: 0
   slug: apollo-education-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Apollo-backed Phoenix Education Partners files for US IPO
   url: https://www.reuters.com/business/apollo-backed-phoenix-education-partners-files-us-ipo-2025-08-29/
-- date: '2026-05-25'
+- date: ''
   title: University of Phoenix Owner, Apollo Education Group, Will ...
   url: https://www.nytimes.com/2016/02/09/business/dealbook/apollo-education-group-university-of-phoenix-owner-to-be-taken-private.html
-- date: '2026-05-25'
+- date: ''
   title: University of Phoenix Operator Apollo Education Group to Be ...
   url: https://www.edsurge.com/news/2016-02-08-university-of-phoenix-operator-apollo-education-group-to-be-acquired-for-1-1b
-- date: '2026-05-25'
+- date: ''
   title: Peter Fitch - Apollo Education Group
   url: https://www.linkedin.com/in/peter-fitch-57a861a2
-- date: '2026-05-25'
+- date: ''
   title: Higher Education Policy News
   url: https://www.highereddive.com/topic/policy/?page=94
 random_paper: 6
@@ -201,7 +201,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

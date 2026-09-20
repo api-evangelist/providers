@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: pvfactors is an open-source Python library for modeling diffuse shading and bifacial photovoltaic (PV) irradiance. It implements 2D geometry and view-factor mathematics to account for reflections betw
@@ -89,19 +89,19 @@ plans:
   plan_count: 3
   slug: sunpower-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Our Chairman and CEO, T.J. Rodgers, is leading ...
   url: https://www.facebook.com/sunpower/posts/our-chairman-and-ceo-tj-rodgers-is-leading-sunpower-into-a-new-era-of-innovation/1021881723476273/
-- date: '2026-05-25'
+- date: ''
   title: SunPower and EagleView partner for precise, faster solar ...
   url: https://www.eagleview.com/solar/sunpower-eagleview-partnership-automate-faster-precise-solar-installations/
-- date: '2026-05-25'
+- date: ''
   title: 'Sony Vs SUNPOWER: Which is a Better Buy? AI Stock ...'
   url: https://danelfin.com/stocks/SONY-sony-vs-SPWR-sunpower-compare
-- date: '2026-05-25'
+- date: ''
   title: SunPower and EagleView Automate Home Survey ...
   url: https://www.prnewswire.com/news-releases/sunpower-and-eagleview-automate-home-survey-process-for-faster-more-precise-solar-installations-301218922.html
-- date: '2026-05-25'
+- date: ''
   title: SunPower Adds $5M to Recent $41M Offering
   url: https://natlawreview.com/press-releases/sunpower-adds-5m-recent-41m-offering
 random_paper: 19
@@ -135,7 +135,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

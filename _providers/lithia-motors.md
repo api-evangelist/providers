@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,19 +65,19 @@ overview: 'Lithia Motors is profiled on the [APIs.io](https://apis.io/) network.
 
   Lithia Motors'' developer surface includes engineering blog and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pinewood to pay $42 million for car dealer technology ...
   url: https://www.autonews.com/retail/an-lithia-pinewood-seez-0224/
-- date: '2026-05-25'
+- date: ''
   title: Driveway Enhances Customer Shopping Experience with ...
   url: https://investors.lithiadriveway.com/press-releases/l28wof09v4ecmwur8pa
-- date: '2026-05-25'
+- date: ''
   title: PINEWOOD.AI ANNOUNCES AGREEMENT TO ACQUIRE ...
   url: https://investors.lithiadriveway.com/press-releases/mbktd3hjgn4lemupo2s
-- date: '2026-05-25'
+- date: ''
   title: PINEWOOD.AI ANNOUNCES AGREEMENT TO ACQUIRE ...
   url: https://www.prnewswire.com/news-releases/pinewoodai-announces-agreement-to-acquire-lithias-majority-stake-in-north-american-joint-venture-302475058.html
-- date: '2026-05-25'
+- date: ''
   title: Lithia & Driveway (LAD) Continues Strategic Luxury ...
   url: https://www.prnewswire.com/news-releases/lithia--driveway-lad-continues-strategic-luxury-network-expansion-and-is-named-to-time-americas-growth-leaders-list-302611044.html
 random_paper: 14
@@ -107,7 +107,7 @@ score:
       reason: never_enriched
   previous_composite: 4.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

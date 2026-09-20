@@ -37,19 +37,19 @@ nav: Providers
 network: true
 overview: QEP Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defunct, Energy, Natural Gas, Oil and Gas, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Diamondback Energy, Inc. to Acquire QEP Resources in All- ...
   url: https://energynow.com/2020/12/diamondback-energy-inc-to-acquire-qep-resources-in-all-stock-transaction/
-- date: '2026-05-25'
+- date: ''
   title: Elliott bids $2.07 billion for Permian Basin producer QEP ...
   url: https://www.reuters.com/article/business/elliott-bids-207-billion-for-permian-basin-producer-qep-resources-idUSKCN1P119G/
-- date: '2026-05-25'
+- date: ''
   title: QEP Resources (QEP) Earnings Expected to Rise
   url: https://www.forbes.com/sites/narrativescience/2013/11/01/qep-resources-qep-earnings-expected-to-rise/
-- date: '2026-05-25'
+- date: ''
   title: QEP Resources Puts All of its Assets Not Located in the ...
   url: https://www.oilandgas360.com/qep-resources-puts-assets-not-located-permian-block/
-- date: '2026-05-25'
+- date: ''
   title: Will Costly Oil Ruin Chances of QEP Resources ...
   url: https://finance.yahoo.com/news/costly-oil-ruin-chances-qep-183406919.html
 random_paper: 16

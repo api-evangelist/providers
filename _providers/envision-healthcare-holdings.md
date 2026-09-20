@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Envision Healthcare Holdings is profiled on the [APIs.io](https://api
 
   Envision Healthcare Holdings'' developer surface includes product news and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Envision Healthcare Holdings files for IPO of up to $100 ...
   url: https://www.reuters.com/article/business/envision-healthcare-holdings-files-for-ipo-of-up-to-100-million-idUSL3N0EP4BC/
-- date: '2026-05-25'
+- date: ''
   title: Healthcare service providers Envision, AmSurg to merge in ...
   url: https://www.massdevice.com/healthcare-service-providers-envision-amsurg-merge/
-- date: '2026-05-25'
+- date: ''
   title: Evolution Health aims to improve coordinated, efficient ...
   url: https://www.sas.com/pt_pt/news/press-releases/2016/february/episode-analytics-healthcare.html
-- date: '2026-05-25'
+- date: ''
   title: Rising Inflation Leads to Increase in Filings Healthcare
   url: https://natlawreview.com/article/envision-s-bankruptcy-provides-insight-all-ailing-healthcare-industry
-- date: '2026-05-25'
+- date: ''
   title: Emergency Physicians Medical Group Enters Agreement ...
   url: https://www.prnewswire.com/news-releases/emergency-physicians-medical-group-enters-agreement-to-join-envision-healthcare-300237421.html
 random_paper: 2
@@ -116,7 +116,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

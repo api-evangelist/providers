@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Public-facing presence of Electronic Arts. Covers EA's corporate site, consumer game services, the EA app, EA Play subscription, and EA Help support surfaces. EA does not publish a developer API porta
@@ -179,19 +179,19 @@ plans:
   plan_count: 2
   slug: electronic-arts-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sent Via email October 28, 2025 Scott Bessent Secretary of ...
   url: https://cwa-union.org/sites/default/files/2025-10/20251028_cwa_letter_to_secretary_bessent.pdf
-- date: '2026-05-25'
+- date: ''
   title: Stability AI Partners with Electronic Arts on Customizable AI
   url: https://www.linkedin.com/posts/prem-akkaraju-7b10a265_inside-video-game-giant-electronic-arts-activity-7424598337934442497-I3Ck
-- date: '2026-05-25'
+- date: ''
   title: Mr. Andrew Wilson Chief Executive Officer Electronic Arts, Inc.
   url: https://www.hsgac.senate.gov/wp-content/uploads/2025-10-14-Letter-from-Blumenthal-and-Warren-to-Electronic-Arts-CEO-Andrew-Wilson.pdf
-- date: '2026-05-25'
+- date: ''
   title: Inside the AI divide roiling video game giant Electronic Arts
   url: https://www.businessinsider.com/inside-ai-divide-roiling-video-game-giant-electronic-arts-2025-10
-- date: '2026-05-25'
+- date: ''
   title: EA and Stability AI partner to empower artists, designers, ...
   url: https://www.ea.com/news/ea-partners-with-stability-ai
 random_paper: 11
@@ -226,7 +226,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

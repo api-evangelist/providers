@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -111,19 +111,19 @@ overview: 'Republic Services is profiled on the [APIs.io](https://apis.io/) netw
 
   The Republic Services catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: This Earth Day, AI-powered robots are lending a mechanical ...
   url: https://www.instagram.com/reel/DIw_cHJsVeD/
-- date: '2026-05-25'
+- date: ''
   title: Republic Services to Build State-of-the-Art Recycling ...
   url: https://www.prnewswire.com/news-releases/republic-services-to-build-state-of-the-art-recycling-center-in-the-st-louis-area-302449354.html
-- date: '2026-05-25'
+- date: ''
   title: 'Republic Services'' AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/republic-services-ai-strategy-analysis-of-dominance-in-environmental-services-recycling-waste-management-ai/
-- date: '2026-05-25'
+- date: ''
   title: Republic Services to Build State-of-the-Art Recycling Center in ...
   url: https://investor.republicservices.com/news-releases/news-release-details/republic-services-build-state-art-recycling-center-st-louis-area
-- date: '2026-05-25'
+- date: ''
   title: 'Jon Vander Ark: AI is ''wildly oversold,'' but it can provide ...'
   url: https://www.wastedive.com/news/republic-services-jon-vander-ark-technology-initiatives-artificial-intelligence/748588/
 random_paper: 7
@@ -147,7 +147,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -110,19 +110,19 @@ overview: 'NGL Energy Partners is profiled on the [APIs.io](https://apis.io/) ne
 
   NGL Energy Partners'' developer surface includes product news, privacy policy, and 13 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: NGL Energy Partners LP Common Units (NGL) Stock Price ...
   url: https://seekingalpha.com/symbol/NGL
-- date: '2026-05-25'
+- date: ''
   title: NGL Energy Partners Announces Earnings Call - Markets
   url: https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-5-12-ngl-energy-partners-announces-earnings-call
-- date: '2026-05-25'
+- date: ''
   title: Natura Resources Partners with NGL Energy ...
   url: https://www.prnewswire.com/news-releases/natura-resources-partners-with-ngl-energy-partners-to-enable-large-scale-produced-water-treatment-with-small-modular-nuclear-reactors-in-the-permian-basin-302677613.html
-- date: '2026-05-25'
+- date: ''
   title: NGL Energy Partners schedules earnings call after fiscal ...
   url: https://www.sahmcapital.com/news/content/ngl-energy-partners-schedules-earnings-call-after-fiscal-year-results-release-2026-05-12
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1504461/000150446123000002/ngl-20221230.htm
 random_paper: 4
@@ -152,7 +152,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

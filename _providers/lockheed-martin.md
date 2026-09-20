@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ overview: 'Lockheed Martin is profiled on the [APIs.io](https://apis.io/) networ
 
   Lockheed Martin''s developer surface includes engineering blog and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Search our Job Opportunities at Lockheed Martin Corporation
   url: https://www.lockheedmartinjobs.com/search-jobs
-- date: '2026-05-25'
+- date: ''
   title: Lockheed Martin Corporation (LMT) Stock Price, News ...
   url: https://finance.yahoo.com/quote/LMT/
-- date: '2026-05-25'
+- date: ''
   title: Lockheed Corporation
   url: https://en.wikipedia.org/wiki/Lockheed_Corporation
-- date: '2026-05-25'
+- date: ''
   title: 'Lockheed Martin: Leading Aerospace and Defense'
   url: https://www.lockheedmartin.com/en-us/index.html
-- date: '2026-05-25'
+- date: ''
   title: Lockheed Martin
   url: https://en.wikipedia.org/wiki/Lockheed_Martin
 random_paper: 9
@@ -118,7 +118,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

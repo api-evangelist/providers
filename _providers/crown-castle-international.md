@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,19 +90,19 @@ overview: 'Crown Castle is profiled on the [APIs.io](https://apis.io/) network. 
 
   Crown Castle''s developer surface includes product news and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Form DFAN14A for Crown Castle INC filed 04/22/2024
   url: https://investor.crowncastle.com/static-files/6a449bdb-2cd7-4ed6-8846-94bef860d041
-- date: '2026-05-25'
+- date: ''
   title: Crown Castle on Cutting Edge of 5G Innovation
   url: https://www.reit.com/news/reit-magazine/november-december-2019/crown-castle-cutting-edge-5g-innovation
-- date: '2026-05-25'
+- date: ''
   title: 'Crown Castle 2025 report: $8.5B fiber sale - CCI'
   url: https://www.stocktitan.net/sec-filings/CCI/10-k-crown-castle-inc-files-annual-report-cf1eccd172c7.html
-- date: '2026-05-25'
+- date: ''
   title: DISH Signs Multi-Year Anchor Tenant Tower Agreement ...
   url: https://www.prnewswire.com/news-releases/dish-signs-multi-year-anchor-tenant-tower-agreement-with-crown-castle-301173532.html
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for Crown Castle INC filed 02/23/2024 - Investors
   url: https://investor.crowncastle.com/static-files/3a8ab5af-bd9f-4219-a5ca-c4f4d924a6a4
 random_paper: 17
@@ -132,7 +132,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Demand AAM provides access to genuine AAM OE replacement driveline parts for the aftermarket. The portal serves automotive parts distributors and repair shops with OE-quality driveline components.
@@ -101,19 +101,19 @@ plans:
   plan_count: 1
   slug: american-axle-and-manufacturing-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: AAM-Dowlais Merger Wins Key Shareholder Approval, Q4 ...
   url: https://www.stocktitan.net/news/AXL/recommended-cash-and-share-combination-of-dowlais-group-plc-with-ulnwjn0mfaap.html
-- date: '2026-05-25'
+- date: ''
   title: AAM Announces Proposed Private Offering of Senior ...
   url: https://www.prnewswire.com/news-releases/aam-announces-proposed-private-offering-of-senior-secured-notes-and-senior-unsecured-notes-302556268.html
-- date: '2026-05-25'
+- date: ''
   title: AAM Reports First Quarter 2025 Financial Results
   url: https://www.aam.com/media/story/aam-reports-first-quarter-2025-financial-results
-- date: '2026-05-25'
+- date: ''
   title: American Axle & Manufacturing Selects aThingz to Improve ...
   url: https://www.businesswire.com/news/home/20250424679076/en/American-Axle-Manufacturing-Selects-aThingz-to-Improve-the-Agility-Predictability-and-Responsiveness-of-Their-Global-Logistics-Supply-Chain
-- date: '2026-05-25'
+- date: ''
   title: AAM Announces Combination with Dowlais for $1.44 ...
   url: https://www.aam.com/media/story/aam-announces-combination-with-dowlais
 random_paper: 16
@@ -146,7 +146,7 @@ score:
     - north-america
   previous_composite: 12.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: documented
     mcp_server: verified
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.0
-  scored_at: '2026-09-18'
+  score: 51.6
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - baseURL: https://api.brale.xyz
@@ -365,7 +365,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

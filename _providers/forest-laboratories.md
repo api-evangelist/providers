@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Forest Laboratories is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Actavis to buy Forest Labs for $25bn
   url: https://www.bbc.com/news/business-26252216
-- date: '2026-05-25'
+- date: ''
   title: 'Company and People Notes: Forest Labs and AstraZeneca ...'
   url: https://www.pharmtech.com/view/company-and-people-notes-forest-labs-and-astrazeneca-form-pact-endo-coo-resigns-more
-- date: '2026-05-25'
+- date: ''
   title: Forest Labs swallows Clinical Data pill in $1.2B buyout
   url: https://www.fiercebiotech.com/biotech/forest-labs-swallows-clinical-data-pill-1-2b-buyout
-- date: '2026-05-25'
+- date: ''
   title: Cypress Bioscience Announces Agreement To Discontinue ...
   url: https://www.drugdiscoveryonline.com/doc/cypress-bioscience-announces-agreement-to-0001
-- date: '2026-05-25'
+- date: ''
   title: Actavis Completes Forest Laboratories Acquisition
   url: https://www.prnewswire.com/news-releases/actavis-completes-forest-laboratories-acquisition-265361771.html
 random_paper: 11
@@ -98,7 +98,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

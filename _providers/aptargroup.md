@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -180,19 +180,19 @@ plans:
   plan_count: 0
   slug: aptargroup-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Aptar Digital Health Announces Licensing Agreement With ...
   url: https://www.businesswire.com/news/home/20250522139620/en/Aptar-Digital-Health-Announces-Licensing-Agreement-With-AstraZeneca-to-Develop-AI-Powered-Screening-Algorithms
-- date: '2026-05-25'
+- date: ''
   title: AptarGroup, Inc. (ATR) Q1 2026 Earnings Call Transcript
   url: https://seekingalpha.com/article/4897454-aptargroup-inc-atr-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: 'Earnings call transcript: AptarGroup beats Q3 2025 EPS ...'
   url: https://www.investing.com/news/transcripts/earnings-call-transcript-aptargroup-beats-q3-2025-eps-forecast-stock-drops-93CH-4324388
-- date: '2026-05-25'
+- date: ''
   title: Aptar Pharma Continues Global Expansion with New R&D ...
   url: https://aptar.com/en-us/news-events/aptar-pharma-s-opens-expanded-r-d-center-in-france
-- date: '2026-05-25'
+- date: ''
   title: Healthcare's Quiet AI Boom Is Creating a New Class of ...
   url: https://www.prnewswire.com/news-releases/healthcares-quiet-ai-boom-is-creating-a-new-class-of-breakout-contenders-302465869.html
 random_paper: 15
@@ -249,7 +249,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

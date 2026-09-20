@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,19 +91,19 @@ overview: 'Science Applications International Corporation (SAIC) is profiled on 
 
   The Science Applications International Corporation (SAIC) catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Science Applications International — $59M Raised
   url: https://www.startuphub.ai/startups/science-applications-international
-- date: '2026-05-25'
+- date: ''
   title: SAIC Announces New Data and AI Features To Improve ...
   url: https://investors.saic.com/news-releases/news-release-details/saic-announces-new-data-and-ai-features-improve-government
-- date: '2026-05-25'
+- date: ''
   title: Science Applications International Corporation (SAIC)
   url: https://finance.yahoo.com/quote/SAIC/
-- date: '2026-05-25'
+- date: ''
   title: SAIC Employees Embrace Generative AI with the Launch ...
   url: https://www.businesswire.com/news/home/20240530732829/en/SAIC-Employees-Embrace-Generative-AI-with-the-Launch-of-Tenjin-GPT
-- date: '2026-05-25'
+- date: ''
   title: Science Applications International Corp Company Profile
   url: https://www.globaldata.com/company-profile/science-applications-international-corp/
 random_paper: 9
@@ -138,7 +138,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Netflix Open Connect is the purpose-built content delivery network that delivers Netflix streaming traffic. The Open Connect program provides partner ISPs with embedded appliances and peering arrangem
@@ -105,19 +105,19 @@ plans:
   plan_count: 2
   slug: netflix-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Netflix goes 'all in' on generative AI as entertainment ...
   url: https://www.reddit.com/r/technology/comments/1od4h2j/netflix_goes_all_in_on_generative_ai_as/
-- date: '2026-05-25'
+- date: ''
   title: Netflix 'all in' on leveraging AI in its streaming platform
   url: https://www.cnbc.com/2025/10/22/netflix-all-in-on-leveraging-ai-in-its-streaming-platform.html
-- date: '2026-05-25'
+- date: ''
   title: Using Generative AI in Content Production
   url: https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production
-- date: '2026-05-25'
+- date: ''
   title: Machine Learning
   url: https://research.netflix.com/research-area/machine-learning
-- date: '2026-05-25'
+- date: ''
   title: Netflix aims to be an innovator in using AI in the creative ...
   url: https://www.instagram.com/reel/DXNX3-8DBcV/?hl=en
 random_paper: 14
@@ -145,7 +145,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

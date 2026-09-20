@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Mondelez is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Food, Snacks, and Beverages.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Mondelez uses AI to animate family photos for Vietnamese ...
   url: https://www.marketingdive.com/news/mondelez-uses-ai-to-animate-family-photos-for-vietnamese-holiday/607640/
-- date: '2026-05-25'
+- date: ''
   title: Candidate Data Privacy and Artificial Intelligence (AI) Notice
   url: https://www.mondelezinternational.com/Careers/Candidate/DPN-English/
-- date: '2026-05-25'
+- date: ''
   title: 'Mondelez''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/mondelez-ai-strategy-analysis-of-dominance-in-consumer-packaged-goods-confectionery-snacks/
-- date: '2026-05-25'
+- date: ''
   title: Mondelēz International Joins Forces with Accenture and ...
   url: https://newsroom.accenture.com/news/2024/mondelez-international-joins-forces-with-accenture-and-publicis-groupe-to-advance-ai-powered-marketing-capabilities
-- date: '2026-05-25'
+- date: ''
   title: Release Details
   url: https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-joins-forces-accenture-and-publicis
 random_paper: 4
@@ -99,7 +99,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 3.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

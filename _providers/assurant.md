@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -172,19 +172,19 @@ plans:
   plan_count: 3
   slug: assurant-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Consumers Trade Up for AI: Assurant Reports Record ...'
   url: https://www.businesswire.com/news/home/20251204879367/en/Consumers-Trade-Up-for-AI-Assurant-Reports-Record-%241.59-Billion-Returned-in-Third-Quarter-Through-Mobile-Trade-In-Programs
-- date: '2026-05-25'
+- date: ''
   title: News & Insights
   url: https://www.assurant.ca/news-insights
-- date: '2026-05-25'
+- date: ''
   title: Hello, Las Vegas! The Assurant team has arrived at CES ...
   url: https://www.facebook.com/AssurantInc/posts/hello-las-vegas-the-assurant-team-has-arrived-at-ces-2026-and-is-ready-to-share-/1321253986709533/
-- date: '2026-05-25'
+- date: ''
   title: Insurance & Tech Industry Insights | Assurant Research Hub
   url: https://www.assurant.com/industry-insights
-- date: '2026-05-25'
+- date: ''
   title: 'Building Trust in Enterprise AI: a Human-Centric Approach'
   url: https://www.assurant.com/news-insights/articles/human-approach-to-enterprise-ai
 random_paper: 1
@@ -225,7 +225,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

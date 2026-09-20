@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The H.B. Fuller Company API provides access to platform services and data for enterprise integration and automation.
@@ -92,19 +92,19 @@ plans:
   plan_count: 1
   slug: h-b-fuller-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: H.B. Fuller Releases 2023 Sustainability Report
   url: https://newsroom.hbfuller.com/press-releases/press-release-details/2024/H.B.-Fuller-Releases-2023-Sustainability-Report/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: H.B. Fuller Unveils Innovative Duo of Solution and ...
   url: https://www.prnewswire.com/news-releases/hb-fuller-unveils-innovative-duo-of-solution-and-technology-services-in-eimea-300913455.html
-- date: '2026-05-25'
+- date: ''
   title: 'AI in Manufacturing: How to Stay Ahead'
   url: https://www.hbfuller.com/en/blog/thegluetalkblog/2020/september/ai-in-manufacturing-how-to-stay-ahead
-- date: '2026-05-25'
+- date: ''
   title: H.B. Fuller - Governance - Executive Management
   url: https://investors.hbfuller.com/governance/executive-management/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: H. B. Fuller Company (FUL) reports earnings - Quartz
   url: https://qz.com/h-b-fuller-company-ful-reports-earnings-1851746632
 random_paper: 18
@@ -132,7 +132,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

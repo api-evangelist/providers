@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -102,19 +102,19 @@ overview: 'Emerson Electric is profiled on the [APIs.io](https://apis.io/) netwo
 
   Emerson Electric''s developer surface includes product news, training material, and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: How AI is Powering the Future of Industrial Automation - All ...
   url: https://videos.emerson.com/detail/videos/all-videos/video/6374057539112/how-ai-is-powering-the-future-of-industrial-automation?autoStart=true
-- date: '2026-05-25'
+- date: ''
   title: Newsroom
   url: https://www.emerson.com/en/corporate/news
-- date: '2026-05-25'
+- date: ''
   title: Is Emerson Electric's (EMR) New AI Advisor Transforming ...
   url: https://finance.yahoo.com/news/emerson-electrics-emr-ai-advisor-125844141.html
-- date: '2026-05-25'
+- date: ''
   title: Emerson's Expanded AI Portfolio Paves the Way for More ...
   url: https://www.emerson.com/en/corporate/news/2025/05-emerson-expanded-ai-portfolio-paves-the-way-for-more-optimized-autonomous-operations
-- date: '2026-05-25'
+- date: ''
   title: 'Data & Digital: TotalEnergies and Emerson Sign a Strategic ...'
   url: https://www.publicnow.com/view/BC7A0BB26337D17A0F96D3435D846FDBEAE3554A
 random_paper: 21
@@ -138,7 +138,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

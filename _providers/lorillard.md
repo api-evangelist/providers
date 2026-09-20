@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Lorillard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Consumer Goods, Historical, Manufacturing, and Tobacco.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?initialSessionID=145-3425135-4977142&page=170
-- date: '2026-05-25'
+- date: ''
   title: Reynolds American To Acquire Lorillard In Transaction ...
   url: https://www.prnewswire.com/news-releases/reynolds-american-to-acquire-lorillard-in-transaction-valued-at-274-billion-267143881.html
-- date: '2026-05-25'
+- date: ''
   title: Reynolds-Lorillard cigarette deal clears FTC review
   url: https://www.chicagotribune.com/2015/05/28/reynolds-lorillard-cigarette-deal-clears-ftc-review/
-- date: '2026-05-25'
+- date: ''
   title: Reynolds American close to getting FTC approval for Lorillard deal
   url: https://www.reuters.com/article/business/reynolds-american-close-to-getting-ftc-approval-for-lorillard-deal-wsj-idUSL3N0YC5HD/
-- date: '2026-05-25'
+- date: ''
   title: Reynolds American completes acquisition of Lorillard and ...
   url: https://www.prnewswire.com/news-releases/reynolds-american-completes-acquisition-of-lorillard-and-related-divestitures-300098366.html
 random_paper: 19
@@ -104,7 +104,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

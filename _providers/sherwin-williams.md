@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The Sherwin-Williams Supplier API enables B2B partners to integrate supply chain workflows, manage purchase orders, submit invoices, and exchange product and inventory data with Sherwin-Williams enter
@@ -118,19 +118,19 @@ plans:
   plan_count: 1
   slug: sherwin-williams-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Shermin-Williams'' AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/shermin-williams-ai-strategy-analysis-of-dominance-in-coatings/
-- date: '2026-05-25'
+- date: ''
   title: Sherwin-Williams Launches App Powered by AI Technology
   url: https://www.pcimag.com/articles/112388-sherwin-williams-launches-app-powered-by-ai-technology
-- date: '2026-05-25'
+- date: ''
   title: The Power of AI in Interior Design | Episode 7
   url: https://www.sherwin-williams.com/en-us/color/colormixology/the-power-of-ai-in-interior-design
-- date: '2026-05-25'
+- date: ''
   title: Logistics pressures intensify. Sherwin-Williams improved ...
   url: https://www.facebook.com/internationalfinancemagazine/posts/logistics-pressures-intensify-sherwin-williams-improved-freight-efficiency-11-wi/1597361705729653/
-- date: '2026-05-25'
+- date: ''
   title: Sherwin-Williams Positions Itself as the One Partner for ...
   url: https://www.prnewswire.com/news-releases/sherwin-williams-positions-itself-as-the-one-partner-for-data-center-construction-302764452.html
 random_paper: 7
@@ -180,7 +180,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 25.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

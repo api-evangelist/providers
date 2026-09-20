@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,19 +125,19 @@ overview: 'C. R. Bard is profiled on the [APIs.io](https://apis.io/) network. Ta
 
   C. R. Bard''s developer surface includes support and 13 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 5 takeaways from Becton Dickinson's $24B acquisition of ...
   url: https://medcitynews.com/2017/04/5-takeaways-becton-dickinsons-24b-acquisition-c-r-bard/
-- date: '2026-05-25'
+- date: ''
   title: C. R. Bard, Inc. to Acquire Medivance for $250 Million
   url: https://www.biospace.com/c-r-bard-inc-to-acquire-medivance-for-250-million
-- date: '2026-05-25'
+- date: ''
   title: Boston Scientific Buys C.R. Bard's Electrophysiology ...
   url: https://www.mddionline.com/business/boston-scientific-buys-c-r-bard-s-electrophysiology-business
-- date: '2026-05-25'
+- date: ''
   title: BD Completes Bard Acquisition, Creating New Global ...
   url: https://www.prnewswire.com/news-releases/bd-completes-bard-acquisition-creating-new-global-health-care-leader-300576098.html
-- date: '2026-05-25'
+- date: ''
   title: BD accelerates offerings with Bard
   url: https://www.hmenews.com/article/bd-accelerates-offerings-bard
 random_paper: 7
@@ -167,7 +167,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

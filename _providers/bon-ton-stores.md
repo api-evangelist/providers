@@ -42,19 +42,19 @@ nav: Providers
 network: true
 overview: Bon-Ton Stores is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Cosmetics, Department Stores, Defunct, and Home Furnishings.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Bon-Ton closing two Lehigh Valley-area stores
   url: https://www.mcall.com/2018/01/31/bon-ton-closing-two-lehigh-valley-area-stores/
-- date: '2026-05-25'
+- date: ''
   title: The Bon-Ton Stores, Inc. Announces Going Out of ...
   url: https://www.prnewswire.com/news-releases/the-bon-ton-stores-inc-announces-going-out-of-business-sales-at-stores-and-online-to-begin-friday-april-20-300633385.html
-- date: '2026-05-25'
+- date: ''
   title: Bon-Ton closing all stores – Wilkes-Barre ...
   url: https://www.citizensvoice.com/2018/04/17/bon-ton-closing-all-stores/
-- date: '2026-05-25'
+- date: ''
   title: Carson's Joins Retailers With Online Revival
   url: https://www.aarete.com/insights/carsons-joins-retailers-seeking-life-after-liquidation-with-online-revival-and-bricks-and-mortar-aspirations/
-- date: '2026-05-25'
+- date: ''
   title: Starcom Wins Bon-Ton Media Duties 10/13/2011
   url: https://www.mediapost.com/publications/article/160399/starcom-wins-bon-ton-media-duties.html
 random_paper: 10

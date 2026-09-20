@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 artifact_total: 6
 collections:
@@ -125,30 +125,30 @@ plans:
   plan_count: 0
   slug: seaboard-plans-pricing
 press:
-- date: '2026-05-25'
-  title: Daniel Allum - Director of Business Intelligence at ...
-  url: https://www.linkedin.com/in/daniel-allum-b263146
-- date: '2026-05-25'
-  title: Seaboard Corporation Report of Earnings and Dividend ...
-  url: https://www.gurufocus.com/news/1416006/seaboard-corporation-report-of-earnings-and-dividend-declaration?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-- date: '2026-05-25'
-  title: AI Could Set a New Bar for Designing Hurricane-Resistant ...
-  url: https://www.nist.gov/news-events/news/2023/03/ai-could-set-new-bar-designing-hurricane-resistant-buildings
-- date: '2026-05-25'
-  title: SEABOARD CORPORATION REPORT OF EARNINGS ...
-  url: https://www.prnewswire.com/news-releases/seaboard-corporation-report-of-earnings-and-dividend-declaration-302686932.html
-- date: '2026-05-25'
-  title: 'Roli Seaboard RISE 2: The 200 Best Inventions of 2022'
-  url: https://time.com/collections/best-inventions-2022/6225464/roli-seaboard-rise-2/
-- date: '2024-07-30'
-  title: 'By: EARNINGS REPORT 2ND QUARTER 2024 | Seaboard'
-  url: https://www.seaboardcorp.com/investors/#comment-119
-- date: '2023-10-30'
+- date: ''
   title: 'By: EARNINGS REPORT 3RD QUARTER 2023 | Seaboard'
   url: https://www.seaboardcorp.com/investors/#comment-107
-- date: '2023-08-01'
+- date: ''
+  title: 'By: EARNINGS REPORT 2ND QUARTER 2024 | Seaboard'
+  url: https://www.seaboardcorp.com/investors/#comment-119
+- date: ''
+  title: Daniel Allum - Director of Business Intelligence at ...
+  url: https://www.linkedin.com/in/daniel-allum-b263146
+- date: ''
+  title: Seaboard Corporation Report of Earnings and Dividend ...
+  url: https://www.gurufocus.com/news/1416006/seaboard-corporation-report-of-earnings-and-dividend-declaration?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
+- date: ''
+  title: AI Could Set a New Bar for Designing Hurricane-Resistant ...
+  url: https://www.nist.gov/news-events/news/2023/03/ai-could-set-new-bar-designing-hurricane-resistant-buildings
+- date: ''
   title: 'By: EARNINGS REPORT 2ND QUARTER 2023 | Seaboard'
   url: https://www.seaboardcorp.com/investors/#comment-104
+- date: ''
+  title: 'By: EARNINGS REPORTS 2ND QUARTER 2021 | Seaboard'
+  url: https://www.seaboardcorp.com/investors/#comment-16
+- date: ''
+  title: SEABOARD CORPORATION REPORT OF EARNINGS ...
+  url: https://www.prnewswire.com/news-releases/seaboard-corporation-report-of-earnings-and-dividend-declaration-302686932.html
 random_paper: 19
 rate_limits:
 - limit_count: 0
@@ -187,7 +187,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Pacific Life is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Fortune 500, Insurance, Investment, and Life Insurance.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases Archives
   url: https://www.atidot.com/category/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: Pacific Life Polls Industry Leaders in 2026 Underwriting ...
   url: https://www.pacificlife.com/press-releases/stories/pacific-life-polls-industry-leaders-in-2026-underwriting-outlook-survey.html
-- date: '2026-05-25'
+- date: ''
   title: 'Article: (Re)In Asia - APAC insurers race ahead on AI'
   url: https://www.pacificlifere.com/insights-articles/Article-Re-In-Asia-APAC-insurers-race-ahead-on-AI.html
-- date: '2026-05-25'
+- date: ''
   title: 'How AI is transforming life insurance: insights from Pacific ...'
   url: https://www.linkedin.com/posts/pacific-life-re_ai-digitaltransformation-trustedpartner-activity-7391444518644125696-fdYG
-- date: '2026-05-25'
+- date: ''
   title: Press room | Deloitte Asia Pacific
   url: https://www.deloitte.com/ap/en/about/press-room.html
 random_paper: 14
@@ -101,7 +101,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

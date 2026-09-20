@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: LifePoint Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Hospitals, Health Systems, Providers, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: We are pleased to share that Eon and LifePoint Health ...
   url: https://www.facebook.com/lifepointhealth/posts/we-are-pleased-to-share-that-eon-and-lifepoint-health-have-entered-into-a-5-year/4390596377638472/
-- date: '2026-05-25'
+- date: ''
   title: Google Cloud, LifePoint Health Partner to Deploy Data Platform
   url: https://www.techtarget.com/healthtechanalytics/news/366590635/Google-Cloud-LifePoint-Health-Partner-to-Deploy-Data-Platform
-- date: '2026-05-25'
+- date: ''
   title: Transforming Cancer Detection and Treatment With AI ...
   url: https://www.accc-cancer.org/view/transforming-cancer-detection-and-treatment-with-ai-driven-healthy-person-program
-- date: '2026-05-25'
+- date: ''
   title: Loyal and LifePoint Partner to Improve the Patient ...
   url: https://www.aha.org/aha-center-health-innovation-market-scan/2021-11-02-loyal-and-lifepoint-partner-improve-patient
-- date: '2026-05-25'
+- date: ''
   title: Loyal Introduces Innovative Multi-Experience Platform
   url: https://lifepointhealth.net/news/loyal-introduces-innovative-multi-experience-platform-establishes-five-year-partnership-with-lifepoint-health
 random_paper: 17
@@ -101,7 +101,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

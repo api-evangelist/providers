@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: J.M. Smucker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Goods, Food and Beverage, Fortune 500, and Pet Food.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Did Leadership Overhaul and AI Focus Just Shift J. M. ...
   url: https://finance.yahoo.com/news/did-leadership-overhaul-ai-focus-151024923.html
-- date: '2026-05-25'
+- date: ''
   title: JM Smucker eliminates COO as part of leadership ...
   url: https://www.fooddive.com/news/jm-smucker-eliminates-coo-as-part-of-leadership-restructuring/811808/
-- date: '2026-05-25'
+- date: ''
   title: The J.M. Smucker Co. Announces Senior Leadership ...
   url: https://www.prnewswire.com/news-releases/the-jm-smucker-co-announces-senior-leadership-updates-to-drive-continued-growth-and-execution-302683731.html
-- date: '2026-05-25'
+- date: ''
   title: Smucker overhauls leadership, removes COO role
   url: https://www.stocktitan.net/sec-filings/SJM/8-k-j-m-smucker-co-reports-material-event-5a3d07d58f0e.html
-- date: '2026-05-25'
+- date: ''
   title: GrayMatter Teams with Smucker's to Unlock Efficiency & Quality
   url: https://graymattersystems.com/smuckers-unlock-efficiency-quality-ai-digital-twins/
 random_paper: 10
@@ -115,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

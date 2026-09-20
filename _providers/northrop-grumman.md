@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,19 +125,19 @@ overview: 'Northrop Grumman is profiled on the [APIs.io](https://apis.io/) netwo
 
   Northrop Grumman''s developer surface includes engineering blog, support, YouTube channel, and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Northrop Grumman Expanding Its Use of NVIDIA AI ...
   url: https://news.northropgrumman.com/digital-transformation/northrop-grumman-expanding-its-use-of-nvidia-ai-technology-to-advance-solutions-for-space
-- date: '2026-05-25'
+- date: ''
   title: Northrop Grumman Accelerates Innovation with AI ...
   url: https://www.linkedin.com/posts/travisgarriss_deploying-an-ai-factory-for-regulated-industries-activity-7424914206048731136-0XYR
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence and Machine Learning
   url: https://www.northropgrumman.com/what-we-do/mission-solutions/artificial-intelligence-and-machine-learning
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence Applications at Northrop Grumman
   url: https://emerj.com/artificial-intelligence-applications-at-northrop-grumman-an-overview/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence
   url: https://news.northropgrumman.com/artificial-intelligence
 random_paper: 2
@@ -174,7 +174,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Dover Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Manufacturing, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: New CPC Solution Tackles Growing Liquid Cooling Needs for AI
   url: https://investors.dovercorporation.com/news-releases/news-release-details/new-cpc-solution-tackles-growing-liquid-cooling-needs-ai
-- date: '2026-05-25'
+- date: ''
   title: Claro and Town of Dover, NJ Launch AI Video Analytics ...
   url: https://www.prnewswire.com/news-releases/claro-and-town-of-dover-nj-launch-ai-video-analytics-to-transform-public-safety-302580849.html
-- date: '2026-05-25'
+- date: ''
   title: Dover India's Post
   url: https://www.linkedin.com/posts/dover-solutions-india_doverindia-ai-artificialintelligence-activity-7266765109018976256-TwxY
-- date: '2026-05-25'
+- date: ''
   title: Dover Corporation (DOV) Introduces Next-Gen AI License ...
   url: https://finance.yahoo.com/news/dover-corporation-dov-introduces-next-181101736.html
-- date: '2026-05-25'
+- date: ''
   title: Introduction to Artificial Intelligence
   url: https://store.doverpublications.com/products/9780486832869?srsltid=AfmBOoqxPryqW98Aq1CCcgKGzboJD2ENxUwFNk8j3-UURBM0Fq1qHQj7
 random_paper: 16
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

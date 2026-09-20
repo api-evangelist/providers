@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -176,19 +176,19 @@ plans:
   plan_count: 0
   slug: boston-scientific-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Boston Scientific uses AI in medical tech for 9 years
   url: https://www.linkedin.com/posts/henson-sy-5295232_paid-program-how-ai-is-transforming-health-activity-7325902716625399808-Nhps
-- date: '2026-05-25'
+- date: ''
   title: How is AI Transforming Healthcare?
   url: https://news.bostonscientific.com/warren-wang-how-is-ai-transforming-healthcare
-- date: '2026-05-25'
+- date: ''
   title: Buy Boston Scientific Stock. It's a Way to Diversify From AI?
   url: https://www.barrons.com/articles/buy-boston-scientific-stock-price-pick-0001482400
-- date: '2026-05-25'
+- date: ''
   title: 'Boston Scientific''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/boston-scientific-ai-strategy-analysis-of-dominance-in-medical-technologies/
-- date: '2026-05-25'
+- date: ''
   title: Using AI to predict and prevent cardiac emergencies
   url: https://news.bostonscientific.com/ai-diagnostic-heart-failure-symptoms-arrythmia
 random_paper: 3
@@ -225,7 +225,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

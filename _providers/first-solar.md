@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -118,19 +118,19 @@ plans:
   plan_count: 0
   slug: first-solar-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Overview
   url: https://www.firstsolar.com/About-Us/Overview
-- date: '2026-05-25'
+- date: ''
   title: First Solar Inaugurates New $1.1 Billion AI-Enabled ...
   url: https://www.businesswire.com/news/home/20251121295144/en/First-Solar-Inaugurates-New-%241.1-Billion-AI-Enabled-Louisiana-Manufacturing-Facility
-- date: '2026-05-25'
+- date: ''
   title: First Solar Selects Everstream Analytics to Enhance Risk ...
   url: https://www.everstream.ai/media/first-solar-selects-everstream-analytics-to-enhance-risk-mitigation-and-multi-tier-supply-chain-visibility/
-- date: '2026-05-25'
+- date: ''
   title: Buy First Solar Stock Now for AI Energy Growth and Value
   url: https://www.zacks.com/commentary/2764875/buy-first-solar-stock-now-for-ai-energy-growth-and-value
-- date: '2026-05-25'
+- date: ''
   title: First Solar Inaugurates New $1.1 Billion AI-Enabled ...
   url: https://www.opportunitylouisiana.gov/news/first-solar-inaugurates-new-1-1-billion-ai-enabled-louisiana-manufacturing-facility
 random_paper: 20
@@ -171,7 +171,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

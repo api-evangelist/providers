@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -273,19 +273,19 @@ plans:
   plan_count: 2
   slug: charles-schwab-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Charles Schwab Launches AI-Powered Capability That Helps ...
   url: https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Launches-AI-Powered-Capability-That-Helps-Investors-Understand-Portfolio-Performance-and-Market-Activity/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Charles Schwab credits increased AI use with cost savings
   url: https://www.ciodive.com/news/charles-schwab-AI-cost-savings-knowledge-assistant/738188/
-- date: '2026-05-25'
+- date: ''
   title: Charles Schwab
   url: https://www.facebook.com/CharlesSchwab/posts/we-are-rolling-out-an-exciting-ai-powered-capability-for-investors-it-delivers-i/1364267489081281/
-- date: '2026-05-25'
+- date: ''
   title: Charles Schwab Corp. is planning to use artificial ...
   url: https://www.facebook.com/bloombergbusiness/posts/charles-schwab-corp-is-planning-to-use-artificial-intelligence-to-extend-benefit/1397432698909486/
-- date: '2026-05-25'
+- date: ''
   title: What to Know About Artificial Intelligence (AI)
   url: https://www.schwab.com/learn/story/what-to-know-about-artificial-intelligence-ai
 random_paper: 7
@@ -342,7 +342,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -299,7 +299,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode/authorizationCode+PKCE/password
 score:
   band: strong
-  composite: 62.9
+  composite: 54.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 54.3
@@ -307,14 +307,14 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.6
   facets:
     access_clarity: 44.7
     contract_governance: 28.0
     contract_quality: 73.8
-    developer_ergonomics: 64.3
+    developer_ergonomics: 26.2
     discoverability: 75.9
-    operational_transparency: 31.6
+    operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -339,8 +339,8 @@ score:
     regime_id: energy_utilities
     score: 70.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  trend: flat
+  scored_at: '2026-09-19'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

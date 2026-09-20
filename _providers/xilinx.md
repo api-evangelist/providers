@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -178,19 +178,19 @@ plans:
   plan_count: 0
   slug: xilinx-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: An Edge Computing System with AMD Xilinx FPGA AI ... - PMC
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11125175/
-- date: '2026-05-25'
+- date: ''
   title: Xilinx Technology to Power Baidu Brain Edge AI Applications
   url: https://www.prnewswire.com/news-releases/xilinx-technology-to-power-baidu-brain-edge-ai-applications-300779615.html
-- date: '2026-05-25'
+- date: ''
   title: Unleashing Edge Intelligence on XILINX FPGA through ...
   url: https://www.iwavesystems.com/news/unleashing-edge-intelligence-on-xilinx-fpga-through-corazon-ai/
-- date: '2026-05-25'
+- date: ''
   title: AMD Completes $50B Acquisition of Xilinx
   url: https://www.engineering.com/amd-completes-50b-acquisition-of-xilinx/
-- date: '2026-05-25'
+- date: ''
   title: AI Engine Technology
   url: https://www.amd.com/en/products/adaptive-socs-and-fpgas/technologies/ai-engine.html
 random_paper: 8
@@ -221,7 +221,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

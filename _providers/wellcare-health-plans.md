@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -263,19 +263,19 @@ plans:
   plan_count: 3
   slug: wellcare-health-plans-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Centene Completes Acquisition of Apixio - Dec 8, 2020
   url: https://investors.centene.com/2020-12-08-Centene-Completes-Acquisition-of-Apixio
-- date: '2026-05-25'
+- date: ''
   title: Cohere Health Adds Dr. Mark Leenay to Board of Directors ...
   url: https://www.prnewswire.com/news-releases/cohere-health-adds-dr-mark-leenay-to-board-of-directors-to-advance-clinical-ai-leadership-and-health-plan-collaborations-302694925.html
-- date: '2026-05-25'
+- date: ''
   title: WellCare Health Plans, Inc.
   url: https://www.sec.gov/enforcement-litigation/litigation-releases/lr-21044
-- date: '2026-05-25'
+- date: ''
   title: Wellcare Enhances Offering of Affordable, Quality ...
   url: https://www.prnewswire.com/news-releases/wellcare-enhances-offering-of-affordable-quality-medicare-advantage-and-medicare-prescription-drug-plans-in-2026-302582597.html
-- date: '2026-05-25'
+- date: ''
   title: Wellcare Announces Refreshed Brand in Effort to Better ...
   url: https://www.prnewswire.com/news-releases/wellcare-announces-refreshed-brand-in-effort-to-better-serve-medicare-members-301366933.html
 random_paper: 19
@@ -337,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

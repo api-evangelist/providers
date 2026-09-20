@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,19 +168,19 @@ plans:
   plan_count: 4
   slug: humana-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Humana Redefines the Member Experience with Agent ...
   url: https://news.humana.com/news/articles/humana-redefines-the-member-experience-with-agent-assist-built-with-google-cloud
-- date: '2026-05-25'
+- date: ''
   title: Humana and Google Expand Partnership to Help Reduce ...
   url: https://www.googlecloudpresscorner.com/2024-07-25-Humana-and-Google-Expand-Partnership-to-Help-Reduce-Cost-of-Care-and-Improve-Member-Experiences
-- date: '2026-05-25'
+- date: ''
   title: Humana deploys AI support tool for call centers
   url: https://www.healthcaredive.com/news/humana-call-center-ai-agent-assist-google-cloud/811200/
-- date: '2026-05-25'
+- date: ''
   title: October 9, 2025 VIA EMAIL Mr. Jim Rechtin President and ...
   url: https://www.hsgac.senate.gov/wp-content/uploads/2025-10-09-Letter-from-Ranking-Member-Blumenthal-to-Humana.pdf
-- date: '2026-05-25'
+- date: ''
   title: Humana Redefines the Member Experience with Agent ...
   url: https://www.prnewswire.com/news-releases/humana-redefines-the-member-experience-with-agent-assist-built-with-google-cloud-302677922.html
 random_paper: 18
@@ -221,7 +221,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

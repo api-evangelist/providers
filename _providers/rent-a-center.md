@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -126,19 +126,19 @@ overview: 'Rent-A-Center is profiled on the [APIs.io](https://apis.io/) network.
 
   Rent-A-Center''s developer surface includes developer portal, support, engineering blog, and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.wiley.law/insights-pressreleases?page=140&do_item_search=1&sp_login_wiley=dd45f00bfe94f00a1c3a98e81440f019-live11&type=4
-- date: '2026-05-25'
+- date: ''
   title: West Elm Teams up with Rent the Runway for Home Decor ...
   url: https://www.aarete.com/insights/west-elm-teams-up-with-rent-the-runway-for-home-decor-rental/
-- date: '2026-05-25'
+- date: ''
   title: Rent-A-Center Announces National Rent-to-Own Program ...
   url: https://www.prnewswire.com/news-releases/rent-a-center-announces-national-rent-to-own-program-launch-rac-exchange-302086525.html
-- date: '2026-05-25'
+- date: ''
   title: 'Virtual rent-to-own agreements: A fintech disruption'
   url: https://www.hausfeld.com/what-we-think/competition-bulletin/virtual-rent-to-own-agreements-a-fintech-disruption
-- date: '2026-05-25'
+- date: ''
   title: Rent-A-Center Acquires Acima For Lease-To-Own
   url: https://www.pymnts.com/news/partnerships-acquisitions/2020/rent-a-center-acquires-acima-for-virtual-lease-to-own-platform/
 random_paper: 15
@@ -178,7 +178,7 @@ score:
     - north-america
   previous_composite: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

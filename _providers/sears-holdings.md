@@ -175,30 +175,30 @@ plans:
   plan_count: 1
   slug: sears-holdings-plans-pricing
 press:
-- date: '2026-05-25'
-  title: Sears' Property Sales Prevent Q2 Loss
-  url: https://www.cfo.com/news/sears-property-sales-prevent-q2-loss/663426/
-- date: '2026-05-25'
-  title: Sears Auto Center Uses Artificial Intelligence To Put ...
-  url: https://searsholdings.com/press-releases/pr/2026
-- date: '2026-05-25'
-  title: Stanley Black & Decker Completes Purchase Of Craftsman ...
-  url: https://www.aftermarketnews.com/stanley-black-decker-completes-purchase-craftsman-brand-sears-holdings/
-- date: '2026-05-25'
-  title: KULR Welcomes Microsoft Director and Pricing ...
-  url: https://www.sec.gov/Archives/edgar/data/1662684/000110465926049843/tm2612908d1_ex99-1.htm
-- date: '2026-05-25'
-  title: Sears Auto Center Uses Artificial Intelligence To Put ...
-  url: https://www.prnewswire.com/news-releases/sears-auto-center-uses-artificial-intelligence-to-put-personal-touch-on-tire-shopping-300392529.html
-- date: '2022-01-22'
+- date: ''
   title: Transformco to Close Sears Store in Ft. Lauderdale, Fla.
   url: https://transformco.com/press-releases/pr/2153
-- date: '2021-07-26'
-  title: Transform SR Holding Management LLC Identifies and Addresses Data Security Incident
-  url: https://transformco.com/press-releases/pr/2152
-- date: '2021-07-01'
+- date: ''
+  title: Transformco Completes Sale Of Five Kmart Store Leases
+  url: https://transformco.com/press-releases/pr/2149
+- date: ''
+  title: Sears' Property Sales Prevent Q2 Loss
+  url: https://www.cfo.com/news/sears-property-sales-prevent-q2-loss/663426/
+- date: ''
   title: How Sears Home Services Helped Keep Puerto Rico's Appliances Running When It Mattered Most
   url: https://transformco.com/press-releases/pr/2151
+- date: ''
+  title: Transform SR Holding Management LLC Identifies and Addresses Data Security Incident
+  url: https://transformco.com/press-releases/pr/2152
+- date: ''
+  title: Sears Auto Center Uses Artificial Intelligence To Put ...
+  url: https://searsholdings.com/press-releases/pr/2026
+- date: ''
+  title: Stanley Black & Decker Completes Purchase Of Craftsman ...
+  url: https://www.aftermarketnews.com/stanley-black-decker-completes-purchase-craftsman-brand-sears-holdings/
+- date: ''
+  title: KULR Welcomes Microsoft Director and Pricing ...
+  url: https://www.sec.gov/Archives/edgar/data/1662684/000110465926049843/tm2612908d1_ex99-1.htm
 random_paper: 13
 rate_limits:
 - limit_count: 8

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -136,19 +136,19 @@ overview: 'Northwestern Mutual is profiled on the [APIs.io](https://apis.io/) ne
 
   Northwestern Mutual''s developer surface includes engineering blog, support, and 13 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Stocks Rise as AI Overshadows Inflation, Softening ...
   url: https://www.northwesternmutual.com/life-and-money/stocks-rise-as-ai-overshadows-inflation-softening-employment/
-- date: '2026-05-25'
+- date: ''
   title: Northwestern Mutual's CIO Jeff Sippel on productivity gains ...
   url: https://www.cio.com/video/2138806/northwestern-mutuals-cio-jeff-sippel-on-productivity-gains-with-ai.html
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at Northwestern Mutual
   url: https://emerj.com/artificial-intelligence-at-northwestern-mutual/
-- date: '2026-05-25'
+- date: ''
   title: Northwestern Mutual News and Press Releases
   url: https://www.prnewswire.com/news/northwestern-mutual/
-- date: '2026-05-25'
+- date: ''
   title: Americans Trust Advisors More Than AI for Financial ...
   url: https://news.northwesternmutual.com/2025-08-05-Human-Connection-Over-Machines-Americans-Trust-Advisors-More-Than-AI-for-Financial-Advice,-Finds-Northwestern-Mutuals-2025-Planning-Progress-Study
 random_paper: 16
@@ -183,7 +183,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

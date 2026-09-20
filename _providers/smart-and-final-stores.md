@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Smart & Final Stores is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Grocery, Retail, Food and Beverage, Warehouse, and Brick And Mortar.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Smart & Final Switches to a Single Line
   url: https://indyme.com/smart-final-switches-to-a-single-line/?lang=de
-- date: '2026-05-25'
+- date: ''
   title: Smart & Final Agrees to be Acquired by Funds Managed ...
   url: https://www.prnewswire.com/news-releases/smart--final-agrees-to-be-acquired-by-funds-managed-by-affiliates-of-apollo-global-management-300833348.html
-- date: '2026-05-25'
+- date: ''
   title: Smart & Final enlists AI to improve workforce management
   url: https://www.supermarketnews.com/grocery-technology/smart-final-enlists-ai-to-improve-workforce-management
-- date: '2026-05-25'
+- date: ''
   title: Smart & Final Launches Delivery E-Commerce Site Shop. ...
   url: https://www.prnewswire.com/news-releases/smart--final-launches-delivery-e-commerce-site-shopsmartandfinalcom-powered-by-instacart-300511256.html
-- date: '2026-05-25'
+- date: ''
   title: Buyout firm Apollo to buy Smart & Final Stores for $1.1 billion
   url: https://www.reuters.com/article/world/buyout-firm-apollo-to-buy-smart-final-stores-for-11-billion-idUSKCN1RS2C7/
 random_paper: 9
@@ -107,7 +107,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

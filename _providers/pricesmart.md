@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Pricesmart is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: PriceSmart, Inc. to Streamline Pricing and Promotion ...
   url: https://www.dcvelocity.com/articles/59591-pricesmart-inc-to-streamline-pricing-and-promotion-planning-with-relex-solutions
-- date: '2026-05-25'
+- date: ''
   title: 'Gray Media Vs Pricesmart: Which is a Better Buy? AI Stock ...'
   url: https://danelfin.com/stocks/GTN-gray-media-vs-PSMT-pricesmart-compare
-- date: '2026-05-25'
+- date: ''
   title: PriceSmart, Inc. (PSMT) Q2 2026 Earnings Call Transcript
   url: https://seekingalpha.com/article/4889590-pricesmart-inc-psmt-q2-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: PriceSmart Announces 11.1% Increase to Annual Dividend ...
   url: https://www.prnewswire.com/news-releases/pricesmart-announces-11-1-increase-to-annual-dividend-and-voting-results-from-the-2026-annual-meeting-of-stockholders-302680757.html
-- date: '2026-05-25'
+- date: ''
   title: PriceSmart, Inc. Selects RELEX Solutions to Optimize Their ...
   url: https://www.relexsolutions.com/news/pricesmart-inc-selects-relex-solutions-to-optimize-their-supply-chain-and-retail-planning/
 random_paper: 4
@@ -101,7 +101,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

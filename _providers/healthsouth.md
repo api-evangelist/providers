@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,19 +95,19 @@ nav: Providers
 network: true
 overview: HealthSouth (Encompass Health) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Hospitals, Post-Acute Care, Rehabilitation, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?initialSessionID=141-6658956-0138904&ld=ASXXSCTUSDirect&page=549
-- date: '2026-05-25'
+- date: ''
   title: HealthSouth Corporation Announces Planned Name ...
   url: https://www.prnewswire.com/news-releases/healthsouth-corporation-announces-planned-name-change-to-encompass-health-corporation-300485310.html
-- date: '2026-05-25'
+- date: ''
   title: HEALTHSOUTH Announces Private Offering Of Senior Notes
   url: https://www.biospace.com/healthsouth-announces-private-offering-of-senior-notes-675590
-- date: '2026-05-25'
+- date: ''
   title: HealthSouth Corporation and Richard M. Scrushy
   url: https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18044
-- date: '2026-05-25'
+- date: ''
   title: HealthSouth is now Encompass Health
   url: https://www.beckershospitalreview.com/hospital-management-administration/healthsouth-is-now-encompass-health/
 random_paper: 5
@@ -137,7 +137,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

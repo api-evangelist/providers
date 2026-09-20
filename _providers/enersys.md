@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -133,19 +133,19 @@ plans:
   plan_count: 0
   slug: enersys-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: ENERSYS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/13853379/enersys?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: 'Data Centers in 2026: 5 Trends Reshaping Power, Cost ...'
   url: https://www.enersys.com/en/blog-articles/data-centers-five-trends-reshaping-power-cost-and-resilience/
-- date: '2026-05-25'
+- date: ''
   title: ENERSYS TECHNOLOGY ADVANCES DATA CENTRE ...
   url: https://investor.enersys.com/news/news-details/2025/ENERSYS-TECHNOLOGY-ADVANCES-DATA-CENTRE-BACKUP-POWER-MANAGEMENT-03-12-2025/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: EnerSys Touts AI Data Center and Defense 'Super Cycles' ...
   url: https://www.theglobeandmail.com/investing/markets/stocks/ENS/pressreleases/1891809/enersys-touts-ai-data-center-and-defense-super-cycles-at-oppenheimer-conference/
-- date: '2026-05-25'
+- date: ''
   title: 'EnerSys: The Battery Company Sitting Right In The Middle ...'
   url: https://seekingalpha.com/article/4898339-enersysthe-battery-company-sitting-right-in-the-middle-of-the-ai-boom
 random_paper: 7
@@ -179,7 +179,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

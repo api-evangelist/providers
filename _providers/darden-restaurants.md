@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,19 +115,19 @@ nav: Providers
 network: true
 overview: Darden Restaurants is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Casual Dining, Fortune 500, Hospitality, and Restaurant.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Stock Market Stumbles As Wall Street Awaits Earnings ...
   url: https://www.investors.com/research/earnings-preview/stock-market-stumbles-wall-street-earnings-jabil-darden-restaurants/
-- date: '2026-05-25'
+- date: ''
   title: Darden Restaurants Completes Exploration of Strategic ...
   url: https://www.prnewswire.com/news-releases/darden-restaurants-completes-exploration-of-strategic-alternatives-for-bahama-breeze-302677522.html
-- date: '2026-05-25'
+- date: ''
   title: Can AI and Forecasting Tools Boost Darden's Restaurant ...
   url: https://www.theglobeandmail.com/investing/markets/stocks/DRI/pressreleases/1323306/can-ai-and-forecasting-tools-boost-dardens-restaurant-efficiency/
-- date: '2026-05-25'
+- date: ''
   title: Darden Uses Analytics To Understand Restaurant Customers
   url: https://www.informationweek.com/machine-learning-ai/darden-uses-analytics-to-understand-restaurant-customers
-- date: '2026-05-25'
+- date: ''
   title: 'Darden Restaurants Q1 FY2026: Revenue Growth, Margin ...'
   url: https://www.linkedin.com/posts/scottwilliamsphr_olive-garden-owner-darden-restaurants-disappoints-activity-7374857286441201665-GZka
 random_paper: 9
@@ -151,7 +151,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

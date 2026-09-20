@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -141,30 +141,30 @@ plans:
   plan_count: 0
   slug: calumet-specialty-products-partners-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
+  title: Calumet To Award Four Stem Scholarships To Area Seniors
+  url: https://calumet.com/calumet-to-award-four-stem-scholarships-to-area-seniors/
+- date: ''
   title: Calumet Specialty Products Partners Management ...
   url: https://seekingalpha.com/article/1814362-calumet-specialty-products-partners-management-discusses-q3-2013-results-earnings-call
-- date: '2026-05-25'
-  title: Calumet Specialty Products Partners, L.P. Announces ...
-  url: https://www.prnewswire.com/news-releases/calumet-specialty-products-partners-lp-announces-corporate-transition-301983356.html
-- date: '2026-05-25'
-  title: Underwriters for Calumet Specialty Products Partners
-  url: https://www.bakerbotts.com/en/experience/u/underwriters-for-calumet-specialty-produ
-- date: '2026-05-25'
-  title: Calumet Specialty Products Partners provides strategic update
-  url: https://www.reuters.com/article/legal/government/calumet-specialty-products-partners-provides-strategic-update-idUSASC08LDF/
-- date: '2026-05-25'
-  title: Calumet Specialty Products Partners L.P. Outlook
-  url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3070819
-- date: '2026-03-04'
+- date: ''
+  title: Calumet Announces Sale of Assets Related to Industrial Portion of its Royal Purple® Business
+  url: https://calumet.com/calumet-announces-sale-of-assets-related-to-industrial-portion-of-its-royal-purple-business/
+- date: ''
+  title: Calumet Dickinson Receives Environmental Award for Recycling 28M Pounds of Sustainable Materials
+  url: https://calumet.com/calumet-dickinson-receives-environmental-award-for-recycling-28m-pounds-of-sustainable-materials/
+- date: ''
+  title: Montana Renewables Announces Closing of $1.44 Billion DOE Loan Facility for Renewable Fuels and Biomass Energy Facility
+  url: https://calumet.com/montana-renewables-announces-closing-of-1-44-billion-doe-loan-facility-for-renewable-fuels-and-biomass-energy-facility/
+- date: ''
   title: TRUFUEL® Announces Record-Breaking Sales as Rapid Growth Continues
   url: https://calumet.com/trufuel-announces-record-breaking-sales-as-rapid-growth-continues/
-- date: '2026-01-30'
-  title: TRUFUEL Large Package Sizes Updated With Flame Mitigation Device
-  url: https://calumet.com/trufuel-large-package-sizes-updated-with-flame-mitigation-device/
-- date: '2025-10-24'
+- date: ''
   title: Calumet Montana and Department of Revenue Finalize Property Tax Assessment
   url: https://calumet.com/calumet-montana-and-department-of-revenue-finalize-property-tax-assessment/
+- date: ''
+  title: Give Your Valentine a Gift With Meaning
+  url: https://calumet.com/give-your-valentine-a-gift-with-meaning/
 random_paper: 11
 rate_limits:
 - limit_count: 0
@@ -201,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

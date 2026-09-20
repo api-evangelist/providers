@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: NextEra Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utility, Fortune 500, Renewable Energy, and Solar.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Google, NextEra Energy to revive nuclear plant to boost ...
   url: https://www.esgdive.com/news/google-nextera-energy-revive-nuclear-plant-boost-clean-energy-generation/804008/
-- date: '2026-05-25'
+- date: ''
   title: NextEra Energy is seeking to acquire Dominion ...
   url: https://www.facebook.com/APNews/posts/nextera-energy-is-seeking-to-acquire-dominion-energy-in-an-all-stock-deal-valued/1358108056177100/
-- date: '2026-05-25'
+- date: ''
   title: NextEra seeks Dominion to create massive power ...
   url: https://www.pbs.org/newshour/nation/nextera-seeks-dominion-to-create-massive-power-company-as-ai-drives-energy-demand
-- date: '2026-05-25'
+- date: ''
   title: NextEra Energy and Google Announce New Collaboration to ...
   url: https://www.investor.nexteraenergy.com/news-and-events/news-releases/2025/10-27-2025-203948689
-- date: '2026-05-25'
+- date: ''
   title: NextEra Energy and Google Cloud Announce Landmark ...
   url: https://newsroom.nexteraenergy.com/2025-12-08-NextEra-Energy-and-Google-Cloud-Announce-Landmark-Strategic-Energy-and-Technology-Partnership-to-Accelerate-AI-Growth-and-Transform-the-Energy-Industry?l=12
 random_paper: 2
@@ -121,7 +121,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

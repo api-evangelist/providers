@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -197,19 +197,19 @@ plans:
   plan_count: 1
   slug: sysco-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Incorporating generative AI into your company's technology ...
   url: https://mitsloan.mit.edu/ideas-made-to-matter/incorporating-generative-ai-your-companys-technology-strategy
-- date: '2026-05-25'
+- date: ''
   title: Sysco LABS' Nexus series spotlights AI-powered ...
   url: https://www.facebook.com/Dailymirroronline/posts/sysco-labs-nexus-series-spotlights-ai-powered-engineering/1090381859785819/
-- date: '2026-05-25'
+- date: ''
   title: Sysco puts AI at the center of its sales rebound in Q1
   url: https://www.digitalcommerce360.com/2025/10/31/sysco-puts-ai-at-the-center-of-its-sales-rebound-in-q1/
-- date: '2026-05-25'
+- date: ''
   title: 'The Restaurant Revolution: AI and Robotics'
   url: https://foodie.sysco.com/tips-and-trends/how-artificial-intelligence-and-robotics-are-revolutionizing-the-restaurant-industry/
-- date: '2026-05-25'
+- date: ''
   title: 2023 ANNUAL REPORT
   url: https://investors.sysco.com/~/media/Files/S/Sysco-IR/documents/annual-reports/Sysco_2023-Annual-Report_Web.pdf
 random_paper: 11
@@ -266,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

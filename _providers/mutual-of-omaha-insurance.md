@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Mutual of Omaha's Workplace Solutions API program for group and voluntary benefits, delivered to brokers and employers through benefits administration platforms rather than a first-party developer por
@@ -142,19 +142,19 @@ plans:
   plan_count: 0
   slug: mutual-of-omaha-insurance-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Mutual of Omaha and bswift Streamline EOI for Employers
   url: https://www.businesswire.com/news/home/20250708122444/en/Mutual-of-Omaha-and-bswift-Streamline-EOI-for-Employers
-- date: '2026-05-25'
+- date: ''
   title: Mutual of Omaha Board Approves Reorganization as ...
   url: https://news.ambest.com/newscontent.aspx?refnum=265274&altsrc=23
-- date: '2026-05-25'
+- date: ''
   title: Homebot Partners with Fortune 500 Lender Mutual of ...
   url: https://www.prnewswire.com/news-releases/homebot-partners-with-fortune-500-lender-mutual-of-omaha-mortgage-to-transform-client-engagement-beyond-the-closing-table-302575614.html
-- date: '2026-05-25'
+- date: ''
   title: Mutual of Omaha Elevates Customer Engagement with ...
   url: https://www.mutualofomaha.com/about/newsroom/article/mutual-of-omaha-elevates-customer-engagement-with-acxiom-designed-intelligence-solution
-- date: '2026-05-25'
+- date: ''
   title: Mutual of Omaha eyes 2026 completion for reorganization ...
   url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2025/10/mutual-of-omaha-eyes-2026-completion-for-reorganization-plan
 random_paper: 12
@@ -193,7 +193,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

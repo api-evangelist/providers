@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,19 +99,19 @@ overview: 'Silgan Holdings is profiled on the [APIs.io](https://apis.io/) networ
 
   The Silgan Holdings catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Silgan Holdings,Unit Rtgs Affirmed After IPO Anncmnt
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/78238
-- date: '2026-05-25'
+- date: ''
   title: Silgan Holdings Inc. (SLGN) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4895808-silgan-holdings-inc-slgn-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Silgan to Release First Quarter 2026 Earnings Results on April ...
   url: https://markets.financialcontent.com/chroniclejournal/article/bizwire-2026-4-10-silgan-to-release-first-quarter-2026-earnings-results-on-april-29-2026
-- date: '2026-05-25'
+- date: ''
   title: 'Winners And Losers Of Q1: Silgan Holdings (NYSE:SLGN) ...'
   url: https://www.theglobeandmail.com/investing/markets/stocks/SLGN-N/pressreleases/1842803/winners-and-losers-of-q1-silgan-holdings-nyseslgn-vs-the-rest-of-the-industrial-packaging-stocks/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/849869/000084986924000067/slgn-20240507.htm
 random_paper: 21
@@ -135,7 +135,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

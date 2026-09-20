@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -88,19 +88,19 @@ overview: 'Welltower is profiled on the [APIs.io](https://apis.io/) network. Tag
 
   The Welltower catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Public Storage and Welltower Announce Strategic Data ...
   url: https://www.prnewswire.com/news-releases/public-storage-and-welltower-announce-strategic-data-science-partnership-to-advance-application-of-ai-in-real-estate-investing-302700397.html
-- date: '2026-05-25'
+- date: ''
   title: What We Do
   url: https://welltower.com/what-we-do/
-- date: '2026-05-25'
+- date: ''
   title: Welltower, Public Storage partner to advance use of AI in ...
   url: https://www.mcknightsseniorliving.com/news/welltower-public-storage-partner-to-advance-use-of-ai-in-real-estate-investing/
-- date: '2026-05-25'
+- date: ''
   title: Welltower Reports Second Quarter 2025 Results
   url: https://welltower.com/investors/press-release-details?id=789
-- date: '2026-05-25'
+- date: ''
   title: Investors Press Releases Details | ...
   url: https://welltower.com/investors/press-release-details/
 random_paper: 7
@@ -124,7 +124,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

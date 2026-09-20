@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -145,19 +145,19 @@ plans:
   plan_count: 0
   slug: erie-insurance-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Erie CIO Partha Srinivasa on AI, productivity, and culture
   url: https://www.linkedin.com/posts/theinsurer_insurance-ai-underwriting-activity-7379597342213042178-uXgx
-- date: '2026-05-25'
+- date: ''
   title: Erie Insurance Group News and Press Releases
   url: https://www.prnewswire.com/news/erie-insurance-group/
-- date: '2026-05-25'
+- date: ''
   title: Erie Insurance invests in Feathery, AI-driven data ...
   url: https://www.linkedin.com/posts/cerity-partners-ventures_cvc-strategiccapital-fintech-activity-7394489416150364160-UaUl
-- date: '2026-05-25'
+- date: ''
   title: Insurer conquers change management
   url: https://www.networkworld.com/article/846108/infrastructure-management-insurer-conquers-change-management.html
-- date: '2026-05-25'
+- date: ''
   title: 'Erie CEO: AI Not Intended to Replace Company Employees'
   url: https://news.ambest.com/newscontent.aspx?refnum=274084&altsrc=23
 random_paper: 4
@@ -191,7 +191,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

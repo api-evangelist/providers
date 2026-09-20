@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 11
 apis:
 - description: The Citi Accounts and Transactions API provides authorized third-party access to retail customer accounts, current and available balances, and transaction histories, enabling account-aggregation and p
@@ -208,19 +208,19 @@ plans:
   plan_count: 2
   slug: citigroup-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Introducing AI Agents
   url: https://www.citigroup.com/global/news/perspectives/2026/introducing-ai-agents-next-phase-citi-artificial-intelligence-journey
-- date: '2026-05-25'
+- date: ''
   title: How Citigroup Helps Employees Harness the Power of AI
   url: https://aimagazine.com/news/jane-fraser-on-how-citi-is-harnessing-ai
-- date: '2026-05-25'
+- date: ''
   title: Citi Wealth Unveils “Citi Sky” – An AI-Powered Member of ...
   url: https://www.citigroup.com/global/news/press-release/2026/citi-wealth-unveils-citi-sky-ai-powered-member-google-cloud-deepmind-technologies
-- date: '2026-05-25'
+- date: ''
   title: Citi is leveling up its AI game, according to a new memo ...
   url: https://www.facebook.com/techinsider/posts/citi-is-leveling-up-its-ai-game-according-to-a-new-memo-sent-wednesday-and-viewe/1093504075982401/
-- date: '2026-05-25'
+- date: ''
   title: Citi eyes AI productivity gains as it consolidates data systems
   url: https://www.ciodive.com/news/citigroup-data-compliance-modernization-generative-ai/745683/
 random_paper: 14
@@ -275,7 +275,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -172,19 +172,19 @@ plans:
   plan_count: 1
   slug: sigma-aldrich-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sigma-Aldrich Stockholders Approve Acquisition By Merck ...
   url: https://www.prnewswire.com/news-releases/sigma-aldrich-stockholders-approve-acquisition-by-merck-kgaa-300005544.html
-- date: '2026-05-25'
+- date: ''
   title: 'AIDDISON™: Using AI-Powered Software to Accelerate ...'
   url: https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/marketing/global/documents/337/293/aiddison-wp11667en-ms.pdf?srsltid=AfmBOorzcyht-cJN5uA5Ja97HzfX965AcgyqtWRQLv_cgMtvNL4LfhrA
-- date: '2026-05-25'
+- date: ''
   title: Fast-Tracking Drug Discovery with an AI Boost
   url: https://www.sigmaaldrich.com/US/en/life-science/about-us/stories/drug-discovery-with-an-ai-boost?srsltid=AfmBOoqP93uCOX0sPhIuG8A6P1Vn8EtwfjrTbuqoD8ssLGK4nCo2hQwU
-- date: '2026-05-25'
+- date: ''
   title: MilliporeSigma Launches First Ever AI Solution to Integrate ...
   url: https://www.sigmaaldrich.com/US/en/collections/press/first-ever-ai-solution-to-integrate-drug-discovery-and-synthesis?srsltid=AfmBOorXdiiwAD3PAloTM009VNX8lrmFD2gsiFCy6Fww9dZyfr6Za1OH
-- date: '2026-05-25'
+- date: ''
   title: Sigma-Aldrich® and The Scripps Research Institute ...
   url: https://www.fiercebiotech.com/research/sigma-aldrich%C2%AE-and-scripps-research-institute-partner-to-accelerate-commercialization-of
 random_paper: 3
@@ -247,7 +247,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

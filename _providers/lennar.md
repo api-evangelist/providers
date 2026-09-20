@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: 'Azure API Management developer portal for Lennar Corporation. Allows developers to discover Lennar APIs, sign up for an API key, read the auto-generated reference, and exercise endpoints from the API '
@@ -91,19 +91,19 @@ plans:
   plan_count: 1
   slug: lennar-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Lennar Sees a $92M Increase and Saves $650K in Costs
   url: https://3cloudsolutions.com/case-studies/lennar-increases-revenue-with-azure-data-warehouse/
-- date: '2026-05-25'
+- date: ''
   title: Q4-2025 LEN Earnings Call Transcript
   url: https://investors.lennar.com/~/media/Files/L/Lennar-IR-V3/reports-and-presentations/len-q4-25-earnings-call-transcript.pdf
-- date: '2026-05-25'
+- date: ''
   title: Lennar builds faster, smarter homebuying journeys with ...
   url: https://www.salesforce.com/customer-stories/lennar/
-- date: '2026-05-25'
+- date: ''
   title: len-4q24-10-k.pdf
   url: https://investors.lennar.com/~/media/Files/L/Lennar-IR-V3/documents/earnings-releases/len-4q24-10-k.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'Lennar: Statement on Land-Light Strategy'
   url: https://www.prnewswire.com/news-releases/lennar-statement-on-land-light-strategy-302728846.html
 random_paper: 2
@@ -131,7 +131,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

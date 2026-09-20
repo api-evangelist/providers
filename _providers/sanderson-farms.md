@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,19 +72,19 @@ nav: Providers
 network: true
 overview: Sanderson Farms is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, Food Production, Fortune 1000, Poultry, and Supply Chain.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Several Wayne-Sanderson Farms team members ...
   url: https://www.facebook.com/WayneSandersonFarms/posts/several-wayne-sanderson-farms-team-members-recently-attended-the-2025-us-poultry/1186904313466735/
-- date: '2026-05-25'
+- date: ''
   title: TARGAN and Wayne-Sanderson Farms Announce ...
   url: https://www.targan.com/news/targan-and-wayne-sanderson-farms-announce-pioneering-commercial-collaboration
-- date: '2026-05-25'
+- date: ''
   title: SANDERSON FARMS BRAND DEBUTS INDUSTRY- ...
   url: https://www.prnewswire.com/news-releases/sanderson-farms-brand-debuts-industry-first-artificial-intelligence-chicken-chatbot-tool-302163363.html
-- date: '2026-05-25'
+- date: ''
   title: Wayne-Sanderson Farms and BinSentry partner on feed ...
   url: https://www.feedstuffs.com/agribusiness-news/wayne-sanderson-farms-and-binsentry-partner-on-feed-management
-- date: '2026-05-25'
+- date: ''
   title: Cargill and Continental Grain purchase Sanderson Farms ...
   url: https://www.wdam.com/2022/07/26/cargill-continental-grain-purchase-sanderson-farms-combine-with-wayne-farms/
 random_paper: 15
@@ -113,7 +113,7 @@ score:
     - north-america
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

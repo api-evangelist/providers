@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The Alaris Infusion Interoperability solution connects the Alaris System (large-volume pump modules and syringe modules) to hospital EMR platforms so that physician infusion orders flow wirelessly int
@@ -132,19 +132,19 @@ plans:
   plan_count: 0
   slug: carefusion-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Becton Dickinson to buy CareFusion for $12 billion in cash, ...
   url: https://www.reuters.com/article/business/becton-dickinson-to-buy-carefusion-for-12-billion-in-cash-stock-idUSKCN0HU0U3/
-- date: '2026-05-25'
+- date: ''
   title: Becton Dickinson Completes Acquisition Of CareFusion
   url: https://www.prnewswire.com/news-releases/becton-dickinson-completes-acquisition-of-carefusion-300051582.html
-- date: '2026-05-25'
+- date: ''
   title: Becton Dickinson releases 1st joint BD-CareFusion product
   url: https://www.massdevice.com/becton-dickinson-releases-1st-joint-bd-carefusion-product/
-- date: '2026-05-25'
+- date: ''
   title: BD to Acquire CareFusion, But Not Without Controversy
   url: https://www.mddionline.com/business/bd-to-acquire-carefusion-but-not-without-controversy
-- date: '2026-05-25'
+- date: ''
   title: 5 takeaways from Becton Dickinson's $24B acquisition of ...
   url: https://medcitynews.com/2017/04/5-takeaways-becton-dickinsons-24b-acquisition-c-r-bard/
 random_paper: 15
@@ -180,7 +180,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

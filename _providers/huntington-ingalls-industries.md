@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,30 +66,30 @@ overview: 'Huntington Ingalls Industries is profiled on the [APIs.io](https://ap
 
   Huntington Ingalls Industries'' developer surface includes engineering blog and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: HII Stock Price, News & Analysis | Huntington Ingalls Inds
   url: https://www.stocktitan.net/overview/HII/
-- date: '2026-05-25'
+- date: ''
   title: Huntington Ingalls Industries (HII) is attempting to use artificial ...
   url: https://www.facebook.com/shipbuilding.shipyards/posts/huntington-ingalls-industries-hii-is-attempting-to-use-artificial-intelligence-t/1067849385533269/
-- date: '2026-05-25'
+- date: ''
+  title: HII Redelivers USS New Jersey (SSN 796) from Post-Shakedown Availability at Newport News Shipbuilding
+  url: https://hiicomstg.wpengine.com/news/hii-redelivers-uss-new-jersey-ssn-796-from-post-shakedown-availability-at-newport-news-shipbuilding/
+- date: ''
   title: HUNTINGTON INGALLS INDUSTRIES ANNOUNCES ...
   url: https://hii.com/news/huntington-ingalls-industries-announces-pricing-of-5-000-senior-notes-due-2025/
-- date: '2026-05-25'
-  title: HII EVOLVING INTO A DATA-DRIVEN TECH ...
-  url: https://hii.com/news/hii-evolving-into-a-data-driven-tech-enterprise-as-navy-customer-embraces-new-warfighting-concepts
-- date: '2026-05-25'
-  title: HII, C3 AI partner to apply AI solutions to shipbuilding
-  url: https://www.naval-technology.com/news/hii-c3-ai-shipbuiding/
-- date: '2026-04-20'
-  title: 'Launched From Submarines, Trusted by 30 Navies: REMUS Marks 25 Years Beneath the Surface'
-  url: https://hiicomstg.wpengine.com/news/launched-from-submarines-trusted-by-30-navies-remus-marks-25-years-beneath-the-surface/
-- date: '2026-04-17'
+- date: ''
   title: HII Introduces Distributed Maritime Operations Framework in Support of U.S. Navy’s “Hedge Strategy”
   url: https://hiicomstg.wpengine.com/news/hii-introduces-distributed-maritime-operations-framework-in-support-of-u-s-navys-hedge-strategy/
-- date: '2026-04-16'
+- date: ''
   title: HII to Showcase Company’s Role as America’s Seapower Company at Sea-Air-Space 2026
   url: https://hiicomstg.wpengine.com/news/hii-to-showcase-companys-role-as-americas-seapower-company-at-sea-air-space-2026/
+- date: ''
+  title: HII Hosts PAE Maritime Christopher Miller at Ingalls Shipbuilding
+  url: https://hiicomstg.wpengine.com/news/hii-hosts-pae-maritime-christopher-miller-at-ingalls-shipbuilding/
+- date: ''
+  title: 'Launched From Submarines, Trusted by 30 Navies: REMUS Marks 25 Years Beneath the Surface'
+  url: https://hiicomstg.wpengine.com/news/launched-from-submarines-trusted-by-30-navies-remus-marks-25-years-beneath-the-surface/
 random_paper: 0
 score:
   band: minimal
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

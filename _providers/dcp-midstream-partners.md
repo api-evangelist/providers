@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -154,19 +154,19 @@ plans:
   plan_count: 0
   slug: dcp-midstream-partners-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'DCP Midstream (DCP) Looks Good: Stock Adds 8.2% in Session'
   url: https://finance.yahoo.com/news/dcp-midstream-dcp-looks-good-124612103.html
-- date: '2026-05-25'
+- date: ''
   title: DCP Midstream Sinks $85M Into Texas Pipeline Project
   url: https://www.law360.com/articles/329514/dcp-midstream-sinks-85m-into-texas-pipeline-project
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1338065/000133806520000019/dpm-20191231.htm
-- date: '2026-05-25'
+- date: ''
   title: Elliott Announces Director Candidates for the Board ...
   url: https://www.prnewswire.com/news-releases/elliott-announces-director-candidates-for-the-board-of-phillips-66-302391915.html
-- date: '2026-05-25'
+- date: ''
   title: DCP Midstream Benefits from Eagle Ford, DJ Basin Assets in ...
   url: https://www.industrialinfo.com/news/article/dcp-midstream-benefits-from-eagle-ford-dj-basin-assets-in-2014-puts-2015-growth-capex-at-300-million--246924
 random_paper: 2
@@ -202,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

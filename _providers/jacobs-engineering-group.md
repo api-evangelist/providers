@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Jacobs Engineering Group is profiled on the [APIs.io](https://apis.io
 
   Jacobs Engineering Group''s developer surface includes product news and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Jacobs rebrands, takes on new parent company name
   url: https://www.constructiondive.com/news/jacobs-solutions-implements-new-holding-company-structure/630230/
-- date: '2026-05-25'
+- date: ''
   title: Jacobs and PA Consulting to Advance Intelligent Aviation ...
   url: https://invest.jacobs.com/news/investor-news/news-details/2025/Jacobs-and-PA-Consulting-to-Advance-Intelligent-Aviation-Infrastructure-at-Dallas-Fort-Worth-International-Airport/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Jacobs introduces Flood IQ to help utilities and cities ...
   url: https://invest.jacobs.com/news/investor-news/news-details/2026/Jacobs-introduces-Flood-IQ-to-help-utilities-and-cities-anticipate-and-manage-flood-risk-2026-eECIiLTgxE/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Jacobs Engineering stock falls as Wells Fargo cuts price ...
   url: https://www.investing.com/news/analyst-ratings/jacobs-engineering-stock-falls-as-wells-fargo-cuts-price-target-on-ai-concerns-93CH-4372616
-- date: '2026-05-25'
+- date: ''
   title: Jacobs releases digital twin solution for AI data centers
   url: https://invest.jacobs.com/news/investor-news/news-details/2026/Jacobs-releases-digital-twin-solution-for-AI-data-centers/default.aspx
 random_paper: 16
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

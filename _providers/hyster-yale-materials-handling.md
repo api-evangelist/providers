@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Hyster-Yale Materials Handling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Forklifts, Materials Handling, Industrial, Manufacturing, and Logistics.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Hyster-Yale Materials Handling posted on the topic
   url: https://www.linkedin.com/posts/hyster-yale-group_leadership-in-materials-handling-is-built-activity-7440086702301437952-CGAi
-- date: '2026-05-25'
+- date: ''
   title: HYSTER-YALE ANNOUNCES COST REDUCTION ...
   url: https://www.prnewswire.com/news-releases/hyster-yale-announces-cost-reduction-actions-amid-challenging-market-conditions-302620903.html
-- date: '2026-05-25'
+- date: ''
   title: Longtime Hyster-Yale technology leader honored as ...
   url: https://www.dcvelocity.com/articles/61298-longtime-hyster-yale-technology-leader-honored-as-distinguished-supply-chain-professional
-- date: '2026-05-25'
+- date: ''
   title: 2024 Kellogg Design Challenge
   url: https://www.hyster.com/en-us/north-america/why-hyster/press-releases/2024/hyster-recognizes-dealers-of-distinction-for-20232/
-- date: '2026-05-25'
+- date: ''
   title: Privacy Policy
   url: https://www.hyster-yale.com/en-us/privacy-policy/
 random_paper: 18
@@ -107,7 +107,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

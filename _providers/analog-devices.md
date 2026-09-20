@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 4
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -268,19 +268,19 @@ plans:
   plan_count: 1
   slug: analog-devices-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Engineering the Foundation of Physical AI
   url: https://www.analog.com/en/ai.html
-- date: '2026-05-25'
+- date: ''
   title: Analog Devices to Acquire Empower Semiconductor ...
   url: https://www.prnewswire.com/news-releases/analog-devices-to-acquire-empower-semiconductor-expanding-its-next-generation-high-density-power-portfolio-for-the-ai-era-302776701.html
-- date: '2026-05-25'
+- date: ''
   title: '2026: The Year Intelligence Gets Physical'
   url: https://www.analog.com/en/newsroom/press-releases/2026/2-9-2026-the-year-intelligence-gets-physical.html
-- date: '2026-05-25'
+- date: ''
   title: Analog Devices to Buy Empower Semiconductor for $1.5 ...
   url: https://www.wsj.com/business/deals/analog-devices-to-buy-empower-semiconductor-for-1-5-billion-bcbe4d3d
-- date: '2026-05-25'
+- date: ''
   title: Q1 2026 Analog Devices Inc Earnings Call EVENT DATE/TIME
   url: https://investor.analog.com/static-files/6040f10c-669c-487e-bfa8-60eb1db6c369
 random_paper: 2
@@ -333,7 +333,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

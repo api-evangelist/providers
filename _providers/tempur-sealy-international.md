@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: E-commerce integration API for the Tempur-Pedic brand enabling retailers, affiliates, and platform partners to access product catalogs, check inventory, manage orders, and track shipments for Tempur-P
@@ -134,19 +134,19 @@ plans:
   plan_count: 3
   slug: tempur-sealy-international-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Terms of Use
   url: https://www.tempursealy.com/terms-of-use/
-- date: '2026-05-25'
+- date: ''
   title: National Sleep Foundation and Tempur-Pedic Announce ...
   url: https://www.prnewswire.com/news-releases/national-sleep-foundation-and-tempur-pedic-announce-new-research-collaboration-302701117.html
-- date: '2026-05-25'
+- date: ''
   title: Tempur Sealy International, Inc., TPX
   url: https://s204.q4cdn.com/436357164/files/doc_financials/2023/q4/February-2024-FINAL-TPX-Investor-Presentation.pdf
-- date: '2026-05-25'
+- date: ''
   title: Tempur Sealy International, Inc. to Change its Name to ...
   url: https://www.prnewswire.com/news-releases/tempur-sealy-international-inc-to-change-its-name-to-somnigroup-international-inc-302368965.html
-- date: '2026-05-25'
+- date: ''
   title: Tempur Sealy integrates A.I. in newest ActiveBreeze smart ...
   url: https://www.furnituretoday.com/bedding-manufacturers/tempur-sealy-integrates-a-i-in-newest-activebreeze-smart-bed/
 random_paper: 17
@@ -185,7 +185,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

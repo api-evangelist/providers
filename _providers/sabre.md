@@ -13,12 +13,13 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -28,14 +29,14 @@ agent_readiness:
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 38.4
-  scored_at: '2026-09-18'
+  score: 46.0
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -343,19 +344,19 @@ plans:
   plan_count: 1
   slug: sabre-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sabre unveils once-in-a-generation company rebuild and ...
   url: https://www.prnewswire.com/news-releases/sabre-unveils-once-in-a-generation-company-rebuild-and-its-ai-first-platform-at-itb-berlin-2026-302701932.html
-- date: '2026-05-25'
+- date: ''
   title: SABR Stock Price, News & Analysis
   url: https://www.stocktitan.net/overview/SABR/
-- date: '2026-05-25'
+- date: ''
   title: 'Sabre: the open platform powering modern travel'
   url: https://www.sabre.com/
-- date: '2026-05-25'
+- date: ''
   title: Sabre Forges 10-Year Partnership with Google to Build ...
   url: https://www.googlecloudpresscorner.com/2020-01-21-Sabre-Forges-10-Year-Partnership-with-Google-to-Build-the-Future-of-Travel
-- date: '2026-05-25'
+- date: ''
   title: Press Releases Archive
   url: https://www.sabre.com/releases/
 random_paper: 19
@@ -389,7 +390,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 59.5
     catalog_earned_first_party: 0.0
     catalog_gap: 55.5
@@ -413,7 +414,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

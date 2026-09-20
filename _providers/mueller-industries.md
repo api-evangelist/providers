@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Mueller Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aluminum, Brass, Copper, HVAC, and Industrial.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Mueller Industries Inc (MLI) AI Stock Analysis
   url: https://danelfin.com/stock/MLI
-- date: '2026-05-25'
+- date: ''
   title: Mueller Industries expanding in Wynne, adding 60 new jobs
   url: https://www.kait8.com/2025/07/15/mueller-industries-expanding-wynne-adding-60-new-jobs/
-- date: '2026-05-25'
+- date: ''
   title: Assessing Mueller Industries (MLI) Valuation After Strong ...
   url: https://finance.yahoo.com/news/assessing-mueller-industries-mli-valuation-210935584.html
-- date: '2026-05-25'
+- date: ''
   title: Mueller Case Study
   url: https://www.l2l.com/mueller-case-study
-- date: '2026-05-25'
+- date: ''
   title: News Release Archive
   url: https://press.spglobal.com/index.php?s=2429&utm_source=undefined&utm_medium=undefined&utm_campaign=undefined&utm_content=undefined&utm_term=undefined&kw=%257bkeyword%257d&gclid=undefined&o=280
 random_paper: 9
@@ -107,7 +107,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

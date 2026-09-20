@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: AMC Global Media delivers entertainment content through cable networks, FAST channels and subscription streaming platforms. There is no public API, developer portal or machine-readable contract. Affil
@@ -157,19 +157,19 @@ plans:
   plan_count: 0
   slug: amc-networks-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: AMC Networks enlists AI startup
   url: https://www.linkedin.com/news/story/amc-networks-enlists-ai-startup-6889537/
-- date: '2026-05-25'
+- date: ''
   title: 'PRISM - AMC Networks Success Story: Adopting GenAI to ...'
   url: https://www.nabshow.com/video/prism-amc-networks-success-story-adopting-genai-to-streamline-workflow/
-- date: '2026-05-25'
+- date: ''
   title: AMC Networks Partners with Runway to Use AI for Content ...
   url: https://ottverse.com/amc-networks-partners-with-runway-to-use-ai-for-content-and-marketing/
-- date: '2026-05-25'
+- date: ''
   title: AMC Networks partners with Runway AI for video generation
   url: https://www.facebook.com/groups/glblfilmmakers/posts/10161468723473424/
-- date: '2026-05-25'
+- date: ''
   title: As AMC Networks Embraces AI, CEO Kristin Dolan ...
   url: https://deadline.com/2025/08/amc-networks-embraces-ai-ceo-kristin-dolan-technology-ip-1236482175/
 random_paper: 11
@@ -197,7 +197,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

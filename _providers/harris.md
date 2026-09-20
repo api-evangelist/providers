@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Harris Computer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Financial-Services, Healthcare, Insurance, and Public Sector.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Chairman Jordan Seeks Documents About Biden-Harris ...
   url: http://judiciary.house.gov/media/press-releases/chairman-jordan-seeks-documents-about-biden-harris-censorship-pressure
-- date: '2026-05-25'
+- date: ''
   title: Vice President Harris Announces OMB Policy to Advance ...
   url: https://www.presidency.ucsb.edu/documents/fact-sheet-vice-president-harris-announces-omb-policy-advance-governance-innovation-and
-- date: '2026-05-25'
+- date: ''
   title: Biden-Harris administration announces groundbreaking AI ...
   url: https://www.dol.gov/newsroom/releases/osec/osec20240516
-- date: '2026-05-25'
+- date: ''
   title: Biden-Harris Administration Announces Regulatory ...
   url: https://www.bis.gov/press-release/biden-harris-administration-announces-regulatory-framework-responsible-diffusion-advanced-artificial
-- date: '2026-05-25'
+- date: ''
   title: Biden Administration Actions on AI
   url: https://www.epi.org/database-of-biden-administration-actions-on-ai/
 random_paper: 11
@@ -109,7 +109,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

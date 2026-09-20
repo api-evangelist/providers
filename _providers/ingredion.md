@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -137,19 +137,19 @@ plans:
   plan_count: 0
   slug: ingredion-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ingredion, Shiru Partnership Signals Faster Push Toward ...
   url: https://www.nutritionaloutlook.com/view/ingredion-shiru-partnership-ai-driven-functional-protein-discovery
-- date: '2026-05-25'
+- date: ''
   title: Ingredion at IFT FIRST 2025 — Connecting texture, health ...
   url: https://www.ingredion.com/na/en-us/be-whats-next/ift-first-2025-recap
-- date: '2026-05-25'
+- date: ''
   title: Ingredion using AI to accelerate innovation
   url: https://www.foodbusinessnews.net/articles/29055-ingredion-using-ai-to-accelerate-innovation
-- date: '2026-05-25'
+- date: ''
   title: How food giants are embracing AI to forecast recipes ...
   url: https://www.fooddive.com/news/food-giants-AI-artificial-intelligence-kellanova-ingredion-ingredients-tastewise-tech-investments/745642/
-- date: '2026-05-25'
+- date: ''
   title: Amyris And Ingredion Partner To Manufacture And Market ...
   url: https://www.prnewswire.com/news-releases/amyris-and-ingredion-partner-to-manufacture-and-market-sugar-reduction-and-fermentation-based-food-ingredients-301282441.html
 random_paper: 13
@@ -189,7 +189,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

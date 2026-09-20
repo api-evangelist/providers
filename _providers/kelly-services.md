@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Kelly Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Staffing, Workforce Solutions, Talent Management, Human Resources, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Kelly launches recruitment platform for AI and automation ...
   url: https://www.kellyservices.com/press-releases/kelly-launches-recruitment-platform-for-ai-and-automation-talent/
-- date: '2026-05-25'
+- date: ''
   title: Kelly Launches Recruitment Platform for AI and Automation ...
   url: https://www.prnewswire.com/news-releases/kelly-launches-recruitment-platform-for-ai-and-automation-talent-301949889.html
-- date: '2026-05-25'
+- date: ''
   title: Our Policies
   url: https://www.kellyservices.com/policies/
-- date: '2026-05-25'
+- date: ''
   title: 'Losing Talent in the Age of AI: Global Survey Finds ...'
   url: https://www.kellyservices.com/press-releases/losing-talent-in-the-age-of-ai
-- date: '2026-05-25'
+- date: ''
   title: Kelly Services outlines mid-single-digit revenue decline for ...
   url: https://seekingalpha.com/news/4551293-kelly-services-outlines-mid-single-digit-revenue-decline-for-2026-as-technology-modernization
 random_paper: 6
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

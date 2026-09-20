@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Kirby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Kirby Winfield's Post
   url: https://www.linkedin.com/posts/winfield_terrabyte-raises-the-curtain-on-its-campaign-activity-7462613707970359296-aoJ9
-- date: '2026-05-25'
+- date: ''
   title: New system to allow artificial intelligence clinical trials ...
   url: https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(25)00597-2/abstract
-- date: '2026-05-25'
+- date: ''
   title: 'United Airlines CEO: ''We''re probably doing more AI than ...'
   url: https://www.ciodive.com/news/united-airlines-ceo-AI-use-cases/749563/
-- date: '2026-05-25'
+- date: ''
   title: Recent Publications and Other Media - The Kirby Laboratory
   url: https://www.kirbylab.org/publications.html
-- date: '2026-05-25'
+- date: ''
   title: NYC Marketing Expert Augustus Kirby Warns of AI-Driven ...
   url: https://www.24-7pressrelease.com/press-release/530195/nyc-marketing-expert-augustus-kirby-warns-of-ai-driven-algorithm-volatility-and-the-need-for-human-oversight
 random_paper: 17
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

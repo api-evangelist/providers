@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'The Equifax API platform provides programmatic access to Equifax''s consumer credit information, including credit reports, credit scores, identity verification, and fraud detection. APIs are organized '
@@ -167,19 +167,19 @@ plans:
   plan_count: 0
   slug: equifax-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Driving AI Innovation | Equifax
   url: https://www.equifax.com/about-equifax/ai/
-- date: '2026-05-25'
+- date: ''
   title: Explainability and Artificial Intelligence
   url: https://www.equifax.com/newsroom/all-news/-/story/explainability-and-artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: Equifax Secures 27 New Patents in the Second Half of 2025
   url: https://investor.equifax.com/news-events/press-releases/detail/1384/equifax-secures-27-new-patents-in-the-second-half-of-2025
-- date: '2026-05-25'
+- date: ''
   title: Newsroom
   url: https://www.equifax.com/newsroom/
-- date: '2026-05-25'
+- date: ''
   title: Equifax Releases 2025 Security Annual Report
   url: https://www.prnewswire.com/news-releases/equifax-releases-2025-security-annual-report-302716637.html
 random_paper: 7
@@ -215,7 +215,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

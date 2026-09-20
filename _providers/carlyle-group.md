@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Carlyle Direct Lending operates a dedicated investor portal for clients of Carlyle's direct lending funds and BDC vehicles. The portal supports modern web browsers and is used for reporting, distribut
@@ -127,19 +127,19 @@ plans:
   plan_count: 1
   slug: carlyle-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Brave New World AI and its Downstream Implications
   url: https://www.carlyle.com/global-insights/research/brave-new-world-ai-and-its-downstream-implications
-- date: '2026-05-25'
+- date: ''
   title: 'Melvine''s AI Analysis # 52 - 🚀 -"AI Revolution at Carlyle'
   url: https://www.linkedin.com/pulse/ai-revolution-carlyle-transforming-private-equity-insight-manchau-isyke
-- date: '2026-05-25'
+- date: ''
   title: How AI Helps The Carlyle Group Make Better Investment ...
   url: https://www.sesamm.com/blog/alternative-data-help-teams-make-better-choices
-- date: '2026-05-25'
+- date: ''
   title: 2024 Appian Innovation Award Winners Demonstrate ...
   url: https://www.prnewswire.com/apac/news-releases/2024-appian-innovation-award-winners-demonstrate-significant-business-results-with-next-gen-ai-process-automation-302119455.html
-- date: '2026-05-25'
+- date: ''
   title: Carlyle Agrees to Acquire Adastra
   url: https://www.carlyle.com/media-room/news-release-archive/carlyle-agrees-acquire-adastra
 random_paper: 8
@@ -167,7 +167,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

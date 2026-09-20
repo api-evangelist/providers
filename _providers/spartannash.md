@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -108,19 +108,19 @@ overview: 'SpartanNash is profiled on the [APIs.io](https://apis.io/) network. T
 
   SpartanNash''s developer surface includes engineering blog, support, and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: SpartanNash Bolsters Fresh Departments Using Artificial ...
   url: http://www.b2i.us/profiles/investor/NewsPrint.asp?b=1679&ID=114515&m=rl&v=2
-- date: '2026-05-25'
+- date: ''
   title: SpartanNash Welcomes Binu Varghese as Vice President ...
   url: https://corporate.spartannash.com/2023-05-02-SpartanNash-Welcomes-Binu-Varghese-as-Vice-President,-Applications-and-Data
-- date: '2026-05-25'
+- date: ''
   title: SpartanNash dials up its tech talent efforts
   url: https://www.grocerydive.com/news/spartannash-technology-labor-workers/728278/
-- date: '2026-05-25'
+- date: ''
   title: SpartanNash Leveraging AI Technology to Predict ...
   url: https://www.prnewswire.com/news-releases/spartannash-leveraging-ai-technology-to-predict-shopper-demand-decrease-waste-301918073.html
-- date: '2026-05-25'
+- date: ''
   title: SpartanNash to Test AI-Powered Inventory Technology
   url: https://www.specialtyfood.com/news-media/news-features/specialty-food-news/spartannash-to-test-ai-powered-inventory-technology/
 random_paper: 21
@@ -144,7 +144,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

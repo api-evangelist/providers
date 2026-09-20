@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Raymond James Financial is profiled on the [APIs.io](https://apis.io/
 
   Raymond James Financial''s developer surface includes developer portal and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Raymond James hires David Solganik as head of AI strategy
   url: https://www.raymondjames.com/advisor-opportunities/press-releases/2025/09/08/raymond-james-hires-david-solganik-as-head-of-ai-strategy
-- date: '2026-05-25'
+- date: ''
   title: '* - Washington, DC Branch of Raymond James'
   url: https://www.raymondjames.com/washington-dc-branch/about-us/press-releases/2025/05/15/raymond-james-expands-service-focused-technology-investment-with-zoom-ai-companion
-- date: '2026-05-25'
+- date: ''
   title: AI Search
   url: https://www.raymondjames.com/advisor-opportunities/press-releases/2025/04/17/raymond-james-invests-in-service-excellence-with-proprietary-generative-ai-search
-- date: '2026-05-25'
+- date: ''
   title: Raymond James launches proprietary digital AI agent ...
   url: https://www.raymondjames.com/news-and-media/press-releases/2026/01/27/raymond-james-launches-proprietary-digital-ai-agent-to-bolster-operational-excellence
-- date: '2026-05-25'
+- date: ''
   title: A proprietary artificial intelligence (AI) agent, dubbed Rai ...
   url: https://www.facebook.com/RaymondJames/posts/a-proprietary-artificial-intelligence-ai-agent-dubbed-rai-will-deliver-enhanced-/1312009590958420/
 random_paper: 3
@@ -121,7 +121,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

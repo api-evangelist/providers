@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: ONEOK is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Energy, and Natural Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Legal and Privacy Policy
   url: https://www.oneok.com/legal-and-privacy
-- date: '2026-05-25'
+- date: ''
   title: ONEOK Announces 12% Increase in First-Quarter 2026 ...
   url: https://www.oilandgas360.com/oneok-announces-12-increase-in-first-quarter-2026-net-income-and-13-increase-in-adjusted-ebitda/
-- date: '2026-05-25'
+- date: ''
   title: 'ONEOK: While AI Stocks Plummet, This Giant Grows (Q4 ...'
   url: https://seekingalpha.com/article/4873852-oneok-while-ai-stocks-plummet-this-giant-grows-q4-earnings-review
-- date: '2026-05-25'
+- date: ''
   title: ONEOK Announces Higher First Quarter 2025 Earnings
   url: https://www.prnewswire.com/news-releases/oneok-announces-higher-first-quarter-2025-earnings-affirms-2025-financial-guidance-302441763.html
-- date: '2026-05-25'
+- date: ''
   title: ONEOK has benefited from President Donald Trump's Big ...
   url: https://www.facebook.com/tulsaworld/posts/oneok-has-benefited-from-president-donald-trumps-big-beautiful-bill-and-is-poise/1260554342772753/
 random_paper: 12
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

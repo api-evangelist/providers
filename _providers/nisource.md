@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,19 +53,19 @@ overview: 'NiSource is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   NiSource''s developer surface includes engineering blog.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: NiSource companies launch chatbots and live chat to ...
   url: https://www.prnewswire.com/news-releases/nisource-companies-launch-chatbots-and-live-chat-to-provide-an-improved-customer-experience-301577883.html
-- date: '2026-05-25'
+- date: ''
   title: NiSource - Investors
   url: https://investors.nisource.com/investor-home/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 'ICYMI: NiSource Gains From Rising Data Center Demand ...'
   url: https://www.facebook.com/quartznews/posts/icymi-nisource-gains-from-rising-data-center-demand-strategic-investment-ni-ride/1309673297695152/
-- date: '2026-05-25'
+- date: ''
   title: Entergy and NiSource Could Be Winners as Utilities Spend ...
   url: https://www.barrons.com/articles/utilities-ai-capex-stock-dividends-a52c752c
-- date: '2026-05-25'
+- date: ''
   title: NiSource companies launch chatbots and live chat to ...
   url: https://investors.nisource.com/financial-news/news-details/2022/NiSource-companies-launch-chatbots-and-live-chat-to-provide-an-improved-customer-experience/default.aspx
 random_paper: 14
@@ -103,7 +103,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

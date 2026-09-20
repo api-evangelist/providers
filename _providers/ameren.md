@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The Ameren Illinois Share My Usage API implements the Green Button Connect My Data program, providing authorized third parties access to up to 24 months of historical electric energy usage data for re
@@ -198,19 +198,19 @@ plans:
   plan_count: 0
   slug: ameren-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: St. Louis Public Radio
   url: https://www.facebook.com/stlpublicradio/posts/multiple-large-data-centers-have-signed-binding-electric-agreements-with-ameren-/1480897600709260/
-- date: '2026-05-25'
+- date: ''
   title: Avista, PG&E, Ameren AI demonstrations show great ...
   url: https://www.utilitydive.com/news/avista-pge-ameren-ai-utilities-modeling/740705/
-- date: '2026-05-25'
+- date: ''
   title: Document
   url: https://www.sec.gov/Archives/edgar/data/1002910/000100291026000013/q12026ex991earningsrelease.htm
-- date: '2026-05-25'
+- date: ''
   title: Ameren Announces 2025 Results, Affirms Guidance for ...
   url: https://www.prnewswire.com/news-releases/ameren-announces-2025-results-affirms-guidance-for-2026-earnings-and-issues-long-term-growth-guidance-302685673.html
-- date: '2026-05-25'
+- date: ''
   title: Ameren Announces 2025 Results, Affirms Guidance for 2026 ...
   url: https://www.amereninvestors.com/investors/financial-releases/financial-releases-details/2026/Ameren-Announces-2025-Results-Affirms-Guidance-for-2026-Earnings-and-Issues-Long-Term-Growth-Guidance/default.aspx
 random_paper: 16
@@ -252,7 +252,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,19 +79,19 @@ overview: 'United Refining Company is profiled on the [APIs.io](https://apis.io/
 
   The United Refining Company catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pain at the pumps will ease in a month or two, billionaire ...
   url: https://www.reuters.com/sustainability/climate-energy/pain-pumps-will-ease-month-or-two-billionaire-catsimatidis-says-2026-03-11/
-- date: '2026-05-25'
+- date: ''
   title: Kwik Fill recognized by Forbes as one of America's Best ...
   url: https://www.wbng.com/2026/02/24/kwik-fill-recognized-by-forbes-one-americas-best-midsized-employers/
-- date: '2026-05-25'
+- date: ''
   title: United Refining 2026 Company Profile
   url: https://pitchbook.com/profiles/company/94329-01
-- date: '2026-05-25'
+- date: ''
   title: United Refining Company Hourly Pay in 2026
   url: https://www.payscale.com/research/US/Employer=United_Refining_Company/Hourly_Rate
-- date: '2026-05-25'
+- date: ''
   title: Manufacturer - 🔥Fueling Growth is almost here! Join Paul ...
   url: https://m.facebook.com/ManufacturerandBusinessAssociation/photos/fueling-growth-is-almost-herejoin-paul-rankin-of-united-refining-company-and-ste/1148620823948063/
 random_paper: 4
@@ -121,7 +121,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

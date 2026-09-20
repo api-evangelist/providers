@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Monster Beverage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Goods, Energy Drinks, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Monster Beverage Sales Boosted by International Brands, ...
   url: https://www.wsj.com/business/earnings/monster-beverage-sales-boosted-by-international-brands-weaker-dollar-785b5c96
-- date: '2026-05-25'
+- date: ''
   title: Forbes sees the future in Monster - Press Enterprise
   url: https://www.pressenterprise.com/2016/08/29/forbes-sees-the-future-in-monster/
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for Monster Beverage Corp filed 02/29/2024
   url: https://investors.monsterbevcorp.com/static-files/4634293b-bdda-43f8-9cc5-ddca58ecf08b
-- date: '2026-05-25'
+- date: ''
   title: Monster Beverage Corporation ($MNST)
   url: https://trendspider.com/learning-center/monster-beverage-corporation-mnst/
-- date: '2026-05-25'
+- date: ''
   title: 'Monster Beverage''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/monster-beverage-ai-strategy-analysis-of-dominance-in-cpg-beverage-ai/
 random_paper: 4
@@ -110,7 +110,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

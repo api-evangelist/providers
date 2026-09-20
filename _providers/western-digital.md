@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -207,19 +207,19 @@ plans:
   plan_count: 3
   slug: western-digital-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: We Drive Certainty in the AI Era | Brand Evolution
   url: https://www.westerndigital.com/company/campaign/we-drive
-- date: '2026-05-25'
+- date: ''
   title: Western Digital Accelerates Storage Innovation for AI Era
   url: https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-02-03-western-digital-accelerates-storage-innovation-for-ai-era
-- date: '2026-05-25'
+- date: ''
   title: Western Digital Doubles Down On AI Data Centers And ...
   url: https://finance.yahoo.com/news/western-digital-doubles-down-ai-070806616.html
-- date: '2026-05-25'
+- date: ''
   title: Western Digital Unveiled Go-Forward Strategy at Investor ...
   url: https://investor.wdc.com/news-releases/news-release-details/western-digital-unveiled-go-forward-strategy-investor-day-2025
-- date: '2026-05-25'
+- date: ''
   title: Western Digital forecasts quarterly revenue above ...
   url: https://www.reuters.com/business/western-digital-forecasts-quarterly-revenue-above-estimates-ai-storage-demand-2026-04-30/
 random_paper: 15
@@ -276,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

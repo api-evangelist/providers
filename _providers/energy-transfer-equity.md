@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,19 +96,19 @@ plans:
   plan_count: 0
   slug: energy-transfer-equity-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: WILLIAMS RIDES AI GAS BOOM America's race to build artificial ...
   url: https://www.facebook.com/tribunephl/posts/williams-rides-ai-gas-boomamericas-race-to-build-artificial-intelligence-is-now-/1388683783308038/
-- date: '2026-05-25'
+- date: ''
   title: Energy Transfer details vast midstream network in 10-K
   url: https://www.stocktitan.net/sec-filings/ET/10-k-energy-transfer-lp-files-annual-report-92d1558c35ce.html
-- date: '2026-05-25'
+- date: ''
   title: Energy Transfer LP Common Units (ET) Stock Price, Quote ...
   url: https://seekingalpha.com/symbol/ET
-- date: '2026-05-25'
+- date: ''
   title: Energy Transfer Equity LP files to offer up to $1 billion of ...
   url: https://www.reuters.com/article/idUSFWN1FT10C/
-- date: '2026-05-25'
+- date: ''
   title: Power demand is skyrocketing from AI, electrification and ...
   url: https://www.facebook.com/WilliamsEnergyCo/posts/power-demand-is-skyrocketing-from-ai-electrification-and-industrial-reshoring-bu/904918505241219/
 random_paper: 16
@@ -148,7 +148,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

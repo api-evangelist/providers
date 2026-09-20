@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Icahn Enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Energy, Fortune 500, Holding Company, and Investment.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Icahn Enterprises L.P. Announces Management Changes
   url: https://www.prnewswire.com/news-releases/icahn-enterprises-lp-announces-management-changes-302764089.html
-- date: '2026-05-25'
+- date: ''
   title: 'Icahn Enterprises (IEP): Assessing Valuation Following ...'
   url: https://finance.yahoo.com/news/icahn-enterprises-iep-assessing-valuation-031635620.html
-- date: '2026-05-25'
+- date: ''
   title: IEP Icahn Enterprises LP Stock Price & Overview
   url: https://seekingalpha.com/symbol/IEP
-- date: '2026-05-25'
+- date: ''
   title: SEC Charges Carl Icahn and Icahn Enterprises L.P. for ...
   url: https://www.sec.gov/newsroom/press-releases/2024-99
-- date: '2026-05-25'
+- date: ''
   title: Carl Icahn (@Carl_C_Icahn) / Posts / X
   url: https://x.com/Carl_C_Icahn
 random_paper: 4
@@ -117,7 +117,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

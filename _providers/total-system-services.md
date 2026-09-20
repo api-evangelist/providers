@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -233,19 +233,19 @@ plans:
   plan_count: 1
   slug: total-system-services-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: TSYS, Global Payments Merger Finalized In 'Landmark ...
   url: https://www.pymnts.com/news/partnerships-acquisitions/2019/global-payments-tsys-merger-finalized-in-landmark-transaction/
-- date: '2026-05-25'
+- date: ''
   title: Global Payments to buy TSYS for $21.5 billion in latest ...
   url: https://www.reuters.com/article/business/global-payments-to-buy-tsys-for-215-billion-in-latest-fintech-deal-idUSKCN1SY142/
-- date: '2026-05-25'
+- date: ''
   title: TSYS Unit Signs Security-Services Deal
   url: https://www.americanbanker.com/payments/news/tsys-unit-signs-security-services-deal
-- date: '2026-05-25'
+- date: ''
   title: TSYS Acquired by FIS | SRM Blog
   url: https://srmcorp.com/fis-announces-acquisition-of-tsys-from-global-payments-a-strategic-pivot-to-reinforce-issuer-services/
-- date: '2026-05-25'
+- date: ''
   title: Global Payments to acquire TSYS in $21.5B merger
   url: https://www.atmmarketplace.com/articles/global-payments-to-acquire-tsys-in-215b-merger/
 random_paper: 5
@@ -318,7 +318,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

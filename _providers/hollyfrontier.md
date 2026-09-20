@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ nav: Providers
 network: true
 overview: HollyFrontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Energy, Oil and Gas, Petroleum Refining, and Fuel.
 press:
-- date: '2026-05-25'
+- date: ''
   title: HollyFrontier Corporation (HFC) CEO George Damiris on ...
   url: https://seekingalpha.com/article/4301168-hollyfrontier-corporation-hfc-ceo-george-damiris-on-q3-2019-results-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: HollyFrontier sets 4Q earnings release, conference webcast
   url: https://journalrecord.com/2021/01/08/hollyfrontier-sets-4q-earnings-release-conference-webcast/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/48039/000119312522077293/d260898d8k.htm
-- date: '2026-05-25'
+- date: ''
   title: HollyFrontier Corporation Completes Merger
   url: https://www.prnewswire.com/news-releases/hollyfrontier-corporation-completes-merger-124844164.html
-- date: '2026-05-25'
+- date: ''
   title: HollyFrontier Corporation Third Quarter 2021 Earnings ...
   url: http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2021-10-4-hollyfrontier-corporation-third-quarter-2021-earnings-release-and-conference-webcast
 random_paper: 17
@@ -129,7 +129,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

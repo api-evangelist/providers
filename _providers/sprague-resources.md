@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 8
 common:
@@ -127,19 +127,19 @@ plans:
   plan_count: 3
   slug: sprague-resources-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sprague Resources announces acquisition of Coen Energy
   url: https://www.reuters.com/article/world/americas/sprague-resources-announces-acquisition-of-coen-energy-idUSASB0BK3D/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1525287/000152528720000029/form8kq22020.htm
-- date: '2026-05-25'
+- date: ''
   title: Sprague Resources LP (SRLP) - Revenue
   url: https://companiesmarketcap.com/sprague-resource-lp/revenue/
-- date: '2026-05-25'
+- date: ''
   title: Adorys Velazquez | People
   url: https://www.bakerbotts.com/people/v/velazquez-adorys/
-- date: '2026-05-25'
+- date: ''
   title: Sprague Resources LP Announces Cash Distribution for the First ...
   url: https://www.marketscreener.com/quote/stock/SPRAGUE-RESOURCES-LP-14670204/news/Sprague-Resources-LP-Announces-Cash-Distribution-for-the-First-Quarter-of-2022-and-Earnings-Conferen-40140081/
 random_paper: 9
@@ -184,7 +184,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,19 +139,19 @@ plans:
   plan_count: 1
   slug: norfolk-southern-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Safety Technology
   url: https://www.norfolksouthern.com/en/innovation/technology/advancing-safety
-- date: '2026-05-25'
+- date: ''
   title: Union Pacific-Norfolk Southern Merger Unlikely to Derail ...
   url: https://www.americanactionforum.org/press-release/union-pacific-norfolk-southern-merger-unlikely-to-derail-competition/
-- date: '2026-05-25'
+- date: ''
   title: How Norfolk Southern is Using AI to Help 'Move the US ...
   url: https://www.innovationleader.com/transportation/how-norfolk-southern-is-using-ai-to-help-move-the-us-economy/
-- date: '2026-05-25'
+- date: ''
   title: Norfolk Southern launches AI train inspection technology
   url: https://www.prnewswire.com/news-releases/norfolk-southern-launches-ai-train-inspection-technology-301968329.html
-- date: '2026-05-25'
+- date: ''
   title: Team NS 🤝 AI = A Safer Railroad 🚂 Working together ...
   url: https://www.facebook.com/norfolksouthern/posts/team-ns-ai-a-safer-railroad-working-together-by-combining-cutting-edge-tech-with/1156061903216994/
 random_paper: 2
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

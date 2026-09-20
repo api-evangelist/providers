@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -242,19 +242,19 @@ plans:
   plan_count: 3
   slug: tech-data-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Majority of Americans Oppose Fast-Tracking Data Centers ...
   url: https://techoversight.org/2025/01/09/data-center-poll/
-- date: '2026-05-25'
+- date: ''
   title: Tech Data Completes Acquisition of Innovix ...
   url: https://www.techdata.com/hk_tdcs/en/about-us/our-news/recent-news/tech-data-completes-acquisition-of-innovix-distributiontech-data.html
-- date: '2026-05-25'
+- date: ''
   title: A new report reveals that expanding AI data centers are ...
   url: https://www.facebook.com/TheDailyNote/posts/breaking-a-new-report-reveals-that-expanding-ai-data-centers-are-moving-into-wat/122289098210214858/
-- date: '2026-05-25'
+- date: ''
   title: Data Centers are Spreading the AI Boom Beyond Tech Hubs
   url: https://www.reveliolabs.com/news/tech/data-centers-are-spreading-the-ai-boom-beyond-tech-hubs/
-- date: '2026-05-25'
+- date: ''
   title: data & AI
   url: https://aholddelhaize.com/about/technology-innovation/data-ai/
 random_paper: 17
@@ -311,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

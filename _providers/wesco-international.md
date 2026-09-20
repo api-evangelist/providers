@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 19
 common:
@@ -109,19 +109,19 @@ overview: 'WESCO International is profiled on the [APIs.io](https://apis.io/) ne
 
   WESCO International''s developer surface includes developer portal, documentation, and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Wesco Named to Fortune's Inaugural AIQ50 List
   url: https://investors.wesco.com/news-releases/news-release-details/wesco-named-fortunes-inaugural-aiq50-list
-- date: '2026-05-25'
+- date: ''
   title: Wesco International Reports Fourth Quarter and Full Year ...
   url: https://investors.wesco.com/news-releases/news-release-details/wesco-international-reports-fourth-quarter-and-full-year-2025
-- date: '2026-05-25'
+- date: ''
   title: Wesco Named to Fortune's Inaugural AIQ50 List
   url: https://www.prnewswire.com/news-releases/wesco-named-to-fortunes-inaugural-aiq50-list-302665357.html
-- date: '2026-05-25'
+- date: ''
   title: Wesco International Reports First Quarter 2026 Results
   url: https://investors.wesco.com/news-releases/news-release-details/wesco-international-reports-first-quarter-2026-results
-- date: '2026-05-25'
+- date: ''
   title: Wesco International Reports Second Quarter 2025 Results
   url: https://investors.wesco.com/news-releases/news-release-details/wesco-international-reports-second-quarter-2025-results
 random_paper: 10
@@ -145,7 +145,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

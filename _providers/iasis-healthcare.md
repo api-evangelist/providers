@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: IASIS Healthcare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Healthcare, Hospitals, and Legacy.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Steward Health Completes Acquisition Of IASIS Healthcare
   url: https://www.prnewswire.com/news-releases/steward-health-completes-acquisition-of-iasis-healthcare-300528426.html
-- date: '2026-05-25'
+- date: ''
   title: Medicaid Expansion Helps IASIS' Q2 Revenue Amidst Net ...
   url: https://www.beckershospitalreview.com/finance/medicaid-expansion-helps-iasis-q2-revenue-amidst-net-loss/
-- date: '2026-05-25'
+- date: ''
   title: For-profit hospital chain Iasis Healthcare backs away from ...
   url: https://medcitynews.com/2017/01/iasis-healthcare-backs-away-ipo/
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: IASIS Healthcare Corp. Outlook R'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/9951796
-- date: '2026-05-25'
+- date: ''
   title: Private Hospital Global Market Report 2023
   url: https://finance.yahoo.com/news/private-hospital-global-market-report-141000773.html
 random_paper: 17
@@ -101,7 +101,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

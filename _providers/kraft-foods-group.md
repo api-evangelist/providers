@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -54,19 +54,19 @@ nav: Providers
 network: true
 overview: Kraft Foods Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Packaged Goods, Food, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Tag: Kraft Foods Group Inc.'
   url: https://www.intelligize.com/tag/kraft-foods-group-inc/
-- date: '2026-05-25'
+- date: ''
   title: Kraft Heinz invests in AI, robotics so it doesn't have to ' ...
   url: https://www.ciodive.com/news/kraft-heinz-invests-in-ai-robotics-so-it-doesnt-have-to-ketchup-to-comp/506501/
-- date: '2026-05-25'
+- date: ''
   title: KRAFT FOODS GROUP SHAREHOLDERS APPROVE ...
   url: https://www.prnewswire.com/news-releases/kraft-foods-group-shareholders-approve-merger-transaction-with-hj-heinz-holding-corporation-and-its-subsidiaries-to-form-the-kraft-heinz-company-300107531.html
-- date: '2026-05-25'
+- date: ''
   title: 'Business Bites: Kraft Heinz invests in growth, may stay ...'
   url: https://www.supplysidefbj.com/food-beverage-operations/business-bites-kraft-heinz-invests-600-million-in-effort-to-stay-together
-- date: '2026-05-25'
+- date: ''
   title: Kraft Heinz and TheNotCompany Partner to Accelerate AI ...
   url: https://www.delimarketnews.com/culture/kraft-heinz-and-thenotcompany-partner-accelerate-ai-driven-plant-based-innovation-miguel-patricio-and-matias-muchnick-detail/anne-allen/mon-02282022-0850/13144
 random_paper: 6
@@ -96,7 +96,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

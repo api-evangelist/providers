@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,30 +66,30 @@ overview: 'Huntsman Corporation is profiled on the [APIs.io](https://apis.io/) n
 
   Huntsman Corporation''s developer surface includes engineering blog and 3 more developer resources.'
 press:
-- date: '2026-05-25'
-  title: How is Artificial Intelligence transforming cancer care? From ...
-  url: https://www.facebook.com/HuntsmanCancerInstitute/videos/how-is-artificial-intelligence-transforming-cancer-care-from-improving-diagnoses/1104707831256623/
-- date: '2026-05-25'
-  title: Technology Portal
-  url: https://www.huntsman.com/technology-portal
-- date: '2026-05-25'
-  title: Press Releases | Huntsman Cancer Institute
-  url: https://healthcare.utah.edu/huntsmancancerinstitute/press-releases
-- date: '2026-05-25'
-  title: Job | Chief - Division of Cancer Data and Artificial Intelligence
-  url: https://www.aaci-cancer.org/job-chief-division-of-cancer-data-and-artificial-intelligence
-- date: '2026-05-25'
-  title: Transformational Utah Investment in Artificial Intelligence ...
-  url: https://healthcare.utah.edu/huntsmancancerinstitute/press-releases/2026/04/transformational-utah-investment-artificial-intelligence-and-computing
-- date: '2026-04-30'
+- date: ''
   title: Huntsman Announces First Quarter 2026 Earnings
   url: https://www.huntsman.com/news/media-releases/detail/623/huntsman-announces-first-quarter-2026-earnings
-- date: '2026-04-30'
-  title: Huntsman Announces Second Quarter 2026 Common Dividend
-  url: https://www.huntsman.com/news/media-releases/detail/624/huntsman-announces-second-quarter-2026-common-dividend
-- date: '2026-04-15'
+- date: ''
+  title: Huntsman Corporation Appoints Amy Smedley as Executive Vice President, General Counsel & Secretary
+  url: https://www.huntsman.com/news/media-releases/detail/616/huntsman-corporation-appoints-amy-smedley-as-executive-vice
+- date: ''
+  title: Huntsman Updates Fourth Quarter 2025 Outlook
+  url: https://www.huntsman.com/news/media-releases/detail/615/huntsman-updates-fourth-quarter-2025-outlook
+- date: ''
+  title: How is Artificial Intelligence transforming cancer care? From ...
+  url: https://www.facebook.com/HuntsmanCancerInstitute/videos/how-is-artificial-intelligence-transforming-cancer-care-from-improving-diagnoses/1104707831256623/
+- date: ''
+  title: Technology Portal
+  url: https://www.huntsman.com/technology-portal
+- date: ''
+  title: Huntsman to Discuss Fourth Quarter 2025 Results on February 18, 2026
+  url: https://www.huntsman.com/news/media-releases/detail/617/huntsman-to-discuss-fourth-quarter-2025-results-on-february
+- date: ''
   title: Huntsman Turns Regulatory Compliance into Innovation Advancements for Aerospace OEMs
   url: https://www.huntsman.com/news/media-releases/detail/622/huntsman-turns-regulatory-compliance-into-innovation
+- date: ''
+  title: Huntsman Announces Fourth Quarter 2025 Earnings
+  url: https://www.huntsman.com/news/media-releases/detail/618/huntsman-announces-fourth-quarter-2025-earnings
 random_paper: 20
 score:
   band: minimal
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

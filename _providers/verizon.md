@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -523,19 +523,19 @@ plans:
   plan_count: 1
   slug: verizon-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Verizon Business and AWS accelerate AI applications at ...
   url: https://www.verizon.com/about/news/verizon-business-and-aws-new-fiber-deal
-- date: '2026-05-25'
+- date: ''
   title: Verizon infuses AI in network, accelerates Open RAN ...
   url: https://www.samsung.com/global/business/networks/insights/press-release/0224-verizon-infuses-ai-in-network-accelerates-open-ran-innovation-with-multi-vendor-ran-intelligent-controller-deployment/
-- date: '2026-05-25'
+- date: ''
   title: Responsible Artificial Intelligence | About Verizon
   url: https://www.verizon.com/about/investors/responsible-ai-program
-- date: '2026-05-25'
+- date: ''
   title: 'Verizon AI Connect: AI Network Infrastructure and ...'
   url: https://www.verizon.com/business/solutions/ai-connect/
-- date: '2026-05-25'
+- date: ''
   title: Verizon unveils AI strategy to power next-gen AI demands
   url: https://www.verizon.com/about/news/verizon-unveils-ai-strategy-power-next-gen-ai-demands
 random_paper: 11
@@ -606,7 +606,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

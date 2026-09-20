@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Patterson Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Dental, Animal Health, and Veterinary.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Release | Pearl and Patterson Dental Forge ...
   url: https://hellopearl.com/news/pearl-and-patterson-dental-forge-partnership-to-revolutionize-dental-care-with-artificial-intelligence-integration
-- date: '2026-05-25'
+- date: ''
   title: Becoming a Discerning AI User
   url: https://www.thepattersonfoundation.org/blog/fellows/becoming-a-discerning-ai-user.html
-- date: '2026-05-25'
+- date: ''
   title: Patterson Companies Announces Definitive Agreement to ...
   url: https://patientsquarecapital.com/patterson-companies-announces-definitive-agreement-to-be-acquired-by-patient-square-capital-for-31-35-per-share-in-cash/
-- date: '2026-05-25'
+- date: ''
   title: Are you familiar with NaVetor, Patterson Veterinary's cloud ...
   url: https://www.facebook.com/PattersonCompaniesInc/posts/are-you-familiar-with-navetor-patterson-veterinarys-cloud-practice-management-so/1558319705958429/
-- date: '2026-05-25'
+- date: ''
   title: Patterson Dental Selects Pearl as New Integrated AI Provider
   url: https://www.businesswire.com/news/home/20231120987871/en/Patterson-Dental-Selects-Pearl-as-New-Integrated-AI-Provider
 random_paper: 2
@@ -101,7 +101,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

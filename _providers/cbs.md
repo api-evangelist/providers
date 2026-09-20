@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The CBS Sports Fantasy Platform REST API, version 3.0. Opened to third-party developers in January 2012 so apps could read league, team, player, draft, transaction and scoring data out of CBS Sports f
@@ -196,19 +196,19 @@ plans:
   plan_count: 0
   slug: cbs-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Veritone Expands CBS News Partnership and Adds ...
   url: https://investors.veritone.com/news-events/press-releases/detail/395/veritone-expands-cbs-news-partnership-and-adds-cbs-media-ventures-iconic-entertainment-programs
-- date: '2026-05-25'
+- date: ''
   title: CBS 60 minutes ai art segment
   url: https://www.facebook.com/groups/698593531630485/posts/1526442915512205/
-- date: '2026-05-25'
+- date: ''
   title: “BB AI” IS TAKING OVER THE “BIG BROTHER” HOUSE ...
   url: https://www.paramountpressexpress.com/cbs-entertainment/shows/big-brother/releases/?view=110010-bb-ai-is-taking-over-the-big-brother-house-this-summer
-- date: '2026-05-25'
+- date: ''
   title: AI in Business Initiative | Columbia Business School
   url: https://business.columbia.edu/ai-in-business
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence news - Today's latest updates
   url: https://www.cbsnews.com/atlanta/tag/artificial-intelligence/
 random_paper: 4
@@ -239,7 +239,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

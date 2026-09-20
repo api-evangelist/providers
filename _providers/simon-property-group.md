@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: ShopSimon is Simon's e-commerce platform integrating online and offline retail. The ShopSimon Retailer Hub provides APIs for sellers to integrate product listings, inventory data, and order management
@@ -124,19 +124,19 @@ plans:
   plan_count: 1
   slug: simon-property-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Simon® Takes Holiday Shopping to a New Level Thanks to AI
   url: https://investors.simon.com/news-releases/news-release-details/simonr-takes-holiday-shopping-new-level-thanks-ai/
-- date: '2026-05-25'
+- date: ''
   title: Simon Property Group has explored converting some mall ...
   url: https://www.instagram.com/p/DYShBdMFr7N/
-- date: '2026-05-25'
+- date: ''
   title: 'Simon Property Group - The #1 mall company in the US ...'
   url: https://quividi.com/global-case-studies/simon-property-group/
-- date: '2026-05-25'
+- date: ''
   title: Simon Property Group Announces the Passing of David ...
   url: https://www.prnewswire.com/news-releases/simon-property-group-announces-the-passing-of-david-simon-302722043.html
-- date: '2026-05-25'
+- date: ''
   title: 'Simon Property Group''s AI Strategy: Analysis of ...'
   url: https://www.klover.ai/simon-property-group-ai-strategy-analysis-of-dominance-in-real-estate-ai/
 random_paper: 8
@@ -164,7 +164,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

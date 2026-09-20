@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,19 +89,19 @@ overview: 'Genesis Energy is profiled on the [APIs.io](https://apis.io/) network
 
   Genesis Energy''s developer surface includes support and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Genesis Mission has arrived. The world's most powerful ...
   url: https://www.facebook.com/energy/posts/genesis-mission-has-arrivedthe-worlds-most-powerful-scientific-platform-to-ever-/1149584817331006/
-- date: '2026-05-25'
+- date: ''
   title: Armada Agreement with United States Department of ...
   url: https://www.prnewswire.com/news-releases/armada-agreement-with-united-states-department-of-energy-to-accelerate-genesis-mission-302646196.html
-- date: '2026-05-25'
+- date: ''
   title: Energy Department Announces Collaboration Agreements ...
   url: https://www.energy.gov/articles/energy-department-announces-collaboration-agreements-24-organizations-advance-genesis
-- date: '2026-05-25'
+- date: ''
   title: Genesis Energy Adopts Databricks to Accelerate Data and ...
   url: https://kbi.media/press-release/genesis-energy-adopts-databricks-to-accelerate-data-and-ai-transformation/
-- date: '2026-05-25'
+- date: ''
   title: Genesis Energy excels in cloud data governance
   url: https://www.informatica.com/customer-success-stories/genesis-energy.html
 random_paper: 15
@@ -138,7 +138,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

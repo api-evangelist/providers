@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 20
 common:
@@ -155,19 +155,19 @@ nav: Providers
 network: true
 overview: Chipotle Mexican Grill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Burritos, Catering, Digital Ordering, Fast Casual, and Food Safety.
 press:
-- date: '2026-05-25'
+- date: ''
   title: CHIPOTLE INTRODUCES NEW AI HIRING PLATFORM TO ...
   url: https://newsroom.chipotle.com/2024-10-22-CHIPOTLE-INTRODUCES-NEW-AI-HIRING-PLATFORM-TO-SUPPORT-ITS-ACCELERATED-GROWTH
-- date: '2026-05-25'
+- date: ''
   title: CHIPOTLE TESTS AI KITCHEN ASSISTANT, CHIPPY
   url: https://ir.chipotle.com/2022-03-16-CHIPOTLE-TESTS-AI-KITCHEN-ASSISTANT,-CHIPPY
-- date: '2026-05-25'
+- date: ''
   title: CHIPOTLE TESTS AI KITCHEN ASSISTANT, CHIPPY
   url: https://www.prnewswire.com/news-releases/chipotle-tests-ai-kitchen-assistant-chippy-301503796.html
-- date: '2026-05-25'
+- date: ''
   title: CHIPOTLE PILOTS ADVANCED TECHNOLOGY TO ...
   url: https://newsroom.chipotle.com/2022-09-27-CHIPOTLE-PILOTS-ADVANCED-TECHNOLOGY-TO-ENHANCE-THE-EMPLOYEE-AND-GUEST-EXPERIENCE
-- date: '2026-05-25'
+- date: ''
   title: Tyler Hallam's Post
   url: https://www.linkedin.com/posts/tyler-hallam-a385083a_seems-like-every-month-theres-a-press-release-activity-7261723721080463361-jPoZ
 random_paper: 3
@@ -196,7 +196,7 @@ score:
     - north-america
   previous_composite: 9.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

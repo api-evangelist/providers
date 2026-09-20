@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,19 +90,19 @@ overview: 'Tailored Brands is profiled on the [APIs.io](https://apis.io/) networ
 
   Tailored Brands'' developer surface includes engineering blog and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Tailored Brands: Enhancing the online shopping experience'
   url: https://egen.ai/customer-stories/tailored-brands-enhancing-the-online-shopping-experience/
-- date: '2026-05-25'
+- date: ''
   title: Bold Metrics in the news
   url: https://boldmetrics.com/press
-- date: '2026-05-25'
+- date: ''
   title: TAILORED BRANDS ANNOUNCES NEW BOARD ...
   url: https://www.prnewswire.com/news-releases/tailored-brands-announces-new-board-leadership-302401130.html
-- date: '2026-05-25'
+- date: ''
   title: Tailored Brands Looks to Return to Wall Street With a ...
   url: https://finance.yahoo.com/markets/stocks/articles/tailored-brands-looks-return-wall-184010565.html
-- date: '2026-05-25'
+- date: ''
   title: Men's Wearhouse Unveils Next-Gen Stores
   url: https://www.tailoredbrands.com/2021/02/04/mens-wearhouse-unveils-next-gen-stores/
 random_paper: 13
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

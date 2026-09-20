@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Hillshire Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Food, Consumer Packaged Goods, Meat, and Acquired.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Hillshire Brands to Acquire Pinnacle Foods for $6.6 Billion
   url: https://njbmagazine.com/njb-news-now/hillshire-brands-acquire-pinnacle-foods-6-6-billion/
-- date: '2026-05-25'
+- date: ''
   title: Sara Lee names meats company Hillshire Brands
   url: https://finance.yahoo.com/news/sara-lee-names-meats-company-140050863.html
-- date: '2026-05-25'
+- date: ''
   title: Conagra's human-centered approach | USC Annenberg
   url: https://annenberg.usc.edu/research/center-public-relations/usc-annenberg-relevance-report/conagras-human-centered-approach
-- date: '2026-05-25'
+- date: ''
   title: Hillshire Brands Mobilize Information to Improve Compliance
   url: https://www.rockwellautomation.com/en-in/company/news/case-studies/hillshire-brands-mobilize-information-to-improve-compliance.html
-- date: '2026-05-25'
+- date: ''
   title: Tyson wins bidding war to buy Hillshire Brands
   url: https://www.latimes.com/business/la-fi-tyson-wins-bid-for-hillshire-brands-20140609-story.html
 random_paper: 15
@@ -104,7 +104,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

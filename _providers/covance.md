@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,19 +102,19 @@ overview: 'Covance (Fortrea) is profiled on the [APIs.io](https://apis.io/) netw
 
   Covance (Fortrea)''s developer surface includes engineering blog and 12 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Covance Inc. Board Authorizes $250 Million Stock Buyback
   url: https://www.biospace.com/covance-inc-board-authorizes-250-million-stock-buyback
-- date: '2026-05-25'
+- date: ''
   title: Covance and Lilly Reach Strategic Agreement
   url: https://www.appliedclinicaltrialsonline.com/view/covance-and-lilly-reach-strategic-agreement
-- date: '2026-05-25'
+- date: ''
   title: Covance – Specialized IT Services Provider
   url: https://covance.ai/
-- date: '2026-05-25'
+- date: ''
   title: Covance Announces Plans to Build New Drug Development ...
   url: https://www.fiercebiotech.com/biotech/covance-announces-plans-to-build-new-drug-development-facility-prince-william-county
-- date: '2026-05-25'
+- date: ''
   title: Covance and Definiens Collaborate to Integrate Digital ...
   url: https://ir.labcorp.com/news-releases/news-release-details/covance-and-definiens-collaborate-integrate-digital-pathology
 random_paper: 9
@@ -149,7 +149,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

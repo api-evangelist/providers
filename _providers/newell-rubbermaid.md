@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Newell Rubbermaid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Goods, Historical, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for Newell Brands INC filed 02/14/2025
   url: https://ir.newellbrands.com/static-files/43ff083b-3e55-415b-b012-63cd014d5e98
-- date: '2026-05-25'
+- date: ''
   title: Newell Rubbermaid makes $15bn bid for rival Jarden
   url: https://www.bbc.com/news/business-35098302
-- date: '2026-05-25'
+- date: ''
   title: 'Forbes Earnings Preview: Newell Rubbermaid'
   url: https://www.forbes.com/sites/narrativescience/2012/10/23/forbes-earnings-preview-newell-rubbermaid-5/
-- date: '2026-05-25'
+- date: ''
   title: Rubbermaid Commercial Products Reinvents Mop Bucket ...
   url: https://www.prnewswire.com/news-releases/rubbermaid-commercial-products-reinvents-mop-bucket-with-innovative-integrated-water-filter-131581218.html
-- date: '2026-05-25'
+- date: ''
   title: Newell Brands Announces Global Productivity Plan to ...
   url: https://www.barchart.com/story/news/36384882/newell-brands-announces-global-productivity-plan-to-strengthen-competitiveness-and-deliver-greater-value-for-consumers
 random_paper: 7
@@ -103,7 +103,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

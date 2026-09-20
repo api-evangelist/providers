@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,19 +98,19 @@ overview: 'Ferrellgas Partners is profiled on the [APIs.io](https://apis.io/) ne
 
   Ferrellgas Partners'' developer surface includes engineering blog, support, and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ferrellgas Partners files Form 3 initial beneficial ownership ...
   url: https://www.sahmcapital.com/news/content/ferrellgas-partners-files-form-3-initial-beneficial-ownership-statement-by-ares-management-2026-03-25
-- date: '2026-05-25'
+- date: ''
   title: Ferrellgas Partners (FGP) Posts Wider-Than-Expected Q4 ...
   url: https://finance.yahoo.com/news/ferrellgas-partners-fgp-posts-wider-133201557.html
-- date: '2026-05-25'
+- date: ''
   title: Ferrellgas Expands Descartes Routing Solution to Blue ...
   url: https://www.dcvelocity.com/articles/34608-ferrellgas-expands-descartes-routing-solution-to-blue-rhino-division-for-enhanced-customer-service
-- date: '2026-05-25'
+- date: ''
   title: Ferrellgas Partners L.P Unit (FGPR) reports earnings - Quartz
   url: https://qz.com/ferrellgas-partners-l-p-unit-fgpr-reports-earnings-1851726131
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Ferrellgas Partners L.P. Upgrade'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3458622
 random_paper: 7
@@ -140,7 +140,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

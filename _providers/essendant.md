@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -121,19 +121,19 @@ plans:
   plan_count: 0
   slug: essendant-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Essendant Announces Strategic Partnership with Roadie to ...
   url: https://www.prnewswire.com/news-releases/essendant-announces-strategic-partnership-with-roadie-to-enhance-supply-chain-efficiency-and-last-mile-delivery-solutions-302479896.html
-- date: '2026-05-25'
+- date: ''
   title: Essendant Optimizes Its Supply Chain to Create a More ...
   url: https://www.dcvelocity.com/articles/58077-essendant-optimizes-its-supply-chain-to-create-a-more-streamlined-furniture-fulfillment-program
-- date: '2026-05-25'
+- date: ''
   title: Essendant Partners with Hub Group to Launch Managed ...
   url: https://www.prnewswire.com/news-releases/essendant-partners-with-hub-group-to-launch-managed-delivery-model-delivering-to-warehouses-within-48-hours-302593582.html
-- date: '2026-05-25'
+- date: ''
   title: 'Pricing Under Pressure: How SP Richards Stays Profitable ...'
   url: https://pros.com/b2b/learn/case-studies-testimonials/pricing-under-pressure-sp-richards-stays-profitable/
-- date: '2026-05-25'
+- date: ''
   title: Essendant invests in marketing innovations to help dealers ...
   url: https://www.essendant.com/wp-content/uploads/2024/03/Independent-Dealer-2024-Essendant-Marketing-new.pdf
 random_paper: 19
@@ -168,7 +168,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

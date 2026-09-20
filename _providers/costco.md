@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -150,19 +150,19 @@ overview: 'Costco Wholesale is profiled on the [APIs.io](https://apis.io/) netwo
 
   Costco Wholesale''s developer surface includes product news, YouTube channel, and 23 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Costco approaching AI in 'very Costco way'
   url: https://www.constellationr.com/insights/news/costco-approaching-ai-very-costco-way
-- date: '2026-05-25'
+- date: ''
   title: How Costco is using AI to boost efficiency and customer ...
   url: https://www.linkedin.com/posts/digitalcommerce360_how-costco-is-using-ai-activity-7367266977003806721-kG2w
-- date: '2026-05-25'
+- date: ''
   title: Costco Wholesale Corporation Archives
   url: https://coresight.com/coresight_100_type/costco-wholesale-corporation/
-- date: '2026-05-25'
+- date: ''
   title: GrowthLoop partners with Costco to Power Retail Media ...
   url: https://www.prnewswire.com/news-releases/growthloop-partners-with-costco-to-power-retail-media-operations-with-its-compound-marketing-engine-302535994.html
-- date: '2026-05-25'
+- date: ''
   title: Costco expands travel benefit by rolling out use of artificial ...
   url: https://www.foxnews.com/travel/costco-expands-travel-benefit-rolling-out-artificial-intelligence
 random_paper: 13
@@ -186,7 +186,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

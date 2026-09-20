@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,19 +94,19 @@ overview: 'Cooper Tire & Rubber is profiled on the [APIs.io](https://apis.io/) n
 
   Cooper Tire & Rubber''s developer surface includes support and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Goodyear to buy Cooper Tire for $2.8 bln, nearly doubling ...
   url: https://www.reuters.com/world/china/goodyear-buy-cooper-tire-28-bln-nearly-doubling-china-presence-2021-02-22/
-- date: '2026-05-25'
+- date: ''
   title: Goodyear agrees to buy Cooper Tire for about $2.8 billion
   url: https://www.autonews.com/suppliers/goodyear-agrees-buy-cooper-tire-about-28-billion/
-- date: '2026-05-25'
+- date: ''
   title: Cooper Tire & Rubber Archives
   url: https://www.tyrepress.com/tag/cooper-tire-rubber/
-- date: '2026-05-25'
+- date: ''
   title: Goodyear to Acquire Cooper, Creating Stronger U.S.- ...
   url: https://www.prnewswire.com/news-releases/goodyear-to-acquire-cooper-creating-stronger-us-based-leader-in-global-tire-industry-301232406.html
-- date: '2026-05-25'
+- date: ''
   title: Goodyear acquires Cooper in all-American tire deal
   url: https://fox11online.com/news/nation-world/goodyear-acquires-cooper-in-all-american-tire-deal
 random_paper: 12
@@ -130,7 +130,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -89,19 +89,19 @@ overview: 'NuStar Energy is profiled on the [APIs.io](https://apis.io/) network.
 
   NuStar Energy''s developer surface includes product news and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: NuStar acquired by Sunoco for $7.3B, fate of SA-based ...
   url: https://www.ksat.com/news/local/2024/05/06/nustar-acquired-by-sunoco-for-73b-fate-of-sa-based-companys-employees-unclear/
-- date: '2026-05-25'
+- date: ''
   title: 'The Breakdown: Gas Station Owner Sunoco Buys NuStar ...'
   url: https://energynow.com/2024/01/gas-station-owner-sunoco-to-buy-nustar-energy-for-7-3-billion/
-- date: '2026-05-25'
+- date: ''
   title: Sunoco LP and NuStar Energy L.P. Announce ...
   url: https://www.prnewswire.com/news-releases/sunoco-lp-and-nustar-energy-lp-announce-nustars-unitholder-approval-of-the-sunoco-transaction-302133671.html
-- date: '2026-05-25'
+- date: ''
   title: Sunoco LP to Acquire NuStar Energy L.P. in Transaction ...
   url: https://www.velaw.com/news/sunoco-lp-to-acquire-nustar-energy-l-p-in-transaction-valued-at-7-3-billion/
-- date: '2026-05-25'
+- date: ''
   title: Sunoco LP completes acquisition of NuStar Energy
   url: https://www.facebook.com/nustarenergy1/posts/we-are-pleased-to-announce-that-effective-may-3-2024-sunoco-lp-completed-its-acq/960027296127588/
 random_paper: 0
@@ -137,7 +137,7 @@ score:
     regime_id: energy_utilities
     score: 5.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

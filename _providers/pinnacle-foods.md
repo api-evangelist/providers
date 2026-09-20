@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Pinnacle Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pinnacle Foods to exit certain non-strategic Aunt Jemima frozen ...
   url: https://www.reuters.com/article/business/pinnacle-foods-to-exit-certain-non-strategic-aunt-jemima-frozen-breakfast-produc-idUSFWN1IA0HG/
-- date: '2026-05-25'
+- date: ''
   title: Conagra Brands Completes Acquisition Of Pinnacle Foods
   url: https://www.prnewswire.com/news-releases/conagra-brands-completes-acquisition-of-pinnacle-foods-300738613.html
-- date: '2026-05-25'
+- date: ''
   title: Conagra buying Boulder Brands owner Pinnacle Foods in ...
   url: https://www.denverpost.com/2018/06/27/conagra-buys-boulder-brands-pinnacle-foods/
-- date: '2026-05-25'
+- date: ''
   title: Conagra Brands to Acquire Pinnacle Foods
   url: https://njbmagazine.com/njb-news-now/conagra-brands-to-acquire-pinnacle-foods/
-- date: '2026-05-25'
+- date: ''
   title: Conagra Brands 'agrees to buy Pinnacle Foods'
   url: https://www.just-food.com/news/conagra-brands-agrees-to-buy-pinnacle-foods/
 random_paper: 18
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

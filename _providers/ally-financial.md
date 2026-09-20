@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: 'A conceptual, API-Evangelist-derived domain model of Ally Financial''s consumer platform spanning deposit accounts (checking, savings, money market, CDs, IRAs), lending (auto, personal, mortgage, home '
@@ -101,19 +101,19 @@ overview: 'Ally Financial publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
   Ally Financial''s developer surface includes support and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ally Financial rolls out proprietary AI platform enterprise-wide
   url: https://www.prnewswire.com/news-releases/ally-financial-rolls-out-proprietary-ai-platform-enterprise-wide-302511391.html
-- date: '2026-05-25'
+- date: ''
   title: About Us
   url: https://www.ally.com/about/
-- date: '2026-05-25'
+- date: ''
   title: Ally makes AI platform available companywide
   url: https://www.bankingdive.com/news/ally-ai-platform-banking-cio-muthukrishnan/753788/
-- date: '2026-05-25'
+- date: ''
   title: Ally Financial rolls out proprietary AI platform enterprise-wide
   url: https://media.ally.com/2025-07-23-Ally-Financial-rolls-out-proprietary-AI-platform-enterprise-wide
-- date: '2026-05-25'
+- date: ''
   title: MediaRoom - Multimedia Library
   url: https://media.ally.com/multimedia
 random_paper: 4
@@ -150,7 +150,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

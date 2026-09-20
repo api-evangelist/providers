@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -97,19 +97,19 @@ plans:
   plan_count: 3
   slug: vwr-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: VWR Enters into Definitive Agreement with Avantor
   url: https://www.prnewswire.com/news-releases/vwr-enters-into-definitive-agreement-with-avantor-300452195.html
-- date: '2026-05-25'
+- date: ''
   title: Avantor to Acquire VWR for $6.4 Billion
   url: https://www.stblaw.com/about-us/news/view/2017/05/05/avantor-to-acquire-vwr-for-$6.4-billion
-- date: '2026-05-25'
+- date: ''
   title: Avantor Completes Acquisition of VWR
   url: https://www.biospace.com/avantor-completes-acquisition-of-vwr
-- date: '2026-05-25'
+- date: ''
   title: Avantor Services
   url: https://www.vwr.com/us/en/services
-- date: '2026-05-25'
+- date: ''
   title: Avantor® Completes Acquisition of VWR
   url: https://www.labmanager.com/avantor-completes-acquisition-of-vwr-5935
 random_paper: 21
@@ -143,7 +143,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

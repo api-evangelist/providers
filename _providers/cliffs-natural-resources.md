@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,19 +103,19 @@ overview: 'Cliffs Natural Resources is profiled on the [APIs.io](https://apis.io
 
   Cliffs Natural Resources'' developer surface includes engineering blog and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cliffs Natural Resources Inc. Celebrates 170 Years of Mining
   url: https://www.prnewswire.com/news-releases/cliffs-natural-resources-inc-celebrates-170-years-of-mining-300448500.html
-- date: '2026-05-25'
+- date: ''
   title: 'Cleveland-Cliffs Vs GRAY MEDIA -A: Which is a Better Buy ...'
   url: https://danelfin.com/stocks/CLF-cleveland-cliffs-vs-GTN.A-gray-media-a-compare
-- date: '2026-05-25'
+- date: ''
   title: Cleveland-Cliffs Reports First-Quarter 2026 Results
   url: https://earningswhispers.com/epsdetails/CLF
-- date: '2026-05-25'
+- date: ''
   title: Cliffs Natural Resources renames itself Cleveland-Cliffs Inc.
   url: https://www.uppermichiganssource.com/content/news/Cliffs-Natural-Resources-440498943.html
-- date: '2026-05-25'
+- date: ''
   title: ANNUAL REPORT 2024
   url: https://www.clevelandcliffs.com/investors/sec-filings/annual-reports/content/0000764065-25-000074/0000764065-25-000074.pdf
 random_paper: 3
@@ -139,7 +139,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

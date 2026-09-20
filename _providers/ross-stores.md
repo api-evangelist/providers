@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Ross Stores operates a sophisticated supply chain technology stack including AI-driven inventory allocation, distribution center automation, and merchandise analytics. The company is investing approxi
@@ -124,19 +124,19 @@ plans:
   plan_count: 1
   slug: ross-stores-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ross Stores Reports Robust First Quarter Sales and ...
   url: https://www.prnewswire.com/news-releases/ross-stores-reports-robust-first-quarter-sales-and-earnings-results-significantly-exceeding-guidance-302779470.html
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for Ross Stores INC filed 04/01/2025
   url: https://investors.rossstores.com/static-files/25b7a2b6-adfd-489d-bd29-61a2e86c3f0e
-- date: '2026-05-25'
+- date: ''
   title: Ross Stores makes drastic decision customers will see in ...
   url: https://finance.yahoo.com/news/ross-stores-makes-drastic-decision-171700730.html
-- date: '2026-05-25'
+- date: ''
   title: Stanley L. - Ross Stores, Inc.
   url: https://www.linkedin.com/in/stanley-l-94790380
-- date: '2026-05-25'
+- date: ''
   title: Ross Stores posts $22.8B sales, EPS $6.61 | ROST Annual ...
   url: https://www.stocktitan.net/sec-filings/ROST/10-k-ross-stores-inc-files-annual-report-fa6847171353.html
 random_paper: 6
@@ -175,7 +175,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

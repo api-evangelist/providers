@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Nationstar Mortgage Holdings is profiled on the [APIs.io](https://api
 
   Nationstar Mortgage Holdings'' developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Rocket Companies Announces Delivery of Conditional ...
   url: https://www.prnewswire.com/news-releases/rocket-companies-announces-delivery-of-conditional-redemption-notice-for-three-series-of-senior-notes-issued-by-nationstar-mortgage-holding-inc-and-post-closing-reorganization-transactions-302563266.html
-- date: '2026-05-25'
+- date: ''
   title: Mr. Cooper Launches New Mobile App to Bring the Power of AI ...
   url: https://www.chartmill.com/news/NSM/bizwire-2018-5-9-mr-cooper-launches-new-mobile-app-to-bring-the-power-of-ai-to-homeowners
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Mr. Cooper Group Inc. Ratings Ra'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3451289
-- date: '2026-05-25'
+- date: ''
   title: Mr. Cooper announces new AI-driven mobile app for ...
   url: https://www.housingwire.com/articles/43324-mr-cooper-announces-new-ai-driven-mobile-app-for-homeowners/
-- date: '2026-05-25'
+- date: ''
   title: 'Hail to the Chief: Nationstar COO Tony Ebers ...'
   url: https://www.facebook.com/TitleQuestInvestments/posts/hail-to-the-chief-nationstar-coo-tony-ebersnationstar-mortgage-holdings-has-notc/1801684699890902/
 random_paper: 9
@@ -110,7 +110,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

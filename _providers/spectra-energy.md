@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Spectra Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Oil and Gas, Pipelines, and Utilities.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Enbridge and Spectra Energy Merger Expected to Close ...
   url: https://www.newswire.ca/news-releases/enbridge-and-spectra-energy-merger-expected-to-close-february-27-2017-614606384.html
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Spectra Energy Corp. And Subsidi'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/9785908
-- date: '2026-05-25'
+- date: ''
   title: 'Spectra Energy''s Earnings: A Formality Before the Big Enbridge ...'
   url: https://www.foxbusiness.com/markets/spectra-energys-earnings-a-formality-before-the-big-enbridge-merger
-- date: '2026-05-25'
+- date: ''
   title: Enbridge Inc. and Spectra Energy Partners, LP Complete ...
   url: https://www.prnewswire.com/news-releases/enbridge-inc-and-spectra-energy-partners-lp-complete-merger-300767348.html
-- date: '2026-05-25'
+- date: ''
   title: Enbridge Becomes Largest North American Energy ...
   url: https://www.oilandgas360.com/enbridge-becomes-largest-north-american-energy-infrastructure-company-28-billion-spectra-energy-acquisition/
 random_paper: 19
@@ -110,7 +110,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

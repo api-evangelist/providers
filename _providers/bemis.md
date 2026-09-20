@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 9
 common:
@@ -45,16 +45,28 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/bemis-company-inc-
-- group: company
-  title: Amcor (Parent Company)
-  type: Website
+- group: other
+  title: Amcor
+  type: Successor
   url: https://www.amcor.com
-- group: company
-  title: Bemis Healthcare Packaging
-  type: Website
-  url: https://www.bemisus.com
+coverage:
+  checked: '2026-09-19'
+  detail: Bemis Company was fully absorbed into Amcor on 11 June 2019 and its own domain bemis.com 301s every path, including /.well-known/* and /developers, to the Amcor homepage, while the only site still trading under the Bemis name, www.bemisus.com, is an unrelated domain registered 2025-12-22 that is not wired here.
+  evidence:
+  - status: 301
+    url: https://www.bemis.com/
+  - status: 301
+    url: https://www.bemis.com/developers
+  - status: 404
+    url: https://www.amcor.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.amcor.com/openapi.json
+  - status: 404
+    url: https://www.bemisus.com/openapi.json
+  reason: defunct
+  state: none
 created: '2026-03-23'
-description: Bemis Company, Inc. was a global leader in developing and producing flexible packaging solutions for food, beverage, and pharmaceutical applications. Founded in 1858 and headquartered in Neenah, Wisconsin, Bemis completed a $6.8 billion merger with Amcor Limited in June 2019, creating the global leader in consumer packaging. The combined entity operates as Amcor, and the Bemis brand continues as Bemis Manufacturing for FDA-compliant healthcare and pharmaceutical packaging, serving customers across 50+ countries with ISO 13485 and ISO 9001 certified manufacturing operations.
+description: 'Bemis Company, Inc. was a global manufacturer of flexible packaging for food, beverage, personal care and healthcare markets. Founded in 1858 and headquartered in Neenah, Wisconsin, it completed a $6.8 billion all-stock merger with Amcor Limited on 11 June 2019 and was fully absorbed into Amcor: bemis.com now 301s to www.amcor.com and the Bemis businesses, including its healthcare packaging unit, operate as Amcor Flexibles. Bemis never ran a developer program, and no public API surface exists to profile; www.bemisus.com, which presents itself as Bemis, is an unrelated domain registered in December 2025.'
 features:
 - description: Bemis/Amcor manufactures flexible packaging solutions for food, beverage, personal care, and pharmaceutical markets, including pouches, films, bags, and lidding materials.
   name: Flexible Packaging Manufacturing
@@ -69,25 +81,25 @@ integrations:
 - description: Bemis Company completed its merger with Amcor Limited in June 2019 in a $6.8 billion all-stock transaction, creating a single global packaging leader operating under the Amcor brand.
   name: Amcor
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-19'
 name: Bemis
 nav: Providers
 network: true
 overview: Bemis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Amcor, Consumer Packaging, Flexible Packaging, Food Packaging, and Healthcare Packaging.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Bemis Company in $6.8 Billion Merger With Amcor
   url: https://www.clearygottlieb.com/news-and-insights/news-listing/bemis-company-in-6-8-billion-merger-with-amcor
-- date: '2026-05-25'
+- date: ''
   title: Bemis Co. receives silver award from FTA
   url: https://www.packworld.com/home/press-release/13377625/bemis-co-receives-silver-award-from-fta
-- date: '2026-05-25'
+- date: ''
   title: Bemis Associates, Inc. (“Bemis”), one of the global leaders in ...
   url: https://www.facebook.com/100090941572524/posts/bemis-associates-inc-bemis-one-of-the-global-leaders-in-bonding-and-material-inn/911655875209123/
-- date: '2026-05-25'
+- date: ''
   title: Amcor Completes Acquisition of Bemis, Creating the ...
   url: https://www.prnewswire.com/news-releases/amcor-completes-acquisition-of-bemis-creating-the-global-leader-in-consumer-packaging-300865415.html
-- date: '2026-05-25'
+- date: ''
   title: /C O R R E C T I O N -- Bemis Associates Inc/
   url: https://www.newswire.ca/news-releases/bemis-associates-appoints-christina-chen-as-president-and-chief-operating-officer-885168229.html
 random_paper: 0
@@ -95,7 +107,7 @@ score:
   band: minimal
   composite: 3.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -114,6 +126,12 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 3.3
   regulatory:
     applies: true
@@ -122,7 +140,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false
@@ -151,5 +169,4 @@ use_cases:
   name: Pharmaceutical and Medical Device Packaging
 - description: Flexible packaging and films for cosmetics, personal care, and household product brands requiring printability, material compatibility, and supply chain efficiency.
   name: Personal Care Packaging
-website: https://www.amcor.com
 ---

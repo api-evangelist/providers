@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -138,19 +138,19 @@ plans:
   plan_count: 3
   slug: pantry-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Training Gets Real with Artificial Intelligence
   url: https://foodbanknews.org/training-gets-real-with-artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence in Food Bank and Pantry Services
   url: https://www.mdpi.com/2072-6643/17/9/1461
-- date: '2026-05-25'
+- date: ''
   title: 'Future-Proofing Your Pantry: How AI Synthesizes Food ...'
   url: https://georgefox.cafebonappetit.com/future-proofing-your-pantry/
-- date: '2026-05-25'
+- date: ''
   title: Montgomery County Launches Advisory Council on ...
   url: https://www.montgomerycountypa.gov/CivicAlerts.asp?AID=4690
-- date: '2026-05-25'
+- date: ''
   title: Purdue professor uses AI technology to help food pantries
   url: https://www.purdueexponent.org/city_state/purdue-alex-psomas-indianapolis-artificial-intelligence/article_07b6cdae-a219-11ef-866e-17a294dc19fd.html
 random_paper: 10
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Johnson Controls is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Building Automation, Energy Storage, Fire & Security, HVAC, and Smart Buildings.
 press:
-- date: '2026-05-25'
+- date: ''
   title: How AI is Transforming the Built Environment
   url: https://www.johnsoncontrols.co.uk/media-center/2024/april/ai-in-the-built-environment
-- date: '2026-05-25'
+- date: ''
   title: Johnson Controls completes sale of residential and light ...
   url: https://www.johnsoncontrols.com/media-center/news/press-releases/2025/08/01/johnson-controls-completes-sale-of-residential-and-light-commercial-hvac-business
-- date: '2026-05-25'
+- date: ''
   title: Johnson Controls launches series of thermal management ...
   url: https://www.prnewswire.com/news-releases/johnson-controls-launches-series-of-thermal-management-reference-design-guides-for-gigawatt-scale-ai-data-centers-302676158.html
-- date: '2026-05-25'
+- date: ''
   title: Scaling AI means delivering data centers on time ...
   url: https://www.facebook.com/JohnsonControls/posts/scaling-ai-means-delivering-data-centers-on-time-anywhere-johnson-controls-is-gr/1168072228697473/
-- date: '2026-05-25'
+- date: ''
   title: Johnson Controls expands AI features in OpenBlue digital ...
   url: https://www.johnsoncontrols.com/media-center/news/press-releases/2024/11/12/johnson-controls-expands-ai-features-in-openblue
 random_paper: 2
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

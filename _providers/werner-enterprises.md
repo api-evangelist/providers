@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 16
 common:
@@ -102,19 +102,19 @@ overview: 'Werner Enterprises is profiled on the [APIs.io](https://apis.io/) net
 
   Werner Enterprises'' developer surface includes developer portal, documentation, engineering blog, and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: How Werner Enterprises Enhance Customer Experiences ...
   url: https://www.salesforce.com/events/webinars/werner-enhances-customer-experiences/
-- date: '2026-05-25'
+- date: ''
   title: Werner Acquires FirstFleet, Expands Dedicated Carrier ...
   url: https://www.linkedin.com/posts/werner-enterprises_teamblue-wernerproud-activity-7422286167414353920-XsRV
-- date: '2026-05-25'
+- date: ''
   title: Werner Enterprises - Technology Advancements
   url: https://www.werner.com/blog/logistics/technology-advancements-and-our-commitment-to-the-future/
-- date: '2026-05-25'
+- date: ''
   title: Utilizing Machine Learning For Predictive Maintenance
   url: https://www.werner.com/blog/werner-edge-blog/utilizing-machine-learning-for-predictive-maintenance/
-- date: '2026-05-25'
+- date: ''
   title: Werner Enterprises and Kodiak Robotics Collaborate to ...
   url: https://www.prnewswire.com/news-releases/werner-enterprises-and-kodiak-robotics-collaborate-to-run-247-long-haul-autonomous-freight-operations-301636326.html
 random_paper: 16
@@ -143,7 +143,7 @@ score:
     - north-america
   previous_composite: 9.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

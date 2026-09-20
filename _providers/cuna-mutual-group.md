@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: CUNA Mutual Group (TruStage) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Auto Insurance, Compliance, Credit Union, and Financial-Services.
 press:
-- date: '2026-05-25'
+- date: ''
   title: EXL and CUNA Mutual Group Win NASSCOM Customer ...
   url: https://www.exlservice.com/about/newsroom/exl-and-cuna-mutual-group-win-nasscom-customer-service-excellence-award
-- date: '2026-05-25'
+- date: ''
   title: CUNA Mutual Group acquires CuNexus
   url: https://www.americanbanker.com/creditunions/news/cuna-mutual-group-acquires-cunexus
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence
   url: https://www.trustage.com/-/media/cunamutual/business-protection/risk-management/public/2024virtualevents/2024-02_webinar_artificial-intelligence_presentation.pdf
-- date: '2026-05-25'
+- date: ''
   title: CUNA Mutual Co-Leads $50 Million Investment in Zest AI
   url: https://www.cutimes.com/2022/11/03/cuna-mutual-co-leads-50-million-investment-in-zest-ai/
-- date: '2026-05-25'
+- date: ''
   title: CUNA Mutual Group Announces Plans To Unify Under ...
   url: https://www.prnewswire.com/news-releases/cuna-mutual-group-announces-plans-to-unify-under-one-brand-in-2023-301540615.html
 random_paper: 18
@@ -121,7 +121,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,19 +98,19 @@ overview: 'CNO Financial Group is profiled on the [APIs.io](https://apis.io/) ne
 
   CNO Financial Group''s developer surface includes support and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: CNO Financial Group Names Vice Presidents in Finance and IT
   url: https://cno.mediaroom.com/2019-07-22-CNO-Financial-Group-Names-Vice-Presidents-in-Finance-and-IT
-- date: '2026-05-25'
+- date: ''
   title: Cognizant Expands Technology Operations Partnership ...
   url: https://www.prnewswire.com/news-releases/cognizant-expands-technology-operations-partnership-with-cno-financial-group-302069107.html
-- date: '2026-05-25'
+- date: ''
   title: Principal IT Security Architect - REMOTE from any EST or ...
   url: https://careers.cnoinc.com/carmel-in/principal-it-security-architect-remote-from-any-est-or-cst-us-based-location/EE542DCD79504109966807B414707BE4/job/
-- date: '2026-05-25'
+- date: ''
   title: CNO Financial Group's Post
   url: https://www.linkedin.com/posts/cno-financial-group_cno-financial-group-announces-voting-results-activity-7460066200329302016-pHJ7
-- date: '2026-05-25'
+- date: ''
   title: Q1 2026 CNO Financial Group Inc Earnings Call
   url: https://s28.q4cdn.com/966891126/files/doc_financials/2026/q1/CNO-USQ_Transcript_2026-05-01.pdf
 random_paper: 8
@@ -145,7 +145,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -348,19 +348,19 @@ plans:
   plan_count: 2
   slug: activision-blizzard-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Microsoft to acquire Activision Blizzard to bring the joy and ...
   url: https://www.prnewswire.com/news-releases/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device-301462759.html
-- date: '2026-05-25'
+- date: ''
   title: 'Our vision for gaming: More choice and ...'
   url: https://news.microsoft.com/activision-blizzard-acquisition
-- date: '2026-05-25'
+- date: ''
   title: Mobile Game Developer King Acquires Artificial Intelligence ...
   url: https://investor.activision.com/news-releases/news-release-details/mobile-game-developer-king-acquires-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Microsoft and Activision Blizzard - UR Scholarship Repository
   url: https://scholarship.richmond.edu/cgi/viewcontent.cgi?article=1022&context=robins-case-network
-- date: '2026-05-25'
+- date: ''
   title: Activision Blizzard and Google Enter Into Multi-year ...
   url: https://www.googlecloudpresscorner.com/2020-01-24-Activision-Blizzard-and-Google-Enter-Into-Multi-year-Strategic-Relationship-to-Power-New-Player-Experiences
 random_paper: 12
@@ -422,7 +422,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

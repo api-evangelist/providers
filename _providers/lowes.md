@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -143,19 +143,19 @@ plans:
   plan_count: 1
   slug: lowes-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Lowe's puts project expertise into every hand
   url: https://openai.com/index/lowes/
-- date: '2026-05-25'
+- date: ''
   title: Lowe's Boosts Pro Efficiency with AI-Driven Material Lists ...
   url: https://www.prnewswire.com/news-releases/lowes-boosts-pro-efficiency-with-ai-driven-material-lists-a-new-tool-that-delivers-product-quotes-in-minutes-302778296.html
-- date: '2026-05-25'
+- date: ''
   title: Chandhu Nair
   url: https://corporate.lowes.com/who-we-are/lowes-leadership/senior-leadership/chandhu-nair
-- date: '2026-05-25'
+- date: ''
   title: Lowe's Launches First Ai-Powered Home Improvement ...
   url: https://corporate.lowes.com/newsroom/press-releases/lowes-launches-first-ai-powered-home-improvement-virtual-advisor-03-05-25
-- date: '2026-05-25'
+- date: ''
   title: Lowe's deploys First at-scale AI assistant for Retail ...
   url: https://corporate.lowes.com/newsroom/press-releases/lowes-deploys-first-scale-ai-assistant-retail-associates-05-05-25
 random_paper: 4
@@ -190,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Pgande Corp is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: PG&E Unveils $73 Bln Plan To Power AI-Driven Data ...
   url: https://www.rttnews.com/3578098/pg-e-unveils-73-bln-plan-to-power-ai-driven-data-center-boom.aspx
-- date: '2026-05-25'
+- date: ''
   title: Pacific Gas and Electric Company
   url: https://www.facebook.com/pacificgasandelectric/posts/on-the-frontlines-you-see-the-problem-before-it-becomes-one-were-using-hd-camera/1316449217184803/
-- date: '2026-05-25'
+- date: ''
   title: Wildfire Prevention Today and Tomorrow - PCG
   url: https://www.stocktitan.net/news/PCG/wildfire-prevention-today-and-tomorrow-pg-e-shares-2025-wildfire-coh9nkq7j143.html
-- date: '2026-05-25'
+- date: ''
   title: PG&E plans to become an 'AI-enabled utility' to meet ...
   url: https://dailyenergyinsider.com/featured/46074-pge-plans-to-become-an-ai-enabled-utility-to-meet-industrys-growing-energy-demands/
-- date: '2026-05-25'
+- date: ''
   title: PG&E Corporation – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/pg-and-e-corporation-enterprise-tech-analysis/
 random_paper: 4
@@ -101,7 +101,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

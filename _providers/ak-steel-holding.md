@@ -86,19 +86,19 @@ plans:
   plan_count: 0
   slug: ak-steel-holding-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: AK Steel Holding Management Discusses Q3 2013 Results
   url: https://seekingalpha.com/article/1761112-ak-steel-holding-management-discusses-q3-2013-results-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: AK Steel and TimkenSteel report higher EPS and revenue ...
   url: https://www.proactiveinvestors.com/companies/news/207943/ak-steel-and-timkensteel-report-higher-eps-and-revenue-in-3q-results-but-fall-short-of-expectations-207943.html
-- date: '2026-05-25'
+- date: ''
   title: Cleveland-Cliffs Looks to AK Steel Acquisition, New HBI ...
   url: https://www.industrialinfo.com/news/article/cleveland-cliffs-looks-to-ak-steel-acquisition-new-hbi-plant-for-positive-outlook-in-2020--281603
-- date: '2026-05-25'
+- date: ''
   title: Ak steel prices stock offering at $4.4 per share
   url: https://www.reuters.com/article/business/ak-steel-prices-stock-offering-at-44-per-share-idUSASD08G5X/
-- date: '2026-05-25'
+- date: ''
   title: AK Steel Holding (AKS,N) reports earnings for 3d qtr to Sept 30
   url: https://www.nytimes.com/1995/10/12/business/ak-steel-holding-aksn-reports-earnings-for-3d-qtr-to-sept-30.html
 random_paper: 14

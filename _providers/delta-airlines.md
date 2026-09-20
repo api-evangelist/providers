@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The Delta API Suite is a partner-facing collection of APIs covering flight search, flight offers and order management, customer journey events, and operational data. Access is restricted to approved p
@@ -103,19 +103,19 @@ plans:
   plan_count: 1
   slug: delta-airlines-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'AI meets airfare: Delta''s new pricing and what you need to ...'
   url: https://www.facebook.com/rossenreports/posts/ai-meets-airfare-deltas-new-pricing-and-what-you-need-to-know-/1545509503603165/
-- date: '2026-05-25'
+- date: ''
   title: Delta unveils AI-powered travel journey with new 'multi- ...
   url: https://news.delta.com/delta-unveils-ai-powered-travel-journey-new-multi-modal-transportation-options
-- date: '2026-05-25'
+- date: ''
   title: Delta responds to misinformation around AI pricing
   url: https://news.delta.com/delta-responds-misinformation-around-ai-pricing
-- date: '2026-05-25'
+- date: ''
   title: Delta-AI-Letter.pdf
   url: https://www.gallego.senate.gov/wp-content/uploads/2025/07/Delta-AI-Letter.pdf
-- date: '2026-05-25'
+- date: ''
   title: Delta Air Lines, Inc – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/delta-air-lines-enterprise-tech-analysis/
 random_paper: 14
@@ -143,7 +143,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

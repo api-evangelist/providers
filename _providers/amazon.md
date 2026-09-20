@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -879,19 +879,19 @@ plans:
   plan_count: 3
   slug: amazon-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence
   url: https://aws.amazon.com/blogs/machine-learning/
-- date: '2026-05-25'
+- date: ''
   title: Announcements | Artificial Intelligence
   url: https://aws.amazon.com/blogs/machine-learning/category/post-types/announcements/
-- date: '2026-05-25'
+- date: ''
   title: AI Technology - Artificial Intelligence
   url: https://aws.amazon.com/ai/
-- date: '2026-05-25'
+- date: ''
   title: Latest news about AI at Amazon
   url: https://www.aboutamazon.com/artificial-intelligence-ai-news
-- date: '2026-05-25'
+- date: ''
   title: Press Center - US Press Center - Amazon's Press Releases
   url: https://press.aboutamazon.com/press-release-archive
 random_paper: 8
@@ -954,7 +954,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

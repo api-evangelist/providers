@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,19 +94,19 @@ overview: 'Cummins is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Cummins'' developer surface includes product news and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cummins Newsroom | Cummins Inc.
   url: https://www.cummins.com/pl-eu/mp-resource/en-na/news?content-type=newsroom_article&topics=5916&page=0
-- date: '2026-05-25'
+- date: ''
   title: Market trends shaping data center strategy in the age of AI
   url: https://www.cummins.com/en-na/news/2026/05/06/market-trends-shaping-data-center-strategy-age-ai
-- date: '2026-05-25'
+- date: ''
   title: ChapsVision announces co-innovation partnership with ...
   url: https://www.chapsvision.com/en-us/press-release/chapsvision-announces-co-innovation-partnership-with-cummins-inc/
-- date: '2026-05-25'
+- date: ''
   title: Press release -ChapsVision & Cummins, Inc. partnership
   url: https://www.linkedin.com/posts/chapsvision_press-release-chapsvision-cummins-inc-activity-7394747574886309890-YF0_
-- date: '2026-05-25'
+- date: ''
   title: Cummins CEO Explains How to Manage the AI Boom
   url: https://www.barrons.com/articles/cummins-stock-ai-boom-ceo-a6532eff
 random_paper: 16
@@ -136,7 +136,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

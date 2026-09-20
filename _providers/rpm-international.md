@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -90,19 +90,19 @@ overview: 'RPM International is profiled on the [APIs.io](https://apis.io/) netw
 
   RPM International''s developer surface includes engineering blog and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: RPM International is pleased to announce key leadership ...
   url: https://www.linkedin.com/posts/rpm-international-inc._rpm-international-is-pleased-to-announce-activity-7447629916541468674-vz9m
-- date: '2026-05-25'
+- date: ''
   title: RPM Reports Fiscal 2026 Second-Quarter Results
   url: https://www.rpminc.com/news/news-release/?workflowid=2a2230d9-0e7b-422b-b3eb-1b64a6aef8a4
-- date: '2026-05-25'
+- date: ''
   title: RPM Reports Record Fiscal 2025 Fourth-Quarter and Full- ...
   url: https://www.rpminc.com/media/6508/q4-25-rpm-earnings-release-final.pdf
-- date: '2026-05-25'
+- date: ''
   title: RPM Reports Record Fiscal 2026 Third-Quarter Results
   url: https://www.rpminc.com/news/news-release/?workflowid=b9d8b9f1-8caa-4333-b776-b240a777e2c7
-- date: '2026-05-25'
+- date: ''
   title: RPM completes Kalzip acquisition for Tremco unit
   url: https://www.stocktitan.net/news/RPM/rpm-completes-acquisition-of-cc1zaqwdo451.html
 random_paper: 20
@@ -142,7 +142,7 @@ score:
     - north-america
   previous_composite: 11.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

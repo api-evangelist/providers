@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Pinnacle Entertainment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Pinnacle Entertainment ''BB-'' Rat'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/8115792
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?field_news_type_term[3]=4&page=201
-- date: '2026-05-25'
+- date: ''
   title: Can I use a copyrighted Savage Worlds PDF with an AI ...
   url: https://www.facebook.com/groups/UnofficialSavageWorlds/posts/30625377270410902/
-- date: '2026-05-25'
+- date: ''
   title: Pinnacle Entertainment, Inc. Reaches an Agreement to Settle ...
   url: https://www.hotel-online.com/news/archive-52362
-- date: '2026-05-25'
+- date: ''
   title: Boyd Gaming Completes Acquisition Of Four Pinnacle ...
   url: https://www.prnewswire.com/news-releases/boyd-gaming-completes-acquisition-of-four-pinnacle-entertainment-assets-300730881.html
 random_paper: 5
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

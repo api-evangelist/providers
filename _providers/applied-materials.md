@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -180,19 +180,19 @@ plans:
   plan_count: 1
   slug: applied-materials-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Applied Materials
   url: https://www.facebook.com/AppliedMaterialsInc/posts/today-applied-materials-announced-a-new-innovation-partnership-with-tsmc-to-acce/1407076051453212/
-- date: '2026-05-25'
+- date: ''
   title: Applied Materials and Micron Partner To Advance U.S. ...
   url: https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-and-micron-partner-advance-us-innovation-next
-- date: '2026-05-25'
+- date: ''
   title: Applied Materials
   url: https://www.appliedmaterials.com/us/en.html
-- date: '2026-05-25'
+- date: ''
   title: Applied Materials and SK hynix Announce Long-Term R&D ...
   url: https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-and-sk-hynix-announce-long-term-rd-partnership
-- date: '2026-05-25'
+- date: ''
   title: Applied Materials Debuts New Gear For Making AI Chips
   url: https://www.investors.com/news/technology/amat-stock-applied-materials-new-gear-ai-chips/
 random_paper: 4
@@ -249,7 +249,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

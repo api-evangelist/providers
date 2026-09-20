@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -143,19 +143,19 @@ plans:
   plan_count: 0
   slug: borgwarner-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: BorgWarner Partners with Manufacture 2030 to Reduce ...
   url: https://www.borgwarner.com/newsroom/press-releases/2024/03/06/borgwarner-partners-with-manufacture-2030-to-reduce-supply-chain-emissions
-- date: '2026-05-25'
+- date: ''
   title: We're excited to introduce our all new Turbine Generator ...
   url: https://www.instagram.com/p/DUoA8sFkgPc/
-- date: '2026-05-25'
+- date: ''
   title: BorgWarner Reports 2025 Results and Provides 2026 ...
   url: https://www.borgwarner.com/newsroom/press-releases/2026/02/11/borgwarner-reports-2025-results-and-provides-2026-guidance--returned-approximately--630-million-to-shareholders-in-2025--strategically-enters-data-center-market-with-turbine-generator-system-award
-- date: '2026-05-25'
+- date: ''
   title: BorgWarner Strategically Enters Data Center Market with ...
   url: https://www.prnewswire.com/news-releases/borgwarner-strategically-enters-data-center-market-with-power-generation-solution-award-302684780.html
-- date: '2026-05-25'
+- date: ''
   title: BorgWarner Strategically Enters Data Center Market with ...
   url: https://www.borgwarner.com/newsroom/press-releases/2026/02/11/borgwarner-strategically-enters-data-center-market-with-power-generation-solution-award
 random_paper: 3
@@ -185,7 +185,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

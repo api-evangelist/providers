@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,19 +111,19 @@ plans:
   plan_count: 0
   slug: dillards-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Retail basics propel Dillard's in Q3
   url: https://www.retaildive.com/news/retail-basics-propel-dillards-q3-sales-up/805384/
-- date: '2026-05-25'
+- date: ''
   title: Dillard's, Inc. to Report Fourth Quarter and Fiscal Year Results
   url: https://www.barchart.com/story/news/374069/dillards-inc-to-report-fourth-quarter-and-fiscal-year-results
-- date: '2026-05-25'
+- date: ''
   title: Dillard's, Inc. Reports First Quarter Results | Markets Insider
   url: https://markets.businessinsider.com/news/stocks/dillard-s-inc-reports-first-quarter-results-1036155467
-- date: '2026-05-25'
+- date: ''
   title: Dillard's, Inc. Reports First Quarter Results - DDS
   url: https://www.stocktitan.net/news/DDS/dillard-s-inc-reports-first-quarter-v63n3of1e4jm.html
-- date: '2026-05-25'
+- date: ''
   title: Dillard's, Inc. Reports First Quarter Results | Thu, 05/14/2026
   url: https://investor.dillards.com/news-releases/news-release-details/dillards-inc-reports-first-quarter-results-6
 random_paper: 11
@@ -153,7 +153,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

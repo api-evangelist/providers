@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: AutoZone's e-commerce platform at autozone.com enables consumers and commercial customers to search the AutoZone parts catalog, check store inventory, place online orders for in-store pickup or delive
@@ -112,19 +112,19 @@ plans:
   plan_count: 1
   slug: autozone-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Autozone Expands Partnership with ...
   url: https://www.relexsolutions.com/news/autozone-expands-partnership-with-relex-solutions-to-optimize-efficiency-across-north-and-south-american-dc-supply-chain/
-- date: '2026-05-25'
+- date: ''
   title: AutoZone Completes Three-Year Cloud Migration with ...
   url: https://www.prnewswire.com/news-releases/autozone-completes-three-year-cloud-migration-with-google-cloud-302749756.html
-- date: '2026-05-25'
+- date: ''
   title: 'Customer Story: AutoZone Accelerates Retail Success with ...'
   url: https://www.ibi.com/customers/autozone
-- date: '2026-05-25'
+- date: ''
   title: How AutoZone used AI to optimize supply chain operations
   url: https://www.linkedin.com/posts/karthikramki_autozones-ai-strategy-analysis-of-dominance-activity-7394781125669351425-sn-X
-- date: '2026-05-25'
+- date: ''
   title: 'AutoZone''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/autozone-ai-strategy-analysis-of-dominance-in-automotive-parts-ai/
 random_paper: 5
@@ -152,7 +152,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 11.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

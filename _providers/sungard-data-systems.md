@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: SunGard Financial Systems offered software and services for trading, treasury, risk management, capital markets, and investment management. Products included Adaptiv (credit and market risk), Front Ar
@@ -80,19 +80,19 @@ plans:
   plan_count: 3
   slug: sungard-data-systems-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: TPG in $11.3 Billion Buyout of SunGard Data Systems
   url: https://www.clearygottlieb.com/news-and-insights/news-listing/tpg-in-%24113-billion-buyout-of-sungard-data-systems32
-- date: '2026-05-25'
+- date: ''
   title: Private Investment Firms to Pay $11.3 Billion for SunGard ...
   url: https://www.nytimes.com/2005/03/28/business/private-investment-firms-to-pay-113-billion-for-sungard-data.html
-- date: '2026-05-25'
+- date: ''
   title: SunGard Higher Education Releases Talent Management ...
   url: https://www.educause.edu/about/corporate-participation/member-press-releases/sungard-higher-education-releases-talent-management-suite
-- date: '2026-05-25'
+- date: ''
   title: Investment firms seek buyout of SunGard
   url: https://www.computerwoche.de/article/2607825/investment-firms-seek-buyout-of-sungard-2.html
-- date: '2026-05-25'
+- date: ''
   title: Investment Firms Offer $10.5B for SunGard
   url: https://www.computerworld.com/article/1721035/investment-firms-offer-10-5b-for-sungard.html
 random_paper: 2
@@ -120,7 +120,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 10.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

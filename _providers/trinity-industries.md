@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 15
 common:
@@ -77,19 +77,19 @@ nav: Providers
 network: true
 overview: Trinity Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Infrastructure, Logistics, Manufacturing, Railcars, and Transportation.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Companies winning with AI built the data layer first
   url: https://www.databricks.com/blog/companies-winning-ai-built-data-layer-first
-- date: '2026-05-25'
+- date: ''
   title: Quarterly Report for Quarter Ending MARCH 31, 2026 (Form 10-Q)
   url: https://www.publicnow.com/view/D52B52510FFC4CA0D3BFD8DC7413E1FF47E1CC9F
-- date: '2026-05-25'
+- date: ''
   title: Trinity Industries Q1 2026 earnings and outlook - TRN
   url: https://www.stocktitan.net/sec-filings/TRN/10-q-trinity-industries-inc-quarterly-earnings-report-6eae20c2d095.html
-- date: '2026-05-25'
+- date: ''
   title: Leigh Anne Mann - Vice President of Investor Relations at ...
   url: https://www.linkedin.com/in/leighannealford
-- date: '2026-05-25'
+- date: ''
   title: TrinityRail Enters Joint Venture to Transform North America's ...
   url: https://www.trin.net/investor/press-releases/news-details/2020/TrinityRail-Enters-Joint-Venture-to-Transform-North-Americas-Rail-Industry/default.aspx
 random_paper: 16
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: PipeInsights is AECOM's cloud-based SaaS solution for AI-powered sewer inspection analysis. It enables municipalities and utilities to upload sewer inspection footage, perform QA/QC defect coding, aut
@@ -177,19 +177,19 @@ plans:
   plan_count: 0
   slug: aecom-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Aecom earnings on deck as AI strategy faces investor test
   url: https://www.investing.com/news/earnings/aecom-earnings-on-deck-as-ai-strategy-faces-investor-test-93CH-4494573
-- date: '2026-05-25'
+- date: ''
   title: AI TOOL LAUNCHED TO PROTECT NATURE DURING ...
   url: https://www.prnewswire.com/in/news-releases/ai-tool-launched-to-protect-nature-during-infrastructure-development-302259094.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://aecom.com/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: AECOM announces increased financial targets built on ...
   url: https://investors.aecom.com/news-releases/news-release-details/aecom-announces-increased-financial-targets-built-further
-- date: '2026-05-25'
+- date: ''
   title: How AECOM, Nine and Urbis are reshaping creativity with AI
   url: https://blog.adobe.com/en/publish/2025/07/17/how-aecom-nine-and-urbis-are-reshaping-creativity-with-ai
 random_paper: 11
@@ -219,7 +219,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

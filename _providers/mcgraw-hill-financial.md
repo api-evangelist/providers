@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: McGraw Hill Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Benchmarks, Credit Ratings, Finance, and Financial-Services.
 press:
-- date: '2026-05-25'
+- date: ''
   title: McGraw Hill Announces Participation in Upcoming Investor ...
   url: https://www.businesswire.com/news/home/20260506196147/en/McGraw-Hill-Announces-Participation-in-Upcoming-Investor-Conferences
-- date: '2026-05-25'
+- date: ''
   title: McGraw Hill to Release Fiscal Fourth Quarter and Full ...
   url: https://www.businesswire.com/news/home/20260501825944/en/McGraw-Hill-to-Release-Fiscal-Fourth-Quarter-and-Full-Year-2026-Financial-Results-and-Host-Webcast-on-June-11-2026
-- date: '2026-05-25'
+- date: ''
   title: Company Announcement - FT.com - Markets data
   url: https://markets.ft.com/data/announce/detail?dockey=600-202603240900BIZWIRE_USPRX____20260324_BW593285-1
-- date: '2026-05-25'
+- date: ''
   title: McGraw Hill Financial News and Press Releases
   url: https://www.prnewswire.com/news/mcgraw-hill-financial/
-- date: '2026-05-25'
+- date: ''
   title: McGraw Hill Announces Participation in Upcoming Investor ...
   url: https://lasvegassun.com/news/2026/may/06/mcgraw-hill-announces-participation-in-upcoming-in/
 random_paper: 21
@@ -99,7 +99,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

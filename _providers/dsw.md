@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,19 +107,19 @@ plans:
   plan_count: 0
   slug: dsw-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: DSW Successfully Incorporates AI into Customer Experience
   url: https://www.nice.com/blog/dsw-successfully-incorporates-ai-into-customer-experience
-- date: '2026-05-25'
+- date: ''
   title: Designer Brands Debuts "Warehouse Reimagined" for ...
   url: https://www.prnewswire.com/news-releases/designer-brands-debuts-warehouse-reimagined-for-enhanced-immersive-retail-store-experience-301542851.html
-- date: '2026-05-25'
+- date: ''
   title: Epsilon to Launch “Front Row Connection,” For DSW
   url: https://www.epsilon.com/us/about-us/pressroom/epsilon-to-launch-front-row-connection-for-dsw
-- date: '2026-05-25'
+- date: ''
   title: DSW is in the news! Our latest launch
   url: https://www.instagram.com/p/DWOd4XyjVfL/
-- date: '2026-05-25'
+- date: ''
   title: DSW partners with Marketing Evolution on AI-powered ...
   url: https://www.marketingdive.com/news/dsw-partners-with-marketing-evolution-on-ai-powered-personalization-strateg/517594/
 random_paper: 4
@@ -147,7 +147,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

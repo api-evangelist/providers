@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -154,19 +154,19 @@ plans:
   plan_count: 0
   slug: commercial-metals-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Document
   url: https://www.sec.gov/Archives/edgar/data/0000022444/000002244425000091/cmc-05312025xearningsrelea.htm
-- date: '2026-05-25'
+- date: ''
   title: Commercial Metals Company (CMC) reports earnings - Quartz
   url: https://qz.com/commercial-metals-company-cmc-reports-earnings-1851733423
-- date: '2026-05-25'
+- date: ''
   title: Commercial Metals Company Announces Proposed ...
   url: https://www.prnewswire.com/news-releases/commercial-metals-company-announces-proposed-private-offering-of-2-000-million-senior-notes-302613037.html
-- date: '2026-05-25'
+- date: ''
   title: Peter Matt - Commercial Metals Company
   url: https://www.linkedin.com/in/petermatt
-- date: '2026-05-25'
+- date: ''
   title: Commercial Metals Company (CMC-N) Press Releases
   url: https://www.theglobeandmail.com/investing/markets/stocks/CMC/pressreleases/
 random_paper: 5
@@ -196,7 +196,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

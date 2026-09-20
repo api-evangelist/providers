@@ -61,19 +61,19 @@ nav: Providers
 network: true
 overview: Dean Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Beverages, Dairy, Defunct, and Food and Beverage.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Dean Foods
   url: https://greenamerica.org/dean-foods
-- date: '2026-05-25'
+- date: ''
   title: Dean Foods opts for internal transformation plan after ...
   url: https://www.just-food.com/news/dean-foods-opts-for-internal-transformation-plan-after-strategic-review/
-- date: '2026-05-25'
+- date: ''
   title: Dean Foods Completes Sale to DFA | Dairy News
   url: https://www.lancasterfarming.com/farming-news/dairy/dean-foods-completes-sale-to-dfa/article_cc082519-cf62-522d-8841-bb0b497557c0.html
-- date: '2026-05-25'
+- date: ''
   title: 'Dean Foods goes bust thanks to a fatal error: shying away ...'
   url: https://agfundernews.com/dean-foods-goes-bust-thanks-to-a-fatal-error-shying-away-from-alt-milk
-- date: '2026-05-25'
+- date: ''
   title: Dean Foods Company Initiates Voluntary Reorganization ...
   url: https://www.prnewswire.com/news-releases/dean-foods-company-initiates-voluntary-reorganization-with-new-financial-support-from-existing-lenders-300956285.html
 random_paper: 2

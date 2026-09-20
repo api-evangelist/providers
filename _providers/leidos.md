@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Leidos is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Leidos'' developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Leidos Holdings, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/leidos-holdings%2C-inc./
-- date: '2026-05-25'
+- date: ''
   title: Leidos, OpenAI deploying AI to transform federal operations
   url: https://investors.leidos.com/news-releases/news-release-details/leidos-openai-deploying-ai-transform-federal-operations
-- date: '2026-05-25'
+- date: ''
   title: News Releases
   url: https://investors.leidos.com/news-events/news-releases
-- date: '2026-05-25'
+- date: ''
   title: Leidos, Dropzone AI to accelerate federal agencies' cyber ...
   url: https://investors.leidos.com/news-releases/news-release-details/leidos-dropzone-ai-accelerate-federal-agencies-cyber-responses
-- date: '2026-05-25'
+- date: ''
   title: LDOS - Leidos Holdings Stock Price, News & Analysis
   url: https://www.stocktitan.net/overview/LDOS/
 random_paper: 2
@@ -110,7 +110,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

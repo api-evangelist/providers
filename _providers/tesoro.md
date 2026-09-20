@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,19 +74,19 @@ overview: 'Tesoro is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Tesoro''s developer surface includes documentation and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tesoro VC, Startup Island Taiwan sign MOU for startup growth
   url: https://www.gpec.org/news/press-releases/tesoro-vc-startup-island-taiwan-sign-mou/
-- date: '2026-05-25'
+- date: ''
   title: The Tesoro AI Podcast
   url: https://open.spotify.com/show/4uDVNgsK3iNeu7yU4Inu2n
-- date: '2026-05-25'
+- date: ''
   title: Tesoro VC Launches Global AI + Semiconductor ...
   url: https://www.pr.com/press-release/948737
-- date: '2026-05-25'
+- date: ''
   title: Tesoro VC Launches AI Semiconductor Accelerator Phoenix
   url: https://amkor.com/blog/tesoro-vc-ai-semiconductor-startup-accelerator-phoenix/
-- date: '2026-05-25'
+- date: ''
   title: The Tesoro AI Podcast
   url: https://podcasts.apple.com/ae/podcast/the-tesoro-ai-podcast/id1527996104
 random_paper: 8
@@ -121,7 +121,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

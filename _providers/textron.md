@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,19 +100,19 @@ overview: 'Textron is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Textron''s developer surface includes product news and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: TEXTRON SYSTEMS AND SHIELD AI TO COLLABORATE ...
   url: https://www.textronsystems.com/our-company/news-events/articles/press-release/textron-systems-and-shield-ai-collaborate-military
-- date: '2026-05-25'
+- date: ''
   title: How AI boosts efficiency and customer satisfaction at ...
   url: https://www.linkedin.com/posts/paragladha_textron-aviation-enhances-maintenance-efficiency-activity-7308579418141073408-qd7m
-- date: '2026-05-25'
+- date: ''
   title: Kodiak AI and Textron Systems collaborate
   url: https://kodiak.ai/news/textron-systems-and-kodiak-collaborate
-- date: '2026-05-25'
+- date: ''
   title: TEXTRON SYSTEMS INTRODUCES DAMOCLES™ ...
   url: https://investor.textron.com/news-releases/news-details/2025/TEXTRON-SYSTEMS-INTRODUCES-DAMOCLES-LAUNCHED-EFFECT-SYSTEM/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Textron Systems Collaborates with Kodiak to Develop ...
   url: https://www.prnewswire.com/news-releases/textron-systems-collaborates-with-kodiak-to-develop-uncrewed-military-vehicle-302149440.html
 random_paper: 18
@@ -136,7 +136,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

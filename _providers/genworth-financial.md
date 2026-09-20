@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Genworth Financial is profiled on the [APIs.io](https://apis.io/) net
 
   Genworth Financial''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Genworth Financial Announces First Quarter 2025 Results
   url: https://investor.genworth.com/news-events/press-releases/detail/1038/genworth-financial-announces-first-quarter-2025-results
-- date: '2026-05-25'
+- date: ''
   title: Genworth Financial Announces Fourth Quarter 2025 Results
   url: https://investor.genworth.com/news-events/press-releases/detail/1053/genworth-financial-announces-fourth-quarter-2025-results
-- date: '2026-05-25'
+- date: ''
   title: Genworth Financial Announces Second Quarter 2025 ...
   url: https://investor.genworth.com/news-events/press-releases/detail/1042/genworth-financial-announces-second-quarter-2025-results
-- date: '2026-05-25'
+- date: ''
   title: Genworth Financial Announces Third Quarter 2025 Results
   url: https://investor.genworth.com/news-events/press-releases/detail/1050/genworth-financial-announces-third-quarter-2025-results
-- date: '2026-05-25'
+- date: ''
   title: Genworth Financial Announces First Quarter 2026 Results
   url: https://investor.genworth.com/news-events/press-releases/detail/1056/genworth-financial-announces-first-quarter-2026-results
 random_paper: 8
@@ -116,7 +116,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

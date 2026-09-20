@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Clicklane is Asbury Automotive's proprietary online vehicle purchase platform that enables customers to complete the full car buying process digitally, including vehicle selection, financing, trade-in
@@ -87,19 +87,19 @@ plans:
   plan_count: 1
   slug: asbury-automotive-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Asbury Automotive Group Appoints New Director to Its Board
   url: https://investors.asburyauto.com/press-releases/19431
-- date: '2026-05-25'
+- date: ''
   title: Asbury Automotive Group Enhances Clicklane with ...
   url: https://investors.asburyauto.com/press-releases/18831
-- date: '2026-05-25'
+- date: ''
   title: Asbury Automotive Group Enhances Clicklane With Salty's ...
   url: https://investors.asburyauto.com/press-releases/18806
-- date: '2026-05-25'
+- date: ''
   title: Asbury Automotive Group Elects New Director to Its Board
   url: https://investors.asburyauto.com/press-releases/20746
-- date: '2026-05-25'
+- date: ''
   title: Asbury Automotive Group chooses Tekion Corp's DMS
   url: https://www.linkedin.com/posts/colintrichardson_asbury-tekion-rollout-reaches-jim-koons-dealerships-activity-7325886275754885120-NLKR
 random_paper: 4
@@ -127,7 +127,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

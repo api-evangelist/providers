@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -125,19 +125,19 @@ plans:
   plan_count: 0
   slug: quad-graphics-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Quad Announces Participation in the Rosenblatt Virtual ...
   url: https://www.prnewswire.com/news-releases/quad-announces-participation-in-the-rosenblatt-virtual-technology-summit-the-age-of-ai-302776617.html
-- date: '2026-05-25'
+- date: ''
   title: Quad names Dave Honan President alongside COO role
   url: https://www.stocktitan.net/sec-filings/QUAD/8-k-quad-graphics-inc-reports-material-event-363415c2f882.html
-- date: '2026-05-25'
+- date: ''
   title: '99.1'
   url: https://www.sec.gov/Archives/edgar/data/1481792/000148179226000088/pressreleaseex991q12026.htm
-- date: '2026-05-25'
+- date: ''
   title: Quad & Google Cloud to launch AI-powered marketing ...
   url: https://www.quad.com/newsroom/quad-and-google-cloud-to-launch-next-generation-ai-powered-marketing-solutions
-- date: '2026-05-25'
+- date: ''
   title: Quad makes audience creation easier, faster and more ...
   url: https://www.prnewswire.com/news-releases/quad-makes-audience-creation-easier-faster-and-more-precise-with-natural-language-ai-prompts-powered-by-snowflake-302578665.html
 random_paper: 1
@@ -165,7 +165,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

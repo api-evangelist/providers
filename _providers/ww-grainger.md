@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,19 +101,19 @@ plans:
   plan_count: 0
   slug: ww-grainger-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Updated March 2025 - Investor Presentation
   url: https://s1.q4cdn.com/422144722/files/doc_presentations/2025/Mar/21/2025-March_GWW-Investor-Presentation-FINAL-3-28-25.pdf
-- date: '2026-05-25'
+- date: ''
   title: GRAINGER REPORTS RESULTS FOR THE FIRST QUARTER ...
   url: https://pressroom.grainger.com/news/press-release-details/2025/GRAINGER-REPORTS-RESULTS-FOR-THE-FIRST-QUARTER-2025/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: GRAINGER REPORTS RESULTS FOR THE SECOND ...
   url: https://www.prnewswire.com/news-releases/grainger-reports-results-for-the-second-quarter-2025-302519237.html
-- date: '2026-05-25'
+- date: ''
   title: GRAINGER REPORTS RESULTS FOR THE THIRD ...
   url: https://pressroom.grainger.com/news/press-release-details/2025/GRAINGER-REPORTS-RESULTS-FOR-THE-THIRD-QUARTER-2025/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Grainger expands AI in sales, marketing, and KeepStock ...
   url: https://www.digitalcommerce360.com/2026/02/04/grainger-ai-sales-marketing-keepstock-tools/
 random_paper: 8
@@ -143,7 +143,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

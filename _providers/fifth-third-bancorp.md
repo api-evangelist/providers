@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -301,19 +301,19 @@ overview: 'Fifth Third Bancorp publishes 13 APIs on the [APIs.io](https://apis.i
 
   Fifth Third Bancorp''s developer surface includes authentication, documentation, changelog, sandbox, getting-started guide, and 30 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Fifth Third Bancorp Investor Meetings
   url: http://s23.q4cdn.com/252949160/files/doc_presentation/2025/2025-European-Roadshow-Deck-vF.pdf
-- date: '2026-05-25'
+- date: ''
   title: Fifth Third and Brex Partner to Bring AI-Powered Finance ...
   url: https://www.53.com/content/fifth-third/en/media-center/press-releases/2025/press-release-2025-12-09.html
-- date: '2026-05-25'
+- date: ''
   title: Fifth Third Sees 'Pretty Remarkable' AI Ability to Lower Costs
   url: https://www.bloomberg.com/news/articles/2026-03-11/fifth-third-sees-pretty-remarkable-outcome-of-ai-to-lower-cost
-- date: '2026-05-25'
+- date: ''
   title: Financial Information - Quarterly and Annual Reports
   url: https://ir.53.com/financial-information/quarterly-and-annual-reports/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Fifth Third Bank Welcomes Back Art Weston
   url: https://ir.53.com/news/news-details/2022/Fifth-Third-Bank-Welcomes-Back-Art-Weston/default.aspx
 random_paper: 7
@@ -360,7 +360,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

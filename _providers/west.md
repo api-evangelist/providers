@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 18
 common:
@@ -108,19 +108,19 @@ overview: 'West Technology Group is profiled on the [APIs.io](https://apis.io/) 
 
   West Technology Group''s developer surface includes developer portal, developer console, engineering blog, support, and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Agencies Extend Comment Period on Request for ...
   url: https://www.fdic.gov/news/press-releases/2021/pr21045.html
-- date: '2026-05-25'
+- date: ''
   title: Millions of Americans Now Consult AI Before, After, and ...
   url: https://westhealth.org/news/millions-of-americans-now-consult-ai-before-after-and-sometimes-instead-of-seeing-a-doctor/
-- date: '2026-05-25'
+- date: ''
   title: AALS and West Academic Announce Strategic Partnership ...
   url: https://www.aals.org/newsroom/ai-partnership/
-- date: '2026-05-25'
+- date: ''
   title: News Releases | West Technology Group, LLC
   url: https://ir.west.com/press-releases
-- date: '2026-05-25'
+- date: ''
   title: California Community Colleges Launches Nation's Most ...
   url: https://www.facebook.com/CACommColleges/posts/press-release-california-community-colleges-launches-nations-most-ambitious-ai-i/1205811634924793/
 random_paper: 11
@@ -150,7 +150,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

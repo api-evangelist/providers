@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ overview: 'Spirit AeroSystems Holdings is profiled on the [APIs.io](https://apis
 
   Spirit AeroSystems Holdings'' developer surface includes product news, engineering blog, and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Spirit AeroSystems, Boeing Reach Agreement to Support ...
   url: https://www.prnewswire.com/news-releases/spirit-aerosystems-boeing-reach-agreement-to-support-production-stability-301960470.html
-- date: '2026-05-25'
+- date: ''
   title: DEFM14A
   url: https://www.sec.gov/Archives/edgar/data/1364885/000119312524283241/d883439ddefm14a.htm
-- date: '2026-05-25'
+- date: ''
   title: Q2 2020 Spirit AeroSystems Holdings Inc Earnings Call ...
   url: https://www.gurufocus.com/news/2275169/q2-2020-spirit-aerosystems-holdings-inc-earnings-call-transcript?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-- date: '2026-05-25'
+- date: ''
   title: 2023 Annual Report
   url: https://s23.q4cdn.com/405433451/files/doc_financials/2023/Spirit-Aerosystems-2023-Annual-Report-FINAL.pdf
-- date: '2026-05-25'
+- date: ''
   title: Spirit Aerosystems Holdings, Inc.
   url: https://www.reuters.com/company/spirit-aerosystems-holdings-inc/
 random_paper: 12
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

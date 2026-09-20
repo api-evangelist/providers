@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Mattel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Mattel and OpenAI Announce Strategic Collaboration
   url: https://corporate.mattel.com/news/mattel-and-openai-announce-strategic-collaboration
-- date: '2026-05-25'
+- date: ''
   title: OpenAI is moving into new markets as it partners with ...
   url: https://www.facebook.com/financialtimes/posts/openai-is-moving-into-new-markets-as-it-partners-with-mattel-to-make-artificial-/1107542441419132/
-- date: '2026-05-25'
+- date: ''
   title: Financials - Quarterly Results
   url: https://investors.mattel.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 'STATEMENT: Mattel, OpenAI delay AI product launch as ...'
   url: https://pirg.org/media-center/statement-mattel-openai-delay-ai-product-launch-as-senators-demand-transparency-from-toy-companies/
-- date: '2026-05-25'
+- date: ''
   title: OpenAI Partnership Puts Conversational AI in Mattel Toys
   url: https://www.pymnts.com/news/artificial-intelligence/2025/barbie-gets-brain-openai-partnership-puts-conversational-ai-mattel-toys/
 random_paper: 9
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

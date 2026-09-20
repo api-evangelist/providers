@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Marathon Petroleum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fortune 500, Petroleum, Pipelines, and Refining.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Marathon Petroleum Corp. Reports First-Quarter 2026 ...
   url: https://www.prnewswire.com/news-releases/marathon-petroleum-corp-reports-first-quarter-2026-results-302762467.html
-- date: '2026-05-25'
+- date: ''
   title: Marathon Petroleum outlines 94% Q2 utilization and adds ...
   url: https://seekingalpha.com/news/4586076-marathon-petroleum-outlines-94-percent-q2-utilization-and-adds-5b-buyback-authorization-amid
-- date: '2026-05-25'
+- date: ''
   title: WEDNESDAY APRIL 30, 2025 10 AM EDT
   url: https://www.marathonpetroleum.com/content/documents/Investors/2025_MPCProxyStatement_small.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'Marathon Petroleum''s AI Journey: Predictive Anomaly ...'
   url: https://www.linkedin.com/posts/john-aldrete_marathon-petroleum-to-present-dra-at-ai-in-activity-7427457047828262912-tNxq
-- date: '2026-05-25'
+- date: ''
   title: Marathon Petroleum's Ehren Powell On Data, AI And ...
   url: https://www.forbes.com/sites/peterhigh/2026/03/13/marathon-petroleums-ehren-powell-on-data-ai-and-operational-safety/
 random_paper: 0
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The Southwestern Energy investor relations portal provides financial data, shareholder information, earnings summaries, SEC filings, and corporate governance information. The investor relations infras
@@ -122,19 +122,19 @@ plans:
   plan_count: 1
   slug: southwestern-energy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Chesapeake to become top US natural gas producer with ...
   url: https://www.reuters.com/markets/deals/chesapeake-buy-southwestern-energy-74-billion-deal-2024-01-11/
-- date: '2026-05-25'
+- date: ''
   title: Industry Veterans Unite Operations, Chart Course As ...
   url: https://www.aogr.com/magazine/editors-choice/industry-veterans-unite-operations-chart-course-as-expand-energy
-- date: '2026-05-25'
+- date: ''
   title: Chesapeake Energy Corporation and Southwestern ...
   url: https://www.prnewswire.com/news-releases/chesapeake-energy-corporation-and-southwestern-energy-company-combination-expected-to-close-in-the-first-week-of-october-302259328.html
-- date: '2026-05-25'
+- date: ''
   title: tm243657-1_s4 - none - 58.1072356s
   url: https://www.sec.gov/Archives/edgar/data/895126/000110465924029464/tm243657-1_s4.htm
-- date: '2026-05-25'
+- date: ''
   title: Chesapeake Energy Corp. is buying Southwestern ...
   url: https://www.facebook.com/Investopedia/posts/chesapeake-energy-corp-is-buying-southwestern-energy-co-to-become-the-largest-na/765851035566707/
 random_paper: 10
@@ -179,7 +179,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

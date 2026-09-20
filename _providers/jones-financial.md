@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Jones Financial Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Investment Management, and Wealth Management.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Investing in AI: What you should know'
   url: https://www.edwardjones.com/us-en/market-news-insights/guidance-perspective/ai-investing-ejp
-- date: '2026-05-25'
+- date: ''
   title: Edward Jones Ventures is entering year two with major ...
   url: https://www.facebook.com/edwardjones/posts/edward-jones-ventures-is-entering-year-two-with-major-momentum-today-we-announce/948312590858382/
-- date: '2026-05-25'
+- date: ''
   title: Our Managing Partner Penny Pennington joined Yahoo ...
   url: https://www.instagram.com/reel/DWOjltplZqx/
-- date: '2026-05-25'
+- date: ''
   title: Edward Jones Ventures invests in AI-driven solutions to ...
   url: https://www.prnewswire.com/news-releases/edward-jones-ventures-invests-in-ai-driven-solutions-to-help-families-navigate-lifes-biggest-financial-decisions-302676814.html
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence in Financial Services
   url: https://reports.weforum.org/docs/WEF_Artificial_Intelligence_in_Financial_Services_2025.pdf
 random_paper: 3
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

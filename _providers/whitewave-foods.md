@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,19 +99,19 @@ overview: 'WhiteWave Foods is profiled on the [APIs.io](https://apis.io/) networ
 
   The WhiteWave Foods catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: The WhiteWave Foods Company - Statistics & Facts
   url: https://www.statista.com/topics/2740/the-whitewave-foods-company/?srsltid=AfmBOop6IjzoOu8eKZsHqRNcYNuW38NnL8s4B3_Xorw4klCxYvZGtoCZ
-- date: '2026-05-25'
+- date: ''
   title: Danone to buy US group WhiteWave Foods for $10bn
   url: https://www.proactiveinvestors.com/companies/news/127984/danone-to-buy-us-group-whitewave-foods-for-10bn-127984.html
-- date: '2026-05-25'
+- date: ''
   title: WhiteWave To Pay $600M For Organic Food Co. Earthbound
   url: https://www.law360.com/articles/494171/whitewave-to-pay-600m-for-organic-food-co-earthbound
-- date: '2026-05-25'
+- date: ''
   title: DanoneWave Established as the Largest Public Benefit ...
   url: https://www.prnewswire.com/news-releases/danonewave-established-as-the-largest-public-benefit-corporation-in-the-us-300445182.html
-- date: '2026-05-25'
+- date: ''
   title: Danone Will Use AI to Improve Its Vegan Dairy Alternatives
   url: https://www.livekindly.com/danone-ai-develop-vegan-dairy/
 random_paper: 2
@@ -140,7 +140,7 @@ score:
     - north-america
   previous_composite: 7.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

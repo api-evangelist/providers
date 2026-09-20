@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -142,19 +142,19 @@ plans:
   plan_count: 3
   slug: intel-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Intel Corporation (INTC) Latest Press Releases & ...
   url: https://finance.yahoo.com/quote/INTC/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: Intel Newsroom Home
   url: https://newsroom.intel.com/
-- date: '2026-05-25'
+- date: ''
   title: All News - Newsroom
   url: https://newsroom.intel.com/all-news
-- date: '2026-05-25'
+- date: ''
   title: 'Press Releases - Investor Relations :: Intel Corporation (INTC)'
   url: https://www.intc.com/news-events/press-releases?page=10
-- date: '2026-05-25'
+- date: ''
   title: NVIDIA and Intel to Develop AI Infrastructure and Personal ...
   url: http://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products
 random_paper: 12
@@ -189,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

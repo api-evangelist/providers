@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -177,19 +177,19 @@ plans:
   plan_count: 0
   slug: cincinnati-financial-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cincinnati Financial Reports Second-Quarter 2025 Results
   url: https://investors.cinfin.com/2025-07-28-Cincinnati-Financial-Reports-Second-Quarter-2025-Results
-- date: '2026-05-25'
+- date: ''
   title: Cincinnati Financial shareholders reelect board - CINF
   url: https://www.stocktitan.net/news/CINF/cincinnati-financial-corporation-holds-shareholders-and-directors-2zkm6xgkc13f.html
-- date: '2026-05-25'
+- date: ''
   title: Cincinnati Financial Reports Fourth-Quarter and Full-Year ...
   url: https://www.prnewswire.com/news-releases/cincinnati-financial-reports-fourth-quarter-and-full-year-2025-results-302682915.html
-- date: '2026-05-25'
+- date: ''
   title: cinf-20260502
   url: https://www.sec.gov/Archives/edgar/data/20286/000002028626000030/cinf-20260502.htm
-- date: '2026-05-25'
+- date: ''
   title: News Releases
   url: https://investors.cinfin.com/2026-01-30-Cincinnati-Financial-Corporation-Increases-Regular-Quarterly-Cash-Dividend
 random_paper: 10
@@ -225,7 +225,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

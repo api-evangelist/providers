@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -242,6 +242,10 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.fulcrumapp.com/llms.txt
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://www.fulcrumapp.com/newsroom/fulcrum-announces-mcp-connector-and-ai-toolkit/
 created: '2024-11-13'
 description: Fulcrum is a field data collection and inspection platform used by teams to build mobile forms, capture geospatial records, attach photos, videos, audio, and signatures, and synchronize the resulting data with back-office systems. The Fulcrum REST API exposes programmatic access to forms, records, media, choice lists, classification sets, projects, layers, memberships, roles, webhooks, ad hoc SQL queries, and changesets.
 finops:
@@ -250,14 +254,14 @@ finops:
   slug: fulcrum-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fulcrum.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-19'
 name: Fulcrum
 nav: Providers
 network: true
 overview: 'Fulcrum publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Changesets API, Choice Lists API, and 12 more. Tagged areas include Data Collection, Field Data, Geospatial, Process Management, and Mobile.
 
 
-  Fulcrum''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
+  Fulcrum''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Fulcrum Plans Pricing
   plan_count: 3
@@ -294,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

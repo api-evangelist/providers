@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -198,19 +198,19 @@ plans:
   plan_count: 1
   slug: broadridge-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Broadridge Transforming Financial Literacy in Ireland ...
   url: https://www.broadridge.com/press-release/2026/broadridge-to-transform-financial-literacy-in-ireland
-- date: '2026-05-25'
+- date: ''
   title: The Broadridge Newsroom
   url: https://www.broadridge.com/news-room
-- date: '2026-05-25'
+- date: ''
   title: Broadridge Deploys Agentic AI at Institutional Scale Across ...
   url: https://www.prnewswire.com/news-releases/broadridge-deploys-agentic-ai-at-institutional-scale-across-capital-markets-and-wealth-operations-302767688.html
-- date: '2026-05-25'
+- date: ''
   title: Press Hub
   url: https://www.broadridge.com/press-hub
-- date: '2026-05-25'
+- date: ''
   title: Governor Hochul Announces $78 Million Investment by ...
   url: https://esd.ny.gov/esd-media-center/press-releases/governor-hochul-announces-78-million-investment-broadridge
 random_paper: 9
@@ -261,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

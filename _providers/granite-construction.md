@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,19 +86,19 @@ overview: 'Granite Construction is profiled on the [APIs.io](https://apis.io/) n
 
   Granite Construction''s developer surface includes engineering blog and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: AI in construction is having its moment, maybe?
   url: https://www.linkedin.com/posts/clayedwards-skender_builders-slow-to-adopt-ai-despite-perceived-activity-7380966420072812544-Tonl
-- date: '2026-05-25'
+- date: ''
   title: Contractors tout tech as AI arms race continues
   url: https://www.constructiondive.com/news/ai-granite-skanska-safety-award-innovation/746909/
-- date: '2026-05-25'
+- date: ''
   title: Watsonville, Calif.-based Granite Construction Awarded For ...
   url: https://www.agc.org/news/2025/05/05/watsonville-calif-based-granite-construction-awarded-innovative-tailored-ai-training-tool-designed
-- date: '2026-05-25'
+- date: ''
   title: Granite Construction
   url: https://www.facebook.com/graniteconstruction/posts/safety-goes-hand-in-hand-with-innovation-part-of-safetybychoice-is-keeping-up-wi/1381748037292380/
-- date: '2026-05-25'
+- date: ''
   title: SEC Charges Infrastructure Company Granite Construction ...
   url: https://www.sec.gov/newsroom/press-releases/2022-150
 random_paper: 2
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

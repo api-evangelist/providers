@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -102,19 +102,19 @@ overview: 'TrueBlue is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   TrueBlue''s developer surface includes engineering blog and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: TrueBlue's PeopleReady Launches AI-Enabled Bill Rate ...
   url: https://www.businesswire.com/news/home/20251210186906/en/TrueBlues-PeopleReady-Launches-AI-Enabled-Bill-Rate-Feature-in-JobStack-App-for-Faster-Smarter-Staffing-Decisions
-- date: '2026-05-25'
+- date: ''
   title: EHS Announces Three Highly Qualified Director Nominees ...
   url: https://www.prnewswire.com/news-releases/ehs-announces-three-highly-qualified-director-nominees-for-election-to-trueblue-board-302655746.html
-- date: '2026-05-25'
+- date: ''
   title: FORM 8-K - TrueBlue Investors
   url: https://investor.trueblue.com/sec-filings/all-sec-filings/content/0000768899-25-000041/0000768899-25-000041.pdf
-- date: '2026-05-25'
+- date: ''
   title: AI Software Pharma & Life Science News
   url: https://truebluecorp.com/en/the-traibe/p4
-- date: '2026-05-25'
+- date: ''
   title: TrueBlue's PeopleScout Advances Proprietary Talent Tech ...
   url: https://investor.trueblue.com/news-events/press-releases/detail/403/trueblues-peoplescout-advances-proprietary-talent-tech
 random_paper: 14
@@ -138,7 +138,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

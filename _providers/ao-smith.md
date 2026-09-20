@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: AO Smith's iCOMM connected technology platform enables remote monitoring and control of compatible AO Smith water heaters through the A. O. Smith and iCOMM Connectivity mobile apps — tracking water an
@@ -121,19 +121,19 @@ plans:
   plan_count: 0
   slug: ao-smith-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence will redefine the marketing space
   url: https://www.exchange4media.com/digital-news/artificial-intelligence-will-redefine-the-marketing-space-143435.html
-- date: '2026-05-25'
+- date: ''
   title: A. O. Smith hires Chris Howe as new chief digital ...
   url: https://www.pmmag.com/articles/106872-a-o-smith-hires-chris-howe-as-new-chief-digital-information-officer
-- date: '2026-05-25'
+- date: ''
   title: A. O. Smith and The Water Council announce ... - Investor Relations
   url: https://investor.aosmith.com/node/17986/pdf
-- date: '2026-05-25'
+- date: ''
   title: 'A.O. Smith India on Instagram: "Innovation That Preserves ...'
   url: https://www.instagram.com/reel/DXZPysADbjW/
-- date: '2026-05-25'
+- date: ''
   title: The Water Council and A. O. Smith Kick Off 2018 Competition ...
   url: https://investor.aosmith.com/news-releases/news-release-details/water-council-and-o-smith-kick-2018-competition-supporting
 random_paper: 10
@@ -168,7 +168,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

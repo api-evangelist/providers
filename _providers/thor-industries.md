@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -71,19 +71,19 @@ overview: 'Thor Industries is profiled on the [APIs.io](https://apis.io/) networ
 
   The Thor Industries catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: THOR Industries Names Biren to Chief Information Officer
   url: https://rvbusiness.com/thor-industries-names-biren-to-chief-information-officer/
-- date: '2026-05-25'
+- date: ''
   title: Thor Industries Appoints Chief Information Officer, Shifts ...
   url: https://sgbonline.com/thor-industries-appoints-chief-information-officer-shifts-technology-reporting-structure/
-- date: '2026-05-25'
+- date: ''
   title: THO THOR Industries, Inc. Stock Price & Overview
   url: https://seekingalpha.com/symbol/THO
-- date: '2026-05-25'
+- date: ''
   title: THOR INDUSTRIES ELEVATES RYAN BIREN TO CHIEF ...
   url: https://ir.thorindustries.com/investor-resources/press-releases/press-release-details/2026/THOR-INDUSTRIES-ELEVATES-RYAN-BIREN-TO-CHIEF-INFORMATION-OFFICER-SIGNALING-ACCELERATED-ENTERPRISE-DATA-AND-AI-STRATEGY/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: THOR INDUSTRIES ELEVATES RYAN BIREN TO CHIEF ...
   url: https://www.prnewswire.com/news-releases/thor-industries-elevates-ryan-biren-to-chief-information-officer-signaling-accelerated-enterprise-data-and-ai-strategy-302700093.html
 random_paper: 4
@@ -107,7 +107,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

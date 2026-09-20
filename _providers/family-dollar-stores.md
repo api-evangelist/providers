@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -135,19 +135,19 @@ plans:
   plan_count: 0
   slug: family-dollar-stores-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Family Dollar Turns to AI Platform to Localize Product Assortment
   url: https://p2pi.com/family-dollar-turns-ai-platform-localize-product-assortment
-- date: '2026-05-25'
+- date: ''
   title: Chesapeake-based Dollar Tree completes sale of Family ...
   url: https://www.pilotonline.com/2025/07/07/dollar-tree-completes-family-dollar-sale/
-- date: '2026-05-25'
+- date: ''
   title: Family Dollar Highlights Strong Fiscal 2025 Performance ...
   url: https://www.prnewswire.com/news-releases/family-dollar-highlights-strong-fiscal-2025-performance-as-transformation-strengthens-business-302715979.html
-- date: '2026-05-25'
+- date: ''
   title: ANNUAL REPORT 2024
   url: https://corporate.dollartree.com/investors/sec-filings/content/0000935703-25-000017/ars2024dltr.pdf
-- date: '2026-05-25'
+- date: ''
   title: Why is Dollar Tree sign removed from Family Dollar?
   url: https://www.facebook.com/groups/615443083940178/posts/1194301942720953/
 random_paper: 18
@@ -182,7 +182,7 @@ score:
     - north-america
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

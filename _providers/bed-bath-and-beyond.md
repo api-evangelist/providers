@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Seller-facing API for the Bed Bath & Beyond third-party marketplace, which runs as a tenant of the Mirakl Marketplace Platform at bedbathandbeyondus-prod.mirakl.net. Approved sellers generate a Shop A
@@ -150,19 +150,19 @@ plans:
   plan_count: 0
   slug: bed-bath-and-beyond-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Bed Bath & Beyond to Cut Headcount with AI Integration
   url: https://www.linkedin.com/posts/paul-young-055632b_bed-bath-beyond-ceo-ai-will-lead-to-significant-activity-7454940752268288000-uCFl
-- date: '2026-05-25'
+- date: ''
   title: Letter to Shareholders and Stakeholders from Marcus ...
   url: https://investors.beyond.com/news-events/press-releases/news-details/2026/Letter-to-Shareholders-and-Stakeholders-from-Marcus-Lemonis-Executive-Chairman-and-Chief-Executive-Officer-of-Bed-Bath--Beyond/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Bed Bath & Beyond hires Kyla Robinson as tech chief
   url: https://www.stocktitan.net/news/BBBY/bed-bath-beyond-appoints-kyla-robinson-to-lead-technology-zeo6fey1p452.html
-- date: '2026-05-25'
+- date: ''
   title: Bed Bath & Beyond Appoints Kyla Robinson to Lead ...
   url: https://www.businesswire.com/news/home/20260427725853/en/Bed-Bath-Beyond-Appoints-Kyla-Robinson-to-Lead-Technology-Transformation-Across-Everything-Home
-- date: '2026-05-25'
+- date: ''
   title: Bed Bath & Beyond CEO sends stark AI warning to workers
   url: https://sg.finance.yahoo.com/news/bed-bath-beyond-ceo-sends-150700273.html
 random_paper: 15
@@ -180,7 +180,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 13.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
@@ -188,10 +188,10 @@ score:
     developer_ergonomics: 14.3
     discoverability: 75.9
     operational_transparency: 10.5
-  previous_composite: 5.0
+  previous_composite: 18.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
-  trend: rising
+  scored_at: '2026-09-19'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

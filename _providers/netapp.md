@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -442,19 +442,19 @@ plans:
   plan_count: 7
   slug: netapp-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: AI infrastructure and data management
   url: https://www.netapp.com/artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases - News and Information
   url: https://www.netapp.com/newsroom/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: Unleash AI innovation with your data with the ...
   url: https://www.netapp.com/video/ofx1pmmqag8/unleash-ai-innovation-with-your-data-with-the-netapp-platform/
-- date: '2026-05-25'
+- date: ''
   title: Data Storage and Cloud Storage Newsroom
   url: https://www.netapp.com/newsroom/
-- date: '2026-05-25'
+- date: ''
   title: AI in the wild | Watts the Future
   url: https://www.netapp.com/video/tM47Foy3L_U/ai-in-the-wild-watts-the-future/
 random_paper: 10
@@ -514,7 +514,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

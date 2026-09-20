@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -99,19 +99,19 @@ plans:
   plan_count: 3
   slug: bwx-technologies-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for BWX Technologies INC filed 02/23/2026
   url: https://investors.bwxt.com/static-files/1f0aba30-45d0-48cb-9c4e-d9e36be06584
-- date: '2026-05-25'
+- date: ''
   title: Executive Leadership and Board of Directors
   url: https://investors.bwxt.com/corporate-governance/executive-leadership-board-of-directors
-- date: '2026-05-25'
+- date: ''
   title: Purdue, BWXT Partner to Advance Research in Next-Gen ...
   url: https://www.executivegov.com/articles/purdue-bwxt-nuclear-smr-microreactors
-- date: '2026-05-25'
+- date: ''
   title: BWX Technologies, Inc. (BWXT) Drops Over 10% Amid ...
   url: https://finance.yahoo.com/news/bwx-technologies-inc-bwxt-drops-222300278.html
-- date: '2026-05-25'
+- date: ''
   title: BWXT Unveils Innovative Digital Center to Drive ...
   url: https://www.businesswire.com/news/home/20260204002672/en/BWXT-Unveils-Innovative-Digital-Center-to-Drive-Improvements
 random_paper: 16
@@ -145,7 +145,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

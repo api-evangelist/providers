@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,19 +80,19 @@ nav: Providers
 network: true
 overview: Dresser-Rand Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial, Oil and Gas, Rotating Equipment, and Energy.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Siemens Gets Greenlight on $7.8 Billion Buyout of Dresser ...
   url: https://www.oilandgas360.com/siemens-gets-greenlight-on-7-8-billion-buyout-of-dresser-rand/
-- date: '2026-05-25'
+- date: ''
   title: Dresser-Rand to Acquire Turbo Machines Field Services ...
   url: https://www.prnewswire.com/news-releases/dresser-rand-to-acquire-turbo-machines-field-services-pty-ltd-92217034.html
-- date: '2026-05-25'
+- date: ''
   title: Siemens buyout of Dresser-Rand set to face Feb. 13 review ...
   url: https://www.mlex.com/mlex/articles/2080153/siemens-buyout-of-dresser-rand-set-to-face-feb-13-review-deadline-in-eu
-- date: '2026-05-25'
+- date: ''
   title: How Will Siemens' Acquisition of Dresser-Rand Change ...
   url: https://www.ien.eu/article/how-will-siemens-acquisition-of-dresser-rand-change-the-competitive-landscape/?a=enquire
-- date: '2026-05-25'
+- date: ''
   title: Siemens in agreed $7.6 billion deal to buy Dresser-Rand
   url: https://www.reuters.com/article/technology/siemens-in-agreed-76-billion-deal-to-buy-dresser-rand-idUSKCN0HH0CM/
 random_paper: 2
@@ -122,7 +122,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

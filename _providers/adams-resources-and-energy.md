@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 12
 common:
@@ -95,19 +95,19 @@ nav: Providers
 network: true
 overview: Adams Resources & Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Crude Oil, Transportation, and Logistics.
 press:
-- date: '2026-05-25'
+- date: ''
   title: ADAMS RESOURCES & ENERGY, INC. ANNOUNCES ...
   url: https://www.prnewswire.com/news-releases/adams-resources--energy-inc-announces-acquisition-of-land-for-phoenix-oil-relocation-and-expansion-301816578.html
-- date: '2026-05-25'
+- date: ''
   title: Jim Simons Adds Adams Resources & Energy Inc to Portfolio
   url: https://www.gurufocus.com/news/2325226/jim-simons-adds-adams-resources-energy-inc-to-portfolio?mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Locke Lord Advises Adams Resources in $138.9 Million ...
   url: https://www.troutman.com/experience/locke-lord-advises-adams-resources-in-dollar1389-million-take-private-acquisition-by-affiliate-of-tres-energy/
-- date: '2026-05-25'
+- date: ''
   title: Agreement and Plan of Merger by and among Adams ...
   url: https://www.sec.gov/Archives/edgar/data/2178/000000217824000090/a4q2024_ex21xmergeragreeme.htm
-- date: '2026-05-25'
+- date: ''
   title: An Affiliate of Tres Energy LLC to Acquire Adams ...
   url: https://www.kslaw.com/news-and-insights/an-affiliate-of-tres-energy-llc-to-acquire-adams-resources-energy-inc-in-take-private-transaction
 random_paper: 1
@@ -137,7 +137,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

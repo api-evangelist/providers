@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: RushCare Service Connect is a technology platform that provides a single portal integrated with OEMs, third-party repair software systems, and real-time telematics providers. It integrates with Peterb
@@ -146,19 +146,19 @@ plans:
   plan_count: 3
   slug: rush-enterprises-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Q&A: Rush Execs Talk Industry Challenges and Trends'
   url: https://www.truckinginfo.com/news/qa-rush-ceo-and-ceo-talk-industry-challenges-and-trends
-- date: '2026-05-25'
+- date: ''
   title: Rush Enterprises signals Class 8 sales up 15% in Q2 as it ...
   url: https://seekingalpha.com/news/4582247-rush-enterprises-signals-class-8-sales-up-15-percent-in-q2-as-it-targets-june-close-for-gulf
-- date: '2026-05-25'
+- date: ''
   title: Is AI's Cooler View of Rush Enterprises' Growth Rewriting ...
   url: https://simplywall.st/stocks/us/capital-goods/nasdaq-rush.a/rush-enterprises/news/is-ais-cooler-view-of-rush-enterprises-growth-rewriting-the
-- date: '2026-05-25'
+- date: ''
   title: RUSH ENTERPRISES, INC
   url: https://investor.rushenterprises.com/static-files/c6ec57d1-bc1d-4edb-b52f-f9255962bb8e
-- date: '2026-05-25'
+- date: ''
   title: Norton Rose Fulbright represents Rush Enterprises in joint ...
   url: https://www.nortonrosefulbright.com/en-us/news/9cac52b2/norton-rose-fulbright-represents-rush-enterprises-in-joint-venture-with-cummins-inc
 random_paper: 5
@@ -197,7 +197,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 18.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

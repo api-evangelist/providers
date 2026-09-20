@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 8
 common:
@@ -178,19 +178,19 @@ plans:
   plan_count: 0
   slug: rr-donnelley-and-sons-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: SEC Charges R.R. Donnelley & Sons Co. with ...
   url: https://www.sec.gov/newsroom/press-releases/2024-75
-- date: '2026-05-25'
+- date: ''
   title: Newsroom Images | Download RRD Press Photos
   url: https://www.rrd.com/about/newsroom/images
-- date: '2026-05-25'
+- date: ''
   title: Boosting Brand Impact and Influence via Artificial Intelligence
   url: https://www.rrd.com/resources/blog/boosting-brand-impact-and-influence-via-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: RRD's AI-Powered Business Communication Intelligence ...
   url: https://www.rrd.com/about/newsroom/press-release/rrds-ai-powered-business-communication-intelligence-platform-streamlines-and-improves-customer-communications
-- date: '2026-05-25'
+- date: ''
   title: 'RRD Survey: Marketers Embrace Technology to ...'
   url: https://www.businesswire.com/news/home/20240411726617/en/RRD-Survey-Marketers-Embrace-Technology-to-Strategically-Integrate-Print-and-Digital
 random_paper: 1
@@ -231,7 +231,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

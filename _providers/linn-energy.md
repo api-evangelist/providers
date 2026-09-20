@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Linn Energy is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Critical Alerts For Linn Energy, Aeropostale, King Digital, ...
   url: https://www.prnewswire.com/news-releases/critical-alerts-for-linn-energy-aeropostale-king-digital-avis-and-abbott-laboratories-released-by-investorsobserver-271072141.html
-- date: '2026-05-25'
+- date: ''
   title: The Rise and Fall of Linn Energy
   url: https://www.oilandgas360.com/rise-fall-linn-energy/
-- date: '2026-05-25'
+- date: ''
   title: LINN Energy Successfully Completes Financial Restructuring ...
   url: https://www.marketscreener.com/quote/stock/LINNCO-LLC-27797601/news/LINN-Energy-Successfully-Completes-Financial-Restructuring-23959894/
-- date: '2026-05-25'
+- date: ''
   title: Heres why LINN Energy LLC Rocked 15% Higher on ...
   url: https://www.foxbusiness.com/markets/heres-why-linn-energy-llc-rocked-15-higher-on-tuesday
-- date: '2026-05-25'
+- date: ''
   title: 3 Top Investment Ideas for New Money
   url: https://www.insidermonkey.com/blog/linn-energy-llc-line-sandridge-energy-inc-sd-3-top-investment-ideas-for-new-money-166130/2/
 random_paper: 6
@@ -98,7 +98,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

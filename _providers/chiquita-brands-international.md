@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 15
 common:
@@ -127,19 +127,19 @@ overview: 'Chiquita Brands International is profiled on the [APIs.io](https://ap
 
   Chiquita Brands International''s developer surface includes engineering blog and 14 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Chiquita Gen AI platform
   url: https://www.chiquita.com/wp-content/uploads/2025/01/AI-tool-TCs_US_Final.pdf
-- date: '2026-05-25'
+- date: ''
   title: New CIOs at Chiquita Brands and Newgen
   url: https://www.cio.com/article/290706/new-cios-at-chiquita-brands-and-newgen.html
-- date: '2026-05-25'
+- date: ''
   title: Chiquita Advances Banana Innovation with Completion of ...
   url: https://www.newswire.ca/news-releases/chiquita-advances-banana-innovation-with-completion-of-yelloway-banana-pan-genome-849970145.html
-- date: '2026-05-25'
+- date: ''
   title: National Chiquita Day Returns on April 15 with a Bold, AI ...
   url: https://www.prnewswire.com/news-releases/national-chiquita-day-returns-on-april-15-with-a-bold-ai-powered-times-square-takeover-and-global-dance-challenge-302742263.html
-- date: '2026-05-25'
+- date: ''
   title: Chiquita Brings Immersive Brand Experiences and ...
   url: https://www.prnewswire.com/news-releases/chiquita-brings-immersive-brand-experiences-and-innovation-to-ifpa-2025-302586784.html
 random_paper: 10
@@ -168,7 +168,7 @@ score:
     - latin-america
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Ecolab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cleaning, Fortune 500, Hygiene, Infection Prevention, and Sustainability.
 press:
-- date: '2026-05-25'
+- date: ''
   title: News about Ecolab and Nalco Water
   url: https://www.ecolab.com/media-center/news
-- date: '2026-05-25'
+- date: ''
   title: Ecolab Unleashes Water Intelligence to Drive Growth in the ...
   url: https://www.businesswire.com/news/home/20260422376349/en/Ecolab-Unleashes-Water-Intelligence-to-Drive-Growth-in-the-AI-Era
-- date: '2026-05-25'
+- date: ''
   title: Ecolab Inc. - News
   url: https://investor.ecolab.com/news/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 2025 Ecolab Watermark™ Study Reveals Hidden Impact of ...
   url: https://www.ecolab.com/news/2025/10/2025-ecolab-watermark-study-reveals-hidden-impact-of-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Ecolab Inc. (ECL) Latest Press Releases & Corporate News
   url: https://ca.finance.yahoo.com/quote/ECL/press-releases/
 random_paper: 20
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

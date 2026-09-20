@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Jabil Circuit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, Electronics, Supply Chain, and Engineering Services.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Jabil Circuit (JBL-N) Press Releases
   url: https://www.theglobeandmail.com/investing/markets/stocks/JBL-N/pressreleases/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://media.irobot.com/press-releases?item=122484
-- date: '2026-05-25'
+- date: ''
   title: Catch Jabil at CES 2026, January 6-9 in Las Vegas, where ...
   url: https://www.facebook.com/Jabil/posts/catch-jabil-at-ces-2026-january-6-9-in-las-vegas-where-the-brightest-tech-innova/1372496318248706/
-- date: '2026-05-25'
+- date: ''
   title: Endeavour and Jabil partner to deliver on-demand AI ...
   url: https://www.investing.com/news/company-news/endeavour-and-jabil-partner-to-deliver-ondemand-ai-infrastructure-93CH-4135766
-- date: '2026-05-25'
+- date: ''
   title: Jabil
   url: https://www.facebook.com/Jabil/posts/jabil-has-been-named-a-time-time100companiesindustryleader-in-manufacturing-logi/1486973570134313/
 random_paper: 16
@@ -103,7 +103,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

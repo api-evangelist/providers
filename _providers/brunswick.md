@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,30 +78,30 @@ overview: 'Brunswick Corporation is profiled on the [APIs.io](https://apis.io/) 
 
   Brunswick Corporation''s developer surface includes engineering blog and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
+  title: Brunswick Corporation Named to Newsweek's Most Trustworthy Companies in America 2026 List for Fourth Consecutive Year
+  url: https://www.brunswick.com/news/press-releases/detail/976/brunswick-corporation-named-to-newsweeks-most-trustworthy
+- date: ''
   title: Brunswick Makes Waves With Its First-Ever CES Boat Launch
   url: https://www.ces.tech/videos/brunswick-makes-waves-with-its-first-ever-ces-boat-launch/
-- date: '2026-05-25'
+- date: ''
+  title: B&G® Celebrates 70 Years of Sailing Innovation
+  url: https://www.brunswick.com/news/press-releases/detail/971/bg-celebrates-70-years-of-sailing-innovation
+- date: ''
   title: Brunswick Corporation Unveils Its Largest-Ever Showcase ...
   url: https://www.brunswick.com/news/press-releases/detail/956/brunswick-corporation-unveils-its-largest-ever-showcase-of
-- date: '2026-05-25'
+- date: ''
+  title: Vittorio Bichucher Appointed President of Venture Boat Group, Continues Leadership at NAVAN
+  url: https://www.brunswick.com/news/press-releases/detail/972/vittorio-bichucher-appointed-president-of-venture-boat
+- date: ''
+  title: Brunswick Corporation Named to Fast Company’s Annual List of the World’s Most Innovative Companies of 2026
+  url: https://www.brunswick.com/news/press-releases/detail/974/brunswick-corporation-named-to-fast-companys-annual-list
+- date: ''
+  title: Brunswick Corporation Collaborates with Textron Systems on TSUNAMI® Uncrewed Surface Vessel Deliveries for DIU, U.S. Navy Fourth Fleet and SOUTHCOM
+  url: https://www.brunswick.com/news/press-releases/detail/985/brunswick-corporation-collaborates-with-textron-systems-on
+- date: ''
   title: Algorithmic Relations
   url: https://www.brunswickgroup.com/algorithmic-relations/
-- date: '2026-05-25'
-  title: Brunswick Corporation Showcases Groundbreaking ...
-  url: https://www.quiverquant.com/news/Brunswick+Corporation+Showcases+Groundbreaking+Marine+Innovations+at+CES+2026
-- date: '2026-05-25'
-  title: AI at the Helm of Marine Innovation, presented by Brunswick
-  url: https://www.ces.tech/schedule/ai-at-the-helm-of-marine-innovation-presented-by-brunswick/
-- date: '2026-05-15'
-  title: Boston Whaler and Salty Crew Launch Limited-Edition Apparel Collaboration for Spring ’26
-  url: https://www.brunswick.com/news/press-releases/detail/988/boston-whaler-and-salty-crew-launch-limited-edition-apparel
-- date: '2026-05-15'
-  title: Brunswick Corporation's Lauren Beckstedt Wins 2026 Global CMO of the Year ORBIE Award
-  url: https://www.brunswick.com/news/press-releases/detail/990/brunswick-corporations-lauren-beckstedt-wins-2026-global
-- date: '2026-05-13'
-  title: BoatClass Expands to More Than 40 Locations Across North America for the 2026 Boating Season
-  url: https://www.brunswick.com/news/press-releases/detail/987/boatclass-expands-to-more-than-40-locations-across-north
 random_paper: 16
 score:
   band: minimal
@@ -128,7 +128,7 @@ score:
     - north-america
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

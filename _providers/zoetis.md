@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Zoetis Vetscan Connectivity provides bidirectional communication between veterinary practice information management systems (PIMS) and Zoetis point-of-care analyzers and reference laboratory services.
@@ -94,19 +94,19 @@ plans:
   plan_count: 3
   slug: zoetis-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Zoetis Launches AI Masses, the New AI-Powered Cytologic ...
   url: https://news.zoetis.com/press-releases/press-release-details/2025/Zoetis-Launches-AI-Masses-the-New-AI-Powered-Cytologic-Capability-for-Vetscan-Imagyst-2025-YhrB1kjmLg/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Veterinary
   url: https://techcyte.com/solutions/veterinary/
-- date: '2026-05-25'
+- date: ''
   title: 'Zoetis''s AI Strategy: Analysis of Dominance in Animal ...'
   url: https://www.klover.ai/zoetis-ai-strategy-analysis-of-dominance-in-animal-health-ai/
-- date: '2026-05-25'
+- date: ''
   title: Transforming drug discovery and development with ...
   url: https://www.zoetis.com/news-and-insights/blog/transforming-drug-discovery-and-development-with-generative-ai
-- date: '2026-05-25'
+- date: ''
   title: Zoetis announces first AI analyser update Bosses said ...
   url: https://www.facebook.com/vettimesuk/posts/zoetis-announces-first-ai-analyser-updatebosses-said-the-updates-to-the-analyser/1425086699632340/
 random_paper: 10
@@ -140,7 +140,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

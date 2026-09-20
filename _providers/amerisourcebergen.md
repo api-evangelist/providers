@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: AmerisourceBergen (now Cencora) is one of the largest global pharmaceutical distributors, serving pharmaceutical manufacturers, healthcare providers, and patients worldwide. The company does not curre
@@ -165,19 +165,19 @@ plans:
   plan_count: 0
   slug: amerisourcebergen-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Accenture and Salesforce Collaborate to Help Life ...
   url: https://newsroom.accenture.com/news/2023/accenture-and-salesforce-collaborate-to-help-life-sciences-companies-create-differentiation-with-data-and-ai
-- date: '2026-05-25'
+- date: ''
   title: WhizAI Closes New Round with Investment from Shanda ...
   url: https://www.businesswire.com/news/home/20221025005018/en/WhizAI-Closes-New-Round-with-Investment-from-Shanda-Group-and-AmerisourceBergen-Bringing-Total-Capital-Raised-to-%2421-Million
-- date: '2026-05-25'
+- date: ''
   title: AmerisourceBergen & TrakCel Launch Cell Therapy Tool
   url: https://www.cencora.com/newsroom/amerisourcebergen-and-trakcel-launch-integrated-platform-to-support-cgts
-- date: '2026-05-25'
+- date: ''
   title: AmerisourceBergen Reports Fiscal 2019 Second Quarter ...
   url: https://investor.amerisourcebergen.com/news/news-details/2019/AmerisourceBergen-Reports-Fiscal-2019-Second-Quarter-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at Cencora
   url: https://emerj.com/artificial-intelligence-at-cencora/
 random_paper: 6
@@ -218,7 +218,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

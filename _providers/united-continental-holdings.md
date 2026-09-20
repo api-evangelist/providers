@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,19 +87,19 @@ overview: 'United Continental Holdings is profiled on the [APIs.io](https://apis
 
   The United Continental Holdings catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: More than 35 million passengers pass through Denver ...
   url: https://www.facebook.com/Nexton9NEWS/posts/more-than-35-million-passengers-pass-through-denver-international-airport-each-y/1573879281414574/
-- date: '2026-05-25'
+- date: ''
   title: United Continental changes name to United Airlines ...
   url: https://www.reuters.com/article/business/united-continental-changes-name-to-united-airlines-holdings-inc-idUSL4N23Y4MJ/
-- date: '2026-05-25'
+- date: ''
   title: United Airlines Technographics, Software Purchases, AI ...
   url: https://www.appsruntheworld.com/customers-database/customers/view/united-continental-holdings-inc-united-states
-- date: '2026-05-25'
+- date: ''
   title: United Airlines Inc.'s 2015-1 Pass-Through Certif
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/9397440
-- date: '2026-05-25'
+- date: ''
   title: United Continental Holdings and ANA Launch Trans ...
   url: https://www.prnewswire.com/news-releases/united-continental-holdings-and-ana-launch-trans-pacific-joint-venture-119064409.html
 random_paper: 6
@@ -123,7 +123,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

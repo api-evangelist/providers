@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 5
 apis:
 - description: The TriNet Company API provides access to company-level HR data including organizational structure, departments, holiday schedules, workers compensation codes, and company configuration. Used by HR ad
@@ -206,19 +206,19 @@ plans:
   plan_count: 1
   slug: trinet-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: TriNet posts 2025 results and sets 2026 guidance
   url: https://www.stocktitan.net/sec-filings/TNET/8-k-trinet-group-inc-reports-material-event-76bc25bed174.html
-- date: '2026-05-25'
+- date: ''
   title: TriNet Announces First Quarter 2026 Results
   url: https://www.prnewswire.com/news-releases/trinet-announces-first-quarter-2026-results-302758367.html
-- date: '2026-05-25'
+- date: ''
   title: AI-Powered HR Technology
   url: https://www.trinet.com/hr-services/technology-platform/ai
-- date: '2026-05-25'
+- date: ''
   title: TriNet to Launch AI-Powered Suite of Offerings to Empower ...
   url: https://www.trinet.com/about-us/news-press/press-releases/trinet-to-launch-ai-powered-suite-of-offerings-to-empower-smbs-with-personalized-data-driven-hr-support
-- date: '2026-05-25'
+- date: ''
   title: TriNet to launch AI-powered HR suite for small businesses
   url: https://www.investing.com/news/company-news/trinet-to-launch-aipowered-hr-suite-for-small-businesses-93CH-4302017
 random_paper: 10
@@ -246,7 +246,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

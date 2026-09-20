@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Realogy Holdings is profiled on the [APIs.io](https://apis.io/) netwo
 
   Realogy Holdings'' developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Realogy Announces Agreement With Artificial Intelligence ...
   url: https://www.prnewswire.com/news-releases/realogy-announces-agreement-with-artificial-intellegence-ai-real-estate-technology-company-ojo-labs-300515692.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases – Page 6760
   url: https://contentenginellc.com/press-releases/page/6760/?rkey=20190128NE36036&filter=10486&Allvision-Announces-3_2-Million-Seed-Investment
-- date: '2026-05-25'
+- date: ''
   title: Likely.AI Named a Finalist for the Realogy FWD Innovation ...
   url: https://markets.financialcontent.com/stocks/article/abnewswire-2022-4-14-likelyai-named-a-finalist-for-the-realogy-fwd-innovation-summit?Language=english%252F1000
-- date: '2026-05-25'
+- date: ''
   title: Realogy Competition Calls for Tech Superstars to Shape Real ...
   url: https://www.nasdaq.com/press-release/realogy-competition-calls-for-tech-superstars-to-shape-real-estates-future-2022-04-12
-- date: '2026-05-25'
+- date: ''
   title: Realogy Holdings Corp. News and Press Releases
   url: https://www.prnewswire.com/news/realogy-holdings-corp./?page=9
 random_paper: 6
@@ -116,7 +116,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

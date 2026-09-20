@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -88,19 +88,19 @@ overview: 'Wendys is profiled on the [APIs.io](https://apis.io/) network.
 
   The Wendys catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Wendy's Taps Google Cloud to Revolutionize the Drive ...
   url: https://www.prnewswire.com/news-releases/wendys-taps-google-cloud-to-revolutionize-the-drive-thru-experience-with-artificial-intelligence-301819196.html
-- date: '2026-05-25'
+- date: ''
   title: Wendy's is planning to launch an AI chatbot to automate its ...
   url: https://www.facebook.com/KNWAnews/posts/wendys-is-planning-to-launch-an-ai-chatbot-to-automate-its-restaurants-drive-thr/634415388728090/
-- date: '2026-05-25'
+- date: ''
   title: Wendy's and Google Cloud Partner to Enhance the ...
   url: https://www.googlecloudpresscorner.com/2021-10-12-Wendys-and-Google-Cloud-Partner-to-Enhance-the-Wendys-Restaurant-Experience
-- date: '2026-05-25'
+- date: ''
   title: 'From the Farm to the Frosty®: Palantir and Wendy''s Partner ...'
   url: https://www.businesswire.com/news/home/20240807171687/en/From-the-Farm-to-the-Frosty-Palantir-and-Wendys-Partner-on-AI-and-Supply-Chain-Digitalization
-- date: '2026-05-25'
+- date: ''
   title: Leading Drive-Thru Innovation with Wendy's FreshAi
   url: https://www.wendys.com/blog/drive-thru-innovation-wendys-freshai
 random_paper: 6
@@ -127,7 +127,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

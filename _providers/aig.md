@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: AIG offers commercial and personal insurance products globally including property casualty, cyber insurance, casualty, professional liability, financial lines, specialty risk, and reinsurance. AIG ser
@@ -266,19 +266,19 @@ plans:
   plan_count: 0
   slug: aig-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Q4 2025 Earnings Release
   url: https://www.aig.com/content/dam/aig/america-canada/us/documents/investor-relations/earnings-result/aig-reports-4q25-results.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'AIG''s Zaffino: Outcomes From AI Use Went From '' ...'
   url: https://www.insurancejournal.com/news/national/2026/02/13/858033.htm
-- date: '2026-05-25'
+- date: ''
   title: AIG set to report earnings as AI bets face profitability test
   url: https://www.investing.com/news/earnings/aig-set-to-report-earnings-as-ai-bets-face-profitability-test-93CH-4650425
-- date: '2026-05-25'
+- date: ''
   title: AIG leans on generative AI to speed underwriting
   url: https://www.ciodive.com/news/aig-insurance-agentic-generative-ai-underwriting/732183/
-- date: '2026-05-25'
+- date: ''
   title: AIG Investor Day 2025
   url: https://www.aig.com/home/investor-relations/aig-investor-day-2025
 random_paper: 19
@@ -331,7 +331,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

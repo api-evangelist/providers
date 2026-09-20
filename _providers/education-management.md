@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,19 +58,19 @@ nav: Providers
 network: true
 overview: Education Management Corporation is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Artificial Intelligence in Education: Transforming the Future ...'
   url: https://www.aiu.edu/blog/artificial-intelligence-in-education-transforming-the-future-of-learning/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence in Education Management
   url: https://drpress.org/ojs/index.php/fbem/article/view/26167
-- date: '2026-05-25'
+- date: ''
   title: IDC Releases Report on AI-Powered Adaptive Education ...
   url: https://www.prnewswire.com/news-releases/idc-releases-report-on-ai-powered-adaptive-education-industry-revealing-opportunities-and-future-trends-of-ai-in-education-302496656.html
-- date: '2026-05-25'
+- date: ''
   title: Use of Artificial Intelligence in Education Management
   url: https://toknowpress.net/ISBN/978-961-6914-20-8/125.pdf
-- date: '2026-05-25'
+- date: ''
   title: Utilization of Artificial Intelligence Technology in Higher ...
   url: https://www.clausiuspress.com/article/10212.html
 random_paper: 8
@@ -97,7 +97,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

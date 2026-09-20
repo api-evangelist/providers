@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 4
 apis:
 - description: AURA NEXT is RGA's SaaS-based automated underwriting decision management platform powered by 40+ years of underwriting expertise. The API enables insurance carriers to integrate real-time underwriting
@@ -192,19 +192,19 @@ plans:
   plan_count: 1
   slug: reinsurance-group-of-america-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Michael Quinn - Reinsurance Group of America, Incorporated
   url: https://www.linkedin.com/in/michaeljamesquinn
-- date: '2026-05-25'
+- date: ''
   title: Ethical AI drives insurance fairness and better models
   url: https://www.ey.com/en_us/insights/consulting/ey-consulting-case-studies/ethical-ai-drives-insurance-fairness-and-better-models
-- date: '2026-05-25'
+- date: ''
   title: RGA Invests in DigitalOwl for Life Insurance AI Partnership
   url: https://www.digitalowl.com/press-releases/rga-announces-strategic-investment-with-digitalowl
-- date: '2026-05-25'
+- date: ''
   title: EX-99.1
   url: https://www.sec.gov/Archives/edgar/data/898174/000119312526201509/d115304dex991.htm
-- date: '2026-05-25'
+- date: ''
   title: Reinsurance Group of America Reports Fourth Quarter Results
   url: https://investor.rgare.com/news-releases/news-release-details/reinsurance-group-america-reports-fourth-quarter-results-16?mobile=1
 random_paper: 16
@@ -249,7 +249,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

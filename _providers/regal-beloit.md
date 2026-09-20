@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,19 +74,19 @@ overview: 'Regal Beloit is profiled on the [APIs.io](https://apis.io/) network. 
 
   The Regal Beloit catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Regal Completes Merger With Rexnord PMC, Creating ...
   url: https://www.prnewswire.com/news-releases/regal-completes-merger-with-rexnord-pmc-creating-regal-rexnord-corporation-accelerating-its-transformation-into-a-faster-growing-more-profitable-enterprise-301392130.html
-- date: '2026-05-25'
+- date: ''
   title: Regal Rexnord Acquires Arrowhead Systems
   url: https://www.inddist.com/mergers-acquisitions/news/21915873/regal-rexnord-acquires-arrowhead-systems
-- date: '2026-05-25'
+- date: ''
   title: Conveyor systems vendor Regal Rexnord acquires ...
   url: https://www.thescxchange.com/articles/5873-conveyor-systems-vendor-regal-rexnord-acquires-arrowhead-systems
-- date: '2026-05-25'
+- date: ''
   title: REGAL MERGES WITH REXNORD PCM TO FORM ...
   url: https://mundolatas.com/en/regal-merges-with-rexnord-pcm-to-form-regal-rexnord-corporation/
-- date: '2026-05-25'
+- date: ''
   title: Regal Introduces Tiered Offering for Its Connected ...
   url: https://www.prnewswire.com/news-releases/regal-introduces-tiered-offering-for-its-connected-products-and-services-powered-by-perceptiv-intelligence-301335036.html
 random_paper: 19
@@ -116,7 +116,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

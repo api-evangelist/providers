@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -64,19 +64,19 @@ nav: Providers
 network: true
 overview: The Michaels Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Arts and Crafts, Specialty Retail, and E-Commerce.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: The Michaels Cos. Inc. Upgraded'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/13060501
-- date: '2026-05-25'
+- date: ''
   title: Michaels Posts 40% Earnings Growth in Epic Comeback ...
   url: https://news.bloomberglaw.com/bankruptcy-law/michaels-posts-40-earnings-growth-in-epic-comeback-from-tariffs
-- date: '2026-05-25'
+- date: ''
   title: The Michaels Cos prices secondary offering at $27.85/share
   url: https://www.reuters.com/article/business/the-michaels-cos-prices-secondary-offering-at-2785share-idUSASC08WUD/
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: The Michaels Cos. Inc. Ratings A'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101633013
-- date: '2026-05-25'
+- date: ''
   title: Michaels arts and crafts chain going private in $5 billion deal
   url: https://www.chicagotribune.com/2021/03/03/michaels-arts-and-crafts-chain-going-private-in-5-billion-deal/
 random_paper: 20
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

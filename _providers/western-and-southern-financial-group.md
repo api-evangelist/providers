@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 15
 common:
@@ -96,19 +96,19 @@ overview: 'Western & Southern Financial Group is profiled on the [APIs.io](https
 
   Western & Southern Financial Group''s developer surface includes developer portal, documentation, and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Training MVP Awards Best Practice: Western & Southern ...'
   url: https://trainingmag.com/training-mvp-awards-best-practice-western-southern-financial-groups-generative-artificial-intelligence-training-program/
-- date: '2026-05-25'
+- date: ''
   title: 2024 Annual Report
   url: https://www.westernsouthern.com/-/media/files/wsfg/2024-annual-report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Western & Southern Financial Group Acquires Till ...
   url: https://www.prnewswire.com/news-releases/western--southern-financial-group-acquires-till-financial-expanding-into-digital-family-banking-services-and-investing-in-the-next-generation-302754657.html
-- date: '2026-05-25'
+- date: ''
   title: Western & Southern Financial Group
   url: https://www.reinsurancene.ws/tag/western-southern-financial-group/
-- date: '2026-05-25'
+- date: ''
   title: Western & Southern Financial Adds Group Term Life ...
   url: https://iireporter.com/western-southern-financial-adds-group-term-life-product-to-thumbscore/
 random_paper: 11
@@ -143,7 +143,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

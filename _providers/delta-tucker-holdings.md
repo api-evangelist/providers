@@ -47,19 +47,19 @@ nav: Providers
 network: true
 overview: Delta Tucker Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Government Services, Holding Company, Logistics, and Mission Support.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Proxy Statement (Form DEF 14A)
   url: https://www.publicnow.com/view/F2243B833D18A724285849E28B6619A4215AE43F?1750452459
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1646972/000114036124030899/ny20019591x1_def14a.htm
-- date: '2026-05-25'
+- date: ''
   title: HP INC. XEROX HOLDINGS CORPORATION
   url: https://investors.xerox.com/static-files/6b7bc5b3-72cd-4b9f-ba5f-e6fc6570a86a
-- date: '2026-05-25'
+- date: ''
   title: D - API Evangelist Contracts - Contracts
   url: https://contracts.apievangelist.com/d/
-- date: '2026-05-25'
+- date: ''
   title: Investors - Governance - Board of Directors
   url: https://www.albertsonscompanies.com/investors/governance/board-of-directors/default.aspx
 random_paper: 10

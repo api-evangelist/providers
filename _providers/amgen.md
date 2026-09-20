@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Amgen discovers, develops, manufactures, and delivers innovative biologic medicines for patients with serious illnesses. The company does not currently publish a public developer API.
@@ -146,19 +146,19 @@ plans:
   plan_count: 0
   slug: amgen-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence Vision
   url: https://www.amgen.com/about/how-we-operate/policies-practices-and-disclosures/artificial-intelligence-vision
-- date: '2026-05-25'
+- date: ''
   title: AI in Research & Development | Amgen
   url: https://www.amgen.com/science/research-and-development-strategy/ai-in-research-and-development
-- date: '2026-05-25'
+- date: ''
   title: 'Enhanced Patient-Centricity: How the Biopharmaceutical ...'
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9602573/
-- date: '2026-05-25'
+- date: ''
   title: AMGEN ANNOUNCES RETIREMENT OF DAVID M. ...
   url: https://www.prnewswire.com/news-releases/amgen-announces-retirement-of-david-m-reese-executive-vice-president-and-chief-technology-officer-302750791.html
-- date: '2026-05-25'
+- date: ''
   title: 'On the Global Stage: Amgen''s Top Voices Drive ...'
   url: https://www.amgen.com/stories/2025/05/on-the-global-stage-amgens-top-voices-drive-conversations-on-ai-and-innovation
 random_paper: 14
@@ -192,7 +192,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

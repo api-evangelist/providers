@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,19 +94,19 @@ overview: 'StanCorp Financial Group is profiled on the [APIs.io](https://apis.io
 
   StanCorp Financial Group''s developer surface includes developer portal, engineering blog, documentation, and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Standard Names Porter Orr Second Vice President ...
   url: https://www.standard.com/get-to-know-standard/newsroom/press-releases/standard-names-porter-orr-second-vice-president-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: The Standard – Funding, Valuation, Investors, News
   url: https://o.parsers.vc/startup/standard.com/
-- date: '2026-05-25'
+- date: ''
   title: The Standard Names Porter Orr Second Vice President ...
   url: https://www.businesswire.com/news/home/20240429261921/en/The-Standard-Names-Porter-Orr-Second-Vice-President-of-Artificial-Intelligence-Strategy-and-Development
-- date: '2026-05-25'
+- date: ''
   title: The Standard
   url: https://www.reinsurancene.ws/tag/the-standard/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at The Standard
   url: https://www.standard.com/get-to-know-standard/legal-privacy/artificial-intelligence
 random_paper: 12
@@ -141,7 +141,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

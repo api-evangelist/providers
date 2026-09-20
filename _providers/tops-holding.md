@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 17
 common:
@@ -103,19 +103,19 @@ nav: Providers
 network: true
 overview: Tops Friendly Markets is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Grocery, Loyalty Programs, Retail, Supermarkets, and Northeast Grocery.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Media & Events
   url: https://www.mckoolsmith.com/newsroom
-- date: '2026-05-25'
+- date: ''
   title: How AI can boost communicators' impact
   url: https://www.linkedin.com/posts/stephaneaknin_internalcomms-aiincomms-employeeexperience-activity-7332534557277093888-EX6S
-- date: '2026-05-25'
+- date: ''
   title: Morgan Stanley, HSBC Settle Tops Grocery Dividend ...
   url: https://news.bloomberglaw.com/bankruptcy-law/morgan-stanley-hsbc-settle-tops-grocery-dividend-awards-suit
-- date: '2026-05-25'
+- date: ''
   title: Register of Interests - Members of the House of Lords
   url: https://members.parliament.uk/members/lords/interests/register-of-lords-interests?SearchTerm=health&ShowAmendments=False&page=6
-- date: '2026-05-25'
+- date: ''
   title: Tops parent narrows net loss in second quarter
   url: https://rbj.net/2014/08/26/tops-parent-narrows-net-loss-in-second-quarter/
 random_paper: 8
@@ -144,7 +144,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Enviri (formerly Harsco) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Environmental Services, Hazardous Waste, Industrial, Rail, and Recycling.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Harsco Environmental's Post
   url: https://www.linkedin.com/posts/harscoenvironmental_employeeengagement-mostlovedworkplaces-activity-6857300520957206528-bbLF?trk=public_profile_like_view
-- date: '2026-05-25'
+- date: ''
   title: Harsco Selects IBM for Global Supply Chain Initiative
   url: https://www.prnewswire.com/news-releases/harsco-selects-ibm-for-global-supply-chain-initiative-82246542.html
-- date: '2026-05-25'
+- date: ''
   title: Harsco Environmental to Implement MachineMax Equipment ...
   url: https://investors.enviri.com/news-releases/news-release-details/harsco-environmental-implement-machinemax-equipment-management/
-- date: '2026-05-25'
+- date: ''
   title: How Harsco Rail is adapting its operation to ensure ...
   url: https://manufacturing-today.com/news/how-harsco-rail-is-adapting-its-operation-to-ensure-continued-success-around-the-globe-2/
-- date: '2026-05-25'
+- date: ''
   title: Rail supplier news from Harsco, Wi-Tronix, Nokia, ENGIE ...
   url: https://www.ritdllc.com/industry-news/rail-supplier-news-from-harsco-wi-tronix-nokia-engie-sasser-family-hub-and-schneider-march-13?tmpl=component&print=1&format=print
 random_paper: 2
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

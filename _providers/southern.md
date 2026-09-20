@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The Southern Company Customer Account API provides access to utility account data for Alabama Power, Georgia Power, and Mississippi Power customers. It supports reading energy usage data, account bala
@@ -129,19 +129,19 @@ plans:
   plan_count: 1
   slug: southern-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: SREB Commission on AI in Education
   url: https://www.sreb.org/sreb-commission-ai-education
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence is on a path to become ...
   url: https://www.facebook.com/reviewjournal/posts/artificial-intelligence-is-on-a-path-to-become-as-revolutionary-a-technology-as-/1401401078695566/
-- date: '2026-05-25'
+- date: ''
   title: Southern Company Subsidiaries Among the First To Use AI ...
   url: https://csrwire.com/press-release/southern-company-subsidiaries-among-first-use-ai-enhance-worker-safety/
-- date: '2026-05-25'
+- date: ''
   title: Trump's “AI Action Plan” would let billionaire tech ...
   url: https://www.selc.org/press-release/trumps-ai-action-plan-would-let-billionaire-tech-companies-steamroll-local-communities/
-- date: '2026-05-25'
+- date: ''
   title: Energy Department Announces Partnership to Ensure ...
   url: https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai
 random_paper: 8
@@ -191,7 +191,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

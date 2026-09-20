@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 34
 common:
@@ -141,21 +141,21 @@ overview: 'Wynn Resorts is profiled on the [APIs.io](https://apis.io/) network. 
 
   Wynn Resorts'' developer surface includes training material, engineering blog, and 12 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Wynn Resorts, Limited Reports First Quarter 2026 Results
   url: https://www.prnewswire.com/news-releases/wynn-resorts-limited-reports-first-quarter-2026-results-302766038.html
-- date: '2026-05-25'
-  title: 'Wynn Resorts: 6 Reasons to Ante Up for the Stock'
-  url: https://www.marketbeat.com/stock-ideas/wynn-resorts-6-reasons-to-ante-up-for-the-stock/
-- date: '2026-05-25'
-  title: Former Wynn Resorts Ltd. CEO Steve Wynn has been ...
-  url: https://www.facebook.com/reviewjournal/posts/former-wynn-resorts-ltd-ceo-steve-wynn-has-been-approached-to-finance-a-mobile-t/1080950244073986/
 - date: ''
   title: Wynn Collaborates with UNU Macau to Launch AI Education ...
   url: https://www.newsroom.wynnresorts.com/en/wynnmacau/
 - date: ''
+  title: 'Wynn Resorts: 6 Reasons to Ante Up for the Stock'
+  url: https://www.marketbeat.com/stock-ideas/wynn-resorts-6-reasons-to-ante-up-for-the-stock/
+- date: ''
   title: Wynn Partners with LinkedIn to Promote Talent Development ...
   url: https://www.newsroom.wynnresorts.com/en/wynnmacau/
+- date: ''
+  title: Former Wynn Resorts Ltd. CEO Steve Wynn has been ...
+  url: https://www.facebook.com/reviewjournal/posts/former-wynn-resorts-ltd-ceo-steve-wynn-has-been-approached-to-finance-a-mobile-t/1080950244073986/
 random_paper: 15
 score:
   band: minimal
@@ -177,7 +177,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

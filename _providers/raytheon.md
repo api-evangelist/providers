@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Raytheon is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   Raytheon''s developer surface includes engineering blog and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Raytheon Intelligence & Space and C3.ai Form Alliance to ...
   url: https://c3.ai/raytheon-intelligence-space-and-c3-ai-form-alliance-to-accelerate-military-ai-adoption/
-- date: '2026-05-25'
+- date: ''
   title: RTX's Raytheon announces strategic collaboration with ...
   url: https://www.rtx.com/news/news-center/2025/12/04/rtxs-raytheon-announces-strategic-collaboration-with-aws-to-improve-services-for
-- date: '2026-05-25'
+- date: ''
   title: Patriot One Secures $2.0M USD from Raytheon ...
   url: https://xtractone.com/corporate-news/patriot-one-secures-2-0m-usd-from-raytheon-technologies-corporation/
-- date: '2026-05-25'
+- date: ''
   title: IBM and Raytheon Technologies to Collaborate on Artificial ...
   url: https://newsroom.ibm.com/2021-10-11-IBM-and-Raytheon-Technologies-to-Collaborate-on-Artificial-Intelligence,-Cryptography-and-Quantum-Technologies
-- date: '2026-05-25'
+- date: ''
   title: RTX's Raytheon demonstrates first-ever AI/ML-powered ...
   url: https://www.rtx.com/news/news-center/2025/02/24/rtxs-raytheon-demonstrates-first-ever-ai-ml-powered-radar-warning-receiver-for-4
 random_paper: 16
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

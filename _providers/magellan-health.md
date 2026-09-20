@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Magellan Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Pharmacy Benefits, Behavioral Health, Specialty Health, and Centene.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Spotlight Magellan Health: Ashley Rutter'
   url: https://careers.magellanhealth.com/us/en/blogarticle/spotlight-magellan-health-ashley-rutter
-- date: '2026-05-25'
+- date: ''
   title: Magellan Health uses smartphone-based AI tech to help ...
   url: https://www.healthcareitnews.com/news/magellan-health-uses-smartphone-based-ai-tech-help-hep-c-patients
-- date: '2026-05-25'
+- date: ''
   title: Centene Completes Acquisition of Magellan Health ...
   url: https://www.prnewswire.com/news-releases/centene-completes-acquisition-of-magellan-health-establishing-a-leading-behavioral-health-platform-at-a-critical-time-301453788.html
-- date: '2026-05-25'
+- date: ''
   title: Digital Emotional Wellbeing - Magellan Healthcare
   url: https://www.magellanhealthcare.com/digital-bh/
-- date: '2026-05-25'
+- date: ''
   title: News Releases - Magellan Health
   url: https://magellanhealth.mediaroom.com/2021-10-04-Magellan-Healthcare-Debuts-High-Touch,-High-Tech-Collaborative-Care-Management-Solution-Powered-by-NeuroFlow
 random_paper: 12
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

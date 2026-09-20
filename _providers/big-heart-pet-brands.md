@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 10
 common:
@@ -76,19 +76,19 @@ nav: Providers
 network: true
 overview: Big Heart Pet Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pet Food, Consumer Goods, Retail, Acquired, and Pet Snacks.
 press:
-- date: '2026-05-25'
+- date: ''
   title: AI Revolutionizes Pet Care with Predictive Analytics and ...
   url: https://www.linkedin.com/posts/the-trend-axis-analytics_pettech-aiinhealthcare-marketresearch-activity-7457722811437031424-ymmF
-- date: '2026-05-25'
+- date: ''
   title: Big Heart Pet Brands 2026 Company Profile
   url: https://pitchbook.com/profiles/company/10242-01
-- date: '2026-05-25'
+- date: ''
   title: Innovation Unleashed
   url: https://siteselection.com/innovation-unleashed/
-- date: '2026-05-25'
+- date: ''
   title: The J. M. Smucker Company Completes Acquisition of Big ...
   url: https://www.prnewswire.com/news-releases/the-j-m-smucker-company-completes-acquisition-of-big-heart-pet-brands-300054566.html
-- date: '2026-05-25'
+- date: ''
   title: Roper v. Big Heart Pet Brands, Inc. - 1:19-cv-00406-DAD- ...
   url: https://www.classaction.org/media/roper-v-big-heart-pet-brands-inc.pdf
 random_paper: 0
@@ -112,7 +112,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

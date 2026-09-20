@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 4
 apis:
 - description: The CarMax Store Locations API, discussed publicly on the CarMax Engineering Blog, exposes details about all CarMax store locations including addresses, hours, services offered, and geographic metadat
@@ -173,19 +173,19 @@ plans:
   plan_count: 0
   slug: carmax-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: CarMax Partners with AI Technology Company UVeye ...
   url: https://media.carmax.com/press-releases/news-release/2023/CarMax-Partners-with-AI-Technology-Company-UVeye-on-Vehicle-Assessment-Technology-for-Wholesale-Vehicles/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: CarMax Launches First-of-Its-Kind Car Shopping and ...
   url: https://media.carmax.com/press-releases/news-release/2026/CarMax-Launches-First-of-Its-Kind-Car-Shopping-and-Selling-Experience-in-ChatGPT-App-Store/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: CarMax Launches AI-Powered Used Vehicle Shopping App
   url: https://www.linkedin.com/posts/autofinancenews_carmaxlauncheschatgpt-apptoenable-nationwide-activity-7435824109525204993-An4v
-- date: '2026-05-25'
+- date: ''
   title: CarMax aims to up its customer experience under new CEO
   url: https://www.constellationr.com/insights/news/carmax-aims-its-customer-experience-under-new-ceo
-- date: '2026-05-25'
+- date: ''
   title: CarMax Partners with UVeye to Automate Inspections at ...
   url: https://uveye.com/carmax-partners-with-uveye/
 random_paper: 20
@@ -215,7 +215,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

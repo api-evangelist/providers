@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Quanum Data Exchange is Quest's interoperability service for delivering laboratory and diagnostic results into electronic health record systems, enabling integrated ordering and resulting workflows ac
@@ -98,19 +98,19 @@ plans:
   plan_count: 1
   slug: quest-diagnostics-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Quest Diagnostics to Acquire PathAI ...
   url: https://www.pathai.com/resources/quest-diagnostics-acquire-pathai-diagnostics
-- date: '2026-05-25'
+- date: ''
   title: Quest Diagnostics to Collaborate with Google Cloud ...
   url: https://www.prnewswire.com/news-releases/quest-diagnostics-to-collaborate-with-google-cloud-to-streamline-data-and-personalize-customer-experiences-using-generative-ai-302403989.html
-- date: '2026-05-25'
+- date: ''
   title: Automation and artificial intelligence are reshaping the ...
   url: https://www.questdiagnostics.com/business-solutions/hospitals-health-systems/thoughtlab/automation-and-artificial-intelligence-are-reshaping-the-diagnostic-laboratory
-- date: '2026-05-25'
+- date: ''
   title: We are excited to introduce Quest AI Companion, a new AI ...
   url: https://www.facebook.com/questdiagnostics/posts/we-are-excited-to-introduce-quest-ai-companion-a-new-ai-powered-chat-feature-des/1378300181005872/
-- date: '2026-05-25'
+- date: ''
   title: Quest Diagnostics Introduces AI Companion to Help ...
   url: https://newsroom.questdiagnostics.com/2026-03-02-Quest-Diagnostics-Introduces-AI-Companion-to-Help-Patients-Understand-and-Act-on-Lab-Test-Results
 random_paper: 1
@@ -144,7 +144,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

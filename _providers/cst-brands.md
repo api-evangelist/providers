@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -58,19 +58,19 @@ nav: Providers
 network: true
 overview: CST Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Retail, Fuel Retail, Acquired, and Historical.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?initialSessionID=133-7900993-3289430&page=130
-- date: '2026-05-25'
+- date: ''
   title: Canada's Couche-Tard to buy Texas-based CST Brands in ...
   url: https://www.reuters.com/article/business/canadas-couche-tard-to-buy-texas-based-cst-brands-in-44-billion-deal-idUSKCN10X11Z/
-- date: '2026-05-25'
+- date: ''
   title: CST Brands Investor Slams $4.4B Takeover By Couche-Tard
   url: https://www.law360.com/articles/846110/cst-brands-investor-slams-4-4b-takeover-by-couche-tard
-- date: '2026-05-25'
+- date: ''
   title: CST Brands Inc. On CreditWatch Negative Following
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/1572628
-- date: '2026-05-25'
+- date: ''
   title: Couche-Tard Announces Definitive Merger Agreement with ...
   url: https://www.prnewswire.com/news-releases/couche-tard-announces-definitive-merger-agreement-with-cst-brands-inc-590890761.html
 random_paper: 19
@@ -105,7 +105,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -110,19 +110,19 @@ overview: 'KB Home is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   KB Home''s developer surface includes product news, YouTube channel, and 13 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: KB Home Launches Company-wide AI-powered Chatbot ...
   url: https://investor.kbhome.com/company-news/news-releases/press-release-details/2020/KB-Home-Launches-Company-wide-AI-powered-Chatbot-Platform-Designed-to-Deliver-a-Modern-Real-time-Online-Customer-Experience/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: KB Home (KBH)
   url: https://finance.yahoo.com/quote/KBH/
-- date: '2026-05-25'
+- date: ''
   title: KB Home Partners with AtlasRTX for Company-Wide AI- ...
   url: https://atlasrtx.com/press-release/kb-home-partners-with-atlasrtx-for-company-wide-ai-powered-chatbot-2/
-- date: '2026-05-25'
+- date: ''
   title: KB HOME NAMED TO THE 2026 TIME100 MOST ...
   url: https://www.prnewswire.com/news-releases/kb-home-named-to-the-2026-time100-most-influential-companies-list-302779403.html
-- date: '2026-05-25'
+- date: ''
   title: KB HOME
   url: https://s21.q4cdn.com/462588783/files/doc_financials/2024/q4/2025-10K-KB-Home.pdf
 random_paper: 15
@@ -146,7 +146,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

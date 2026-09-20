@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -654,19 +654,19 @@ plans:
   plan_count: 3
   slug: intuit-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Intuit Assist - A new generative AI-powered financial assistant
   url: https://www.intuit.com/intuitassist/
-- date: '2026-05-25'
+- date: ''
   title: Intuit Unveils Revolutionary System of Intelligence to Help ...
   url: https://investors.intuit.com/news-events/press-releases/detail/1277/intuit-unveils-revolutionary-system-of-intelligence-to-help-businesses-grow-in-the-ai-era
-- date: '2026-05-25'
+- date: ''
   title: Intuit Responsible AI Principles
   url: https://www.intuit.com/privacy/responsible-ai/
-- date: '2026-05-25'
+- date: ''
   title: Intuit Launches AI-Powered Intuit Assist for QuickBooks ...
   url: https://investors.intuit.com/news-events/press-releases/detail/1222/intuit-launches-ai-powered-intuit-assist-for-quickbooks-giving-millions-of-businesses-a-competitive-edge
-- date: '2026-05-25'
+- date: ''
   title: Intuit and OpenAI Join Forces to Revolutionize Financial ...
   url: https://investors.intuit.com/news-events/press-releases/detail/1284/intuit-and-openai-join-forces-to-revolutionize-financial-intelligence-powering-every-person-business-and-dream-with-personalized-experiences
 random_paper: 9
@@ -745,7 +745,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

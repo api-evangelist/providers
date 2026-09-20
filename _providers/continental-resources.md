@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -114,19 +114,19 @@ nav: Providers
 network: true
 overview: Continental Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Exploration, Production, and Upstream.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Corporate Analysis: Continental Resources | Q4 2025'
   url: https://novilabs.com/blog/corporate-analysis-continental-resources-q4-2025/
-- date: '2026-05-25'
+- date: ''
   title: Continental Resources Expands Vaca Muerta Position ...
   url: https://www.prnewswire.com/news-releases/continental-resources-expands-vaca-muerta-position-through-agreement-with-pan-american-energy-302652298.html
-- date: '2026-05-25'
+- date: ''
   title: Annual Report for Fiscal Year Ending December 31, 2024 ...
   url: https://www.publicnow.com/view/8A71D46A2596FC26A5DEB8FE565DF773D769D3A7
-- date: '2026-05-25'
+- date: ''
   title: From the @america250 x Forbes America Innovates stage, ...
   url: https://www.facebook.com/forbes/posts/from-the-america250-x-forbes-america-innovates-stage-harold-hamm-founder-and-cha/1358751936114793/
-- date: '2026-05-25'
+- date: ''
   title: Continental Resources Acquires Vaca Muerta Interests ...
   url: https://www.linkedin.com/posts/continental-resources-2_continental-resources-expands-vaca-muerta-activity-7414019500192268288-3o30
 random_paper: 15
@@ -161,7 +161,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

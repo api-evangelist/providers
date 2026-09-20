@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,19 +90,19 @@ overview: 'Eastman Chemical is profiled on the [APIs.io](https://apis.io/) netwo
 
   Eastman Chemical''s developer surface includes documentation, support, and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Eastman elaborates on impact of global headcount reduction
   url: https://timesnews.net/news/21044/eastman-elaborates-on-impact-of-global-headcount-reduction/
-- date: '2026-05-25'
+- date: ''
   title: Eastman generative AI use cases
   url: https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2024/eastman-gen-ai-use-cases-in-manufacturing.html
-- date: '2026-05-25'
+- date: ''
   title: Eastman Chemical cuts global workforce, sees annual ...
   url: https://www.reuters.com/business/eastman-chemical-sees-annual-profit-below-street-estimates-amid-tariff-woes-2025-11-03/
-- date: '2026-05-25'
+- date: ''
   title: Eastman Chemical Co. further clarified the implementation of a ...
   url: https://www.facebook.com/timesnews/posts/eastman-chemical-co-further-clarified-the-implementation-of-a-workforce-reductio/1482400380559244/
-- date: '2026-05-25'
+- date: ''
   title: Assessing Eastman Chemical (EMN) Valuation As Cost ...
   url: https://finance.yahoo.com/news/assessing-eastman-chemical-emn-valuation-051826475.html
 random_paper: 6
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

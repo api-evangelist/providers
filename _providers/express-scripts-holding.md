@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The partner-facing API estate Express Scripts exposes through its own gateway. The production host api.express-scripts.io and the sandbox host api-sandbox.express-scripts.io both answer HTTP 401 to ev
@@ -183,19 +183,19 @@ plans:
   plan_count: 0
   slug: express-scripts-holding-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Express Scripts and Medco Health Solutions Sign ...
   url: https://www.prnewswire.com/news-releases/express-scripts-and-medco-health-solutions-sign-definitive-merger-agreement-medco-shareholders-to-receive-291-billion-125940848.html
-- date: '2026-05-25'
+- date: ''
   title: Express Scripts Complaint
   url: https://www.michigan.gov/ag/-/media/Project/Websites/AG/releases/2025/April/Express-Scripts-Complaint.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'Wake Up Call: Cigna''s $54B Express Scripts Bid Faces ...'
   url: https://news.bloomberglaw.com/business-and-practice/wake-up-call-cignas-54b-express-scripts-bid-faces-long-review
-- date: '2026-05-25'
+- date: ''
   title: Cigna Uses AI to Check if Patients Are Taking Their ...
   url: https://www.wsj.com/articles/cigna-uses-ai-to-check-if-patients-are-taking-their-medications-11576174743
-- date: '2026-05-25'
+- date: ''
   title: Cigna acquires Express Scripts for $67 billion
   url: https://www.benefitscanada.com/news/bencan/cigna-acquires-express-scripts-for-67-billion/
 random_paper: 9
@@ -236,7 +236,7 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

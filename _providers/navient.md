@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,19 +70,19 @@ overview: 'Navient is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Navient''s developer surface includes product news and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Navient posts Q1 2026 profit and loan growth | JSM 8-K Filing
   url: https://www.stocktitan.net/sec-filings/JSM/8-k-navient-corp-reports-material-event-a203b99dadcc.html
-- date: '2026-05-25'
+- date: ''
   title: News Releases | Navient Corporation
   url: https://news.navient.com/press-releases?items_per_page=10&mobile=1&promote=All&field_nir_news_date_value%5Bmin%5D=&field_nir_news_date_value%5Bmax%5D=&field_nir_news_date_value_1=&field_nir_news_date_value_2=&items_per_page_toggle=1&page=24&order=field_nir_news_title&sort=asc
-- date: '2026-05-25'
+- date: ''
   title: Navient Acquires Xtend Healthcare
   url: https://www.wilmerhale.com/en/insights/news/navient-acquires-xtend-healthcare
-- date: '2026-05-25'
+- date: ''
   title: Navient Announces Leadership Structure Changes
   url: https://www.acainternational.org/news/navient-announces-leadership-structure-changes/
-- date: '2026-05-25'
+- date: ''
   title: Notified Public Relations Solutions
   url: https://insight.notified.com/hubfs/NF%20Whitepapers/Fact%20Sheets/PR-Product%20Sheet-PR%20Cloud-1.pdf?mobile=1
 random_paper: 9
@@ -117,7 +117,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

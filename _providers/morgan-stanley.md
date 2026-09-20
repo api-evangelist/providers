@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 6
 apis:
 - description: 'The institutional REST APIs on the Morgan Stanley API Platform let onboarded clients and third-party partners integrate Morgan Stanley data and services directly into their own systems and processes. '
@@ -173,19 +173,19 @@ plans:
   plan_count: 2
   slug: morgan-stanley-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Launch of AI @ Morgan Stanley Debrief
   url: https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch
-- date: '2026-05-25'
+- date: ''
   title: Morgan Stanley uses AI evals to shape the future of ...
   url: https://openai.com/index/morgan-stanley/
-- date: '2026-05-25'
+- date: ''
   title: 'Artificial Intelligence: Firmwide Team'
   url: https://www.morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team
-- date: '2026-05-25'
+- date: ''
   title: Morgan Stanley Research Announces AskResearchGPT
   url: https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt
-- date: '2026-05-25'
+- date: ''
   title: Research
   url: https://www.morganstanley.com/what-we-do/research
 random_paper: 5
@@ -228,7 +228,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

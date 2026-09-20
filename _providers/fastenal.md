@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Fastenal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Distribution, EDI, Fortune 500, and Industrial.
 press:
-- date: '2026-05-25'
+- date: ''
   title: How to Build a Data-Driven Supply Chain - THE BLUE PRINT
   url: https://blueprint.fastenal.com/how-to-build-a-data-driven-supply-chain.html
-- date: '2026-05-25'
+- date: ''
   title: Big B2B distributors prioritize digital and AI core capabilities
   url: https://www.digitalcommerce360.com/2025/05/27/4-b2b-distributors-ai-trends/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence Takes Real Work - THE BLUE PRINT
   url: https://blueprint.fastenal.com/artificial-intelligence-takes-real-work.html
-- date: '2026-05-25'
+- date: ''
   title: 'AI is often sold as effortless: ask a ...'
   url: https://www.facebook.com/fastenalcompany/posts/ai-is-often-sold-as-effortless-ask-a-question-get-an-answerbut-in-supply-chain-t/1438480814987209/
-- date: '2026-05-25'
+- date: ''
   title: 'AI in Supply ChaAIns: Navigating the Future - THE BLUE PRINT'
   url: https://blueprint.fastenal.com/ai-in-supply-chains.html
 random_paper: 10
@@ -107,7 +107,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

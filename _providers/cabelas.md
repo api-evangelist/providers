@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Cabela's offers an online storefront for hunting, fishing, camping, and outdoor gear, along with store locator, customer service, and loyalty program pages. No public developer API is currently docume
@@ -112,19 +112,19 @@ plans:
   plan_count: 0
   slug: cabelas-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Bass Pro Shops acquires Cabela's in $5.5-billion transaction
   url: https://www.knopnews2.com/content/news/Bass-Pro-Shops-acquires-Cabelas-395635171.html
-- date: '2026-05-25'
+- date: ''
   title: Privacy Policy Summary
   url: https://www.cabelas.com/b/privacy-policy-summary
-- date: '2026-05-25'
+- date: ''
   title: Bass Pro Shops Sells 11 Cabela's Stores for $324.3 Million
   url: https://www.grandviewoutdoors.com/news/bass-pro-shops-sells-11-cabelas-stores-for-324-3-million
-- date: '2026-05-25'
+- date: ''
   title: Sportsman's Warehouse Acquired by Bass Pro Parent
   url: https://www.mytotalretail.com/article/sportsmans-warehouse-acquired-by-bass-pro-shops-cabelas-parent-company/
-- date: '2026-05-25'
+- date: ''
   title: B+E Brokers $324 million Cabela's Sale-leaseback ...
   url: https://www.24-7pressrelease.com/press-release/463191/be-brokers-324-million-cabelas-sale-leaseback-through-proprietary-digital-platform
 random_paper: 11
@@ -152,7 +152,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 11
 common:
@@ -147,19 +147,19 @@ plans:
   plan_count: 1
   slug: usaa-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: USAA selects Quavo's AI to strengthen compliance
   url: https://fintech.global/2025/09/04/usaa-selects-quavos-ai-to-strengthen-compliance/
-- date: '2026-05-25'
+- date: ''
   title: USAA revamps mobile app
   url: https://www.bankingdive.com/news/usaa-revamps-mobile-app/622303/
-- date: '2026-05-25'
+- date: ''
   title: USAA to use AI and gen AI across operations
   url: https://www.linkedin.com/posts/autofinancenews_usaa-aims-to-unplug-the-keyboard-with-gen-activity-7319068655399407616-yGkE
-- date: '2026-05-25'
+- date: ''
   title: 'USAA CIO on Generative AI: ''Relentless Learners Will Create ...'
   url: https://deloitte.wsj.com/sustainable-business/usaa-cio-on-generative-ai-relentless-learners-will-create-the-future-3ad0c760
-- date: '2026-05-25'
+- date: ''
   title: Responsible Use of Artificial Intelligence
   url: https://www.usaa.com/about/artificial-intelligence/
 random_paper: 8
@@ -213,7 +213,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

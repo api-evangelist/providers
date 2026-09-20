@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,19 +90,19 @@ overview: 'Owens-Illinois (O-I Glass) is profiled on the [APIs.io](https://apis.
 
   Owens-Illinois (O-I Glass)''s developer surface includes engineering blog and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: O-I Acquires Two Plants in Northern China
   url: https://www.prnewswire.com/news-releases/o-i-acquires-two-plants-in-northern-china-111810844.html
-- date: '2026-05-25'
+- date: ''
   title: Investment analysis of Owens-Illinois Inc
   url: https://freedom24.com/ideas/details/14400
-- date: '2026-05-25'
+- date: ''
   title: Financials - Quarterly Results | O-I Glass, Inc.
   url: https://investors.o-i.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Owens-Brockway prices $500M 9.5% notes due 2033 | OI ...
   url: https://www.stocktitan.net/news/OI/owens-brockway-glass-container-inc-announces-pricing-of-senior-notes-rl107swt51uh.html
-- date: '2026-05-25'
+- date: ''
   title: O-I Glass, Inc. | News
   url: https://www.otcmarkets.com/stock/OI/news/Owens-Brockway-Glass-Container-Inc-Launches-500-Million-Senior-Notes-Offering?e&id=3458089
 random_paper: 16
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -181,19 +181,19 @@ plans:
   plan_count: 3
   slug: towers-watson-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Willis Towers Watson earnings loom as AI questions intensify
   url: https://www.investing.com/news/earnings/willis-towers-watson-earnings-loom-as-ai-questions-intensify-93CH-4646311
-- date: '2026-05-25'
+- date: ''
   title: Employers set to rapidly expand AI use in health and
   url: https://www.globenewswire.com/news-release/2026/05/19/3297669/0/en/employers-set-to-rapidly-expand-ai-use-in-health-and-benefits-but-execution-gaps-remain-wtw-survey-finds.html
-- date: '2026-05-25'
+- date: ''
   title: WTW adds AI capabilities to its financial modelling software
   url: https://www.wtwco.com/en-gb/news/2024/12/wtw-adds-game-changing-ai-capabilities-to-its-financial-modelling-and-reporting-software-for-life
-- date: '2026-05-25'
+- date: ''
   title: 'WTW: Employers aiming to bulk up AI use for health and ...'
   url: https://www.fiercehealthcare.com/payers/wtw-employers-aiming-bulk-ai-use-health-and-benefits
-- date: '2026-05-25'
+- date: ''
   title: What an unforgettable Innovation Day London | AI Made Real ...
   url: https://www.instagram.com/reel/DYg0Pl2jvUE/
 random_paper: 3
@@ -266,7 +266,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

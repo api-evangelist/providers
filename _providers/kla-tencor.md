@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -110,19 +110,19 @@ overview: 'KLA is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
   KLA''s developer surface includes support, product news, GitHub presence, and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: KLA-Tencor Announces Plans to Establish R&D Facility in ...
   url: https://ir.kla.com/news-events/press-releases/detail/69/kla-tencor-announces-plans-to-establish-rd-facility-in-ann
-- date: '2026-05-25'
+- date: ''
   title: KLA | Leaders in Process Control & Yield Management
   url: https://www.kla.com/
-- date: '2026-05-25'
+- date: ''
   title: 'KLA''s AI Strategy: Analysis of Dominance in Process ...'
   url: https://www.klover.ai/kla-ai-strategy-analysis-of-dominance-in-process-control-in-semiconductors-nanoelectronics/
-- date: '2026-05-25'
+- date: ''
   title: 'KLA Corporation (KLAC): The Unseen Architect of the AI ...'
   url: https://markets.financialcontent.com/wral/article/predictstreet-2025-12-15-kla-corporation-klac-the-unseen-architect-of-the-ai-revolution
-- date: '2026-05-25'
+- date: ''
   title: 'KLA is proud to be ranked #5 on Fortune''s America''s Most ...'
   url: https://www.facebook.com/KLAcorp/posts/kla-is-proud-to-be-ranked-5-on-fortunes-americas-most-innovative-companies-2026-/1734169444376378/
 random_paper: 18
@@ -146,7 +146,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

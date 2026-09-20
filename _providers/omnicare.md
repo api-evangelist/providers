@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: Omnicare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Long-Term Care, Pharmacy, and Senior Living.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Omnicare Initiates Voluntary Chapter 11 Process
   url: https://www.prnewswire.com/news-releases/omnicare-initiates-voluntary-chapter-11-process-302563245.html
-- date: '2026-05-25'
+- date: ''
   title: CVS Health Subsidiary Omnicare Files for Bankruptcy After ...
   url: https://www.pymnts.com/healthcare/2025/cvs-health-subsidiary-omnicare-files-for-bankruptcy-after-civil-lawsuit-judgment/
-- date: '2026-05-25'
+- date: ''
   title: Omnicare - ServiceNow – Customer Story
   url: https://www.servicenow.com/customers/omnicare.html
-- date: '2026-05-25'
+- date: ''
   title: Omnicare Advances Court-Supervised Process While ...
   url: https://www.prnewswire.com/news-releases/omnicare-advances-court-supervised-process-while-continuing-to-deliver-enhanced-value-to-customers-302731896.html
-- date: '2026-05-25'
+- date: ''
   title: Federal Court Imposes Nearly $1 Billion in FCA Damages ...
   url: https://www.afslaw.com/perspectives/investigations-blog/federal-court-imposes-nearly-1-billion-fca-damages-and-penalties
 random_paper: 10
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

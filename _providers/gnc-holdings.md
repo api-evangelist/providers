@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,19 +123,19 @@ overview: 'GNC Holdings is profiled on the [APIs.io](https://apis.io/) network. 
 
   GNC Holdings'' developer surface includes support, engineering blog, and 12 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: GNC Becomes First Major Retailer to Launch GLP-1 ...
   url: https://www.prnewswire.com/news-releases/gnc-becomes-first-major-retailer-to-launch-glp-1-support-program-302129429.html
-- date: '2026-05-25'
+- date: ''
   title: GNC Holdings Inc.
   url: https://www.nytimes.com/topic/company/gnc-holdings-inc
-- date: '2026-05-25'
+- date: ''
   title: GNC reports sale of substantially of its assets to Harbin ...
   url: https://www.torys.com/work/2020/10/gnc-reports-sale-of-substantially-of-its-assets-to-harbin-pharmaceutical
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1502034/000119312520144118/d882272d8k.htm
-- date: '2026-05-25'
+- date: ''
   title: Nutrient Content Market Hits New High | Major Giants GNC
   url: https://www.openpr.com/news/4412307/nutrient-content-market-hits-new-high-major-giants-gnc
 random_paper: 3
@@ -170,7 +170,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

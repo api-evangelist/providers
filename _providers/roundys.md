@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 4
 apis:
 - description: As a Kroger subsidiary, Roundy's stores (Pick 'n Save, Metro Market, Mariano's) are accessible through the Kroger Developer Platform product catalog API. The API enables searching and browsing product
@@ -133,19 +133,19 @@ plans:
   plan_count: 3
   slug: roundys-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Roundy''s Supermarkets Inc. Ratin'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/8325447
-- date: '2026-05-25'
+- date: ''
   title: Roundy's Supermarkets (RNDY) CEO Bob Mariano on Q4 ...
   url: https://seekingalpha.com/article/2974396-roundys-supermarkets-rndy-ceo-bob-mariano-on-q4-2014-results-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: What's the secret sauce behind Mariano's store experience?
   url: https://www.grocerydive.com/news/whats-the-secret-sauce-behind-marianos-store-experience/541328/
-- date: '2026-05-25'
+- date: ''
   title: The 375000 square-foot customer fulfillment center uses artificial ...
   url: https://www.facebook.com/dayton247now/posts/the-375000-square-foot-customer-fulfillment-center-uses-artificial-intelligence-/5973614559375807/
-- date: '2026-05-25'
+- date: ''
   title: Kroger Outlines Plan to Redefine the Way America Eats ...
   url: https://www.prnewswire.com/news-releases/kroger-outlines-plan-to-redefine-the-way-america-eats-and-to-deliver-value-for-customers--shareholders-300534819.html
 random_paper: 18
@@ -184,7 +184,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -194,30 +194,30 @@ plans:
   plan_count: 3
   slug: steelcase-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Working With AI Assistants
   url: https://www.steelcase.com/research/articles/topics/ai/onboarding-ai/
-- date: '2026-05-25'
+- date: ''
+  title: HNI Corporation to Acquire Steelcase Inc.
+  url: https://www.steelcase.com/press-releases/hni-corporation-to-acquire-steelcase-inc/
+- date: ''
+  title: Steelcase Recognized as One of America’s 50 Most Community-Minded Companies
+  url: https://www.steelcase.com/press-releases/steelcase-recognized-as-one-of-america-50-most-community-minded-companies/
+- date: ''
   title: Office Design Ideas to Support AI in the Workplace
   url: https://www.steelcase.com/research/articles/topics/learning/four-new-designs-for-ai-ready-workplaces/
-- date: '2026-05-25'
+- date: ''
   title: 'The Transhuman Future: AI in the Workplace'
   url: https://www.steelcase.com/asia-en/research/articles/topics/culture-talent/translating-transhuman-code/
-- date: '2026-05-25'
-  title: AI Needs a Human-Centered Workplace
-  url: https://www.steelcase.com/research/articles/topics/ai/ai-needs-a-human-centered-workplace/
-- date: '2026-05-25'
-  title: Steelcase and Frank Lloyd Wright Foundation Launch New ...
-  url: https://www.prnewswire.com/news-releases/steelcase-and-frank-lloyd-wright-foundation-launch-new-collaborative-collection-301730763.html
-- date: '2026-01-21'
+- date: ''
   title: Steelcase Recognized as One of the World’s Most Admired Companies for the 20th Year
   url: https://www.steelcase.com/press-releases/steelcase-recognized-as-one-of-the-worlds-most-admired-companies-for-the-20th-year/
-- date: '2025-12-10'
-  title: HNI Corporation Completes Acquisition of Steelcase Inc.
-  url: https://www.steelcase.com/press-releases/hni-corporation-completes-acquisition-of-steelcase-inc/
-- date: '2025-09-30'
+- date: ''
   title: Steelcase 2025 Impact Report Highlights the Strength of Community and Progress Toward a Net-Zero Future
   url: https://www.steelcase.com/press-releases/steelcase-2025-impact-report-highlights-the-strength-of-community-and-progress-toward-a-net-zero-future/
+- date: ''
+  title: HNI Corporation Completes Acquisition of Steelcase Inc.
+  url: https://www.steelcase.com/press-releases/hni-corporation-completes-acquisition-of-steelcase-inc/
 random_paper: 7
 rate_limits:
 - limit_count: 5
@@ -272,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

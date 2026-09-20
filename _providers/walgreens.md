@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -221,19 +221,19 @@ plans:
   plan_count: 1
   slug: walgreens-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Walgreens Boots Alliance and Microsoft establish strategic ...
   url: https://news.microsoft.com/source/2019/01/15/walgreens-boots-alliance-and-microsoft-establish-strategic-partnership-to-transform-health-care-delivery/
-- date: '2026-05-25'
+- date: ''
   title: 'Customer Story: Walgreens'
   url: https://www.databricks.com/customers/walgreens
-- date: '2026-05-25'
+- date: ''
   title: Walgreens, Freenome Team Up, New AI Products from ...
   url: https://www.clinicalresearchnewsonline.com/news/2023/06/29/walgreens-freenome-team-up-new-ai-products-from-objectivehealth-saama-more
-- date: '2026-05-25'
+- date: ''
   title: Walgreens to use Microsoft's cloud, AI platform
   url: https://www.healthcaredive.com/news/walgreens-to-use-microsofts-cloud-ai-platform/546110/
-- date: '2026-05-25'
+- date: ''
   title: Walgreens Turns to Digital Transformation | AVI Blog
   url: https://www.avi.com/content-hub/walgreens-turns-to-digital-transformation-to-enhance-the-customer-experience/
 random_paper: 0
@@ -296,7 +296,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

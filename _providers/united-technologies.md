@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -250,19 +250,19 @@ plans:
   plan_count: 3
   slug: united-technologies-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Raytheon and United Technologies Aerospace Businesses ...
   url: https://www.prnewswire.com/news-releases/raytheon-and-united-technologies-aerospace-businesses-to-combine-in-merger-of-equals-300864268.html
-- date: '2026-05-25'
+- date: ''
   title: United Technologies Press Release
   url: https://www.pressreleasepoint.com/united-technologies-0
-- date: '2026-05-25'
+- date: ''
   title: 'Press Release: Raytheon and UTC businesses to combine'
   url: https://runwaygirlnetwork.com/2019/06/press-release-raytheon-and-utc-businesses-to-combine/
-- date: '2026-05-25'
+- date: ''
   title: United Technologies Aerospace Businesses and Raytheon ...
   url: https://investors.rtx.com/static-files/0e5ad90b-0e03-4d32-96a3-6504e5d6310b
-- date: '2026-05-25'
+- date: ''
   title: United Technologies - Oak Ridge Leadership Computing Facility
   url: https://www.olcf.ornl.gov/tag/united-technologies/
 random_paper: 20
@@ -319,7 +319,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

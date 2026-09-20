@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -204,19 +204,19 @@ plans:
   plan_count: 1
   slug: synopsys-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Synopsys, Inc. | Investor Relations & Investor Resources
   url: https://investor.synopsys.com/overview/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: NVIDIA | Synopsys Partnership
   url: https://www.synopsys.com/partners/nvidia.html
-- date: '2026-05-25'
+- date: ''
   title: Synopsys and Ansys are Now United
   url: https://www.synopsys.com/synopsys-ansys-united.html
-- date: '2026-05-25'
+- date: ''
   title: Synopsys News Releases - News Releases
   url: https://news.synopsys.com/
-- date: '2026-05-25'
+- date: ''
   title: Synopsys Outlines Vision for Engineering the Future
   url: https://www.prnewswire.com/news-releases/synopsys-outlines-vision-for-engineering-the-future-302711205.html
 random_paper: 18
@@ -278,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: 'The BD Incada Connected Care Platform is a scalable, AI-enabled, cloud-based platform launched in October 2025 that unifies BD device data from infusion pumps, patient monitors, and pharmacy robotics '
@@ -152,19 +152,19 @@ plans:
   plan_count: 1
   slug: becton-dickinson-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press releases
   url: https://news.bd.com/press-releases?l=100&o=100
-- date: '2026-05-25'
+- date: ''
   title: BD Launches Next Generation Hemodynamic Monitoring ...
   url: https://investors.bd.com/news-events/press-releases/detail/881/bd-launches-next-generation-hemodynamic-monitoring-solution-providing-clinicians-with-ai-driven-clinical-decision-support
-- date: '2026-05-25'
+- date: ''
   title: New Data Reveals BD's Artificial Intelligence Software Highly ...
   url: https://investors.bd.com/news-events/press-releases/detail/851/new-data-reveals-bds-artificial-intelligence-software-highly-effective-in-detecting-indicators-of-controlled-substance-diversion
-- date: '2026-05-25'
+- date: ''
   title: Becton Dickinson Unveils Artificial Intelligence Powered ...
   url: https://www.2minutemedicine.com/becton-dickinson-unveils-artificial-intelligence-powered-monitor-for-surgery/
-- date: '2026-05-25'
+- date: ''
   title: BD Helps Scientists Advance Immunology and Cancer ...
   url: https://www.prnewswire.com/news-releases/bd-helps-scientists-advance-immunology-and-cancer-research-with-ai-powered-insights-and-automation-302668624.html
 random_paper: 14
@@ -200,7 +200,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

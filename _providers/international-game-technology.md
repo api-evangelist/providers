@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,19 +75,19 @@ overview: 'International Game Technology is profiled on the [APIs.io](https://ap
 
   International Game Technology''s developer surface includes support and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Agreement and Plan of Merger by and among International ...
   url: https://www.sec.gov/Archives/edgar/data/1619762/000110465924083051/tm2420154d1_ex2-1.htm
-- date: '2026-05-25'
+- date: ''
   title: International Game Technology is splitting its lottery unit ...
   url: https://www.facebook.com/Reuters/posts/international-game-technology-is-splitting-its-lottery-unit-from-its-gaming-busi/903621521628581/
-- date: '2026-05-25'
+- date: ''
   title: NNDKP Press Releases
   url: https://www.worldservicesgroup.com/releases.asp?action=press&pressid=15111
-- date: '2026-05-25'
+- date: ''
   title: INTERNATIONAL GAME TECHNOLOGY PLC REPORTS ...
   url: https://www.prnewswire.com/news-releases/international-game-technology-plc-reports-first-quarter-2025-results-302453117.html
-- date: '2026-05-25'
+- date: ''
   title: 'Generation Next: AI Game Design, Skill-Based Elements ...'
   url: https://www.globalgamingexpo.com/en-us/learn/educationschedule/session-details.4465.251713.generation-next-ai-game-design-skill_based-elements-and-dynamic-payouts.html
 random_paper: 14
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

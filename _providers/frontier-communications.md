@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,19 +58,19 @@ nav: Providers
 network: true
 overview: Frontier Communications is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Frontier Communications
   url: https://www.databricks.com/customers/frontier-communications
-- date: '2026-05-25'
+- date: ''
   title: Verizon Communications Inc. said its acquisition of Frontier ...
   url: https://www.facebook.com/13WHAM/posts/verizon-communications-inc-said-its-acquisition-of-frontier-communications-will-/928703739299379/
-- date: '2026-05-25'
+- date: ''
   title: Verizon Acquires Frontier Communications
   url: https://www.benton.org/headlines/verizon-acquires-frontier-communications
-- date: '2026-05-25'
+- date: ''
   title: Verizon buying Frontier in $20B deal
   url: https://apnews.com/article/verizon-frontier-ai-iot-fiber-f67a9a1c160815e57c2bb949f19bd0ee
-- date: '2026-05-25'
+- date: ''
   title: Frontier Launches Network-as-a-Service for ...
   url: https://www.businesswire.com/news/home/20240125901225/en/Frontier-Launches-Network-as-a-Service-for-Business-Customers
 random_paper: 11
@@ -97,7 +97,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

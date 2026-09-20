@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,21 +71,21 @@ nav: Providers
 network: true
 overview: Nortek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include HVAC, Data Center Cooling, Cleanroom, Manufacturing, and Building Systems.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Nortek Security & Control acquired by Nice for $285 million
   url: https://www.securitysystemsnews.com/article/nortek-security-control-acquired-by-nice-for-285-million
-- date: '2026-05-25'
-  title: Nice Strengthens Global Smart Home & Building ...
-  url: https://www.businesswire.com/news/home/20211005006009/en/Nice-Strengthens-Global-Smart-Home-Building-Automation-Leadership-Position-with-Nortek-Security-Control-LLC-Acquisition
-- date: '2026-05-25'
-  title: Nortek Security & Control Acquires IntelliVision ...
-  url: https://www.prnewswire.com/news-releases/nortek-security--control-acquires-intellivision-establishing-leadership-in-artificial-intelligence-and-video-analytics-300644990.html
-- date: '2026-05-25'
-  title: Eversheds Sutherland Advises Rheem on Acquisition of ...
-  url: https://www.eversheds-sutherland.com/en/united-states/news/eversheds-sutherland-advises-rheem-on-acquisition-of-nortek-global-hvac
 - date: ''
   title: Nortek Security & Control to Present at CONNECTIONS
   url: https://www.parksassociates.com/blogs/industrypressreleases/nortek-security
+- date: ''
+  title: Nice Strengthens Global Smart Home & Building ...
+  url: https://www.businesswire.com/news/home/20211005006009/en/Nice-Strengthens-Global-Smart-Home-Building-Automation-Leadership-Position-with-Nortek-Security-Control-LLC-Acquisition
+- date: ''
+  title: Nortek Security & Control Acquires IntelliVision ...
+  url: https://www.prnewswire.com/news-releases/nortek-security--control-acquires-intellivision-establishing-leadership-in-artificial-intelligence-and-video-analytics-300644990.html
+- date: ''
+  title: Eversheds Sutherland Advises Rheem on Acquisition of ...
+  url: https://www.eversheds-sutherland.com/en/united-states/news/eversheds-sutherland-advises-rheem-on-acquisition-of-nortek-global-hvac
 random_paper: 21
 score:
   band: minimal
@@ -107,7 +107,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

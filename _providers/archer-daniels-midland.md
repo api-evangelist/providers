@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -313,19 +313,19 @@ plans:
   plan_count: 0
   slug: archer-daniels-midland-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: ADM settles accounting scandal—can AI help prevent the ...
   url: https://finance.yahoo.com/news/adm-settles-accounting-scandal-ai-125235091.html
-- date: '2026-05-25'
+- date: ''
   title: 21st-century neural value chains
   url: https://www.tcs.com/what-we-do/industries/manufacturing/white-paper/digital-capabilities-21st-century-value-chains
-- date: '2026-05-25'
+- date: ''
   title: How ADM and Brightseed are using AI to expand ...
   url: https://www.fooddive.com/news/adm-brightseed-gut-health-ai-artificial-intelligence-tech-plant-based-microbiome-immunity/647378/
-- date: '2026-05-25'
+- date: ''
   title: ADM Archer-Daniels-Midland Company Stock Price & ...
   url: https://seekingalpha.com/symbol/ADM
-- date: '2026-05-25'
+- date: ''
   title: AI could pose risk for food and ag companies
   url: https://www.agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981/
 random_paper: 6
@@ -389,7 +389,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

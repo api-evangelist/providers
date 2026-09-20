@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -186,19 +186,19 @@ plans:
   plan_count: 1
   slug: teco-energy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: TECO
   url: https://www.fox13news.com/tag/organization/teco
-- date: '2026-05-25'
+- date: ''
   title: Carlos Alfonso - TECO Energy
   url: https://www.linkedin.com/in/carlos-alfonso-07333937
-- date: '2026-05-25'
+- date: ''
   title: Social Media
   url: https://www.tampaelectric.com/socialmedia/
-- date: '2026-05-25'
+- date: ''
   title: Foxconn eyes $1 trillion AI data centre market with TECO ...
   url: https://invezz.com/news/2025/07/30/foxconn-eyes-1-trillion-ai-data-centre-market-with-teco-stake/
-- date: '2026-05-25'
+- date: ''
   title: Tampa Electric is warning customers about a growing ...
   url: https://www.facebook.com/FOX13TampaBay/posts/tampa-electric-is-warning-customers-about-a-growing-wave-of-utility-scams-using-/1458260039680854/
 random_paper: 0
@@ -261,7 +261,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

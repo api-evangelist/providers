@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The Aladdin Developer program provides APIs that enable clients to access BlackRock's Aladdin platform capabilities programmatically. Aladdin APIs support portfolio analytics, risk reporting, data acc
@@ -156,19 +156,19 @@ plans:
   plan_count: 1
   slug: blackrock-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: BlackRock, Global Infrastructure Partners, Microsoft and ...
   url: https://news.microsoft.com/source/2024/09/17/blackrock-global-infrastructure-partners-microsoft-and-mgx-launch-new-ai-partnership-to-invest-in-data-centers-and-supporting-power-infrastructure/
-- date: '2026-05-25'
+- date: ''
   title: Global Infrastructure Partners, BlackRock, Microsoft, and ...
   url: https://www.global-infra.com/news/global-infrastructure-partners-blackrock-microsoft-and-mgx-launch-new-ai-partnership-to-invest-in-data-centers-and-supporting-power-infrastructure/
-- date: '2026-05-25'
+- date: ''
   title: View all our press releases | iShares - BlackRock
   url: https://www.ishares.com/us/library/press-releases
-- date: '2026-05-25'
+- date: ''
   title: AI Infrastructure Partnership - BlackRock
   url: https://www.blackrock.com/corporate/newsroom/press-releases/article/corporate-one/press-releases/ai-infrastructure-partnership
-- date: '2026-05-25'
+- date: ''
   title: Digital disruption and artificial intelligence (AI) - BlackRock
   url: https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/mega-forces/artificial-intelligence
 random_paper: 16
@@ -217,7 +217,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

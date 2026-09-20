@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,19 +108,19 @@ overview: 'Sprouts Farmers Market is profiled on the [APIs.io](https://apis.io/)
 
   Sprouts Farmers Market''s developer surface includes engineering blog and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Customer video: Sprouts Farmers Market'
   url: https://www.relexsolutions.com/resources/customer-video-sprouts-farmers-market/
-- date: '2026-05-25'
+- date: ''
   title: Instacart launches AI Solutions for grocers with partners ...
   url: https://www.linkedin.com/posts/danidudeck_instacart-rolls-out-ai-tools-for-grocers-activity-7391491143265443840-bDm6
-- date: '2026-05-25'
+- date: ''
   title: Kroger, Sprouts to pioneer Instacart's new AI tech
   url: https://www.grocerydive.com/news/kroger-sprouts-instacart-artificial-intelligence-grocery/804637/
-- date: '2026-05-25'
+- date: ''
   title: Instacart Rolls Out New AI Solutions for Grocery Stores
   url: https://www.pymnts.com/news/artificial-intelligence/2025/instacart-rolls-out-new-ai-solutions-grocery-stores/
-- date: '2026-05-25'
+- date: ''
   title: Instacart Announces New Enterprise AI Solutions to ...
   url: https://www.prnewswire.com/news-releases/instacart-announces-new-enterprise-ai-solutions-to-democratize-ai-for-grocers-of-all-sizes-302603735.html
 random_paper: 20
@@ -144,7 +144,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Popular is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Popular''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence | The Associated Press
   url: https://www.ap.org/solutions/artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: The Information
   url: https://www.theinformation.com/
-- date: '2026-05-25'
+- date: ''
   title: (PDF) The Public Relations Acceptance Towards Press ...
   url: https://www.researchgate.net/publication/352999688_The_Public_Relations_Acceptance_Towards_Press_Release_Application_with_Artificial_Intelligence
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence Breaking News and Press Releases
   url: https://www.businesswire.com/newsroom/industry/technology/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: How is AI being used in journalism?
   url: https://www.ibm.com/think/insights/ai-in-journalism
 random_paper: 1
@@ -116,7 +116,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

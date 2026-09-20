@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: PPL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Energy, Utilities, Electricity, and Natural Gas.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'PPL Stock: AI Is Making This Utility A Growth Story'
   url: https://www.investors.com/research/the-income-investor/ppl-stock-income-investor-utilities/
-- date: '2026-05-25'
+- date: ''
   title: Research & Development
   url: https://www.pplweb.com/innovation/research-and-development/
-- date: '2026-05-25'
+- date: ''
   title: PPL Utilities 'Advanced Stage' A.I. Data Center Pipeline Grew To ...
   url: https://www.facebook.com/PaEnvironmentDigest/posts/utility-dive-ppl-utilities-advanced-stage-ai-data-center-pipeline-grew-to-283-gw/1535174888568999/
-- date: '2026-05-25'
+- date: ''
   title: Dean A. Del Vecchio
   url: https://investors.pplweb.com/2024-02-14-PPL-Corporation-Appoints-Dean-A-Del-Vecchio-to-New-Chief-Technology-and-Innovation-Officer-Role-as-Company-Focuses-on-Creating-the-Utilities-of-the-Future
-- date: '2026-05-25'
+- date: ''
   title: PPL Corporation and Blackstone Infrastructure create joint ...
   url: https://www.prnewswire.com/news-releases/ppl-corporation-and-blackstone-infrastructure-create-joint-venture-to-build-natural-gas-generation-in-pennsylvania-in-support-of-data-center-development-302505948.html
 random_paper: 2
@@ -101,7 +101,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

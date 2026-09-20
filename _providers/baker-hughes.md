@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Cordant is Baker Hughes' modular AI-enabled industrial enterprise software platform for asset performance management (APM), process optimization, and emissions management. It provides a digital thread
@@ -203,19 +203,19 @@ plans:
   plan_count: 1
   slug: baker-hughes-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Baker Hughes launches AI software to optimise oil and gas ...
   url: https://www.oilandgasadvancement.com/press-releases/baker-hughes-launches-ai-software-to-optimise-oil-and-gas-production/
-- date: '2026-05-25'
+- date: ''
   title: Baker Hughes and C3 AI Deploy Enterprise AI Solutions at ...
   url: https://investors.bakerhughes.com/news/press-releases/news-details/2021/Baker-Hughes-and-C3-AI-Deploy-Enterprise-AI-Solutions-at-MEG-Energy-for-Improved-Efficiency-of-Thermal-Production-Operations-09-14-2021/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Baker Hughes, a GE company and C3.ai Announce Joint ...
   url: https://investors.bakerhughes.com/news/press-releases/news-details/2019/Baker-Hughes-a-GE-company-and-C3-ai-Announce-Joint-Venture-to-Deliver-AI-Solutions-Across-the-Oil-and-Gas-Industry-06-24-2019/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: AI by BakerHughesC3.ai
   url: https://www.bakerhughes.com/ai-bakerhughesc3ai/
-- date: '2026-05-25'
+- date: ''
   title: Baker Hughes and C3 AI to Provide Joint Enterprise AI ...
   url: https://www.linkedin.com/posts/bakerhughes_baker-hughes-and-c3-ai-to-provide-joint-enterprise-activity-6764960334307495936-z-zl
 random_paper: 18
@@ -251,7 +251,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.0
+  composite: 33.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 55.3
@@ -259,12 +259,12 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 34.2
     contract_governance: 43.2
     contract_quality: 10.7
-    developer_ergonomics: 38.1
+    developer_ergonomics: 28.6
     discoverability: 59.3
     operational_transparency: 7.9
   previous_composite: 32.0
@@ -275,9 +275,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 51.4
+    score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

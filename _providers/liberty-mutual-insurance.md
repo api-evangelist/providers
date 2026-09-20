@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -147,19 +147,19 @@ plans:
   plan_count: 1
   slug: liberty-mutual-insurance-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Liberty Mutual Insurance news - Page 2 of 9
   url: https://www.reinsurancene.ws/tag/liberty-mutual-insurance/page/2/
-- date: '2026-05-25'
+- date: ''
   title: Liberty General Insurance Introduces AI-Embedded Tool ...
   url: https://www.prnewswire.com/in/news-releases/liberty-general-insurance-introduces-ai-embedded-tool-for-processing-motor-and-travel-claims-801248810.html
-- date: '2026-05-25'
+- date: ''
   title: Insurtech Insights | All News - Curated industry insights
   url: https://www.insurtechinsights.com/news-insights/all-news/
-- date: '2026-05-25'
+- date: ''
   title: Leveraging digital technologies in risk management
   url: https://www.libertyspecialtymarkets.com/article/embracing-the-future-leveraging-digital-technologies-in-risk-management
-- date: '2026-05-25'
+- date: ''
   title: Accelerating innovation at Liberty Mutual Insurance | InsTech
   url: https://www.instech.co/knowledge-centre/accelerating-innovation-at-liberty-mutual-insurance/
 random_paper: 21
@@ -205,7 +205,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

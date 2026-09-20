@@ -87,19 +87,19 @@ plans:
   plan_count: 1
   slug: a-schulman-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Articles by Kevin A. Schulman's Profile
   url: https://muckrack.com/kevin-a-schulman/articles
-- date: '2026-05-25'
+- date: ''
   title: LyondellBasell Completes Acquisition of A. Schulman, Inc.
   url: https://www.prnewswire.com/news-releases/lyondellbasell-completes-acquisition-of-a-schulman-inc-300700108.html
-- date: '2026-05-25'
+- date: ''
   title: Leveraging physiology and artificial intelligence to deliver ...
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10390055/
-- date: '2026-05-25'
+- date: ''
   title: Application of artificial intelligence chatbots, including ...
   url: https://www.jeehp.org/DOIx.php?id=10.3352/jeehp.2023.20.38
-- date: '2026-05-25'
+- date: ''
   title: Kevin A. Schulman | Stanford Graduate School of Business
   url: https://www.gsb.stanford.edu/faculty-research/faculty/kevin-schulman
 random_paper: 11

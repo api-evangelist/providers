@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Systemax is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   Systemax''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'AI Readiness Profiles: Retailer Benchmarks 2026 | IHL Group'
   url: https://www.ihlservices.com/product/ai-readiness-profiles-for-retailers/
-- date: '2026-05-25'
+- date: ''
   title: Q4 2019 Systemax Inc Earnings Call Transcript
   url: https://www.gurufocus.com/news/2252696/q4-2019-systemax-inc-earnings-call-transcript?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Monster Cable, Systemax Settle Patent Flap
   url: https://www.law360.com/articles/62721/monster-cable-systemax-settle-patent-flap
-- date: '2026-05-25'
+- date: ''
   title: Avdhesh Narayan - Web Content Developer at Systemax
   url: https://in.linkedin.com/in/avdhesh-narayan-7b325225
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence is reshaping marketing
   url: https://www.springfieldbusinessjournal.com/articles/artificial-intelligence-is-reshaping-marketing-15248997/
 random_paper: 14
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Ann Taylor and LOFT (formerly Ascena brands, now owned by Sycamore Partners) operate e-commerce platforms with standard retail APIs for product catalog, order management, loyalty programs, and custome
@@ -89,19 +89,19 @@ plans:
   plan_count: 1
   slug: ascena-retail-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Ascena Retail Group: A Case For Community And Finding ...'
   url: https://www.cshub.com/case-studies/case-studies/ascena-retail-group-a-case-for-community-and-finding-strength-in-numbers
-- date: '2026-05-25'
+- date: ''
   title: Justice Extends Relationship with First Insight
   url: https://www.firstinsight.com/press-releases/justice-extends-relationship-2018
-- date: '2026-05-25'
+- date: ''
   title: ascena Retail Group, Inc. To Acquire ANN INC. For $47 ...
   url: https://www.prnewswire.com/news-releases/ascena-retail-group-inc-to-acquire-ann-inc-for-47-per-share-in-accretive-transaction-300084673.html
-- date: '2026-05-25'
+- date: ''
   title: ascena retail group, Belk Join Profitect for Executive Panel on ...
   url: https://www.einpresswire.com/article/426784812/ascena-retail-group-belk-join-profitect-for-executive-panel-on-artificial-intelligence-machine-learning-prescriptive-analytics-at-nrf-2018
-- date: '2026-05-25'
+- date: ''
   title: Ascena Retail Group ICT Spend & Tech Priorities - GlobalData
   url: https://www.globaldata.com/company-profile/ascena-retail-group-inc/premium-data/ict-spend-tech-priorities/?scalar=true&pid=77422&sid=27
 random_paper: 15
@@ -129,7 +129,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

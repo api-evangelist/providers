@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'Valero Energy Corporation SEC filings and financial data available through the SEC EDGAR system. Includes 10-K, 10-Q, earnings releases, and other regulatory filings. Accessible via the SEC EDGAR API '
@@ -115,19 +115,19 @@ plans:
   plan_count: 1
   slug: valero-energy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Valero Energy Corporation - Startups
   url: https://www.startuphub.ai/startups/valero-energy
-- date: '2026-05-25'
+- date: ''
   title: 'Valero AI Initiatives for 2025: Key Projects, Strategies and ...'
   url: https://enkiai.com/valero-ai-initiatives-for-2025-key-projects-strategies-and-partnerships/
-- date: '2026-05-25'
+- date: ''
   title: AI at Valero Energy | rudyl.ai
   url: https://www.rudyl.ai/ai-research/companies/valero-energy
-- date: '2026-05-25'
+- date: ''
   title: Valero Energy Corporation ($VLO)
   url: https://trendspider.com/learning-center/valero-energy-corporation-vlo/
-- date: '2026-05-25'
+- date: ''
   title: Valero to run refineries up to 95% of capacity in Q2 2026, ...
   url: https://www.reuters.com/business/energy/valero-run-refineries-up-95-capacity-q2-2026-conf-call-2026-04-30/
 random_paper: 2
@@ -177,7 +177,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 5
 apis:
 - description: Plex by Rockwell Automation provides a Smart Manufacturing Platform ERP API with REST/JSON endpoints for customer orders, shipping, production, quality, and just-in-sequence parts delivery. Enables in
@@ -151,19 +151,19 @@ plans:
   plan_count: 3
   slug: rockwell-automation-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: ROCKWELL AUTOMATION TO ADVANCE INDUSTRIAL ...
   url: https://www.prnewswire.com/news-releases/rockwell-automation-to-advance-industrial-intelligence-through-edge-based-generative-ai-with-nvidia-nemotron-302614991.html
-- date: '2026-05-25'
+- date: ''
   title: Rockwell Automation Showcases AI Orchestrated Factory ...
   url: https://www.rockwellautomation.com/en-dk/company/news/press-releases/ai-orchestrated-factory-design-at-hannover-messe.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Rockwell Automation | US
   url: https://www.rockwellautomation.com/en-us/company/news/press-releases.html
-- date: '2026-05-25'
+- date: ''
   title: Industrial AI | Rockwell Automation | US
   url: https://www.rockwellautomation.com/en-us/future-trends-industrial-operations/industrial-ai.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases & News
   url: https://www.rockwellautomation.com/en-us/company/investor-relations/news.html
 random_paper: 21
@@ -202,7 +202,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 34.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

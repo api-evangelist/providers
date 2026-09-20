@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Airgas provides industrial, medical, and specialty gases and related products. The Airgas online platform supports B2B ordering, account management, order tracking, digital proof of delivery, and supp
@@ -196,19 +196,19 @@ plans:
   plan_count: 0
   slug: airgas-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Air Liquide to Buy South Korea's DIG Airgas for $3 Billion
   url: https://www.wsj.com/business/deals/air-liquide-to-buy-south-koreas-dig-airgas-for-3-billion-65105308
-- date: '2026-05-25'
+- date: ''
   title: Air Liquide Inks $13.4B Deal For Industrial Gas Co. Airgas
   url: https://www.law360.com/mergersacquisitions/articles/728213/air-liquide-inks-13-4b-deal-for-industrial-gas-co-airgas
-- date: '2026-05-25'
+- date: ''
   title: 'DIG Airgas acquisition: a key milestone for Air Liquide''s ...'
   url: https://www.airliquide.com/stories/industry/dig-airgas-acquisition-key-milestone-air-liquides-growth-asia
-- date: '2026-05-25'
+- date: ''
   title: CI Capital Partners Completes Sale of Tech Air to Airgas, ...
   url: https://www.prnewswire.com/news-releases/ci-capital-partners-completes-sale-of-tech-air-to-airgas-an-air-liquide-company-300814859.html
-- date: '2026-05-25'
+- date: ''
   title: Air Liquide continues on its successful trajectory in Q1 2026
   url: https://www.webdisclosure.com/press-release/air-liquide-epa-ai-growth-performance-and-record-investments-air-liquide-continues-on-its-successful-trajectory-in-q1-2026-w7jxGDiQpbI
 random_paper: 15
@@ -255,7 +255,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

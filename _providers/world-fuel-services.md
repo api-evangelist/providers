@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -138,19 +138,19 @@ plans:
   plan_count: 0
   slug: world-fuel-services-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: World Kinect acquires Universal Weather's Trip Support ...
   url: https://www.linkedin.com/posts/world-fuel-services_aviation-tripsupport-worldkinect-activity-7369021536176857088-xjBn
-- date: '2026-05-25'
+- date: ''
   title: 0001628280-24-019007 | DEFR14A | iXBRL Viewer
   url: https://ir.world-kinect.com/node/17936/ixbrl-viewer
-- date: '2026-05-25'
+- date: ''
   title: 418133(1) World Fuel Services 2023 Proxy.indb
   url: https://www.sec.gov/Archives/edgar/data/789460/000130817923000840/int_courtesy-pdf.pdf
-- date: '2026-05-25'
+- date: ''
   title: World Energy and World Fuel Services extend partnership ...
   url: https://www.prnewswire.com/news-releases/world-energy-and-world-fuel-services-extend-partnership-with-a-six-year-up-to-27-million-gallon-purchasing-agreement-301822314.html
-- date: '2026-05-25'
+- date: ''
   title: World Fuel Services Corporation Names Sharda Cherwoo to the ...
   url: https://ir.world-kinect.com/news-releases/news-release-details/world-fuel-services-corporation-names-sharda-cherwoo-board
 random_paper: 2
@@ -196,7 +196,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

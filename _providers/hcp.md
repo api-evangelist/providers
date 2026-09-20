@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -170,19 +170,19 @@ plans:
   plan_count: 6
   slug: hcp-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Charter HCP Announces Direct Investment Focus on ...
   url: https://www.heraldnews.com/press-release/story/111082/charter-hcp-announces-direct-investment-focus-on-financial-services-and-ai-guardrail-startups/
-- date: '2026-05-25'
+- date: ''
   title: Press
   url: https://www.impiricus.com/press/
-- date: '2026-05-25'
+- date: ''
   title: Designing Omnichannel Strategies to Drive HCP Behavior ...
   url: https://www.viz.ai/blog/designing-omnichannel-strategies-to-drive-hcp-behavior-change
-- date: '2026-05-25'
+- date: ''
   title: Charter HCP Announces Direct Investment Focus on Financial ...
   url: https://www.siskiyoudaily.com/press-release/story/25796/charter-hcp-announces-direct-investment-focus-on-financial-services-and-ai-guardrail-startups/
-- date: '2026-05-25'
+- date: ''
   title: Charter HCP Announces Direct Investment Focus on ...
   url: https://www.jacksonville.com/press-release/story/990353/charter-hcp-announces-direct-investment-focus-on-financial-services-and-ai-guardrail-startups/
 random_paper: 7
@@ -217,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

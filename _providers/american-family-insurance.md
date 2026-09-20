@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 18
 common:
@@ -150,19 +150,19 @@ plans:
   plan_count: 0
   slug: american-family-insurance-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Creative Destruction Lab announces a new program ...
   url: https://creativedestructionlab.com/blog/cdl-announces-a-new-program-focused-on-transforming-societys-ability-to-manage-risk/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at American Family Insurance Group
   url: https://emerj.com/artificial-intelligence-at-american-family-insurance-group/
-- date: '2026-05-25'
+- date: ''
   title: American Family Insurance streamlines claims operations ...
   url: https://www.prnewswire.com/news-releases/american-family-insurance-streamlines-claims-operations-with-tractables-ai-301585429.html
-- date: '2026-05-25'
+- date: ''
   title: Seeding tech growth in Wisconsin's fertile ground
   url: https://madisonbiz.com/uw-madison-american-family-insurance-seeding-tech-growth-in-wisconsins-fertile-ground/
-- date: '2026-05-25'
+- date: ''
   title: American Family Insurance and AWS Team Up to Drive ...
   url: https://www.businesswire.com/news/home/20221201005413/en/American-Family-Insurance-and-AWS-Team-Up-to-Drive-Innovation-in-the-Insurance-Industry
 random_paper: 2
@@ -201,7 +201,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

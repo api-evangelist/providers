@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -107,19 +107,19 @@ plans:
   plan_count: 1
   slug: conocophillips-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Schlumberger Announces Deployment of Reservoir ...
   url: https://www.slb.com/newsroom/press-release/2022/pr-2022-03-07-conocophillips-delfi
-- date: '2026-05-25'
+- date: ''
   title: Digitizing our business
   url: https://www.conocophillips.com/what-we-do/innovation-and-technology/digitizing-our-business/
-- date: '2026-05-25'
+- date: ''
   title: 'ConocoPhillips'' AI Strategy: Analysis of Dominance in Oil, ...'
   url: https://www.klover.ai/conocophillips-ai-strategy-analysis-of-dominance-in-oil-gas/
-- date: '2026-05-25'
+- date: ''
   title: 'NEWS RELEASE: ConocoPhillips to hold first-quarter ...'
   url: https://www.facebook.com/conocophillips/posts/news-release-conocophillips-to-hold-first-quarter-earnings-conference-call-on-th/1374676998027207/
-- date: '2026-05-25'
+- date: ''
   title: 'ConocoPhillips: Market Strategy and AI Energy Demand'
   url: https://www.monexa.ai/blog/conocophillips-market-strategy-ai-demand-marathon--COP-2025-02-18
 random_paper: 14
@@ -158,7 +158,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

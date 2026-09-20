@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Leucadia National is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Holding Company, Investment Banking, Financial-Services, Historical, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases/ftc-cracks-down-scammers-trying-take-advantage-economic-downturn?page=164
-- date: '2026-05-25'
+- date: ''
   title: Leucadia To Pay $70M To End Jefferies Investor Suits
   url: https://www.law360.com/articles/594012/leucadia-to-pay-70m-to-end-jefferies-investor-suits
-- date: '2026-05-25'
+- date: ''
   title: Leucadia National Corporation
   url: https://www.nytimes.com/topic/company/leucadia-national-corporation
-- date: '2026-05-25'
+- date: ''
   title: Leucadia to shed most non-financial assets, rename as ' ...
   url: https://www.reuters.com/article/business/leucadia-to-shed-most-non-financial-assets-rename-as-jefferies-idUSKBN1HG2U2/
-- date: '2026-05-25'
+- date: ''
   title: Uncategorized Archives - Page 2 of 2
   url: https://leucadia-am.com/category/uncategorized/page/2/
 random_paper: 7
@@ -105,7 +105,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

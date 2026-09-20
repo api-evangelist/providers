@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,19 +68,19 @@ nav: Providers
 network: true
 overview: Guess is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Fashion, Retail, E-Commerce, and Lifestyle Brand.
 press:
-- date: '2026-05-25'
+- date: ''
   title: These images from Guess' latest ad campaign have ...
   url: https://www.facebook.com/abc7news/posts/these-images-from-guess-latest-ad-campaign-have-sparked-controversy-across-the-f/1181807210655974/
-- date: '2026-05-25'
+- date: ''
   title: GUESS?, Inc. Collaborates with Alibaba to Bring Artificial ...
   url: https://financialpost.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/guess-inc-collaborates-with-alibaba-to-bring-artificial-intelligence-to-fashion
-- date: '2026-05-25'
+- date: ''
   title: Your favorite model? Thanks to AI, they might not be real
   url: https://www.cnn.com/2025/07/31/style/vogue-ai-models-guess-campaign
-- date: '2026-05-25'
+- date: ''
   title: What Guess's AI model in Vogue means for beauty standards
   url: https://www.bbc.com/news/articles/cgeqe084nn4o
-- date: '2026-05-25'
+- date: ''
   title: US Fashion Brand Guess to Relaunch Operations in China ...
   url: https://www.facebook.com/yicaiglobal/posts/us-fashion-brand-guess-to-relaunch-operations-in-china-with-local-partner-ruisi-/1417026953801967/
 random_paper: 1
@@ -104,7 +104,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

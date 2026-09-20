@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -128,19 +128,19 @@ plans:
   plan_count: 0
   slug: securian-financial-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence
   url: https://www.securian.com/about-us/sustainability/inspiring-trust/artificial-intelligence.html
-- date: '2026-05-25'
+- date: ''
   title: Securian Financial Launches Industry-First AI-Enabled ...
   url: https://www.businesswire.com/news/home/20260203881829/en/Securian-Financial-Launches-Industry-First-AI-Enabled-Instant-Decision-and-Payment-Capabilities-for-Supplemental-Health-Insurance-Claims
-- date: '2026-05-25'
+- date: ''
   title: Securian Financial and Reclaim Health Now Paying Auto- ...
   url: https://www.securian.com/about-us/newsroom/news-releases/securian-financial-reclaim-health-paying-auto-substantiated-claims.html
-- date: '2026-05-25'
+- date: ''
   title: Digital Capabilities
   url: https://www.securian.com/employers/employee-engagement/digital-capabilities.html
-- date: '2026-05-25'
+- date: ''
   title: Securian Financial Group
   url: https://www.cuinsight.com/companies/securian-financial-group/
 random_paper: 18
@@ -187,7 +187,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

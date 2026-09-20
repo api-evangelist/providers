@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,19 +74,19 @@ overview: 'Western Refining is profiled on the [APIs.io](https://apis.io/) netwo
 
   The Western Refining catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Northern Tier, Western Refining announce preliminary ...
   url: https://www.reuters.com/article/business/northern-tier-western-refining-announce-preliminary-merger-consideration-electi-idUSFWN19E010/
-- date: '2026-05-25'
+- date: ''
   title: Tesoro changing name to 'Andeavor' after acquisition of ...
   url: https://www.webcenterfairbanks.com/content/news/Tesoros--429041513.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?initialSessionID=144-1035229-2838031&ld=ASXXSCTUSDirect&page=323
-- date: '2026-05-25'
+- date: ''
   title: Western Digital, Ixia, Western Refining Join IBD 50
   url: https://www.investors.com/news/western-digitalixia-western-refining-join-ibd-50/
-- date: '2026-05-25'
+- date: ''
   title: Western Refining Launches Express Rewards
   url: https://www.cspdailynews.com/technologyservices/western-refining-launches-express-rewards
 random_paper: 21
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

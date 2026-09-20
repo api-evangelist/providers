@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Newmont Mining is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Capacity building in artificially intelligent mining systems
   url: https://www.unr.edu/nevada-today/news/2019/ai-in-mining
-- date: '2026-05-25'
+- date: ''
   title: CO-NEWMONT-MINING | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3731802/co-newmont-mining?publisherId=90456
-- date: '2026-05-25'
+- date: ''
   title: Newmont Corporation
   url: https://www.facebook.com/NewmontCorporation/posts/we-have-a-long-history-of-leadership-in-environmental-social-and-governance-esg-/787103076777124/
-- date: '2026-05-25'
+- date: ''
   title: Newmont on how 5G changes mining
   url: https://www.rcrwireless.com/20250917/private-5g/newmont-private-5g-mining
-- date: '2026-05-25'
+- date: ''
   title: Newmont and Goldcorp Combine to Create World's ...
   url: https://www.newswire.ca/news-releases/newmont-and-goldcorp-combine-to-create-world-s-leading-gold-company-806405145.html
 random_paper: 11
@@ -95,7 +95,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Newfield Exploration is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oil and Gas, Energy, Historical, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Newfield Exploration to sell more assets this year
   url: https://www.reuters.com/article/instant-article/idUSL4E8D674H20120206/
-- date: '2026-05-25'
+- date: ''
   title: 'Newfield Exploration Co. : Newfield Provides Fourth Quarter / Full ...'
   url: https://www.marketscreener.com/quote/stock/NEWFIELD-EXPLORATION-13723/news/Newfield-Exploration-Co-Newfield-Provides-Fourth-Quarter-Full-Year-2011-Conference-Call-Informa-13964177/?utm_source=copy&utm_medium=social&utm_campaign=share
-- date: '2026-05-25'
+- date: ''
   title: Newfield Exits Texas, High-Grades to the STACK
   url: https://www.oilandgas360.com/newfield-exits-texas-high-grades-stack/
-- date: '2026-05-25'
+- date: ''
   title: Encana Corp. acquires Newfield Exploration Co. for US ...
   url: https://www.lexpert.ca/archive/encana-corp-acquires-newfield-exploration-co-for-us9366m/352240
-- date: '2026-05-25'
+- date: ''
   title: Newfield Exploration | Company Overview & News
   url: https://www.forbes.com/companies/newfield-exploration/
 random_paper: 6
@@ -101,7 +101,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

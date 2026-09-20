@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,19 +83,19 @@ overview: 'SCANA Corporation is profiled on the [APIs.io](https://apis.io/) netw
 
   The SCANA Corporation catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: NextEra Energy is seeking to acquire Dominion ...
   url: https://www.facebook.com/ABC11/posts/nextera-energy-is-seeking-to-acquire-dominion-energy-in-an-all-stock-deal-valued/1443721304455904/
-- date: '2026-05-25'
+- date: ''
   title: 'UPDATE: Long-term effects Of SCANA & Dominion merger'
   url: https://www.wrdw.com/content/news/Dominion-Energy-and-SCANA-combine-503800961.html
-- date: '2026-05-25'
+- date: ''
   title: SEC Charges South Carolina Energy Companies, Former ...
   url: https://www.sec.gov/newsroom/press-releases/2020-44
-- date: '2026-05-25'
+- date: ''
   title: Dominion Energy Combines With SCANA Corporation
   url: https://www.prnewswire.com/news-releases/dominion-energy-combines-with-scana-corporation-300771751.html
-- date: '2026-05-25'
+- date: ''
   title: Dominion Energy, SCANA Announce All-Stock Merger ...
   url: https://www.prnewswire.com/news-releases/dominion-energy-scana-announce-all-stock-merger-with-1000-immediate-cash-payment-to-average-south-carolina-electric--gas-residential-electric-customer-after-closing-300576938.html
 random_paper: 12
@@ -125,7 +125,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

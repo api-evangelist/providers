@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: 'Following the Fiserv merger, legacy First Data API products are now hosted on the Fiserv developer portal. These include Commerce Hub, Payeezy, and Bolt for merchant payment acceptance, tokenization, '
@@ -174,19 +174,19 @@ plans:
   plan_count: 2
   slug: first-data-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Powering the AI Era
   url: https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/powering-the-ai-era/report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Fiserv Embarks on 2-Year AI Transformation with IBM ...
   url: https://www.linkedin.com/posts/josephbutler1_fiserv-projectelevate-ai-activity-7429911576381661184-OHJq
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.googlecloudpresscorner.com/ai-infrastructure?l=100
-- date: '2026-05-25'
+- date: ''
   title: Applied Digital Advances AI Factory Buildout with Second ...
   url: https://ir.applieddigital.com/news-events/press-releases/detail/135/applied-digital-advances-ai-factory-buildout-with-second
-- date: '2026-05-25'
+- date: ''
   title: First Data Center Project Gains Permitting Council's FAST ...
   url: https://www.permitting.gov/newsroom/press-releases/first-data-center-project-gains-permitting-councils-fast-41-coverage
 random_paper: 17
@@ -222,7 +222,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

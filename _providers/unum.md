@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -206,19 +206,19 @@ plans:
   plan_count: 1
   slug: unum-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Unum Group secures patent for safer generative AI
   url: https://www.linkedin.com/posts/sheliaanderson_teamunum-innovation-ai-activity-7386390648087592961-PN5O
-- date: '2026-05-25'
+- date: ''
   title: Digital Transformation
   url: https://careers.unum.com/global/en/digital-transformation
-- date: '2026-05-25'
+- date: ''
   title: Unum Group builds custom AI application to search 1.3 ...
   url: https://www.microsoft.com/en/customers/story/1772120481217819586-unumgroup-azure-insurance-en-united-states
-- date: '2026-05-25'
+- date: ''
   title: New Unum Total Leave ™ will help employers and ...
   url: https://investors.unum.com/news-events/news/news-details/2021/New-Unum-Total-Leave--will-help-employers-and-employees-better-manage-complex-leave-process-04-27-2021/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Financials - Quarterly Results - Unum Group - Investor Relations
   url: https://investors.unum.com/financials/quarterly-results/default.aspx
 random_paper: 13
@@ -286,7 +286,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

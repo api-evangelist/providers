@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -204,19 +204,19 @@ plans:
   plan_count: 1
   slug: staples-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Staples Canada: Scaling AI-Driven Ecommerce Search ...'
   url: https://www.algolia.com/customers/staples
-- date: '2026-05-25'
+- date: ''
   title: Will Staples 'Business is Human' Campaign Connect With ...
   url: https://retailwire.com/discussion/will-staples-business-is-human-campaign-connect-with-customers/
-- date: '2026-05-25'
+- date: ''
   title: Staples Launches “Business is Human” Brand Campaign
   url: https://www.businesswire.com/news/home/20230518005153/en/Staples-Launches-Business-is-Human-Brand-Campaign
-- date: '2026-05-25'
+- date: ''
   title: Staples Canada rethinks its fulfillment model
   url: https://www.scmr.com/article/staples-canada-rethinks-its-fulfillment-model
-- date: '2026-05-25'
+- date: ''
   title: Staples Canada ULC Press Releases | Cision
   url: https://www.newswire.ca/news/staples-canada-ulc/
 random_paper: 16
@@ -273,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

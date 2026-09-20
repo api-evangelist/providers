@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -276,19 +276,19 @@ plans:
   plan_count: 0
   slug: archrock-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Archrock, Inc.
   url: https://www.facebook.com/Archrock/posts/yesterday-archrock-inc-reported-its-q2-2025-earnings-and-the-results-were-outsta/1359602162836702/
-- date: '2026-05-25'
+- date: ''
   title: Rising LNG Exports & AI-Driven Power Demand Drive ...
   url: https://finance.yahoo.com/news/rising-lng-exports-ai-driven-191500994.html
-- date: '2026-05-25'
+- date: ''
   title: Archrock Surges on Record Earnings, Eyes LNG and AI Growth ...
   url: https://briefglance.com/articles/archrock-surges-on-record-earnings-eyes-lng-and-ai-growth-boom
-- date: '2026-05-25'
+- date: ''
   title: Archrock Stock Fuels Breakout On Demand From AI Data ...
   url: https://www.investors.com/research/breakout-stocks-technical-analysis/archrock-stock-aroc-cng-ai-data-centers/
-- date: '2026-05-25'
+- date: ''
   title: AI Power, LNG Growth Sparking Natural Gas Compression ...
   url: https://naturalgasintel.com/news/ai-power-lng-growth-sparking-natural-gas-compression-boom-for-archrock/
 random_paper: 9
@@ -351,7 +351,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

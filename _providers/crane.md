@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -102,19 +102,19 @@ nav: Providers
 network: true
 overview: Crane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Authentication, Currency, Diversified Manufacturer, and Electronics.
 press:
-- date: '2026-05-25'
+- date: ''
   title: NSWC Crane recently led the third annual Robust AI Test ...
   url: https://www.facebook.com/NSWCCrane/posts/nswc-crane-recently-led-the-third-annual-robust-ai-test-event-raite-in-playas-ne/1366147725556445/
-- date: '2026-05-25'
+- date: ''
   title: Can we build better AI? Consider the case of the loom vs. the ...
   url: https://also.roybahat.com/can-we-build-better-ai-consider-the-case-of-the-crane-vs-the-loom-e65f652d4454
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence and the leadership lens
   url: https://www.cranebriefing.com/news/artificial-intelligence-and-the-leadership-lens/8121052.article
-- date: '2026-05-25'
+- date: ''
   title: 'Hearing Wrap Up: The U.S. Must Develop and Advance ...'
   url: https://oversight.house.gov/release/hearing-wrap-up-the-u-s-must-develop-and-advance-artificial-intelligence-to-dominate-the-tech-race/
-- date: '2026-05-25'
+- date: ''
   title: CPI News and Updates
   url: https://www.cranepi.com/en/news
 random_paper: 15
@@ -150,7 +150,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

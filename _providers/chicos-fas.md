@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 17
 common:
@@ -122,19 +122,19 @@ nav: Providers
 network: true
 overview: Chico's FAS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Chicos, E-Commerce, Fort Myers, and Intimates.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Chico's FAS, Inc. Reports Second Quarter Results
   url: https://retail-today.com/chicos-fas-inc-reports-second-quarter-results-2/
-- date: '2026-05-25'
+- date: ''
   title: 'Press Release: Chico''s FAS, Inc. Announces Innovation ...'
   url: https://www.bounteous.com/insights/2022/08/09/chicos-fas-inc-announces-innovation-driven-partnership-bounteous/
-- date: '2026-05-25'
+- date: ''
   title: Chico's FAS partners with First Insight
   url: https://www.firstinsight.com/press-releases/chicos-fas-partners-with-first-insight
-- date: '2026-05-25'
+- date: ''
   title: Chico's FAS Sold to Private Equity Firm, CEO to Depart
   url: https://www.mytotalretail.com/article/chicos-fas-sold-to-private-equity-firm-ceo-molly-langenstein-to-depart/
-- date: '2026-05-25'
+- date: ''
   title: Sycamore Partners Completes Acquisition of Chico's FAS, ...
   url: https://www.prnewswire.com/news-releases/sycamore-partners-completes-acquisition-of-chicos-fas-inc-302027189.html
 random_paper: 2
@@ -163,7 +163,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

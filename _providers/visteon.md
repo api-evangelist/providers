@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -213,19 +213,19 @@ plans:
   plan_count: 1
   slug: visteon-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Visteon Launches Flexible Compute Solution with NVIDIA ...
   url: https://www.prnewswire.com/news-releases/visteon-launches-flexible-compute-solution-with-nvidia-ai-to-accelerate-smart-cockpit-and-adas-development-302652616.html
-- date: '2026-05-25'
+- date: ''
   title: Flexibility meets innovation. Visteon's new AI-ADAS ...
   url: https://www.facebook.com/VisteonCorporation/posts/flexibility-meets-innovation-visteons-new-ai-adas-compute-module-powered-by-nvid/1488985699901215/
-- date: '2026-05-25'
+- date: ''
   title: Visteon Presents Its Most Comprehensive CES Showcase ...
   url: https://www.prnewswire.com/news-releases/visteon-presents-its-most-comprehensive-ces-showcase-yet-bringing-software-defined-mobility-to-life-302652609.html
-- date: '2026-05-25'
+- date: ''
   title: How To Scale AI Across Global Manufacturing Operations
   url: https://www.visteon.com/resources-insights/automotive-intellect-blog/automotive-intellect-blog-details/2025/How-To-Scale-AI-Across-Global-Manufacturing-Operations/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Technology
   url: https://www.visteon.com/products-technology/technology/default.aspx
 random_paper: 6
@@ -282,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

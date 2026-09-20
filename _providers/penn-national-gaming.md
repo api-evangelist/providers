@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Penn National Gaming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Casinos, Racing, Entertainment, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Penn National Gaming Completes Acquisition of Score ...
   url: https://www.linkedin.com/posts/thescore_penn-national-gaming-completes-acquisition-activity-6856317177126039552-RkbX?trk=public_profile_like_view
-- date: '2026-05-25'
+- date: ''
   title: SEC Charges Former Employee of Online Gambling ...
   url: https://www.sec.gov/newsroom/press-releases/2022-105
-- date: '2026-05-25'
+- date: ''
   title: Penn National buys video gaming company
   url: https://www.readingeagle.com/2015/08/01/penn-national-buys-video-gaming-company/
-- date: '2026-05-25'
+- date: ''
   title: Choice Hotels And Penn National Gaming Team Up To ...
   url: https://www.prnewswire.com/news-releases/choice-hotels-and-penn-national-gaming-team-up-to-offer-more-fun-and-entertainment-through-the-ascend-hotel-collection-301207622.html
-- date: '2026-05-25'
+- date: ''
   title: 0001140361-25-015822 | DEF 14A | iXBRL Viewer
   url: https://investors.pennentertainment.com/node/22021/ixbrl-viewer
 random_paper: 2
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

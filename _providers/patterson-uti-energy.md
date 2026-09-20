@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Patterson-UTI Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Drilling, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: At Patterson-UTI, we use AI, data science, and smart tech ...
   url: https://www.instagram.com/p/DJubX_9z6pF/
-- date: '2026-05-25'
+- date: ''
   title: Patterson-UTI Energy and NexTier Oilfield Solutions to ...
   url: https://www.oilandgas360.com/patterson-uti-energy-and-nextier-oilfield-solutions-to-combine-in-merger-of-equals-creating-industry-leading-drilling-and-completions-services-provider/
-- date: '2026-05-25'
+- date: ''
   title: Patterson-UTI is excited to announce the signing of a joint ...
   url: https://www.facebook.com/PattersonUTI/posts/patterson-uti-is-excited-to-announce-the-signing-of-a-joint-venture-agreement-wi/916752403817883/
-- date: '2026-05-25'
+- date: ''
   title: Patterson-UTI Energy, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/patterson__uti-energy%2C-inc./?page=14
-- date: '2026-05-25'
+- date: ''
   title: PATTERSON UTI ENERGY INC Earnings Call Transcript ...
   url: https://www.stockinsights.ai/us/PTEN/earnings-transcript/fy25-q3-ad15
 random_paper: 2
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

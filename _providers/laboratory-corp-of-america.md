@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Labcorp supports HL7 FHIR-based exchange of laboratory orders, results, and diagnostic reports with provider and health-system EHR systems. Typical FHIR resources exposed include ServiceRequest, Diagn
@@ -95,19 +95,19 @@ plans:
   plan_count: 2
   slug: laboratory-corp-of-america-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Laboratory Corp. of America Holdings Rating Lower
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/1380140
-- date: '2026-05-25'
+- date: ''
   title: Labcorp Holdings (LH) Q1 2026 Earnings Call Transcript
   url: https://fortune.com/company/laboratory-corp-of-america/earnings/q1-2026/
-- date: '2026-05-25'
+- date: ''
   title: Laboratory Corporation of America Holdings
   url: https://www.reuters.com/company/laboratory-corporation-of-america-holdings/
-- date: '2026-05-25'
+- date: ''
   title: 10-K | iXBRL Viewer | Laboratory Corp OF America Holdings
   url: https://ir.labcorp.com/node/35801/ixbrl-viewer
-- date: '2026-05-25'
+- date: ''
   title: Earnings for Laboratory Corp. Of America Expected to Fall
   url: https://www.forbes.com/sites/narrativescience/2014/07/16/earnings-for-laboratory-corp-of-america-expected-to-fall/
 random_paper: 19
@@ -141,7 +141,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

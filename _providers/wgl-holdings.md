@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: WGL Energy Services is an unregulated retail energy subsidiary of WGL Holdings that sells natural gas and electricity to commercial, industrial, and residential customers in Maryland, Virginia, Delawa
@@ -126,19 +126,19 @@ plans:
   plan_count: 3
   slug: wgl-holdings-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ronald Blauch - WGL Holdings Inc
   url: https://www.linkedin.com/in/ronald-blauch-84b339122
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/0001561894/000156189424000038/hasi-20240404.htm
-- date: '2026-05-25'
+- date: ''
   title: Dissecting Corporate Culture Using Generative AI
   url: https://www.ecgi.global/sites/default/files/Paper%3A%20Dissecting%20Corporate%20Culture%20Using%20Generative%20AI%20%20%E2%80%93%20Insights%20from%20Analyst%20Reports.pdf
-- date: '2026-05-25'
+- date: ''
   title: Visteon Set to Join S&P MidCap 400
   url: https://www.prnewswire.com/news-releases/visteon-set-to-join-sp-midcap-400-300676803.html
-- date: '2026-05-25'
+- date: ''
   title: Climate and Energy
   url: https://www.asyousow.org/our-work/climate-and-energy
 random_paper: 21
@@ -188,7 +188,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

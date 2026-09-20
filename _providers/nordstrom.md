@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,19 +86,19 @@ overview: 'Nordstrom is profiled on the [APIs.io](https://apis.io/) network. Tag
 
   Nordstrom''s developer surface includes support and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Nordstrom Announces Investments In Digital Technology
   url: https://press.nordstrom.com/news-releases/news-release-details/nordstrom-announces-investments-digital-technology
-- date: '2026-05-25'
+- date: ''
   title: 'AI Meets Fashion: Redefining Retail Experiences at ...'
   url: https://brave.com/podcast/e57/
-- date: '2026-05-25'
+- date: ''
   title: In an AI world, Nordstrom is leaning into human care
   url: https://www.customerexperiencedive.com/news/ai-nordstrom-dedication-human-care/804769/
-- date: '2026-05-25'
+- date: ''
   title: Nordstrom leverages generative AI for holiday app refresh
   url: https://www.retaildive.com/news/nordstrom-generative-ai-holiday-app-refresh/732977/
-- date: '2026-05-25'
+- date: ''
   title: Nordstrom refreshes its app with more editorial content, ...
   url: https://www.chiefmarketer.com/nordstrom-refreshes-its-app-with-more-editorial-content-generative-ai/
 random_paper: 10
@@ -122,7 +122,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

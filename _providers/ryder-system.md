@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -279,19 +279,19 @@ plans:
   plan_count: 1
   slug: ryder-system-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Ryder Establishes Silicon Valley-Based Technology Lab ...
   url: https://newsroom.ryder.com/news/news-details/2023/Ryder-Establishes-Silicon-Valley-Based-Technology-Lab-Led-by-Founders-of-Start-Up-Baton/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Ryder Silicon Valley Lab Developing AI-Driven Logistics ...
   url: https://www.truckinginfo.com/news/ryder-establishes-silicon-valley-transportation-technology-lab
-- date: '2026-05-25'
+- date: ''
   title: Ryder names Richard Mohr as the new chief technology ...
   url: https://www.facebook.com/RyderSystemInc/posts/ryder-names-richard-mohr-as-the-new-chief-technology-officer-for-fleet-managemen/2530603403640485/
-- date: '2026-05-25'
+- date: ''
   title: Ryder System, Inc. - News
   url: https://newsroom.ryder.com/news/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Ryder and Terminal Digitize Yard; Achieve 99% Accuracy ...
   url: https://www.businesswire.com/news/home/20240821139395/en/Ryder-and-Terminal-Digitize-Yard-Achieve-99-Accuracy-with-AI-Computer-Vision
 random_paper: 18
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

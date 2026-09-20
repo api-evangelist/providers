@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Edwards Lifesciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Acumen intelligent decision support suite
   url: https://www.edwards.com/gb/healthcare-professionals/products-services/predictive-monitoring/acumen-suite
-- date: '2026-05-25'
+- date: ''
   title: Philips, Edwards team on AI-based guide for mitral valve ...
   url: https://www.medtechdive.com/news/Philips-Edwards-Lifesciences-AI-mitral-valve-repair-collaboration/805912/
-- date: '2026-05-25'
+- date: ''
   title: Edwards Lifesciences in artificial intelligence
   url: https://www.medicaldevice-network.com/data-insights/edwards-lifesciences-in-artificial-intelligence-theme-innovation-strategy/
-- date: '2026-05-25'
+- date: ''
   title: Philips DeviceGuide gets FDA Clearance
   url: https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2026/fda-clears-philips-ai-solution-that-provides-real-time-guidance-during-complex-minimally-invasive-heart-valve-repair.html?srsltid=AfmBOorEyHHb7F7wwf-E9bAAVo-rG29J2hSrM4Bhr62VYW0PWWyMbwdm
-- date: '2026-05-25'
+- date: ''
   title: Our leaders
   url: https://www.edwards.com/about-us/our-leaders
 random_paper: 6
@@ -95,7 +95,7 @@ score:
       reason: never_enriched
   previous_composite: 3.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

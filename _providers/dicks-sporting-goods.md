@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,19 +101,19 @@ nav: Providers
 network: true
 overview: Dick's Sporting Goods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Sporting Goods, Fortune 500, E-Commerce, and Omnichannel Commerce.
 press:
-- date: '2026-05-25'
+- date: ''
   title: DICK'S Sporting Goods Partners with Adobe to Transform ...
   url: https://www.businesswire.com/news/home/20260421672910/en/DICKS-Sporting-Goods-Partners-with-Adobe-to-Transform-the-Athlete-Experience-with-AI
-- date: '2026-05-25'
+- date: ''
   title: AI Impact on Retail Traffic with Loni Stark
   url: https://www.linkedin.com/posts/schwab-network_adobes-loni-stark-breaks-down-how-ai-is-activity-7452401605628301312-SoaA
-- date: '2026-05-25'
+- date: ''
   title: DICK'S Sporting Goods thinks AI should help you buy ...
   url: https://www.reddit.com/r/ArtificialInteligence/comments/1tkxwhj/dicks_sporting_goods_thinks_ai_should_help_you/
-- date: '2026-05-25'
+- date: ''
   title: What 10 retail executives have to say about AI
   url: https://www.retaildive.com/news/retail-executives-artificial-intelligence-nrf/809654/
-- date: '2026-05-25'
+- date: ''
   title: How DICK'S Sporting Goods uses AI to elevate team skills
   url: https://eightfold.ai/blog/how-dicks-sporting-goods-uses-ai-to-elevate-team-skills-in-a-changing-workplace/
 random_paper: 18
@@ -137,7 +137,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

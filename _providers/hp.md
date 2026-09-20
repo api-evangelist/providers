@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -128,19 +128,19 @@ plans:
   plan_count: 3
   slug: hp-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: HP Raises the Bar for AI in the Workplace
   url: https://quocirca.com/content/hp-raises-the-bar-for-ai-in-the-workplace/
-- date: '2026-05-25'
+- date: ''
   title: 'Unlocking AI: Machine Learning as a Service'
   url: https://www.hp.com/us-en/workstations/learning-hub/ai-for-all.html
-- date: '2026-05-25'
+- date: ''
   title: 'HP Imagine 2026: HP Demonstrates Its Vision for a ...'
   url: https://www.hp.com/us-en/newsroom/press-releases/2026/hp-introduces-hp-iq-connected-ecosystem.html
-- date: '2026-05-25'
+- date: ''
   title: 'HP Imagine 2026: HP Enables People''s Best Work in More ...'
   url: https://www.hp.com/us-en/newsroom/press-releases/2026/hp-enables-best-work-in-more-places.html
-- date: '2026-05-25'
+- date: ''
   title: HP acquires Humane Platform and team for $116M
   url: https://www.facebook.com/groups/AIUGM/posts/4020109041603394/
 random_paper: 18
@@ -175,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

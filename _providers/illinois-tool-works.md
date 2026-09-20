@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Illinois Tool Works is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Construction, Fortune 500, Industrial, and Manufacturing.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Illinois Tool Works (ITW): A Fresh Look at Valuation After ...'
   url: https://finance.yahoo.com/news/illinois-tool-works-itw-fresh-152144063.html
-- date: '2026-05-25'
+- date: ''
   title: Illinois Tool Works Inc. (ITW) reports earnings - Quartz
   url: https://qz.com/illinois-tool-works-inc-itw-reports-earnings-1851763933
-- date: '2026-05-25'
+- date: ''
   title: Illinois Tool Works acquires Allen Germany
   url: https://www.packagingdigest.com/machinery/illinois-tool-works-acquires-allen-germany
-- date: '2026-05-25'
+- date: ''
   title: 'Illinois Tool Works'' AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/illinois-tool-works-ai-strategy-analysis-of-dominance-in-manufacturing-ai/
-- date: '2026-05-25'
+- date: ''
   title: ITW Our Entrepreneurial Culture is Our Competitive ...
   url: https://www.itw.com/
 random_paper: 11
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

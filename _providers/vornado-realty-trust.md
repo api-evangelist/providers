@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -91,19 +91,19 @@ overview: 'Vornado Realty Trust is profiled on the [APIs.io](https://apis.io/) n
 
   The Vornado Realty Trust catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 0000899689-25-000004 | 10-K | iXBRL Viewer
   url: https://investors.vno.com/node/29076/ixbrl-viewer
-- date: '2026-05-25'
+- date: ''
   title: Vornado Realty Trust Eyes 2027 Earnings Rebound
   url: https://www.theglobeandmail.com/investing/markets/stocks/VNO/pressreleases/1758868/vornado-realty-trust-eyes-2027-earnings-rebound/
-- date: '2026-05-25'
+- date: ''
   title: Vornado Realty Trust Boosts Tenant Response Times with ...
   url: https://www.linkedin.com/posts/james-shaw-32260727_vornado-realty-trust-answers-tenants-30-activity-7434890584147795968-5_a7
-- date: '2026-05-25'
+- date: ''
   title: Meta Establishes New York City Retail Flagship at ...
   url: https://investors.vno.com/static-files/d1cc2699-d4b3-4f36-a2a8-503b94b48668
-- date: '2026-05-25'
+- date: ''
   title: 'Vornado Realty: Valued On Depressed Earnings, Not ...'
   url: https://seekingalpha.com/article/4899203-vornado-realty-valued-on-depressed-earnings-not-stabilized-noi
 random_paper: 18
@@ -138,7 +138,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

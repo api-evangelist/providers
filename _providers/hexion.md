@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Hexion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Adhesives, Chemicals, Coatings, Fortune 500, and Resins.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Hexion Completes AI-Driven Acquisition of Smartech
   url: https://www.designdevelopmenttoday.com/home/news/22927987/hexion-completes-aidriven-acquisition-of-smartech
-- date: '2026-05-25'
+- date: ''
   title: Hexion's CEO Shares Transformation Journey with ...
   url: https://www.hexion.com/news-resources/news-detail/hexion-s-ceo-shares-transformation-journey-with-chemical-week
-- date: '2026-05-25'
+- date: ''
   title: Hexion Completes AI-Driven Acquisition of Smartech
   url: https://www.prnewswire.com/news-releases/hexion-completes-ai-driven-acquisition-of-smartech-302320578.html
-- date: '2026-05-25'
+- date: ''
   title: News
   url: https://www.hexion.com/news-resources
-- date: '2026-05-25'
+- date: ''
   title: Kadant Carmanah Design and Hexion Inc. Announce ...
   url: https://www.hexion.com/news-resources/news-detail/kadant-carmanah-design-and-hexion-inc.-announce-collaborative-partnership
 random_paper: 13
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 30
 apis:
 - baseURL: https://www.globalp.com/wp-json
@@ -301,30 +301,30 @@ plans:
   plan_count: 0
   slug: global-partners-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: NVIDIA Releases New Physical AI Models as Global ...
   url: https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-New-Physical-AI-Models-as-Global-Partners-Unveil-Next-Generation-Robots/default.aspx
-- date: '2026-05-25'
-  title: S&P Global Partners with Eightfold AI on Innovative Talent ...
-  url: https://www.prnewswire.com/news-releases/sp-global-partners-with-eightfold-ai-on-innovative-talent-intelligence-platform-advancing-capabilities-of-companys-future-ready-workforce-302592772.html
-- date: '2026-05-25'
-  title: Global Infrastructure Partners, BlackRock, Microsoft, and ...
-  url: https://www.global-infra.com/news/global-infrastructure-partners-blackrock-microsoft-and-mgx-launch-new-ai-partnership-to-invest-in-data-centers-and-supporting-power-infrastructure/
-- date: '2026-05-25'
-  title: AI Hub
-  url: https://www.gp-digital.org/ai-policy-hub/
-- date: '2026-05-25'
-  title: Artificial intelligence is reshaping the global distribution of ...
-  url: https://www.instagram.com/p/DYWsJ6wIns4/
-- date: '2026-05-08'
-  title: Global Partners LP Reports First-Quarter 2026 Financial Results
-  url: https://www.globalp.com/who-we-are/news-media/global-partners-lp-reports-first-quarter-2026-financial-results
-- date: '2026-05-01'
-  title: Alltown Fresh® Launches “Tacos That Give Back” Campaign in Honor of Military Appreciation Month
-  url: https://www.globalp.com/who-we-are/news-media/alltown-fresh-launches-tacos-that-give-back-campaign-in-honor-of-military-appreciation-month
-- date: '2026-04-30'
+- date: ''
+  title: Global Partners Recognized for Second Consecutive Year on Boston Globe’s Fastest-Growing Companies List
+  url: https://www.globalp.com/who-we-are/news-media/global-partners-recognized-for-second-consecutive-year-on-boston-globes-fastest-growing-companies-list
+- date: ''
   title: Global Partners Declares First-Quarter 2026 Cash Distribution of $0.7650  on Common Units
   url: https://www.globalp.com/who-we-are/news-media/global-partners-declares-first-quarter-2026-cash-distribution-of-0-7650-on-common-units
+- date: ''
+  title: S&P Global Partners with Eightfold AI on Innovative Talent ...
+  url: https://www.prnewswire.com/news-releases/sp-global-partners-with-eightfold-ai-on-innovative-talent-intelligence-platform-advancing-capabilities-of-companys-future-ready-workforce-302592772.html
+- date: ''
+  title: Alltown Fresh® Launches “Tacos That Give Back” Campaign in Honor of Military Appreciation Month
+  url: https://www.globalp.com/who-we-are/news-media/alltown-fresh-launches-tacos-that-give-back-campaign-in-honor-of-military-appreciation-month
+- date: ''
+  title: Global Infrastructure Partners, BlackRock, Microsoft, and ...
+  url: https://www.global-infra.com/news/global-infrastructure-partners-blackrock-microsoft-and-mgx-launch-new-ai-partnership-to-invest-in-data-centers-and-supporting-power-infrastructure/
+- date: ''
+  title: Alltown Fresh® Brings Chef-Crafted Kitchen and Marketplace Experience to Framingham
+  url: https://www.globalp.com/who-we-are/news-media/alltown-fresh-brings-chef-crafted-kitchen-and-marketplace-experience-to-framingham
+- date: ''
+  title: Global Partners Completes First EV Charging Station in Maine New DC Fast Charging site in Orono expands clean-energy access and supports Maine’s climate goals
+  url: https://www.globalp.com/who-we-are/news-media/global-partners-completes-first-ev-charging-station-in-maine-new-dc-fast-charging-site-in-orono-expands-clean-energy-access-and-supports-maines-climate-goals
 random_paper: 9
 rate_limits:
 - limit_count: 0
@@ -365,7 +365,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

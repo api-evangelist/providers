@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: 'SM Energy Company (NYSE: SM) financial and operational data is accessible through investor relations resources, SEC EDGAR filings, and third-party financial data providers. The company reports quarter'
@@ -118,30 +118,30 @@ plans:
   plan_count: 1
   slug: sm-energy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
+  title: SM ENERGY PROVIDES 2026 OUTLOOK
+  url: https://www.sm-energy.com/investors/news-events/press-releases/detail/368/sm-energy-provides-2026-outlook
+- date: ''
   title: SM ENERGY APPOINTS DR. ASHWIN VENKATRAMAN ...
   url: https://www.sm-energy.com/investors/news-events/press-releases/detail/342/sm-energy-appoints-dr-ashwin-venkatraman-to-the-companys-board-of-directors
-- date: '2026-05-25'
+- date: ''
+  title: SM ENERGY PRICES AN UPSIZED PRIVATE OFFERING OF $1.0 BILLION OF SENIOR NOTES DUE 2034
+  url: https://www.sm-energy.com/investors/news-events/press-releases/detail/371/sm-energy-prices-an-upsized-private-offering-of-1-0-billion-of-senior-notes-due-2034
+- date: ''
+  title: SM ENERGY ANNOUNCES EXPIRATION AND FINAL TENDER RESULTS OF PREVIOUSLY ANNOUNCED CASH TENDER OFFER
+  url: https://www.sm-energy.com/investors/news-events/press-releases/detail/373/sm-energy-announces-expiration-and-final-tender-results-of-previously-announced-cash-tender-offer
+- date: ''
+  title: SM ENERGY ANNOUNCES PRIVATE OFFERING OF $750 MILLION OF SENIOR NOTES DUE 2034
+  url: https://www.sm-energy.com/investors/news-events/press-releases/detail/369/sm-energy-announces-private-offering-of-750-million-of-senior-notes-due-2034
+- date: ''
   title: Operations
   url: https://www.sm-energy.com/operations
-- date: '2026-05-25'
+- date: ''
+  title: SM ENERGY REPORTS FOURTH QUARTER AND FULL-YEAR 2025 FINANCIAL AND OPERATING RESULTS
+  url: https://www.sm-energy.com/investors/news-events/press-releases/detail/367/sm-energy-reports-fourth-quarter-and-full-year-2025-financial-and-operating-results
+- date: ''
   title: SM Energy details Civitas merger and capital returns
   url: https://www.stocktitan.net/sec-filings/SM/def-14a-sm-energy-co-definitive-proxy-statement-27018c62b7d4.html
-- date: '2026-05-25'
-  title: Sustainability
-  url: https://www.sm-energy.com/sustainability
-- date: '2026-05-25'
-  title: SM ENERGY ANNOUNCES ADDITIONAL DETAILS ON ...
-  url: https://www.prnewswire.com/news-releases/sm-energy-announces-additional-details-on-planned-merger-with-civitas-and-participation-in-upcoming-investor-conferences-302617582.html
-- date: '2026-05-06'
-  title: SM Energy Reports First Quarter 2026 Results
-  url: https://www.sm-energy.com/investors/news-events/press-releases/detail/376/sm-energy-reports-first-quarter-2026-results
-- date: '2026-04-30'
-  title: SM ENERGY CLOSES $950 MILLION SOUTH TEXAS DIVESTITURE; ANNOUNCES REDEMPTION OF ALL OUTSTANDING 2026 SENIOR NOTES
-  url: https://www.sm-energy.com/investors/news-events/press-releases/detail/375/sm-energy-closes-950-million-south-texas-divestiture-announces-redemption-of-all-outstanding-2026-senior-notes
-- date: '2026-04-07'
-  title: SM Energy Schedules First Quarter 2026 Conference Call for May 7, 2026
-  url: https://www.sm-energy.com/investors/news-events/press-releases/detail/374/sm-energy-schedules-first-quarter-2026-conference-call-for-may-7-2026
 random_paper: 17
 rate_limits:
 - limit_count: 1
@@ -178,7 +178,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

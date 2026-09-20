@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,19 +201,19 @@ plans:
   plan_count: 1
   slug: constellation-brands-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Constellation Brands (NYSE: STZ) shifts mix as beer gains ...'
   url: https://www.stocktitan.net/sec-filings/STZ/8-k-constellation-brands-inc-reports-material-event-b16203aed940.html
-- date: '2026-05-25'
+- date: ''
   title: 8-K - 04/09/2025
   url: https://ir.cbrands.com/sec-filings/all-sec-filings/content/0000016918-25-000017/0000016918-25-000017.pdf
-- date: '2026-05-25'
+- date: ''
   title: Constellation Brands Updates Fiscal 2025 Outlook
   url: https://www.cbrands.com/blogs/press-releases/constellation-brands-updates-fiscal-2025-outlook
-- date: '2026-05-25'
+- date: ''
   title: 'Constellation Brands: Markets Drunk On AI Leave Alcohol ...'
   url: https://seekingalpha.com/article/4836848-constellation-brands-markets-drunk-on-ai-leave-alcohol-giant-at-pandemic-level-lows
-- date: '2026-05-25'
+- date: ''
   title: 'Constellation Brands: Leveraging Technology, Data, and ...'
   url: https://cdotimes.com/2024/07/01/constellation-brands-leveraging-technology-data-and-ai-for-excellence/
 random_paper: 18
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

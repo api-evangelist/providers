@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Sally Beauty Supply's digital commerce platform powered by Salesforce Commerce Cloud, providing product catalog, shopping cart, checkout, and order management capabilities for consumer beauty supply c
@@ -126,19 +126,19 @@ plans:
   plan_count: 3
   slug: sally-beauty-holdings-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sally Beauty Expands 'Color Before You Commit' ...
   url: https://www.sallybeautyholdings.com/investor-relations/financial-information/press-releases/2019/11-05-2019-154239632
-- date: '2026-05-25'
+- date: ''
   title: Sally Beauty Expands 'Color Before You Commit ...
   url: https://www.prnewswire.com/news-releases/sally-beauty-expands-color-before-you-commit-colorview-ai-technology-to-mobile-app-and-to-in-store-experience-in-500-locations-nationwide-300951937.html
-- date: '2026-05-25'
+- date: ''
   title: Perfect Corp. partners with Sally Beauty on AI hair color ...
   url: https://www.retailcustomerexperience.com/news/perfect-corp-partners-with-sally-beauty-on-ai-hair-color-experience/
-- date: '2026-05-25'
+- date: ''
   title: NIQ and Sally Beauty Extend and Expand Strategic ...
   url: https://nielseniq.com/global/en/news-center/2025/niq-and-sally-beauty-extend-and-expand-strategic-agreement/
-- date: '2026-05-25'
+- date: ''
   title: 2024 Annual Report - Investor Relations - Sally Beauty Holdings
   url: http://investor.sallybeautyholdings.com/~/media/Files/S/Sally-Beauty/annual-report/2024-annual-report.pdf
 random_paper: 11
@@ -177,7 +177,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

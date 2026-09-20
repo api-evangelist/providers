@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Insight Enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Insight Enterprises buys Inspire11 tech firm | NSIT 8-K Filing
   url: https://www.stocktitan.net/sec-filings/NSIT/8-k-insight-enterprises-inc-reports-material-event-58b0d49d85ed.html
-- date: '2026-05-25'
+- date: ''
   title: Insight is now one of three Stripe launch partners ...
   url: https://www.facebook.com/InsightEnterprisesInc/posts/insight-is-now-one-of-three-stripe-launch-partners-of-the-agentic-commerce-proto/1339357704885298/
-- date: '2026-05-25'
+- date: ''
   title: Insight Enterprises, Inc. - Financials - Quarterly Earnings
   url: https://investor.insight.com/financial-reports/quarterly-earnings/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Insight Launches Insight AI, a New Way to Achieve AI ...
   url: https://www.businesswire.com/news/home/20251112795319/en/Insight-Launches-Insight-AI-a-New-Way-to-Achieve-AI-Outcomes
-- date: '2026-05-25'
+- date: ''
   title: nsit-ex991_6.pptx.htm
   url: https://www.sec.gov/Archives/edgar/data/932696/000156459019037006/nsit-ex991_6.htm
 random_paper: 5
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

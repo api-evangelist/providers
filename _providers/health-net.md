@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Health Net is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Health Insurance, Managed Care, Health Plans, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Health Net, Dignity Health and Vivant Health Partner to ...
   url: https://www.prnewswire.com/news-releases/health-net-dignity-health-and-vivant-health-partner-to-improve-patient-care-in-sacramento-hospitals-302431987.html
-- date: '2026-05-25'
+- date: ''
   title: November, 2024
   url: https://www.healthnet.com/content/dam/centene/healthnet/pdfs/broker/ca/general/hn-broker-news-now-11-2024.pdf
-- date: '2026-05-25'
+- date: ''
   title: Working Together To Preserve Patient Control
   url: https://americashealthcarefuture.org/what-we-are-for-working-together-to-preserve-patient-control/
-- date: '2026-05-25'
+- date: ''
   title: Health Net
   url: https://www.healthnet.com/content/dam/centene/healthnet/pdfs/broker/ca/general/hn-broker-news-now-01-2024.pdf
-- date: '2026-05-25'
+- date: ''
   title: Health promotion and prevention in the digital era
   url: https://eurohealthnet.eu/publication/eurohealthnet-annual-seminar-2026-health-promotion-and-prevention-in-the-digital-era/
 random_paper: 12
@@ -105,7 +105,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

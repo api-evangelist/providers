@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -142,19 +142,19 @@ overview: 'Comerica is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   Comerica''s developer surface includes engineering blog, support, and 20 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Inaugural Comerica Bank Survey Finds Small Businesses ...
   url: https://www.prnewswire.com/news-releases/inaugural-comerica-bank-survey-finds-small-businesses-optimistic-about-growth-cautious-about-ai-and-focused-on-strategic-investment-302539952.html
-- date: '2026-05-25'
+- date: ''
   title: 'Automation 101: Technology is Expanding Financial and ...'
   url: https://www.comerica.com/insights/business-finance/automation-101-how-technology-is-expanding-financial-and-banking-services.html
-- date: '2026-05-25'
+- date: ''
   title: Comerica Bank
   url: https://www.facebook.com/comerica/posts/join-comerica-bank-for-our-next-outlook-on-america-a-virtual-event-with-bill-ada/1292023612955029/
-- date: '2026-05-25'
+- date: ''
   title: 'Making the Case for AI in Finance: Insights from Strategic ...'
   url: https://www.itemize.com/making-the-case-for-ai-in-finance/
-- date: '2026-05-25'
+- date: ''
   title: Comerica says its AI bot performs work of six IT help desk ...
   url: https://www.americanbanker.com/news/comerica-says-its-ai-bot-performs-work-of-six-it-helpdesk-agents
 random_paper: 21
@@ -191,7 +191,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

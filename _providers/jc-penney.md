@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'J.C. Penney is profiled on the [APIs.io](https://apis.io/) network. T
 
   J.C. Penney''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: JCPenney shares impact from its AI-powered beauty advisors
   url: https://www.digitalcommerce360.com/2024/11/21/jcpenney-ai-powered-beauty-advisors/
-- date: '2026-05-25'
+- date: ''
   title: How J.C. Penney is using AI and machine learning in its ...
   url: https://www.retaildive.com/news/jc-penney-supply-chain-artificial-intelligence-technology/724810/
-- date: '2026-05-25'
+- date: ''
   title: JCPenney and SPARC Combine to Create 'Compelling ...
   url: https://www.pymnts.com/news/retail/2025/jcpenney-and-sparc-combine-to-create-compelling-consumer-value-proposition/
-- date: '2026-05-25'
+- date: ''
   title: JCPenney In Six-Brand Merger 01/10/2025
   url: https://www.mediapost.com/publications/article/402459/jcpenney-in-six-brand-merger.html?edition=
-- date: '2026-05-25'
+- date: ''
   title: '* J.C. Penney on Tuesday launched a private label men''s ...'
   url: https://www.instagram.com/p/CZxR9PatXTn/
 random_paper: 3
@@ -110,7 +110,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

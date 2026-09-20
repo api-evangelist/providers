@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 16
 common:
@@ -105,19 +105,19 @@ overview: 'WestRock is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
   WestRock''s developer surface includes developer portal, getting-started guide, engineering blog, and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Celonis and Smurfit Westrock Unlock Significant Value by ...
   url: https://www.celonis.com/news/press/celonis-and-smurfit-westrock-unlock-significant-value-optimizing-inventory-management
-- date: '2026-05-25'
+- date: ''
   title: Smurfit Westrock unveils medium-term plan to accelerate ...
   url: https://www.packagingdive.com/news/smurfit-westrock-q4-full-year-2025-earnings/811878/
-- date: '2026-05-25'
+- date: ''
   title: Smurfit Westrock Innovation |A Sustainable Packaging ...
   url: https://www.westrock.com/innovation
-- date: '2026-05-25'
+- date: ''
   title: 2023 Sustainability Report
   url: http://www.westrock.com/-/media/pdf/sustainability/westrock-sustainability-report-2023.pdf
-- date: '2026-05-25'
+- date: ''
   title: Smurfit Westrock launches prototype of glueline-free ...
   url: https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-launches-prototype-of-glueline-free-packaging-solution
 random_paper: 2
@@ -141,7 +141,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

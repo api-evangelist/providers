@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: DRiV, a Tenneco company, provides digital parts catalog and vehicle fitment lookup capabilities for its portfolio of more than 30 aftermarket brands including Monroe, Champion, Walker, and Fel-Pro.
@@ -95,19 +95,19 @@ plans:
   plan_count: 3
   slug: tenneco-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tenneco Goes Live on QAD Adaptive, Accelerating ...
   url: https://www.businesswire.com/news/home/20260113650509/en/Tenneco-Goes-Live-on-QAD-Adaptive-Accelerating-Manufacturing-Operations-Modernization-Across-Global-Operations
-- date: '2026-05-25'
+- date: ''
   title: Tenneco to Be Acquired by Apollo Funds
   url: https://www.prnewswire.com/news-releases/tenneco-to-be-acquired-by-apollo-funds-301488183.html
-- date: '2026-05-25'
+- date: ''
   title: How Tenneco is navigating the agentic AI frontier in ...
   url: https://cpostrategy.media/blog/2026/05/01/how-tenneco-is-navigating-the-agentic-ai-frontier-in-procurement/
-- date: '2026-05-25'
+- date: ''
   title: Tenneco Announces Strategic Investment to Accelerate ...
   url: https://www.thecanadianpressnews.ca/globenewswire_press_releases/tenneco-announces-strategic-investment-to-accelerate-growth/article_9ada09dc-e262-5fcd-b062-fff445f8d613.html
-- date: '2026-05-25'
+- date: ''
   title: Winning at this level takes partners you trust. We' ...
   url: https://www.linkedin.com/posts/tenneco_winning-at-this-level-takes-partners-you-activity-7420103720606175232-MQsC
 random_paper: 0
@@ -135,7 +135,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

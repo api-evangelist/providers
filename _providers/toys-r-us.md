@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -182,19 +182,19 @@ plans:
   plan_count: 3
   slug: toys-r-us-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Is AI Video the Future of Advertising? Toys “R” Us ...
   url: https://x.com/linqtoinc/status/1809326405697552864?lang=ar
-- date: '2026-05-25'
+- date: ''
   title: Toys R Us creates first brand film to use OpenAI's text-to- ...
   url: https://www.marketingdive.com/news/toys-r-us-openai-sora-gen-ai-first-text-video/719797/
-- date: '2026-05-25'
+- date: ''
   title: Why Toys R Us created an AI ad | Jason Mitchell posted on ...
   url: https://www.linkedin.com/posts/jhmitchell_this-entire-ad-was-made-with-ai-and-its-activity-7212092135708196864--_uY
-- date: '2026-05-25'
+- date: ''
   title: Toys"R"Us Studios and Native Foreign Use OpenAI's Sora ...
   url: https://www.prnewswire.com/news-releases/toysrus-studios-and-native-foreign-use-openais-sora-to-narrate-the-origin-story-of-beloved-toyrus-brand-302180332.html
-- date: '2026-05-25'
+- date: ''
   title: Toys 'R' Us calls AI-made video successful despite criticism
   url: https://www.nbcnews.com/tech/internet/toys-r-us-ai-video-ad-controversy-explained-commercial-rcna159030
 random_paper: 19
@@ -251,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

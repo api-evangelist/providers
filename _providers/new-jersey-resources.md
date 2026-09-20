@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: New Jersey Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Clean Energy, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Presidential Task Force on Artificial Intelligence and Digital ...
   url: https://www.nycbar.org/committees/task-force-on-digital-technologies/
-- date: '2026-05-25'
+- date: ''
   title: NJR Stock AI Analysis - New Jersey Resources Corp
   url: https://danelfin.com/stock/NJR
-- date: '2026-05-25'
+- date: ''
   title: njr-20251209
   url: https://www.sec.gov/Archives/edgar/data/356309/000035630925000096/njr-20251209.htm
-- date: '2026-05-25'
+- date: ''
   title: New Jersey Resources (NJR) boosts 2025 net financial ...
   url: https://www.stocktitan.net/sec-filings/NJR/def-14a-new-jersey-resources-corp-definitive-proxy-statement-ca6dbc61adb6.html
-- date: '2026-05-25'
+- date: ''
   title: New Jersey unveils resources for educators using AI in ...
   url: https://www.chalkbeat.org/newark/2024/06/20/department-of-education-artificial-intelligence-resources-to-help-educators-schools/
 random_paper: 19
@@ -113,7 +113,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

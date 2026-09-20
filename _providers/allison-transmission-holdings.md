@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,19 +57,19 @@ overview: 'Allison Transmission Holdings is profiled on the [APIs.io](https://ap
 
   Allison Transmission Holdings'' developer surface includes engineering blog and 1 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Allison Transmission Expanding State-of-the-Art ...
   url: https://www.prnewswire.com/news-releases/allison-transmission-expanding-state-of-the-art-manufacturing-facility-in-india-to-meet-increasing-global-demand-302285626.html
-- date: '2026-05-25'
+- date: ''
   title: Allison Announces First Quarter 2026 Results
   url: https://www.prnewswire.com/news-releases/allison-announces-first-quarter-2026-results-302761782.html
-- date: '2026-05-25'
+- date: ''
   title: Allison Transmission Holdings Inc (ALSN) Announces First ...
   url: https://www.gurufocus.com/news/2789374/allison-transmission-holdings-inc-alsn-announces-first-quarter-2025-earnings-conference-call-alsn-stock-news?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Infosys Selected by Allison Transmission to Offer IT Services
   url: https://finance.yahoo.com/news/infosys-selected-allison-transmission-offer-214809090.html
-- date: '2026-05-25'
+- date: ''
   title: Allison Transmission Holdings, Inc. (ALSN) Q1 2026 ...
   url: https://seekingalpha.com/article/4898143-allison-transmission-holdings-inc-alsn-q1-2026-earnings-call-transcript
 random_paper: 8
@@ -101,7 +101,7 @@ score:
       reason: never_enriched
   previous_composite: 3.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

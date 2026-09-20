@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Byte by Yum! is Yum! Brands' proprietary AI-driven restaurant technology platform delivering digital ordering, point-of-sale, kitchen operations, menu management, inventory, and labor management acros
@@ -155,19 +155,19 @@ plans:
   plan_count: 1
   slug: yum-brands-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Yum! Brands, which owns Taco Bell, KFC, and Pizza Hut ...
   url: https://www.facebook.com/TheDailyMeal/posts/yum-brands-which-owns-taco-bell-kfc-and-pizza-hut-recently-announced-a-partnersh/1057686653052355/
-- date: '2026-05-25'
+- date: ''
   title: Yum Brands, Nvidia will deploy new AI at 500 restaurants
   url: https://www.restaurantdive.com/news/yum-brands-nvidia-ai-taco-bell-pizza-hut-kfc-deal/742926/
-- date: '2026-05-25'
+- date: ''
   title: Yum! Brands to accelerate AI innovation in an industry-first ...
   url: https://www.yum.com/wps/portal/yumbrands/Yumbrands/news/press-releases/yum+brands+to+accelerate+ai+innovation+in+an+industry-first+collaboration+with+nvidia
-- date: '2026-05-25'
+- date: ''
   title: Financial Releases
   url: https://investors.yum.com/news-events/financial-releases/
-- date: '2026-05-25'
+- date: ''
   title: Introducing Byte by Yum!™, an AI-Driven Restaurant ...
   url: https://investors.yum.com/news-events/financial-releases/news-details/2025/Introducing-Byte-by-Yum-an-AI-Driven-Restaurant-Technology-Platform-Powering-Customer-and-Team-Member-Experiences-Worldwide/default.aspx
 random_paper: 14
@@ -195,7 +195,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

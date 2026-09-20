@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -153,19 +153,19 @@ plans:
   plan_count: 0
   slug: applied-industrial-technologies-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Applied Industrial Technologies Q3 Earnings Call Highlights
   url: https://www.marketbeat.com/instant-alerts/applied-industrial-technologies-q3-earnings-call-highlights-2026-04-28/
-- date: '2026-05-25'
+- date: ''
   title: Applied Industrial emphasizes AI as sales show early ...
   url: https://www.digitalcommerce360.com/2026/01/28/applied-industrial-ai-sales-q2-fy26/
-- date: '2026-05-25'
+- date: ''
   title: Section Applied Industrial Technologies
   url: https://www.mdpi.com/journal/applsci/sections/applied_industrial_technologies
-- date: '2026-05-25'
+- date: ''
   title: A Look At Applied Industrial Technologies (AIT) Valuation ...
   url: https://finance.yahoo.com/news/look-applied-industrial-technologies-ait-151001894.html
-- date: '2026-05-25'
+- date: ''
   title: AIT Applied Industrial Technologies, Inc. Stock Price & ...
   url: https://seekingalpha.com/symbol/AIT
 random_paper: 6
@@ -228,7 +228,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

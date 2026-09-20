@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: GameStop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Electronics, Gaming, Retail, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: eBay Confirms Receipt of Unsolicited Proposal from ...
   url: https://www.prnewswire.com/news-releases/ebay-confirms-receipt-of-unsolicited-proposal-from-gamestop-302761245.html
-- date: '2026-05-25'
+- date: ''
   title: GameStop, Artificial Intelligence, Social Media, and the ...
   url: https://rpc.cfainstitute.org/blogs/enterprising-investor/2021/gamestop-artificial-intelligence-social-media-and-the-future-of-investing
-- date: '2026-05-25'
+- date: ''
   title: Shares of GameStop surged more than 7% in premarket ...
   url: https://www.facebook.com/forbes/posts/shares-of-gamestop-surged-more-than-7-in-premarket-trading-early-on-monday-morni/1200531931936795/
-- date: '2026-05-25'
+- date: ''
   title: GameStop announces multiyear strategic partnership with ...
   url: https://news.microsoft.com/source/2020/10/08/gamestop-announces-multiyear-strategic-partnership-with-microsoft/
-- date: '2026-05-25'
+- date: ''
   title: 'Gamestop and AI... : r/Superstonk'
   url: https://www.reddit.com/r/Superstonk/comments/1ibjuol/gamestop_and_ai/
 random_paper: 6
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

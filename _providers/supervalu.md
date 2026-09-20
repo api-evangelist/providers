@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,19 +72,19 @@ nav: Providers
 network: true
 overview: SuperValu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Grocery, Retail, Wholesale, Food Distribution, and Supply Chain.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?initialSessionID=143-7076058-2863733&page=104
-- date: '2026-05-25'
+- date: ''
   title: SUPERVALU investing in tech transformation to better compete ...
   url: https://www.ciodive.com/news/supervalu-investing-in-tech-transformation-to-better-compete-in-grocery-bus/444942/
-- date: '2026-05-25'
+- date: ''
   title: Meadhbh Hurley - SuperValu
   url: https://ie.linkedin.com/in/meadhbhhurley6567
-- date: '2026-05-25'
+- date: ''
   title: UNFI Completes Transformative Acquisition Of SUPERVALU
   url: https://www.prnewswire.com/news-releases/unfi-completes-transformative-acquisition-of-supervalu-300735117.html
-- date: '2026-05-25'
+- date: ''
   title: 'AI in action: the companies using the tech to power ahead'
   url: https://tekenable.com/ai-in-action-the-companies-using-the-tech-to-power-ahead/
 random_paper: 9
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 19
 common:
@@ -96,19 +96,19 @@ overview: 'Bio-Rad Laboratories is profiled on the [APIs.io](https://apis.io/) n
 
   Bio-Rad Laboratories'' developer surface includes developer portal and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Bio-Rad Extends Range of Foresight Pro Prepacked ...
   url: https://www.the-scientist.com/bio-rad-extends-range-of-foresight-pro-prepacked-chromatography-columns-for-biotherapeutic-production-72452
-- date: '2026-05-25'
+- date: ''
   title: 📢 Bio-Rad Announces Offer to Acquire Stilla Technologies ...
   url: https://www.facebook.com/biorad/posts/-bio-rad-announces-offer-to-acquire-stilla-technologies-read-the-full-press-rele/1177841721017902/
-- date: '2026-05-25'
+- date: ''
   title: Activist Elliott Builds Big Stake in Life-Science Tools ...
   url: https://www.wsj.com/business/deals/activist-elliott-builds-big-stake-in-life-science-tools-supplier-bio-rad-c99b23fa
-- date: '2026-05-25'
+- date: ''
   title: Bio-Rad Laboratories, Inc. Q4 2025 Earnings Call Summary
   url: https://finance.yahoo.com/news/bio-rad-laboratories-inc-q4-133000246.html
-- date: '2026-05-25'
+- date: ''
   title: 'Huge Sartorius loss drives Bio-Rad (NYSE: BIO) Q1 2026 ...'
   url: https://www.stocktitan.net/sec-filings/BIO/10-q-bio-rad-laboratories-inc-quarterly-earnings-report-f49d8af29bd4.html
 random_paper: 0
@@ -138,7 +138,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

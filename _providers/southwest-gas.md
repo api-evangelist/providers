@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: The Southwest Gas My Account API powers the online customer portal and mobile application for natural gas utility customers in Arizona, Nevada, and California. Customers can view usage history, pay bi
@@ -129,19 +129,19 @@ plans:
   plan_count: 1
   slug: southwest-gas-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Southwest Gas Holdings, Inc. Reports First Quarter 2026 ...
   url: https://www.prnewswire.com/news-releases/southwest-gas-holdings-inc-reports-first-quarter-2026-financial-results-affirms-full-year-2026-and-long-term-guidance-302761931.html
-- date: '2026-05-25'
+- date: ''
   title: Southwest Gas Holdings Announces Decision to Separate ...
   url: https://www.prnewswire.com/news-releases/southwest-gas-holdings-announces-decision-to-separate-centuri-creating-two-focused-independent-companies-to-unlock-value-for-stockholders-301493318.html
-- date: '2026-05-25'
+- date: ''
   title: Southwest Gas Gets Upgrade Ahead of Strong 2026 Earnings
   url: https://www.ainvest.com/news/southwest-gas-upgrade-strong-2026-earnings-2605/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/92416/000169211520000031/swx0331208k.htm
-- date: '2026-05-25'
+- date: ''
   title: 2024 Sustainability Report
   url: https://www.swgas.com/1409224719685/SWG-2024-SR.pdf
 random_paper: 10
@@ -191,7 +191,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

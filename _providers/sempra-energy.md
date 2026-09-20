@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Sempra Energy runs a Google Apigee API program. api.sempra.com is the Apigee runtime gateway — an unrouted request returns the genuine Apigee messaging.adaptors.http.flow.ApplicationNotFound JSON faul
@@ -128,30 +128,30 @@ plans:
   plan_count: 0
   slug: sempra-energy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
+  title: <a href="https://www.sempra.com/newsroom/press-releases/sempra-reports-first-quarter-2026-results" hreflang="en">Sempra Reports First-Quarter 2026 Results</a>
+  url: https://www.sempra.com/newsroom/press-releases/sempra-reports-first-quarter-2026-results
+- date: ''
+  title: <a href="https://www.sempra.com/newsroom/press-releases/regional-natural-gas-storage-helped-southern-californians-avoid-over-120" hreflang="en">Regional Natural Gas Storage Helped Southern Californians Avoid Over $120 Million In Energy Costs During Winter Storm Fern</a>
+  url: https://www.sempra.com/newsroom/press-releases/regional-natural-gas-storage-helped-southern-californians-avoid-over-120
+- date: ''
   title: Sempra Provides Strategic Update And Financial Outlook ...
   url: https://www.prnewswire.com/news-releases/sempra-provides-strategic-update-and-financial-outlook-at-virtual-investor-day-301321509.html
-- date: '2026-05-25'
+- date: ''
+  title: <a href="https://www.sempra.com/newsroom/spotlight-articles/sempra-ceo-jeffrey-w-martin-advancing-americas-economic-competitiveness" hreflang="en">Advancing America’s Economic Competitiveness</a>
+  url: https://www.sempra.com/newsroom/spotlight-articles/sempra-ceo-jeffrey-w-martin-advancing-americas-economic-competitiveness
+- date: ''
   title: Sempra Energy and National Renewable ...
   url: https://www.sempra.com/sempra-energy-and-national-renewable-energy-laboratory-collaborate-advance-future-net-zero-energy
-- date: '2026-05-25'
-  title: February 27, 2020 Sempra Energy ...
-  url: https://www.sec.gov/Archives/edgar/data/0000086521/000008652120000003/ex9912019123110-k.htm
-- date: '2026-05-25'
-  title: Sempra Energy Unit PXiSE, Mitsui Sign Equity Investment ...
-  url: https://www.sempra.com/sempra-energy-unit-pxise-mitsui-sign-equity-investment-agreement-advanced-smart-grid-control
-- date: '2026-05-25'
-  title: Acquired 13% stake in Sempra Infrastructure Partners for ...
-  url: https://www.linkedin.com/posts/cppinvestmentsinvestissementsrpc_we-have-entered-into-a-definitive-agreement-activity-7376233520333168640-6bQZ
-- date: '2026-05-13'
+- date: ''
   title: <a href="https://www.sempra.com/newsroom/press-releases/sempra-declares-common-dividend-4" hreflang="en">Sempra Declares Common Dividend</a>
   url: https://www.sempra.com/newsroom/press-releases/sempra-declares-common-dividend-4
-- date: '2026-05-12'
-  title: <a href="https://www.sempra.com/newsroom/press-releases/socalgas-urges-shareholders-vote-retirement-all-outstanding-shares" hreflang="en">SoCalGas Urges Shareholders to Vote FOR Retirement of All Outstanding Shares of Preferred Stock at a Premium</a>
-  url: https://www.sempra.com/newsroom/press-releases/socalgas-urges-shareholders-vote-retirement-all-outstanding-shares
-- date: '2026-05-08'
-  title: '<a href="https://www.sempra.com/newsroom/spotlight-articles/energy-and-national-security-conversation-with-jeffrey-w-martin" hreflang="en">Energy and National Security: Conversation with Jeffrey W. Martin and LTG H.R. McMaster </a>'
-  url: https://www.sempra.com/newsroom/spotlight-articles/energy-and-national-security-conversation-with-jeffrey-w-martin
+- date: ''
+  title: <a href="https://www.sempra.com/newsroom/spotlight-articles/jeffrey-w-martin-cnbc-mad-money-interview" hreflang="en">Sempra Chairman and CEO Jeffrey W. Martin speaks with Jim Cramer on CNBC’s Mad Money </a>
+  url: https://www.sempra.com/newsroom/spotlight-articles/jeffrey-w-martin-cnbc-mad-money-interview
+- date: ''
+  title: February 27, 2020 Sempra Energy ...
+  url: https://www.sec.gov/Archives/edgar/data/0000086521/000008652120000003/ex9912019123110-k.htm
 random_paper: 1
 rate_limits:
 - limit_count: 0
@@ -188,7 +188,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

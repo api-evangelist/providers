@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,19 +66,19 @@ overview: 'USG is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
   USG''s developer surface includes GitHub presence and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: USG publishes AI literacy guide, but ignores AI agents
   url: https://www.linkedin.com/posts/mkassorla_usg-student-guide-to-generative-ai-literacy-activity-7362821158565515266-OGMs
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence (AI) - United States Department of State
   url: https://www.state.gov/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: 'Press Release: USG Envoy on Technology advocates for ...'
   url: https://www.un.org/digital-emerging-technologies/content/press-release-usg-envoy-technology-advocates-linguistic-diversity-ai-development-19th
-- date: '2026-05-25'
+- date: ''
   title: Amandeep Singh Gill, USG and Special Envoy for Digital and ...
   url: https://www.facebook.com/cgtnamerica/posts/amandeep-singh-gill-usg-and-special-envoy-for-digital-and-emerging-technologies-/1300078355484076/
-- date: '2026-05-25'
+- date: ''
   title: Gallagher Calls on USG to Investigate AI Firm, G42, Ties to ...
   url: http://chinaselectcommittee.house.gov/media/press-releases/gallagher-calls-usg-investigate-ai-firm-g42-ties-prc-military-intelligence
 random_paper: 5
@@ -102,7 +102,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

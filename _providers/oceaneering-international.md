@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,19 +73,19 @@ overview: 'Oceaneering International is profiled on the [APIs.io](https://apis.i
 
   Oceaneering International''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Oceaneering Taps Oracle Fusion Cloud Applications ...
   url: https://www.prnewswire.com/news-releases/oceaneering-taps-oracle-fusion-cloud-applications-embedded-ai-to-propel-growth-302364186.html
-- date: '2026-05-25'
+- date: ''
   title: Learn how Oceaneering, the global leader in subsea ...
   url: https://www.facebook.com/Oracle/posts/learn-how-oceaneering-the-global-leader-in-subsea-engineering-is-using-our-fusio/1016204593871500/
-- date: '2026-05-25'
+- date: ''
   title: News and Media
   url: https://www.oceaneering.com/news-media/
-- date: '2026-05-25'
+- date: ''
   title: Oceaneering Appoints New Member to Its Board of Directors
   url: https://investors.oceaneering.com/news/news-details/2024/Oceaneering-Appoints-New-Member-to-Its-Board-of-Directors/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: AI-Powered Inform Predict™ Software Optimizes Inspection ...
   url: https://www.oceaneering.com/case-studies/inform-predict-software-optimizes-nocs-inspection-intervals/
 random_paper: 1
@@ -109,7 +109,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

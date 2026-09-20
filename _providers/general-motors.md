@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: You can reach customers in their cars using GMs powerful, in-vehicle platform. Our tools can provide access to close to 200 data points, allowing you to monitor vehicle data in real-time to deliver th
@@ -138,19 +138,19 @@ plans:
   plan_count: 0
   slug: general-motors-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: General Motors is using artificial intelligence to speed up ...
   url: https://www.facebook.com/AutoNews/posts/general-motors-is-using-artificial-intelligence-to-speed-up-vehicle-design-and-t/1587922703193457/
-- date: '2026-05-25'
+- date: ''
   title: GM's path to the future gets an AI infusion from NVIDIA
   url: https://investor.gm.com/news-releases/news-release-details/gms-path-future-gets-ai-infusion-nvidia
-- date: '2026-05-25'
+- date: ''
   title: GM, Nvidia to partner on AI tech for factories and next-gen ...
   url: https://www.wardsauto.com/news/archive-auto-gm-partner-with-nvidia-ai-technology-drive-agx-omniverse/742977/
-- date: '2026-05-25'
+- date: ''
   title: General Motors and NVIDIA Collaborate on AI for Next- ...
   url: https://investor.nvidia.com/news/press-release-details/2025/General-Motors-and-NVIDIA-Collaborate-on-AI-for-Next-Generation-Vehicle-Experience-and-Manufacturing/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Using AI to advance manufacturing at General Motors
   url: https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/mar/0311-ai.html
 random_paper: 3
@@ -178,7 +178,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

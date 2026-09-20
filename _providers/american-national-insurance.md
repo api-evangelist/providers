@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 13
 common:
@@ -119,19 +119,19 @@ overview: 'American National Insurance is profiled on the [APIs.io](https://apis
 
   American National Insurance''s developer surface includes support, engineering blog, and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: American National Insurance Company (ANICO) Data ...
   url: https://hackread.com/american-national-insurance-company-anico-moveit-breach/
-- date: '2026-05-25'
+- date: ''
   title: American National Insurance Company has been named ...
   url: https://www.facebook.com/AmericanNationalInsuranceCompany/posts/american-national-insurance-company-has-been-named-one-of-forbes-americas-best-i/1249475107202369/
-- date: '2026-05-25'
+- date: ''
   title: CAPE Analytics Announces Strategic Collaboration with ...
   url: https://www.webwire.com/ViewPressRel.asp?aId=300821
-- date: '2026-05-25'
+- date: ''
   title: American National Insurance Company
   url: https://www.reinsurancene.ws/tag/american-national-insurance-company/
-- date: '2026-05-25'
+- date: ''
   title: American National Insurance Company Experiences Data ...
   url: https://www.jdsupra.com/legalnews/american-national-insurance-company-3470457/
 random_paper: 16
@@ -166,7 +166,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

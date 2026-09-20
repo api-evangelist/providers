@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -715,19 +715,19 @@ plans:
   plan_count: 3
   slug: ibm-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: IBM Newsroom
   url: https://newsroom.ibm.com/
-- date: '2026-05-25'
+- date: ''
   title: IBM - Announcements
   url: https://newsroom.ibm.com/announcements
-- date: '2026-05-25'
+- date: ''
   title: IBM Consulting Expands AI Capabilities to Accelerate ...
   url: https://www.prnewswire.com/news-releases/ibm-consulting-expands-ai-capabilities-to-accelerate-enterprise-transformation-302763432.html
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence news
   url: https://newsroom.ibm.com/latest-news-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence press releases
   url: https://newsroom.ibm.com/press-releases-artificial-intelligence
 random_paper: 4
@@ -780,7 +780,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

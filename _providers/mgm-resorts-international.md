@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: MGM Resorts International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Hospitality, Entertainment, Hotels, and Casinos.
 press:
-- date: '2026-05-25'
+- date: ''
   title: MGM China Holdings Limited - MEDIA RELEASES
   url: https://en.mgmchinaholdings.com/media-releases?item=752
-- date: '2026-05-25'
+- date: ''
   title: MGM Resorts appears to be replacing human resources ...
   url: https://www.facebook.com/LasVegasLocally/posts/mgm-resorts-appears-to-be-replacing-human-resources-employees-with-artificial-in/749496277402162/
-- date: '2026-05-25'
+- date: ''
   title: Cisco and MGM Resorts International Sign Multi-Year ...
   url: https://www.prnewswire.com/news-releases/cisco-and-mgm-resorts-international-sign-multi-year-agreement-302308801.html
-- date: '2026-05-25'
+- date: ''
   title: 'MGM Resorts cyberattack: Experts weigh in on possible ...'
   url: https://www.hoteldive.com/news/mgm-resorts-cyberattack-experts-weigh-in/693460/
-- date: '2026-05-25'
+- date: ''
   title: Privacy Policy
   url: https://www.mgmresorts.com/policies/privacy-policy.html
 random_paper: 1
@@ -99,7 +99,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

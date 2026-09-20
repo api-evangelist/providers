@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 14
 apis:
 - description: The authorization endpoints provide a token that will allow your service or application to call Kroger APIs.
@@ -229,19 +229,19 @@ plans:
   plan_count: 2
   slug: kroger-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Kroger CIO Discusses Digital Innovation Trends for ...
   url: https://ir.kroger.com/news/news-details/2024/Kroger-CIO-Discusses-Digital-Innovation-Trends-for-Grocery-Retail-in-2024/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Kroger Scales Generative AI Strategy with Google Cloud to ...
   url: https://www.prnewswire.com/news-releases/kroger-scales-generative-ai-strategy-with-google-cloud-to-drive-digital-growth-and-personalization-302657659.html
-- date: '2026-05-25'
+- date: ''
   title: Kroger links with AI retail analytics firm to boost ...
   url: https://www.grocerydive.com/news/kroger-partners-ai-retail-analytics-firm-intelligence-node/707091/
-- date: '2026-05-25'
+- date: ''
   title: Kroger Scales Generative AI Strategy with Google Cloud to ...
   url: https://ir.kroger.com/news/news-details/2026/Kroger-Scales-Generative-AI-Strategy-with-Google-Cloud-to-Drive-Digital-Growth-and-Personalization/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Kroger and Instacart Announce Expanded Relationship ...
   url: https://ir.kroger.com/news/news-details/2025/Kroger-and-Instacart-Announce-Expanded-Relationship-Investing-in-AI-to-Simplify-Customer-Experience-Improve-Efficiency/default.aspx
 random_paper: 12
@@ -277,7 +277,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

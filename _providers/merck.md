@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Merck is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Healthcare, and Pharmaceuticals.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Merck Expands Innovative Internal Generative AI Solutions ...
   url: https://www.merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.merckgroup.com/en/news.html
-- date: '2026-05-25'
+- date: ''
   title: Merck and Mayo Clinic launch AI-driven precision ...
   url: https://www.2minutemedicine.com/merck-and-mayo-clinic-launch-ai-driven-precision-medicine-lab/
-- date: '2026-05-25'
+- date: ''
   title: Merck and Google Cloud Partner to Accelerate Agentic AI ...
   url: https://www.merck.com/news/merck-and-google-cloud-partner-to-accelerate-agentic-ai-enterprise-transformation/
-- date: '2026-05-25'
+- date: ''
   title: News releases
   url: https://www.merck.com/media/news/
 random_paper: 2
@@ -105,7 +105,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

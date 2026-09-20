@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: documented
     mcp_server: verified
     openapi_examples: partial
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 55.2
-  scored_at: '2026-09-18'
+  score: 58.8
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -333,7 +333,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

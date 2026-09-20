@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -153,21 +153,21 @@ plans:
   plan_count: 3
   slug: arthur-j-gallagher-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Arthur J Gallagher''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/arthur-j-gallagher-ai-strategy-analysis-of-dominance-in-insurance-ai/
-- date: '2026-05-25'
+- date: ''
   title: 'Gallagher AI survey: 82% of respondents report positive ...'
   url: https://investor.ajg.com/news/news-details/2026/Gallagher-AI-survey-82-of-respondents-report-positive-impacts-though-data-protection-errors-remain-top-challenges/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Arthur J Gallagher earnings on deck as AI worries meet ...
   url: https://www.investing.com/news/earnings/arthur-j-gallagher-earnings-on-deck-as-ai-worries-meet-revenue-growth-93CH-4650464
-- date: '2026-05-25'
-  title: Gallagher launches Blueprint AI risk scoring framework
-  url: https://www.stocktitan.net/news/AJG/gallagher-launches-gallagher-blueprint-pairing-ai-and-expert-insight-rikhjs4fhwpo.html
 - date: ''
   title: Two-thirds of organizations invest in AI training as adoption ...
   url: https://www.prnewswire.com/news-releases/two-thirds-of-organizations-invest-in-ai-training-as-adoption-accelerates
+- date: ''
+  title: Gallagher launches Blueprint AI risk scoring framework
+  url: https://www.stocktitan.net/news/AJG/gallagher-launches-gallagher-blueprint-pairing-ai-and-expert-insight-rikhjs4fhwpo.html
 random_paper: 11
 rate_limits:
 - limit_count: 5
@@ -206,7 +206,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

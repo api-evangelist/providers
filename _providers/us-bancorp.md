@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -236,19 +236,19 @@ plans:
   plan_count: 1
   slug: us-bancorp-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: U.S. Bank Expands Collaboration with AWS to Accelerate ...
   url: https://press.aboutamazon.com/aws/2026/5/u-s-bank-expands-collaboration-with-aws-to-accelerate-progressive-technology-transformation-and-ai-driven-customer-experience-innovation
-- date: '2026-05-25'
+- date: ''
   title: 'US Bancorp''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/us-bancorp-ai-strategy-analysis-of-dominance-in-banking-financial-services-ai/
-- date: '2026-05-25'
+- date: ''
   title: U.S. Bancorp Announces Leadership Changes in Its ...
   url: https://finance.yahoo.com/news/u-bancorp-announces-leadership-changes-200000201.html
-- date: '2026-05-25'
+- date: ''
   title: U.S. Bank Partners With Microsoft to Accelerate the Future of ...
   url: https://ir.usbank.com/news-events/news/news-details/2022/U.S.-Bank-Partners-With-Microsoft-to-Accelerate-the-Future-of-Banking-With-Cloud-Computing-02-22-2022/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: U.S. Bancorp Annual Report 2025
   url: https://s203.q4cdn.com/711684571/files/doc_financials/2025/ar/2025-Annual-Report_ADA_F.pdf
 random_paper: 6
@@ -316,7 +316,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

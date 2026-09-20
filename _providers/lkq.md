@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,19 +86,19 @@ overview: 'LKQ Corporation is profiled on the [APIs.io](https://apis.io/) networ
 
   LKQ Corporation''s developer surface includes product news, engineering blog, and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: LKQ LKQ Corporation Earnings Call Transcripts
   url: https://seekingalpha.com/symbol/LKQ/earnings/transcripts
-- date: '2026-05-25'
+- date: ''
   title: Tractable announces AI photo appraisal partnerships
   url: https://insurancenewsnet.com/oarticle/tractable-announces-ai-photo-appraisal-partnerships
-- date: '2026-05-25'
+- date: ''
   title: LKQ partners with Tractable to accelerate auto parts ...
   url: https://iot-now.com/2021/06/30/78999-lkq-partners-with-tractable-to-accelerate-auto-parts-recycling-and-distribution-with-ai/
-- date: '2026-05-25'
+- date: ''
   title: LKQ North America Partners with Tractable to Accelerate ...
   url: https://www.prnewswire.com/news-releases/lkq-north-america-partners-with-tractable-to-accelerate-auto-parts-recycling-and-distribution-with-artificial-intelligence-301321545.html
-- date: '2026-05-25'
+- date: ''
   title: Infosys
   url: https://www.facebook.com/Infosys/posts/infosys-announced-a-5-year-collaboration-with-lkq-europe-as-a-strategic-partner-/755228826639312/
 random_paper: 20
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

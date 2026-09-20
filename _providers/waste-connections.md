@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The Waste Connections MyAccount customer portal provides online access to account management, service scheduling, pickup notifications, billing, and payment services for residential and commercial cus
@@ -101,19 +101,19 @@ plans:
   plan_count: 1
   slug: waste-connections-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: WASTE CONNECTIONS REPORTS SECOND QUARTER ...
   url: https://www.newswire.ca/news-releases/waste-connections-reports-second-quarter-2025-results-and-updates-full-year-outlook-842198739.html
-- date: '2026-05-25'
+- date: ''
   title: Waste Connections 2025 Annual Report
   url: https://s21.q4cdn.com/540990023/files/doc_financials/2025/ar/index.html
-- date: '2026-05-25'
+- date: ''
   title: Waste Connections Q4 Earnings
   url: https://www.waste360.com/industry-insights/waste-connections-q4-earnings-highlight-pricing-strength-acquisition-growth-and-expanded-ai-strategy
-- date: '2026-05-25'
+- date: ''
   title: Waste Connections previews AI, RNG investments for 2026
   url: https://www.wastedive.com/news/waste-connections-q4-earnings-2025-rng-artifical-intelligence/812095/
-- date: '2026-05-25'
+- date: ''
   title: AMP to Operate Waste Connections Recycling Facility ...
   url: https://ampsortation.com/articles/first-of-its-kind-facility-featuring-fully-integra
 random_paper: 20
@@ -141,7 +141,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

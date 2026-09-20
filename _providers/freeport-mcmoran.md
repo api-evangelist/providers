@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,19 +60,19 @@ nav: Providers
 network: true
 overview: Freeport-McMoRan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Copper, Fortune 500, Gold, Mining, and Molybdenum.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Freeport Named Among Top Companies Generating ...
   url: https://www.fcx.com/freeport-features/10162025
-- date: '2026-05-25'
+- date: ''
   title: 'FCX Press Release: AI Is Transforming Mining as Global AI In ...'
   url: https://marketchameleon.com/PressReleases/i/2223374/FCX/ai-is-transforming-mining-as-global-ai
-- date: '2026-05-25'
+- date: ''
   title: Freeport-McMoRan Uses AI to Transform Mining Operations
   url: https://aimagazine.com/news/freeport-mcmoran-uses-ai-to-transform-mining-operations
-- date: '2026-05-25'
+- date: ''
   title: 'Freeport-McMoRan''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/freeport-mcmoran-ai-strategy-analysis-of-dominance-in-mining-ai/
-- date: '2026-05-25'
+- date: ''
   title: AI Mining Production Case Study | Tech and AI
   url: https://www.mckinsey.com/capabilities/tech-and-ai/how-we-help-clients/rewired-in-action/freeport-mcmoran-unlocking-new-mining-production-through-ai-transformation
 random_paper: 15
@@ -96,7 +96,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

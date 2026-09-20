@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 19
 common:
@@ -168,19 +168,19 @@ overview: 'Alcoa is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
   Alcoa''s developer surface includes engineering blog and 17 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Aluminium maker Alcoa seeks to sell 10 sites to data centres
   url: https://www.reuters.com/business/energy/aluminium-maker-alcoa-seeks-sell-10-sites-data-centres-2026-02-24/
-- date: '2026-05-25'
+- date: ''
   title: Alcoa
   url: https://www.fairmarkit.com/case-studies/alcoa
-- date: '2026-05-25'
+- date: ''
   title: Alcoa Intermediate School Students win AI award, set ...
   url: https://www.wbir.com/article/news/local/maryville-blount/alcoa-intermediate-school-students-win-ai-award/51-f7786fcb-5511-4f4e-a17a-21f4616646ce
-- date: '2026-05-25'
+- date: ''
   title: Alcoa CEO Bill Oplinger joined CNBC in an exclusive ...
   url: https://www.facebook.com/alcoa/posts/alcoa-ceo-bill-oplinger-joined-cnbc-in-an-exclusive-interview-ahead-of-the-compa/1463003409197778/
-- date: '2026-05-25'
+- date: ''
   title: Alcoa Stock Jumps. How Its CEO Plans to Cash in on the AI ...
   url: https://www.barrons.com/articles/alcoa-stock-price-ai-electricity-ceo-875a9f7a
 random_paper: 6
@@ -206,7 +206,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

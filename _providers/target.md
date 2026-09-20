@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -294,19 +294,19 @@ plans:
   plan_count: 1
   slug: target-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Target to Roll Out Transformative GenAI Technology to its ...
   url: https://corporate.target.com/press/release/2024/06/target-to-roll-out-transformative-genai-technology-to-its-store-team-members-chainwide
-- date: '2026-05-25'
+- date: ''
   title: A Partnership to Develop Generative AI Applications Helps ...
   url: https://www.bain.com/client-results/ai/target/
-- date: '2026-05-25'
+- date: ''
   title: A look at Target's approach to generative AI
   url: https://www.retaildive.com/news/target-generative-artificial-intelligence-technology-forecasting-marketplace/802801/
-- date: '2026-05-25'
+- date: ''
   title: Target Launches New AI-Powered Features to Make ...
   url: https://www.prnewswire.com/news-releases/target-launches-new-ai-powered-features-to-make-holiday-shopping-easier-smarter-and-more-fun-302612422.html
-- date: '2026-05-25'
+- date: ''
   title: Target's Using Artificial Intelligence to Make Your Shopping ...
   url: https://corporate.target.com/news-features/article/2023/12/artificial-intelligence
 random_paper: 9
@@ -370,7 +370,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

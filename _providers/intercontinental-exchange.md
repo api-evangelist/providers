@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -209,19 +209,19 @@ plans:
   plan_count: 1
   slug: intercontinental-exchange-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Intercontinental Exchange''s AI Strategy: Analysis of ...'
   url: https://www.klover.ai/intercontinental-exchange-ai-strategy-analysis-of-dominance-in-global-financial-exchanges-clearinghouses/
-- date: '2026-05-25'
+- date: ''
   title: How Intercontinental Exchange is Taking AI from ...
   url: https://www.nvidia.com/en-us/on-demand/session/gtc25-s72463/
-- date: '2026-05-25'
+- date: ''
   title: Insights on AI and Data Management from Intercontinental ...
   url: https://www.linkedin.com/posts/allysonklein_insights-on-ai-and-data-management-from-intercontinental-activity-7328551226986377217-DQnR
-- date: '2026-05-25'
+- date: ''
   title: ICE Collaborates with Space Intelligence to Launch ICE's ...
   url: https://ir.theice.com/press/news-details/2024/ICE-Collaborates-with-Space-Intelligence-to-Launch-ICEs-Commodity-Traceability-Service/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: National Housing Conference and ICE host industry ...
   url: https://nhc.org/press-release/national-housing-conference-and-ice-host-industry-leaders-and-experts-to-explore-technologys-transformative-impact-on-housing-finance/
 random_paper: 13
@@ -269,7 +269,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

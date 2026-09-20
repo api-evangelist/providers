@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: documented
     mcp_server: verified
     openapi_examples: verified
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 59.5
-  scored_at: '2026-09-18'
+  score: 63.1
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -406,7 +406,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -229,19 +229,19 @@ plans:
   plan_count: 3
   slug: windstream-holdings-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Windstream Enterprise and Talkdesk Partner to Deliver AI- ...
   url: https://news.windstream.com/news/news-details/2023/Windstream-Enterprise-and-Talkdesk-Partner-to-Deliver-AI-Powered-CCaaS-Solution/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Windstream Enterprise Launches Talkdesk Express for ...
   url: https://www.businesswire.com/news/home/20241118364771/en/Windstream-Enterprise-Launches-Talkdesk-Express-for-Small-and-Midsized-Businesses
-- date: '2026-05-25'
+- date: ''
   title: F-Secure, Windstream, and Actiontec win broadband marketing ...
   url: https://www.pressreleasepoint.com/f-secure-windstream-and-actiontec-win-broadband-marketing-award-connected-home-security-offering?lang=es
-- date: '2026-05-25'
+- date: ''
   title: Uniti Group completes the merger with Windstream Holdings II ...
   url: https://news.mergerlinks.com/daily-review/uniti-group-completes-the-merger-with-windstream-holdings-ii-in-a-$-13-4bn-deal
-- date: '2026-05-25'
+- date: ''
   title: Windstream Enterprise and Amazon Web Services ...
   url: https://news.windstream.com/news/news-details/2023/Windstream-Enterprise-and-Amazon-Web-Services-Advance-the-Virtual-Meeting-Experience-for-Businesses/default.aspx
 random_paper: 7
@@ -304,7 +304,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

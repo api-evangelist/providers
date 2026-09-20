@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,19 +66,19 @@ nav: Providers
 network: true
 overview: General Mills is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Goods, CPG, Food Products, Cereal, and Baking.
 press:
-- date: '2026-05-25'
+- date: ''
   title: How General Mills found business value in generative AI
   url: https://www.ciodive.com/news/general-mills-jaime-montemayor-millschat/731896/
-- date: '2026-05-25'
+- date: ''
   title: General Mills ramps up misinformation fight as generative ...
   url: https://www.marketingdive.com/news/general-mills-misinformation-generative-ai-concerns/647579/
-- date: '2026-05-25'
+- date: ''
   title: General Mills is 'innovating how we innovate' with AI
   url: https://finance.yahoo.com/news/general-mills-innovating-innovate-ai-112600357.html
-- date: '2026-05-25'
+- date: ''
   title: How General Mills saves millions with AI | James Newman ...
   url: https://www.linkedin.com/posts/james-newmanjr_general-mills-says-ai-has-generated-millions-activity-7303093191895867394-AdKV
-- date: '2026-05-25'
+- date: ''
   title: General Mills is 'innovating how we innovate' with AI
   url: https://www.fooddive.com/news/general-mills-product-innovation-ai/812457/
 random_paper: 4
@@ -102,7 +102,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'DuPont is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   DuPont''s developer surface includes product news and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: DuPont Showcases AI Innovations Featuring Advanced ...
   url: https://www.qnityelectronics.com/news/DuPont-Showcases-AI-Innovations-Featuring-Advanced-Interconnects-at-2024-International-Electronic-Circuits-Exhibition.html
-- date: '2026-05-25'
+- date: ''
   title: DuPont News and Press Releases
   url: https://www.prnewswire.com/news/dupont/
-- date: '2026-05-25'
+- date: ''
   title: DuPont Powers AI and Next-Gen Electronics with ...
   url: https://www.dupont.com/news/dupont-powers-ai-and-next-gen-electronics-with-advanced-interconnect-innovations-at-jcpa-show-2025.html
-- date: '2026-05-25'
+- date: ''
   title: DuPont Launches AI-Enabled Digital Advisor to Help ...
   url: https://www.dupont.com/news/dupont-launches-ai-enabled-digital-advisor-to-help-customers-optimize-the-operations-of-reverse-osmosis-water-treatment-systems.html
-- date: '2026-05-25'
+- date: ''
   title: DuPont Collaborates with Uncountable to Advance AI ...
   url: https://www.prnewswire.com/news-releases/dupont-collaborates-with-uncountable-to-advance-ai-ready-labs-strategy-302758823.html
 random_paper: 6
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

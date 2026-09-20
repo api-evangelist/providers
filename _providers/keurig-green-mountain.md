@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Keurig Green Mountain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Coffee, Consumer Goods, Historical, and Single-Serve.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Keurig Green Mountain's First Addressable TV Campaign ...
   url: https://www.mediapost.com/publications/article/272721/keurig-green-mountains-first-addressable-tv-campa.html
-- date: '2026-05-25'
+- date: ''
   title: 'KDP Q1 Earnings: CEO Tim Cofer''s Thoughts | Keurig Dr ...'
   url: https://www.linkedin.com/posts/keurig-dr-pepper-inc_today-kdp-reported-its-q1-earnings-our-activity-7453066683432271872-9ATS
-- date: '2026-05-25'
+- date: ''
   title: JAB-led investor group to buy K-Cup maker Keurig for ...
   url: https://www.reuters.com/article/world/jab-led-investor-group-to-buy-k-cup-maker-keurig-for-139-billion-idUSKBN0TQ2DS/
-- date: '2026-05-25'
+- date: ''
   title: Keurig Green Mountain (KGM) created a ...
   url: https://www.facebook.com/HarvardBusinessSchool/posts/keurig-green-mountain-kgm-created-a-new-category-of-consumer-products-becoming-a/1256878602458697/
-- date: '2026-05-25'
+- date: ''
   title: Keurig Dr Pepper Launches New Corporate Responsibility ...
   url: https://www.prnewswire.com/news-releases/keurig-dr-pepper-launches-new-corporate-responsibility-strategy-and-commitments-300860122.html
 random_paper: 7
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

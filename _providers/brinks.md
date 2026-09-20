@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The 24SEVEN ACCESS customer portal enables businesses to digitally manage Brink's cash management services including tracking cash deposits, ordering change, and monitoring operations through mobile d
@@ -142,19 +142,19 @@ plans:
   plan_count: 2
   slug: brinks-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Brink's Company to Acquire NCR Atleos for $6.6 Billion
   url: https://www.kslaw.com/news-and-insights/the-brinks-company-to-acquire-ncr-atleos-for-66-billion
-- date: '2026-05-25'
+- date: ''
   title: Net Income / Adjusted EBITDA(a)
   url: https://www.sec.gov/Archives/edgar/data/78890/000007889026000008/ex991q42025.htm
-- date: '2026-05-25'
+- date: ''
   title: Brink's Q1 2026 revenue rises 10% on AMS/DRS - BCO
   url: https://www.stocktitan.net/sec-filings/BCO/8-k-brinks-co-reports-material-event-a8b2a30453c6.html
-- date: '2026-05-25'
+- date: ''
   title: 'Key Lessons from NRF 2025: Cash Solutions for Resilient ...'
   url: https://us.brinks.com/-/key-lessons-from-nrf-2025
-- date: '2026-05-25'
+- date: ''
   title: Brink's Delivers Strong Second-Quarter Results Exceeding ...
   url: https://investors.brinks.com/news-releases/news-release-details/brinks-delivers-strong-second-quarter-results-exceeding-top-end/
 random_paper: 11
@@ -182,7 +182,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

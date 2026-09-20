@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,19 +98,19 @@ overview: 'Cooper Standard Holdings is profiled on the [APIs.io](https://apis.io
 
   Cooper Standard Holdings'' developer surface includes product news and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: CS News
   url: https://ir.cooperstandard.com/press-releases?o=200
-- date: '2026-05-25'
+- date: ''
   title: Cooper Standard appoints Venkat as SVP and chief IT and ...
   url: https://www.investing.com/news/company-news/cooper-standard-appoints-venkat-as-svp-and-chief-it-and-ai-officer-93CH-4245777
-- date: '2026-05-25'
+- date: ''
   title: Cooper Standard Elevates Venkat to Senior Vice President ...
   url: https://www.prnewswire.com/news-releases/cooper-standard-elevates-venkat-to-senior-vice-president-chief-information-technology-and-ai-officer-302560998.html
-- date: '2026-05-25'
+- date: ''
   title: CS News
   url: https://ir.cooperstandard.com/press-releases?l=5&o=220
-- date: '2026-05-25'
+- date: ''
   title: Cooper-Standard Holdings Stock Price, News & Analysis
   url: https://www.stocktitan.net/overview/CPS/
 random_paper: 1
@@ -139,7 +139,7 @@ score:
     - north-america
   previous_composite: 7.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

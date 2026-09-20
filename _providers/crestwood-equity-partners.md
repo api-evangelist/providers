@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: Crestwood Equity Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Crude Oil, Energy, Energy Transfer, and Gathering.
 press:
-- date: '2026-05-25'
+- date: ''
   title: First Reserve Exits Investment in Crestwood Equity ...
   url: https://www.stblaw.com/about-us/news/view/2021/03/29/first-reserve-exits-investment-in-crestwood-equity-partners-in-series-of-transactions
-- date: '2026-05-25'
+- date: ''
   title: Nic O'Brien | People
   url: https://www.bakerbotts.com/people/o/obrien-nic
-- date: '2026-05-25'
+- date: ''
   title: 'MLP M&A Continues: ET to Acquire CEQP'
   url: https://www.etftrends.com/energy-infrastructure-channel/mlp-ma-continues-et-to-acquire-ceqp/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1136352/000119312523115385/d472506d8k.htm
-- date: '2026-05-25'
+- date: ''
   title: Crestwood Equity Expands Footprint in Bakken, Powder ...
   url: https://www.industrialinfo.com/news/article/crestwood-equity-expands-footprint-in-bakken-powder-river-basin--275780
 random_paper: 10
@@ -121,7 +121,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

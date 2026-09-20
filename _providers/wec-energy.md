@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 4
 apis:
 - description: Web and mobile API powering the WEC Energy Group customer self-service portal. Enables customers to view account information, pay bills, manage alerts, view energy usage history, and report outages. A
@@ -152,19 +152,19 @@ plans:
   plan_count: 1
   slug: wec-energy-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: WEC Energy Group posts 2025 results
   url: https://www.prnewswire.com/news-releases/wec-energy-group-posts-2025-results-302679311.html
-- date: '2026-05-25'
+- date: ''
   title: Exhibit 99.1
   url: https://www.sec.gov/Archives/edgar/data/783325/000078332526000049/a2026q1wecearningsreleasee.htm
-- date: '2026-05-25'
+- date: ''
   title: Planned Data Centers Drive Up WEC Proposed Capex
   url: https://www.industrialinfo.com/news/article/planned-data-centers-drive-up-wec-proposed-capex-again--353394
-- date: '2026-05-25'
+- date: ''
   title: WEC Energy Group outlines $37.5B growth plan
   url: https://www.stocktitan.net/sec-filings/WEC/8-k-wec-energy-group-inc-reports-material-event-7785f9bfac06.html
-- date: '2026-05-25'
+- date: ''
   title: WEC Energy Group announces plan to increase dividend by ...
   url: https://investor.wecenergygroup.com/investors/news-releases/press-release-details/2025/WEC-Energy-Group-announces-plan-to-increase-dividend-by-6-7-percent/default.aspx
 random_paper: 2
@@ -209,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

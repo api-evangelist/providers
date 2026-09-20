@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Quintiles Transnational Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Clinical Research, Healthcare, and Life Sciences.
 press:
-- date: '2026-05-25'
+- date: ''
   title: MannKind Expands Executive Leadership Team
   url: https://investors.mannkindcorp.com/news-releases/news-release-details/mannkind-expands-executive-leadership-team
-- date: '2026-05-25'
+- date: ''
   title: Quintiles Announces Closing of Secondary Public Offering and ...
   url: https://www.fiercebiotech.com/cro/quintiles-announces-closing-of-secondary-public-offering-and-repurchase-of-common-stock
-- date: '2026-05-25'
+- date: ''
   title: 'Quintiles Transnational Holdings Inc. vs Processa : Stock ...'
   url: https://danelfin.com/stocks/Q-quintiles-transnational-holdings-inc-vs-PCSA-processa-compare
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1478242/000147824223000044/iqv-20221231.htm
-- date: '2026-05-25'
+- date: ''
   title: NC-QUINTILES-NCTA | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/5955995/nc-quintiles-ncta?publisherId=90456
 random_paper: 20
@@ -113,7 +113,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Peabody Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Coal, Mining, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 2025 - Sustainability Report
   url: https://www.peabodyenergy.com/peabody/media/mediaLibrary/2025_peabody_sustainability_report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Peabody - Message from the CEO
   url: https://www.peabodyenergy.com/Sustainability/Approach/Message-from-the-CEO
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for Peabody Energy Corp filed 02/23/2024
   url: https://www.peabodyenergy.com/Peabody/media/MediaLibrary/Investor%20Info/10K-Year-Ended-12-31-2023.pdf?ext=.pdf
-- date: '2026-05-25'
+- date: ''
   title: Peabody Signs Multi-Year Contract to Provide Coal ...
   url: https://www.prnewswire.com/news-releases/peabody-signs-multi-year-contract-to-provide-coal-to-midwestern-generating-stations-302428068.html
-- date: '2026-05-25'
+- date: ''
   title: 'US electricity demand to boost coal by 57%: Peabody Energy'
   url: https://www.linkedin.com/posts/vuslat-bayoglu_swelling-us-demand-for-electricity-has-the-activity-7369569133400711169-hIac
 random_paper: 5
@@ -101,7 +101,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

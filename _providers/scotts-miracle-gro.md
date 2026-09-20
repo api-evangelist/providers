@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,19 +90,19 @@ overview: 'The Scotts Miracle-Gro Company is profiled on the [APIs.io](https://a
 
   The Scotts Miracle-Gro Company''s developer surface includes support and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Scotts Miracle-Gro taps machine learning to solve ...
   url: https://www.supplychaindive.com/news/scotts-miracle-gro-ai-machine-learning-inventory-management/803934/
-- date: '2026-05-25'
+- date: ''
   title: ScottsMiracle-Gro Expands Controls Category with ...
   url: https://www.prnewswire.com/news-releases/scottsmiracle-gro-expands-controls-category-with-purchase-of-tomcat-consumer-business-227651131.html
-- date: '2026-05-25'
+- date: ''
   title: Scotts Miracle-Gro Halves Inventory with AI ...
   url: https://www.financialcontent.com/article/tokenring-2025-10-28-scotts-miracle-gro-halves-inventory-with-ai-revolutionizing-supply-chain-efficiency
-- date: '2026-05-25'
+- date: ''
   title: How Scotts Miracle-Gro evolves marketing as gardening ...
   url: https://www.marketingdive.com/news/how-scotts-miracle-gro-evolves-marketing-as-gardening-goes-year-round/815488/
-- date: '2026-05-25'
+- date: ''
   title: The Scotts Miracle-Gro Company Case Study
   url: https://cloud.google.com/customers/scotts-gcp
 random_paper: 19
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

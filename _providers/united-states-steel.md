@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -254,19 +254,19 @@ plans:
   plan_count: 3
   slug: united-states-steel-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.googlecloudpresscorner.com/press-releases?o=420
-- date: '2026-05-25'
+- date: ''
   title: United States Steel Corporation Announces Strategic ...
   url: https://www.businesswire.com/news/home/20220125006271/en/United-States-Steel-Corporation-Announces-Strategic-Investment-in-Carnegie-Foundry-to-Accelerate-Advanced-Robotics-and-Autonomy-Capabilities
-- date: '2026-05-25'
+- date: ''
   title: United States Steel Corp. on Thursday announced a ...
   url: https://www.facebook.com/PghBizTimes/posts/united-states-steel-corp-on-thursday-announced-a-partnership-with-google-cloud-o/729888315817216/
-- date: '2026-05-25'
+- date: ''
   title: Media - Newsroom - www.ussteel.com
   url: https://www.ussteel.com/es/media/newsroom?p_p_id=com_liferay_blogs_web_portlet_BlogsPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_r_p_resetCur=false&p_r_p_categoryId=3963456&_com_liferay_blogs_web_portlet_BlogsPortlet_delta=20&_com_liferay_blogs_web_portlet_BlogsPortlet_cur=2
-- date: '2026-05-25'
+- date: ''
   title: U. S. Steel Aims to Improve Operational Efficiencies and ...
   url: https://www.ussteel.com/prereleases/-/blogs/u-s-steel-aims-to-improve-operational-efficiencies-and-employee-experiences-with-google-cloud-s-generative-ai
 random_paper: 4
@@ -334,7 +334,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

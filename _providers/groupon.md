@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: 'Groupon''s own public API gateway. Live and Groupon-operated (responses carry x-brand: groupon and Envoy/GCP upstream headers), but gated: every path, including /v2/deals.json, /graphql and /.well-know'
@@ -178,19 +178,19 @@ plans:
   plan_count: 0
   slug: groupon-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Groupon adds Amit Shah, forms board AI committee
   url: https://www.stocktitan.net/news/GRPN/groupon-launches-board-level-artificial-intelligence-committee-and-k5ofroarr4yj.html
-- date: '2026-05-25'
+- date: ''
   title: META_TITLE_QUOTE
   url: https://finance.yahoo.com/quote/GRPN/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: Groupon, Inc. - Home
   url: https://investor.groupon.com/home/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Press Release Details
   url: https://investor.groupon.com/press-releases/press-release-details/2026/Groupon-Launches-Board-Level-Artificial-Intelligence-Committee-and-Appoints-Amit-Shah-to-Board-of-Directors/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Groupon, Inc. - Press Releases
   url: https://investor.groupon.com/press-releases/default.aspx
 random_paper: 8
@@ -221,7 +221,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

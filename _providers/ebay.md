@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -2101,19 +2101,19 @@ plans:
   plan_count: 7
   slug: ebay-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: eBay Hires Jan Pedersen as Chief Scientist, Artificial ...
   url: https://www.prnewswire.com/news-releases/ebay-hires-jan-pedersen-as-chief-scientist-artificial-intelligence-300597618.html
-- date: '2026-05-25'
+- date: ''
   title: EBay rolls out conversational AI shopping agent
   url: https://www.customerexperiencedive.com/news/ebay-rolls-out-conversational-ai-shopping-agent/747298/
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence is **leading a resurgence** for eBay's ...
   url: https://www.facebook.com/ABC12WJRT/posts/artificial-intelligence-is-leading-a-resurgence-for-ebays-business/1259964542829855/
-- date: '2026-05-25'
+- date: ''
   title: Innovation Stories - eBay Inc.
   url: https://innovation.ebayinc.com/stories/
-- date: '2026-05-25'
+- date: ''
   title: Inside eBay's Quest to Become an AI Leader
   url: https://www.wsj.com/articles/inside-ebays-quest-to-become-an-ai-leader-32e7fa45
 random_paper: 21
@@ -2164,7 +2164,7 @@ score:
       marker_coverage: 0.0
       total: 71
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

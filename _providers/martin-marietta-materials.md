@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -81,19 +81,19 @@ overview: 'Martin Marietta Materials is profiled on the [APIs.io](https://apis.i
 
   Martin Marietta Materials'' developer surface includes engineering blog and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: martin marietta reports third-quarter 2024 results
   url: https://www.sec.gov/Archives/edgar/data/916076/000095017024118583/mlm-ex99_1.htm
-- date: '2026-05-25'
+- date: ''
   title: Martin Marietta second-quarter profit rises on infrastructure ...
   url: https://finance.yahoo.com/news/martin-marietta-second-quarter-profit-125216472.html
-- date: '2026-05-25'
+- date: ''
   title: Anthony Foxx | Board of Directors
   url: https://ir.martinmarietta.com/board-directors/anthony-foxx
-- date: '2026-05-25'
+- date: ''
   title: MARTIN MARIETTA MATERIALS INC Earnings Call ...
   url: https://www.stockinsights.ai/us/MLM/earnings-transcript/fy25-q2-7b51
-- date: '2026-05-25'
+- date: ''
   title: Martin Marietta reaffirms 2026 adjusted EBITDA guidance ...
   url: https://seekingalpha.com/news/4583528-martin-marietta-reaffirms-2026-adjusted-ebitda-guidance-of-2_43b-midpoint-as-quikrete
 random_paper: 6
@@ -123,7 +123,7 @@ score:
       reason: never_enriched
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

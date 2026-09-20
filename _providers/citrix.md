@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -595,19 +595,19 @@ plans:
   plan_count: 3
   slug: citrix-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Citrix Introduces NetScaler AI Gateway to Bring Enterprise ...
   url: https://www.businesswire.com/news/home/20260409250389/en/Citrix-Introduces-NetScaler-AI-Gateway-to-Bring-Enterprise-Governance-to-AI-Application-Delivery
-- date: '2026-05-25'
+- date: ''
   title: Top Citrix Systems Alternatives 2026 — Best Cloud Computing ...
   url: https://www.startuphub.ai/startups/citrix-systems/alternatives
-- date: '2026-05-25'
+- date: ''
   title: 'Work 2035: Citrix Research Reveals a More Intelligent Future'
   url: https://aithority.com/the-future/work-2035-citrix-research-reveals-a-more-intelligent-future/
-- date: '2026-05-25'
+- date: ''
   title: 'Citrix Workspace Secure Access: Latest News'
   url: https://thesiliconreview.com/citrix
-- date: '2026-05-25'
+- date: ''
   title: Citrix Systems Archives - Software Strategies Blog
   url: http://softwarestrategiesblog.com/tag/citrix-systems/
 random_paper: 21
@@ -664,7 +664,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

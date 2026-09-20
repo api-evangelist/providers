@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Axiall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Manufacturing, Building Products, Chlor-Alkali, and PVC.
 press:
-- date: '2026-05-25'
+- date: ''
   title: PPG and Georgia Gulf merger complete - Lake Charles
   url: https://www.kplctv.com/story/20718704/ppg-georgia-gulf-merger-nearly-complete/
-- date: '2026-05-25'
+- date: ''
   title: Axiall, Lotte Announce $3 Billion In Louisiana Chemical ...
   url: https://www.opportunitylouisiana.gov/news/axiall-lotte-announce-3-billion-in-louisiana-chemical-projects
-- date: '2026-05-25'
+- date: ''
   title: Axiall Corporation Adds Three Directors to Board | MarketScreener
   url: https://www.marketscreener.com/news/latest/Axiall-Corporation-Adds-Three-Directors-to-Board-15977336/
-- date: '2026-05-25'
+- date: ''
   title: 'Update: Chlorine leak at Proctor chemical plant investigated'
   url: https://www.wtap.com/content/news/Axiall-releases-statement-Chlorine-leak-sends-two-people-to-hospital--391494151.html
-- date: '2026-05-25'
+- date: ''
   title: Westlake Acquires Epoxy Business | News
   url: https://www.clearygottlieb.com/news-and-insights/news-listing/westlakes-acquisition-of-hexions-global-epoxy-business
 random_paper: 19
@@ -101,7 +101,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
@@ -115,9 +115,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 3.2
+  previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

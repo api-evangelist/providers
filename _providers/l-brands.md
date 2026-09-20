@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: L Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Specialty Retail, Fortune 500, Personal Care, and Apparel.
 press:
-- date: '2026-05-25'
+- date: ''
   title: How Victoria's Secret's Les Wexner Made $2 Billion In 3 ...
   url: https://www.facebook.com/forbes/posts/how-victorias-secrets-les-wexner-made-2-billion-in-3-months-from-ai-giant-corewe/1113293443993978/
-- date: '2026-05-25'
+- date: ''
   title: L Brands
   url: https://www.osler.com/en/about-us/representative-work/l-brands-en/
-- date: '2026-05-25'
+- date: ''
   title: Form DFAN14A for Victorias Secret Co filed 05/20/2026
   url: https://www.victoriassecretandco.com/static-files/89e58cf2-9ae0-48ce-8c1b-fa91d75fe2c6
-- date: '2026-05-25'
+- date: ''
   title: L Brands Announces Spin-Off Of Victoria's Secret
   url: https://www.pymnts.com/news/retail/2021/l-brands-announces-spin-off-of-victorias-secret/
-- date: '2026-05-25'
+- date: ''
   title: L Brands Will Spin Off Victoria's Secret
   url: https://www.nytimes.com/2021/05/11/business/dealbook/l-brands-victorias-secret.html
 random_paper: 17
@@ -106,7 +106,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

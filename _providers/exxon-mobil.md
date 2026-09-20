@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ overview: 'Exxon Mobil is profiled on the [APIs.io](https://apis.io/) network. T
 
   Exxon Mobil''s developer surface includes engineering blog and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Our People and AI: Making the magic happen'
   url: https://corporate.exxonmobil.com/locations/india/newsroom/2025/making-the-magic-happen
-- date: '2026-05-25'
+- date: ''
   title: Exxon Mobil to help AI data centers cut emissions with ...
   url: https://www.linkedin.com/posts/cnbc_exxon-in-advanced-talks-to-power-ai-data-activity-7390060061328433152-48qG
-- date: '2026-05-25'
+- date: ''
   title: Applying digital technologies to drive energy innovation
   url: https://corporate.exxonmobil.com/who-we-are/technology-and-collaborations/digital-technologies
-- date: '2026-05-25'
+- date: ''
   title: How ExxonMobil is using AI as a catalyst for innovation
   url: https://corporate.exxonmobil.com/locations/india/newsroom/2026/how-exxonmobil-is-using-ai-as-a-catalyst-for-innovation
-- date: '2026-05-25'
+- date: ''
   title: ExxonMobil + Intel | ExxonMobil Product Solutions
   url: https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids/intel
 random_paper: 16
@@ -124,7 +124,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

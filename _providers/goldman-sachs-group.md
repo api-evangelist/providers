@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -54,19 +54,19 @@ nav: Providers
 network: true
 overview: Goldman Sachs Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 100.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Will AI Eat Software?
   url: https://www.goldmansachs.com/pdfs/insights/goldman-sachs-research/will-ai-eat-software/report.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'Survey: Small Businesses Embrace AI — But Need ...'
   url: https://www.goldmansachs.com/pressroom/press-releases/2026/small-businesses-embrace-ai-but-need-training-and-support-to-fully-harness-it
-- date: '2026-05-25'
+- date: ''
   title: 'Goldman Sachs) #goldmansachs #ai #finance'
   url: https://www.facebook.com/techinsider/posts/goldman-sachs-has-been-deepening-its-investments-in-generative-artificial-intell/1050457776953698/
-- date: '2026-05-25'
+- date: ''
   title: 'Goldman''s AI Pivot: Reshaping Revenues, Operations & ...'
   url: https://www.theglobeandmail.com/investing/markets/stocks/C/pressreleases/1717785/goldmans-ai-pivot-reshaping-revenues-operations-long-term-growth/
-- date: '2026-05-25'
+- date: ''
   title: 'Scaling RIA Growth: The Goldman Sachs AI Playbook'
   url: https://www.etftrends.com/future-etfs-content-hub/scaling-ria-growth-goldman-sachs-ai-playbook/
 random_paper: 1
@@ -98,7 +98,7 @@ score:
       reason: never_enriched
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

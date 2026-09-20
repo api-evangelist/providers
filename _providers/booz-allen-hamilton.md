@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The HTTP and A2A surface of Booz Allen's Agent Foundry agent baseline, an Apache-2.0 composition root that teams fork and deploy in their own environment. It serves three REST groups — /api/v1/query (
@@ -230,19 +230,19 @@ plans:
   plan_count: 0
   slug: booz-allen-hamilton-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Booz Allen Hamilton Inc.
   url: https://newsroom.boozallen.com/press-releases?page=1
-- date: '2026-05-25'
+- date: ''
   title: INVESTOR NEWS | Booz Allen Hamilton
   url: https://investors.boozallen.com/press-releases
-- date: '2026-05-25'
+- date: ''
   title: Booz Allen Hamilton Holding (NYSE:BAH) Stock Price News
   url: https://stocklight.com/stocks/us/nyse-bah/booz-allen-hamilton-holding?media_id=181264
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Booz Allen Hamilton Inc.
   url: https://newsroom.boozallen.com/press-releases
-- date: '2026-05-25'
+- date: ''
   title: Booz Allen outlines tech strategy and key risks
   url: https://www.stocktitan.net/sec-filings/BAH/10-k-booz-allen-hamilton-holding-corp-files-annual-report-f81cdf47fedf.html
 random_paper: 2
@@ -285,7 +285,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

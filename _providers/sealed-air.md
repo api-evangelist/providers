@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -122,19 +122,19 @@ plans:
   plan_count: 0
   slug: sealed-air-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sealed Air Announces Expiration of "Go-Shop" Period
   url: https://www.prnewswire.com/news-releases/sealed-air-announces-expiration-of-go-shop-period-302644234.html
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Sealed Air Corp. Placed On Credi'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3481462
-- date: '2026-05-25'
+- date: ''
   title: Sealed Air Announces Completion of Acquisition by CD&R
   url: https://www.prnewswire.com/news-releases/sealed-air-announces-completion-of-acquisition-by-cdr-302738274.html
-- date: '2026-05-25'
+- date: ''
   title: Sealed Air Acquires Assets from Intellibot Robotics
   url: https://ir.sealedair.com/node/11006/pdf
-- date: '2026-05-25'
+- date: ''
   title: Are You Ready for Intelligent Automation Solutions?
   url: https://www.sealedair.com/uk/resources/blog/automated-ecommerce-fulfillment-services-solution
 random_paper: 15
@@ -167,7 +167,7 @@ score:
     - north-america
   previous_composite: 10.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

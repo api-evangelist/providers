@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,19 +106,19 @@ plans:
   plan_count: 1
   slug: pepsico-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Stories | PepsiCo Newsroom
   url: https://www.pepsico.com/en/newsroom/stories-category
-- date: '2026-05-25'
+- date: ''
   title: PepsiCo Announces Industry-First AI and Digital Twin ...
   url: https://www.prnewswire.com/news-releases/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia-302653851.html
-- date: '2026-05-25'
+- date: ''
   title: PepsiCo is deploying AI across its operations in China to ...
   url: https://www.facebook.com/bloombergbusiness/posts/pepsico-is-deploying-ai-across-its-operations-in-china-to-improve-efficiency-rea/1355931753059581/
-- date: '2026-05-25'
+- date: ''
   title: PepsiCo Deepens AI Capabilities with Google Cloud
   url: https://www.googlecloudpresscorner.com/2026-04-22-PepsiCo-Deepens-AI-Capabilities-with-Google-Cloud
-- date: '2026-05-25'
+- date: ''
   title: PepsiCo Announces Industry-First AI and Digital Twin ...
   url: https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia
 random_paper: 7
@@ -153,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

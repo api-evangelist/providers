@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: CVS Health does not publish a unified public REST API or developer portal. Pharmacy, PBM, and Aetna integrations are conducted via contracted partner channels using industry-standard rails such as NCP
@@ -132,19 +132,19 @@ plans:
   plan_count: 2
   slug: cvs-health-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: CVS Health News and Press Releases
   url: https://www.prnewswire.com/news/cvs-health/
-- date: '2026-05-25'
+- date: ''
   title: CVS Health and Google have partnered to use artificial ...
   url: https://www.facebook.com/forbes/posts/cvs-health-and-google-have-partnered-to-use-artificial-intelligence-and-related-/1299449658711688/
-- date: '2026-05-25'
+- date: ''
   title: CVS Health and Google Cloud announce new strategic ...
   url: https://www.cvshealth.com/news/company-news/cvs-health-and-google-cloud-announce-new-strategic-partnership.html
-- date: '2026-05-25'
+- date: ''
   title: Improving health plan member experiences with AI
   url: https://www.cvshealth.com/news/innovation/improving-health-plan-member-experiences-with-ai.html
-- date: '2026-05-25'
+- date: ''
   title: Aetna Launches New AI and Digital Tools to Improve ...
   url: https://www.cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html
 random_paper: 17
@@ -178,7 +178,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

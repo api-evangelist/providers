@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,19 +103,19 @@ overview: 'KKR is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
   KKR''s developer surface includes product news, engineering blog, and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Coder Secures $90M Series C Led by KKR to Advance ...
   url: https://coder.com/blog/90m-series-c-led-by-kkr-to-advance-secure-enterprise-ai-development
-- date: '2026-05-25'
+- date: ''
   title: '⚡ AI: KKR just committed $10B to build AI-dedicated power ...'
   url: https://www.facebook.com/cointelegraph/posts/-ai-kkr-just-committed-10b-to-build-ai-dedicated-power-plants-and-data-centers/1283616507278508/
-- date: '2026-05-25'
+- date: ''
   title: 'Beyond the Bubble: Why AI Infrastructure Will Compound ...'
   url: https://www.kkr.com/insights/ai-infrastructure
-- date: '2026-05-25'
+- date: ''
   title: KKR Invests in Fresha, the Leading AI-Powered Platform ...
   url: https://www.businesswire.com/news/home/20260521291161/en/KKR-Invests-in-Fresha-the-Leading-AI-Powered-Platform-for-Beauty-and-Wellness-at-%241bn-Valuation
-- date: '2026-05-25'
+- date: ''
   title: KKR Invests in Fresha, the Leading AI-Powered Platform ...
   url: https://lasvegassun.com/news/2026/may/21/kkr-invests-in-fresha-the-leading-ai-powered-platf/
 random_paper: 20
@@ -139,7 +139,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

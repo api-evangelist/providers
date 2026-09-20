@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,19 +88,19 @@ nav: Providers
 network: true
 overview: D.R. Horton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Homebuilder, Real-Estate, and Construction.
 press:
-- date: '2026-05-25'
+- date: ''
   title: D.R. Horton Says Wary Buyers Will Continue Demanding ...
   url: https://www.wsj.com/business/earnings/d-r-horton-profit-falls-as-housing-market-remains-stagnant-8aa97f24
-- date: '2026-05-25'
+- date: ''
   title: D.R. Horton taps Prophetic AI to build more homes
   url: https://www.cnbc.com/2025/11/14/dr-horton-taps-prophetic-ai-to-build-more-homes.html
-- date: '2026-05-25'
+- date: ''
   title: D.R. Horton, Inc. (DHI) Q2 2026 Earnings Call Transcript
   url: https://seekingalpha.com/article/4892379-d-r-horton-inc-dhi-q2-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: 2025 DHI Annual Report
   url: https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/documents/quarterly-reports/2025-dhi-annual-report.pdf
-- date: '2026-05-25'
+- date: ''
   title: Prophetic to Power D.R. Horton's AI-Driven Land ...
   url: https://www.prnewswire.com/news-releases/prophetic-to-power-dr-hortons-ai-driven-land-acquisition-at-national-scale-302610017.html
 random_paper: 1
@@ -124,7 +124,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

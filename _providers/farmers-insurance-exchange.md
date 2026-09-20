@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -132,19 +132,19 @@ plans:
   plan_count: 0
   slug: farmers-insurance-exchange-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Farmers Insurance® Adopts Innovative Technology by ...
   url: https://www.prnewswire.com/news-releases/farmers-insurance-adopts-innovative-technology-by-zestyai-to-increase-homes-eligible-for-insurance-in-high-wildfire-risk-areas-in-california-301311289.html
-- date: '2026-05-25'
+- date: ''
   title: Farmers Insurance hit by data breach, 1.1 million customers ...
   url: https://www.linkedin.com/posts/practical-cybersecurity_farmers-insurance-data-breach-impacts-11m-activity-7369048921878294528-Zdfg
-- date: '2026-05-25'
+- date: ''
   title: Farmers Insurance® Accelerates Digital Transformation to ...
   url: https://www.salesforce.com/news/press-releases/2017/05/02/farmers-insurance-accelerates-digital-transformation-to-deliver-products-and-services-faster-to-customers-3/
-- date: '2026-05-25'
+- date: ''
   title: News Releases - Farmers Newsroom
   url: https://newsroom.farmers.com/2019-05-01-Farmers-Insurance-R-and-Talespin-Announce-Collaboration-on-Leadership-and-Communication-Skills-Training-with-AI-Powered-Virtual-Human-Technology
-- date: '2026-05-25'
+- date: ''
   title: Farmers Insurance Exchange Outlook Revised To Pos
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3396101
 random_paper: 5
@@ -185,7 +185,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

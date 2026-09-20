@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -88,19 +88,19 @@ plans:
   plan_count: 3
   slug: cabot-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Dr. CaBot presents a case [VIDEO]
   url: https://www.eurekalert.org/multimedia/1095666
-- date: '2026-05-25'
+- date: ''
   title: Cabot Corporation Selects Cognizant to Transform its ...
   url: https://www.prnewswire.com/news-releases/cabot-corporation-selects-cognizant-to-transform-its-digital-operating-model-301407994.html
-- date: '2026-05-25'
+- date: ''
   title: AI and ML in Healthcare
   url: https://www.cabotsolutions.com/ai-ml
-- date: '2026-05-25'
+- date: ''
   title: AI Investing – How to Navigate Past the Hype
   url: https://www.cabotwealth.com/daily/tech-stocks/ai-investing-how-to-navigate-past-the-hype
-- date: '2026-05-25'
+- date: ''
   title: The Dr. CaBot AI system was created to generate ...
   url: https://www.facebook.com/TheNewEnglandJournalofMedicine/posts/the-dr-cabot-ai-system-was-created-to-generate-differential-diagnoses-in-the-sty/1197451285748712/
 random_paper: 15
@@ -128,7 +128,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

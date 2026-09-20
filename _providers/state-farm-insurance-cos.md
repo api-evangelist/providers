@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -214,19 +214,19 @@ plans:
   plan_count: 1
   slug: state-farm-insurance-cos-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: In the Heartland
   url: https://www.computerworld.com/article/1685844/in-the-heartland.html
-- date: '2026-05-25'
+- date: ''
   title: '''They''re being so stingy with everything.'' State Farm ...'
   url: https://www.latimes.com/business/story/2025-03-10/state-farm-seeks-emergency-rate-hike-amid-questions-over-finances-fire-response
-- date: '2026-05-25'
+- date: ''
   title: Paula Jarrett - state farm insurance cos
   url: https://www.linkedin.com/in/paula-jarrett-a40357259
-- date: '2026-05-25'
+- date: ''
   title: INSURANCE AGENT'S TERMINATION PAYMENT NOT ...
   url: https://www.taxnotes.com/research/federal/court-documents/court-opinions-and-orders/insurance-agents-termination-payment-not-entitled-to-capital-gains-treatment/1plnn
-- date: '2026-05-25'
+- date: ''
   title: 147 State Farm Insurance Company Stock Photos, High- ...
   url: https://www.gettyimages.in/photos/state-farm-insurance-company
 random_paper: 19
@@ -294,7 +294,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

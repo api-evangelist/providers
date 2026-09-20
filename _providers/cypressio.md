@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Enterprise reporting API that returns test and run analytics and raw test-result data from Cypress Cloud. Requests are HTTP GET with an organization API key passed as the token query parameter, and da
@@ -160,18 +160,22 @@ common:
   title: ''
   type: DomainSecurity
   url: security/cypressio-domain-security.yml
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://on.cypress.io/cloud-mcp
 created: '2026-07-17'
 description: Cypress.io, Inc. builds Cypress, an open-source, JavaScript-based end-to-end and component testing framework that runs tests directly in the browser with time-travel debugging, automatic waiting, and cross-browser support. Its commercial Cypress Cloud service adds test parallelization, smart orchestration, analytics, Test Replay, UI Coverage, and automated accessibility checks, plus an enterprise Data Extract API for exporting test and run analytics in CSV, JSON, or XLSX. Cypress is widely adopted across CI/CD pipelines for reliable, developer-friendly web application testing.
 image: https://avatars.githubusercontent.com/u/8908513?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-19'
 name: Cypress.io
 nav: Providers
 network: true
 overview: 'Cypress.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, End-to-End Testing, Test Automation, and Quality Assurance.
 
 
-  Cypress.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Cypress.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 3
 score:
   band: thin
@@ -195,7 +199,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

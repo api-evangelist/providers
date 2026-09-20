@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -163,19 +163,19 @@ plans:
   plan_count: 1
   slug: goodyear-tire-and-rubber-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Goodyear And SafeAI Announce Tire Intelligence For ...
   url: https://news.goodyear.com/goodyear_and_safeai_
-- date: '2026-05-25'
+- date: ''
   title: PlusAI and Goodyear Collaborate to Enhance the Safety ...
   url: https://www.prnewswire.com/news-releases/plusai-and-goodyear-collaborate-to-enhance-the-safety-and-efficiency-features-of-autonomous-trucks-302522676.html
-- date: '2026-05-25'
+- date: ''
   title: Goodyear And Plus Collaborate On Autonomous Trucks
   url: https://news.goodyear.com/goodyear-and-plus-collaborate-on-autonomous-trucks
-- date: '2026-05-25'
+- date: ''
   title: PlusAI and Goodyear Collaborate to Enhance the Safety and ...
   url: https://plus.ai/news-and-insights/plusai-and-goodyear-collaborate-to-enhance-the-safety-and-efficiency-features-of-autonomous-trucks
-- date: '2026-05-25'
+- date: ''
   title: Goodyear
   url: https://www.ces.tech/success-stories/goodyear/
 random_paper: 2
@@ -210,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

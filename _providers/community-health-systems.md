@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,19 +189,19 @@ plans:
   plan_count: 1
   slug: community-health-systems-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.googlecloudpresscorner.com/healthcare-life-sciences?l=25&o=50
-- date: '2026-05-25'
+- date: ''
   title: Community Health Systems and Denim Health Announce a ...
   url: https://www.businesswire.com/news/home/20241007978867/en/Community-Health-Systems-and-Denim-Health-Announce-a-Development-Partnership-Designed-to-Broadly-Scale-Conversational-AI-Across-the-CHS-Patient-Access-Center
-- date: '2026-05-25'
+- date: ''
   title: CHS migrates to Google Cloud data platform, adopts ...
   url: https://www.healthcaredive.com/news/community-health-systems-google-cloud-generative-AI/706130/
-- date: '2026-05-25'
+- date: ''
   title: Community Health Systems, Inc. Announces Third Quarter ...
   url: https://chsnet.gcs-web.com/news-releases/news-release-details/community-health-systems-inc-announces-third-quarter-ended-2
-- date: '2026-05-25'
+- date: ''
   title: Community Health Systems Completes Data Migration and ...
   url: https://www.prnewswire.com/news-releases/community-health-systems-completes-data-migration-and-implements-new-generative-ai-innovations-with-google-cloud-302048799.html
 random_paper: 1
@@ -269,7 +269,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,19 +131,19 @@ overview: 'Pediatrix Medical Group (formerly MEDNAX) is profiled on the [APIs.io
 
   Pediatrix Medical Group (formerly MEDNAX)''s developer surface includes support, YouTube channel, and 13 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Sorna Corporation - Latest News - SornaCorp
   url: https://pressroom.prlog.org/SornaCorp/
-- date: '2026-05-25'
+- date: ''
   title: In the News
   url: https://www.radpartners.com/in-the-news/
-- date: '2026-05-25'
+- date: ''
   title: Mednax
   url: https://www.itnonline.com/company/mednax
-- date: '2026-05-25'
+- date: ''
   title: MEDNAX Radiology Solutions Launches Artificial Intelligence ...
   url: https://mednax.gcs-web.com/news-releases/news-release-details/mednax-radiology-solutions-launches-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Pediatrix Medical Group, Inc.
   url: https://mednax.gcs-web.com/news-releases
 random_paper: 21
@@ -173,7 +173,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

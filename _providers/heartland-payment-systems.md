@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 5
 apis:
 - description: The Portico Gateway is Heartland's primary payment processing API for card-not-present and ecommerce transactions, supporting authorization, capture, refund, void, recurring billing, tokenization, and
@@ -119,19 +119,19 @@ plans:
   plan_count: 1
   slug: heartland-payment-systems-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cybersecurity Impact on Audits and Financial Statement ...
   url: https://www.researchgate.net/publication/344096444_Heartland_Payment_Systems_Cybersecurity_Impact_on_Audits_and_Financial_Statement_Contingencies
-- date: '2026-05-25'
+- date: ''
   title: Data Theft Hits the Heartland
   url: https://redmondmag.com/articles/2009/01/21/data-theft-hits-the-heartland.aspx?admgarea=BDNA
-- date: '2026-05-25'
+- date: ''
   title: Heartland Founder, Philanthropist, and Author Robert O. ...
   url: https://www.prnewswire.com/news-releases/heartland-founder-philanthropist-and-author-robert-o-carr-launches-beyond--an-employee-owned-pos-payments-lending-vending-integrated-hr-tools--services-company-300448840.html
-- date: '2026-05-25'
+- date: ''
   title: Heartland Adds ACH To Its Remote-Deposit Service
   url: https://www.americanbanker.com/payments/news/heartland-adds-ach-to-its-remote-deposit-service
-- date: '2026-05-25'
+- date: ''
   title: Liquid Payments' Integration with Heartland, a Global ...
   url: https://www.fintechfutures.com/press-releases/liquid-payments-integration-with-heartland-a-global-payments-company-is-good-news-for-healthcare-providers
 random_paper: 21
@@ -165,7 +165,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

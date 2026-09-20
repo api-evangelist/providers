@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Hanover Insurance Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Property and Casualty, Financial-Services, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Risk detection surveillance | The Hanover Insurance Group
   url: https://www.hanover.com/businesses/business-customer-resources/hanover-risk-solutions/risk-detection-surveillance
-- date: '2026-05-25'
+- date: ''
   title: The Hanover Insurance Group, Inc. Announces New Share ...
   url: https://www.prnewswire.com/news-releases/the-hanover-insurance-group-inc-announces-new-share-repurchase-authorization-302771479.html
-- date: '2026-05-25'
+- date: ''
   title: Hanover Insurance Group Inc (THG) Q3 FY2025 earnings ...
   url: https://finance.yahoo.com/quote/THG/earnings/THG-Q3-2025-earnings_call-369257.html/
-- date: '2026-05-25'
+- date: ''
   title: The Hanover Insurance Group's automation CoE ensures ...
   url: https://www.microsoft.com/en/customers/story/1508140281036678253-hanover-insurance
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence for workplace risk assessments
   url: https://www.hanover.com/customer-support/our-business-customers/hanover-risk-solutions/artificial-intelligence-workplace
 random_paper: 16
@@ -101,7 +101,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -127,19 +127,19 @@ overview: 'Dow Inc. (formerly The Dow Chemical Company) is profiled on the [APIs
 
   Dow Inc. (formerly The Dow Chemical Company)''s developer surface includes support, signup flow, and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Dow to Cut 4500 Employees in AI Overhaul
   url: https://www.wsj.com/business/earnings/dow-dow-q4-earnings-report-2025-11f0e814
-- date: '2026-05-25'
+- date: ''
   title: Dow to cut about 4500 jobs as emphasis shifts to AI and ...
   url: https://www.houstonpublicmedia.org/articles/news/business/2026/01/30/542113/dow-layoffs-houston-jobs-ai/
-- date: '2026-05-25'
+- date: ''
   title: Alphabet and Dow's new AI database will sort complex ...
   url: https://trellis.net/article/alphabet-x-dow-complex-plastics-database/
-- date: '2026-05-25'
+- date: ''
   title: Operations Research and Advanced Analytics at Dow | ORMS ...
   url: https://pubsonline.informs.org/do/10.1287/orms.2023.02.16/full/
-- date: '2026-05-25'
+- date: ''
   title: Dow launches Transform to Outperform to raise the ...
   url: https://www.prnewswire.com/news-releases/dow-launches-transform-to-outperform-to-raise-the-competitive-industry-benchmark-for-productivity-and-growth-to-enable-improved-returns-302673865.html
 random_paper: 9
@@ -163,7 +163,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

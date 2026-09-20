@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -75,19 +75,19 @@ nav: Providers
 network: true
 overview: Caleres is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Footwear, Retail, Consumer Brand, E-Commerce, and Apparel.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Caleres details global footwear business and risks
   url: https://www.stocktitan.net/sec-filings/CAL/10-k-caleres-inc-files-annual-report-c5f2aed40ed8.html
-- date: '2026-05-25'
+- date: ''
   title: Caleres Partners With Bluecore Across its Portfolio of Brands
   url: https://www.globenewswire.com/news-release/2023/10/11/2758295/0/en/caleres-partners-with-bluecore-across-its-portfolio-of-brands.html
-- date: '2026-05-25'
+- date: ''
   title: How applied AI boosts business for Caleres, FleetPride, and ...
   url: https://www.linkedin.com/posts/simonlouellet_coveoai-relevance-ecommerce-activity-7331717966339653632-z6CR
-- date: '2026-05-25'
+- date: ''
   title: Caleres Case Study - Tango Analytics
   url: https://tangoanalytics.com/case-studies/caleres/
-- date: '2026-05-25'
+- date: ''
   title: Caleres Q4 net sales rise 8.7% to USD 695.06 million, Brand ...
   url: https://www.sahmcapital.com/news/content/caleres-q4-net-sales-rise-87-to-usd-69506-million-brand-portfolio-sales-jump-203-to-usd-36125-million-2026-03-19
 random_paper: 9
@@ -116,7 +116,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

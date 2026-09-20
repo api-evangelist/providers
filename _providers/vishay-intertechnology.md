@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Access Vishay component data programmatically through the Octopart/Nexar API. Search for Vishay parts by part number or category, retrieve datasheets, specifications, pricing, and distributor inventor
@@ -127,19 +127,19 @@ plans:
   plan_count: 3
   slug: vishay-intertechnology-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Vishay Intertechnology Q1 Earnings Call Highlights
   url: https://www.marketbeat.com/instant-alerts/vishay-intertechnology-q1-earnings-call-highlights-2026-05-15/
-- date: '2026-05-25'
+- date: ''
   title: AIXTRON SE's Post
   url: https://www.linkedin.com/posts/aixtron-se_newport-pressrelease-sic-activity-7188436242999508993-lOmB
-- date: '2026-05-25'
+- date: ''
   title: Vishay to acquire Nexperia's Newport, UK 200mm wafer fab
   url: https://atreg.com/vishay-to-acquire-nexperia-newport-uk-200mm-waferfab/
-- date: '2026-05-25'
+- date: ''
   title: Vishay Intertechnology, Inc. (VSH) Presents at J.P. Morgan ...
   url: https://seekingalpha.com/article/4907641-vishay-intertechnology-inc-vsh-presents-at-j-p-morgan-54th-annual-global-technology-media-and
-- date: '2026-05-25'
+- date: ''
   title: of 2020 China AI Innovation Excellence Award
   url: https://www.vishay.com/en/company/press/releases/2020/microBRICKwins2020AIAward/
 random_paper: 3
@@ -184,7 +184,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

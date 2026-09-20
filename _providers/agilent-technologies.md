@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -399,19 +399,19 @@ plans:
   plan_count: 1
   slug: agilent-technologies-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Latest A News - Agilent Acquires Artificial Intelligence Techn...
   url: https://www.stocktitan.net/news/A/page-30.html
-- date: '2026-05-25'
+- date: ''
   title: Agilent Acquires Artificial Intelligence Technology to ...
   url: https://www.agilent.com/about/newsroom/presrel/2022/17feb-gp22004.html?srsltid=AfmBOoopyXeP_F_3H7w_Drtjkn4uL5JTMPDo3ofoYLBhOKNGyCDZrSmP
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.agilent.com/about/newsroom/presrel.html?cat=corporate&start=1&page=1&srsltid=AfmBOorb-8haBtodoHEkxyD5ndka2TYQoOjrCQVclI0F0lmO7BfAXJY2
-- date: '2026-05-25'
+- date: ''
   title: Unlock the lab of the future with Agilent's Digital ...
   url: https://www.facebook.com/Agilent.Tech/posts/unlock-the-lab-of-the-future-with-agilents-digital-lab-solutions-our-open-and-co/923676106457953/
-- date: '2026-05-25'
+- date: ''
   title: Lunit and Agilent Technologies Announce Collaboration to ...
   url: https://www.prnewswire.com/news-releases/lunit-and-agilent-technologies-announce-collaboration-to-enhance-development-of-companion-diagnostic-solutions-powered-with-ai-for-precision-medicine-302562617.html
 random_paper: 1
@@ -474,7 +474,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: The Southwest Airlines internal flight booking API powers the southwest.com website for searching and booking flights. It provides flight availability, pricing, schedules, and air booking shopping cap
@@ -137,19 +137,19 @@ plans:
   plan_count: 1
   slug: southwest-airlines-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Southwest Airlines has banned robots from flights, a policy ...
   url: https://www.facebook.com/KING5News/posts/southwest-airlines-has-banned-robots-from-flights-a-policy-change-that-came-afte/1452439983594853/
-- date: '2026-05-25'
+- date: ''
   title: Southwest Airlines Co. News and Press Releases
   url: https://www.prnewswire.com/news/southwest-airlines-co./
-- date: '2026-05-25'
+- date: ''
   title: Southwest Airlines recently changed their baggage policy ...
   url: https://www.facebook.com/Fox32Chicago/posts/southwest-airlines-recently-changed-their-baggage-policy-after-a-passenger-at-da/1449339787239217/
-- date: '2026-05-25'
+- date: ''
   title: Southwest Airlines Transforms Customer Experience with ...
   url: https://aws.amazon.com/video/watch/6d31bc3cfa4/
-- date: '2026-05-25'
+- date: ''
   title: Southwest uses AI to modernize management software
   url: https://www.pwc.com/us/en/library/case-studies/southwest-ai-software-update.html
 random_paper: 0
@@ -193,7 +193,7 @@ score:
     - north-america
   previous_composite: 30.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

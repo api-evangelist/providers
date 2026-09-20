@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,19 +113,19 @@ plans:
   plan_count: 1
   slug: home-depot-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Home Depot Launches AI-Powered Material Lists to ...
   url: https://corporate.homedepot.com/news/company/home-depot-launches-ai-powered-material-lists-help-pros-save-time-building-complete
-- date: '2026-05-25'
+- date: ''
   title: 'Home Depot Uses AI Agents: 10 Ways to Use AI [In-Depth ...'
   url: https://www.klover.ai/home-depot-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025/
-- date: '2026-05-25'
+- date: ''
   title: The Home Depot and Google Cloud Launch Agentic AI ...
   url: https://corporate.homedepot.com/news/partnerships/home-depot-and-google-cloud-launch-agentic-ai-tools-help-customers-and-associates
-- date: '2026-05-25'
+- date: ''
   title: The Home Depot Delivers Customer Support Four Times ...
   url: https://www.prnewswire.com/news-releases/the-home-depot-delivers-customer-support-four-times-faster-using-google-clouds-gemini-enterprise-for-customer-experience-302749232.html
-- date: '2026-05-25'
+- date: ''
   title: The Home Depot Introduces Magic Apron, a Suite of ...
   url: https://ir.homedepot.com/news-releases/2025/03-06-2025-130241718
 random_paper: 20
@@ -160,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

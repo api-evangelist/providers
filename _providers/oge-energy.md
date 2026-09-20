@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: OGE Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Electric Utility, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: OGE Energy Corp. reports second quarter 2025 results
   url: https://www.oge.com/web/portal/-/164-press-release
-- date: '2026-05-25'
+- date: ''
   title: OG&E - Press Release Details
   url: https://www.oge.com/web/portal/-/144-press-release
-- date: '2026-05-25'
+- date: ''
   title: SEC Filing | OGE Energy Corporation
   url: https://ogeenergy.gcs-web.com/node/45196/html
-- date: '2026-05-25'
+- date: ''
   title: Oklahoma Gas & Electric Company uses AI to assess and ...
   url: https://www.esmartsystems.com/news-and-resources/oklahoma-gas-electric-company-uses-ai-to-assess-and-repair-distribution-pole-damage/
-- date: '2026-05-25'
+- date: ''
   title: OGE Energy Corp. Announces Public Offering of $345 ...
   url: https://www.prnewswire.com/news-releases/oge-energy-corp-announces-public-offering-of-345-million-of-shares-of-common-stock-302622405.html
 random_paper: 20
@@ -110,7 +110,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

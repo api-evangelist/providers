@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,21 +63,21 @@ nav: Providers
 network: true
 overview: Medical Mutual of Ohio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health Insurance, Healthcare, Insurance, and Ohio.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Data breach: Medical Mutual employee sends private ...'
   url: https://www.cleveland19.com/story/36412619/data-breach-medical-mutual-employee-sends-private-information-for-thousands-to-wrong-email/
-- date: '2026-05-25'
+- date: ''
   title: AI Principles
   url: https://www.medmutual.com/About-Medical-Mutual/AI-Principles
-- date: '2026-05-25'
+- date: ''
   title: Cohere Health, Medical Mutual, and Rhyme Partner on ...
   url: https://www.prnewswire.com/news-releases/cohere-health-medical-mutual-and-rhyme-partner-on-utilization-management-transformation-302162495.html
-- date: '2026-05-25'
-  title: Working Together To Preserve Patient Control
-  url: https://americashealthcarefuture.org/what-we-are-for-working-together-to-preserve-patient-control/
 - date: ''
   title: Medical Mutual of Ohio
   url: https://www.medmutual.com/-/media/MedMutual/Files/Employers/FINAL-2021-Plan-Brochure-SW-OH-73-899
+- date: ''
+  title: Working Together To Preserve Patient Control
+  url: https://americashealthcarefuture.org/what-we-are-for-working-together-to-preserve-patient-control/
 random_paper: 6
 score:
   band: minimal
@@ -110,7 +110,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

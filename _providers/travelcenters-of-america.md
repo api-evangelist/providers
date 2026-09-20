@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -181,19 +181,19 @@ plans:
   plan_count: 3
   slug: travelcenters-of-america-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: TravelCenters of America (TA) Q2 2022 Earnings Call ...
   url: https://www.fool.com/earnings/call-transcripts/2022/08/02/travelcenters-of-america-ta-q2-2022-earnings-call/
-- date: '2026-05-25'
+- date: ''
   title: TravelCenters of America Celebrates 300th Travel Center ...
   url: https://www.prnewswire.com/news-releases/travelcenters-of-america-celebrates-300th-travel-center-milestone-302070078.html
-- date: '2026-05-25'
+- date: ''
   title: TravelCenters of America Outlines Plans Heading into 50th ...
   url: https://www.ta-petro.com/blog/travelcenters-of-america-outlines-plans-heading-into-50th-anniversary-year/
-- date: '2026-05-25'
+- date: ''
   title: BP to buy TravelCenters for $1.3 bln in U.S. fuel retail drive
   url: https://www.reuters.com/markets/deals/bp-buy-travelcenters-america-13-billion-2023-02-16/
-- date: '2026-05-25'
+- date: ''
   title: TravelCenters of America and NATSO Foundation Work to ...
   url: https://www.prnewswire.com/news-releases/travelcenters-of-america-and-natso-foundation-work-to-enhance-safety-for-roadside-service-technicians-302112405.html
 random_paper: 15
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

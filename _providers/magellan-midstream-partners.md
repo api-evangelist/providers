@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -54,19 +54,19 @@ nav: Providers
 network: true
 overview: Magellan Midstream Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Pipelines, Petroleum, Midstream, and ONEOK.
 press:
-- date: '2026-05-25'
+- date: ''
   title: US midstream ONEOK to acquire Magellan ...
   url: https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/051523-us-midstream-oneok-to-acquire-magellan-midstream-partners-in-188-bil-deal
-- date: '2026-05-25'
+- date: ''
   title: ONEOK completes $18.8 billion buyout of Magellan ...
   url: https://okbusinessvoice.com/2023/09/29/oneok-completes-18-8-billion-buyout-of-magellan-midstream-partners/
-- date: '2026-05-25'
+- date: ''
   title: ONEOK Announces Completion of Magellan Midstream ...
   url: https://www.prnewswire.com/news-releases/oneok-announces-completion-of-magellan-midstream-partners-acquisition-301937459.html
-- date: '2026-05-25'
+- date: ''
   title: Bhupesh Arora, Vice President and CIO, Magellan ...
   url: https://hmgstrategy.com/resource-center/articles/bhupesh-arora-vice-president-and-cio-magellan-midstream-partners-l-p-driving-digital-transformation-from-the-ground-up/
-- date: '2026-05-25'
+- date: ''
   title: 'Magellan Midstream Partners L P : Announces Sale of Independent ...'
   url: https://www.marketscreener.com/quote/stock/MAGELLAN-MIDSTREAM-PARTNE-13575/news/Magellan-Midstream-Partners-L-P-Announces-Sale-of-Independent-Terminals-35570366/
 random_paper: 18
@@ -104,7 +104,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -145,19 +145,19 @@ plans:
   plan_count: 0
   slug: ch2m-hill-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Jacobs Engineering to buy CH2M Hill in $3.27 bln deal
   url: https://www.reuters.com/article/business/jacobs-engineering-to-buy-ch2m-hill-in-327-bln-deal-idUSL4N1KO3KZ/
-- date: '2026-05-25'
+- date: ''
   title: OSU celebrates groundbreaking of the Huang Complex
   url: https://www.fororegonstate.org/stay-informed/impact-stories/detail/Huang_Complex_groundbreaking
-- date: '2026-05-25'
+- date: ''
   title: Jacobs posts strong Q3, touts last year's acquisition of ...
   url: https://www.constructiondive.com/news/jacobs-posts-strong-q3-touts-last-years-acquisition-of-ch2m-hill/529460/
-- date: '2026-05-25'
+- date: ''
   title: CH2M Hill Provides Design of Pilot Bioenergy Facility in UAE
   url: https://www.executivebiz.com/articles/ch2m-hill-provides-design-of-pilot-bioenergy-facility-in-uae-neil-reynolds-comments
-- date: '2026-05-25'
+- date: ''
   title: Microsoft Virtualization Beats VMware at CH2M Hill - Datamation
   url: https://www.datamation.com/applications/microsoft-virtualization-beats-vmware-at-ch2m-hill/
 random_paper: 18
@@ -196,7 +196,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

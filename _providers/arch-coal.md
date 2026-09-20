@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Machine-readable filing data for Core Natural Resources is available from the U.S. Securities and Exchange Commission, not from the company. The SEC EDGAR submissions API returns the full filing histo
@@ -133,19 +133,19 @@ plans:
   plan_count: 1
   slug: arch-coal-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: About Core Natural Resources
   url: https://corenaturalresources.com/about-core/
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?initialSessionID=144-1670540-8490742&page=379
-- date: '2026-05-25'
+- date: ''
   title: Arch Resources winding down massive US coal mine as ...
   url: https://www.spglobal.com/market-intelligence/en/news-insights/articles/2021/2/arch-resources-winding-down-massive-us-coal-mine-as-customer-base-dwindles-62788531
-- date: '2026-05-25'
+- date: ''
   title: Q4 2018 Arch Coal Inc Earnings Call Transcript
   url: https://www.gurufocus.com/news/2231894/q4-2018-arch-coal-inc-earnings-call-transcript?mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Despite a strong quarter for its Powder River Basin ...
   url: https://www.facebook.com/cowboystatedaily/posts/despite-a-strong-quarter-for-its-powder-river-basin-operations-arch-resources-in/500718778737496/
 random_paper: 16
@@ -184,7 +184,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

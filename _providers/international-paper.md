@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: International Paper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Manufacturing, Packaging, Paper, and Pulp.
 press:
-- date: '2026-05-25'
+- date: ''
   title: INTERNATIONAL PAPER COMPANY ANNUAL REPORT
   url: https://s202.q4cdn.com/314366415/files/doc_financials/2024/ar/Final-2023-Annual-Report_IP.pdf
-- date: '2026-05-25'
+- date: ''
   title: 'International Paper (NYSE: IP) maps 2025 overhaul, DS ...'
   url: https://www.stocktitan.net/sec-filings/IP/10-k-international-paper-co-new-files-annual-report-30c5f7a05e0e.html
-- date: '2026-05-25'
+- date: ''
   title: International Paper Swings to Profit, Issues Downbeat ...
   url: https://www.wsj.com/business/earnings/international-paper-swings-to-profit-issues-downbeat-outlook-b5811670
-- date: '2026-05-25'
+- date: ''
   title: International Paper to Create Two Independent Public ...
   url: https://www.prnewswire.com/news-releases/international-paper-to-create-two-independent-public-companies-and-reports-full-year-and-fourth-quarter-2025-results-302673451.html
-- date: '2026-05-25'
+- date: ''
   title: International Paper Announces Strategic Changes to ...
   url: https://www.prnewswire.com/news-releases/international-paper-announces-strategic-changes-to-support-growth-in-north-america-302492317.html
 random_paper: 1
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

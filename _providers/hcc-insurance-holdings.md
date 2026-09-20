@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,19 +68,19 @@ nav: Providers
 network: true
 overview: HCC Insurance Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Specialty Insurance, and Financial-Services.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 2025 Trends in the Stop Loss Market
   url: https://www.tmhcc.com/en-us/news-and-articles/thought-leadership/jay-ritchie-current-stop-loss-market-trends
-- date: '2026-05-25'
+- date: ''
   title: Growing with Confidence - May 2026
   url: https://www.linkedin.com/pulse/growing-confidence-may-2026-tokiomarinehcc-8cwqe
-- date: '2026-05-25'
+- date: ''
   title: Tokio Marine HCC Announces Strategic Collaboration with ...
   url: https://finance.yahoo.com/news/tokio-marine-hcc-announces-strategic-140000151.html
-- date: '2026-05-25'
+- date: ''
   title: Tokio Marine HCC announces strategic collaboration...
   url: https://www.publicnow.com/view/FC9C7CD2109A9D516265B05926996D702DEA7F9E?1766073024
-- date: '2026-05-25'
+- date: ''
   title: Tokio Marine to buy HCC Insurance for $7.5 billion
   url: https://www.reuters.com/article/business/tokio-marine-to-buy-hcc-insurance-for-75-billion-idUSKBN0OQ0KU/
 random_paper: 16
@@ -110,7 +110,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

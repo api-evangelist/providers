@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,19 +101,19 @@ overview: 'TreeHouse Foods is profiled on the [APIs.io](https://apis.io/) networ
 
   The TreeHouse Foods catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Investindustrial to take TreeHouse Foods private for $2.9B
   url: https://www.linkedin.com/posts/drew-f-74947b117_treehouse-foods-stock-pumps-23-on-investindustrial-activity-7393753085560602624-i9XH
-- date: '2026-05-25'
+- date: ''
   title: Treehouse Foods | THS Stock Price, Company Overview & ...
   url: https://www.forbes.com/companies/treehouse-foods/
-- date: '2026-05-25'
+- date: ''
   title: TreeHouse Foods To Go Private In $2.9 Billion Sale ...
   url: https://stocktwits.com/news-articles/markets/equity/why-did-treehouse-food-stock-surge-20-percent-pre-markte-today/cLPcKxcRE2P
-- date: '2026-05-25'
+- date: ''
   title: TreeHouse Foods and Investindustrial Announce Definitive ...
   url: https://www.prnewswire.com/news-releases/treehouse-foods-and-investindustrial-announce-definitive-acquisition-agreement-for-a-total-enterprise-value-of-2-9-billion-302609950.html
-- date: '2026-05-25'
+- date: ''
   title: Investindustrial Completes Acquisition of TreeHouse Foods
   url: https://www.stocktitan.net/news/THS/investindustrial-completes-acquisition-of-tree-house-e2404f5eln85.html
 random_paper: 2
@@ -137,7 +137,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

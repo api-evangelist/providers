@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -222,19 +222,19 @@ plans:
   plan_count: 1
   slug: american-airlines-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: American Airlines Reports Second-Quarter 2025 Financial ...
   url: https://americanairlines.gcs-web.com/news-releases/news-release-details/american-airlines-reports-second-quarter-2025-financial-results
-- date: '2026-05-25'
+- date: ''
   title: News - Corporate - American Airlines Newsroom
   url: https://news.aa.com/news/corporate/2025/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: 100 years of American Airlines, and they're just getting ...
   url: https://www.instagram.com/p/DXLGgj2DTJg/
-- date: '2026-05-25'
+- date: ''
   title: How American Airlines Uses AI to Strengthen Human ...
   url: https://adchatdfw.com/how-american-airlines-uses-ai-to-strengthen-human-decision-making/
-- date: '2026-05-25'
+- date: ''
   title: American Airlines reports fourth-quarter and full-year 2025 ...
   url: https://news.aa.com/news/news-details/2026/American-Airlines-reports-fourth-quarter-and-full-year-2025-financial-results-CORP-FI-01/default.aspx
 random_paper: 16
@@ -296,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

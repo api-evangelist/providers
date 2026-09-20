@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,19 +79,19 @@ nav: Providers
 network: true
 overview: SemGroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Midstream, Oil and Gas, Pipelines, and Crude Oil.
 press:
-- date: '2026-05-25'
+- date: ''
   title: SemGroup buying Houston Fuel Oil Terminal Co. in $2B deal
   url: https://energynow.ca/2017/06/semgroup-buying-houston-fuel-oil-terminal-co-in-2b-deal/
-- date: '2026-05-25'
+- date: ''
   title: SemGroup's $3.2 billion failure shocks backers
   url: https://www.reuters.com/article/world/semgroups-32-billion-failure-shocks-backers-idUSN25503394/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/0001489136/000119312519307334/d816435d8k.htm
-- date: '2026-05-25'
+- date: ''
   title: Producers Back SemGroup Reorganization Plan
   url: https://www.law360.com/energy/articles/122526/producers-back-semgroup-reorganization-plan
-- date: '2026-05-25'
+- date: ''
   title: 'Energy Transfer''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/energy-transfer-ai-strategy-analysis-of-dominance-in-energy-ai/
 random_paper: 2
@@ -121,7 +121,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

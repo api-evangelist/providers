@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,19 +98,19 @@ overview: 'Robert Half International is profiled on the [APIs.io](https://apis.i
 
   Robert Half International''s developer surface includes engineering blog and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Robert Half International (NYSE:RHI) Stock Price News
   url: https://stocklight.com/stocks/us/nyse-rhi/robert-half-international
-- date: '2026-05-25'
+- date: ''
   title: 'Earnings call transcript: Robert Half Q1 2026 beats EPS ...'
   url: https://ca.investing.com/news/stock-market-news/earnings-call-transcript-robert-half-q1-2026-beats-eps-forecast-stock-dips-93CH-4584595
-- date: '2026-05-25'
+- date: ''
   title: Robert Half News and Press Releases
   url: https://www.prnewswire.com/news/robert-half/?page=26
-- date: '2026-05-25'
+- date: ''
   title: 2025 Annual Report
   url: https://www.roberthalf.com/content/dam/roberthalf/documents/us/en/indexed/investor-center/2025-robert-half-annual-report-0426.pdf
-- date: '2026-05-25'
+- date: ''
   title: Annual Report
   url: https://www.roberthalf.com/content/dam/roberthalf/documents/us/en/indexed/investor-center/Robert%20Half_2023%20Annual%20Report.pdf
 random_paper: 3
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

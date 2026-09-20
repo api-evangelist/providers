@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -170,19 +170,19 @@ plans:
   plan_count: 1
   slug: travelers-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Travelers Q4 2025 Earnings Call Transcript
   url: https://fortune.com/company/travelers-cos/earnings/q4-2025/
-- date: '2026-05-25'
+- date: ''
   title: 'Travelers CEO: Agentic AI Embedded in Operations Today ...'
   url: https://news.ambest.com/newscontent.aspx?AltSrc=23&RefNum=272105
-- date: '2026-05-25'
+- date: ''
   title: Travelers says it invested $1.5B in AI, tech initiatives in 2025
   url: https://hartfordbusiness.com/article/travelers-says-it-invested-1-5b-in-ai-tech-initiatives-in-2025/
-- date: '2026-05-25'
+- date: ''
   title: Company news
   url: https://www.pia.org/GIA/nj/company-news.php
-- date: '2026-05-25'
+- date: ''
   title: Travelers partners with Anthropic to expand AI assistants ...
   url: https://hartfordbusiness.com/article/travelers-partners-with-anthropic-to-expand-ai-assistants-companywide/
 random_paper: 16
@@ -250,7 +250,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

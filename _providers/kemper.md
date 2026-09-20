@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,19 +66,19 @@ overview: 'Kemper is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Kemper''s developer surface includes engineering blog and 3 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Kemper Corporation Data Breach: Edelson Lechtzin LLP ...'
   url: https://www.prnewswire.com/news-releases/kemper-corporation-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-personal-information-302749607.html
-- date: '2026-05-25'
+- date: ''
   title: Lewis, Kemper E - Institute for Artificial Intelligence and Data ...
   url: https://www.buffalo.edu/ai-data-science/people/ub-affiliated-faculty.host.html/content/authoritative/profiles/lewis-kemper-e.detail.latest-news.html?par_list_start=28
-- date: '2026-05-25'
+- date: ''
   title: Kemper (KMPR) to Release Earnings on Wednesday
   url: https://www.marketbeat.com/instant-alerts/kemper-kmpr-to-release-earnings-on-wednesday-2026-04-29/
-- date: '2026-05-25'
+- date: ''
   title: Events & Presentations | Kemper Corporation
   url: https://investors.kemper.com/events-and-presentations/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: KMPR Kemper Corporation Stock Price & Overview
   url: https://seekingalpha.com/symbol/KMPR
 random_paper: 6
@@ -108,7 +108,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

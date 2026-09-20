@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,19 +105,19 @@ plans:
   plan_count: 0
   slug: genesco-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Genesco Announces Strategic Transformation of Its ...
   url: https://www.businesswire.com/news/home/20260114870793/en/Genesco-Announces-Strategic-Transformation-of-Its-Information-Technology-Operations
-- date: '2026-05-25'
+- date: ''
   title: Genesco To Acquire Little Burgundy Chain From The Aldo ...
   url: https://www.prnewswire.com/news-releases/genesco-to-acquire-little-burgundy-chain-from-the-aldo-group-300171120.html
-- date: '2026-05-25'
+- date: ''
   title: THE BUSINESS OF GENESCO Genesco Inc. is a ...
   url: https://www.genesco.com/static-files/0d4e883c-7f40-408e-b163-9b5ac06ce192
-- date: '2026-05-25'
+- date: ''
   title: Genesco to Overhaul Tech and Accelerate AI-enabled ...
   url: https://www.facebook.com/footwearnews/posts/genesco-to-overhaul-tech-and-accelerate-ai-enabled-innovations-expects-job-cuts/1243652767619925/
-- date: '2026-05-25'
+- date: ''
   title: THOMSON REUTERS - EDITED TRANSCRIPT - Q4 2019 ...
   url: https://www.genesco.com/static-files/15de29ce-baad-457f-8d34-000574ea17fe
 random_paper: 14
@@ -148,7 +148,7 @@ score:
     agentic_access: first-party
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,19 +115,19 @@ plans:
   plan_count: 0
   slug: group-1-automotive-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Group 1 Automotive Acquires High Volume Luxury Brand ...
   url: https://www.prnewswire.com/news-releases/group-1-automotive-acquires-high-volume-luxury-brand-dealership-302521201.html
-- date: '2026-05-25'
+- date: ''
   title: Group 1 Debuts Digital Sales and F&I Platform
   url: https://www.autodealertodaymagazine.com/news/group-1-debuts-digital-sales-and-fi-platform
-- date: '2026-05-25'
+- date: ''
   title: Group 1 Automotive Q1 2026 Earnings Call Transcript
   url: https://fortune.com/company/group-1-automotive/earnings/q1-2026/
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence tools that help dealers boost efficiency ...
   url: https://www.facebook.com/AutoNews/photos/artificial-intelligence-tools-that-help-dealers-boost-efficiency-are-creating-ne/1575894037729657/
-- date: '2026-05-25'
+- date: ''
   title: Recent Press | Group 1
   url: https://www.piedpiperpsi.com/press/?tag=group+1
 random_paper: 15
@@ -158,7 +158,7 @@ score:
     agentic_access: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,19 +116,19 @@ overview: 'Cameron International is profiled on the [APIs.io](https://apis.io/) 
 
   Cameron International''s developer surface includes product news and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Forbes Earnings Preview: Cameron International'
   url: https://www.forbes.com/sites/narrativescience/2014/01/28/forbes-earnings-preview-cameron-international-6/
-- date: '2026-05-25'
+- date: ''
   title: Schlumberger to buy oilfield gear maker Cameron in $14.8 ...
   url: https://www.reuters.com/article/business/schlumberger-to-buy-oilfield-gear-maker-cameron-in-148-billion-deal-idUSKCN0QV11T/
-- date: '2026-05-25'
+- date: ''
   title: Schlumberger Completes Merger with Cameron
   url: https://www.slb.com/newsroom/press-release/2016/pr-2016-0401-cameron-merger-complete
-- date: '2026-05-25'
+- date: ''
   title: 'Not Your Granddaddy''s OFS Provider: Schlumberger and ...'
   url: https://www.oilandgas360.com/not-your-granddaddys-ofs-provider-schlumberger-and-cameron-are-primed-to-change-how-its-done-at-the-wellhead/
-- date: '2026-05-25'
+- date: ''
   title: Cameron International 2026 Company Profile
   url: https://pitchbook.com/profiles/company/41282-47
 random_paper: 8
@@ -158,7 +158,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

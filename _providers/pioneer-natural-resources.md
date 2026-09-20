@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -58,19 +58,19 @@ nav: Providers
 network: true
 overview: Pioneer Natural Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oil, Gas, Energy, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: ExxonMobil buys shale giant Pioneer Natural Resources in ...
   url: https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/101123-exxonmobil-buys-shale-giant-pioneer-natural-resources-in-major-resource-boost
-- date: '2026-05-25'
+- date: ''
   title: Pioneer Natural Resources Midland Basin Site Visit
   url: https://energycouncil.com/articles/pioneer-natural-resources-midland-basin-site-visit/
-- date: '2026-05-25'
+- date: ''
   title: Pioneer Natural Resources
   url: https://aimagazine.com/company/pioneer-natural-resources
-- date: '2026-05-25'
+- date: ''
   title: ExxonMobil Completes Acquisition of Pioneer Natural ...
   url: https://energynow.com/2024/05/exxonmobil-completes-acquisition-of-pioneer-natural-resources/
-- date: '2026-05-25'
+- date: ''
   title: ExxonMobil announces merger with Pioneer Natural ...
   url: https://corporate.exxonmobil.com/news/news-releases/2023/1011_exxonmobil-announces-merger-with-pioneer-natural-resources-in-an-all-stock-transaction
 random_paper: 16
@@ -106,7 +106,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

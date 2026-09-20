@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -216,19 +216,19 @@ plans:
   plan_count: 3
   slug: united-rentals-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Financials - Quarterly results
   url: https://investors.unitedrentals.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: United Rentals Scales AI Applications with AWS
   url: https://investors.unitedrentals.com/press-releases/press-releases-details/2025/United-Rentals-Scales-AI-Applications-with-AWS/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence Is Reinventing Construction Scheduling
   url: https://www.unitedrentals.com/project-uptime/data/artificial-intelligence-reinventing-construction-scheduling
-- date: '2026-05-25'
+- date: ''
   title: United Rentals Introduces AI-Powered Equipment Agent
   url: https://investors.unitedrentals.com/press-releases/press-releases-details/2026/United-Rentals-Introduces-AI-Powered-Equipment-Agent/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: United Rentals Expands Digital Customer Experience with ...
   url: https://www.businesswire.com/news/home/20260519107330/en/United-Rentals-Expands-Digital-Customer-Experience-with-Equipment-Agent-Launch-in-ChatGPT
 random_paper: 3
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

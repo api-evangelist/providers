@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,30 +70,30 @@ overview: 'Genuine Parts Company is profiled on the [APIs.io](https://apis.io/) 
 
   Genuine Parts Company''s developer surface includes engineering blog and 4 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Genuine Parts Company Announces Plan to Separate ...
   url: https://www.prnewswire.com/news-releases/genuine-parts-company-announces-plan-to-separate-automotive-and-industrial-businesses-into-two-industry-leading-public-companies-302689075.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.genpt.com/2025-09-04-Genuine-Parts-Company-Advances-Board-Refreshment-Program-With-New-Appointments-to-Support-Ongoing-Transformation
-- date: '2026-05-25'
-  title: Genuine Parts Company Announces Plan to Separate ...
+- date: ''
+  title: Genuine Parts Company Announces Plan to Separate Automotive and Industrial Businesses Into Two Industry-Leading Public Companies
   url: https://www.genpt.com/2026-02-17-Genuine-Parts-Company-Announces-Plan-to-Separate-Automotive-and-Industrial-Businesses-Into-Two-Industry-Leading-Public-Companies
-- date: '2026-05-25'
-  title: Genuine Parts Company to Separate Automotive and ...
-  url: https://www.linkedin.com/posts/genuine-parts-company_today-gpc-announced-the-plan-to-separate-activity-7429526583591477248-2qKn
-- date: '2026-05-25'
-  title: Genuine Parts Company Plans Automotive-Industrial ...
-  url: https://thebrakereport.com/genuine-parts-company-plans-automotive-industrial-business-split/
-- date: '2026-04-28'
-  title: Genuine Parts Company Declares Regular Quarterly Dividend
-  url: https://www.genpt.com/2026-04-28-Genuine-Parts-Company-Declares-Regular-Quarterly-Dividend
-- date: '2026-04-21'
+- date: ''
   title: Genuine Parts Company Reports First Quarter 2026 Results and Reaffirms Full-Year Outlook
   url: https://www.genpt.com/2026-04-21-Genuine-Parts-Company-Reports-First-Quarter-2026-Results-and-Reaffirms-Full-Year-Outlook
-- date: '2026-03-31'
-  title: Genuine Parts Company to Report First Quarter 2026 Results on April 21, 2026
-  url: https://www.genpt.com/2026-03-31-Genuine-Parts-Company-to-Report-First-Quarter-2026-Results-on-April-21,-2026
+- date: ''
+  title: Genuine Parts Company to Present at the UBS Global Consumer and Retail Conference
+  url: https://www.genpt.com/2026-02-25-Genuine-Parts-Company-to-Present-at-the-UBS-Global-Consumer-and-Retail-Conference
+- date: ''
+  title: Genuine Parts Company Declares Regular Quarterly Dividend
+  url: https://www.genpt.com/2026-04-28-Genuine-Parts-Company-Declares-Regular-Quarterly-Dividend
+- date: ''
+  title: Genuine Parts Company Announces Plan to Separate ...
+  url: https://www.genpt.com/2026-02-17-Genuine-Parts-Company-Announces-Plan-to-Separate-Automotive-and-Industrial-Businesses-Into-Two-Industry-Leading-Public-Companies
+- date: ''
+  title: Genuine Parts Company to Separate Automotive and ...
+  url: https://www.linkedin.com/posts/genuine-parts-company_today-gpc-announced-the-plan-to-separate-activity-7429526583591477248-2qKn
 random_paper: 4
 score:
   band: minimal
@@ -115,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

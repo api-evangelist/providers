@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: TDS Telecom provides high-speed broadband, video, and voice services to residential and business customers across more than 900 rural and suburban communities in 30 states. TDS Telecom delivers fiber-
@@ -101,19 +101,19 @@ plans:
   plan_count: 1
   slug: telephone-and-data-systems-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Telephone & Data Systems Rtgs Lo'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/3935539
-- date: '2026-05-25'
+- date: ''
   title: US Signal Earns Spot on CRN 2025 Tech Elite 250 List
   url: https://www.stocktitan.net/news/TDS/us-signal-earns-spot-on-crn-2025-tech-elite-250-u3eafh2exera.html
-- date: '2026-05-25'
+- date: ''
   title: Telephone & Data Systems Inc. (TDS) AI Stock Analysis
   url: https://www.tipranks.com/stocks/tds/stock-analysis
-- date: '2026-05-25'
+- date: ''
   title: Telephone And Data Systems, Inc. TDS | US News Best Stocks
   url: https://money.usnews.com/investing/stocks/tds-telephone-and-data-systems-inc
-- date: '2026-05-25'
+- date: ''
   title: Telephone & Data Systems (TDS) on Track to Boost Fiber Suite
   url: https://finance.yahoo.com/news/telephone-data-systems-tds-track-122312251.html
 random_paper: 12
@@ -147,7 +147,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

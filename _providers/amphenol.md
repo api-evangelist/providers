@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: 'Amphenol designs, manufactures, and markets electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables. The corporate host runs no developer programme: no '
@@ -218,19 +218,19 @@ plans:
   plan_count: 1
   slug: amphenol-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: and cable solutions business from commscope
   url: https://www.sec.gov/Archives/edgar/data/820313/000110465925073344/tm2522435d1_ex99-1.htm
-- date: '2026-05-25'
+- date: ''
   title: Amphenol Corporation to Acquire Connectivity and Cable ...
   url: https://investors.amphenol.com/news-and-events/news-details/2025/Amphenol-Corporation-to-Acquire-Connectivity-and-Cable-Solutions-Business-From-CommScope/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence Machine Learning | AI / ML
   url: https://www.amphenol-cs.com/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Here's Why Amphenol Stock Popped Today (Hint
   url: https://finance.yahoo.com/news/heres-why-amphenol-stock-popped-173637058.html
-- date: '2026-05-25'
+- date: ''
   title: Amphenol Corporation Completes Acquisition of OWN and ...
   url: https://investors.amphenol.com/news-and-events/news-details/2025/Amphenol-Corporation-Completes-Acquisition-of-OWN-and-DAS-Businesses-From-CommScope/default.aspx
 random_paper: 16
@@ -266,7 +266,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

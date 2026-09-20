@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 12
 common:
@@ -98,19 +98,19 @@ overview: 'Westlake Chemical is profiled on the [APIs.io](https://apis.io/) netw
 
   Westlake Chemical''s developer surface includes developer portal, pricing, engineering blog, and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Westlake Chemical Partners outlines growth levers as it ...
   url: https://seekingalpha.com/news/4586055-westlake-chemical-partners-outlines-growth-levers-as-it-reports-0_4714-quarterly-distribution
-- date: '2026-05-25'
+- date: ''
   title: Westlake Chemical Partners LP (WLKP) — Deep Value In ...
   url: https://acquirersmultiple.com/2026/02/westlake-chemical-partners-lp-wlkp-deep-value-in-the-chemical-infrastructure-sector/
-- date: '2026-05-25'
+- date: ''
   title: Westlake Chemical Withdraws Proposal To Acquire ...
   url: https://www.prnewswire.com/news-releases/westlake-chemical-withdraws-proposal-to-acquire-georgia-gulf-150216555.html
-- date: '2026-05-25'
+- date: ''
   title: Westlake Implements Succession Plan | Business Wire - Via TT
   url: https://via.tt.se/pressmeddelande/3562315/westlake-implements-succession-plan?publisherId=259167&lang=en
-- date: '2026-05-25'
+- date: ''
   title: Westlake Chemical Partners LP Announces First Quarter 2026 ...
   url: https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-5-5-westlake-chemical-partners-lp-announces-first-quarter-2026-results
 random_paper: 15
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

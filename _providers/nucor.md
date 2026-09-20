@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,19 +83,19 @@ nav: Providers
 network: true
 overview: Nucor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Steel, Manufacturing, Fortune 500, Recycling, and Sustainability.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Nucor launches data center division with $115M acquisition
   url: https://www.facilitiesdive.com/news/nucor-data-center-acquisition/713591/
-- date: '2026-05-25'
+- date: ''
   title: Oil Rigs to Data Centers - Circular Steel
   url: https://nucor.com/case-study/data-center-case-study/
-- date: '2026-05-25'
+- date: ''
   title: Nucor Reports Results for the Second Quarter of 2025
   url: https://www.prnewswire.com/news-releases/nucor-reports-results-for-the-second-quarter-of-2025-302515226.html
-- date: '2026-05-25'
+- date: ''
   title: Nucor leans into automation to boost productivity, safety
   url: https://www.manufacturingdive.com/news/nucor-automation-steel-products-safety-labor-q2-2024-earnings/723405/
-- date: '2026-05-25'
+- date: ''
   title: Nucor to Acquire Manufacturer of Data Center Infrastructure
   url: https://nucor.com/news-release/nucor-to-acquire-manufacturer-of-data-center-infrastructure-122554
 random_paper: 1
@@ -124,7 +124,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -171,19 +171,19 @@ plans:
   plan_count: 1
   slug: progressive-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Progressive CEO Tricia Griffith Prioritizes AI for Strategic ...
   url: https://www.linkedin.com/posts/ron-arnold-40723644_progressive-investors-hear-about-ai-strategies-activity-7440542524496228352-TMwt
-- date: '2026-05-25'
+- date: ''
   title: Progressive Insurance® Imagines a World Where Animals ...
   url: https://progressive.mediaroom.com/news-releases/?item=122548
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at Progressive Insurance - Two Use ...
   url: https://emerj.com/artificial-intelligence-at-progressive-insurance/
-- date: '2026-05-25'
+- date: ''
   title: 'How Progressive is thinking about AI. #progressive ...'
   url: https://www.instagram.com/reel/DXIYDGDDamB/
-- date: '2026-05-25'
+- date: ''
   title: Progressive Insurance tests limits of AI-generated ads
   url: https://www.thedrum.com/news/progressive-insurance-tests-limits-ai-generated-ads-and-learns-when-pull-back
 random_paper: 21
@@ -224,7 +224,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

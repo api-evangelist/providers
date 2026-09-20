@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -185,19 +185,19 @@ plans:
   plan_count: 3
   slug: trimble-navigation-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Trimble to Acquire Document Crunch to Add AI-Powered ...
   url: https://www.barchart.com/story/news/1110119/trimble-to-acquire-document-crunch-to-add-ai-powered-risk-management-and-document-compliance-to-trimble-construction-one-project-delivery-ecosystem
-- date: '2026-05-25'
+- date: ''
   title: Trimble (TRMB) Latest News & Stock Updates - Page 2
   url: https://public.com/stocks/trmb/news/2
-- date: '2026-05-25'
+- date: ''
   title: Trimble offers precision for autonomous navigation, launches ...
   url: https://www.automatedwarehouseonline.com/trimble-offers-precision-for-autonomous-navigation-launches-agco-joint-venture/
-- date: '2026-05-25'
+- date: ''
   title: Trimble Changes Name to Reflect Company's Technology ...
   url: https://www.prnewswire.com/news-releases/trimble-changes-name-to-reflect-companys-technology-evolution-300337474.html
-- date: '2026-05-25'
+- date: ''
   title: Builder business and will extend Trimble's ability to provide ...
   url: https://www.facebook.com/TrimbleCorporate/posts/more-big-news-happened-todaywe-are-so-excited-to-announce-the-newest-member-of-t/1919754298098753/
 random_paper: 20
@@ -254,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

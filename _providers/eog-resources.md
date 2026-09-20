@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: EOG Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Network Automation Success Story: EOG Resources'
   url: https://www.netbrain.com/resources/eog-resources/
-- date: '2026-05-25'
+- date: ''
   title: EOG Resources, Inc. ($EOG) | TrendSpider Learning Center
   url: https://trendspider.com/learning-center/eog-resources-inc-eog/
-- date: '2026-05-25'
+- date: ''
   title: EOG Resources to Acquire Encino Acquisition Partners ...
   url: https://www.prnewswire.com/news-releases/eog-resources-to-acquire-encino-acquisition-partners-from-cpp-investments-and-encino-energy-strengthening-premier-utica-asset-increases-regular-dividend-5-302469370.html
-- date: '2026-05-25'
+- date: ''
   title: 'EOG Recources''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/eog-resources-ai-strategy-analysis-of-dominance-in-energy-ai/
-- date: '2026-05-25'
+- date: ''
   title: EOG Resources
   url: https://decarbonfuse.com/companies/eog-resources
 random_paper: 5
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

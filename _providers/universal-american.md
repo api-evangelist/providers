@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,19 +70,19 @@ overview: 'Universal American is profiled on the [APIs.io](https://apis.io/) net
 
   The Universal American catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Past Events | Wireless Infrastructure Association
   url: https://wia.org/?tribe_venue=mccormick-place&post_type=tribe_venue&eventDisplay=past
-- date: '2026-05-25'
+- date: ''
   title: Universal American 2026 Company Profile
   url: https://pitchbook.com/profiles/company/10557-01
-- date: '2026-05-25'
+- date: ''
   title: Effect of US-UK cultural differences on AI Development
   url: https://medium.com/@ZombieCodeKill/effect-of-us-uk-cultural-differences-on-ai-development-4edb9eb74959
-- date: '2026-05-25'
+- date: ''
   title: WellCare to Acquire Universal American Corp.
   url: https://www.prnewswire.com/news-releases/wellcare-to-acquire-universal-american-corp-300365007.html
-- date: '2026-05-25'
+- date: ''
   title: 'Universal American : Stockholders Approve Pending Merger with ...'
   url: https://www.marketscreener.com/quote/stock/UNIVERSAL-AMERICAN-CORPOR-7908721/news/Universal-American-Stockholders-Approve-Pending-Merger-with-WellCare-23892248/
 random_paper: 14
@@ -123,7 +123,7 @@ score:
     regime_id: insurance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

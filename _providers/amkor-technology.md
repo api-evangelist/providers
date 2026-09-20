@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Amkor Technology provides outsourced semiconductor packaging and test services for chip manufacturers worldwide. The company does not currently publish a public developer API.
@@ -161,19 +161,19 @@ plans:
   plan_count: 0
   slug: amkor-technology-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Amkor Technology Expands U.S. Advanced Packaging ...
   url: https://ir.amkor.com/news-releases/news-release-details/amkor-technology-expands-us-advanced-packaging-footprint
-- date: '2026-05-25'
+- date: ''
   title: 'Amkor Technology: Semiconductor Packaging & Test Services'
   url: https://amkor.com/
-- date: '2026-05-25'
+- date: ''
   title: Amkor Technology, Inc.
   url: https://www.facebook.com/AmkorTechnology/posts/final-preparations-are-underway-for-amkors-investor-day-in-new-york-cityour-firs/1406416311514303/
-- date: '2026-05-25'
+- date: ''
   title: Amkor Technology to Host 2026 Investor Day and Ring ...
   url: https://www.businesswire.com/news/home/20260521361298/en/Amkor-Technology-to-Host-2026-Investor-Day-and-Ring-Nasdaq-Closing-Bell
-- date: '2026-05-25'
+- date: ''
   title: Amkor Technology to Present at the Morgan Stanley ...
   url: https://ir.amkor.com/news-releases/news-release-details/amkor-technology-present-morgan-stanley-technology-media-0
 random_paper: 17
@@ -203,7 +203,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

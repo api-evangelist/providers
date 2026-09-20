@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,19 +100,19 @@ overview: 'Service Corp International is profiled on the [APIs.io](https://apis.
 
   Service Corp International''s developer surface includes engineering blog, support, and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: SERVICE CORP INTERNATIONAL SEC 10-K Report
   url: https://www.tradingview.com/news/tradingview:3b11fe766b384:0-service-corp-international-sec-10-k-report/
-- date: '2026-05-25'
+- date: ''
   title: SERVICE CORP INTERNATIONAL (SCI) SEC Filings
   url: https://moneysense.ai/sec-filings/company/sci
-- date: '2026-05-25'
+- date: ''
   title: Service Corporation International (SCI) Stock Price, News ...
   url: https://finance.yahoo.com/quote/SCI/
-- date: '2026-05-25'
+- date: ''
   title: Service Corp International (SCI) Q1 2024 Earnings
   url: https://www.gurufocus.com/news/2424291/service-corp-international-sci-q1-2024-earnings-aligns-with-eps-projections-amidst-revenue-growth?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
-- date: '2026-05-25'
+- date: ''
   title: Service Corporation International at 47th Annual Raymond ...
   url: https://www.investing.com/news/transcripts/service-corporation-international-at-47th-annual-raymond-james-strategic-insights-93CH-4538716
 random_paper: 17
@@ -141,7 +141,7 @@ score:
     - north-america
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

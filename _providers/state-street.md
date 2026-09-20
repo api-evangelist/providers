@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -340,19 +340,19 @@ plans:
   plan_count: 1
   slug: state-street-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: State Street to unveil AI agents for client services this summer
   url: https://www.bizjournals.com/boston/news/2026/04/17/state-street-ai-tools-launching-summer-2026.html
-- date: '2026-05-25'
+- date: ''
   title: Annual Report 2024
   url: https://www.statestreet.com/content/dam/stt/web/about/our-story/annual-report/documents/ssc-annual-report-2024.pdf
-- date: '2026-05-25'
+- date: ''
   title: State Street and UC Investments Forge Strategic Alliance ...
   url: https://www.stocktitan.net/news/STT/state-street-and-uc-investments-forge-strategic-alliance-to-expand-741wudclkkig.html
-- date: '2026-05-25'
+- date: ''
   title: Hemant Rao - Vice President, Automation and Artificial ...
   url: https://www.linkedin.com/in/hemantrao0825
-- date: '2026-05-25'
+- date: ''
   title: State Street (STT) Q1 2026 Earnings Call Transcript
   url: https://fortune.com/company/state-street-corp/earnings/q1-2026/
 random_paper: 21
@@ -419,7 +419,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

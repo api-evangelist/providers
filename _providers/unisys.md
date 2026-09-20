@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -173,19 +173,19 @@ plans:
   plan_count: 1
   slug: unisys-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'New Unisys Report: AI-Powered, Employee-Focused ...'
   url: https://www.prnewswire.com/news-releases/new-unisys-report-ai-powered-employee-focused-digital-workplaces-double-the-odds-of-exceeding-revenue-targets-302636061.html
-- date: '2026-05-25'
+- date: ''
   title: 'Unisys: Global Technology Solutions – Keep Breaking Through'
   url: https://www.unisys.com/
-- date: '2026-05-25'
+- date: ''
   title: ISG Names Unisys a Leader in its 2025 Provider Lens ...
   url: https://www.unisys.com/news-release/isg-names-unisys-a-leader-in-its-2025-provider-lens-for-cybersecurity-solutions-and-services/
-- date: '2026-05-25'
+- date: ''
   title: Investor Relations | Earnings Releases
   url: https://www.unisys.com/investor-relations/
-- date: '2026-05-25'
+- date: ''
   title: Earnings Releases
   url: https://www.unisys.com/investor-relations/earnings-releases/
 random_paper: 1
@@ -252,7 +252,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

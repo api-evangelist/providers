@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Web portal for builders and developers in Vectren/CenterPoint Energy service territories in Indiana and Ohio. Provides self-service tools for ordering new gas and electric service, checking order stat
@@ -115,19 +115,19 @@ plans:
   plan_count: 1
   slug: vectren-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: CenterPoint Energy reports strong Q4 and FY 2025 results
   url: https://investors.centerpointenergy.com/news-releases/news-release-details/centerpoint-energy-reports-strong-q4-and-fy-2025-results-updates
-- date: '2026-05-25'
+- date: ''
   title: Guggenheim Securities' Post
   url: https://www.linkedin.com/posts/guggenheim-securities_guggenheim-securities-llc-congratulates-activity-7386399675412590592-oxC9
-- date: '2026-05-25'
+- date: ''
   title: CenterPoint Energy and Vectren complete merger
   url: https://www.prnewswire.com/news-releases/centerpoint-energy-and-vectren-complete-merger-300788450.html
-- date: '2026-05-25'
+- date: ''
   title: Leading Energy Company Deploys Acuity to Maximize ...
   url: https://www.touchpointone.com/news-events/leading-energy-company-deploys-acuity-to-maximize-contact-center-performance
-- date: '2026-05-25'
+- date: ''
   title: $6 Billion Merger with CenterPoint Energy, Inc. | Experience
   url: https://www.bakerbotts.com/experience/v/vectren-corporation--6-billion-merger-wi
 random_paper: 11
@@ -161,7 +161,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: DTE Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: DTE Energy intends to pause future electric rate requests ...
   url: https://www.prnewswire.com/news-releases/dte-energy-intends-to-pause-future-electric-rate-requests-following-upcoming-filing-as-data-centers-come-online-302752078.html
-- date: '2026-05-25'
+- date: ''
   title: Google, DTE deal hints at new power framework
   url: https://www.argusmedia.com/en/news-and-insights/latest-market-news/2803538-google-dte-deal-hints-at-new-power-framework
-- date: '2026-05-25'
+- date: ''
   title: ARTIFICALINTELLIGENCE
   url: https://www.energy.gov/sites/default/files/2024-01/18-08-2020_doe-voe-artificial-intelligence-report-2_0.pdf
-- date: '2026-05-25'
+- date: ''
   title: 🔗 https://l.mlive.com/zrnohb DTE Energy wants Michigan ...
   url: https://www.facebook.com/annarbornews/posts/-httpslmlivecomzrnohb-dte-energy-wants-michigan-regulators-to-rush-approval-of-a/1398039142332110/
-- date: '2026-05-25'
+- date: ''
   title: DTE Energy powers OpenAI Stargate with 1.4 GW data ...
   url: https://www.linkedin.com/posts/bill-chiu-b1aba93_expanding-stargate-to-michigan-activity-7392582899608215552-POq5
 random_paper: 0
@@ -103,7 +103,7 @@ score:
     - north-america
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

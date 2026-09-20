@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -207,19 +207,19 @@ plans:
   plan_count: 1
   slug: united-natural-foods-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: UNFI taps into AI to improve forecasting, fulfillment
   url: https://www.digitalcommerce360.com/2025/12/02/unfi-ai-digital-overhaul-q1-fiscal-2026/
-- date: '2026-05-25'
+- date: ''
   title: AI is starting to take over inventory planning and it's ...
   url: https://www.instagram.com/reel/DWICYYlBpb6/
-- date: '2026-05-25'
+- date: ''
   title: United Natural Foods Expands Supply Chain Evolution ...
   url: https://www.businesswire.com/news/home/20240129358372/en/United-Natural-Foods-Expands-Supply-Chain-Evolution-with-Implementation-of-A.I.-Powered-Warehouse-Automation-System-in-its-New-Manchester-Distribution-Center
-- date: '2026-05-25'
+- date: ''
   title: United Natural Foods announces partnership with ...
   url: https://www.relexsolutions.com/news/united-natural-foods-announces-partnership-with-relex-solutions/
-- date: '2026-05-25'
+- date: ''
   title: UNFI and Symbotic Announce Agreement to Implement ...
   url: https://ir.unfi.com/news/press-release-details/2022/UNFI-and-Symbotic-Announce-Agreement-to-Implement-Industry-Leading-Warehouse-Automation-Systems/default.aspx
 random_paper: 13
@@ -276,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: Tiffany & Co.'s direct-to-consumer e-commerce platform at tiffany.com, enabling online browsing, customization, and purchase of jewelry, watches, accessories, and home items. The platform supports pro
@@ -146,19 +146,19 @@ plans:
   plan_count: 3
   slug: tiffany-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tiffany & Co. boosts sales with AI-powered client advisory ...
   url: https://www.linkedin.com/posts/aimresearch-ai_tiffany-co-the-189-year-old-jewelry-brand-activity-7404905317022498820-A735
-- date: '2026-05-25'
+- date: ''
   title: Tiffany Demands PSC to Prioritize Baseload Power Sources ...
   url: http://tiffany.house.gov/media/press-releases/tiffany-demands-psc-prioritize-baseload-power-sources-ensure-affordable-energy
-- date: '2026-05-25'
+- date: ''
   title: Tiffany & Co. achieves sparkling revenue with online ...
   url: https://www.iabuk.com/case-studies/tiffany-co-achieves-sparkling-revenue-online-optimisation
-- date: '2026-05-25'
+- date: ''
   title: 'Ken Goldberg and Tiffany Shlain: Speculation, Like Nature ...'
   url: https://cclarkgallery.com/exhibitions/73-ken-goldberg-and-tiffany-shlain-speculation-like-nature-media-room/overview/
-- date: '2026-05-25'
+- date: ''
   title: Disclaimer missing on likely AI-generated Tom Tiffany ...
   url: https://isthmus.com/news/news/disclaimer-missing-on-likely-ai-generated-tom-tiffany-campaign-ad/
 random_paper: 5
@@ -197,7 +197,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 22.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

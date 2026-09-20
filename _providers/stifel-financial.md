@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Stifel Bank account data accessible via Finicity (Mastercard) open banking aggregation API, enabling third-party applications to retrieve account balances, transaction history, and investment portfoli
@@ -101,19 +101,19 @@ plans:
   plan_count: 1
   slug: stifel-financial-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 2025 Annual Report
   url: https://www.stifel.com/docs/pdf/investorrelations/annualreports/annual2025.pdf
-- date: '2026-05-25'
+- date: ''
   title: Chen X. Na - Stifel Financial Corp.
   url: https://www.linkedin.com/in/chen-x-na-26b9867
-- date: '2026-05-25'
+- date: ''
   title: Schwab, Raymond James, Stifel drop as AI stirs concerns ...
   url: https://www.investing.com/news/stock-market-news/schwab-raymond-james-stifel-drop-as-ai-stirs-concerns-over-advisory-models-4497514
-- date: '2026-05-25'
+- date: ''
   title: Autonomy 2.0
   url: https://stifelinstitutional.com/iris/autonomy-2-0/
-- date: '2026-05-25'
+- date: ''
   title: Stifel CEO 'not comfortable' with AI replacing advisor ...
   url: https://www.investmentnews.com/independent-broker-dealers/stifel-ceo-not-comfortable-with-ai-replacing-advisor-judgement/266281
 random_paper: 19
@@ -147,7 +147,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

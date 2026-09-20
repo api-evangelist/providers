@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 16
 common:
@@ -149,19 +149,19 @@ plans:
   plan_count: 0
   slug: american-tire-distributors-holdings-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Recovering auto sales may spur supplier deals, drawing Ross, ...
   url: https://www.autonews.com/article/20100525/COPY/305259996/recovering-auto-sales-may-spur-supplier-deals-drawing-ross-icahn/
-- date: '2026-05-25'
+- date: ''
   title: Automotive ECommerce Market Will Hit Big Revenues in ...
   url: https://www.openpr.com/news/3843861/automotive-ecommerce-market-will-hit-big-revenues-in-future
-- date: '2026-05-25'
+- date: ''
   title: Ari Lanin
   url: https://www.gibsondunn.com/lawyer/lanin-ari/?pdf=display
-- date: '2026-05-25'
+- date: ''
   title: Contracts - API Evangelist Contracts
   url: https://contracts.apievangelist.com/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1838163/000149315224024559/forms-1.htm
 random_paper: 21
@@ -196,7 +196,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,19 +50,19 @@ nav: Providers
 network: true
 overview: Interpublic Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Omnicom Works With Google To Create AI Agents
   url: https://www.mediapost.com/publications/article/411787/omnicom-works-with-google-to-create-ai-agents.html?edition=141159
-- date: '2026-05-25'
+- date: ''
   title: Interpublic is excited to name Yaniv Sarig Global Head of ...
   url: https://www.facebook.com/InterpublicGroup/posts/interpublic-is-excited-to-name-yaniv-sarig-global-head-of-ai-commerce-reinforcin/1053987840085402/
-- date: '2026-05-25'
+- date: ''
   title: 'Interpublic AI Strategy: Analysis of Dominance in Marketing ...'
   url: https://www.klover.ai/interpublic_ai_strategy_analysis_of_dominance_in_marketing_communications_ai/
-- date: '2026-05-25'
+- date: ''
   title: 'Interpublic Group stock (US4606901001): advertising giant ...'
   url: https://www.ad-hoc-news.de/boerse/news/ueberblick/interpublic-group-stock-us4606901001-advertising-giant-navigates-ai/69369116
-- date: '2026-05-25'
+- date: ''
   title: We are in the News
   url: https://www.intelligencenode.com/in-the-news/
 random_paper: 5
@@ -94,7 +94,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

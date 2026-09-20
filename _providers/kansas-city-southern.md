@@ -41,19 +41,19 @@ nav: Providers
 network: true
 overview: Kansas City Southern is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Defunct, Freight, Rail, and Transportation.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Canadian Pacific and Kansas City Southern combine to ...
   url: https://www.prnewswire.com/news-releases/canadian-pacific-and-kansas-city-southern-combine-to-create-cpkc-301797507.html
-- date: '2026-05-25'
+- date: ''
   title: KCS Archives Page 23 of 113
   url: https://blet.org/news/category/sub-categories/kcs/page/23/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/16875/000119312521356374/d270360d8k.htm
-- date: '2026-05-25'
+- date: ''
   title: '"Kansas City Will Revolutionize AI," Says Torch.AI Chief ...'
   url: https://www.torch.ai/newsroom/kansas-city-will-revolutionize-ai-says-torch-ai-chief-product-officer-jason-delker
-- date: '2026-05-25'
+- date: ''
   title: 'CPKC''s AI Strategy: Analysis of Dominance in Rail ...'
   url: https://www.klover.ai/cpkc-ai-strategy-analysis-of-dominance-in-rail-transportation-ai/
 random_paper: 14

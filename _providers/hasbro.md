@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ overview: 'Hasbro is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Hasbro''s developer surface includes product news and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Hasbro CEO: ''We''re beyond experimentation'' with AI'
   url: https://www.retaildive.com/news/hasbro-ceo-ai-toys/812500/
-- date: '2026-05-25'
+- date: ''
   title: Hasbro Unveils New Strategy – Playing to Win
   url: https://investor.hasbro.com/news-releases/news-release-details/hasbro-unveils-new-strategy-playing-win
-- date: '2026-05-25'
+- date: ''
   title: Hasbro CFO talks AI, creativity, and Play-Doh Barbie
   url: https://www.cfodive.com/news/hasbro-cfo-talks-ai-creativity-playdoh-barbie/806478/
-- date: '2026-05-25'
+- date: ''
   title: Hasbro admits that they're planning to bring AI systems into ...
   url: https://www.reddit.com/r/dndnext/comments/15em0kp/hasbro_admits_that_theyre_planning_to_bring_ai/
-- date: '2026-05-25'
+- date: ''
   title: Hasbro CEO Says AI Integration Has Been "A Clear Success"
   url: https://www.enworld.org/threads/hasbro-ceo-says-ai-integration-has-been-a-clear-success.717852/
 random_paper: 1
@@ -118,7 +118,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

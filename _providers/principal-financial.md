@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Principal Financial Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Principal Financial Group uses QnABot on ...
   url: https://aws.amazon.com/blogs/machine-learning/principal-financial-group-uses-qnabot-on-aws-and-amazon-q-business-to-enhance-workforce-productivity-with-generative-ai/
-- date: '2026-05-25'
+- date: ''
   title: Principal Financial Group Embeds AI Across Workforce ...
   url: https://www.linkedin.com/posts/tommyloftus_the-morning-download-principal-financial-activity-7436797349580075008-NE6M
-- date: '2026-05-25'
+- date: ''
   title: AI is transforming the data center
   url: https://www.principalam.com/us/insights/real-estate/ai-transforming-data-center
-- date: '2026-05-25'
+- date: ''
   title: How Principal Financial Group fast tracked its AI plans ...
   url: https://www.ciodive.com/news/Principal-Financial-Group-generative-AI-cloud-strategy/694002/
-- date: '2026-05-25'
+- date: ''
   title: AI disruption and the implications for real estate
   url: https://brandassets.principal.com/m/55ca51235964976/original/Principal-Real-Estate-AI-and-Real-Estate-Series-Part-2.pdf
 random_paper: 4
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

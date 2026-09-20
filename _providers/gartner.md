@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -135,19 +135,19 @@ plans:
   plan_count: 0
   slug: gartner-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Gartner Says Autonomous Business and AI Layoffs May ...
   url: https://www.gartner.com/en/newsroom/press-releases/2026-05-05-gartner-says-autonomous-business-and-artificial-intelligence-layoffs-may-create-budget-room-but-do-not-deliver-returns
-- date: '2026-05-25'
+- date: ''
   title: Newsroom, Announcements and Media Contacts
   url: https://www.gartner.com/en/newsroom
-- date: '2026-05-25'
+- date: ''
   title: Gartner Survey Reveals 80% of CEOs Say AI Will Force ...
   url: https://www.gartner.com/en/newsroom/press-releases/2026-04-23-gartner-survey-reveals-80-percent-of-ceos-say-artificial-intelligence-will-force-operational-capability-overhauls
-- date: '2026-05-25'
+- date: ''
   title: Gartner Predicts 40% of Enterprise Apps Will Feature Task- ...
   url: https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025
-- date: '2026-05-25'
+- date: ''
   title: Gartner is the world authority on AI
   url: https://www.gartner.com/en/ai
 random_paper: 7
@@ -175,7 +175,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 22.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

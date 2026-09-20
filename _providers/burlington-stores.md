@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: 'Burlington''s consumer storefront: shopping, store locator, gift cards, loyalty and credit card servicing. No public API is published behind it. Every /.well-known/ path, /openapi.json and /llms.txt on'
@@ -132,19 +132,19 @@ plans:
   plan_count: 0
   slug: burlington-stores-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Nvidia Lower; Snowflake and Burlington Gain | Stock Movers
   url: https://www.youtube.com/watch?v=6oeXQD0lHKc
-- date: '2026-05-25'
+- date: ''
   title: Burlington's 'reimagined' store layout aims to make ...
   url: https://www.retaildive.com/news/burlington-store-refresh-initiative/757878/
-- date: '2026-05-25'
+- date: ''
   title: 'Earnings call transcript: Burlington Stores beats Q4 2025 ...'
   url: https://www.investing.com/news/transcripts/-93CH-4544612
-- date: '2026-05-25'
+- date: ''
   title: Burlington Unveils Reimagined Store Experience with ...
   url: https://www.prnewswire.com/news-releases/burlington-unveils-reimagined-store-experience-with-special-celebrations-across-21-markets-302526701.html
-- date: '2026-05-25'
+- date: ''
   title: AI Data Scientist
   url: https://burlingtonstores.jobs/edgewater-park-nj/ai-data-scientist/082546BFFE0B470D9805F15D5CE0AE3C/job/
 random_paper: 5
@@ -174,7 +174,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

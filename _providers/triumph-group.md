@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Triumph Group developer portal providing digital integration capabilities for aircraft lifecycle partners and customers. Supports MRO (Maintenance, Repair and Overhaul) integrations and technical data
@@ -122,19 +122,19 @@ plans:
   plan_count: 1
   slug: triumph-group-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: TRIUMPH ADVANCES BOARD REFRESHMENT
   url: https://www.prnewswire.com/news-releases/triumph-advances-board-refreshment-301837806.html
-- date: '2026-05-25'
+- date: ''
   title: Triumph Group Partners with ZS to Deliver Personalized ...
   url: https://financialpost.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/triumph-group-partners-with-zs-to-deliver-personalized-customer-experience-via-state-of-the-art-saas-product-personalize-ai
-- date: '2026-05-25'
+- date: ''
   title: Embee, Inc. has been acquired by Triumph Group, Inc.
   url: https://focusbankers.com/deal/embee-inc-acquired-triumph-group-inc/
-- date: '2026-05-25'
+- date: ''
   title: Triumph Group Partners with ZS to Deliver Personalized ...
   url: https://www.businesswire.com/news/home/20230531005226/en/Triumph-Group-Partners-with-ZS-to-Deliver-Personalized-Customer-Experience-via-State-of-the-Art-SaaS-Product-Personalize.AI
-- date: '2026-05-25'
+- date: ''
   title: Adam Cady's Post
   url: https://www.linkedin.com/posts/adam-cady-ba34bb202_lazards-aerospace-defense-advisory-team-activity-7292204364289433601-Mfwj
 random_paper: 15
@@ -178,7 +178,7 @@ score:
     - north-america
   previous_composite: 17.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

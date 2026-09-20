@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -238,19 +238,19 @@ plans:
   plan_count: 1
   slug: symantec-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Broadcom Completes Acquisition of Symantec Enterprise ...
   url: https://www.prnewswire.com/news-releases/broadcom-completes-acquisition-of-symantec-enterprise-security-business-300950721.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases | Gen Digital
   url: https://newsroom.gendigital.com/Symantec-Targeted-Attack-Analytics-Enables-Customers-to-Uncover-the-Most-Sophisticated-and-Dangerous-Cyber-Attacks
-- date: '2026-05-25'
+- date: ''
   title: Broadcom Introduces Industry's First Incident Prediction ...
   url: https://cybersecurityasia.net/broadcom-first-incident-predict-capability/
-- date: '2026-05-25'
+- date: ''
   title: Symantec Unveils AI-Powered ICS Cybersecurity Platform
   url: https://www.govconwire.com/articles/symantec-unveils-ai-powered-ics-cybersecurity-platform
-- date: '2026-05-25'
+- date: ''
   title: Cyber Security - Symantec Enterprise Cloud
   url: https://jp.broadcom.com/products/cybersecurity?ver=1.11.4
 random_paper: 10
@@ -307,7 +307,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

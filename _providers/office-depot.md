@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Office Depot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Office Supplies, Retail, B2B, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: HCLTech and The ODP Corporation Announce Agreement ...
   url: https://www.hcltech.com/press-releases/announcement/hcltech-and-odp-corporation-announce-agreement-it-and-digital
-- date: '2026-05-25'
+- date: ''
   title: ODP Corp. develops AI assistant for Office Depot, ...
   url: https://www.retaildive.com/news/odp-corp-ai-assistant-office-depot-office-max/725854/
-- date: '2026-05-25'
+- date: ''
   title: 'Another big company is going private: Office Depot in a ...'
   url: https://www.linkedin.com/posts/altmandaniel_another-big-company-is-going-private-office-activity-7376274528207015936-hHGw
-- date: '2026-05-25'
+- date: ''
   title: The ODP Corporation Enhances Customer Experience with ...
   url: https://investor.officedepot.com/news-releases/news-release-details/odp-corporation-enhances-customer-experience-gen-ai-data/
-- date: '2026-05-25'
+- date: ''
   title: The ODP Corporation Expands Collaboration with Microsoft to ...
   url: https://newsroom.officedepot.com/news-releases/news-release-details/odp-corporation-expands-collaboration-microsoft-leverage-power
 random_paper: 17
@@ -103,7 +103,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

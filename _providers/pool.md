@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Pool.com offers Web3 domain registration and distribution services with partner integration available to ICANN-accredited registrars through their API.
@@ -79,19 +79,19 @@ plans:
   plan_count: 3
   slug: pool-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://trainingindustry.com/press-release/
-- date: '2026-05-25'
+- date: ''
   title: Aiper Introduces Smarter, AI-Powered Approach to Pool ...
   url: https://www.prnewswire.com/news-releases/aiper-introduces-smarter-ai-powered-approach-to-pool-opening-season-302754257.html
-- date: '2026-05-25'
+- date: ''
   title: 'AI in lifeguarding: concerns about over-reliance and safety'
   url: https://www.facebook.com/groups/seniorlifeguards/posts/867747731288820/
-- date: '2026-05-25'
+- date: ''
   title: All posts tagged "artificial intelligence"
   url: https://www.poolmagazine.com/tag/artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: PoolPros.ai Launches AI-Powered National Marketplace ...
   url: https://www.kitsapsun.com/press-release/story/750387/poolpros-ai-launches-ai-powered-national-marketplace-for-pool-service-repair-remodeling-and-pool-builders/
 random_paper: 2
@@ -125,7 +125,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

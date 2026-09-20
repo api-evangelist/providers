@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,19 +60,19 @@ overview: 'Edgewell Personal Care is profiled on the [APIs.io](https://apis.io/)
 
   Edgewell Personal Care''s developer surface includes engineering blog and 2 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Edgewell Personal Care Announces First Quarter Fiscal ...
   url: https://www.prnewswire.com/news-releases/edgewell-personal-care-announces-first-quarter-fiscal-2026-results-302681845.html
-- date: '2026-05-25'
+- date: ''
   title: Press Release - Edgewell Personal Care
   url: https://www.avvaneo.com/en/blog-detail/press-release-edgewell.html
-- date: '2026-05-25'
+- date: ''
   title: Edgewell Personal Care Announces Second Quarter ...
   url: https://www.prnewswire.com/news-releases/edgewell-personal-care-announces-second-quarter-fiscal-2026-results-302763411.html
-- date: '2026-05-25'
+- date: ''
   title: Quality Data Enables AI, People Analytics at Edgewell
   url: https://news.sap.com/2025/03/improved-data-quality-enables-ai-and-people-analytics-at-edgewell/
-- date: '2026-05-25'
+- date: ''
   title: Edgewell Personal Care Announces Fourth Quarter and ...
   url: https://ir.edgewell.com/news-and-events/press-releases/2025/11-13-2025-110044688?sc_lang=en
 random_paper: 10
@@ -105,7 +105,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

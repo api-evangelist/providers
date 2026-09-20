@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Henry Schein is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Henry Schein One and AWS Collaborate to Transform ...
   url: https://www.businesswire.com/news/home/20251031477653/en/Henry-Schein-One-and-AWS-Collaborate-to-Transform-Global-Dentistry-with-Generative-AI
-- date: '2026-05-25'
+- date: ''
   title: Henry Schein One Announces Availability of AI Solutions ...
   url: https://investor.henryschein.com/news-releases/news-release-details/2023/Henry-Schein-One-Announces-Availability-of-AI-Solutions-for-Dentrix-Ascend-03-20-2023/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: PRESS RELEASE
   url: https://www.henryschein.com/us-en/images/corporate/2023-03-14_HenrySchein_PressRelease_IDS-2023_English.pdf
-- date: '2026-05-25'
+- date: ''
   title: Videa and Henry Schein One Partner to Advance Dental ...
   url: https://www.videa.ai/blog-posts/videahealth-henry-schein-one-accelerating-the-dental-ai-movement
-- date: '2026-05-25'
+- date: ''
   title: Henry Schein One Partners With VideaHealth to Launch ...
   url: https://investor.henryschein.com/news-releases/news-release-details/2022/Henry-Schein-One-Partners-With-VideaHealth-to-Launch-New-Dentrix-Detect-AI-X-Ray-Analysis-Tool-to-Enhance-Patient-Care-11-29-2022/default.aspx
 random_paper: 19
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

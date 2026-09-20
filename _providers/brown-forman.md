@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,19 +82,19 @@ overview: 'Brown-Forman is profiled on the [APIs.io](https://apis.io/) network. 
 
   Brown-Forman''s developer surface includes engineering blog and 7 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: LEADING TRADE ASSOCIATION EXPLORES ARITFICIAL ...
   url: https://www.prnewswire.com/news-releases/leading-trade-association-explores-aritficial-intelligence-in-the-alcohol-marketplace-302364667.html
-- date: '2026-05-25'
+- date: ''
   title: How Brown-Forman Is Evolving to Win the Digital Shelf
   url: https://consumergoods.com/glass-box-models-and-ai-fueled-creative-how-brown-forman-evolving-win-digital-shelf
-- date: '2026-05-25'
+- date: ''
   title: Leading Trade Association Explores Artificial Intelligence ...
   url: https://www.nabca.org/news-release/leading-trade-association-explores-artificial-intelligence-alcohol-marketplace
-- date: '2026-05-25'
+- date: ''
   title: Brown-Forman's Post
   url: https://www.linkedin.com/posts/brown-forman_brownforman-announces-chief-information-activity-7019380445414899713-HFxi
-- date: '2026-05-25'
+- date: ''
   title: Pernod Ricard Confirms Discussions With Brown-Forman
   url: https://aijourn.com/pernod-ricard-confirms-discussions-with-brown-forman/
 random_paper: 8
@@ -118,7 +118,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

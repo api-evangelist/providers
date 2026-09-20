@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Read-only HTTP JSON API serving Graphic Packaging International's open job requisitions from careers.graphicpkg.com. Four tools — search_jobs, get_job, list_departments and list_locations — are select
@@ -127,19 +127,19 @@ plans:
   plan_count: 0
   slug: graphic-packaging-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Pomerantz LLP Brings Class Action Lawsuit Against ...
   url: https://natlawreview.com/press-releases/pomerantz-llp-brings-class-action-lawsuit-against-graphic-packaging-holding
-- date: '2026-05-25'
+- date: ''
   title: Graphic Packaging Holding Company (GPK) Q1 2026 ...
   url: https://seekingalpha.com/article/4898608-graphic-packaging-holding-company-gpk-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Graphic Packaging Holding Company (GPK) reports earnings
   url: https://qz.com/graphic-packaging-holding-company-gpk-reports-earning-1851761994
-- date: '2026-05-25'
+- date: ''
   title: Graphic Packaging Holding Company Appoints New ...
   url: https://www.prnewswire.com/news-releases/graphic-packaging-holding-company-appoints-new-investor-relations-and-treasury-leadership-302728165.html
-- date: '2026-05-25'
+- date: ''
   title: '10-K: Annual report [Section 13 and 15(d), not S-K Item 405]'
   url: https://investors.graphicpkg.com/sec-filings/all-sec-filings/content/0001408075-26-000009/gpk-20251231.htm
 random_paper: 18
@@ -171,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

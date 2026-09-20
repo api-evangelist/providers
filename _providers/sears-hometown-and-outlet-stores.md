@@ -54,19 +54,19 @@ nav: Providers
 network: true
 overview: Sears Hometown and Outlet Stores is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Specialty Retail, Home Appliances, Tools and Hardware, and Lawn and Garden.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Advertising Paper.docx - In 1910 S. Duncan Black & Alonzo...
   url: https://www.coursehero.com/file/59959320/Advertising-Paperdocx/
-- date: '2026-05-25'
+- date: ''
   title: Sears looks to boost Kenmore and Craftsman brands with new hire
   url: https://www.reuters.com/article/business/sears-looks-to-boost-kenmore-and-craftsman-brands-with-new-hire-idUSKCN0QU054/
-- date: '2026-05-25'
+- date: ''
   title: Securities Enforcement and Litigation Update
   url: https://www.sullcrom.com/SullivanCromwell/_Assets/PDFs/Memos/Securities-Enforcement-Litigation-Update-2025.pdf
-- date: '2026-05-25'
+- date: ''
   title: Newly Proposed Amendments to the Delaware General ...
   url: https://www.stblaw.com/about-us/publications/view/2025/02/19/newly-proposed-amendments-to-the-delaware-general-corporation-law
-- date: '2026-05-25'
+- date: ''
   title: Stanley Black & Decker Completes Purchase Of Craftsman ...
   url: https://www.prnewswire.com/news-releases/stanley-black--decker-completes-purchase-of-craftsman-brand-from-sears-holdings-300420760.html
 random_paper: 17

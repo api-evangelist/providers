@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -137,19 +137,19 @@ plans:
   plan_count: 0
   slug: mutual-of-america-life-insurance-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Mutual of America Financial Group - Overview, News & ...
   url: https://www.zoominfo.com/c/mutual-of-america-life-insurance-co/71911491
-- date: '2026-05-25'
+- date: ''
   title: Virtual Assistant Important Information
   url: https://www.mutualofamerica.com/virtual-assistant-important-information
-- date: '2026-05-25'
+- date: ''
   title: 'Economic & Market Perspective: Year-End 2025 and 2026 ...'
   url: https://www.mutualofamerica.com/insights-and-tools/learning-center/emp/economic--market-perspective-january-2026
-- date: '2026-05-25'
+- date: ''
   title: Mutual of America Financial Group Names Christine ...
   url: https://www.prnewswire.com/news-releases/mutual-of-america-financial-group-names-christine-janofsky-as-executive-vice-president-chief-financial-officer-302459614.html
-- date: '2026-05-25'
+- date: ''
   title: What are some key issues investors should keep an eye on ...
   url: https://www.facebook.com/MutualofAmerica/posts/what-are-some-key-issues-investors-should-keep-an-eye-on-in-2026-joe-gaffoglio-p/866224722689607/
 random_paper: 17
@@ -195,7 +195,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

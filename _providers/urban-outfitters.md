@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -385,19 +385,19 @@ plans:
   plan_count: 3
   slug: urban-outfitters-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: EX-99.1
   url: https://www.sec.gov/Archives/edgar/data/912615/000119312526233928/urbn-ex99_1.htm
-- date: '2026-05-25'
+- date: ''
   title: '1 Post: Urban Outfitters is deploying agentic AI ...'
   url: https://www.instagram.com/p/DVG6jf7DZ9e/
-- date: '2026-05-25'
+- date: ''
   title: Urban Outfitters, Inc. Partners with Inspectorio to Navigate ...
   url: https://www.businesswire.com/news/home/20251209724432/en/Urban-Outfitters-Inc.-Partners-with-Inspectorio-to-Navigate-Complex-Global-Compliance-Landscape
-- date: '2026-05-25'
+- date: ''
   title: Urban Outfitters uses o9 Solutions' AI tech to boost efficiency
   url: https://www.just-style.com/news/urban-outfitters-uses-o9-solutions-ai-tech-to-boost-efficiency/
-- date: '2026-05-25'
+- date: ''
   title: URBN Reports Record Q2 Sales and Income
   url: https://investor.urbn.com/news-releases/news-release-details/urbn-reports-record-q2-sales-and-income
 random_paper: 0
@@ -454,7 +454,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,19 +122,19 @@ plans:
   plan_count: 1
   slug: johnson-and-johnson-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'J&J Uses AI Agents: 10 Ways to Use AI [In-Depth Analysis] ...'
   url: https://www.klover.ai/johnson-johnson-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025/
-- date: '2026-05-25'
+- date: ''
   title: Johnson & Johnson Advances Polyphonic™ AI Fund for ...
   url: https://www.jnjmedtech.com/en-US/news/press-releases/johnson-johnson-advances-polyphonic-ai-fund-surgery-data-driven-healthcar/
-- date: '2026-05-25'
+- date: ''
   title: 6 ways Johnson & Johnson is using AI to help advance ...
   url: https://www.jnj.com/innovation/artificial-intelligence-in-healthcare
-- date: '2026-05-25'
+- date: ''
   title: We're using AI and other innovative technology in new ...
   url: https://www.facebook.com/jnj/posts/were-using-ai-and-other-innovative-technology-in-new-ways-to-advance-healthcaref/1761545181191612/
-- date: '2026-05-25'
+- date: ''
   title: JNJ Innovation - News & Events
   url: https://jnjinnovation.com/news
 random_paper: 17
@@ -175,7 +175,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

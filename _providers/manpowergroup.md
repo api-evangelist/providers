@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: ManpowerGroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Workforce, Staffing, Talent, Human Resources, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: AI Drives Digital Skills Demand as U.S. Tech Hiring ...
   url: https://investor.manpowergroup.com/news-releases/news-release-details/ai-drives-digital-skills-demand-us-tech-hiring-outlook-shows
-- date: '2026-05-25'
+- date: ''
   title: ManpowerGroup Launches "Work Intelligence" Lab to ...
   url: https://www.manpowergroup.com/en/news-releases/news/manpowergroup-launches-work-intelligence-lab-to-lead-ai-powered-workforce-transformation
-- date: '2026-05-25'
+- date: ''
   title: 'The 2026 #ManpowerGroup Global Workforce Trends ...'
   url: https://www.facebook.com/ManpowerStaffingSG/posts/the-2026-manpowergroup-global-workforce-trends-are-here-as-we-enter-the-expandin/1441489147542820/
-- date: '2026-05-25'
+- date: ''
   title: Navigating the Now and Next
   url: https://www.manpowergroup.com/en/news-releases/news/navigating-the-now-and-next-manpowergroup-advances-action-around-ai-and-workforce-readiness-at-the-world-economic-forum-annual-meeting-in-davos
-- date: '2026-05-25'
+- date: ''
   title: ManpowerGroup Talent Solutions Partners with Carv as ...
   url: https://www.prnewswire.com/news-releases/manpowergroup-talent-solutions-partners-with-carv-as-part-of-its-strategy-to-embed-gen-ai-within-recruitment-302510536.html
 random_paper: 0
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

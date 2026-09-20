@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: MRC Global is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Energy, Industrial, Pipe, and Valves.
 press:
-- date: '2026-05-25'
+- date: ''
   title: MRC Global's digital e-commerce transformation - Valve World
   url: https://valve-world.net/mrc-globals-digital-e-commerce-transformation/
-- date: '2026-05-25'
+- date: ''
   title: MRC Global grows share of digital sales and AI use in Q1
   url: https://www.digitalcommerce360.com/article/mrc-digital-sales/
-- date: '2026-05-25'
+- date: ''
   title: DNOW and MRC Global combine in all-stock transaction
   url: https://ir.dnow.com/news-releases/news-release-details/dnow-and-mrc-global-combine-all-stock-transaction-creating
-- date: '2026-05-25'
+- date: ''
   title: DNOW and MRC Global to Combine in All-Stock ...
   url: https://www.phcppros.com/articles/21753-dnow-and-mrc-global-to-combine-in-all-stock-transaction-creating-a-premier-energy-and-industrial-solutions-provider
-- date: '2026-05-25'
+- date: ''
   title: DNOW and MRC Global to Combine in All-Stock ...
   url: https://www.sec.gov/Archives/edgar/data/1439095/000119312525149152/d75113dex991.htm
 random_paper: 2
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

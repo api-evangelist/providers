@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -90,28 +90,28 @@ overview: 'Time Warner is profiled on the [APIs.io](https://apis.io/) network. T
 
   Time Warner''s developer surface includes product news and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Mega merger alert: AT&T to pay $85 billion for Time Warner'
   url: https://mashable.com/article/att-time-warner-deal-80-billion
-- date: '2026-05-25'
+- date: ''
   title: AT&T Reaches Deal to Buy Time Warner for $85.4 Billion
   url: https://www.wsj.com/articles/at-t-reaches-deal-to-buy-time-warner-for-more-than-80-billion-1477157084
-- date: '2026-05-25'
+- date: ''
   title: ACLU Sees "Step Forward" in Government Monitoring of ...
   url: https://www.aclu.org/press-releases/aclu-sees-step-forward-government-monitoring-aoltime-warner-merger
-- date: '2026-05-25'
+- date: ''
   title: Join TPI for a Conference - The AT&T/Time Warner Decision
   url: https://techpolicyinstitute.org/publications/antitrust-and-competition/join-tpi-for-a-conference-the-att-time-warner-decision-what-it-means-for-technology-and-media-mergers/
-- date: '2026-05-25'
+- date: ''
   title: Trullion Newsroom | Press Releases & Company Updates
   url: https://trullion.com/newsroom/
-- date: '2026-05-25'
+- date: ''
   title: Time Warner Cable Stockholders Approve Merger With Comcast
   url: https://www.worktruckonline.com/125881/time-warner-cable-stockholders-approve-merger-with-comcast
-- date: '2026-05-25'
+- date: ''
   title: Collapse of Comcast-Time Warner Cable Merger is a ' ...
   url: https://www.newamerica.org/insights/collapse-of-comcast-time-warner-cable-merger-is-a-tremendous-victory-for-consumers-and-broadband-competition/
-- date: '2026-05-25'
+- date: ''
   title: Media Consolidation — News & Updates from Open MIC
   url: https://www.openmic.org/news/category/Media+Consolidation
 random_paper: 9
@@ -146,7 +146,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

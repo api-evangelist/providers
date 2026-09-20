@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: 'Rite Aid supports Electronic Data Interchange (EDI) for vendor integration using ANSI/ASC X12 standards (versions 4010 and 5010). Supported transactions include purchase orders (850), invoices (810), '
@@ -131,19 +131,19 @@ plans:
   plan_count: 1
   slug: rite-aid-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Leveraging Artificial Intelligence to Transform US Retail ...
   url: https://gprjournals.org/journals/index.php/ajt/article/view/456
-- date: '2026-05-25'
+- date: ''
   title: Rite Aid to face five-year facial recognition technology ban
   url: https://www.youtube.com/watch?v=k4hkQrkVMZQ
-- date: '2026-05-25'
+- date: ''
   title: The FTC's Case Against Rite Aid's Deployment of AI-Based ...
   url: https://www.arnoldporter.com/en/perspectives/advisories/2024/01/ftc-case-against-rite-aid-deployment-of-ai-based-technology
-- date: '2026-05-25'
+- date: ''
   title: Rite Aid and Google Cloud Partner to Modernize Pharmacy ...
   url: https://www.prnewswire.com/news-releases/rite-aid-and-google-cloud-partner-to-modernize-pharmacy-operations-and-enhance-the-online-customer-experience-301645616.html
-- date: '2026-05-25'
+- date: ''
   title: Rite Aid Banned from Using AI Facial Recognition After ...
   url: https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without
 random_paper: 13
@@ -188,7 +188,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 16
 common:
@@ -142,19 +142,19 @@ plans:
   plan_count: 0
   slug: abbvie-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Areas of Innovation
   url: https://www.abbvie.com/science/areas-of-innovation.html
-- date: '2026-05-25'
+- date: ''
   title: Three ways AI is changing drug discovery at AbbVie
   url: https://www.abbvie.com/who-we-are/our-stories/three-ways-ai-is-changing-drug-discovery-at-abbvie.html
-- date: '2026-05-25'
+- date: ''
   title: AI & Data Convergence
   url: https://www.abbvie.com/science/areas-of-innovation/ai-and-data-convergence.html
-- date: '2026-05-25'
+- date: ''
   title: AbbVie and BigHat Biosciences Announce Research ...
   url: https://www.prnewswire.com/news-releases/abbvie-and-bighat-biosciences-announce-research-collaboration-to-leverage-artificial-intelligence-and-machine-learning-to-discover-next-generation-therapeutic-antibodies-302006127.html
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at AbbVie - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-abbvie-two-use-cases/
 random_paper: 1
@@ -188,7 +188,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,19 +50,19 @@ nav: Providers
 network: true
 overview: LVB Acquisition is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Medical Devices, Orthopedics, and Holding Company.
 press:
-- date: '2026-05-25'
+- date: ''
   title: PE-Backed Biomet Plans $100M IPO To Trim Debt
   url: https://www.law360.com/articles/516307/pe-backed-biomet-plans-100m-ipo-to-trim-debt
-- date: '2026-05-25'
+- date: ''
   title: Zimmer Completes Combination with Biomet
   url: https://www.prnewswire.com/news-releases/zimmer-completes-combination-with-biomet-300104244.html
-- date: '2026-05-25'
+- date: ''
   title: DBS Bank plans to rationalise branch network in India
   url: https://www.retailbankerinternational.com/news/dbs-rationalise-branch-network-india/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1136869/000095017023004264/zbh-20221231.htm
-- date: '2026-05-25'
+- date: ''
   title: 2025-annual-report.pdf
   url: https://investor.zimmerbiomet.com/~/media/Files/Z/ZimmerBiomet-IR/documents/annual-reports/2025-annual-report.pdf
 random_paper: 0
@@ -98,7 +98,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

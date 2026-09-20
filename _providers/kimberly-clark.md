@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,19 +98,19 @@ overview: 'Kimberly-Clark is profiled on the [APIs.io](https://apis.io/) network
 
   Kimberly-Clark''s developer surface includes product news and 11 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Kimberly-Clark to Acquire Kenvue, Creating a $32 Billion ...
   url: https://www.prnewswire.com/news-releases/kimberly-clark-to-acquire-kenvue-creating-a-32-billion-global-health-and-wellness-leader-302602379.html
-- date: '2026-05-25'
+- date: ''
   title: Kimberly-Clark to invest over $2B in US operations
   url: https://finance.yahoo.com/news/kimberly-clark-invest-over-2b-114118360.html
-- date: '2026-05-25'
+- date: ''
   title: Kimberly-Clark Names Zack Hicks as Chief Digital and ...
   url: https://www.prnewswire.com/news-releases/kimberly-clark-names-zack-hicks-as-chief-digital-and-technology-officer-301595257.html
-- date: '2026-05-25'
+- date: ''
   title: Kimberly-Clark
   url: https://www.facebook.com/KimberlyClarkCorp/posts/during-kimberly-clarks-investor-day-the-company-shares-strategic-plans-for-growt/806585564841925/
-- date: '2026-05-25'
+- date: ''
   title: FourKites Recognizes Ardent Mills, Kimberly-Clark, The ...
   url: https://www.businesswire.com/news/home/20250828027223/en/FourKites-Recognizes-Ardent-Mills-Kimberly-Clark-The-Coca-Cola-Company-and-Others-for-Outstanding-Achievements-in-Supply-Chain-Transformation
 random_paper: 3
@@ -134,7 +134,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

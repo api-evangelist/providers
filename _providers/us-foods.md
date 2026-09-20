@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: US Foods MOXe is a comprehensive foodservice eCommerce platform enabling restaurants, healthcare facilities, and institutional customers to place orders, manage inventory, track deliveries, and pay in
@@ -102,19 +102,19 @@ plans:
   plan_count: 1
   slug: us-foods-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: US Foods adds AI ordering as ecommerce drives Q4 sales ...
   url: https://www.digitalcommerce360.com/2026/02/13/us-foods-ai-ordering-tools-sales-q4-2025/
-- date: '2026-05-25'
+- date: ''
   title: Improve Restaurant Efficiency With AI
   url: https://www.usfoods.com/tools-tips-and-ideas/articles-and-publications/articles/improve-restaurant-efficiency-with-ai-
-- date: '2026-05-25'
+- date: ''
   title: Use AI to Drive Restaurant Customer Engagement and ...
   url: https://www.usfoods.com/tools-tips-and-ideas/articles-and-publications/articles/use-ai-to-drive-restaurant-customer-engagement-and-loyalty
-- date: '2026-05-25'
+- date: ''
   title: US Foods Case Study
   url: https://aws.amazon.com/solutions/case-studies/us-foods-case-study/
-- date: '2026-05-25'
+- date: ''
   title: US Foods Reports First Quarter Fiscal Year 2026 Earnings
   url: https://ir.usfoods.com/newsroom/news/news-details/2026/US-Foods-Reports-First-Quarter-Fiscal-Year-2026-Earnings/default.aspx
 random_paper: 2
@@ -153,7 +153,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

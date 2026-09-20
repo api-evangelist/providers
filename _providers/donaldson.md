@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Donaldson is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Filtration, Industrial, Manufacturing, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Leveraging Data & AI for Customer-Centric Solutions with ...
   url: https://www.equisoft.com/podcasts/leveraging-enterprise-data-and-ai-for-customer-centric-solutions-with-jeff-donaldson-mutual-of-america-financial-group
-- date: '2026-05-25'
+- date: ''
   title: 'TeraAI: Production-Ready AI for SAP Solutions'
   url: https://www.linkedin.com/posts/allie-mills-digital-marketing_sean-donaldson-said-it-best-enterprises-activity-7459633667573747715-djp7
-- date: '2026-05-25'
+- date: ''
   title: Donaldson stock upgraded by Morgan Stanley on AI ...
   url: https://www.investing.com/news/analyst-ratings/donaldson-stock-upgraded-by-morgan-stanley-on-ai-exposure-and-aftermarket-strength-93CH-4375322
-- date: '2026-05-25'
+- date: ''
   title: Mighty Distributing Expands Heavy Duty Offering with ...
   url: https://www.prnewswire.com/news-releases/mighty-distributing-expands-heavy-duty-offering-with-donaldson-partnership-to-deliver-filtration-innovation-and-inventory-expertise-302499070.html
-- date: '2026-05-25'
+- date: ''
   title: Intellectual Property Policy Strategist Kirsten Donaldson ...
   url: https://www.hklaw.com/en/news/pressreleases/2026/04/intellectual-property-policy-strategist-kirsten-donaldson-joins
 random_paper: 16
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,19 +55,19 @@ nav: Providers
 network: true
 overview: PC Connection is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include IT Solutions, Technology, Reseller, and Procurement.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Connection Launches Helix Center for Applied AI and ...
   url: https://www.businesswire.com/news/home/20231214409898/en/Connection-Launches-Helix-Center-for-Applied-AI-and-Robotics
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence
   url: https://www.connection.com/solutions-services/artificial-intelligence?srsltid=AfmBOor5eD_nU3YiYqFtZoo8Fq_fTvTT94mnMdGFuA2pVQ_pe2RIma0o
-- date: '2026-05-25'
+- date: ''
   title: CNXN Helix Wins U.S. Department of the Navy Prize ...
   url: https://ir.connection.com/news-releases/news-release-details/cnxn-helix-wins-us-department-navy-prize-challenge-gen-ai
-- date: '2026-05-25'
+- date: ''
   title: Connection Launches Helix Center for Applied AI and Robotics
   url: https://ir.connection.com/news-releases/news-release-details/connection-launches-helix-center-applied-ai-and-robotics
-- date: '2026-05-25'
+- date: ''
   title: Connection Wins Intel Partner of the Year Award for AI PC
   url: https://chimecentral.org/resource-press-release/connection-wins-intel-partner-year-award-ai-pc
 random_paper: 8
@@ -91,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

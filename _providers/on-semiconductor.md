@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: onsemi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductors, Power Management, Image Sensing, Automotive, and Industrial.
 press:
-- date: '2026-05-25'
+- date: ''
   title: ON Semiconductor's AI and electrification growth fueled by ...
   url: https://www.linkedin.com/posts/robertquinn2020_semiconductors-ai-datacenters-activity-7379304112229666816-btn9
-- date: '2026-05-25'
+- date: ''
   title: ON Semiconductor faces cyclical downturn but bets on AI ...
   url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2025/10/on-semiconductor-faces-cyclical-downturn-but-bets-on-ai-and-ev-rebound
-- date: '2026-05-25'
+- date: ''
   title: ON Semiconductor reports earnings beat on AI data ...
   url: https://ca.finance.yahoo.com/news/onsemi-reports-earnings-beat-ai-154500571.html
-- date: '2026-05-25'
+- date: ''
   title: onsemi ($ON) has released Q1'26 earnings results ...
   url: https://www.facebook.com/onsemi/posts/onsemi-on-has-released-q126-earnings-results-with-total-revenue-of-1513-billionw/1385002667001030/
-- date: '2026-05-25'
+- date: ''
   title: ON Semiconductor Narrows First-Quarter Loss on AI Data- ...
   url: https://www.wsj.com/business/earnings/on-semiconductor-narrows-first-quarter-loss-on-ai-data-center-demand-008e28d3
 random_paper: 1
@@ -113,7 +113,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

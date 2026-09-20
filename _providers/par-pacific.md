@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,19 +90,19 @@ overview: 'Par Pacific Holdings is profiled on the [APIs.io](https://apis.io/) n
 
   Par Pacific Holdings'' developer surface includes product news and 9 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Par Petroleum Corporation Announces Name Change to ...
   url: https://www.prnewswire.com/news-releases/par-petroleum-corporation-announces-name-change-to-par-pacific-holdings-inc-william-pate-appointed-president-and-chief-executive-officer-300159793.html
-- date: '2026-05-25'
+- date: ''
   title: Par Pacific Holdings Inc
   url: https://www.reuters.com/company/par-pacific-holdings-inc/
-- date: '2026-05-25'
+- date: ''
   title: Par Pacific Announces Private Placement of $500 Million ...
   url: https://natlawreview.com/press-releases/par-pacific-announces-private-placement-500-million-senior-notes
-- date: '2026-05-25'
+- date: ''
   title: Par Pacific Holdings - Case Study
   url: https://lemongrasscloud.com/case-studies/par-pacific-sap-on-aws-modernization-case-study/
-- date: '2026-05-25'
+- date: ''
   title: Par Pacific Holdings, Inc. (PARR) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4899394-par-pacific-holdings-inc-parr-q1-2026-earnings-call-transcript
 random_paper: 9
@@ -132,7 +132,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

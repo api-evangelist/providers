@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,19 +67,19 @@ nav: Providers
 network: true
 overview: Macy's is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Department Store, E-Commerce, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Macy's AI-powered shopping assistant underscores ...
   url: https://www.retaildive.com/ex/mobilecommercedaily/macys-ai-powered-shopping-assistant-underscores-mobiles-starring-role-in-retail
-- date: '2026-05-25'
+- date: ''
   title: '🚨 BREAKING🚨: Shoppers using Macy''s new AI Assistant " ...'
   url: https://www.linkedin.com/posts/max-sinclair-ai_breaking-shoppers-using-macys-new-activity-7449790497566416897-jEJr
-- date: '2026-05-25'
+- date: ''
   title: Macy's personalizes, expands online offers with AI
   url: https://chainstoreage.com/macys-personalizes-expands-online-offers-ai
-- date: '2026-05-25'
+- date: ''
   title: Macy's, Inc. will leverage AI ahead of a cautious outlook for 2026
   url: https://www.glossy.co/beauty/macys-inc-is-looking-to-leverage-ai-ahead-of-a-cautious-outlook-for-2026/
-- date: '2026-05-25'
+- date: ''
   title: 'A New Era for Online Shopping: How Macy''s Built the ''Ask ...'
   url: https://www.googlecloudpresscorner.com/2026-04-22-A-New-Era-for-Online-Shopping-How-Macys-Built-the-Ask-Macys-AI-Agent-in-4-Weeks-With-Gemini-Enterprise-for-Customer-Experience
 random_paper: 13
@@ -103,7 +103,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.4
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 15
 common:
@@ -144,19 +144,19 @@ plans:
   plan_count: 0
   slug: allstate-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Machine Learning Implementation at Allstate
   url: https://d3.harvard.edu/platform-rctom/submission/youre-in-good-ai-hands-machine-learning-implementation-at-allstate/
-- date: '2026-05-25'
+- date: ''
   title: Allstate Elevates Customer Service Through Artificial ...
   url: https://www.prnewswire.com/news-releases/allstate-elevates-customer-service-through-artificial-intelligence-300653613.html
-- date: '2026-05-25'
+- date: ''
   title: Current Applications at One of America's Largest Insurance ...
   url: https://emerj.com/ai-at-allstate/
-- date: '2026-05-25'
+- date: ''
   title: Q3 2025 Earnings Call Presentation - The Allstate Corporation
   url: https://www.allstateinvestors.com/static-files/7211698c-c913-4c99-98e5-82a4836b85a4
-- date: '2026-05-25'
+- date: ''
   title: Allstate CEO Touts New AI Agent System to Lower Costs
   url: https://news.ambest.com/newscontent.aspx?refnum=270450&altsrc=23
 random_paper: 0
@@ -190,7 +190,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -58,19 +58,19 @@ nav: Providers
 network: true
 overview: Nexeo Solutions Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Plastics, Distribution, and Legacy.
 press:
-- date: '2026-05-25'
+- date: ''
   title: jobdating/companylist.py at master
   url: https://github.com/imlocle/jobdating/blob/master/companylist.py
-- date: '2026-05-25'
+- date: ''
   title: WL Ross Holding Corp. and Nexeo Solutions Announce ...
   url: https://www.prnewswire.com/news-releases/wl-ross-holding-corp-and-nexeo-solutions-announce-closing-of-business-combination-300282349.html
-- date: '2026-05-25'
+- date: ''
   title: FORM S-1
   url: https://www.sec.gov/Archives/edgar/data/1841610/000114036121002967/nt10019343x1_s1.htm
-- date: '2026-05-25'
+- date: ''
   title: S-4
   url: https://www.sec.gov/Archives/edgar/data/1789542/000119312520032110/d879781ds4.htm
-- date: '2026-05-25'
+- date: ''
   title: Search - Winstead PC - Mobile
   url: https://www.winstead.com/Search?search=*
 random_paper: 11
@@ -100,7 +100,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

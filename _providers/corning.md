@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -126,19 +126,19 @@ overview: 'Corning is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   Corning''s developer surface includes product news and 18 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: News Releases | Optical Communications
   url: https://www.corning.com/optical-communications/worldwide/en/home/news-and-events/news-releases.html
-- date: '2026-05-25'
+- date: ''
   title: NVIDIA and Corning Announce Long-Term Partnership to ...
   url: https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure
-- date: '2026-05-25'
+- date: ''
   title: Corning and Lumen Technologies are working together to ...
   url: https://www.facebook.com/corningincorporated/posts/corning-and-lumen-technologies-are-working-together-to-push-the-boundaries-of-wh/1167177112104092/
-- date: '2026-05-25'
+- date: ''
   title: Nvidia, Corning partner on three new optical factories NC ...
   url: https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html
-- date: '2026-05-25'
+- date: ''
   title: Corning Launches GlassWorks AI™ Solutions, a One-Stop ...
   url: https://investor.corning.com/news-and-events/news/news-details/2025/Corning-Launches-GlassWorks-AI-Solutions-a-One-Stop-Shop-for-AI-Data-Center-Infrastructure-Needs/default.aspx
 random_paper: 4
@@ -168,7 +168,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

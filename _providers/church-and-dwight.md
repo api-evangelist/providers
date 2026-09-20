@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 14
 common:
@@ -150,19 +150,19 @@ nav: Providers
 network: true
 overview: Church and Dwight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Arm and Hammer, Beauty, Cleaning Products, Consumer Packaged Goods, and CPG.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Proskauer Advises Church & Dwight on $700 million ...
   url: https://www.proskauer.com/release/proskauer-advises-church-and-dwight-on-700-million-acquisition-of-touchland
-- date: '2026-05-25'
+- date: ''
   title: How Church & Dwight Integrates AI with Traditional ...
   url: https://www.quirks.com/storage/ralene/2025%20TQE%20Session%20Documents/2025%20TQE%20CH%20Sess%20Docs/Wed_Rm2_1645.pdf
-- date: '2026-05-25'
+- date: ''
   title: Church & Dwight Maps Out AI-Fueled Marketing Strategy
   url: https://consumergoods.com/church-dwight-maps-out-ai-fueled-marketing-strategy
-- date: '2026-05-25'
+- date: ''
   title: Church & Dwight Co., Inc. Annual Report
   url: https://s203.q4cdn.com/233583214/files/doc_financials/2024/ar/Final-AR-for-website.pdf
-- date: '2026-05-25'
+- date: ''
   title: Church & Dwight Leverages Data & AI for E-commerce ...
   url: https://www.linkedin.com/posts/consumer-goods-technology_church-dwight-looks-to-ai-to-capture-consumer-activity-7424529260817772544-Q6Qg
 random_paper: 9
@@ -197,7 +197,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

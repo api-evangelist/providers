@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 5
 common:
@@ -108,19 +108,19 @@ plans:
   plan_count: 0
   slug: caci-international-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: CACI has been awarded a five-year task order, valued at ...
   url: https://www.facebook.com/CACIIntl/posts/caci-has-been-awarded-a-five-year-task-order-valued-at-up-to-306m-to-continue-su/1604772524989295/
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence
   url: https://www.caci.com/artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: New at CACI
   url: https://www.caci.com/new-caci
-- date: '2026-05-25'
+- date: ''
   title: CACI | News
   url: https://investor.caci.com/news/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: CACI Awarded $290 Million Contract to Provide AI and ...
   url: https://investor.caci.com/news/news-details/2024/CACI-Awarded-290-Million-Contract-to-Provide-AI-and-Geospatial-Expertise-to-the-National-Geospatial-Intelligence-Agency-NGA/default.aspx
 random_paper: 19
@@ -154,7 +154,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -151,19 +151,19 @@ plans:
   plan_count: 0
   slug: colgate-palmolive-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Leverages Artificial Intelligence
   url: https://www.colgatepalmolive.com/en-us/who-we-are/our-policies/artificial-intelligence-policy
-- date: '2026-05-25'
+- date: ''
   title: Colgate-Palmolive signs on to AI tool for biomaterials ...
   url: https://www.packagingdive.com/news/erthos-colgate-palmolive-zya-ai-platform-biomaterials-development/759412/
-- date: '2026-05-25'
+- date: ''
   title: How Colgate leverages AI and Big Data
   url: https://blackswan.com/resources/our-thinking/how-colgate-leverages-ai-and-big-data
-- date: '2026-05-25'
+- date: ''
   title: How Colgate-Palmolive's Hello amplifies marketing by gut- ...
   url: https://www.marketingdive.com/news/how-colgate-palmolives-hello-amplifies-marketing-by-gut-checking-ai/802878/
-- date: '2026-05-25'
+- date: ''
   title: Colgate - Harnessing AI for innovative oral care
   url: https://www.efp.org/publications-hub/colgate-harnessing-ai-for-innovative-oral-care-how-colgate-palmolive-is-taking-on-the-charge/
 random_paper: 11
@@ -193,7 +193,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

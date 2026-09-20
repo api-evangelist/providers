@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -280,19 +280,19 @@ plans:
   plan_count: 1
   slug: ups-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Brilliant Ways UPS Uses Artificial Intelligence ...
   url: https://www.cbcommerce.eu/blog/2018/07/20/the-brilliant-ways-ups-uses-artificial-intelligence-machine-learning-and-big-data/?srsltid=AfmBOorrQQp7X1xM0zzx_HDJ98Vlb7BOUbH4JecNh0VQSBdOodiJ7iSI
-- date: '2026-05-25'
+- date: ''
   title: UPS Uses Artificial Intelligence For Pricing
   url: https://www.forbes.com/sites/stevebanker/2025/04/21/ups-uses-artificial-intelligence-for-pricing/
-- date: '2026-05-25'
+- date: ''
   title: UPS is improving careers and access to opportunity with ...
   url: https://about.ups.com/us/en/our-stories/innovation-driven/ups-is-improving-careers-and-access-to-opportunity-with-the-help.html
-- date: '2026-05-25'
+- date: ''
   title: UPS is teaming up with artificial intelligence to try and ...
   url: https://www.facebook.com/12news/posts/ups-is-teaming-up-with-artificial-intelligence-to-try-and-reduce-delivery-theft-/717383273756399/
-- date: '2026-05-25'
+- date: ''
   title: How UPS is using AI, from shipper pricing to customs ...
   url: https://www.supplychaindive.com/news/ups-ai-employee-upskilling-network-changes/816412/
 random_paper: 14
@@ -354,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

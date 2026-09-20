@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 11
 common:
@@ -116,19 +116,19 @@ overview: 'Zimmer Biomet is profiled on the [APIs.io](https://apis.io/) network.
 
   Zimmer Biomet''s developer surface includes support, engineering blog, legal docs, YouTube channel, and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Zimmer Biomet Announces Second Quarter 2025 Financial ...
   url: https://investor.zimmerbiomet.com/news-and-events/news/2025/08-07-2025-113110277
-- date: '2026-05-25'
+- date: ''
   title: Zimmer Biomet and Hospital for Special Surgery (HSS ...
   url: https://investor.zimmerbiomet.com/news-and-events/news/2022/07-28-2022-120241000
-- date: '2026-05-25'
+- date: ''
   title: RevelAi Health and Zimmer Biomet Announce Exclusive ...
   url: https://investor.zimmerbiomet.com/news-and-events/news/2024/06-12-2024
-- date: '2026-05-25'
+- date: ''
   title: Zimmer Biomet to Release New Data, Highlight Key ...
   url: https://www.prnewswire.com/news-releases/zimmer-biomet-to-release-new-data-highlight-key-innovations-at-american-academy-of-orthopaedic-surgeons-annual-meeting-302696434.html
-- date: '2026-05-25'
+- date: ''
   title: Zimmer Biomet Debuts First-of-its-Kind Artificial Intelligence ...
   url: https://orthofeed.com/2022/05/10/zimmer-biomet-debuts-first-of-its-kind-artificial-intelligence-capabilities-for-omni-suite-intelligent-operating-room/
 random_paper: 3
@@ -158,7 +158,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

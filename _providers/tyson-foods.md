@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -192,19 +192,19 @@ plans:
   plan_count: 1
   slug: tyson-foods-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Tyson Food's AI-Driven Tech Helps Brands Avoid Digital ...
   url: https://www.ana.net/miccontent/show/id/cs-2024-09-mma-tyson-foods-13139
-- date: '2026-05-25'
+- date: ''
   title: Tyson Ventures Calls Startups to Apply for Tyson Demo ...
   url: https://www.tysonfoods.com/news/news-releases/2025/3/tyson-ventures-calls-startups-apply-tyson-demo-day-2025
-- date: '2026-05-25'
+- date: ''
   title: Tyson Foods elevates customer search experience with an ...
   url: https://aws.amazon.com/blogs/machine-learning/tyson-foods-elevates-customer-search-experience-with-an-ai-powered-conversational-assistant/
-- date: '2026-05-25'
+- date: ''
   title: Tyson Foods selects six AI startups at Demo Day event
   url: https://talkbusiness.net/2025/07/tyson-foods-selects-six-ai-startups-at-demo-day-event/
-- date: '2026-05-25'
+- date: ''
   title: Tyson Demo Day Showcases AI Innovations in Food ...
   url: https://www.tysonfoods.com/news/news-releases/2025/7/tyson-demo-day-showcases-ai-innovations-food-technology
 random_paper: 13
@@ -261,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

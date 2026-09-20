@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,19 +74,19 @@ overview: 'Domtar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
   Domtar''s developer surface includes engineering blog and 5 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'One Year of Domtar: Celebrating Our Progress'
   url: https://www.domtar.com/integrated-domtar-highlights-year-one/
-- date: '2026-05-25'
+- date: ''
   title: Paper Excellence Group Rebrands as Domtar
   url: https://www.prnewswire.com/news-releases/paper-excellence-group-rebrands-as-domtar-302284787.html
-- date: '2026-05-25'
+- date: ''
   title: AI Modeling Boosts Quality and Efficiency in Our Sawmills
   url: https://www.domtar.com/domtar-ai-modeling/
-- date: '2026-05-25'
+- date: ''
   title: Domtar Releases First Post-Integration Sustainability ...
   url: https://www.newswire.ca/news-releases/domtar-releases-first-post-integration-sustainability-report-marking-a-milestone-toward-2030-goals-866776046.html
-- date: '2026-05-25'
+- date: ''
   title: Pulp and Paper Engineers Shape the Future of Our Industry
   url: https://www.domtar.com/pulp-and-paper-engineers-shape-the-future-of-our-industry/
 random_paper: 9
@@ -110,7 +110,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 6.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

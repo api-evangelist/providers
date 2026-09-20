@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: Marathon Oil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Exploration, Natural Gas, Oil, and Production.
 press:
-- date: '2026-05-25'
+- date: ''
   title: ConocoPhillips to Acquire Marathon Oil in $17.1 Billion All- ...
   url: https://trendspider.com/blog/conocophillips-to-acquire-marathon-oil-in-17-1-billion-all-stock-deal/
-- date: '2026-05-25'
+- date: ''
   title: Helping Marathon Oil Create a Cloud Native Data Platform
   url: https://www.epam.com/services/client-work/helping-marathon-oil-create-a-next-gen-cloud-native-data-platform
-- date: '2026-05-25'
+- date: ''
   title: Marathon Oil Corporation News and Press Releases
   url: https://www.prnewswire.com/news/marathon-oil-corporation/
-- date: '2026-05-25'
+- date: ''
   title: ConocoPhillips buying Marathon Oil for $17.1 billion in all- ...
   url: https://apnews.com/article/conocophillips-marathon-oil-merger-buyout-d5e229e53da50fa00fe88f47e83c9720
-- date: '2026-05-25'
+- date: ''
   title: Evercore's Post
   url: https://www.linkedin.com/posts/evercore-inc_conocophillips-to-acquire-marathon-oil-corporation-activity-7202023515192000512-EiVJ
 random_paper: 17
@@ -113,7 +113,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

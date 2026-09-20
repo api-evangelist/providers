@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,19 +108,19 @@ plans:
   plan_count: 1
   slug: prudential-financial-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'AI in Action: Five questions to help employers cut through ...'
   url: https://www.prudential.com/employers/group-insurance/industry-insights/ai-in-action-five-questions
-- date: '2026-05-25'
+- date: ''
   title: Prudential Advisors Enhances Advisor Leads Program with ...
   url: https://www.prnewswire.com/news-releases/prudential-advisors-enhances-advisor-leads-program-with-ai-and-data-science-302663778.html
-- date: '2026-05-25'
+- date: ''
   title: Prudential Financial Leverages AI for Customer Acquisition
   url: https://www.linkedin.com/posts/jamiecuffe_ai-agents-are-handling-hundreds-of-thousands-activity-7402343553928024066-H01B
-- date: '2026-05-25'
+- date: ''
   title: AI at Prudential Amplifying human potential to better serve ...
   url: https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at Prudential - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-prudential/
 random_paper: 12
@@ -166,7 +166,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

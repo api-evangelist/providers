@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: Kohls is profiled on the [APIs.io](https://apis.io/) network.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Kohl's Corp. uses AI to improve app, personalize offers for ...
   url: https://www.jsonline.com/story/money/business/2025/12/02/kohls-corp-uses-ai-to-improve-app-personalize-offers-for-growth/87514373007/
-- date: '2026-05-25'
+- date: ''
   title: Kohl's Is Working Smarter With Artificial Intelligence
   url: https://corporate.kohls.com/news/the-four-technologies-to-know-kohls-is-working-smarter-with-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: Black Enterprise Magazine's Post
   url: https://www.linkedin.com/posts/black-enterprise_kohls-corporation-named-michael-j-bender-activity-7400202007925551104-HbM1
-- date: '2026-05-25'
+- date: ''
   title: New Uses For Your Mobile Device
   url: https://corporate.kohls.com/news/the-four-technologies-to-know-new-uses-for-your-mobile-device
-- date: '2026-05-25'
+- date: ''
   title: Kohl's, Inc.
   url: https://chainstoreage.com/company/kohls-inc
 random_paper: 17
@@ -101,7 +101,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,19 +102,19 @@ overview: 'Gilead Sciences is profiled on the [APIs.io](https://apis.io/) networ
 
   Gilead Sciences'' developer surface includes support and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at Gilead Sciences - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-gilead-sciences-two-use-cases/
-- date: '2026-05-25'
+- date: ''
   title: Tempus Announces Strategic Collaboration with Gilead to ...
   url: https://investors.tempus.com/news-releases/news-release-details/tempus-announces-strategic-collaboration-gilead-advance-oncology
-- date: '2026-05-25'
+- date: ''
   title: AI Principles
   url: https://www.gilead.com/company/policies-and-procedures/ai-principles
-- date: '2026-05-25'
+- date: ''
   title: Cognizant and Gilead Extend Partnership with Five-Year ...
   url: https://www.prnewswire.com/news-releases/cognizant-and-gilead-extend-partnership-with-five-year-service-agreement-estimated-at-800-million-301883522.html
-- date: '2026-05-25'
+- date: ''
   title: Gilead and Genesis Therapeutics Announce Strategic ...
   url: https://www.gilead.com/news/news-details/2024/gilead-and-genesis-therapeutics-announce-strategic-collaboration-to-discover-and-develop-novel-therapies
 random_paper: 8
@@ -144,7 +144,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

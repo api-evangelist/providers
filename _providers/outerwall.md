@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -54,19 +54,19 @@ nav: Providers
 network: true
 overview: Outerwall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automated Retail, Kiosk, Coinstar, and Redbox.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Outerwall Commits to Collecting Two Million Pounds of ...
   url: https://www.3blmedia.com/news/outerwall-commits-collecting-two-million-pounds-mobile-devices-help-combat-surging-e-waste
-- date: '2026-05-25'
+- date: ''
   title: 'Outerwall : Redbox | MarketScreener'
   url: https://www.marketscreener.com/quote/stock/OUTERWALL-INC-13534800/news/Outerwall-Redbox-To-Expand-New-Gen-Games-Nationwide-In-2015-20532553/
-- date: '2026-05-25'
+- date: ''
   title: CEO of Redbox and Coinstar maker Outerwall out as ...
   url: https://www.geekwire.com/2016/outerwall-deal-new-ceos/
-- date: '2026-05-25'
+- date: ''
   title: Outerwall Inc. to Acquire ecoATM
   url: https://www.prnewswire.com/news-releases/outerwall-inc-to-acquire-ecoatm-213956451.html
-- date: '2026-05-25'
+- date: ''
   title: OUTERWALL ENTERS INTO DEFINITIVE MERGER ...
   url: https://www.prnewswire.com/news-releases/outerwall-enters-into-definitive-merger-agreement-to-be-acquired-by-certain-funds-managed-by-affiliates-of-apollo-global-management-for-5200-per-share-in-cash-300303115.html
 random_paper: 1
@@ -96,7 +96,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

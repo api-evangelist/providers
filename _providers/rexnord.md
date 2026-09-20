@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -75,19 +75,19 @@ overview: 'Rexnord is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
   The Rexnord catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: How Regal Rexnord uses AI for digital transformation
   url: https://www.linkedin.com/posts/nbizman_powertobuild-cms-digitalexperience-activity-7358162404347695111-OVIr
-- date: '2026-05-25'
+- date: ''
   title: REGAL REXNORD ANNOUNCES PARTICIPATION AT ...
   url: https://www.prnewswire.com/news-releases/regal-rexnord-announces-participation-at-upcoming-conference-302764783.html
-- date: '2026-05-25'
+- date: ''
   title: Rashida Hodge of Microsoft and Gerben Bakker of Hubbell ...
   url: https://investors.regalrexnord.com/investors/ir-news/press-release-details/2025/Rashida-Hodge-of-Microsoft-and-Gerben-Bakker-of-Hubbell-Join-Regal-Rexnord-Board-of-Directors/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: How AI Helped Regal Rexnord Streamline Global Supply ...
   url: https://www.salesforce.com/news/stories/regal-rexnord-agentforce-optimizes-supply-chain/
-- date: '2026-05-25'
+- date: ''
   title: Regal Rexnord Q1 2026 results, EPS guidance held
   url: https://www.stocktitan.net/sec-filings/RRX/8-k-regal-rexnord-corp-reports-material-event-31cbc937a3d0.html
 random_paper: 0
@@ -127,7 +127,7 @@ score:
     - north-america
   previous_composite: 8.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Terex digital solutions including MyTerex fleet management, Connected Dealer Inventory (CDI), and telematics data access for real-time machine monitoring, performance dashboards, and predictive mainte
@@ -99,19 +99,19 @@ plans:
   plan_count: 3
   slug: terex-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Terex Reports Fourth Quarter and Full-Year 2025 Results
   url: https://investors.terex.com/news/news-details/2026/Terex-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Terex Reports First Quarter 2026 Results
   url: https://www.prnewswire.com/news-releases/terex-reports-first-quarter-2026-results-302759520.html
-- date: '2026-05-25'
+- date: ''
   title: Terex Names Namita Jindal Chief AI & Data Officer
   url: https://www.prnewswire.com/news-releases/terex-names-namita-jindal-chief-ai--data-officer-302664604.html
-- date: '2026-05-25'
+- date: ''
   title: Terex and REV Group Complete Merger
   url: https://www.linkedin.com/posts/terex_terex-and-rev-group-complete-merger-activity-7424103040326184960-LMch
-- date: '2026-05-25'
+- date: ''
   title: Terex Corporation Standardizes 36 Websites ...
   url: https://www.progress.com/customers/terex-corporation-standardizes-sitefinity
 random_paper: 2
@@ -139,7 +139,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -134,19 +134,19 @@ overview: 'Cracker Barrel Old Country Store is profiled on the [APIs.io](https:/
 
   Cracker Barrel Old Country Store''s developer surface includes support, engineering blog, and 19 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Cracker Barrel was on track for a rebrand in an effort ...
   url: https://www.facebook.com/NBC4Columbus/posts/cracker-barrel-was-on-track-for-a-rebrand-in-an-effort-to-make-its-old-country-s/1237633575077559/
-- date: '2026-05-25'
+- date: ''
   title: Cracker Barrel Reinforces Focus on Food and Guest ...
   url: https://www.prnewswire.com/news-releases/cracker-barrel-reinforces-focus-on-food-and-guest-experience-with-leadership-and-organizational-structure-changes-302574135.html
-- date: '2026-05-25'
+- date: ''
   title: The Cracker Barrel Mess Isn't Over Yet
   url: https://www.wsj.com/business/the-cracker-barrel-logo-mess-c57d23e8
-- date: '2026-05-25'
+- date: ''
   title: Cracker Barrel unveils a new logo as part of wider rebrand
   url: https://apnews.com/article/cracker-barrel-new-logo-rebrand-efforts-67f3181a144cd639eb33d1066f85ef08
-- date: '2026-05-25'
+- date: ''
   title: Cracker Barrel introduced a new look this week, but it was ...
   url: https://www.facebook.com/KTSM9News/posts/cracker-barrel-introduced-a-new-look-this-week-but-it-was-met-with-backlash-and-/1185710306926708/
 random_paper: 17
@@ -175,7 +175,7 @@ score:
     - north-america
   previous_composite: 8.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

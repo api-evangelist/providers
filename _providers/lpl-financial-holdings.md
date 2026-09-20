@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,19 +71,19 @@ nav: Providers
 network: true
 overview: LPL Financial Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broker-Dealer, Financial-Services, Holding Company, Investment Advisory, and Wealth Management.
 press:
-- date: '2026-05-25'
+- date: ''
   title: LPL Financial Wins Two Stevie Awards for Innovation in ...
   url: https://www.barchart.com/story/news/1930464/lpl-financial-wins-two-stevie-awards-for-innovation-in-artificial-intelligence
-- date: '2026-05-25'
+- date: ''
   title: UPDATE - LPL Financial Wins Two Stevie Awards for ...
   url: https://money.tmx.com/quote/LPLA:US/news/6182352513166238/UPDATE_LPL_Financial_Wins_Two_Stevie_Awards_for_Innovation_in_Artificial_Intelligence_Concepts
-- date: '2026-05-25'
+- date: ''
   title: LPL Financial Launches Curated AI Solutions for Advisors
   url: https://www.lpl.com/news-media/press-releases/lpl-financial-launches-curated-ai-solutions-for-advisors.html
-- date: '2026-05-25'
+- date: ''
   title: LPL Financial Holdings Inc. (LPLA) Latest Press Releases ...
   url: https://finance.yahoo.com/quote/LPLA/press-releases/
-- date: '2026-05-25'
+- date: ''
   title: LPL Welcomes Vaughn Harvey as Chief Data and AI Officer
   url: https://www.lpl.com/news-media/press-releases/lpl-financial-welcomes-vaughn-harvey-as-chief-data-and-ai-officer.html
 random_paper: 7
@@ -113,7 +113,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

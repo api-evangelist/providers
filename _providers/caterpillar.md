@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: The Cat Digital Marketplace publishes a catalog of Caterpillar APIs spanning asset telematics, fleet management, fuel data, utilization, hours/odometer, and geofencing. Developers subscribe via the Ca
@@ -242,19 +242,19 @@ plans:
   plan_count: 1
   slug: caterpillar-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Caterpillar Teams With NVIDIA to Revolutionize Heavy ...
   url: https://www.prnewswire.com/news-releases/caterpillar-teams-with-nvidia-to-revolutionize-heavy-industry-with-physical-ai-and-robotics-302655427.html
-- date: '2026-05-25'
+- date: ''
   title: Caterpillar isn't just adapting to the future, we're actively ...
   url: https://www.facebook.com/caterpillarinc/posts/caterpillar-isnt-just-adapting-to-the-future-were-actively-building-it-solving-o/1322800776550953/
-- date: '2026-05-25'
+- date: ''
   title: 'Artificial Intelligence: Transforming the Way We Help Our ...'
   url: https://www.caterpillar.com/en/news/caterpillarNews/2026/ai-transforming-way-we-help-customers.html
-- date: '2026-05-25'
+- date: ''
   title: Caterpillar pledges $100M to upskill workforce in AI era
   url: https://www.manufacturingdive.com/news/caterpillar-pledges-100-million-to-upskill-workforce-ai-era-centennial/746046/
-- date: '2026-05-25'
+- date: ''
   title: Corporate Press Releases
   url: https://www.caterpillar.com/en/news/corporate-press-releases.html
 random_paper: 5
@@ -290,7 +290,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

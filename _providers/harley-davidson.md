@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Harley-Davidson is profiled on the [APIs.io](https://apis.io/) networ
 
   Harley-Davidson''s developer surface includes support and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: CGI selected by Harley-Davidson Financial Services ...
   url: https://www.cgi.com/au/en-au/banking-and-financial-markets/harley-davidson-financial-services-selects-cgi-to-streamline-loan-origination-system
-- date: '2026-05-25'
+- date: ''
   title: CGI - Harley-Davidson Financial Services ...
   url: https://www.facebook.com/CGIGroup/photos/harley-davidson-financial-services-harley-davidson-selects-cgi-to-modernize-thei/943058697854185/
-- date: '2026-05-25'
+- date: ''
   title: Harley-Davidson NYC uses AI to automate record-setting ...
   url: https://www.marketingdive.com/news/harley-davidson-nyc-uses-ai-to-automate-record-setting-digital-campaign/428773/
-- date: '2026-05-25'
+- date: ''
   title: Harley-Davidson Announces "Back to the Bricks" Strategic ...
   url: https://investor.harley-davidson.com/news/news-details/2026/Harley-Davidson-Announces-Back-to-the-Bricks-Strategic-Plan-to-Restore-Performance-and-Deliver-Profitable-Growth/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Harley-Davidson Delivers First Quarter Financial Results
   url: https://www.prnewswire.com/news-releases/harley-davidson-delivers-first-quarter-financial-results-302762342.html
 random_paper: 6
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

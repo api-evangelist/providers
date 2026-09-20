@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 3
 apis:
 - description: Symetra's Benefits Administration API enables HR platforms, benefits administrators, and technology partners to integrate with Symetra's group benefits products. The API supports automated data exchan
@@ -126,19 +126,19 @@ plans:
   plan_count: 1
   slug: symetra-financial-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Symetra Introduces New Supplemental Health Claims ...
   url: https://www.nayya.com/blog/Symetra-And-Nayya-Claims
-- date: '2026-05-25'
+- date: ''
   title: 'Research Update: Symetra Financial Corp. ''BBB'' Rating ...'
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/13057843
-- date: '2026-05-25'
+- date: ''
   title: Symetra Names Jeff Sealey Vice President, Stop Loss ...
   url: https://natlawreview.com/press-releases/symetra-names-jeff-sealey-vice-president-stop-loss-captives
-- date: '2026-05-25'
+- date: ''
   title: Premera and Symetra Collaborate to Offer Added Benefits ...
   url: https://www.prnewswire.com/news-releases/premera-and-symetra-collaborate-to-offer-added-benefits-and-value-for-employers-and-members-275174940.html
-- date: '2026-05-25'
+- date: ''
   title: Sumitomo Life to Acquire Symetra for $3.76 Billion - Best's News
   url: https://news.ambest.com/newscontent.aspx?refnum=185237&altsrc=114&SrvId=156
 random_paper: 13
@@ -177,7 +177,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

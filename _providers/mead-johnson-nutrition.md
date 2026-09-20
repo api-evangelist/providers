@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: Mead Johnson Nutrition is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Goods, Infant Formula, Nutrition, and Pediatric.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Mead Johnson Nutrition Celebrates 120 Years of ...
   url: https://www.prnewswire.com/news-releases/mead-johnson-nutrition-celebrates-120-years-of-innovation-in-global-infant-nutrition-302542099.html
-- date: '2026-05-25'
+- date: ''
   title: Mead Johnson's AI and data strategy with Ganesh Sivakumar
   url: https://www.linkedin.com/posts/aimresearch-ai_ai-datastrategy-meadjohnson-activity-7383426452341387264-vgV5
-- date: '2026-05-25'
+- date: ''
   title: Meta x Mead Johnson x Omnichat Event at Meta Singapore ...
   url: https://www.facebook.com/OmnichatAI/posts/meta-x-mead-johnson-x-omnichat-event-at-meta-singapore-office-yesterday-marketin/1606836204781510/
-- date: '2026-05-25'
+- date: ''
   title: Cognizant Earns SAP Business AI Solutions Operations ...
   url: https://news.cognizant.com/2026-04-03-Cognizant-Earns-SAP-Business-AI-Solutions-Operations-Certification-on-Strength-of-Enterprise-Deployments,-Including-Work-for-Mead-Johnson-Nutrition
-- date: '2026-05-25'
+- date: ''
   title: Analysis of Key Market Segments Driving the Artificial
   url: https://www.openpr.com/news/4512210/analysis-of-key-market-segments-driving-the-artificial
 random_paper: 2
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

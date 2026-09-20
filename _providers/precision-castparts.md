@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -54,19 +54,19 @@ nav: Providers
 network: true
 overview: Precision Castparts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Manufacturing, Metal Components, Industrial, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Howmet''s AI Strategy: Analysis of Dominance in Aerospace ...'
   url: https://www.klover.ai/howmet-ai-strategy-analysis-of-dominance-in-aerospace-defense-commercial-transportation-ai/
-- date: '2026-05-25'
+- date: ''
   title: Warren Buffett's Berkshire Hathaway to Buy Aerospace ...
   url: https://www.nytimes.com/2015/08/11/business/dealbook/berkshire-hathaway-to-buy-precision-castparts-for-37-2-billion.html
-- date: '2026-05-25'
+- date: ''
   title: Precision Castparts Corp. 'A-' L - Ratings
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/9290589
-- date: '2026-05-25'
+- date: ''
   title: Warren Buffett's Berkshire Hathaway buys Precision ...
   url: https://www.bbc.com/news/business-33849164
-- date: '2026-05-25'
+- date: ''
   title: 'Warren Buffett''s $10 billion mistake: Precision Castparts'
   url: https://www.reuters.com/article/business/warren-buffetts-10-billion-mistake-precision-castparts-idUSKCN2AR0MY/
 random_paper: 18
@@ -96,7 +96,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

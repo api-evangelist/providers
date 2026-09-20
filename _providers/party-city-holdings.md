@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: Party City Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Party Supplies, and E-Commerce.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Investments
   url: https://www.adventinternational.com/investments/
-- date: '2026-05-25'
+- date: ''
   title: PARTY CITY PLANS GRAND RE-OPENING ...
   url: https://www.prnewswire.com/news-releases/party-city-plans-grand-re-opening-celebration-at-east-hanover-nj-store-on-saturday-may-4th-302129074.html
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/0001592058/000095017022002280/prty-20211231.htm
-- date: '2026-05-25'
+- date: ''
   title: Party City Plans Grand Re-Opening Celebration at Nanuet ...
   url: https://www.prnewswire.com/news-releases/party-city-plans-grand-re-opening-celebration-at-nanuet-ny-store-on-saturday-june-1st-302149067.html
-- date: '2026-05-25'
+- date: ''
   title: Party City's bankruptcy filing was brought about by the ...
   url: https://www.facebook.com/recordonline/posts/party-citys-bankruptcy-filing-was-brought-about-by-the-pandemic-and-a-global-sup/10159605523201298/
 random_paper: 11
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

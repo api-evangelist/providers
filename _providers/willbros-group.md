@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 7
 common:
@@ -72,19 +72,19 @@ nav: Providers
 network: true
 overview: Willbros Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Infrastructure, Construction, Oil and Gas, Engineering, and Acquired.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Willbros Announces Management Changes
   url: https://www.prnewswire.com/news-releases/willbros-announces-management-changes-261088031.html
-- date: '2026-05-25'
+- date: ''
   title: Ex-Willbros Execs Get Prison Sentences In Bribery Plot
   url: https://www.law360.com/texas/articles/146455/ex-willbros-execs-get-prison-sentences-in-bribery-plot
-- date: '2026-05-25'
+- date: ''
   title: TRC Completes $130 Million Acquisition of Willbros ...
   url: https://www.oilandgas360.com/trc-completes-130-million-acquisition-of-willbros-professional-services/
-- date: '2026-05-25'
+- date: ''
   title: Willbros Group announces purchase of AMEC Canadian ...
   url: https://www.reuters.com/article/world/willbros-group-announces-purchase-of-amec-canadian-pipeline-contractor-midwest-m-idUSIN20070605172750WG/
-- date: '2026-05-25'
+- date: ''
   title: WILLBROS GROUP INC (DE) Reports Operating Results ...
   url: https://www.gurufocus.com/news/174979/willbros-group-inc-de-reports-operating-results-10q?mobile=true%3Fmobile%3Dtrue&mobile=true%3Fmobile%3Dtrue%3Fmobile%3Dtrue&mobile=true&mobile=true
 random_paper: 6
@@ -114,7 +114,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

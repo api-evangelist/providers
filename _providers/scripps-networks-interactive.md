@@ -43,19 +43,19 @@ nav: Providers
 network: true
 overview: Scripps Networks Interactive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Television, Entertainment, Lifestyle Content, and Cable Networks.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Discovery completes Scripps Networks Interactive acquisition
   url: https://www.tvbeurope.com/business/discovery-completes-scripps-networks-interactive-acquisition
-- date: '2026-05-25'
+- date: ''
   title: 'Digital Transformation at E W Scripps The: Buying Signals'
   url: https://pintel.ai/digital-transformation/e-w-scripps-the
-- date: '2026-05-25'
+- date: ''
   title: Scripps Networks Interactive
   url: https://www.facebook.com/scripps.networks.interactive/mentions/
-- date: '2026-05-25'
+- date: ''
   title: Scripps Networks Interactive's Recipe For Platform-Specific ...
   url: https://www.adexchanger.com/ad-exchange-news/scripps-networks-interactives-recipe-platform-specific-content/
-- date: '2026-05-25'
+- date: ''
   title: Scripps Networks Interactive Posts 11% Rev Hike 05/03/2013
   url: https://www.mediapost.com/publications/article/199462/
 random_paper: 11

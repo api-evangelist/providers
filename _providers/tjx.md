@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 2
 apis:
 - description: TJX Companies requires EDI compliance for all resale vendors, supporting purchase orders (850), purchase order acknowledgements (855), advanced shipping notices (856), invoices (810), motor carrier lo
@@ -122,19 +122,19 @@ plans:
   plan_count: 1
   slug: tjx-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'TJX Companies'' AI Strategy: Analysis of Dominance in Retail'
   url: https://www.klover.ai/tjx-companies-ai-strategy-analysis-of-dominance-in-retail/
-- date: '2026-05-25'
+- date: ''
   title: 'TJX Companies: Low-Tech Retailer Thrives Amid AI Bubble'
   url: https://www.linkedin.com/posts/redafarran_this-best-in-class-retailer-could-be-a-great-activity-7419666311129116672-gR0c
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for TJX Companies INC DE filed 04/02/2025
   url: https://investor.tjx.com/static-files/d01e59d1-c20c-494c-8d7b-6bd41a4db1a2
-- date: '2026-05-25'
+- date: ''
   title: TJX Companies Archives
   url: https://www.intelligize.com/tag/tjx-companies/
-- date: '2026-05-25'
+- date: ''
   title: Retailers Embracing AI
   url: https://logisticsti.com/insights/f/retailers-embracing-ai
 random_paper: 12
@@ -169,7 +169,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

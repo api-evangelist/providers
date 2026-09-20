@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -63,19 +63,19 @@ nav: Providers
 network: true
 overview: National Oilwell Varco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oil and Gas, Drilling, Energy, Industrial, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: National Oilwell Varco Inc (NOV) Q3 2020 Earnings Call ...
   url: https://www.fool.com/earnings/call-transcripts/2020/10/27/national-oilwell-varco-inc-nov-q3-2020-earnings-ca/
-- date: '2026-05-25'
+- date: ''
   title: 'Search News by Tag: TECHNOLOGY'
   url: https://www.24-7pressrelease.com/search_news_by_tag/259?keywords=TECHNOLOGY
-- date: '2026-05-25'
+- date: ''
   title: National Oilwell Varco, Inc. Third Quarter 2020 Earnings ...
   url: https://investors.nov.com/static-files/b95f225d-c1d5-411c-bc20-364971d921e0
-- date: '2026-05-25'
+- date: ''
   title: Artificial Lift Systems Market in the Industrial Machinery ...
   url: https://www.prnewswire.com/news-releases/artificial-lift-systems-market-in-the-industrial-machinery-industry-to-grow-by-usd-3-34-billiontechnavio-301328362.html
-- date: '2026-05-25'
+- date: ''
   title: National Oilwell Varco, Inc. Second Quarter 2020 Earnings ...
   url: https://investors.nov.com/static-files/a35a11c0-867d-4ade-a3f2-6d99ac8f1e20
 random_paper: 21
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

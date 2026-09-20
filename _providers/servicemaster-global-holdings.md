@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,19 +85,19 @@ nav: Providers
 network: true
 overview: ServiceMaster Global Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Home Services, Pest Control, Facilities Management, and Disaster Restoration.
 press:
-- date: '2026-05-25'
+- date: ''
   title: ServiceMaster Invests in Salesforce, Differentiates Itself to ...
   url: https://news.terminix.com/press-releases/press-release-details/2018/ServiceMaster-Invests-in-Salesforce-Differentiates-Itself-to-Deliver-Exceptional-Customer-Experiences/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Janitorial Services Market Set to Witness Massive Growth
   url: https://www.openpr.com/news/4297892/janitorial-services-market-set-to-witness-massive-growth
-- date: '2026-05-25'
+- date: ''
   title: Led by 10% year-over-year revenue growth in its Terminix ...
   url: https://www.facebook.com/DailyMemphian/posts/led-by-10-year-over-year-revenue-growth-in-its-terminix-pest-control-business-se/2321945131356511/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1428875/000110465920101633/tm2029976-1_8k.htm
-- date: '2026-05-25'
+- date: ''
   title: 'Shareholder Alert: Robbins LLP Announces It Is Investigating ...'
   url: https://www.businesswire.com/news/home/20200611005774/en/Shareholder-Alert-Robbins-LLP-Announces-It-Is-Investigating-ServiceMaster-Global-Holdings-Inc.-SERV-for-Misleading-Shareholders
 random_paper: 6
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

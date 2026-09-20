@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -143,19 +143,19 @@ overview: 'COUNTRY Financial is profiled on the [APIs.io](https://apis.io/) netw
 
   COUNTRY Financial''s developer surface includes YouTube channel and 22 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Treasury Secretary Janet Yellen warns AI poses risks to ...
   url: https://wcti12.com/news/nation-world/treasury-secretary-janet-yellen-warns-ai-poses-risks-financial-system-artificial-intelligence-practice-insight-machine-learning-jpmorgan-chase-security-scams
-- date: '2026-05-25'
+- date: ''
   title: 2021-rfi-financial-institutions-ai-3064-za24- ...
   url: https://www.fdic.gov/system/files/2024-06/2021-rfi-financial-institutions-ai-3064-za24-c-011.pdf
-- date: '2026-05-25'
+- date: ''
   title: Market and Economic Outlook - Released 12/31/25
   url: https://www.countryfinancial.com/en/planning/resources/market-economic-insights/12-31-25.html
-- date: '2026-05-25'
+- date: ''
   title: COUNTRY Financial Integrates IMGING Technology into ...
   url: https://www.lovelandinnovations.com/blog/country-financial-insurance-case-study/
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence has quickly emerged as a top concern ...
   url: https://www.facebook.com/ktvotv/posts/artificial-intelligence-has-quickly-emerged-as-a-top-concern-for-federal-officia/898647678943945/
 random_paper: 6
@@ -190,7 +190,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -198,19 +198,19 @@ plans:
   plan_count: 1
   slug: stanley-black-and-decker-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Employee Stories: Scott G.'
   url: https://www.stanleyblackanddecker.com/careers/why-work-here/meet-our-employees/scott-g
-- date: '2026-05-25'
+- date: ''
   title: 'Employee Stories: Amir K.'
   url: https://www.stanleyblackanddecker.com/careers/why-work-here/meet-our-employees/amir-k
-- date: '2026-05-25'
+- date: ''
   title: Stanley Black & Decker Completes Sale of Consolidated ...
   url: https://www.prnewswire.com/news-releases/stanley-black--decker-completes-sale-of-consolidated-aerospace-manufacturing-business-to-howmet-aerospace-302734667.html
-- date: '2026-05-25'
+- date: ''
   title: VDE and Stanley Black & Decker launch strategic ...
   url: https://www.vde.com/en/press/press-releases/strategic-cooperation-vde-stanley-black-decker
-- date: '2026-05-25'
+- date: ''
   title: H2O.ai Empowers Stanley Black & Decker to Develop ...
   url: https://h2o.ai/company/press-media/2018/h2o-ai-empowers-stanley-black-decker-to-develop-innovative-manufacturing-processes/
 random_paper: 9
@@ -267,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

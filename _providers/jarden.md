@@ -42,19 +42,19 @@ nav: Providers
 network: true
 overview: Jarden is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Products, Defunct, Newell Brands, Conglomerate, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Newell Rubbermaid makes $15bn bid for rival Jarden
   url: https://www.bbc.com/news/business-35098302
-- date: '2026-05-25'
+- date: ''
   title: Press Releases
   url: https://www.ftc.gov/news-events/news/press-releases?initialSessionID=130-7424125-0996557&ld=ASXXSCTUSDirect&page=318
-- date: '2026-05-25'
+- date: ''
   title: Jarden launches carbon trading in Australia, powered by ...
   url: https://www.bobsguide.com/press-release/jarden-launches-carbon-trading-in-australia-powered-by-tecassas-crossfire/
-- date: '2026-05-25'
+- date: ''
   title: Jarden Home Brands Delights Home Canners With New ...
   url: https://www.prnewswire.com/news-releases/jarden-home-brands-delights-home-canners-with-new-ball-brand-heritage-collection-in-purple-300048805.html
-- date: '2026-05-25'
+- date: ''
   title: HEALWELL Unveils Strategic Changes to Executive ...
   url: https://www.newsfilecorp.com/release/249467/HEALWELL-Unveils-Strategic-Changes-to-Executive-Leadership-Team-to-Drive-the-Next-Phase-of-Integration-Growth-and-Shareholder-Value-Creation
 random_paper: 12

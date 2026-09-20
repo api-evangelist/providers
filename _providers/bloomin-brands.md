@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,19 +115,19 @@ nav: Providers
 network: true
 overview: Bloomin' Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Dining, Hospitality, Loyalty, and Food.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Bloomin' Brands expects Q2 U.S. comparable sales of 1% ...
   url: https://seekingalpha.com/news/4587853-bloomin-brands-expects-q2-u-s-comparable-sales-of-1-percent-to-2-percent-while-targeting-to
-- date: '2026-05-25'
+- date: ''
   title: Form 10-K for Bloomin Brands INC filed 02/26/2025 - Investors
   url: https://investors.bloominbrands.com/static-files/9a8f273a-02f6-4a63-a67c-e7f0d7cbe4fb
-- date: '2026-05-25'
+- date: ''
   title: 'Q1 Earnings Roundup: Bloomin'' Brands (NASDAQ:BLMN) ...'
   url: https://www.theglobeandmail.com/investing/markets/stocks/BLMN-Q/pressreleases/2059409/q1-earnings-roundup-bloomin-brands-nasdaqblmn-and-the-rest-of-the-sit-down-dining-segment/
-- date: '2026-05-25'
+- date: ''
   title: DecisionNext Announces New Partnership with Bloomin ...
   url: https://decisionnext.com/decisionnext-announces-new-partnership-with-bloomin-brands/
-- date: '2026-05-25'
+- date: ''
   title: Bloomin' Brands
   url: https://www.opentext.com/ca/customers/bloomin-brands
 random_paper: 1
@@ -156,7 +156,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,19 +83,19 @@ overview: 'Schnitzer Steel Industries is profiled on the [APIs.io](https://apis.
 
   The Schnitzer Steel Industries catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Schnitzer looks to bulk up in U.S. and abroad
   url: https://www.reuters.com/article/business/schnitzer-looks-to-bulk-up-in-us-and-abroad-idUSTRE6283OJ/
-- date: '2026-05-25'
+- date: ''
   title: Sims taps Schnitzer for VP global trade | Latest Market News
   url: https://www.argusmedia.com/en/news-and-insights/latest-market-news/2115893-sims-taps-schnitzer-for-vp-global-trade
-- date: '2026-05-25'
+- date: ''
   title: Schnitzer Steel Industries, Inc. has Changed its Name to Radius ...
   url: https://www.marketscreener.com/quote/stock/SCHNITZER-STEEL-INDUSTRIE-10765/news/Schnitzer-Steel-Industries-Inc-has-Changed-its-Name-to-Radius-Recycling-Inc-45878411/
-- date: '2026-05-25'
+- date: ''
   title: Schnitzer Announces Restart of Production at its Cascade Steel ...
   url: https://greenstocknews.com/news/nasdaq/rdus/schnitzer-announces-restart-of-production-at-its-cascade-steel-rolling-mills-and-agreement-to-acquire-leading-us-metal-recycler-in-the-southeast
-- date: '2026-05-25'
+- date: ''
   title: Schnitzer Reports Third Quarter Fiscal 2023 Financial Results
   url: http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2023-6-27-schnitzer-reports-third-quarter-fiscal-2023-financial-results
 random_paper: 9
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

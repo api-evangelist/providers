@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: The 42Q Manufacturing Execution System API provides programmatic integration with Sanmina's cloud-based MES platform. The API enables enterprise system integration with ERP (SAP, Oracle), PLM, WMS, an
@@ -117,19 +117,19 @@ plans:
   plan_count: 3
   slug: sanmina-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: AMD Partners With Sanmina for AI Solutions Manufacturing
   url: https://www.linkedin.com/posts/dylanljmartin_amd-makes-sanmina-a-top-ai-ally-after-3b-activity-7388598982773628930-unbe
-- date: '2026-05-25'
+- date: ''
   title: How the Story Around Sanmina Is Evolving Amid AI and ...
   url: https://finance.yahoo.com/news/story-around-sanmina-evolving-amid-011206291.html
-- date: '2026-05-25'
+- date: ''
   title: Dexterity and Sanmina Deepen Partnership to Scale Mech ...
   url: https://dexterity.ai/blog/dexterity-and-sanmina-deepen-partnership-to-scale-mech-superhumanoids
-- date: '2026-05-25'
+- date: ''
   title: SANMINA ANNOUNCES ACQUISITION OF DATA ...
   url: https://www.prnewswire.com/news-releases/sanmina-announces-acquisition-of-data-center-infrastructure-manufacturing-business-of-zt-systems-from-amd-302458905.html
-- date: '2026-05-25'
+- date: ''
   title: Press Releases Archives - Page 2 of 10
   url: https://www.sanmina.com/category/press-releases/page/2/
 random_paper: 17
@@ -157,7 +157,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

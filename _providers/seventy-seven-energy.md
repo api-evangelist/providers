@@ -49,19 +49,19 @@ nav: Providers
 network: true
 overview: Seventy Seven Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Oil and Gas, Oilfield Services, and Drilling.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Seventy Seven Energy reports $74.7 million loss for quarter
   url: https://journalrecord.com/2015/07/29/seventy-seven-energy-reports-74-7-million-loss-for-quarter-energy/
-- date: '2026-05-25'
+- date: ''
   title: Seventy Seven Energy emerges from bankruptcy
   url: https://journalrecord.com/2016/08/01/seventy-seven-energy-emerges-from-bankruptcy/
-- date: '2026-05-25'
+- date: ''
   title: Sheri Pollock - Dallas-Fort Worth Metroplex
   url: https://www.linkedin.com/in/sheri-pollock-29b57b3
-- date: '2026-05-25'
+- date: ''
   title: Patterson-UTI Buys Seventy Seven Energy In Near-$2B Deal
   url: https://www.law360.com/articles/871959/patterson-uti-buys-seventy-seven-energy-in-near-2b-deal
-- date: '2026-05-25'
+- date: ''
   title: Oklahoma Department of Agriculture, Food and Forestry
   url: https://www.facebook.com/OklahomaAg/posts/-internship-opportunity-we-are-looking-for-a-qualified-collegiate-student-to-joi/1277918744369735/
 random_paper: 21

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,19 +78,19 @@ overview: 'Kraft Heinz is profiled on the [APIs.io](https://apis.io/) network. T
 
   Kraft Heinz''s developer surface includes product news and 6 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: KRAFT FOODS GROUP SHAREHOLDERS APPROVE ...
   url: https://www.prnewswire.com/news-releases/kraft-foods-group-shareholders-approve-merger-transaction-with-hj-heinz-holding-corporation-and-its-subsidiaries-to-form-the-kraft-heinz-company-300107531.html
-- date: '2026-05-25'
+- date: ''
   title: Kraft Heinz undoes blockbuster merger after a decade of ...
   url: https://apnews.com/article/kraft-heinz-oscar-mayer-lunchables-79a6fe0491da98bcda8c77a8227994c3
-- date: '2026-05-25'
+- date: ''
   title: How Kraft Heinz's CIO avoids getting lost in the shuffle of ...
   url: https://www.ciodive.com/news/how-kraft-heinzs-cio-avoids-getting-lost-in-the-shuffle-of-innovation/545553/
-- date: '2026-05-25'
+- date: ''
   title: Kraft Heinz Deploys AI to Optimize Ketchup Production
   url: https://www.thomasnet.com/insights/kraft-heinz-ai-tool-the-cookbook/
-- date: '2026-05-25'
+- date: ''
   title: Kraft Heinz and TheNotCompany Partner to Accelerate AI ...
   url: https://www.delimarketnews.com/culture/kraft-heinz-and-thenotcompany-partner-accelerate-ai-driven-plant-based-innovation-miguel-patricio-and-matias-muchnick-detail/anne-allen/mon-02282022-0850/13144
 random_paper: 1
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

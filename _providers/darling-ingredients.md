@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,19 +94,19 @@ overview: 'Darling Ingredients is profiled on the [APIs.io](https://apis.io/) ne
 
   Darling Ingredients'' developer surface includes engineering blog and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Darling Ingredients Inc. (DAR) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4896954-darling-ingredients-inc-dar-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Smart Money Is Buying Darling Ingredients Inc. (DAR)
   url: https://acquirersmultiple.com/2026/05/smart-money-is-buying-darling-ingredients-inc-dar/
-- date: '2026-05-25'
+- date: ''
   title: DARLING INGREDIENTS INC. ANNOUNCES CHANGE TO ...
   url: https://www.prnewswire.com/news-releases/darling-ingredients-inc-announces-change-to-the-investor-relations-position-301445792.html
-- date: '2026-05-25'
+- date: ''
   title: Sandra Dudley
   url: https://www.darlingii.com/about/management/sandra-dudley
-- date: '2026-05-25'
+- date: ''
   title: EBS Upgrade Sets Foundation for Continuous Support and ...
   url: https://www.centroid.com/customer_stories/darling-ingredients-success-story/
 random_paper: 4
@@ -136,7 +136,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

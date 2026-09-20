@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,19 +64,19 @@ nav: Providers
 network: true
 overview: Navistar International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Trucks, Commercial Vehicles, Manufacturing, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'SEC: Navistar International and Former CEO Misled ...'
   url: https://www.sec.gov/newsroom/press-releases/2016-62
-- date: '2026-05-25'
+- date: ''
   title: Navistar and TuSimple partner to bring autonomous trucks ...
   url: https://telematicswire.net/navistar-and-tusimple-partner-to-bring-autonomous-trucks-to-market-navistar-invests-in-autonomous-trucking-company/
-- date: '2026-05-25'
+- date: ''
   title: Volkswagen Truck & Bus enters into strategic alliance with ...
   url: https://www.volkswagen-group.com/en/press-releases/volkswagen-truck-and-bus-enters-into-strategic-alliance-with-navistar-16423
-- date: '2026-05-25'
+- date: ''
   title: Navistar Makes Strides Toward Autonomous Technology ...
   url: https://www.prnewswire.com/news-releases/navistar-makes-strides-toward-autonomous-technology-for-hub-to-hub-transport-302086048.html
-- date: '2026-05-25'
+- date: ''
   title: International and PlusAI Accelerate Level 4 Autonomous ...
   url: https://news.international.com/2025-10-28-International-and-PlusAI-Accelerate-Level-4-Autonomous-Truck-Development-Powered-by-NVIDIA-DRIVE-AGX-Hyperion-Platform
 random_paper: 7
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

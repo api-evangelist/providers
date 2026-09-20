@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -183,19 +183,19 @@ plans:
   plan_count: 1
   slug: xerox-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Xerox Named a Leader in AI Vendor Landscape 2026 Report
   url: https://www.thecannatareport.com/xerox-is-ai-vendor-leader/
-- date: '2026-05-25'
+- date: ''
   title: Xerox introduces ITaaS, an AI‑powered ServiceNow ...
   url: https://www.facebook.com/XeroxCorp/posts/xerox-introduces-itaas-an-aipowered-servicenow-platform-that-brings-operations-a/1351026577068304/
-- date: '2026-05-25'
+- date: ''
   title: Connecticut Children's and Xerox Partner to Introduce New ...
   url: https://www.businesswire.com/news/home/20250314751836/en/Connecticut-Childrens-and-Xerox-Partner-to-Introduce-New-Innovative-AI-driven-Technologies-to-Pediatric-Healthcare
-- date: '2026-05-25'
+- date: ''
   title: Xerox Launches New AI-Powered Intelligent Document ...
   url: https://www.news.xerox.com/news/xerox-launches-new-ai-powered-intelligent-document-processing-solution
-- date: '2026-05-25'
+- date: ''
   title: Xerox AI – the future's almost here!
   url: https://www.perfectcolours.com/blog/2018/11/22/xerox-ai-the-futures-almost-here/?srsltid=AfmBOoqAEnZunThO-KFMQdJFUucWJHvzFvh7hZCDOCpuORD4prbBzVA3
 random_paper: 16
@@ -230,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

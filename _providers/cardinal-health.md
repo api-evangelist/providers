@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 1
 apis:
 - description: Cardinal Health operates an EDI trading partner program for customers and suppliers covering pharmaceutical distribution, medical products, and specialty pharmacy. Integrations use X12 EDI transaction
@@ -138,19 +138,19 @@ plans:
   plan_count: 0
   slug: cardinal-health-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Artificial intelligence policy
   url: https://www.cardinalhealth.com/en/support/artificial-intelligence-policy.html
-- date: '2026-05-25'
+- date: ''
   title: How artificial intelligence helps patients get the right care
   url: https://newsroom.cardinalhealth.com/2022-06-22-How-artificial-intelligence-helps-patients-get-the-right-care
-- date: '2026-05-25'
+- date: ''
   title: Cardinal Health Oncology Insights Fifth Edition
   url: https://www.prnewswire.com/news-releases/cardinal-health-oncology-insights-fifth-edition-oncologists-are-optimistic-artificial-intelligence-will-enhance-the-quality-of-patient-care-and-outcomes-300857409.html
-- date: '2026-05-25'
+- date: ''
   title: How Cardinal Health Uses Technology to Build a Cognitive ...
   url: https://www.fourkites.com/blogs/how-cardinal-health-is-building-a-best-in-class-supply-chain/
-- date: '2026-05-25'
+- date: ''
   title: Artificial Intelligence at Cardinal Health - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-cardinal-health/
 random_paper: 9
@@ -187,7 +187,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

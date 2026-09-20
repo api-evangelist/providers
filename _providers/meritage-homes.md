@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,19 +53,19 @@ nav: Providers
 network: true
 overview: Meritage Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Meritage Homes Corporation (MTH) Q1 2026 Earnings ...
   url: https://seekingalpha.com/article/4893558-meritage-homes-corporation-mth-q1-2026-earnings-call-transcript
-- date: '2026-05-25'
+- date: ''
   title: Meritage Homes Faces Q1 Earnings Pressure While ...
   url: https://simplywall.st/stocks/us/consumer-durables/nyse-mth/meritage-homes/news/meritage-homes-faces-q1-earnings-pressure-while-supporting-s
-- date: '2026-05-25'
+- date: ''
   title: 'Spotting Winners: Meritage Homes (NYSE:MTH) And ...'
   url: https://stockstory.org/us/stocks/nyse/mth/news/earnings/spotting-winners-meritage-homes-nysemth-and-home-builders-stocks-in-q1
-- date: '2026-05-25'
+- date: ''
   title: mth-20241231
   url: https://investors.meritagehomes.com/sec-filings/annual-reports/content/0000833079-25-000021/mth-20241231.htm
-- date: '2026-05-25'
+- date: ''
   title: 'Spotting Winners: Meritage Homes (NYSE:MTH) And ...'
   url: https://www.theglobeandmail.com/investing/markets/stocks/MTH/pressreleases/1951102/spotting-winners-meritage-homes-nysemth-and-home-builders-stocks-in-q1/
 random_paper: 1
@@ -95,7 +95,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

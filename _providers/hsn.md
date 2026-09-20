@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,19 +59,19 @@ nav: Providers
 network: true
 overview: HSN is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Products, Multi-Channel, Retail, and Television.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Privacypolicy | HSN
   url: https://www.hsn.com/content/privacypolicy/743
-- date: '2026-05-25'
+- date: ''
   title: HSN and Impact Team to Launch Influencer Platform
   url: https://www.pymnts.com/news/retail/2024/hsn-impact-team-launch-influencer-platform/
-- date: '2026-05-25'
+- date: ''
   title: QVC and HSN Launch Live Shopping Experiences on Philo
   url: https://www.prnewswire.com/news-releases/qvc-and-hsn-launch-live-shopping-experiences-on-philo-302489988.html
-- date: '2026-05-25'
+- date: ''
   title: HSNCodeFinder AI Launches Global AI Platform to Simplify
   url: https://www.openpr.com/news/4234321/hsncodefinder-ai-launches-global-ai-platform-to-simplify
-- date: '2026-05-25'
+- date: ''
   title: 'HSN Webinar: AI-Based Statistics for the Future'
   url: https://bandungkota.bps.go.id/en/news/2025/09/29/1514/hsn-webinar--ai-based-statistics-for-the-future.html
 random_paper: 21
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 4
 common:
@@ -99,19 +99,19 @@ plans:
   plan_count: 1
   slug: delek-us-holdings-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: notice of the 2025 annual meeting of stockholders
   url: https://www.sec.gov/Archives/edgar/data/1694426/000114036125009658/edge20041777x1_def14a.htm
-- date: '2026-05-25'
+- date: ''
   title: Delek US Holdings' Big Spring Refinery Selected by the ...
   url: https://www.prnewswire.com/news-releases/delek-us-holdings-big-spring-refinery-selected-by-the-department-of-energy-for-carbon-capture-project-302052242.html
-- date: '2026-05-25'
+- date: ''
   title: Innovation. Inspiration. Impact. Delek US ...
   url: https://www.instagram.com/p/DPeJqAZETtD/
-- date: '2026-05-25'
+- date: ''
   title: 'Permian: Delek U.S. to Acquire Alon USA for $464 Million'
   url: https://www.oilandgas360.com/permian-delek-u-s-to-acquire-alon-usa-for-464-million/
-- date: '2026-05-25'
+- date: ''
   title: Delek US Holdings Inc
   url: https://www.reuters.com/company/delek-us-holdings-inc/
 random_paper: 1
@@ -150,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

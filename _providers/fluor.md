@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -108,19 +108,19 @@ overview: 'Fluor is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
   Fluor''s developer surface includes engineering blog, support, and 8 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Business Incubation – Accelerating Emerging Technologies
   url: https://www.fluor.com/services-and-expertise/innovation-and-expertise/business-incubation/
-- date: '2026-05-25'
+- date: ''
   title: Fluor Uses IBM Watson to Deliver Predictive Analytics ...
   url: https://www.prnewswire.com/news-releases/fluor-uses-ibm-watson-to-deliver-predictive-analytics-capability-for-megaprojects-300711688.html
-- date: '2026-05-25'
+- date: ''
   title: 'Fluor Corporation (FLR): This Industrial Stock Is Already ...'
   url: https://finance.yahoo.com/news/fluor-corporation-flr-industrial-stock-114846750.html
-- date: '2026-05-25'
+- date: ''
   title: Quarterly Results - Fluor Corporation - Financials
   url: https://fluorenterprisesinc2023rbcr.q4web.com/financials/quarterly-results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Fluor Selected for Expansion of Large-Scale Biologics ...
   url: https://www.sttinfo.fi/tiedote/69952904/fluor-selected-for-expansion-of-large-scale-biologics-manufacturing-facility-in-scandinavia?publisherId=58763726
 random_paper: 2
@@ -150,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

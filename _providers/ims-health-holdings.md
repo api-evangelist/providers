@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,19 +62,19 @@ nav: Providers
 network: true
 overview: IMS Health Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Health Data, Pharmaceuticals, Life Sciences, and Historical.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Global Healthcare Information Technology Market $889.6 ...
   url: https://www.ihealthcareanalyst.com/global-health-information-technology-market/
-- date: '2026-05-25'
+- date: ''
   title: IMS Health To Announce Second-Quarter 2015 Results On July ...
   url: https://www.biospace.com/ims-health-to-announce-second-quarter-2015-results-on-july-31-2015
-- date: '2026-05-25'
+- date: ''
   title: Quintiles, IMS Health to merge in $9 billion deal
   url: https://www.reuters.com/article/world/americas/quintiles-ims-health-to-merge-in-9-billion-deal-idUSKCN0XU0VN/
-- date: '2026-05-25'
+- date: ''
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1478242/000147824223000044/iqv-20221231.htm
-- date: '2026-05-25'
+- date: ''
   title: NC-QUINTILES-NCTA | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/5955995/nc-quintiles-ncta?publisherId=90456
 random_paper: 13
@@ -110,7 +110,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,19 +72,19 @@ nav: Providers
 network: true
 overview: HD Supply Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Industrial Distribution, Maintenance Repair Operations, Wholesale, Retail, and Fortune 500.
 press:
-- date: '2026-05-25'
+- date: ''
   title: The Home Depot Announces Agreement to Acquire HD ...
   url: https://www.prnewswire.com/news-releases/the-home-depot-announces-agreement-to-acquire-hd-supply-holdings-inc-301173528.html
-- date: '2026-05-25'
+- date: ''
   title: No decision yet on HD Supply
   url: https://www.ishn.com/articles/86960-no-decision-yet-on-hd-supply
-- date: '2026-05-25'
+- date: ''
   title: Home Depot to buy back HD Supply in $8 bln deal
   url: https://www.reuters.com/business/home-depot-buy-back-hd-supply-8-bln-deal-2020-11-16/
-- date: '2026-05-25'
+- date: ''
   title: The Home Depot Announces Agreement to Acquire HD ...
   url: https://www.sdcexec.com/warehousing/press-release/21203641/the-home-depot-the-home-depot-announces-agreement-to-acquire-hd-supply-holdings-inc
-- date: '2026-05-25'
+- date: ''
   title: The Home Depot Completes Acquisition of HD Supply
   url: https://www.prnewswire.com/news-releases/the-home-depot-completes-acquisition-of-hd-supply-301198405.html
 random_paper: 9
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

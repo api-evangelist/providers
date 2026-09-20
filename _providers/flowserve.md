@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 3
 common:
@@ -84,19 +84,19 @@ overview: 'Flowserve is profiled on the [APIs.io](https://apis.io/) network. Tag
 
   The Flowserve catalog on APIs.io includes 1 JSON-LD context.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: Flowserve Corporation Terminates Merger with Chart Industries
   url: https://www.sec.gov/Archives/edgar/data/30625/000119312525167110/d59378dex991.htm
-- date: '2026-05-25'
+- date: ''
   title: Flowserve Corporation Reports First Quarter 2026 Results
   url: https://www.businesswire.com/news/home/20260429186812/en/Flowserve-Corporation-Reports-First-Quarter-2026-Results
-- date: '2026-05-25'
+- date: ''
   title: Flowserve Corporation Reports Third Quarter 2025 Results
   url: https://ir.flowserve.com/news-events/news-details/2025/Flowserve-Corporation-Reports-Third-Quarter-2025-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Flowserve Corporation Reports Fourth Quarter and Full ...
   url: https://ir.flowserve.com/news-events/news-details/2026/Flowserve-Corporation-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
-- date: '2026-05-25'
+- date: ''
   title: Flowserve
   url: https://appian.com/about/explore/customers/all-customers/flowserve
 random_paper: 21
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.7
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

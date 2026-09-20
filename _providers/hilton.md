@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,19 +114,19 @@ plans:
   plan_count: 1
   slug: hilton-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: SEC Charges Hospitality Company for Failing to Disclose ...
   url: https://www.sec.gov/newsroom/press-releases/2020-242
-- date: '2026-05-25'
+- date: ''
   title: 'Hilton''s AI Strategy: Analysis of Dominance in Hospitality ...'
   url: https://www.klover.ai/hilton-ai-strategy-analysis-of-dominance-in-hospitality-hotel-ai/
-- date: '2026-05-25'
+- date: ''
   title: Hilton Worldwide Holdings Inc. Common Stock (NY:HLT)
   url: https://markets.chroniclejournal.com/chroniclejournal/quote/news?ChannelType=PRESSRELEASES&Symbol=NY%3AHLT&CurrentPage=4
-- date: '2026-05-25'
+- date: ''
   title: Hilton Launches AI-Powered Digital Concierge To ...
   url: https://www.benzinga.com/markets/equities/26/03/51164669/hilton-launches-ai-powered-digital-concierge-to-reshape-travel-planning
-- date: '2026-05-25'
+- date: ''
   title: Hilton Worldwide Holdings Inc. Common Stock (HLT)
   url: https://www.financialcontent.com/quote/NY:HLT/pressReleases
 random_paper: 16
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -225,19 +225,19 @@ plans:
   plan_count: 1
   slug: starbucks-plans-pricing
 press:
-- date: '2026-05-25'
+- date: ''
   title: Starbucks is sunsetting its AI inventory program after it ...
   url: https://www.facebook.com/KIRO7Seattle/posts/starbucks-is-sunsetting-its-ai-inventory-program-after-it-reportedly-miscounted-/1404923738337353/
-- date: '2026-05-25'
+- date: ''
   title: Starbucks ditches AI inventory system after just 9 months
   url: https://www.restaurantdive.com/news/Starbucks-eliminates-computer-vision-ai-inventory-system/820934/
-- date: '2026-05-25'
+- date: ''
   title: Supporting the moments that matter with artificial intelligence
   url: https://about.starbucks.com/press/2026/supporting-the-moments-that-matter-with-artificial-intelligence/
-- date: '2026-05-25'
+- date: ''
   title: 'Meet Green Dot Assist: Starbucks Generative AI-Powered ...'
   url: https://about.starbucks.com/press/2025/meet-green-dot-assist-starbucks-generative-ai-powered-coffeehouse-companion/
-- date: '2026-05-25'
+- date: ''
   title: News Blog
   url: https://about.starbucks.com/press/news-blog/
 random_paper: 10
@@ -294,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

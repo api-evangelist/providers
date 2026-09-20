@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -499,30 +499,30 @@ plans:
   plan_count: 2
   slug: ncr-plans-pricing
 press:
-- date: '2026-05-25'
-  title: NCR Voyix Unveils AI-Accelerated Suite of Applications on ...
-  url: https://investor.ncrvoyix.com/news-releases/news-release-details/ncr-voyix-unveils-ai-accelerated-suite-applications-voyix/
-- date: '2026-05-25'
-  title: NCR Atleos Appoints New Chief Information Officer to ...
-  url: https://investor.ncratleos.com/news-events/press-releases/detail/167/ncr-atleos-appoints-new-chief-information-officer-to-drive-technology-strategy-digital-transformation-and-ai-led-automation
-- date: '2026-05-25'
-  title: NCR Atleos
-  url: https://www.facebook.com/Atleos.NCR/posts/ncr-atleos-announced-an-advancement-in-the-dual-sided-atm-concept-leveraging-com/743595608814422/
-- date: '2026-05-25'
-  title: NCR Atleos Advances Dual-Sided ATM Concept with AI- ...
-  url: https://www.businesswire.com/news/home/20260127016774/en/NCR-Atleos-Advances-Dual-Sided-ATM-Concept-with-AI-Assisted-Design-Sustainability-and-Operational-Efficiency
-- date: '2026-05-25'
-  title: 'NCR: Proactive defect management with AI'
-  url: https://www.fabasoft.com/en/media-center/nonconformance-reports-proactive-defect-management-ai-and-cloud
-- date: '2026-05-06'
-  title: Pei Wei Expands NCR Voyix Relationship to Power POS Across Its Restaurants | NCR Voyix
-  url: https://collections.ncrvoyix.com/newsroom/pei-wei-expands-ncr-voyix-relationship-to-power-pos-across-its-restaurants
-- date: '2026-05-06'
-  title: NCR Voyix Selected by Gyro Hut to Modernize and Strengthen its Technology Platform | NCR Voyix
-  url: https://collections.ncrvoyix.com/newsroom/ncr-voyix-selected-by-gyro-hut-to-modernize-and-strengthen-its-technology-platform
-- date: '2026-05-04'
+- date: ''
+  title: NCR Voyix maintains global leadership in self‑checkout shipments, per Datos Insights | NCR Voyix
+  url: https://collections.ncrvoyix.com/newsroom/ncr-voyix-maintains-global-leadership-in-self-checkout-shipments-according-to-datos-insights
+- date: ''
+  title: NCR Voyix Recognized as a Leader in IDC MarketScape Report | NCR Voyix
+  url: https://collections.ncrvoyix.com/newsroom/ncr-voyix-recognized-as-a-leader-in-idc-marketscape-report-for-retail-fuel-and-convenience
+- date: ''
+  title: Parker’s Kitchen enhances customer experience with NCR Voyix self‑checkout | NCR Voyix
+  url: https://collections.ncrvoyix.com/newsroom/parkers-kitchen-continues-to-elevate-the-customer-experience-with-ncr-voyix-self-checkout-technology
+- date: ''
+  title: Yogurtland selects NCR Voyix to power next‑generation technology ecosystem | NCR Voyix
+  url: https://collections.ncrvoyix.com/newsroom/yogurtland-selects-ncr-voyix-to-power-its-next-generation-technology-ecosystem
+- date: ''
+  title: NCR Voyix strengthens payments capabilities through Worldpay processing agreement | NCR Voyix
+  url: https://collections.ncrvoyix.com/newsroom/ncr-voyix-strengthens-payments-offering-through-processing-agreement-with-worldpay
+- date: ''
+  title: NCR Voyix to Present at the ICR Conference | NCR Voyix
+  url: https://collections.ncrvoyix.com/newsroom/ncr-voyix-to-present-at-the-icr-conference
+- date: ''
   title: Stater Bros. Markets Signs New Agreement with NCR Voyix to Modernize POS and Payments on the Voyix Commerce Platform | NCR Voyix
   url: https://collections.ncrvoyix.com/newsroom/stater-bros-markets-signs-new-agreement-with-ncr-voyix-to-modernize-pos-and-payments-on-the-voyix-commerce-platform
+- date: ''
+  title: NCR Voyix Unveils AI-Accelerated Suite of Applications on ...
+  url: https://investor.ncrvoyix.com/news-releases/news-release-details/ncr-voyix-unveils-ai-accelerated-suite-applications-voyix/
 random_paper: 15
 rate_limits:
 - limit_count: 2
@@ -593,7 +593,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: true

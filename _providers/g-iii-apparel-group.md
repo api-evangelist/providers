@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 1
 common:
@@ -59,21 +59,21 @@ nav: Providers
 network: true
 overview: G-III Apparel Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Fashion, Retail, and Fortune 1000.
 press:
-- date: '2026-05-25'
+- date: ''
   title: Carolyn Pittel's Post - GIII Apparel Group
   url: https://www.linkedin.com/posts/carolynpittel_g-iii-apparel-group-signs-definitive-agreement-activity-7461397030934933504-6X4y
-- date: '2026-05-25'
-  title: G-III Apparel Group's Data-Driven Success Story
-  url: https://www.sdggroup.com/en-us/success-stories/g-iii-apparel
-- date: '2026-05-25'
-  title: G-III Apparel Group LTD. (GIII) reports earnings - Quartz
-  url: https://qz.com/g-iii-apparel-group-ltd-giii-reports-earnings-1851772039
-- date: '2026-05-25'
-  title: Form 10-K for G III Apparel Group LTD DE filed 03/24/2025
-  url: https://ir.giii.com/static-files/a7377861-d8de-4904-a1b6-0ab849a50112
 - date: ''
   title: 'GIII Investor Alert: G-III Apparel Group Securities Fraud ...'
   url: https://www.prnewswire.com/news-releases/giii-investor-alert-g-iii-apparel-group-securities-fraud-investigation
+- date: ''
+  title: G-III Apparel Group's Data-Driven Success Story
+  url: https://www.sdggroup.com/en-us/success-stories/g-iii-apparel
+- date: ''
+  title: G-III Apparel Group LTD. (GIII) reports earnings - Quartz
+  url: https://qz.com/g-iii-apparel-group-ltd-giii-reports-earnings-1851772039
+- date: ''
+  title: Form 10-K for G III Apparel Group LTD DE filed 03/24/2025
+  url: https://ir.giii.com/static-files/a7377861-d8de-4904-a1b6-0ab849a50112
 random_paper: 3
 score:
   band: minimal
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false

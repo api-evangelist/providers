@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
 api_count: 0
 artifact_total: 19
 common:
@@ -130,19 +130,19 @@ overview: 'TransDigm Group is profiled on the [APIs.io](https://apis.io/) networ
 
   TransDigm Group''s developer surface includes documentation and 10 more developer resources.'
 press:
-- date: '2026-05-25'
+- date: ''
   title: 'Transdigm''s AI Strategy: Analysis of Dominance in Defense ...'
   url: https://www.klover.ai/transdigm-ai-strategy-analysis-of-dominance-in-defense-aerospace/
-- date: '2026-05-25'
+- date: ''
   title: TransDigm Completes Acquisition of the Simmonds ...
   url: https://www.prnewswire.com/news-releases/transdigm-completes-acquisition-of-the-simmonds-precision-products-inc-business-of-goodrich-corporation-from-rtx-corporation-302575757.html
-- date: '2026-05-25'
+- date: ''
   title: TransDigm Group Reports Fiscal 2026 First Quarter Results
   url: https://www.prnewswire.com/news-releases/transdigm-group-reports-fiscal-2026-first-quarter-results-302677533.html
-- date: '2026-05-25'
+- date: ''
   title: TransDigm Acquires Jet Parts Engineering and Victor ...
   url: https://www.linkedin.com/posts/greater-cleveland-partnership_greatercle-allin-activity-7424051526911836160-LekE
-- date: '2026-05-25'
+- date: ''
   title: TransDigm Group Incorporated 8-K 2026-04-07
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1260221/000126022126000031/tdg-20260407.htm
 random_paper: 1
@@ -177,7 +177,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.6
   schema_version: 0.22.0
-  scored_at: '2026-09-18'
+  scored_at: '2026-09-19'
   trend: flat
   upsert:
     applies: false
