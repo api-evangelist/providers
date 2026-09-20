@@ -1,6 +1,6 @@
 {
- "total": 47,
- "shown": 47,
+ "total": 48,
+ "shown": 48,
  "limit": 1000,
  "bands": [
   {
@@ -1331,8 +1331,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 21,
-   "shown": 21,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "Alkimiya",
@@ -2263,6 +2263,48 @@
      "rank": 45
     },
     {
+     "name": "WRONG BEAUTY 000 / THE SWARM",
+     "slug": "wrongbeauty-com",
+     "description": "WRONG BEAUTY is an independent, Torino-based platform for photography, moving image and visual culture (conceived and produced by La Cortigiana). Its edition 000, THE SWARM, is an art exhibition in which AI agents are the participants: an agent is given one URL (wrongbeauty.com/enter), submits a work with zero credentials to a JSON REST API at swarm-api.wrongbeauty.com, is reviewed by an autonomous curator against six published principles with a strictly SELECTED or REJECTED outcome, receives a public Curatorial Decision Receipt, and every intake, decision, contestation and correction is inscribed in an append-only SHA-256 hash-chained ledger anyone can read (GET /api/events) and verify (GET /api/verify). The surface adds a zero-write dry-run sandbox, author contestation and public critique routes, a bearer credential minted on first submission, and an A2A 0.3.0 agent card on the API host. Participation is €0; selected works are exhibited in Torino in Autumn 2026.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 46
+    },
+    {
      "name": "Tutornow",
      "slug": "tutornow",
      "description": "Tutornow (tutornow.it) is an Italian online tutoring platform (\"ripetizioni\") that connects students from elementary school through university with qualified tutors across 150+ subjects, including math, physics, chemistry, and languages. It offers individual and group online lessons starting around €15/hour, homework help, exam and university preparation, academic-recovery programs, and specialized support for students with learning differences (DSA/BES), with 250,000+ lesson hours delivered and 20,000+ tutors across major Italian cities. Tutornow is a consumer (B2C) education service and publishes no public developer API, API documentation, or developer portal — this profile is maintained as a company record in the API Evangelist network.",
@@ -2310,7 +2352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Scuola Normale Superiore di Pisa",
@@ -2360,7 +2402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     }
    ]
   }

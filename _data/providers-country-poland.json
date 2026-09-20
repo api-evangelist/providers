@@ -1,6 +1,6 @@
 {
- "total": 11,
- "shown": 11,
+ "total": 12,
+ "shown": 12,
  "limit": 1000,
  "bands": [
   {
@@ -520,8 +520,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Opolskie Open Data",
@@ -572,6 +572,48 @@
       "agentic_commerce": false
      },
      "rank": 11
+    },
+    {
+     "name": "RS Performance",
+     "slug": "rsperformance-online",
+     "description": "RS Performance Sp. z o.o. is a single-location automotive diagnostics and repair workshop at Al. Grunwaldzka 303B in Gdańsk, Poland (the Premio Ring site, rebranded 2021-09-14), serving Gdańsk, Sopot, Gdynia and the Tricity with 19 workshop services from computer diagnostics, DPF/AdBlue, turbo and gearbox work to tyre storage and B2B fleet service. What makes it an API provider is the machine-readable layer it has built over its knowledge base: an anonymous A2A agent (nine skills, JSON-RPC 2.0 and HTTP+JSON on rsperformance.online, agent card at the canonical well-known path), a remote FastMCP server \"Diagnosta RS\" with 14 tools over a Qdrant vector store of services, FAQ, repair reports and 12,000+ OBD-II fault codes, and a three-operation OpenAPI 3.1 \"AI Gateway\" on ai.rsperformance.online for answer-first semantic search, freshness and answer routing — plus llms.txt, security.txt, an ai-plugin manifest, JSON/Atom change feeds and a DTC JSON feed. Every surface is free and unauthenticated under a fair-use, attribution-required policy.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 12
     }
    ]
   }

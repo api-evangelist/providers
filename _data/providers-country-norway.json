@@ -1,6 +1,6 @@
 {
- "total": 16,
- "shown": 16,
+ "total": 17,
+ "shown": 17,
  "limit": 1000,
  "bands": [
   {
@@ -481,8 +481,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Funcom",
@@ -749,6 +749,48 @@
      "rank": 15
     },
     {
+     "name": "Opplevagent",
+     "slug": "opplevagent-no",
+     "description": "Opplevagent is an agent-native (A2A) marketplace of Norwegian experiences and activities — 547 hand-picked tours, courses, attractions and things to do from 417 providers verified against Brønnøysundregistrene, plus a gårdssalg vertical of 252 farm-sale drink producers (breweries, cideries, wineries, distilleries). Agents and humans query the same catalog through an open, read-only REST discovery API described by an OpenAPI 3.1 document, a remote Streamable-HTTP MCP server (also shipped as the opplevagent-mcp npm package for stdio clients) with five tools including a pending-only booking request, and an A2A JSON-RPC endpoint described by a signed agent card at /.well-known/agent-card.json. No authentication is required; an optional free X-API-Key raises the rate limits. Operated from Norway by Daniel Fredriksen on the same codebase as the sibling sites rettfrabonden.com and finn-tannlege.com.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 16
+    },
+    {
      "name": "Rett fra Bonden",
      "slug": "rettfrabonden-com",
      "description": "Rett fra Bonden (rettfrabonden.com) is an open, non-profit discovery layer for local food in Norway — a registry of 1,900+ farms, farm shops, REKO rings, farmers' markets and cooperatives that is built to be read by AI agents first. It exposes the same producer catalogue through three protocols: a REST API (natural-language and structured search, producer detail, geocoding, an ACP-conformant product feed), a remote MCP server at /mcp with 15 tools including an anonymous shopping-cart and pickup-order flow, and an A2A JSON-RPC endpoint at /a2a described by a signed agent card at /.well-known/agent-card.json. Reads are open without a key; producer registration requires an X-API-Key issued on registration. The code is MIT-licensed at github.com/slookisen/lokal and the platform is operated in Norway by Daniel Fredriksen.",
@@ -788,7 +830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     }
    ]
   }

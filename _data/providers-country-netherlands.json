@@ -1,6 +1,6 @@
 {
- "total": 49,
- "shown": 49,
+ "total": 50,
+ "shown": 50,
  "limit": 1000,
  "bands": [
   {
@@ -1619,8 +1619,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 17,
-   "shown": 17,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "Otrium",
@@ -2362,6 +2362,48 @@
      "rank": 48
     },
     {
+     "name": "Co-Legal B.V.",
+     "slug": "co-legal-be",
+     "description": "Co-Legal B.V. is a Dutch company (KvK 42135345, Delft) building AI-native legal software and dossier support for Belgian and cross-border Belgium–Netherlands matters — wealth planning and succession, company law and transactions, tax and finance, real estate — sold to law firms, notaries, accountants and tax advisers by proposal, with the private platform behind Cloudflare Access and Microsoft Entra. Alongside it Co-Legal runs a public, free, anonymous, read-only agent at agent.co-legal.be for informational Belgian and Dutch legal and fiscal source questions: an A2A 1.0 agent card signed with JWS ES256 (verifiable against a published JWKS) declaring 17 skills — KBO/BCE company lookup, EU VIES VAT validation, Belgian and Dutch ECLI case-law resolvers, EUR-Lex/CELEX and Justel/wetten.overheid.nl statute resolvers, Flemish inheritance-tax brackets, ECB reference rates, IBAN validation, public legal-corpus search and read, a citation verifier, DOCX concept drafting and a natural-language answer skill — and a remote MCP server at https://agent.co-legal.be/mcp that answers an anonymous tools/list with 12 of those as read-only, idempotent tools. Everything runs on Google Cloud in the EU with the model (claude-opus-5 via Vertex AI) disclosed inside the card. No OpenAPI is published; the MCP tools/list and the card's tool-schema extension are the machine-readable contract.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
      "name": "Fraudio",
      "slug": "fraudio",
      "description": "Fraudio is an Amsterdam-based payments fraud detection and financial-crime scale-up founded in 2019 by João Moura (CEO), Nathan Trousdell (COO), and team, with additional offices in London, Lisbon, and Barcelona. Fraudio delivers AI- and machine-learning-driven fraud detection as a managed service to merchant acquirers, payment service providers, card issuers, and banks, with a product line that covers card payment fraud, merchant initiated fraud, anti-money laundering, authorised push payment (APP) fraud, and money mule detection. The company markets itself as \"Generation 3\" fraud detection, advancing past rule-based (Gen 1) and bespoke per-customer ML (Gen 2) approaches by training a single centralized \"patent pending AI super brain\" on the pooled transaction history of all of its customers, claiming network-effect performance gains versus single-tenant models. Fraudio integrates with customers through a plug-and-play real-time scoring API with sub-100ms response times, configurable risk-appetite thresholds, and no upfront integration or setup cost. Customers include Viva Wallet, Silverflow, Pismo, Bancontact, Fazz, PayTabs, IXOPAY, Bold.co, SaltPay, WiPay, ePayco, and LOQR. Fraudio is ISO 27001 certified, was selected for the Visa Innovation Program (2023), is co-financed by the EU Lisboa 2030 programme, has raised roughly $3.3M seed plus a Series A round (March 2025), and counts BigStar Ventures, BYND Venture Capital, Teya, Viva Wallet, Portugal Ventures, Iberis Capital, Shilling, and CTT among its investors. There is no public developer portal, no open API reference, no public OpenAPI spec, no SDK, and no GitHub organization — the fraud-scoring API is delivered as a gated B2B integration through a commercial sales process.",
@@ -2409,7 +2451,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     }
    ]
   }

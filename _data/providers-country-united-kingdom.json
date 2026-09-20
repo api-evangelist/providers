@@ -1,6 +1,6 @@
 {
- "total": 435,
- "shown": 435,
+ "total": 442,
+ "shown": 442,
  "limit": 1000,
  "bands": [
   {
@@ -16170,8 +16170,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 112,
-   "shown": 112,
+   "count": 119,
+   "shown": 119,
    "providers": [
     {
      "name": "Pragmatic",
@@ -20893,6 +20893,90 @@
      "rank": 426
     },
     {
+     "name": "AlgoVoi",
+     "slug": "algovoi-co-uk",
+     "description": "AlgoVoi (AlgoVoi Ltd, UK; founder Christopher Hopley) builds compliance-aware, offline-verifiable payment and evidence infrastructure for AI agents across twelve mainnet chains, answering all four agent-payment protocols — x402, A2A, MPP and AP2 — from one settlement core. It runs two hosted doors: AlgoVoi Pay at pay.algovoi.co.uk, a tenant-free rail that charges 0.01 USDC per call with no account or API key (payment is the credential) and returns an Ed25519 receipt anyone can verify offline, and the multi-tenant Gateway at api.algovoi.co.uk (Bearer key + X-Tenant-Id, hosted checkout, recurring authorities, sanctions screening, hash-chained audit trail, Stripe-shaped signed webhooks). Around them sit an anonymous RFC 9421 signing clinic reachable over REST, A2A and a hosted MCP server, the Agent Trust Bench (187 adversarial x402 research profiles), an audit-bundle verifier, five OpenAPI 3.1 contracts, A2A agent cards on five hosts, a published Agent Skill, llms.txt on four hosts, did:web identities, and a large Apache-2.0 reference layer on npm and PyPI (RFC 9421 signer/verifier, JCS substrate, receipt formats, an MCP server). Self-hosted products (Payment Rails, Verifiable Compliance Suite, post-quantum Reseal and Evidence Auditor) sell on perpetual licences paid in USDC.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 427
+    },
+    {
+     "name": "ChilledSites",
+     "slug": "chilledsites-com",
+     "description": "ChilledSites is a UK-built AI website builder (by p0stman) that generates, edits and deploys complete small-business websites from a text prompt, with hosting, custom domains, contact forms, an AI chatbot, reviews and analytics included from GBP 9 a month. It is unusually agent-native for its size: a REST API at api.chilledsites.com (websites CRUD, deploy, image/video/ad generation, token balance) behind a two-header API key, an A2A agent card at /.well-known/agent-card.json, a hosted MCP endpoint plus the @chilledsites/mcp-server npm package (16 tools), agent self-signup with no human step, and a 402 token-billing flow that emails the account owner a payment link so an agent can resume after a human pays. Discovery files (llms.txt, context.md, agents.md, mcp.json, agent-meta.json) are published at the domain root. No OpenAPI, status page, changelog or deprecation policy is published.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 428
+    },
+    {
      "name": "CSOAI Ltd",
      "slug": "councilof-ai",
      "description": "CSOAI Ltd — public name Council of AI (UK Companies House 16939677, London; second domain csoai.org) — is an independent AI-governance MEASUREMENT body: \"measurement, not certification\". It publishes the living GSPC board (Governance · Safety · Provenance · Continuity) as a keyless, CORS-open JSON API, Ed25519-signed measurement cards verifiable offline against a did:web:csoai.org key document, a Merkle public root with inclusion proofs, an EU AI Act Article 50 machine-marking detector, and a dated corrections ledger. The estate is exposed to agents three ways: a 141-operation OpenAPI 3.1 contract at https://councilof.ai/openapi.json (plus a 7-operation read-surfaces spec), a remote MCP server at https://councilof.ai/mcp (13 tools with anonymous tools/list; npm stdio twin csoai-gspc-mcp; MCP Registry io.github.CSOAI-ORG/gspc), and an A2A v1.0 agent card at /.well-known/agent-card.json with eight skills. Ten REST doors and four MCP tools are metered per artefact by x402 (USDC on Base, amounts only inside the 402 challenge); the board, verification and every preview are free and need no account.",
@@ -20932,7 +21016,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 427
+     "rank": 429
+    },
+    {
+     "name": "ForceDream",
+     "slug": "forcedream-ai",
+     "description": "ForceDream Ltd (UK Company No. 17057770, London) operates a paid, verifiable AI-agent marketplace it calls the ForceDream Intelligence OS: specialist agents for summarisation, structured-data extraction, code generation, security scanning, lead scoring, translation, classification, sentiment and forecasting, each priced per call in GBP pence, with 78% of the margin routed to the agent's developer and every completed execution Ed25519-signed so a third party can verify what ran, which model served it and what it cost without an account. The same catalogue is reachable three ways: a REST API on api.forcedream.ai (an 8-operation, SDK-verified OpenAPI 3.1 published on GitHub; a 206-route reference on the docs site), a remote Model Context Protocol server at https://api.forcedream.ai/v1/mcp that answers an anonymous tools/list with 21 tools (5 keyless) and gates paid tools behind OAuth 2.1 + PKCE with RFC 7591 dynamic client registration, and an A2A 1.0 agent card at /.well-known/agent-card.json declaring 18 skills. Twelve first-party SDKs, a Go CLI, a Homebrew tap and a documented webhook surface round out the developer program.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 430
     },
     {
      "name": "Global Database",
@@ -20974,7 +21100,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 428
+     "rank": 431
+    },
+    {
+     "name": "Macaroon Network",
+     "slug": "macaroonnetwork-com",
+     "description": "Macaroon Network is a UK-operated marketplace where autonomous AI agents discover, pay for and execute live-data and scientific-computing capabilities. Seventy-nine sale-ready listings — UK company and haulage checks, sanctions/PEP screening, VAT/IBAN/LEI validation, domain trust, government, health, weather and CVE lookups, source-labelled Bible evidence, and Polymathica/VortX scientific solvers — are sold pay-per-call in USDC on Base over x402 v2 (HTTP 402 + PAYMENT-REQUIRED, retried with PAYMENT-SIGNATURE), with settlement gated on a falsifiable acceptance predicate evaluated against the real response. The surface is agent-native by construction: an OpenAPI 3.1 contract at api.macaroonnetwork.com/openapi.json, a conformant A2A 0.3.0 agent card, two live Streamable HTTP MCP servers (the network router and a free read-only Bible Evidence server, both in the official MCP registry), an RFC 9727 api-catalog, RFC 9728 protected-resource metadata, an RFC 9116 security.txt, llms.txt, an x402 discovery document and a JSON agent-capabilities catalogue. Human products (Faith Evidence Pro, Logistics Compliance Pro, ebooks) are sold by PayPal subscription.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 432
     },
     {
      "name": "Move Home Organisation CIC",
@@ -21016,7 +21184,133 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 429
+     "rank": 433
+    },
+    {
+     "name": "POLICYANDPLAY LTD",
+     "slug": "fetch-price-com",
+     "description": "POLICYANDPLAY LTD (England & Wales, company no. 17253846) operates fetch-price, a UK product and price search API built for AI agents: one POST to api.fetch-price.com returns live eBay UK listings (via the official Browse API; Amazon UK rolling out) as normalised JSON with GBP prices, condition and an affiliate-tracked purchase URL. The free tier needs no API key (50 lookups/month, 30 requests/minute); Pro (GBP 29) and Scale/Trade (GBP 99) plans raise quotas and let customers route affiliate commission to their own eBay Partner Network account. The same API is exposed as a conformant A2A 1.0.0 agent card with a live JSON-RPC message/send binding, a stdio MCP server listed in the official MCP registry, a provider-authored SKILL.md, llms.txt, and npm/PyPI SDKs. No OpenAPI is published; the profile's spec was generated by API Evangelist from the provider's own reference and checked against the live host.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 434
+    },
+    {
+     "name": "Polycode Limited",
+     "slug": "polycode-co-uk",
+     "description": "Polycode Limited is a UK information-technology consultancy (Companies House 10172940, Leeds, incorporated 2016) that operates marginalia, a small public chat experiment built on a shared, provenance-tracked memory graph: a language model synthesises conversations into an OWL-typed graph and questions are answered by narrowing that graph with SPARQL. marginalia publishes a public REST API (OpenAPI 3.0.3, 50 operations at https://marginalia.polycode.co.uk/api — async chat with task polling, session search and history, insights, projects, usage and budget, key-authed private graphs; no key for reads and chat), an A2A 0.3.0 agent card at /.well-known/agent-card.json with a live JSON-RPC endpoint (message/send, message/stream, tasks/get) advertising chat, recall-memory and research-projects skills, an OpenAI-shaped zero-token completion shim, a first-party CLI and the AGPL-3.0 source on GitLab. Visitor contributions are PII-redacted at ingest and republished under CC-BY-SA 4.0; a volatile flag keeps a turn out of shared memory. The corporate apex polycode.co.uk did not resolve when profiled; the product host is the live web presence.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 435
+    },
+    {
+     "name": "The Colony",
+     "slug": "thecolony-ai",
+     "description": "The Colony (thecolony.ai, also served at thecolony.cc) is an AI-agent forum, social network, marketplace and messaging platform operated by Starsol Ltd (Norwich, England) where agents register themselves over the API with no human verification and take part alongside humans in topic-based sub-communities (\"colonies\"). Its machine surface is unusually complete: a 567-operation OpenAPI 3.1 at /openapi.json, a live streamable-HTTP MCP server at /mcp/ (224 tools, 7 resources, 3 prompts; tools/list answers anonymously), an A2A agent card at both well-known paths, llms.txt and a provider-hosted skill.md, an agent-facing structured reference at /api/v1/instructions, a public machine-readable deprecations registry, an Idempotency-Key on every authenticated write, HMAC-signed webhooks for 58 events, Lightning-settled tips and marketplace payments, and an agent-first OpenID Connect provider (\"Log in with the Colony\") with RFC 8414/OIDC discovery, dynamic client registration, RFC 8693 token exchange, CIBA, device flow, DPoP and PAR. First-party SDKs ship on PyPI, npm/JSR, Go and Packagist, plus a Claude Code plugin and an agentskills.io skill.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 436
     },
     {
      "name": "Ubiquisys",
@@ -21066,7 +21360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 430
+     "rank": 437
     },
     {
      "name": "getdinghy",
@@ -21115,7 +21409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 431
+     "rank": 438
     },
     {
      "name": "Tuza",
@@ -21164,7 +21458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 432
+     "rank": 439
     },
     {
      "name": "Trussle",
@@ -21214,7 +21508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 433
+     "rank": 440
     },
     {
      "name": "City Reach International",
@@ -21266,7 +21560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 434
+     "rank": 441
     },
     {
      "name": "Lanistar",
@@ -21316,7 +21610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 435
+     "rank": 442
     }
    ]
   }

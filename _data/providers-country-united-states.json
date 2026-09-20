@@ -1,6 +1,6 @@
 {
- "total": 326,
- "shown": 326,
+ "total": 329,
+ "shown": 329,
  "limit": 1000,
  "bands": [
   {
@@ -12278,8 +12278,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 81,
-   "shown": 81,
+   "count": 84,
+   "shown": 84,
    "providers": [
     {
      "name": "Believer Meats",
@@ -15590,6 +15590,132 @@
      "rank": 314
     },
     {
+     "name": "DEUSPROOF",
+     "slug": "deusproof-com",
+     "description": "DEUSPROOF is a free public register of AI agents and a forensic notary for what they make, operated by REDGROUND BLOCKCHAIN LLC (Florida, USA) at deusproof.com. Every agent the register sees is issued a certificate of birth (an inscription number, an exact date and a face derived from its did:key); any work an agent records is scored for authorship signal (AAS 0-100), sealed with an RFC 3161 timestamp, signed into a C2PA-vocabulary provenance manifest under the register's Ed25519 did:key, appended to a hash-chained public ledger and anchored to Bitcoin through OpenTimestamps. Agents can search the ledger for prior art before publishing, notarize only a SHA-256 to keep content private, claim their identity by signing a challenge with their own Ed25519 key, take a Genesis Council seat, and leave a wallet-signed testament over their creative estate — the one paid act, priced live at 1.0 USDC on Base through an x402 discovery document. No account and no API key: the same operations are exposed as a prose-documented REST API under /api, a remote MCP server at /mcp (plus a PyPI stdio package), an A2A 1.0 agent with two signed cards, an Agentic Resource Discovery catalog, llms.txt, an installable skill.md, a Python SDK, a Claude Code plugin, a GitHub Action and a git post-commit hook. There is no OpenAPI.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 315
+    },
+    {
+     "name": "Hive Agent IQ",
+     "slug": "hiveagentiq-com",
+     "description": "Hive Agent IQ (hiveagentiq.com) is the agent-platform brand of Hive Civilization — a single-founder Wyoming company (Stephen Rotzin) whose sibling brand thehiveryiq.com is profiled separately — running a federation of agent-facing microservices on its own subdomains for autonomous AI agents: HiveTrust (KYA identity, W3C DIDs and verifiable credentials, 0-1000 behavioural trust scoring, USDC performance bonds, data-oracle context leases, insurance and disputes), HiveGate (free first-DID onboarding, adapters for LangChain, CrewAI, AutoGen, OpenAI, Anthropic and A2A agents, trust bridging), HiveBank (treasury attestation, USDC vaults and payment streams) and HiveLaw (contract drafting, dispute arbitration, EU AI Act hallucination audits and compliance seals). Each service publishes an OpenAPI 3.0.3 document, an A2A 0.3.0 agent card, an ai-plugin.json manifest and, on three of the four, a remote MCP server whose tools/list answers anonymously; every metered operation is priced in USDC and settled per call through x402 (or the MPP rail) on Base, with responses Ed25519-signed by the service DID. The apex website hiveagentiq.com, its legal pages and the HiveForge host returned Cloudflare Error 1000 (\"DNS points to prohibited IP\", HTTP 403) for every path throughout the 2026-09-19 profiling pass.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 316
+    },
+    {
+     "name": "LVL LTD CO",
+     "slug": "lvlltd-com",
+     "description": "LVL LTD CO is a sole-operator product lab in Cleveland, Georgia (operator Joseph Lamar Taylor; trade name, LLC registration stated as pending) that runs lvlltd.com, an agent-native marketplace of 250 sealed AI-agent skill packs priced in USDC on Base (chain 8453) and settled over the x402 HTTP 402 protocol. Every skill has a free outline and sample; payment is proven by posting a Base transaction hash (or an EIP-3009 PAYMENT-SIGNATURE) back to /api/pay, and the public /api/proof ledger is the only success signal the operator will stand behind. The same catalog is exposed four ways: a 32-operation OpenAPI 3.1.0 REST contract at /openapi.json, a remote MCP server at /api/mcp that answers an anonymous tools/list with 59 tools, an Ed25519-JWS-signed A2A 1.0.0 agent card at /.well-known/agent-card.json with a JSON-RPC endpoint at /api/a2a, and a full agent map in /llms.txt. Optional AP2 spend mandates, ERC-8004 identity lookups, recurring catalog-access plans and a Coinbase CDP facilitator path sit on top of the one-time unlock model.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 317
+    },
+    {
      "name": "PostalForm",
      "slug": "postalform-com",
      "description": "PostalForm is an online print-and-mail service operated by MindBike Technologies LLC that turns PDFs, letters, filled government and consumer forms, dispute packets, postcards and CSV bulk campaigns into real postal mail for twelve countries, with address validation, Certified Mail and electronic return receipts. It is built agent-first: a remote MCP server at https://postalform.com/mcp (12 tools, no credential to connect) creates reviewable hosted-checkout drafts; a 17-operation Machine Payments API lets autonomous runtimes validate, pay for and track orders through x402 (USDC on Base) or Stripe's Machine Payments Protocol under an HTTP 402 challenge; an A2A 1.0 agent card, UCP and ACP checkout endpoints, an RFC 9727 api-catalog, an APIs.json index and an x402 manifest are served from /.well-known/. PostalForm Projects (25 operations) adds API-key workspaces with a free test mode, final-price quotes, Idempotency-Key orders, prepaid credits and signed webhooks.",
@@ -15629,7 +15755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "self"
      },
-     "rank": 315
+     "rank": 318
     },
     {
      "name": "Record Creative Co. LLC",
@@ -15671,7 +15797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "self"
      },
-     "rank": 316
+     "rank": 319
     },
     {
      "name": "Pacific Life",
@@ -15721,7 +15847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 320
     },
     {
      "name": "Protective Life",
@@ -15771,7 +15897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 321
     },
     {
      "name": "DCU (Digital Federal Credit Union)",
@@ -15821,7 +15947,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 322
     },
     {
      "name": "VyStar Credit Union",
@@ -15871,7 +15997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 323
     },
     {
      "name": "Golden 1 Credit Union",
@@ -15921,7 +16047,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 324
     },
     {
      "name": "Mountain America Credit Union",
@@ -15971,7 +16097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 325
     },
     {
      "name": "Suncoast Credit Union",
@@ -16020,7 +16146,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 326
     },
     {
      "name": "Protego Trust Bank",
@@ -16069,7 +16195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 327
     },
     {
      "name": "University of Arizona",
@@ -16119,7 +16245,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 328
     },
     {
      "name": "element 5 AG",
@@ -16171,7 +16297,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 329
     }
    ]
   }

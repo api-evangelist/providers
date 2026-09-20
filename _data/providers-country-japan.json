@@ -1,6 +1,6 @@
 {
- "total": 111,
- "shown": 111,
+ "total": 114,
+ "shown": 114,
  "limit": 1000,
  "bands": [
   {
@@ -3018,8 +3018,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 47,
-   "shown": 47,
+   "count": 50,
+   "shown": 50,
    "providers": [
     {
      "name": "App-CM",
@@ -4908,6 +4908,132 @@
      "rank": 105
     },
     {
+     "name": "HaneruTo",
+     "slug": "hakuto-0209-com",
+     "description": "HaneruTo — trading as hakuto, brand B612 SHEEP — is a Japanese one-person, AI-assisted web and systems development studio founded in 2025 that also ships b612, a Japanese-market code-review agent for AI coding assistants: review checklists by target type, industry presets with mandatory Japanese legal checkpoints (景表法 / 特商法 / 薬機法 / インボイス / 電帳法 / 宅建業法 / 介護保険法), failure patterns and 31 deterministic detection rules — no LLM involved; the server has no input for customer source code. b612 is published two ways on mcp.hakuto-0209.com: a remote MCP server at /mcp (Streamable HTTP, protocol 2025-06-18, ten tools with real inputSchemas, anonymous tools/list, keyless principles/rules) and an A2A 0.3 agent whose EdDSA-signed card at /.well-known/agent-card.json declares six skills behind an x-b612-key licence header, with the signing key at /.well-known/jwks.json. No REST/OpenAPI surface, no SDK, no self-serve sign-up; agent access is a monthly flat-fee licence priced on contact.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 106
+    },
+    {
+     "name": "KG-NINJA",
+     "slug": "kgninja-dev",
+     "description": "KG-NINJA is the operator identity (GitHub user KG-NINJA, Osaka; Cloudflare Wallet handle @kgninja) behind Agent Verification Utility at agent-economy.kgninja.dev, a Cloudflare Workers service (v0.4.3) that runs bounded deterministic checks (SHA-256 equality, JSON Pointer existence/equality/type) over caller-supplied inline JSON and returns an Ed25519-signed execution record, sold to agents per call for 10000 atomic USDC ($0.01) on Base through x402 v2 with no account, API key or OAuth. One origin exposes the product three ways — a 44-operation OpenAPI 3.1.0 contract at /openapi.json, a remote Streamable HTTP MCP server at /mcp answering an anonymous tools/list (five tools, one paid), and an A2A 1.0 agent card at /.well-known/agent-card.json with JSON-RPC at /a2a — plus an RFC 9727 API catalog, an MCP Registry server.json, a provider-published Agent Skill, a JWKS, an x402 manifest, llms.txt and Content-Signal. The apex kgninja.dev has no A record; the subdomain is its only web presence.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 107
+    },
+    {
+     "name": "The HORIZ音s株式会社",
+     "slug": "horizonshield-dev",
+     "description": "The HORIZ音s株式会社 (The HORIZONs Co., Ltd., Hiratsuka, Kanagawa) operates HORIZON SHIELD, a buyer-side, agent-native fair-price verification service for Japanese construction and renovation estimates, built by a 30-year master carpenter on the open JCCDB dataset (95,403 items, CC BY 4.0). Its flagship KIRA server at mcp.horizonshield.dev is a free, anonymous remote MCP server (15 tools, 5 prompts) and A2A agent that audits a quoted price against fair ranges, flags overcharge tactics, and issues SHA-256 receipts anchored to Bitcoin via OpenTimestamps; a FairPriceAttestation tool bridges to Google's AP2 Cart Mandate. Around it sit a public MCP Verification Gate (the family's one OpenAPI, plus MCP and A2A) that measures other people's MCP servers against an A2A Conduct Extension the company authors, the JIDEC append-only verification ledger with an RFC 9727 api-catalog, the Yakumo verified-contractor directory MCP, a WebMCP intake server and a femtech source registry — every card JWS-signed, every surface unauthenticated by design, and paid for by buyers rather than contractors.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 108
+    },
+    {
      "name": "HiCustomer",
      "slug": "hicustomer",
      "description": "HiCustomer (ハイカスタマー) was a Japanese Customer Success Management (CSM) SaaS built specifically for SaaS companies. Its platform aggregated customer data scattered across BI tools, CRMs, and chat tools to visualize product usage, communication history, revenue, and contract information in one place. Teams used configurable health-score rules to monitor account health across the customer lifecycle, and custom alerts to surface churn and upsell signals at the right moment, with time-series analysis to make customer-success outreach repeatable. The company also offered customer-success consulting, and later pivoted to a digital sales room product, \"Arch by HiCustomer\". On 2024-09-13 HiCustomer Inc. sold the Arch business to the Tokyo-listed adtech company Geniee, Inc. (TSE 6562), which absorbed it into GENIEE SFA/CRM and rebranded it Geniee DSR. As of this enrichment pass the hicustomer.jp domain no longer resolves to a live site (its authoritative AWS Route 53 zone is delegated but empty) and the product is discontinued; the last archived homepage (Oct 2024) is a STUDIO-built single-page \"About the company\" placeholder. No public developer API, documentation, SDK, or developer portal was ever published — the Wayback record for hicustomer.jp contains no /api, /docs, /developers, /pricing or /status path at any point in its history.",
@@ -4956,7 +5082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 109
     },
     {
      "name": "Habitto",
@@ -5006,7 +5132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 110
     },
     {
      "name": "Pocket Menu",
@@ -5056,7 +5182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 111
     },
     {
      "name": "SODA",
@@ -5106,7 +5232,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 112
     },
     {
      "name": "P2P, Inc.",
@@ -5156,7 +5282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 113
     }
    ]
   },
@@ -5172,7 +5298,7 @@
      "name": "ActEvolve",
      "slug": "actevolve",
      "description": "ActEvolve Inc. (株式会社ActEvolve) was a Tokyo virtual-reality entertainment company incorporated on 9 August 2017 by Takuya Kato, a former Capcom game developer, together with other ex-game-industry engineers. In November 2018 it launched VARK, a VR live platform on which VTuber and virtual-artist performances — most visibly the long-running \"Cinderella switch\" series with hololive — were staged as ticketed, seat-based concerts for Meta Quest, Android and iOS, paid for with in-app VARK Coin. The company took strategic investment from KLab Inc. in August 2019, renamed itself VARK Inc. (株式会社VARK) on 1 May 2020 alongside a roughly ¥200M round from ANRI, raised a further ¥600M in May 2021, and diversified into the VARK SHORTS 3D animation tool and the STAR BLOOM liver-management agency, producing metaverse events for ANYCOLOR, Avex, KADOKAWA, COVER, Dwango, Shochiku and Meta. VARK was a consumer entertainment app rather than a platform business: it never operated a developer program, and no public API, SDK, webhook catalogue or machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, MCP manifest, agent card) was published on any of its hosts at any point — 1,812 archived URLs across vark.co.jp and its subdomains contain no /api, /developers, /docs, /openapi or /graphql path of any kind. The VARK metaverse service shut down on 4 March 2024 with same-day notice, refunding unused VARK Coin until 5 May 2024 under Japan's Payment Services Act; the free tier of VARK SHORTS ended on 30 September 2024; and in March 2025 the entire company was sold in an all-share transaction whose acquirer and terms were kept confidential, with founder Takuya Kato stepping down as representative director. This profile is retained as a historical record — there is no API surface to enrich.",
-     "rank": 111
+     "rank": 114
     }
    ]
   }

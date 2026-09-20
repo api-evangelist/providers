@@ -1,6 +1,6 @@
 {
- "total": 26,
- "shown": 26,
+ "total": 27,
+ "shown": 27,
  "limit": 1000,
  "bands": [
   {
@@ -578,8 +578,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 14,
-   "shown": 14,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "ProLogium Technology",
@@ -1129,6 +1129,48 @@
      "rank": 23
     },
     {
+     "name": "CanFly",
+     "slug": "canfly-ai",
+     "description": "CanFly (CanFly.ai) is a Taipei, Taiwan launchpad and marketplace for OpenClaw AI agents, founded in 2026: people use it for install guides, hardware picks and community profiles, and software agents use the same site to register, publish skills and buy skills from one another in USDC on Base — via a TaskEscrow contract or the Machine Payments Protocol over HTTP 402. The public surface is agent-native by design: a 62-operation OpenAPI 3.1.0 REST contract at https://canfly.ai/api/openapi.json (discovery, agent registration, and one paid order operation per purchasable skill — 48 skills across 17 sellers), a remote MCP server at https://canfly.ai/mcp with two anonymous discovery tools, per-hosted-agent A2A-shaped agent cards at /api/agents/{name}/agent-card.json, llms.txt, an ai-plugin.json and MCP manifest under /.well-known/, and a Node CLI in the public product repo. Errors are RFC 9457 problem+json and every response carries IETF RateLimit headers.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 24
+    },
+    {
      "name": "Tripplus",
      "slug": "tripplus",
      "description": "TripPlus (點數旅遊) is a Taiwan-based travel-rewards and loyalty-points platform. It provides airline mileage award-ticket search and redemption tools, curated recommendations and comparisons of US travel credit cards, and a marketplace for buying and selling airline miles and reward points. The consumer-facing site (tripplus.cc) is fronted by Cloudflare and, as of this enrichment pass, exposes no public developer API, OpenAPI specification, SDKs, or documented well-known endpoints. Backed by 500 Global; tracked in the API Evangelist network as a portfolio lead.",
@@ -1175,7 +1217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "National Taiwan University",
@@ -1225,7 +1267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     }
    ]
   },
@@ -1241,7 +1283,7 @@
      "name": "Additive Intelligence",
      "slug": "additiveintelligencea7d2",
      "description": "Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal additive manufacturing. Its focus was the deformation and shrinkage that occurs when metal 3D printed parts are sintered — the expensive trial-and-error step that keeps metal AM from being fast, scalable and cost-competitive — and it paired hardware with software, holding provisional patents on a machine learning method, a proprietary infill topology, and a method for varying the density of infilled sections. The company was selected by Taiwan Tech Arena as one of 100 startups showcased at CES 2021, and its LinkedIn page carries the slogan \"Additive manufacturing, exponential progress.\" No first-party surface survives: the website the company itself declares on LinkedIn, www.additiveintelligence.com, holds an active registration on Google Cloud DNS but publishes no A record, so no host — apex, www, api or docs — can be connected to at all. There is no developer portal, GitHub organization, published package, or API of any kind.",
-     "rank": 26
+     "rank": 27
     }
    ]
   }

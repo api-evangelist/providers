@@ -1,6 +1,6 @@
 {
- "total": 361,
- "shown": 361,
+ "total": 363,
+ "shown": 363,
  "limit": 1000,
  "bands": [
   {
@@ -6888,8 +6888,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 215,
-   "shown": 215,
+   "count": 217,
+   "shown": 217,
    "providers": [
     {
      "name": "Book My Show",
@@ -15568,6 +15568,90 @@
      "rank": 339
     },
     {
+     "name": "Match It Up",
+     "slug": "matchitup-in",
+     "description": "Match It Up (Matchitup Tech Private Limited, India) is an AI-powered professional networking platform for founders, CXOs and business professionals that matches people on complementary offers and needs rather than on contact collecting. Its NetworkBot Protocol is a public, self-serve agent API: any AI agent registers with POST /api/protocol/register, receives an nb_-prefixed API key instantly, and can post signals to the MIU Feed, send agent-to-agent DMs, request warm intros to Pro/Elite members, list marketplace services and task contracts, and prove its identity with an Ed25519 passport and a did:networkbot DID. The same surface is exposed three ways: a 442-operation OpenAPI 3.1 contract at https://matchitup.in/openapi.json, a remote streamable-HTTP MCP server at https://matchitup.in/api/mcp (36 tools, anonymous tools/list), and an A2A agent card at /.well-known/agent-card.json backed by a JSON-RPC message/send endpoint at /api/a2a-rpc. Pricing is a monthly credit model in INR.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 340
+    },
+    {
+     "name": "Vortx AI Private Limited",
+     "slug": "emem-dev",
+     "description": "Vortx AI Private Limited is a spatial AI lab based in India that builds and operates emem (emem.dev), an Apache-2.0 protocol and hosted responder providing shared, verifiable memory for AI agents. Every place on Earth has one 64-bit address (cell64), every observation is an ed25519-signed, content-addressed fact materialised from satellite and open Earth-observation archives, and any agent can read without a key or account and verify the receipt offline. The surface is published as an OpenAPI 3.1 contract (196 operations), a remote MCP server (110 tools), an A2A 1.0 agent card, an llms.txt, RFC 8414 / RFC 9728 discovery documents, and first-party Python and TypeScript clients.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 341
+    },
+    {
      "name": "Byjus",
      "slug": "byjus",
      "description": "Byju's is an Indian educational technology company founded in 2011 by Byju Raveendran and Divya Gokulnath and headquartered in Bengaluru, India. It offered app-based adaptive learning for K-12 students and preparation for competitive exams such as JEE, NEET, and civil services, and expanded through acquisitions including Aakash, WhiteHat Jr, Toppr, Osmo, Epic, and Great Learning. Once among the world's most valuable edtech startups, the company entered insolvency proceedings in India following a widely reported financial collapse. Byju's does not publish a public developer program or API; this profile is maintained in the API Evangelist network as a company record awaiting any future developer surface.",
@@ -15615,7 +15699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 342
     },
     {
      "name": "EduPristine",
@@ -15665,7 +15749,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 343
     },
     {
      "name": "Trinkerr",
@@ -15715,7 +15799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 344
     },
     {
      "name": "FairMoney",
@@ -15765,7 +15849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 345
     },
     {
      "name": "Getsupp",
@@ -15814,7 +15898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 346
     },
     {
      "name": "BharatPe",
@@ -15864,7 +15948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 347
     },
     {
      "name": "Wiom",
@@ -15914,7 +15998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 348
     },
     {
      "name": "InstaPaisa",
@@ -15966,7 +16050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 349
     },
     {
      "name": "Itzcash",
@@ -16016,7 +16100,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 350
     },
     {
      "name": "Mintifi",
@@ -16066,7 +16150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 351
     },
     {
      "name": "NAKAD",
@@ -16116,7 +16200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 352
     },
     {
      "name": "Okcredit",
@@ -16166,7 +16250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 353
     },
     {
      "name": "Open",
@@ -16215,7 +16299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 354
     },
     {
      "name": "Paytm Payments Bank",
@@ -16264,7 +16348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 355
     },
     {
      "name": "Frontrow",
@@ -16316,7 +16400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 356
     },
     {
      "name": "Koinex",
@@ -16368,7 +16452,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 357
     },
     {
      "name": "Nse-india",
@@ -16418,7 +16502,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 358
     },
     {
      "name": "OnlineTyari",
@@ -16467,7 +16551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 359
     },
     {
      "name": "Bluelearn",
@@ -16516,7 +16600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 360
     },
     {
      "name": "Edukart",
@@ -16566,7 +16650,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 361
     },
     {
      "name": "10i Commerce Services Pvt Ltd (ShopX)",
@@ -16617,7 +16701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 362
     },
     {
      "name": "Mochatrade",
@@ -16667,7 +16751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 363
     }
    ]
   }

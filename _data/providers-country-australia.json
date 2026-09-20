@@ -1,6 +1,6 @@
 {
- "total": 210,
- "shown": 210,
+ "total": 212,
+ "shown": 212,
  "limit": 1000,
  "bands": [
   {
@@ -9582,8 +9582,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 19,
-   "shown": 19,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "Applied EV",
@@ -10373,6 +10373,90 @@
      "rank": 208
     },
     {
+     "name": "Agent Ready",
+     "slug": "agent-ready-dev",
+     "description": "Agent Ready (agent-ready.dev) is an independent AI agent-readability scanner built and maintained by Mark Lavercombe. It scores any public website against the Vercel Agent Readability Spec, the llmstxt.org specification and the agent-protocol manifests (MCP server cards, A2A agent cards, agents.json, agent-permissions.json, UCP, ACP, x402, MPP, AP2, NLWeb, RFC 9727 API catalog, Web Bot Auth, Agent Skills Discovery) — 72 checks plus a separate 23-check WCAG 2.2 accessibility sub-score — and returns a 0-100 score with per-check remediation. The same scanner is exposed as an OpenAPI 3.1 REST API at https://agent-ready.dev/api/v1 (Pro API keys, Idempotency-Key on writes, RFC 8594 Sunset policy), a hosted Streamable HTTP MCP server at /api/v1/mcp plus a no-auth MCP Apps endpoint, an A2A 1.0 agent card, a stdio MCP package and CLI on npm, JavaScript and Python client SDKs, a GitHub Action, and pay-per-scan x402/MPP micropayments in USDC on Base. Free ($0) and Pro ($19/month) plans.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 209
+    },
+    {
+     "name": "Dynamic Feed",
+     "slug": "dynamicfeed-ai",
+     "description": "Dynamic Feed, a product of Fluxdyne Pty Ltd (Australia), is a live-data and machine-evidence layer for AI agents and robots: 94 read-only tools across 20 domains (weather and air quality, natural hazards, space weather and satellite positions, CVEs and actively-exploited vulnerabilities, software versions and EOL, sanctions and Federal Register, shipping, macro and rates, AI-model pricing and provider latency) drawn from named public sources such as NASA, NOAA, USGS, CISA, OFAC and the World Bank plus its own measurements. Every response carries a provenance and freshness envelope and a detached Ed25519 signature (DF-VERIFY/1) verifiable offline against published keys. The same tool registry is served three ways from one host: a keyless MCP server at /mcp (Streamable HTTP, protocol 2025-06-18), an A2A 1.0 agent at /a2a with a conformant signed agent card, and a REST API published as OpenAPI 3.1 with a keyless 20-call batch endpoint. A /v1 surface adds robot go/caution/no-go awareness verdicts, RFC 3161 anchoring, signed transaction/inference/robot/eval receipts on an append-only notary log with daily checkpoints, per-key watchlists, HMAC-signed change webhooks and an SSE stream. Paid access is machine-native via x402 (HTTP 402, USDC on Base, 0.001 USDC per call).",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 210
+    },
+    {
      "name": "DGIT",
      "slug": "dgit",
      "description": "DGIT Systems is a Melbourne, Australia telecommunications software vendor best known for Telflow, an order-management and service-orchestration (BSS/OSS) platform used by communications service providers to design, quote, order and fulfil connectivity products. DGIT was surfaced as a portfolio company of Sierra Ventures. As of this enrichment pass the company has no independent public web presence: its product domains dgitsystems.com and telflow.com both 308-redirect to csgi.com, indicating DGIT has been absorbed into CSG Systems International, and the domain listed by the Sierra Ventures portfolio page (dgit.us) is an Afternic/GoDaddy for-sale parking page rather than a company site. No developer portal, API documentation, OpenAPI specification, SDK or package surface could be located.",
@@ -10420,7 +10504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 211
     },
     {
      "name": "University of Technology Sydney",
@@ -10470,7 +10554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 212
     }
    ]
   }

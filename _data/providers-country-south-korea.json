@@ -1,6 +1,6 @@
 {
- "total": 93,
- "shown": 93,
+ "total": 94,
+ "shown": 94,
  "limit": 1000,
  "bands": [
   {
@@ -2093,8 +2093,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 49,
-   "shown": 49,
+   "count": 50,
+   "shown": 50,
    "providers": [
     {
      "name": "B612",
@@ -4142,6 +4142,48 @@
      "rank": 90
     },
     {
+     "name": "sapjilcoding",
+     "slug": "songt50-us",
+     "description": "sapjilcoding (삽질코딩, GitHub SongT-50) is a Korean independent maker — Song Tae-Eun, a Daejeon wholesale produce market director building AI tools for public data — that publishes two live Agent2Agent (A2A) agents on its own domain songt50.us and four open-source Model Context Protocol servers listed in the official MCP registry. The Korean Public Data Agent answers weather, air quality, apartment prices, Bank of Korea data and business-registration checks; the Korean News Agent searches Korean and global tech news. The MCP servers — Korean Public Data, Korean News Hub, Korean Stock Market Data and Korean Agriculture Market Data (25 tools, Python FastMCP, MIT) — wrap data.go.kr, AirKorea, Bank of Korea ECOS, KRX and the national wholesale-market auction feed. Every surface is read-only, anonymous and free; no OpenAPI or REST contract exists. On 2026-09-19 both A2A agents were live while all four hosted MCP endpoints were suspended (HTTP 503) and the apex site returned Cloudflare 522.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
+    },
+    {
      "name": "Playcurio",
      "slug": "playcurio",
      "description": "PlayCurio is a Seoul-based educational technology company that builds AR (augmented reality) play-learning products for children, pairing physical educational tools with digital content. Its catalog includes AR titles such as Curio Safari, Phonics Pop, Dictionary Pop, and Math Mates, alongside a content-IP business spanning characters like Detective Pete, Dino Tales, and 100+ Curio Safari animals, plus B2B production services (character development, 2D/3D animation, UI/UX, and live-action video). PlayCurio is consumer- and partnership-facing and publishes no developer API, developer portal, SDKs, or API documentation. Surfaced via the 500 Global portfolio and enriched here; a domain-security probe of play-curio.com is the only technical artifact this pass produced.",
@@ -4188,7 +4230,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Socra AI",
@@ -4238,7 +4280,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Medir",
@@ -4287,7 +4329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 94
     }
    ]
   }

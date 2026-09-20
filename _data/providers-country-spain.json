@@ -1,6 +1,6 @@
 {
- "total": 40,
- "shown": 40,
+ "total": 41,
+ "shown": 41,
  "limit": 1000,
  "bands": [
   {
@@ -1441,8 +1441,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 11,
-   "shown": 11,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "Clikalia",
@@ -1811,6 +1811,48 @@
      "rank": 37
     },
     {
+     "name": "Claix",
+     "slug": "claix-dev",
+     "description": "Claix is a Madrid-based B2B document intelligence API that converts PDFs, Excel/CSV, Word and text documents and images into strictly typed JSON against customer-defined schemas, keeps extracted documents as queryable context for AI agents (single-document and knowledge-space Q&A with deterministic nulls), and exposes one 20-operation contract three ways: REST (OpenAPI 3.0.3), a hosted MCP server at /mcp, and a native A2A agent at /a2a with a published, conformant agent card. Pay-as-you-go in euros after 100 free calls, with a free BYOK mode; official Python SDK and n8n node.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 38
+    },
+    {
      "name": "Hergert Synthora",
      "slug": "hergertsynthora-com",
      "description": "HERGERT SYNTHORA S.L. is a Las Palmas de Gran Canaria (Spain) company that operates SYNTHORA, an autonomous agent mesh selling machine-payable intelligence: 121 pay-per-call verdict products (sanctions and AML screening, wallet and transaction risk, Polymarket and prediction-market signals, maritime AIS, DeFi, macro and OSINT data), an Agent Notary, a 30-tool hosted MCP server and a signed A2A agent card, all settled per call in USDC on Base over the x402 protocol with Ed25519-signed receipts, an ERC-8004 on-chain identity and no accounts or API keys.",
@@ -1850,7 +1892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Masmovil",
@@ -1900,7 +1942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Groupalia",
@@ -1950,7 +1992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     }
    ]
   }

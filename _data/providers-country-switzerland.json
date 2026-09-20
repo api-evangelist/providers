@@ -1,6 +1,6 @@
 {
- "total": 37,
- "shown": 37,
+ "total": 38,
+ "shown": 38,
  "limit": 1000,
  "bands": [
   {
@@ -1457,8 +1457,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "WayRay",
@@ -1801,6 +1801,48 @@
      "rank": 36
     },
     {
+     "name": "MandateShield",
+     "slug": "mandateshield-com",
+     "description": "MandateShield is a fail-closed authority-verification and execution-evidence boundary for autonomous AI-agent purchases, operated from Bern, Switzerland. It binds a signed purchase approval (AP2, TAP, UCP, x402, MPP, ACP or a custom envelope) to a registered mandate and a pinned issuer key, reserves cumulative budget atomically, consumes the reservation into a one-use provider-bound execution permit for an exact Stripe PaymentIntent or x402 request, and then checks the provider outcome without trusting the caller before issuing a signed terminal receipt. The hosted service never moves money or holds payment credentials. It publishes an OpenAPI 3.1 contract with 26 operations, a remote MCP server whose tools/list answers anonymously, a signed A2A agent card, llms.txt, an SPDX SBOM, a JWKS, a 91-code reason registry, a 19-vector conformance suite and self-hosted JavaScript, Python and Go clients.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 37
+    },
+    {
      "name": "Myriad",
      "slug": "myriad",
      "description": "Myriad AG is a Zurich-based financial technology company, founded in 2001 by Jean Andre and backed by Earlybird Venture Capital, that provides integrated, secure platforms and open APIs to help partner financial institutions, mobile money operators, and payment solution clients build innovative digital financial services. The company is listed as an Earlybird portfolio exit. As of this enrichment pass no live, publicly reachable developer portal, API reference, OpenAPI definition, or other machine-readable API artifact could be located for this provider, so it remains a lightly profiled company lead rather than a scored API surface.",
@@ -1847,7 +1889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     }
    ]
   }

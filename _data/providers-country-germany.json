@@ -1,6 +1,6 @@
 {
- "total": 228,
- "shown": 228,
+ "total": 229,
+ "shown": 229,
  "limit": 1000,
  "bands": [
   {
@@ -6109,8 +6109,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 99,
-   "shown": 99,
+   "count": 100,
+   "shown": 100,
    "providers": [
     {
      "name": "Clark",
@@ -10384,6 +10384,48 @@
      "rank": 222
     },
     {
+     "name": "FeedOracle Technologies",
+     "slug": "tooloracle-io",
+     "description": "FeedOracle Technologies (Herford, Germany) operates two agent-facing brands on one shared OAuth 2.1 identity layer. ToolOracle / OracleNet at tooloracle.io is a capability router and hosted mesh of about ninety Model Context Protocol servers for autonomous agents (1,178 tool entries across blockchain intelligence, EU regulatory compliance, finance, business intelligence, travel and agent trust), reachable over MCP Streamable HTTP, an A2A 0.3 agent with a published Agent Card, a free ANP soft-handshake router, and x402 v2 pay-per-call settlement in USDC on Base for eighteen priced /v2 compliance and agent-safety REST routes. FeedOracle at feedoracle.io is the sibling compliance-evidence API (227-path OpenAPI 3.1 at api.feedoracle.io, ES256K-signed responses) and hosts the RFC 8414 / RFC 7591 authorization server both brands use.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 223
+    },
+    {
      "name": "Kann KI das? Sponsoring Agent",
      "slug": "kannkidas-de",
      "description": "Kann KI das? is an independent German-language publisher of build-or-buy test reports that assess whether well-known business software can realistically be rebuilt with AI, and where buying remains the better decision. The site is financed by ten fixed, clearly labelled sponsor placements (P01-P10, 990 EUR net for 30 days) that are sold through an agent-native commerce path: a public OpenAPI 3.1.1 contract at kannkidas.de/openapi.json (faceted product search, live slot availability, anonymous OAuth 2.0 client registration and client-credentials tokens, and a buyer-confirmed, idempotent Stripe hosted checkout), a remote Streamable HTTP MCP server with two tools, a read-only A2A agent at /api/a2a with a published agent card, RFC 8414/9728 OAuth discovery, an RFC 9727 API catalog, provider-published Agent Skills with SHA-256 digests, llms.txt and AGENTS.md, a UCP profile, DNS-AID records and a separately marked x402 v2 testnet demo endpoint. The sponsor agent operates in read-only mode; commercial writes require OAuth scopes and explicit buyer confirmation.",
@@ -10423,7 +10465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "Kwest",
@@ -10473,7 +10515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "Roclub",
@@ -10523,7 +10565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Savedo",
@@ -10573,7 +10615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "mcmakler",
@@ -10623,7 +10665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "element 5 AG",
@@ -10675,7 +10717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 229
     }
    ]
   }

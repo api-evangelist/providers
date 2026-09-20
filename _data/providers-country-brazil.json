@@ -1,6 +1,6 @@
 {
- "total": 134,
- "shown": 134,
+ "total": 135,
+ "shown": 135,
  "limit": 1000,
  "bands": [
   {
@@ -4374,8 +4374,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 45,
-   "shown": 45,
+   "count": 46,
+   "shown": 46,
    "providers": [
     {
      "name": "Juno",
@@ -6315,6 +6315,48 @@
      "rank": 131
     },
     {
+     "name": "AGENTUM",
+     "slug": "agentum-lat",
+     "description": "AGENTUM (AGENTUM LTDA, a software company in Sertãozinho, São Paulo, Brazil, registered September 2026) is a \"payment agent\" data provider: eleven HTTP endpoints sold per call over the x402 protocol — USDC on Base mainnet (eip155:8453) — with no account, no API key and no subscription; an agent pays inside the request and receives the result in the same round trip. Nine routes on agentum.lat cover Brazilian and global company and market data (CNPJ registration status, CEP address lookup, CPF check-digit validation, Banco Central Selic/CDI/commercial-dollar rates, ECB FX rates, World Bank indicators, EU VIES VAT validation, GLEIF LEI lookup and an AI-summarised business-intelligence report on a CNPJ), and three on business.agentum.lat (AGENTUM Business) add counterparty compliance checks against TCU, CEIS/CNEP, CNJ and CVM plus a consolidated preflight verdict. The same routes ship as eleven tools in the @agentum/mcp-server npm package (stdio, the caller's own wallet pays), and AGENTUM Business is also an A2A 1.0 JSON-RPC agent with a card at business.agentum.lat/.well-known/agent-card.json. Partial OpenAPI 3.1 contracts, an llms.txt and an RFC 9116 security.txt are published; every paid route answers a genuine x402 v2 challenge with Bazaar discovery metadata and IETF RateLimit headers.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 132
+    },
+    {
      "name": "Marvin",
      "slug": "marvin",
      "description": "Marvin (Marvin Tecnologia Ltda., CNPJ 41.240.161/0001-30) is a São Paulo, Brazil based B2B fintech and tech-native collateral agent that transforms credit-card and duplicata receivables into registered financial guarantees. Born out of Brazilian Central Bank Resolution 264 — which legalized the negotiation of credit-card receivables as financial assets — Marvin operates a \"registration-as-a-service\" platform that lets retailers, banks and suppliers register, manage and settle receivables-backed collateral, unlocking working capital for merchants. The company is backed by a US$15M Series A led by Canaan Partners (with Canary and Maúa Capital) and works with partners including B3, C6 Bank, Casas Bahia, Electrolux, Pernambucanas and AVLA. Marvin runs a private backend (app.marvin.com.br) for its customers; it does not currently publish a public developer API, documentation, or SDKs. This profile was added to the API Evangelist network as a Canaan Partners portfolio lead and enriched from public web sources.",
@@ -6362,7 +6404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Cayena",
@@ -6411,7 +6453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Lanistar",
@@ -6461,7 +6503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     }
    ]
   }

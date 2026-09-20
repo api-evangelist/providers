@@ -1,6 +1,6 @@
 {
- "total": 154,
- "shown": 154,
+ "total": 155,
+ "shown": 155,
  "limit": 1000,
  "bands": [
   {
@@ -4471,8 +4471,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 62,
-   "shown": 62,
+   "count": 63,
+   "shown": 63,
    "providers": [
     {
      "name": "Selency",
@@ -7189,6 +7189,48 @@
      "rank": 152
     },
     {
+     "name": "Sirenic",
+     "slug": "sirenic-eu",
+     "description": "Sirenic is a French pay-per-call API for official company data across France and Europe, built for AI agents. It serves company search and profiles by SIREN/SIRET from INSEE Sirene and INPI RNE, establishments, officers, filed accounts and ratios, BODACC legal alerts, a default-risk score, sanctions screening against six official lists, KYB dossiers, live VIES VAT and IBAN checks with a ready-to-invoice verdict for the 2026 French e-invoicing mandate, public-procurement records, watchlists with Ed25519-signed webhooks, and profiles, accounts and events from thirteen European registers plus LEI/GLEIF groups. Every /v1 route is a GET priced per call ($0.002 to $1.00) and paid either through the x402 protocol in USDC or EURC on Base with no account, or with an srn_live_ API key and prepaid euro credits. It publishes an OpenAPI 3.1, llms.txt, an RFC 9727 api-catalog, an MCP server, an A2A agent card, x402 discovery and OAuth metadata from api.sirenic.eu.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-19",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 153
+    },
+    {
      "name": "Ornikar",
      "slug": "ornikar",
      "description": "Ornikar is a French online driving school and insurance company that guides consumers from earning their driving permit through to car, home, and pet insurance. Founded in France, it offers highway-code (code de la route) training, driving lessons, accelerated permit programs, point-recovery courses, and corporate road-safety training, alongside auto, home, and pet insurance products and CPF financing. Surfaced as a portfolio company of Partech and added to the API Evangelist network as a stub for enrichment. Sector: Consumer. No public developer API surface was found during the enrichment pass; only domain-security signals were probed.",
@@ -7236,7 +7278,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Outil Achats",
@@ -7285,7 +7327,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 155
     }
    ]
   }
