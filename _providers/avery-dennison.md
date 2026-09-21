@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: A live, anonymously reachable Model Context Protocol endpoint served from the atma.io marketing site (Avery Dennison's connected product cloud and Digital Product Passport brand). It is the Wix-platfo
@@ -170,7 +170,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

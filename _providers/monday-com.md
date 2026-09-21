@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: false
+    agent_card: flavored
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.7
-  scored_at: '2026-09-19'
+  score: 52.2
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -69,6 +69,11 @@ collections:
   name: monday.com Platform GraphQL API
   slug: open-monday-com
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/a2a/monday-com-a2a.yml
+  title: ''
+  type: AgentCard
+  url: a2a/monday-com-a2a.yml
 - group: company
   title: ''
   type: Website
@@ -153,7 +158,7 @@ overview: 'Monday.com publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The Monday.com catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Monday.com''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  Monday.com''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Monday Com Plans Pricing
   plan_count: 5
@@ -184,7 +189,7 @@ score:
   band: thin
   composite: 32.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.5
     catalog_earned_first_party: 0.0
     catalog_gap: 74.5
@@ -208,7 +213,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

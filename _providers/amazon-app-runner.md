@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -224,7 +224,7 @@ apis:
   description: 'The #X Amz Target=AppRunner.UpdateVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.updatevpcingressconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.UpdateVpcIngressConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-updatevpcingressconnection-api
-artifact_total: 631
+artifact_total: 632
 collections:
 - collection_type: open
   name: API Collection
@@ -338,6 +338,11 @@ collections:
   name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.UpdateVpcIngressConnection API'
   slug: open-amazon-app-runner-x-amz-target-apprunner-updatevpcingressconnection-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/plans/amazon-app-runner-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-app-runner-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/capabilities/amazon-app-runner-capability-edges.yml
   title: ''
@@ -2141,7 +2146,11 @@ overview: 'Amazon App Runner publishes 36 APIs on the [APIs.io](https://apis.io/
   The Amazon App Runner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
+  Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
+plans:
+- name: Amazon App Runner Plans Pricing
+  plan_count: 5
+  slug: amazon-app-runner-plans-pricing
 random_paper: 7
 rules:
 - effective_rule_count: 6
@@ -2166,18 +2175,18 @@ rules:
     warn: 8
   slug: amazon-app-runner-spectral-rules
 score:
-  band: developing
-  composite: 49.5
+  band: strong
+  composite: 55.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 61.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    artifact_dirs: 24
+    catalog_earned: 73.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 33.3
     contract_quality: 71.4
     developer_ergonomics: 42.9
@@ -2194,8 +2203,8 @@ score:
       total: 36
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

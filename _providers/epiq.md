@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 3
 apis:
 - description: The AACER API enables real-time bankruptcy case information to be electronically transmitted system-to-system, integrating with the industry's largest servicing applications and proprietary systems. S
@@ -137,7 +137,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.8
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

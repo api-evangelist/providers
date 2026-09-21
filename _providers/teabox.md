@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the Teabox Shopify store, implementing the Universal Commerce Protocol (UCP) over a hosted MCP endpoint. Supports catalog search/lookup, cart, checkout, fulfillment, '
@@ -127,7 +127,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

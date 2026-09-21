@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://m-api.eu.phas.io/api/manufacturer/v1
@@ -496,7 +496,7 @@ apis:
   description: Endpoints for managing webhooks
   name: Phasio Webhooks API
   slug: phasio-webhooks-api
-artifact_total: 189
+artifact_total: 191
 asyncapis:
 - description: ''
   name: Phasio Webhooks
@@ -782,6 +782,11 @@ collections:
   name: Phasio Activity Internal Webhooks API
   slug: open-phasio-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/plans/phasio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/phasio-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/phasio/refs/heads/main/capabilities/phasio-capability-edges.yml
   title: ''
@@ -933,21 +938,28 @@ overview: 'Phasio publishes 92 APIs on the [APIs.io](https://apis.io/) network, 
   The Phasio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Phasio''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 23 more developer resources.'
+  Phasio''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 24 more developer resources.'
+plans:
+- name: Phasio Plans Pricing
+  plan_count: 2
+  slug: phasio-plans-pricing
+- name: Phasio Price Estimates
+  plan_count: 0
+  slug: phasio-price-estimates
 random_paper: 6
 score:
-  band: developing
-  composite: 53.3
+  band: strong
+  composite: 57.5
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 18.2
     contract_quality: 63.9
     developer_ergonomics: 58.9
@@ -964,7 +976,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

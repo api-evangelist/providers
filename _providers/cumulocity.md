@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -240,7 +240,7 @@ apis:
   description: The Users API from Cumulocity — 2 operation(s) for users.
   name: Cumulocity Users API
   slug: cumulocity-users-api
-artifact_total: 186
+artifact_total: 187
 asyncapis:
 - description: Constrained-device MQTT broker fronting the Cumulocity REST API with a CSV-based SmartREST 2.0 payload format that saves up to 80% of mobile traffic versus JSON. Supports static templates for common o
   name: Cumulocity MQTT and SmartREST API
@@ -529,6 +529,10 @@ collections:
   name: Cumulocity Alarm Alarms Users API
   slug: open-cumulocity-users-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.cumulocity.com/pricing/
 - group: company
   title: ''
   type: Website
@@ -913,11 +917,14 @@ overview: 'Cumulocity publishes 39 APIs on the [APIs.io](https://apis.io/) netwo
   The Cumulocity catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Cumulocity''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, pricing, and 64 more developer resources.'
+  Cumulocity''s developer surface includes pricing, authentication, developer portal, documentation, getting-started guide, changelog, support, and 65 more developer resources.'
 plans:
 - name: Cumulocity Plans Pricing
-  plan_count: 6
+  plan_count: 5
   slug: cumulocity-plans-pricing
+- name: Cumulocity Price Estimates
+  plan_count: 0
+  slug: cumulocity-price-estimates
 random_paper: 2
 rate_limits:
 - limit_count: 0
@@ -960,9 +967,9 @@ score:
   band: strong
   composite: 64.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 67.5
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
@@ -983,7 +990,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

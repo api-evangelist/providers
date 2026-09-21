@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ apis:
   description: Operations related to users
   name: VaultRE User API
   slug: vaultre-user-api
-artifact_total: 59
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Vaultre Webhooks
@@ -313,6 +313,11 @@ collections:
   name: VaultRE
   slug: open-vaultre-api-v1-3
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/plans/vaultre-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vaultre-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/capabilities/vaultre-capability-edges.yml
   title: ''
@@ -510,7 +515,11 @@ overview: 'VaultRE publishes 50 APIs on the [APIs.io](https://apis.io/) network,
   The VaultRE catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VaultRE''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, code examples, signup flow, and 33 more developer resources.'
+  VaultRE''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, code examples, signup flow, and 34 more developer resources.'
+plans:
+- name: Vaultre Plans Pricing
+  plan_count: 0
+  slug: vaultre-plans-pricing
 random_paper: 1
 scopes:
 - name: Vaultre Scopes
@@ -521,7 +530,7 @@ score:
   band: developing
   composite: 49.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -555,7 +564,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

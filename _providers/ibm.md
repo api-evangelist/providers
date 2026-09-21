@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -316,6 +316,11 @@ collections:
   name: IBM Cloud IAM API Keys Trusted Profiles API
   slug: open-ibm-trusted-profiles-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/plans/ibm-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ibm-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -709,10 +714,10 @@ overview: 'IBM publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The IBM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  IBM''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, support, signup flow, and 71 more developer resources.'
+  IBM''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, support, signup flow, and 72 more developer resources.'
 plans:
 - name: Ibm Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: ibm-plans-pricing
 press:
 - date: ''
@@ -753,17 +758,17 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 60.0
+  composite: 62.6
   coverage:
-    artifact_dirs: 33
-    catalog_earned: 54.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.8
+    artifact_dirs: 34
+    catalog_earned: 59.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
-    access_clarity: 68.4
+    access_clarity: 81.6
     contract_governance: 14.4
     contract_quality: 72.6
     developer_ergonomics: 72.6
@@ -780,7 +785,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

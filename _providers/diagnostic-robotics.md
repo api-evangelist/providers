@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 6
 apis:
 - baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
@@ -294,7 +294,7 @@ score:
   band: developing
   composite: 51.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -329,7 +329,7 @@ score:
     regime_id: health
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

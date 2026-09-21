@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,10 +115,6 @@ common:
   type: Lifecycle
   url: lifecycle/tgatlas-lifecycle.yml
 - group: operate
-  title: ''
-  type: StatusPage
-  url: https://channelindex.starnikovoleg.workers.dev/status
-- group: operate
   href: https://raw.githubusercontent.com/api-evangelist/tgatlas/refs/heads/main/lifecycle/tgatlas-lifecycle.yml
   title: ''
   type: Deprecation
@@ -190,34 +186,14 @@ common:
   title: ''
   type: APIReference
   url: https://channelindex.starnikovoleg.workers.dev/docs
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://channelindex.starnikovoleg.workers.dev/quickstart
 - group: commercial
   title: ''
   type: Pricing
-  url: https://channelindex.starnikovoleg.workers.dev/pricing
+  url: https://rapidapi.com/starnikovoleg/api/telegram155
 - group: start
   title: ''
   type: SignUp
   url: https://rapidapi.com/starnikovoleg/api/telegram155
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://channelindex.starnikovoleg.workers.dev/terms
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://channelindex.starnikovoleg.workers.dev/privacy
-- group: operate
-  title: ''
-  type: Support
-  url: https://channelindex.starnikovoleg.workers.dev/about
-- group: company
-  title: ''
-  type: Blog
-  url: https://channelindex.starnikovoleg.workers.dev/blog
 - group: build
   title: ''
   type: GitHubOrganization
@@ -238,7 +214,7 @@ mcp_servers:
 - description: First-party MCP server that wraps the tgAtlas Telegram REST API for agents. Returns channel profiles (subscribers, description, creation date, verification/scam flags, posting cadence), Telegram's own
   name: ChannelIndex (tgAtlas) MCP Server
   slug: channelindex-tgatlas-mcp-server
-modified: '2026-09-16'
+modified: '2026-09-20'
 name: ChannelIndex (tgAtlas)
 nav: Providers
 network: true
@@ -248,7 +224,7 @@ overview: 'ChannelIndex (tgAtlas) publishes 1 API on the [APIs.io](https://apis.
   The ChannelIndex (tgAtlas) catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  ChannelIndex (tgAtlas)''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 32 more developer resources.'
+  ChannelIndex (tgAtlas)''s developer surface includes authentication, changelog, documentation, API reference, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Tgatlas Plans Pricing
   plan_count: 4
@@ -274,13 +250,13 @@ score:
   band: developing
   composite: 53.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 87.0
     catalog_earned_first_party: 0.0
     catalog_gap: 28.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -17.8
+  delta: 0.0
   facets:
     access_clarity: 52.6
     contract_governance: 69.7
@@ -288,7 +264,7 @@ score:
     developer_ergonomics: 18.5
     discoverability: 75.9
     operational_transparency: 68.4
-  previous_composite: 71.1
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,8 +276,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: falling
+  scored_at: '2026-09-20'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

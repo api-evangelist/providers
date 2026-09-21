@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: A production remote MCP server that exposes the OK Capsule platform — catalog, product intelligence, pack builder, recommendation validation, consumers, orders and fulfillments — as OAuth 2.1 scoped t
@@ -481,7 +481,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

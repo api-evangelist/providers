@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://uniform.app
@@ -242,7 +242,7 @@ apis:
   description: The Workflows API from Uniform — 1 operation(s) for workflows.
   name: Uniform Workflows API
   slug: uniform-workflows-api
-artifact_total: 87
+artifact_total: 89
 asyncapis:
 - description: ''
   name: Uniform Webhooks
@@ -372,6 +372,11 @@ collections:
   name: Uniform Platform Aggregates Workflows API
   slug: open-uniform-workflows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/plans/uniform-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/uniform-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/capabilities/uniform-capability-edges.yml
   title: ''
@@ -542,21 +547,28 @@ overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network,
   The Uniform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 26 more developer resources.'
+  Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
+plans:
+- name: Uniform Plans Pricing
+  plan_count: 4
+  slug: uniform-plans-pricing
+- name: Uniform Price Estimates
+  plan_count: 0
+  slug: uniform-price-estimates
 random_paper: 20
 score:
-  band: developing
-  composite: 52.3
+  band: strong
+  composite: 58.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 53.9
+    access_clarity: 85.5
     contract_governance: 4.5
     contract_quality: 58.5
     developer_ergonomics: 73.2
@@ -573,8 +585,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

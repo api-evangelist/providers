@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 55.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -302,7 +302,7 @@ apis:
   description: The Zoom Rooms API from Zoom Phone — 7 operation(s) for zoom rooms.
   name: Zoom Phone Zoom Rooms API
   slug: zoom-phone-zoom-rooms-api
-artifact_total: 63
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Zoom Phone Webhooks
@@ -318,6 +318,11 @@ collections:
   name: Phone
   slug: open-zoom-phone-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/plans/zoom-phone-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zoom-phone-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/capabilities/zoom-phone-capability-edges.yml
   title: ''
@@ -585,7 +590,11 @@ overview: 'Zoom Phone publishes 51 APIs on the [APIs.io](https://apis.io/) netwo
   The Zoom Phone catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zoom Phone''s developer surface includes authentication, documentation, pricing, SDKs, engineering blog, API reference, getting-started guide, and 48 more developer resources.'
+  Zoom Phone''s developer surface includes authentication, documentation, pricing, SDKs, engineering blog, API reference, getting-started guide, and 49 more developer resources.'
+plans:
+- name: Zoom Phone Plans Pricing
+  plan_count: 0
+  slug: zoom-phone-plans-pricing
 random_paper: 2
 rate_limits:
 - limit_count: 8
@@ -600,7 +609,7 @@ score:
   band: exemplar
   composite: 72.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 26
     catalog_earned: 46.0
     catalog_earned_first_party: 12.0
     catalog_gap: 69.0
@@ -639,7 +648,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

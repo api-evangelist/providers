@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ arazzos:
 - description: Train a model to completion, then register it from the produced artifacts and stand up a hosted endpoint.
   name: Amazon SageMaker Train Then Deploy
   slug: amazon-sagemaker-train-then-deploy-workflow
-artifact_total: 87
+artifact_total: 88
 collections:
 - collection_type: postman
   name: Amazon SageMaker API
@@ -127,6 +127,11 @@ collections:
   name: Amazon SageMaker API
   slug: open-amazon-sagemaker
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/plans/amazon-sagemaker-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-sagemaker-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -540,11 +545,14 @@ overview: 'Amazon SageMaker publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Amazon SageMaker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon SageMaker''s developer surface includes developer portal, getting-started guide, documentation, API reference, developer console, signup flow, pricing, and 52 more developer resources.'
+  Amazon SageMaker''s developer surface includes developer portal, getting-started guide, documentation, API reference, developer console, signup flow, pricing, and 53 more developer resources.'
 plans:
 - name: Amazon Sagemaker Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: amazon-sagemaker-plans-pricing
+- name: Amazon Sagemaker Price Estimates
+  plan_count: 0
+  slug: amazon-sagemaker-price-estimates
 random_paper: 7
 rate_limits:
 - limit_count: 5
@@ -573,18 +581,18 @@ rules:
     warn: 14
   slug: amazon-sagemaker-spectral-rules
 score:
-  band: strong
-  composite: 63.2
+  band: exemplar
+  composite: 67.5
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 73.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 41.5
+    artifact_dirs: 20
+    catalog_earned: 82.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 76.3
+    access_clarity: 100.0
     contract_governance: 28.8
     contract_quality: 70.5
     developer_ergonomics: 67.9
@@ -602,7 +610,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

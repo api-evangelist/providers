@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 2
 apis:
 - baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
@@ -337,7 +337,7 @@ score:
   band: developing
   composite: 43.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -375,7 +375,7 @@ score:
     regime_id: banking_open_finance
     score: 68.4
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

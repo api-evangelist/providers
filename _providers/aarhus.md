@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 5
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for Aarhus University''s research record. Verified live on 2026-08-30: the Identify verb returns repositoryName "Aarhus University"'
@@ -182,7 +182,7 @@ score:
   band: thin
   composite: 29.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 54.0
     catalog_earned_first_party: 0.0
     catalog_gap: 61.0
@@ -214,7 +214,7 @@ score:
     regime_id: education
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

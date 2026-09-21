@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,13 +26,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-09-19'
+  score: 29.9
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 4
@@ -463,7 +463,7 @@ apis:
   description: Webhooks are a way of detecting events in Clio without the need for polling. A webhook can be subscribed to a number of `events` on a model. Some events will be different depending on the chosen model
   name: Clio Webhooks API
   slug: clio-webhooks-api
-artifact_total: 177
+artifact_total: 180
 collections:
 - collection_type: open
   name: API Collection
@@ -721,6 +721,16 @@ collections:
   name: Clio API Documentation
   slug: open-clio
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/rate-limits/clio-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/clio-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/plans/clio-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/clio-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/capabilities/clio-capability-edges.yml
   title: ''
@@ -843,8 +853,19 @@ overview: 'Clio publishes 83 APIs on the [APIs.io](https://apis.io/) network, in
   The Clio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 16 more developer resources.'
+  Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 18 more developer resources.'
+plans:
+- name: Clio Plans Pricing
+  plan_count: 4
+  slug: clio-plans-pricing
+- name: Clio Price Estimates
+  plan_count: 0
+  slug: clio-price-estimates
 random_paper: 5
+rate_limits:
+- limit_count: 1
+  name: Clio Rate Limits
+  slug: clio-rate-limits
 rules:
 - effective_rule_count: 51
   extends:
@@ -859,22 +880,22 @@ rules:
   slug: clio-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 54.2
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 52.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.0
+    artifact_dirs: 13
+    catalog_earned: 72.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
-    access_clarity: 35.5
+    access_clarity: 67.1
     contract_governance: 54.5
     contract_quality: 64.2
     developer_ergonomics: 40.5
     discoverability: 53.7
-    operational_transparency: 21.1
+    operational_transparency: 42.1
   previous_composite: 45.2
   provenance:
     agentic_access: derived
@@ -884,8 +905,8 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

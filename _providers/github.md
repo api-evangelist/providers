@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 1203
   human_in_the_loop: 31
@@ -379,7 +379,7 @@ arazzos:
 - description: Confirm a head branch exists, then merge it into a base branch.
   name: GitHub Verify a Branch and Merge It
   slug: github-verify-and-merge-branch-workflow
-artifact_total: 1281
+artifact_total: 1282
 asyncapis:
 - description: GitHub Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur on GitHub, such as pushes, pull requests, issues, releases, and more. Webhooks can be configured at the r
   name: GitHub Webhooks
@@ -1532,6 +1532,20 @@ collections:
   name: GitHub Repos API
   slug: open-temp
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/rate-limits/github-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/github-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://github.com/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/plans/github-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/github-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/capabilities/github-capability-edges.yml
   title: ''
@@ -4224,14 +4238,17 @@ overview: 'GitHub publishes 42 APIs on the [APIs.io](https://apis.io/) network, 
   The GitHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GitHub''s developer surface includes authentication, documentation, CLI, support, getting-started guide, engineering blog, signup flow, and 63 more developer resources.'
+  GitHub''s developer surface includes pricing, authentication, documentation, CLI, support, getting-started guide, engineering blog, and 66 more developer resources.'
 plans:
 - name: Github Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: github-plans-pricing
+- name: Github Price Estimates
+  plan_count: 0
+  slug: github-price-estimates
 random_paper: 5
 rate_limits:
-- limit_count: 8
+- limit_count: 18
   name: Github Rate Limits
   slug: github-rate-limits
 rules:
@@ -4268,22 +4285,22 @@ rules:
   slug: github-spectral-rules
 score:
   band: exemplar
-  composite: 67.2
+  composite: 77.2
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 56.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    artifact_dirs: 26
+    catalog_earned: 74.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.0
   facets:
-    access_clarity: 50.0
+    access_clarity: 84.2
     contract_governance: 13.6
     contract_quality: 74.7
     developer_ergonomics: 79.8
     discoverability: 66.7
-    operational_transparency: 68.4
+    operational_transparency: 92.1
   previous_composite: 67.2
   provenance:
     agentic_access: derived
@@ -4294,8 +4311,8 @@ score:
       total: 35
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 61.1

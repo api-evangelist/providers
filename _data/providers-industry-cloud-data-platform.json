@@ -27,7 +27,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 45.6,
      "agent_band": "agent-native",
@@ -70,7 +70,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -120,7 +120,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -162,8 +162,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Bloomberg",
@@ -181,7 +181,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -216,6 +216,49 @@
      "rank": 4
     },
     {
+     "name": "Wherobots",
+     "slug": "wherobots",
+     "description": "Wherobots is a managed cloud platform for geospatial analytics and spatial AI at planetary scale, built by the creators of Apache Sedona. WherobotsDB is a distributed Spatial SQL engine with 300+ spatial functions, raster and vector processing (RasterFlow), Havasu (Apache Iceberg-compatible) tables, and data federation across AWS Glue, Databricks Unity Catalog and S3. Developers reach it through the Wherobots Cloud API and a Spatial SQL API, with Python (DB-API), JDBC and TypeScript SDKs, a CLI, an Apache Airflow provider, a hosted MCP server, and agent skills for AI-assisted geospatial development.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/screenshots/wherobots-2026-08-17T082916.png",
+     "score": 60.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 73.2,
+      "access_clarity": 81.6
+     },
+     "scored_at": "2026-09-20",
+     "schema_version": "0.22.0",
+     "agent_score": 29.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    },
+    {
      "name": "Moody's",
      "slug": "moodys",
      "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
@@ -231,7 +274,7 @@
       "developer_ergonomics": 76.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -263,63 +306,10 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     }
    ],
    "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Wherobots",
-     "slug": "wherobots",
-     "description": "Wherobots is a managed cloud platform for geospatial analytics and spatial AI at planetary scale, built by the creators of Apache Sedona. WherobotsDB is a distributed Spatial SQL engine with 300+ spatial functions, raster and vector processing (RasterFlow), Havasu (Apache Iceberg-compatible) tables, and data federation across AWS Glue, Databricks Unity Catalog and S3. Developers reach it through the Wherobots Cloud API and a Spatial SQL API, with Python (DB-API), JDBC and TypeScript SDKs, a CLI, an Apache Airflow provider, a hosted MCP server, and agent skills for AI-assisted geospatial development.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/screenshots/wherobots-2026-08-17T082916.png",
-     "score": 54.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 53.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-19",
-     "schema_version": "0.22.0",
-     "agent_score": 29.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    }
-   ]
   },
   {
    "band": "thin",
@@ -345,7 +335,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -395,7 +385,7 @@
       "developer_ergonomics": 17.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -448,7 +438,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -491,7 +481,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",

@@ -8,8 +8,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Barclays",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -70,69 +70,11 @@
      "rank": 1
     },
     {
-     "name": "Algbra",
-     "slug": "algbra",
-     "description": "Algbra is a UK values-based, sustainability-focused fintech operated by Algbra FS UK Limited (company number 12629086), an electronic money institution authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 (FRN 952360); its parent, Algbra Group Limited, is a certified B Corporation. Rather than a licensed clearing bank or building society, Algbra is a challenger provider of ethical multi-currency accounts, cards, savings and Banking-as-a-Service infrastructure. Through the Algbra Labs developer platform it exposes two API surfaces - a first-party Partner Banking (BaaS) API for onboarding, accounts, cards, payments and transactions, and a UK Open Banking dedicated interface conformant to the Open Banking Implementation Entity (OBIE) Read/Write Standard v3.1.8 covering Account & Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII), delivered via the Tell Money (Tell Connect) platform. As a non-CMA9 ASPSP it meets PSD2 access-to-account obligations, securing the interface with FAPI-grade OAuth2/OIDC, mutual-TLS using OBIE OBWAC/OBSEAL eIDAS certificates, PS256 request-object signing, Dynamic Client Registration (DCR v3.2) and PSD2 strong customer authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/screenshots/algbra-2026-07-25T195604.png",
-     "score": 55.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 59.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-19",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 88.6,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 38.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Challenger & Neobank",
-     "rank": 2
-    },
-    {
      "name": "Griffin",
      "slug": "griffin",
      "description": "Griffin is a UK-regulated bank (Financial Conduct Authority authorised, Prudential Regulation Authority regulated) offering Banking-as-a-Service via a REST API. Fintechs and businesses embed FSCS-eligible bank accounts, payments (Faster Payments, BACS, CHAPS, book transfers, Confirmation of Payee), automated KYC/KYB onboarding (Verify), client-money and safeguarding accounts, savings accounts, and open banking directly into their own products. The v0 API uses API-key authentication with mandatory HTTP message signatures in live, documented webhooks, a full sandbox, and a first-party MCP server.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/screenshots/griffin-2026-07-25T220332.png",
-     "score": 54.3,
+     "score": 60.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -141,9 +83,9 @@
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
       "developer_ergonomics": 70.8,
-      "access_clarity": 38.2
+      "access_clarity": 69.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -176,94 +118,25 @@
       "agentic_commerce": false
      },
      "tier": "BaaS & Clearing",
-     "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 33,
-   "shown": 33,
-   "providers": [
-    {
-     "name": "first direct",
-     "slug": "first-direct",
-     "description": "first direct is a telephone- and internet-based retail bank and a division of HSBC UK Bank plc, headquartered in Leeds, England and launched in 1989. It offers personal current accounts, savings, credit cards, loans, mortgages and insurance to UK consumers with a reputation for customer service, operating with no physical branches of its own. As an HSBC brand, first direct participates in the UK Open Banking regime under HSBC UK - one of the nine CMA9 banks mandated by the Competition and Markets Authority - and is regulated by the Financial Conduct Authority (FCA) and Prudential Regulation Authority (PRA). Its Open Banking surfaces conform to the Open Banking Implementation Entity (OBIE / Open Banking Limited) standards - a public, unauthenticated Open Data API (personal current account product reference data, ATM and branch locators, published on the shared HSBC api.hsbc.com host where \"first direct\" appears as a distinct brand) and the FAPI-secured OBIE Read/Write APIs - Account and Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) - onboarded and documented through HSBC's developer portal at develop.hsbc.com, which serves the HSBC UK, first direct and M&S Bank brands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png",
-     "score": 53.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 52.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 68.5,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-19",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 78.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 37.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "High-Street & Retail",
-     "rank": 4
+     "rank": 2
     },
     {
      "name": "Revolut",
      "slug": "revolut",
      "description": "Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/revolut/refs/heads/main/screenshots/revolut-2026-08-17T081548.png",
-     "score": 52.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 60.4,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 63.0,
       "contract_quality": 70.5,
       "contract_governance": 4.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 67.9,
-      "access_clarity": 7.9
+      "access_clarity": 50.0
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -303,7 +176,192 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
+     "rank": 3
+    },
+    {
+     "name": "Algbra",
+     "slug": "algbra",
+     "description": "Algbra is a UK values-based, sustainability-focused fintech operated by Algbra FS UK Limited (company number 12629086), an electronic money institution authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 (FRN 952360); its parent, Algbra Group Limited, is a certified B Corporation. Rather than a licensed clearing bank or building society, Algbra is a challenger provider of ethical multi-currency accounts, cards, savings and Banking-as-a-Service infrastructure. Through the Algbra Labs developer platform it exposes two API surfaces - a first-party Partner Banking (BaaS) API for onboarding, accounts, cards, payments and transactions, and a UK Open Banking dedicated interface conformant to the Open Banking Implementation Entity (OBIE) Read/Write Standard v3.1.8 covering Account & Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII), delivered via the Tell Money (Tell Connect) platform. As a non-CMA9 ASPSP it meets PSD2 access-to-account obligations, securing the interface with FAPI-grade OAuth2/OIDC, mutual-TLS using OBIE OBWAC/OBSEAL eIDAS certificates, PS256 request-object signing, Dynamic Client Registration (DCR v3.2) and PSD2 strong customer authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/screenshots/algbra-2026-07-25T195604.png",
+     "score": 55.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 59.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-20",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 88.6,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 38.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Challenger & Neobank",
+     "rank": 4
+    },
+    {
+     "name": "Allica Bank",
+     "slug": "allica-bank",
+     "description": "Allica Bank Limited is a UK financial-technology bank built specifically for established small and medium-sized businesses, offering business current accounts, savings, commercial mortgages, asset finance, and invoice finance. It is a privately owned, venture-backed challenger bank (not a mutual or building society), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and PRA (FRN 821851), registered in England and Wales (company number 07706156). As an FCA-authorised ASPSP it participates in UK Open Banking under the Open Banking Implementation Entity (OBIE) Read/Write Standard and PSD2 - it is not one of the nine CMA9 mandated banks, but publishes a public developer portal exposing Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (fundsconfirmations) APIs for its Business Rewards accounts. Access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS client authentication, and dynamic client registration using Open Banking Directory / eIDAS certificates and Software Statement Assertions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png",
+     "score": 54.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 50.8,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-20",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 78.5,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2-sca",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 50.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "SME & Business",
      "rank": 5
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 31,
+   "shown": 31,
+   "providers": [
+    {
+     "name": "first direct",
+     "slug": "first-direct",
+     "description": "first direct is a telephone- and internet-based retail bank and a division of HSBC UK Bank plc, headquartered in Leeds, England and launched in 1989. It offers personal current accounts, savings, credit cards, loans, mortgages and insurance to UK consumers with a reputation for customer service, operating with no physical branches of its own. As an HSBC brand, first direct participates in the UK Open Banking regime under HSBC UK - one of the nine CMA9 banks mandated by the Competition and Markets Authority - and is regulated by the Financial Conduct Authority (FCA) and Prudential Regulation Authority (PRA). Its Open Banking surfaces conform to the Open Banking Implementation Entity (OBIE / Open Banking Limited) standards - a public, unauthenticated Open Data API (personal current account product reference data, ATM and branch locators, published on the shared HSBC api.hsbc.com host where \"first direct\" appears as a distinct brand) and the FAPI-secured OBIE Read/Write APIs - Account and Transaction Information (AIS), Payment Initiation (PIS) and Confirmation of Funds (CBPII) - onboarded and documented through HSBC's developer portal at develop.hsbc.com, which serves the HSBC UK, first direct and M&S Bank brands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/screenshots/first-direct-2026-07-25T214603.png",
+     "score": 53.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 52.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 68.5,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-20",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 78.5,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 37.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "High-Street & Retail",
+     "rank": 6
     },
     {
      "name": "Weatherbys Bank",
@@ -321,7 +379,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 78.6
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -361,7 +419,58 @@
       "agentic_commerce": false
      },
      "tier": "Private Bank",
-     "rank": 6
+     "rank": 7
+    },
+    {
+     "name": "ClearBank",
+     "slug": "clearbank",
+     "description": "ClearBank is a UK clearing and Banking-as-a-Service bank, founded in 2015 by Nick Ogden (founder of WorldPay) and Charles McManus and granted a banking licence in December 2016 as the first new UK clearing bank in more than 250 years. ClearBank Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (FRN 754568), with a European subsidiary, ClearBank Europe N.V., authorised by the European Central Bank. It is privately owned, backed by Apax Partners and PPF Group. Built cloud-native on Microsoft Azure, ClearBank is a direct participant in the UK payment schemes (Faster Payments, CHAPS, Bacs) and offers Agency Banking, Embedded Banking, and Transaction Banking to banks, fintechs, and corporates through a single proprietary JSON REST API. Unlike the CMA9 retail banks, ClearBank is not a mandated Open Banking ASPSP and does not publish the OBIE Open Data (ATMs/Branches/Products) or OBIE Read/Write (AISP/PISP/CBPII) APIs; its public developer surface is the token-authenticated, RSA-signed ClearBank Financial Institutions API covering GBP accounts and payments, multi-currency accounts, FX, SEPA, cross-border payments, Confirmation of Payee, customer due diligence (KYC), and embedded/retail banking, with a full simulation environment for onboarding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png",
+     "score": 49.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 50.8,
+      "contract_governance": 4.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 61.3,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-20",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 44.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "BaaS & Clearing",
+     "rank": 8
     },
     {
      "name": "Starling Bank",
@@ -379,7 +488,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 78.6
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -419,7 +528,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 7
+     "rank": 9
     },
     {
      "name": "Virgin Money UK",
@@ -437,7 +546,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -481,58 +590,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 8
-    },
-    {
-     "name": "ClearBank",
-     "slug": "clearbank",
-     "description": "ClearBank is a UK clearing and Banking-as-a-Service bank, founded in 2015 by Nick Ogden (founder of WorldPay) and Charles McManus and granted a banking licence in December 2016 as the first new UK clearing bank in more than 250 years. ClearBank Limited is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (FRN 754568), with a European subsidiary, ClearBank Europe N.V., authorised by the European Central Bank. It is privately owned, backed by Apax Partners and PPF Group. Built cloud-native on Microsoft Azure, ClearBank is a direct participant in the UK payment schemes (Faster Payments, CHAPS, Bacs) and offers Agency Banking, Embedded Banking, and Transaction Banking to banks, fintechs, and corporates through a single proprietary JSON REST API. Unlike the CMA9 retail banks, ClearBank is not a mandated Open Banking ASPSP and does not publish the OBIE Open Data (ATMs/Branches/Products) or OBIE Read/Write (AISP/PISP/CBPII) APIs; its public developer surface is the token-authenticated, RSA-signed ClearBank Financial Institutions API covering GBP accounts and payments, multi-currency accounts, FX, SEPA, cross-border payments, Confirmation of Payee, customer due diligence (KYC), and embedded/retail banking, with a full simulation environment for onboarding.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png",
-     "score": 47.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 50.8,
-      "contract_governance": 4.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 61.3,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-19",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 44.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "BaaS & Clearing",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Danske Bank (UK)",
@@ -550,7 +608,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -590,7 +648,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "The Co-operative Bank",
@@ -608,7 +666,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -648,7 +706,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Triodos Bank UK",
@@ -666,7 +724,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -714,7 +772,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Yorkshire Building Society",
@@ -732,7 +790,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -772,64 +830,6 @@
       "agentic_commerce": false
      },
      "tier": "Building Society",
-     "rank": 13
-    },
-    {
-     "name": "Allica Bank",
-     "slug": "allica-bank",
-     "description": "Allica Bank Limited is a UK financial-technology bank built specifically for established small and medium-sized businesses, offering business current accounts, savings, commercial mortgages, asset finance, and invoice finance. It is a privately owned, venture-backed challenger bank (not a mutual or building society), authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and PRA (FRN 821851), registered in England and Wales (company number 07706156). As an FCA-authorised ASPSP it participates in UK Open Banking under the Open Banking Implementation Entity (OBIE) Read/Write Standard and PSD2 - it is not one of the nine CMA9 mandated banks, but publishes a public developer portal exposing Account and Transaction Information (AIS), Payment Initiation (PIS), and Confirmation of Funds (fundsconfirmations) APIs for its Business Rewards accounts. Access is secured with FAPI-grade OAuth2/OIDC, PSD2 strong customer authentication, mutual-TLS client authentication, and dynamic client registration using Open Banking Directory / eIDAS certificates and Software Statement Assertions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png",
-     "score": 46.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 50.8,
-      "contract_governance": 4.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-19",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 78.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2-sca",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 50.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "SME & Business",
      "rank": 14
     },
     {
@@ -848,7 +848,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -899,7 +899,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -950,7 +950,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1008,7 +1008,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1066,7 +1066,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1124,7 +1124,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1175,7 +1175,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1237,7 +1237,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1295,7 +1295,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1353,7 +1353,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1411,7 +1411,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1473,7 +1473,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1531,7 +1531,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1589,7 +1589,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1647,7 +1647,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1705,7 +1705,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1763,7 +1763,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1821,7 +1821,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1879,7 +1879,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.4
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1941,7 +1941,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1999,7 +1999,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2050,7 +2050,7 @@
       "developer_ergonomics": 38.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2119,7 +2119,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2170,7 +2170,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2228,7 +2228,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2286,7 +2286,7 @@
       "developer_ergonomics": 43.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2344,7 +2344,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2410,7 +2410,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2468,7 +2468,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2519,7 +2519,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2570,7 +2570,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2632,7 +2632,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2682,7 +2682,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2740,7 +2740,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2798,7 +2798,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2856,7 +2856,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2907,7 +2907,7 @@
       "developer_ergonomics": 8.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2968,7 +2968,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3019,7 +3019,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3070,7 +3070,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3121,7 +3121,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3172,7 +3172,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3223,7 +3223,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3284,7 +3284,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3335,7 +3335,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3386,7 +3386,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

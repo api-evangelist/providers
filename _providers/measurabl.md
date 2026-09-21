@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 10
 apis:
 - baseURL: https://api.measurabl.com/core/v0
@@ -377,7 +377,7 @@ score:
   band: developing
   composite: 50.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -412,7 +412,7 @@ score:
     regime_id: energy_utilities
     score: 58.1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

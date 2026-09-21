@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -1717,6 +1717,10 @@ collections:
   name: Coveo Activity Activities Zendesk API
   slug: open-coveo-zendesk-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.coveo.com/en/pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/capabilities/coveo-capability-edges.yml
   title: ''
@@ -2034,10 +2038,10 @@ overview: 'Coveo publishes 152 APIs on the [APIs.io](https://apis.io/) network, 
   The Coveo catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Coveo''s developer surface includes authentication, documentation, GitHub presence, support, CLI, tooling, and 31 more developer resources.'
+  Coveo''s developer surface includes pricing, authentication, documentation, GitHub presence, support, CLI, tooling, and 31 more developer resources.'
 plans:
 - name: Coveo Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: coveo-plans-pricing
 random_paper: 12
 rate_limits:
@@ -2073,17 +2077,17 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: developing
-  composite: 50.0
+  composite: 50.5
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 76.5
+    artifact_dirs: 21
+    catalog_earned: 73.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.5
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
-    access_clarity: 26.3
+    access_clarity: 28.9
     contract_governance: 28.8
     contract_quality: 69.7
     developer_ergonomics: 51.2
@@ -2098,7 +2102,7 @@ score:
       marker_coverage: 0.0
       total: 152
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

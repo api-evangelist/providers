@@ -1,6 +1,6 @@
 {
- "total": 24,
- "shown": 24,
+ "total": 23,
+ "shown": 23,
  "limit": 1000,
  "bands": [
   {
@@ -8,8 +8,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Goodlord",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -85,7 +85,7 @@
       "developer_ergonomics": 64.9,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -121,50 +121,6 @@
      "rank": 2
     },
     {
-     "name": "Reapit",
-     "slug": "reapit",
-     "description": "Reapit is a United Kingdom-headquartered supplier of agency CRM and property management software for estate and letting agents, best known for AgencyCloud and Property Cloud, and operating across the UK and Ireland, Australia and New Zealand, and Denmark (through Mindworking). In a market with no MLS, Reapit sits in the middle of the value chain: listings are created and maintained in the agent's CRM and pushed outward to the two dominant consumer portals, Rightmove and Zoopla, so the CRM — not any cooperative database — is where the machine-readable property record actually lives. Its API posture is unusually open for this sector and is the counter-example to \"certified but unreachable\": Reapit Foundations is a genuine developer platform with a public documentation site at foundations-documentation.reapit.cloud, a self-serve registration form at developers.reapit.cloud/register behind published Developer Terms and Conditions, an immediately usable SBOX sandbox, OpenID Connect authentication through Reapit Connect with a live anonymous discovery document, a REST API covering roughly thirty CRM resource domains, a public GraphQL proxy, a real webhooks system with sixty-plus event topics, and an alpha Model Context Protocol server. The contract is split rather than absent: the Swagger/OpenAPI document that powers the Interactive API Explorer is served from platform.reapit.cloud/docs behind a bearer token, so no REST spec is harvestable anonymously — but full GraphQL introspection against graphql.reapit.cloud succeeds without credentials and yields a real machine-readable contract of 190 types, 63 queries and 58 mutations, which is the widest public description of the platform that exists. The MCP server's tools/list is auth-gated, so its 43 tools are known only from the docs. Reaching any real agency's data still requires the app to pass Reapit's AppMarket listing review and then be installed by that customer, who grants the scopes. There is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in Reapit's stack — RESO is a North American, NAR-driven construct and the UK has no MLS to certify against. Reapit publishes no open data; the open UK property layer belongs to HM Land Registry and Ordnance Survey, not to the CRM vendors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/screenshots/reapit-2026-08-17T081459.png",
-     "score": 57.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 54.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 92.1,
-      "developer_ergonomics": 73.2,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-19",
-     "schema_version": "0.22.0",
-     "agent_score": 46.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Agency CRM & Transaction Technology",
-     "rank": 3
-    },
-    {
      "name": "HM Land Registry",
      "slug": "hm-land-registry",
      "description": "HM Land Registry is the non-ministerial government department that registers the ownership of land and property in England and Wales, guaranteeing title to more than 26 million registered estates. In a United Kingdom market that has no MLS and no cooperative listing standard — residential listings are controlled by the Rightmove and Zoopla duopoly and reach them through agency CRM software — HMLR is the counterweight, and it sits at the legal foundation of the value chain rather than at the consumer end: it is the authoritative source of who owns what, what it sold for, and where its boundaries are, and every conveyancing transaction in England and Wales terminates at its register. Its API posture is genuinely and unusually good for a registry, but it is split into three tiers that should never be conflated. First, a real open layer: the landregistry.data.gov.uk platform serves a live, anonymous, unauthenticated SPARQL 1.1 endpoint plus a W3C Linked Data API over Price Paid Data and the UK House Price Index, with JSON/CSV/Turtle content negotiation, alongside bulk Price Paid CSVs and INSPIRE index polygons — all under the Open Government Licence v3.0 with no signup, no key and no fee. Second, a self-serve keyed tier: the Use land and property data service issues an API key automatically on account creation and exposes a documented REST API for dataset metadata and signed download URLs, but the datasets behind it require a signed licence per dataset and some are chargeable — the Registered Leases commercial licence is £5,000 a year plus VAT, and the National Polygon Service, which holds the title boundary polygons and the title number to UPRN lookup, is £20,000 a year plus VAT. A state registry selling the spatial extent of the public record back to the public is the finding, and it is recorded here plainly. Third, the Business Gateway: the B2B channel that conveyancers and their case management systems use to submit applications to change the register, order official copies and run priority searches. Its developer pack is fully public on GitHub Pages with eight downloadable OpenAPI 3.0/3.1 contracts and 37 SOAP XSDs, but the production host businessgateway.landregistry.gov.uk will not complete a TLS handshake without an HMLR-issued client certificate, and access requires signing a development licence and holding a business e-services account. There is no RESO Web API certification, no RESO Data Dictionary, no OData $metadata document and no Universal Property Identifier anywhere in HMLR's stack — RESO is a North American NAR construct with no UK adoption, and HMLR's machine-readable contracts are OpenAPI, XSD and W3C linked data instead.",
@@ -180,7 +136,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -213,7 +169,7 @@
       "agentic_commerce": false
      },
      "tier": "Land Registries & Government",
-     "rank": 4
+     "rank": 3
     }
    ],
    "open": true
@@ -223,8 +179,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 6,
-   "shown": 6,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Street.co.uk",
@@ -242,7 +198,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -268,7 +224,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Landmark Information Group",
@@ -286,7 +242,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 45.9,
      "agent_band": "agent-ready",
@@ -312,7 +268,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Data & Analytics",
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Arthur Online",
@@ -330,7 +286,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -370,7 +326,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Alto (Vebra / Zoopla)",
@@ -388,7 +344,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
@@ -414,7 +370,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "Hometrack",
@@ -432,7 +388,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 38.7,
      "agent_band": "agent-ready",
@@ -458,6 +414,50 @@
       "agentic_commerce": false
      },
      "tier": "Valuation & AVM",
+     "rank": 8
+    },
+    {
+     "name": "Purplebricks",
+     "slug": "purplebricks",
+     "description": "Purplebricks is the United Kingdom's largest online (hybrid) estate agency, founded in 2014 by Michael and Kenny Bruce and David Shepherd, selling and letting residential property across England, Wales and Scotland through a fixed-fee, remote model staffed by local property experts rather than a high-street branch network. After a 2023 sale to rival online agent Strike for a nominal one pound the combined business was rebranded back under the Purplebricks name, and in 2026 the founding Bruce brothers returned alongside Sir Charles Dunstone's Freston Ventures. It sits on the brokerage rung of the value chain, originating the seller relationship and the listing and then distributing that stock to Rightmove, Zoopla, OnTheMarket and PrimeLocation through the UK's portal feed arrangements, because the UK has no MLS and therefore no shared cooperative data exchange. Its API posture is best described as published-but-undeclared: there is no developer portal, no partner programme, no signup and no documentation site, yet the estate serves sixteen real OpenAPI 3.0.1 documents and thirteen live public Swagger UIs across api.purplebricks.co.uk and www.purplebricks.co.uk, covering property, account, valuations, viewings, messaging, lettings, branch/portal syndication, communications, conveyancing, agent, feedback, workflow and Outlook calendar sync. Every operation is Bearer-token protected with no public key issuance, errors are ASP.NET ProblemDetails (RFC 7807), and the branch service exposes the Rightmove, Zoopla and OnTheMarket syndication seam directly. RESO is absent, as expected outside North America, and the genuinely open UK property data layer it consumes for its sold-prices tool belongs to government (HM Land Registry), not to Purplebricks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/screenshots/purplebricks-2026-09-02T152341.png",
+     "score": 42.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 56.9,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 28.0,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-20",
+     "schema_version": "0.22.0",
+     "agent_score": 26.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Brokerages & Agencies",
      "rank": 9
     },
     {
@@ -476,7 +476,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 43.6,
      "agent_band": "agent-native",
@@ -512,8 +512,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Sprift",
@@ -531,7 +531,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -560,50 +560,6 @@
      "rank": 11
     },
     {
-     "name": "Purplebricks",
-     "slug": "purplebricks",
-     "description": "Purplebricks is the United Kingdom's largest online (hybrid) estate agency, founded in 2014 by Michael and Kenny Bruce and David Shepherd, selling and letting residential property across England, Wales and Scotland through a fixed-fee, remote model staffed by local property experts rather than a high-street branch network. After a 2023 sale to rival online agent Strike for a nominal one pound the combined business was rebranded back under the Purplebricks name, and in 2026 the founding Bruce brothers returned alongside Sir Charles Dunstone's Freston Ventures. It sits on the brokerage rung of the value chain, originating the seller relationship and the listing and then distributing that stock to Rightmove, Zoopla, OnTheMarket and PrimeLocation through the UK's portal feed arrangements, because the UK has no MLS and therefore no shared cooperative data exchange. Its API posture is best described as published-but-undeclared: there is no developer portal, no partner programme, no signup and no documentation site, yet the estate serves sixteen real OpenAPI 3.0.1 documents and thirteen live public Swagger UIs across api.purplebricks.co.uk and www.purplebricks.co.uk, covering property, account, valuations, viewings, messaging, lettings, branch/portal syndication, communications, conveyancing, agent, feedback, workflow and Outlook calendar sync. Every operation is Bearer-token protected with no public key issuance, errors are ASP.NET ProblemDetails (RFC 7807), and the branch service exposes the Rightmove, Zoopla and OnTheMarket syndication seam directly. RESO is absent, as expected outside North America, and the genuinely open UK property data layer it consumes for its sold-prices tool belongs to government (HM Land Registry), not to Purplebricks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/screenshots/purplebricks-2026-09-02T152341.png",
-     "score": 36.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 56.9,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.0,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-19",
-     "schema_version": "0.22.0",
-     "agent_score": 26.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Brokerages & Agencies",
-     "rank": 12
-    },
-    {
      "name": "Zoopla",
      "slug": "zoopla",
      "description": "Zoopla Limited is one of the two dominant residential property portals in the United Kingdom, operating zoopla.co.uk alongside PrimeLocation under the Houseful group (formerly ZPG), which also owns the Alto/Jupix estate-agency CRM software and the Hometrack valuation and mortgage-risk business. In a market with no MLS and no cooperative listing standard, Zoopla sits at the demand end of the value chain — consumers search on the portal, and listings reach it from agency CRM systems rather than from a shared data pool. Its API posture reflects that position honestly: the old public Zoopla listings API on the Mashery-hosted developer.zoopla.co.uk portal has been retired and the site no longer serves a valid certificate, and the current developer documentation at developers.zoopla.co.uk states plainly that \"the Zoopla listings API is no longer publicly available.\" What remains public is a small, real, machine-readable surface aimed at member estate agents and their CRM vendors — a Leads API for polling applicant and appraisal enquiries, a real-time lead Push service, and two product-activation APIs for Premium Listings and Weekly Featured Properties. The documentation and three Swagger/OpenAPI contracts are openly readable with no login, but credentials are not self-serve: you must already be a Zoopla member on a listings package, and client_id/client_secret are issued by Member Services after you send them a GPG public key. There is no RESO Web API or Data Dictionary certification, no OData $metadata document, and no Universal Property Identifier anywhere in Zoopla's stack — RESO is a North American construct and the UK has not adopted it. Zoopla publishes no open data; the open property layer in the UK belongs to the public sector (HM Land Registry Price Paid and Ordnance Survey), not to the portals.",
@@ -619,7 +575,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -645,7 +601,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "RICS (Royal Institution of Chartered Surveyors)",
@@ -663,7 +619,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -689,7 +645,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Apex27",
@@ -707,7 +663,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 22.1,
      "agent_band": "agent-aware",
@@ -733,7 +689,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "TwentyCi",
@@ -751,7 +707,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -777,7 +733,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Data & Analytics",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Knight Frank",
@@ -795,7 +751,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -828,7 +784,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Rightmove",
@@ -846,7 +802,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -872,7 +828,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 18
+     "rank": 17
     }
    ]
   },
@@ -900,7 +856,7 @@
       "developer_ergonomics": 16.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -933,7 +889,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Coadjute",
@@ -951,7 +907,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -977,7 +933,7 @@
       "agentic_commerce": false
      },
      "tier": "Listing Data Infrastructure",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Propertymark",
@@ -995,7 +951,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1021,7 +977,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Foxtons",
@@ -1039,7 +995,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1065,7 +1021,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "OnTheMarket",
@@ -1083,7 +1039,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1109,7 +1065,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 23
+     "rank": 22
     }
    ]
   },
@@ -1137,7 +1093,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-19",
+     "scored_at": "2026-09-20",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1170,7 +1126,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 24
+     "rank": 23
     }
    ]
   }

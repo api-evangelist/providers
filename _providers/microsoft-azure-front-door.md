@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,11 @@ collections:
   name: Azure Front Door REST API
   slug: open-microsoft-azure-front-door
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/plans/microsoft-azure-front-door-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-front-door-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -141,10 +146,10 @@ network: true
 overview: 'Azure Front Door publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Profiles API. Tagged areas include CDN, Edge, Global Routing, Load Balancing, and WAF.
 
 
-  Azure Front Door''s developer surface includes authentication, developer portal, pricing, support, and 9 more developer resources.'
+  Azure Front Door''s developer surface includes authentication, developer portal, pricing, support, and 10 more developer resources.'
 plans:
 - name: Microsoft Azure Front Door Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: microsoft-azure-front-door-plans-pricing
 random_paper: 17
 rate_limits:
@@ -157,18 +162,18 @@ scopes:
   slug: microsoft-azure-front-door-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 37.8
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 46.0
+    artifact_dirs: 13
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
-    access_clarity: 47.4
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 35.7
@@ -183,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

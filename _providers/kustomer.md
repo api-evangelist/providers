@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -74,6 +74,10 @@ collections:
   name: Kustomer REST API
   slug: open-kustomer
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.kustomer.com/pricing/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/capabilities/kustomer-capability-edges.yml
   title: ''
@@ -151,10 +155,10 @@ overview: 'Kustomer publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The Kustomer catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Kustomer''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Kustomer''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Kustomer Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: kustomer-plans-pricing
 random_paper: 10
 rate_limits:
@@ -175,17 +179,17 @@ rules:
   slug: kustomer-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.0
+  composite: 34.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 43.5
+    artifact_dirs: 15
+    catalog_earned: 41.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.5
+    catalog_gap: 73.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
-    access_clarity: 13.2
+    access_clarity: 18.4
     contract_governance: 13.6
     contract_quality: 68.5
     developer_ergonomics: 13.1
@@ -200,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

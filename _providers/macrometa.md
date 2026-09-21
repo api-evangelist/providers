@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 9
@@ -359,7 +359,7 @@ apis:
   description: The Waiting rooms API from Macrometa — 2 operation(s) for waiting rooms.
   name: Macrometa Waiting rooms API
   slug: macrometa-waiting-rooms-api
-artifact_total: 130
+artifact_total: 131
 collections:
 - collection_type: open
   name: API Collection
@@ -554,6 +554,11 @@ collections:
   name: Macrometa API Reference Activity Metrics Waiting rooms API
   slug: open-macrometa-waiting-rooms-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/plans/macrometa-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/macrometa-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/capabilities/macrometa-capability-edges.yml
   title: ''
@@ -689,21 +694,25 @@ network: true
 overview: 'Macrometa publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Activity Metrics API, Administration API, API key API, and 60 more. Tagged areas include Company, Infrastructure, Edge Computing, Database, and NoSQL.
 
 
-  Macrometa''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 20 more developer resources.'
+  Macrometa''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 21 more developer resources.'
+plans:
+- name: Macrometa Plans Pricing
+  plan_count: 1
+  slug: macrometa-plans-pricing
 random_paper: 7
 score:
   band: developing
-  composite: 43.7
+  composite: 47.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 10.5
+    access_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 57.7
     developer_ergonomics: 73.2
@@ -721,7 +730,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

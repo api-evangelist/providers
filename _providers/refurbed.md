@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 4
 apis:
 - baseURL: https://api.refurbed.com
@@ -317,7 +317,7 @@ score:
   band: thin
   composite: 29.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -354,7 +354,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

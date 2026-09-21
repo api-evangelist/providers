@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -228,7 +228,7 @@ apis:
   description: The users API from OutSystems — 10 operation(s) for users.
   name: OutSystems Users API
   slug: outsystems-users-api
-artifact_total: 82
+artifact_total: 83
 collections:
 - collection_type: open
   name: API Collection
@@ -342,6 +342,11 @@ collections:
   name: User and Access Management Users API
   slug: open-outsystems-users-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/plans/outsystems-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/outsystems-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/capabilities/outsystems-capability-edges.yml
   title: ''
@@ -542,7 +547,11 @@ network: true
 overview: 'OutSystems publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Analysis Status API, Application Roles API, Assets API, and 33 more. Tagged areas include Company, Low-Code, Application Development, Platform-as-a-Service, and DevOps.
 
 
-  OutSystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  OutSystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
+plans:
+- name: Outsystems Plans Pricing
+  plan_count: 2
+  slug: outsystems-plans-pricing
 random_paper: 14
 rate_limits:
 - limit_count: 12
@@ -555,17 +564,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.6
+  composite: 64.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    artifact_dirs: 26
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 81.6
     contract_governance: 4.5
     contract_quality: 53.5
     developer_ergonomics: 75.6
@@ -588,7 +597,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

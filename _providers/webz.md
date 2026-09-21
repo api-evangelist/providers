@@ -37,8 +37,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-19'
-api_count: 2
+  scored_at: '2026-09-20'
+api_count: 13
 apis:
 - description: 'Token-authenticated REST endpoints under https://api.webz.io covering seven products: News, Blogs and Forums (/api/news, /api/blogs, /api/forums plus /seg_api/* segmentation), Reviews (/reviewFilter, '
   name: Webz.io API
@@ -46,8 +46,45 @@ apis:
 - description: A first-party remote Model Context Protocol server that exposes Webz.io semantic news search to any MCP client. It ships one tool, news_search_by_webz, and every call runs a regular News Search API re
   name: Webz.io News Search MCP Server
   slug: webzio-news-search-mcp-server
-artifact_total: 10
+- description: Live open-web content split by source type. One base URL, six GET endpoints (`/api/news`, `/api/blogs`, `/api/forums` for posts and `/seg_api/news`, `/seg_api/blogs`, `/seg_api/forums` for aggregate s
+  name: Webz.io News, Blogs & Forums API
+  slug: webzio-news-blogs-forums-api
+- description: Contextual, natural-language news search. Single `POST /api/news/context` endpoint that returns ranked article excerpts matching a free-text query. Backs the hosted News Search MCP server and the Lang
+  name: Webz.io News Search API
+  slug: webzio-news-search-api
+- description: Deep and dark web content for threat intelligence. Search endpoint `/cyberFilter`, segmentation `/cyberSeg`, and helper endpoints `/dark-cache` (cached page snapshots) and `/cyber-image` (collected im
+  name: Webz.io Cyber API
+  slug: webzio-cyber-api
+- description: Search compromised records and look up known breaches. Two GET endpoints, `/breaches` (main search) and `/breachCatalog` (breach lookup by name to UUID), authenticated with an API token as a query par
+  name: Webz.io Data Breaches API
+  slug: webzio-data-breaches-api
+- description: Look up leaked session cookies matched to a domain. Single GET endpoint `/cookies` with token authentication and domain-scoped credit consumption.
+  name: Webz.io Leaked Cookies API
+  slug: webzio-leaked-cookies-api
+- description: Detect leaked machine credentials (API keys, tokens, secrets) tied to a domain. Single GET endpoint `/nhi` with token authentication.
+  name: Webz.io Non-Human Identities (NHI) API
+  slug: webzio-non-human-identities-nhi-api
+- description: REST-delivered curated firehose of enriched open-web posts. Preconfigured per-customer feeds via `/firehose?token=&client_feed=`; paginated with `nextPage`. Successor to the FTP-based Legacy Firehose.
+  name: Webz.io Firehose API
+  slug: webzio-firehose-api
+- description: 'Build and deliver historical datasets in three steps - set query and date range at `/setArchiveQuery`, confirm at `/confirmArchiveQuery`, then poll `/getArchiveOrderStatus` for the ZIP download link. '
+  name: Webz.io Archive API
+  slug: webzio-archive-api
+- description: Customer reviews and ratings collected from across the open web as structured JSON - rating, author, language, and the item being reviewed. Shares the News/Blogs/Forums query language but is a separat
+  name: Webz.io Reviews API
+  slug: webzio-reviews-api
+- description: Analyze a domain's exposure across breach, leaked-cookie, and NHI datasets. Served from `api.lunarcyber.com` (Webz.io's Lunar-branded cyber intelligence surface); single GET endpoint `/domain-exposure
+  name: Webz.io Domain Exposure API (DEA)
+  slug: webzio-domain-exposure-api-dea
+- description: Legacy unified `/filterWebContent` endpoint (GET or POST) that returned any open-web content type in one call. Deprecated in favor of the split News, Blogs & Forums APIs but still documented.
+  name: Webz.io Web Content API (deprecated)
+  slug: webzio-web-content-api-deprecated
+artifact_total: 21
 common:
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://webz.io/help/
 - group: company
   title: ''
   type: Website
@@ -214,10 +251,10 @@ modified: '2026-08-27'
 name: Webz.io
 nav: Providers
 network: true
-overview: 'Webz.io publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include News Data, Web Data, Web Scraping, Dark Web, and deep-web.
+overview: 'Webz.io publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include News Data, Web Data, Web Scraping, Dark Web, and deep-web.
 
 
-  Webz.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
+  Webz.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Webz Plans Pricing
   plan_count: 6
@@ -234,21 +271,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.0
+  composite: 50.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 81.5
     operational_transparency: 57.9
   previous_composite: 50.0
   provenance:
@@ -256,7 +293,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

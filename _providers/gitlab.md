@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -284,7 +284,7 @@ arazzos:
 - description: Look up an instance CI variable and update it or create it if missing.
   name: GitLab Upsert an Instance-Level CI Variable
   slug: gitlab-upsert-instance-ci-variable-workflow
-artifact_total: 300
+artifact_total: 301
 asyncapis:
 - description: GitLab Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in a GitLab project or group, such as pushes, merge requests, issues, pipeline status changes, and deploy
   name: GitLab Webhooks
@@ -387,6 +387,16 @@ collections:
   name: GitLab Webhooks API
   slug: open-gitlab-webhooks
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/rate-limits/gitlab-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/gitlab-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/plans/gitlab-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gitlab-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/capabilities/gitlab-capability-edges.yml
   title: ''
@@ -1299,14 +1309,17 @@ overview: 'GitLab publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
   The GitLab catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GitLab''s developer surface includes authentication, changelog, CLI, developer portal, documentation, engineering blog, pricing, and 79 more developer resources.'
+  GitLab''s developer surface includes authentication, changelog, CLI, developer portal, documentation, engineering blog, pricing, and 81 more developer resources.'
 plans:
 - name: Gitlab Plans Pricing
-  plan_count: 3
+  plan_count: 9
   slug: gitlab-plans-pricing
+- name: Gitlab Price Estimates
+  plan_count: 0
+  slug: gitlab-price-estimates
 random_paper: 11
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Gitlab Rate Limits
   slug: gitlab-rate-limits
 rules:
@@ -1348,23 +1361,23 @@ scopes:
   slug: gitlab-scopes
   summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: strong
-  composite: 65.6
+  band: exemplar
+  composite: 72.0
   coverage:
-    artifact_dirs: 35
-    catalog_earned: 61.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    artifact_dirs: 36
+    catalog_earned: 75.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 68.4
+    access_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 75.3
     developer_ergonomics: 72.6
     discoverability: 75.9
-    operational_transparency: 60.5
+    operational_transparency: 73.7
   previous_composite: 65.6
   provenance:
     agentic_access: derived
@@ -1376,8 +1389,8 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

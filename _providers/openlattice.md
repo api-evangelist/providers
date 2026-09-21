@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 16.4
-  scored_at: '2026-09-19'
+  score: 18.9
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.openlattice.com
@@ -72,7 +72,7 @@ apis:
   description: API endpoints to search data.
   name: OpenLattice search API
   slug: openlattice-search-api
-artifact_total: 17
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -99,6 +99,20 @@ collections:
   name: OpenLattice authorizations search API
   slug: open-openlattice-search-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/rate-limits/openlattice-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/openlattice-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://github.com/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/plans/openlattice-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openlattice-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/capabilities/openlattice-capability-edges.yml
   title: ''
@@ -178,21 +192,32 @@ network: true
 overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) network, including authorizations API, data API, edm API, and 4 more. Tagged areas include Company, Data Integration, Entity Data Model, Public Sector, and Analytics.
 
 
-  OpenLattice''s developer surface includes authentication and 13 more developer resources.'
+  OpenLattice''s developer surface includes pricing, authentication, and 15 more developer resources.'
+plans:
+- name: Openlattice Plans Pricing
+  plan_count: 5
+  slug: openlattice-plans-pricing
+- name: Openlattice Price Estimates
+  plan_count: 0
+  slug: openlattice-price-estimates
 random_paper: 10
+rate_limits:
+- limit_count: 0
+  name: Openlattice Rate Limits
+  slug: openlattice-rate-limits
 score:
-  band: emerging
-  composite: 25.0
+  band: thin
+  composite: 33.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.4
   facets:
-    access_clarity: 0.0
+    access_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 43.9
     developer_ergonomics: 28.0
@@ -214,8 +239,8 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -251,7 +251,7 @@ apis:
   description: A unified interface that simplifies authentication and authorization across customers, partners, and external SaaS tools.
   name: WorkOS-connect API
   slug: workos-workos-connect-api
-artifact_total: 348
+artifact_total: 349
 collections:
 - collection_type: postman
   name: WorkOS admin-portal API
@@ -1440,11 +1440,14 @@ overview: 'WorkOS publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
   WorkOS''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, CLI, and 70 more developer resources.'
 plans:
 - name: Workos Plans Pricing
-  plan_count: 7
+  plan_count: 8
   slug: workos-plans-pricing
+- name: Workos Price Estimates
+  plan_count: 0
+  slug: workos-price-estimates
 random_paper: 17
 rate_limits:
-- limit_count: 4
+- limit_count: 15
   name: Workos Rate Limits
   slug: workos-rate-limits
 rules:
@@ -1470,23 +1473,23 @@ rules:
     warn: 6
   slug: workos-rules
 score:
-  band: developing
-  composite: 52.6
+  band: strong
+  composite: 59.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 60.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 54.5
+    artifact_dirs: 24
+    catalog_earned: 78.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 36.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.0
   facets:
-    access_clarity: 34.2
+    access_clarity: 57.9
     contract_governance: 28.8
     contract_quality: 69.8
     developer_ergonomics: 63.1
     discoverability: 63.0
-    operational_transparency: 42.1
+    operational_transparency: 65.8
   open_source:
     applies: true
     score: 25.0
@@ -1500,8 +1503,8 @@ score:
       total: 41
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 38.9

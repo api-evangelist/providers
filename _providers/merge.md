@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -692,7 +692,7 @@ arazzos:
 - description: Create a Merge Link token for the Ticketing category, exchange the public token for an account token, and confirm the linked ticketing system.
   name: Merge Ticketing Link an Account
   slug: merge-ticketing-link-account-workflow
-artifact_total: 1383
+artifact_total: 1384
 collections:
 - collection_type: postman
   name: Accounting
@@ -1079,6 +1079,10 @@ collections:
   name: Accounting subpackage_vendors API
   slug: open-merge-subpackage-vendors-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.merge.dev/pricing/unified
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/capabilities/merge-capability-edges.yml
   title: ''
@@ -4675,11 +4679,14 @@ overview: 'Merge publishes 117 APIs on the [APIs.io](https://apis.io/) network, 
   The Merge catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Merge''s developer surface includes authentication, engineering blog, support, changelog, pricing, documentation, signup flow, and 71 more developer resources.'
+  Merge''s developer surface includes pricing, authentication, engineering blog, support, changelog, documentation, signup flow, and 72 more developer resources.'
 plans:
 - name: Merge Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: merge-plans-pricing
+- name: Merge Price Estimates
+  plan_count: 0
+  slug: merge-price-estimates
 random_paper: 0
 rate_limits:
 - limit_count: 3
@@ -4708,23 +4715,23 @@ rules:
     warn: 19
   slug: merge-spectral-rules
 score:
-  band: strong
-  composite: 64.2
+  band: exemplar
+  composite: 72.0
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 71.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 43.5
+    artifact_dirs: 23
+    catalog_earned: 89.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 25.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.8
   facets:
-    access_clarity: 68.4
+    access_clarity: 92.1
     contract_governance: 28.8
     contract_quality: 69.4
     developer_ergonomics: 52.4
     discoverability: 77.8
-    operational_transparency: 55.3
+    operational_transparency: 78.9
   previous_composite: 64.2
   provenance:
     agentic_access: derived
@@ -4735,8 +4742,8 @@ score:
       total: 117
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 50.0

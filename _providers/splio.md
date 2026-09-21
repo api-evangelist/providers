@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 3
 apis:
 - description: Referral coupon API published as a public Postman collection. Checks and burns coupons for a referrer or a newly referred prospect, authenticated by a SHA-256 hash of the coupon code concatenated with
@@ -394,7 +394,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

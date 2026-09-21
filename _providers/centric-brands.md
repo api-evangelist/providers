@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface Centric Brands operates across eight of its owned-brand direct-to-consumer storefronts (Hudson Jeans, Joe's Jeans, Favorite Daughter, Buffalo David Bitton, Avirex, He
@@ -293,7 +293,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

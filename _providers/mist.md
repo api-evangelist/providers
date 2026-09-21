@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -1105,7 +1105,7 @@ apis:
   description: The Mist API API from Mist — 0 operation(s) for mist api.
   name: Mist API
   slug: mist-mist-api-api
-artifact_total: 429
+artifact_total: 431
 asyncapis:
 - description: ''
   name: Mist Webhooks
@@ -1748,6 +1748,15 @@ collections:
   name: Mist Admins Utilities Wi-Fi API
   slug: open-mist-utilities-wi-fi-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://mist.io/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/plans/mist-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mist-plans-pricing.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -1905,25 +1914,32 @@ overview: 'Mist publishes 212 APIs on the [APIs.io](https://apis.io/) network, i
   The Mist catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mist''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 25 more developer resources.'
+  Mist''s developer surface includes pricing, documentation, API reference, getting-started guide, support, authentication, changelog, and 26 more developer resources.'
+plans:
+- name: Mist Plans Pricing
+  plan_count: 8
+  slug: mist-plans-pricing
+- name: Mist Price Estimates
+  plan_count: 0
+  slug: mist-price-estimates
 random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Mist Rate Limits
   slug: mist-rate-limits
 score:
-  band: developing
-  composite: 50.6
+  band: strong
+  composite: 59.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 32.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 83.0
+    artifact_dirs: 21
+    catalog_earned: 44.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.4
   facets:
-    access_clarity: 17.1
+    access_clarity: 59.2
     contract_governance: 4.5
     contract_quality: 69.1
     developer_ergonomics: 61.3
@@ -1941,8 +1957,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 33.3

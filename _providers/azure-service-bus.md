@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -109,6 +109,11 @@ collections:
   name: Azure Service Bus Management API
   slug: open-azure-service-bus
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/plans/azure-service-bus-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/azure-service-bus-plans-pricing.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -345,10 +350,10 @@ overview: 'Azure Service Bus publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Azure Service Bus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Azure Service Bus'' developer surface includes support, Stack Overflow tag, authentication, developer portal, documentation, getting-started guide, pricing, and 21 more developer resources.'
+  Azure Service Bus'' developer surface includes support, Stack Overflow tag, authentication, developer portal, documentation, getting-started guide, pricing, and 22 more developer resources.'
 plans:
 - name: Azure Service Bus Plans Pricing
-  plan_count: 3
+  plan_count: 8
   slug: azure-service-bus-plans-pricing
 random_paper: 8
 rate_limits:
@@ -395,17 +400,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 61.5
+  composite: 65.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 56.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    artifact_dirs: 22
+    catalog_earned: 65.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 47.4
+    access_clarity: 71.1
     contract_governance: 13.6
     contract_quality: 68.5
     developer_ergonomics: 65.5
@@ -423,7 +428,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

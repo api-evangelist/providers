@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ arazzos:
 - description: Create an organizational group, create an employee, and assign a role using the Quinyx API v3.
   name: Onboard an employee in Quinyx
   slug: quinyx-onboard-employee
-artifact_total: 76
+artifact_total: 77
 collections:
 - collection_type: open
   name: API Collection
@@ -333,6 +333,11 @@ collections:
   name: Quinyx Absence Schedules Tags API
   slug: open-quinyx-tags-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/quinyx/refs/heads/main/plans/quinyx-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/quinyx-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -480,7 +485,11 @@ network: true
 overview: 'Quinyx publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Absence Schedules API, Absence Types API, Absences API, and 32 more. Tagged areas include Workforce Management, Scheduling, Human Resources, Time Tracking, and Forecasting.
 
 
-  Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 23 more developer resources.'
+  Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 24 more developer resources.'
+plans:
+- name: Quinyx Plans Pricing
+  plan_count: 0
+  slug: quinyx-plans-pricing
 random_paper: 4
 scopes:
 - name: Quinyx Scopes
@@ -491,7 +500,7 @@ score:
   band: developing
   composite: 48.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -517,7 +526,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

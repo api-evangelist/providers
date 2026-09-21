@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ apis:
   description: OAuth 2.0 token and authorization endpoints
   name: ForgeRock O Auth2 API
   slug: forgerock-oauth2-api
-artifact_total: 213
+artifact_total: 214
 collections:
 - collection_type: postman
   name: ForgeRock Access Management Access Requests API
@@ -485,6 +485,15 @@ collections:
   name: ForgeRock Access Management Access Requests Workflow API
   slug: open-forgerock-workflow-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.pingidentity.com/en/platform/pricing.html
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/plans/forgerock-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/forgerock-plans-pricing.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -899,11 +908,14 @@ overview: 'ForgeRock publishes 38 APIs on the [APIs.io](https://apis.io/) networ
   The ForgeRock catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ForgeRock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 24 more developer resources.'
+  ForgeRock''s developer surface includes pricing, authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 26 more developer resources.'
 plans:
 - name: Forgerock Plans Pricing
-  plan_count: 6
+  plan_count: 5
   slug: forgerock-plans-pricing
+- name: Forgerock Price Estimates
+  plan_count: 0
+  slug: forgerock-price-estimates
 random_paper: 16
 rate_limits:
 - limit_count: 2
@@ -921,18 +933,18 @@ rules:
     warn: 3
   slug: forgerock-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.3
+  band: strong
+  composite: 56.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 51.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.8
+    artifact_dirs: 19
+    catalog_earned: 60.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
-    access_clarity: 43.4
+    access_clarity: 77.6
     contract_governance: 9.8
     contract_quality: 64.9
     developer_ergonomics: 65.5
@@ -947,8 +959,8 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

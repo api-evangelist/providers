@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ apis:
   description: The Workspaces API from Goody — 1 operation(s) for workspaces.
   name: Goody Workspaces API
   slug: goody-workspaces-api
-artifact_total: 44
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Goody Webhooks
@@ -185,6 +185,11 @@ collections:
   name: Goody Brands Workspaces API
   slug: open-goody-workspaces-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/plans/goody-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/goody-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/capabilities/goody-capability-edges.yml
   title: ''
@@ -363,7 +368,14 @@ overview: 'Goody publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The Goody catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
+  Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Goody Plans Pricing
+  plan_count: 3
+  slug: goody-plans-pricing
+- name: Goody Price Estimates
+  plan_count: 0
+  slug: goody-price-estimates
 random_paper: 18
 scopes:
 - name: Goody Scopes
@@ -372,17 +384,17 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.3
+  composite: 63.6
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 58.9
     developer_ergonomics: 67.3
@@ -406,8 +418,8 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

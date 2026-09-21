@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
   description: The Projects API from Google Cloud AutoML — 4 operation(s) for projects.
   name: Google Cloud AutoML Projects API
   slug: google-cloud-automl-projects-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: postman
   name: Google Cloud AutoML Projects API
@@ -63,6 +63,16 @@ collections:
   name: Google Cloud AutoML API
   slug: open-openapi
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/rate-limits/google-cloud-automl-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-automl-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-automl/refs/heads/main/plans/google-cloud-automl-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-automl-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -167,14 +177,17 @@ overview: 'Google Cloud AutoML publishes 1 API on the [APIs.io](https://apis.io/
   The Google Cloud AutoML catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud AutoML''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 11 more developer resources.'
+  Google Cloud AutoML''s developer surface includes developer portal, getting-started guide, documentation, authentication, pricing, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Google Cloud Automl Plans Pricing
-  plan_count: 3
+  plan_count: 7
   slug: google-cloud-automl-plans-pricing
+- name: Google Cloud Automl Price Estimates
+  plan_count: 0
+  slug: google-cloud-automl-price-estimates
 random_paper: 6
 rate_limits:
-- limit_count: 5
+- limit_count: 28
   name: Google Cloud Automl Rate Limits
   slug: google-cloud-automl-rate-limits
 rules:
@@ -190,22 +203,22 @@ rules:
   slug: google-cloud-automl-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 53.1
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 63.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.8
+    artifact_dirs: 15
+    catalog_earned: 81.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 33.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.8
   facets:
-    access_clarity: 47.4
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 59.2
     developer_ergonomics: 51.2
     discoverability: 68.5
-    operational_transparency: 26.3
+    operational_transparency: 50.0
   previous_composite: 45.3
   provenance:
     agentic_access: derived
@@ -215,8 +228,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 58
 apis:
 - baseURL: https://{sensors_data_url}/api/v3/analytics/v1
@@ -510,7 +510,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

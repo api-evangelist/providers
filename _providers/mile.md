@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://lastmile.milenow.com/index.php
@@ -127,7 +127,7 @@ apis:
   description: The Webhooks API from Mile — 5 operation(s) for webhooks.
   name: Mile Webhooks API
   slug: mile-webhooks-api
-artifact_total: 40
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Mile Webhooks
@@ -191,6 +191,11 @@ collections:
   name: Api Documentation Aramex Webhooks API
   slug: open-mile-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/plans/mile-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/mile-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/capabilities/mile-capability-edges.yml
   title: ''
@@ -301,13 +306,17 @@ overview: 'Mile publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
   The Mile catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mile''s developer surface includes documentation, API reference, engineering blog, signup flow, support, pricing, authentication, and 14 more developer resources.'
+  Mile''s developer surface includes documentation, API reference, engineering blog, signup flow, support, pricing, authentication, and 15 more developer resources.'
+plans:
+- name: Mile Plans Pricing
+  plan_count: 0
+  slug: mile-plans-pricing
 random_paper: 5
 score:
   band: developing
   composite: 43.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -332,7 +341,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

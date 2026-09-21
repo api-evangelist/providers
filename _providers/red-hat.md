@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -532,6 +532,11 @@ collections:
   name: Red Hat Ansible Automation Platform Add-Ons Workflow Job Templates API
   slug: open-red-hat-workflow-job-templates-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/plans/red-hat-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/red-hat-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/capabilities/red-hat-capability-edges.yml
   title: ''
@@ -1448,10 +1453,10 @@ overview: 'Red Hat publishes 36 APIs on the [APIs.io](https://apis.io/) network,
   The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 78 more developer resources.'
+  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 79 more developer resources.'
 plans:
 - name: Red Hat Plans Pricing
-  plan_count: 1
+  plan_count: 3
   slug: red-hat-plans-pricing
 random_paper: 17
 rate_limits:
@@ -1493,17 +1498,17 @@ rules:
   slug: red-hat-spectral-rules
 score:
   band: strong
-  composite: 57.5
+  composite: 62.8
   coverage:
-    artifact_dirs: 34
-    catalog_earned: 41.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 73.5
+    artifact_dirs: 35
+    catalog_earned: 51.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.3
   facets:
-    access_clarity: 59.2
+    access_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 72.8
     developer_ergonomics: 72.6
@@ -1520,8 +1525,8 @@ score:
       total: 34
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

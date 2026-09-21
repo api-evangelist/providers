@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.tryoto.com/rest/v2
@@ -138,7 +138,7 @@ apis:
   description: 'WEBHOOK for ORDER There are 3 types of webhook for now, newOrders, orderStatus , shipmentError and walletTransaction. OTO will push updates to the registered webhook endpoint for the orderStatus type '
   name: OTO Global Webhook API
   slug: oto-global-webhook-api
-artifact_total: 44
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Oto Global Webhooks
@@ -208,6 +208,11 @@ collections:
   name: OTO API V2 Account Webhook API
   slug: open-oto-global-webhook-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/oto-global/refs/heads/main/plans/oto-global-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/oto-global-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oto-global/refs/heads/main/capabilities/oto-global-capability-edges.yml
   title: ''
@@ -359,21 +364,25 @@ overview: 'OTO Global publishes 20 APIs on the [APIs.io](https://apis.io/) netwo
   The OTO Global catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OTO Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  OTO Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Oto Global Plans Pricing
+  plan_count: 5
+  slug: oto-global-plans-pricing
 random_paper: 18
 score:
-  band: developing
-  composite: 49.5
+  band: strong
+  composite: 55.8
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 64.1
     developer_ergonomics: 67.3
@@ -403,8 +412,8 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

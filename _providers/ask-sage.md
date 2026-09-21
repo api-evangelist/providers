@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 6
@@ -204,7 +204,7 @@ apis:
   description: Workbook management
   name: Ask Sage Workbooks API
   slug: ask-sage-workbooks-api
-artifact_total: 69
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -306,6 +306,11 @@ collections:
   name: Ask Sage Server Admin Workbooks API
   slug: open-ask-sage-workbooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/plans/ask-sage-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ask-sage-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/capabilities/ask-sage-capability-edges.yml
   title: ''
@@ -458,13 +463,17 @@ network: true
 overview: 'Ask Sage publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Builder API, Allocation API, and 29 more. Tagged areas include Company, Artificial Intelligence, Generative AI, LLM, and Government.
 
 
-  Ask Sage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Ask Sage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Ask Sage Plans Pricing
+  plan_count: 0
+  slug: ask-sage-plans-pricing
 random_paper: 10
 score:
   band: developing
   composite: 42.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -496,7 +505,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

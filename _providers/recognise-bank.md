@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 4
 apis:
 - baseURL: /open-banking/v2.3
@@ -313,7 +313,7 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -354,7 +354,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

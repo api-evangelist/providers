@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -130,7 +130,7 @@ apis:
   description: The Wireguard API from Perimeter 81 — 2 operation(s) for wireguard.
   name: Perimeter 81 Wireguard API
   slug: perimeter-81-wireguard-api
-artifact_total: 38
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -187,6 +187,11 @@ collections:
   name: Harmony SASE Public Application Wireguard API
   slug: open-perimeter-81-wireguard-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/plans/perimeter-81-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/perimeter-81-plans-pricing.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -282,13 +287,17 @@ network: true
 overview: 'Perimeter 81 publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Application API, Enhanced Networks API, Enhanced Regions API, and 14 more. Tagged areas include Company, Cybersecurity, SASE, Zero Trust, and Networking.
 
 
-  Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 13 more developer resources.'
+  Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 14 more developer resources.'
+plans:
+- name: Perimeter 81 Plans Pricing
+  plan_count: 0
+  slug: perimeter-81-plans-pricing
 random_paper: 1
 score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -314,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

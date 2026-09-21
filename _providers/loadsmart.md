@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 122
@@ -637,7 +637,7 @@ score:
   band: developing
   composite: 43.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 57.0
     catalog_earned_first_party: 0.0
     catalog_gap: 58.0
@@ -666,7 +666,7 @@ score:
       total: 48
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

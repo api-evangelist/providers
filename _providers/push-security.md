@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: REST/JSON API to programmatically administer the Push platform (accounts, apps, findings, integrations) plus webhooks for real-time platform events.
@@ -200,7 +200,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 44.3
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

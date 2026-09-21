@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
   description: Event webhook subscriptions.
   name: Transistor Webhooks API
   slug: transistor-webhooks-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -103,6 +103,10 @@ collections:
   name: Transistor API
   slug: open-transistor
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://transistor.fm/pricing/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/capabilities/transistor-capability-edges.yml
   title: ''
@@ -175,34 +179,37 @@ network: true
 overview: 'Transistor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analytics API, Episodes API, and 3 more. Tagged areas include Podcasting, Podcast Hosting, Analytics, Media, and Audio.
 
 
-  Transistor''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Transistor''s developer surface includes pricing, authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Transistor Plans Pricing
   plan_count: 4
   slug: transistor-plans-pricing
+- name: Transistor Price Estimates
+  plan_count: 0
+  slug: transistor-price-estimates
 random_paper: 13
 rate_limits:
-- limit_count: 3
+- limit_count: 2
   name: Transistor Rate Limits
   slug: transistor-rate-limits
 score:
   band: developing
-  composite: 39.8
+  composite: 40.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    artifact_dirs: 13
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
-    access_clarity: 47.4
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 59.5
     developer_ergonomics: 26.2
     discoverability: 68.5
-    operational_transparency: 31.6
+    operational_transparency: 21.1
   previous_composite: 39.8
   provenance:
     agentic_access: derived
@@ -213,7 +220,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

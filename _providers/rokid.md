@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 2
 apis:
 - description: The Rokid Glass3 / Sprite Enterprise cloud API. Device registration lookup and real-time telemetry, message push to glasses, paged AI agent chat logs, RTC remote-collaboration meeting history and part
@@ -219,7 +219,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

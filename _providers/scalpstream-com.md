@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 5
 apis:
 - description: Machine-payable US recall lookups over x402. Given a product, brand, ingredient or vehicle (make/model/year), returns active recalls across FDA food/drug/device enforcement, NHTSA vehicle safety campa
@@ -41,8 +41,13 @@ apis:
 - description: 'Machine-payable, impersonal research feeds over x402: ranked 0-30 DTE options candidates (/picks), dividend and tax-free municipal income (/dividends), crypto scalp candidates (/crypto) and risk-adjus'
   name: ScalpStream Research
   slug: scalpstream-research
-artifact_total: 10
+artifact_total: 11
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/security/scalpstream-com-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/scalpstream-com-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -154,7 +159,7 @@ common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/scalpstream-com/refs/heads/main/regulatory/scalpstream-com-regulatory-posture.yml
   title: ''
-  type: RegulatoryPosture
+  type: X-RegulatoryPosture
   url: regulatory/scalpstream-com-regulatory-posture.yml
 created: '2026-09-19'
 description: 'ScalpStream operates a family of machine-payable data APIs built for autonomous agents: RecallScout (active US FDA, NHTSA and CPSC recalls with severity normalised across the three regulators), AirScout (global air quality with an EPA-based outdoor-exertion verdict and the cleanest window ahead), BorderScout (all 85 US ports of entry ranked by drive-plus-wait time per lane), FuelScout (cheapest fuel - station-level for Spain, France and Italy, official regional averages for the US) and ScalpStream Research (impersonal ranked options, dividend, crypto and yield feeds). Every service is a plain HTTPS GET priced at a flat $0.01 per request and settled per request over x402 (HTTP 402) in USDC on Base, Arbitrum or Polygon or XRP/RLUSD on the XRP Ledger - no accounts, no API keys, no subscriptions - with a free preview on every host, an A2A agent card and JSON-RPC endpoint per service, and a first-party local MCP server (scalpmcp) that buys from all of them with the user''s own wallet.'
@@ -175,7 +180,7 @@ network: true
 overview: 'ScalpStream publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, A2A, x402, and Micropayments.
 
 
-  ScalpStream''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, sandbox, and 18 more developer resources.'
+  ScalpStream''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, sandbox, and 19 more developer resources.'
 plans:
 - name: Scalpstream Com Plans Pricing
   plan_count: 0
@@ -186,8 +191,8 @@ rate_limits:
   name: Scalpstream Com Rate Limits
   slug: scalpstream-com-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 26.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 50.0
@@ -195,6 +200,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.6
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
@@ -202,14 +208,19 @@ score:
     developer_ergonomics: 34.5
     discoverability: 81.5
     operational_transparency: 18.4
+  previous_composite: 24.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
+    score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -219,6 +230,10 @@ security:
   name: Scalpstream Com Authentication
   slug: scalpstream-com-authentication
   summary_line: 0 schemes
+- kind: domain-security
+  name: Scalpstream Com Domain Security
+  slug: scalpstream-com-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: scalpstream-com
 tags:
 - Company
@@ -238,6 +253,6 @@ tags:
 - USDC
 - XRP Ledger
 - llms-txt
-- JSON Schema
+- JSON-Schema
 website: https://scalpstream.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
   description: Access user and company segments.
   name: Intercom Segments API
   slug: intercom-segments-api
-artifact_total: 57
+artifact_total: 58
 asyncapis:
 - description: AsyncAPI description of Intercom's outbound webhook surface. Intercom delivers workspace events to a single subscriber URL configured per app under the Developer Hub > Webhooks settings. Each delivery
   name: Intercom Webhooks
@@ -130,6 +130,20 @@ collections:
   name: Intercom API
   slug: open-intercom
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/rate-limits/intercom-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/intercom-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.intercom.com/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/plans/intercom-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/intercom-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/capabilities/intercom-capability-edges.yml
   title: ''
@@ -262,14 +276,17 @@ overview: 'Intercom publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Intercom catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Intercom''s developer surface includes authentication, developer portal, engineering blog, documentation, support, signup flow, and 8 more developer resources.'
+  Intercom''s developer surface includes pricing, authentication, developer portal, engineering blog, documentation, support, signup flow, and 10 more developer resources.'
 plans:
 - name: Intercom Plans Pricing
-  plan_count: 4
+  plan_count: 8
   slug: intercom-plans-pricing
+- name: Intercom Price Estimates
+  plan_count: 0
+  slug: intercom-price-estimates
 random_paper: 7
 rate_limits:
-- limit_count: 3
+- limit_count: 5
   name: Intercom Rate Limits
   slug: intercom-rate-limits
 rules:
@@ -296,22 +313,22 @@ rules:
   slug: intercom-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.4
+  composite: 53.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 45.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.5
+    artifact_dirs: 21
+    catalog_earned: 63.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.9
   facets:
-    access_clarity: 28.9
+    access_clarity: 63.2
     contract_governance: 13.6
     contract_quality: 64.1
     developer_ergonomics: 38.1
     discoverability: 66.7
-    operational_transparency: 10.5
+    operational_transparency: 34.2
   previous_composite: 43.4
   provenance:
     agentic_access: derived
@@ -321,8 +338,8 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 50.0

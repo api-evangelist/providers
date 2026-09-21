@@ -3,7 +3,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: conformant
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-09-19'
+  score: 30.4
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://www.easyfence.cn
@@ -148,7 +148,7 @@ modified: '2026-09-19'
 name: X402 AI 自助门店
 nav: Providers
 network: true
-overview: 'X402 AI 自助门店 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Store API and x402 Facilitator API. Tagged areas include Agent Commerce, AI Agents, A2A, x402, and Payments.
+overview: 'X402 AI 自助门店 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Store API and x402 Facilitator API. Tagged areas include Agentic Commerce, AI Agents, A2A, x402, and Payments.
 
 
   X402 AI 自助门店''s developer surface includes documentation, API reference, pricing, authentication, and 16 more developer resources.'
@@ -163,21 +163,32 @@ rate_limits:
   slug: easyfence-cn-rate-limits
 score:
   band: thin
-  composite: 33.2
+  composite: 32.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 47.0
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.0
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 43.5
-    developer_ergonomics: 35.7
+    contract_quality: 46.9
+    developer_ergonomics: 30.4
     discoverability: 64.8
     operational_transparency: 0.0
+  previous_composite: 33.2
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 2
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
@@ -185,11 +196,11 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Easyfence Cn Authentication
@@ -201,7 +212,7 @@ security:
   summary_line: TLSv1.3
 slug: easyfence-cn
 tags:
-- Agent Commerce
+- Agentic Commerce
 - AI Agents
 - A2A
 - x402

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.yoobic.com/public/api
@@ -241,7 +241,7 @@ apis:
   description: '<a id="group-webhooks"></a> You can create webhooks with HTTP targets to build integrations with the services or with your back-end system. Examples: - Alert your team in Slack when a mission is creat'
   name: Yoobic Webhooks API
   slug: yoobic-webhooks-api
-artifact_total: 87
+artifact_total: 88
 asyncapis:
 - description: ''
   name: Yoobic Webhooks
@@ -374,6 +374,11 @@ collections:
   name: YOOBIC Public Answers Webhooks API
   slug: open-yoobic-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/plans/yoobic-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/yoobic-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/capabilities/yoobic-capability-edges.yml
   title: ''
@@ -478,13 +483,17 @@ overview: 'Yoobic publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
   The Yoobic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 14 more developer resources.'
+  Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 15 more developer resources.'
+plans:
+- name: Yoobic Plans Pricing
+  plan_count: 0
+  slug: yoobic-plans-pricing
 random_paper: 7
 score:
   band: developing
   composite: 50.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
@@ -509,7 +518,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

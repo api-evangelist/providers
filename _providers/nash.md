@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 16
@@ -196,7 +196,7 @@ apis:
   description: Zones
   name: Nash Zones API
   slug: nash-zones-api
-artifact_total: 70
+artifact_total: 71
 asyncapis:
 - description: Real-time delivery events Nash pushes to subscriber endpoints over HTTP, delivered and signed via Svix. Each message carries `type`, `event`, and `data`. Endpoints are registered per event type in the
   name: Nash Webhooks
@@ -299,6 +299,11 @@ collections:
   name: Nash AI Functions Zones API
   slug: open-nash-zones-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/plans/nash-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/nash-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/capabilities/nash-capability-edges.yml
   title: ''
@@ -459,7 +464,11 @@ overview: 'Nash publishes 30 APIs on the [APIs.io](https://apis.io/) network, in
   The Nash catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Nash''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, changelog, and 25 more developer resources.'
+  Nash''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, changelog, and 26 more developer resources.'
+plans:
+- name: Nash Plans Pricing
+  plan_count: 0
+  slug: nash-plans-pricing
 random_paper: 8
 rate_limits:
 - limit_count: 0
@@ -469,7 +478,7 @@ score:
   band: strong
   composite: 60.2
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -495,7 +504,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

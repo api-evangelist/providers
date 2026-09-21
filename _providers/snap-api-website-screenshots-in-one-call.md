@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: REST/HTTP screenshot and rendering API. GET /v1/take (alias /v1/render) captures screenshots and PDFs; /v1/record for scroll/video recording; /v1/usage for plan and credit metering. API-key authentica
@@ -127,7 +127,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

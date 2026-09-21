@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: OAuth 2.0 token issuance and refresh
   name: Bandcamp O Auth API
   slug: bandcamp-oauth-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -94,6 +94,10 @@ collections:
   name: Bandcamp API
   slug: open-bandcamp
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://get.bandcamp.help/en/articles/15263193-what-are-bandcamp-s-fees
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/capabilities/bandcamp-capability-edges.yml
   title: ''
@@ -165,14 +169,17 @@ network: true
 overview: 'Bandcamp publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Merch Orders API, Sales API, and 1 more. Tagged areas include Music, Marketplace, Indie, Audio, and Sales.
 
 
-  Bandcamp''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Bandcamp''s developer surface includes pricing, authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Bandcamp Plans Pricing
-  plan_count: 2
+  plan_count: 4
   slug: bandcamp-plans-pricing
+- name: Bandcamp Price Estimates
+  plan_count: 0
+  slug: bandcamp-price-estimates
 random_paper: 8
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Bandcamp Rate Limits
   slug: bandcamp-rate-limits
 scopes:
@@ -182,22 +189,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.9
+  composite: 37.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 44.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    artifact_dirs: 13
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.7
   facets:
-    access_clarity: 13.2
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 48.1
     developer_ergonomics: 33.3
     discoverability: 68.5
-    operational_transparency: 5.3
+    operational_transparency: 0.0
   previous_composite: 30.9
   provenance:
     agentic_access: derived
@@ -207,8 +214,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

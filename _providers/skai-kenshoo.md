@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 2
 apis:
 - description: First-party hosted, remote Model Context Protocol servers exposing the Skai platform to AI assistants. The Reporting MCP is read-only and publishes five tools — fetch_report, relevant_columns, get_tod
@@ -491,7 +491,7 @@ score:
   band: strong
   composite: 54.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 44.0
     catalog_earned_first_party: 20.0
     catalog_gap: 71.0
@@ -516,7 +516,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

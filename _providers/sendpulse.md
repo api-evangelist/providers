@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 382
   human_in_the_loop: 7
@@ -864,7 +864,7 @@ score:
   band: exemplar
   composite: 74.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 64.0
     catalog_earned_first_party: 12.0
     catalog_gap: 51.0
@@ -900,7 +900,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

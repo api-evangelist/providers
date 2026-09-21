@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-09-19'
+  score: 30.8
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 4
@@ -269,7 +269,7 @@ apis:
   description: The Users API from DNSFilter — 4 operation(s) for users.
   name: DNSFilter Users API
   slug: dnsfilter-users-api
-artifact_total: 93
+artifact_total: 96
 collections:
 - collection_type: open
   name: API Collection
@@ -407,6 +407,16 @@ collections:
   name: DNSFilter Agent Local User Bulk Deletes Users API
   slug: open-dnsfilter-users-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/rate-limits/dnsfilter-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/dnsfilter-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/plans/dnsfilter-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dnsfilter-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/capabilities/dnsfilter-capability-edges.yml
   title: ''
@@ -549,26 +559,37 @@ network: true
 overview: 'DNSFilter publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Agent Local User Bulk Deletes API, Agent Local Users API, Agent Local Users CSV Export API, and 42 more. Tagged areas include Company, DNS, Security, Content Filtering, and Threat Protection.
 
 
-  DNSFilter''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  DNSFilter''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Dnsfilter Plans Pricing
+  plan_count: 7
+  slug: dnsfilter-plans-pricing
+- name: Dnsfilter Price Estimates
+  plan_count: 0
+  slug: dnsfilter-price-estimates
 random_paper: 3
+rate_limits:
+- limit_count: 1
+  name: Dnsfilter Rate Limits
+  slug: dnsfilter-rate-limits
 score:
   band: developing
-  composite: 42.3
+  composite: 51.4
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 56.1
     developer_ergonomics: 30.4
     discoverability: 75.9
-    operational_transparency: 23.7
+    operational_transparency: 44.7
   previous_composite: 42.3
   provenance:
     agentic_access: derived
@@ -581,8 +602,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

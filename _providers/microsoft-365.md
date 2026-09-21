@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: The Users API from Microsoft 365 — 2 operation(s) for users.
   name: Microsoft 365 Users API
   slug: microsoft-365-users-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -114,6 +114,11 @@ collections:
   name: Microsoft 365 (Microsoft Graph API)
   slug: open-microsoft-365
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/plans/microsoft-365-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-365-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/capabilities/microsoft-365-capability-edges.yml
   title: ''
@@ -200,7 +205,11 @@ network: true
 overview: 'Microsoft 365 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Files API, Groups API, and 4 more. Tagged areas include Productivity, Collaboration, Email, Calendar, and File.
 
 
-  Microsoft 365''s developer surface includes authentication, documentation, signup flow, pricing, and 12 more developer resources.'
+  Microsoft 365''s developer surface includes authentication, documentation, signup flow, pricing, and 13 more developer resources.'
+plans:
+- name: Microsoft 365 Plans Pricing
+  plan_count: 0
+  slug: microsoft-365-plans-pricing
 random_paper: 19
 scopes:
 - name: Microsoft 365 Scopes
@@ -211,7 +220,7 @@ score:
   band: thin
   composite: 37.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -234,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

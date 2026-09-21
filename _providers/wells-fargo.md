@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
   description: Retrieve and search account transaction data.
   name: wells-fargo Transactions API
   slug: wells-fargo-transactions-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -104,6 +104,15 @@ collections:
   name: Wells Fargo Account Accounts Transactions API
   slug: open-wells-fargo-transactions-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.wellsfargo.com/biz/merchant/payment-processing-pricing/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/plans/wells-fargo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/wells-fargo-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/capabilities/wells-fargo-capability-edges.yml
   title: ''
@@ -228,11 +237,14 @@ overview: 'Wells Fargo publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The Wells Fargo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Wells Fargo''s developer surface includes support, authentication, documentation, and 13 more developer resources.'
+  Wells Fargo''s developer surface includes pricing, support, authentication, documentation, and 14 more developer resources.'
 plans:
 - name: Wells Fargo Plans Pricing
-  plan_count: 1
+  plan_count: 9
   slug: wells-fargo-plans-pricing
+- name: Wells Fargo Price Estimates
+  plan_count: 0
+  slug: wells-fargo-price-estimates
 press:
 - date: ''
   title: Banks chase AI-fueled efficiencies
@@ -282,18 +294,18 @@ scopes:
   slug: wells-fargo-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 37.9
+  band: developing
+  composite: 45.2
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 62.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
+    artifact_dirs: 23
+    catalog_earned: 72.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.3
   facets:
-    access_clarity: 30.3
+    access_clarity: 67.1
     contract_governance: 28.8
     contract_quality: 73.0
     developer_ergonomics: 16.7
@@ -308,8 +320,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

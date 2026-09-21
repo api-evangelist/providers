@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -337,7 +337,7 @@ arazzos:
 - description: Read an API product, then update its quota limits while preserving its existing bindings.
   name: Apigee Update an API Product Quota
   slug: apigee-update-product-quota-workflow
-artifact_total: 260
+artifact_total: 261
 collections:
 - collection_type: postman
   name: Apigee API Hub API
@@ -493,6 +493,16 @@ collections:
   name: Apigee API Hub Analytics Versions API
   slug: open-apigee-versions-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/rate-limits/apigee-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/apigee-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/plans/apigee-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/apigee-plans-pricing.yml
 - group: start
   title: ''
   type: Console
@@ -1259,14 +1269,17 @@ overview: 'Apigee publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
   The Apigee catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apigee''s developer surface includes developer console, Stack Overflow tag, YouTube channel, authentication, developer portal, documentation, getting-started guide, and 74 more developer resources.'
+  Apigee''s developer surface includes developer console, Stack Overflow tag, YouTube channel, authentication, developer portal, documentation, getting-started guide, and 76 more developer resources.'
 plans:
 - name: Apigee Plans Pricing
-  plan_count: 5
+  plan_count: 11
   slug: apigee-plans-pricing
+- name: Apigee Price Estimates
+  plan_count: 0
+  slug: apigee-price-estimates
 random_paper: 3
 rate_limits:
-- limit_count: 16
+- limit_count: 0
   name: Apigee Rate Limits
   slug: apigee-rate-limits
 rules:
@@ -1298,22 +1311,22 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.1
+  composite: 65.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 68.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
+    artifact_dirs: 24
+    catalog_earned: 74.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.7
   facets:
-    access_clarity: 55.3
+    access_clarity: 78.9
     contract_governance: 13.6
     contract_quality: 74.2
     developer_ergonomics: 82.1
     discoverability: 83.3
-    operational_transparency: 52.6
+    operational_transparency: 44.7
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -1323,7 +1336,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

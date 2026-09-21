@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 553
   human_in_the_loop: 61
@@ -889,7 +889,7 @@ apis:
   description: IP operations
   name: Telnyx I Ps API
   slug: telnyx-ips-api
-artifact_total: 348
+artifact_total: 349
 collections:
 - collection_type: open
   name: API Collection
@@ -1402,6 +1402,10 @@ collections:
   name: Telnyx API
   slug: open-telnyx
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://telnyx.com/pricing/iot-data-plans
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/capabilities/telnyx-capability-edges.yml
   title: ''
@@ -1487,14 +1491,17 @@ network: true
 overview: 'Telnyx publishes 169 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Addresses API, Advanced Number Orders API, and 166 more. Tagged areas include Communications, CPaaS, Voice, SMS, and IoT.
 
 
-  Telnyx''s developer surface includes authentication, engineering blog, and 13 more developer resources.'
+  Telnyx''s developer surface includes pricing, authentication, engineering blog, and 13 more developer resources.'
 plans:
 - name: Telnyx Plans Pricing
-  plan_count: 1
+  plan_count: 19
   slug: telnyx-plans-pricing
+- name: Telnyx Price Estimates
+  plan_count: 0
+  slug: telnyx-price-estimates
 random_paper: 16
 rate_limits:
-- limit_count: 1
+- limit_count: 7
   name: Telnyx Rate Limits
   slug: telnyx-rate-limits
 scopes:
@@ -1503,23 +1510,23 @@ scopes:
   slug: telnyx-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 35.5
+  band: developing
+  composite: 46.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 26.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 89.0
+    artifact_dirs: 16
+    catalog_earned: 46.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.8
   facets:
-    access_clarity: 21.1
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 61.1
     developer_ergonomics: 23.8
     discoverability: 42.6
-    operational_transparency: 7.9
+    operational_transparency: 34.2
   previous_composite: 35.5
   provenance:
     agentic_access: derived
@@ -1536,8 +1543,8 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

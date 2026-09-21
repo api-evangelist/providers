@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 3
@@ -602,7 +602,7 @@ arazzos:
 - description: Poll a build until it is READY, then create a fleet that deploys it.
   name: Amazon GameLift Verify Build Readiness then Create a Fleet
   slug: amazon-gamelift-verify-build-create-fleet-workflow
-artifact_total: 1558
+artifact_total: 1559
 collections:
 - collection_type: postman
   name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch API'
@@ -1235,6 +1235,11 @@ collections:
   name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ValidateMatchmakingRuleSet API'
   slug: open-amazon-gamelift-x-amz-target-gamelift-validatematchmakingruleset-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/plans/amazon-gamelift-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-gamelift-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -5061,11 +5066,14 @@ overview: 'Amazon GameLift publishes 104 APIs on the [APIs.io](https://apis.io/)
   The Amazon GameLift catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon GameLift''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
+  Amazon GameLift''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 29 more developer resources.'
 plans:
 - name: Amazon Gamelift Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: amazon-gamelift-plans-pricing
+- name: Amazon Gamelift Price Estimates
+  plan_count: 0
+  slug: amazon-gamelift-price-estimates
 random_paper: 14
 rate_limits:
 - limit_count: 5
@@ -5095,17 +5103,17 @@ rules:
   slug: amazon-gamelift-spectral-rules
 score:
   band: strong
-  composite: 59.1
+  composite: 63.8
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 63.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    artifact_dirs: 20
+    catalog_earned: 72.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 68.4
+    access_clarity: 92.1
     contract_governance: 28.8
     contract_quality: 68.0
     developer_ergonomics: 79.8
@@ -5120,7 +5128,7 @@ score:
       marker_coverage: 0.0
       total: 104
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

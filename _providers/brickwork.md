@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ apis:
   description: The Utilities API from Brickwork — 1 operation(s) for utilities.
   name: Brickwork Utilities API
   slug: brickwork-utilities-api
-artifact_total: 70
+artifact_total: 71
 collections:
 - collection_type: open
   name: API Collection
@@ -314,6 +314,11 @@ collections:
   name: Brickwork Admin Appointments Utilities API
   slug: open-brickwork-utilities-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/plans/brickwork-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/brickwork-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/capabilities/brickwork-capability-edges.yml
   title: ''
@@ -421,13 +426,17 @@ network: true
 overview: 'Brickwork publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Admin Appointments API, Admin Company Users API, Admin Customer Appointments API, and 30 more. Tagged areas include Company, Consumer, Retail, Omnichannel, and Store Locator.
 
 
-  Brickwork''s developer surface includes documentation, API reference, pricing, support, authentication, and 16 more developer resources.'
+  Brickwork''s developer surface includes documentation, API reference, pricing, support, authentication, and 17 more developer resources.'
+plans:
+- name: Brickwork Plans Pricing
+  plan_count: 0
+  slug: brickwork-plans-pricing
 random_paper: 6
 score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -453,7 +462,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

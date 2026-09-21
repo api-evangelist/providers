@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -81,6 +81,11 @@ collections:
   name: Azure API Management REST API
   slug: open-microsoft-azure-integration-services
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/plans/microsoft-azure-integration-services-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-integration-services-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/capabilities/microsoft-azure-integration-services-capability-edges.yml
   title: ''
@@ -185,10 +190,10 @@ network: true
 overview: 'Microsoft Azure Integration Services publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Operations API, and 1 more. Tagged areas include API Management, Enterprise, Event-Driven, Integration, and Messaging.
 
 
-  Microsoft Azure Integration Services'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 14 more developer resources.'
+  Microsoft Azure Integration Services'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Microsoft Azure Integration Services Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: microsoft-azure-integration-services-plans-pricing
 random_paper: 6
 rate_limits:
@@ -202,17 +207,17 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.3
+  composite: 48.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 49.0
+    artifact_dirs: 13
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
-    access_clarity: 60.5
+    access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 64.3
@@ -227,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

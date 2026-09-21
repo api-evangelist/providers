@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
@@ -81,7 +81,7 @@ apis:
   description: The User Provisioning API from LeaseAccelerator — 3 operation(s) for user provisioning.
   name: LeaseAccelerator User Provisioning API
   slug: leaseaccelerator-user-provisioning-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -114,6 +114,11 @@ collections:
   name: LeaseAccelerator Documents User Provisioning API
   slug: open-leaseaccelerator-user-provisioning-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/plans/leaseaccelerator-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/leaseaccelerator-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/capabilities/leaseaccelerator-capability-edges.yml
   title: ''
@@ -275,13 +280,17 @@ network: true
 overview: 'LeaseAccelerator publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Events API, Financials API, and 6 more. Tagged areas include Company, Lease Accounting, Lease Administration, Financial Reporting, and Enterprise Software.
 
 
-  LeaseAccelerator''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  LeaseAccelerator''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+plans:
+- name: Leaseaccelerator Plans Pricing
+  plan_count: 0
+  slug: leaseaccelerator-plans-pricing
 random_paper: 7
 score:
   band: developing
   composite: 50.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -306,7 +315,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

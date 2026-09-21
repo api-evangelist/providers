@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
   description: CKS cluster lifecycle operations
   name: CoreWeave Clusters API
   slug: coreweave-clusters-api
-artifact_total: 27
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -77,6 +77,11 @@ collections:
   name: CoreWeave Kubernetes Service (CKS) API
   slug: open-coreweave
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/plans/coreweave-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/coreweave-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/capabilities/coreweave-capability-edges.yml
   title: ''
@@ -205,11 +210,14 @@ network: true
 overview: 'CoreWeave publishes 1 API on the [APIs.io](https://apis.io/) network: Clusters API. Tagged areas include Artificial Intelligence, Cloud, GPU, HPC, and Inference.
 
 
-  CoreWeave''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, code examples, and 14 more developer resources.'
+  CoreWeave''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, support, code examples, and 15 more developer resources.'
 plans:
 - name: Coreweave Plans Pricing
-  plan_count: 1
+  plan_count: 25
   slug: coreweave-plans-pricing
+- name: Coreweave Price Estimates
+  plan_count: 0
+  slug: coreweave-price-estimates
 random_paper: 15
 rate_limits:
 - limit_count: 2
@@ -217,17 +225,17 @@ rate_limits:
   slug: coreweave-rate-limits
 score:
   band: developing
-  composite: 44.4
+  composite: 46.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 51.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    artifact_dirs: 13
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 47.4
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 47.6
@@ -242,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

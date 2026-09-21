@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -95,12 +95,17 @@ apis:
   description: Operations related to trusted accounts.
   name: Volt Trusted accounts API
   slug: volt-io-trusted-accounts-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Volt Io Webhooks
   slug: volt-io-webhooks
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/plans/volt-io-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/volt-io-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/capabilities/volt-io-capability-edges.yml
   title: ''
@@ -297,13 +302,17 @@ overview: 'Volt publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
   The Volt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 33 more developer resources.'
+  Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 34 more developer resources.'
+plans:
+- name: Volt Io Plans Pricing
+  plan_count: 0
+  slug: volt-io-plans-pricing
 random_paper: 10
 score:
   band: developing
   composite: 41.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -343,7 +352,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

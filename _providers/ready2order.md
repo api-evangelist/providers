@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-09-19'
+  score: 32.8
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.ready2order.com/v1
@@ -217,7 +217,7 @@ apis:
   description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Webhooks push e
   name: Ready2order Webhook API
   slug: ready2order-webhook-api
-artifact_total: 76
+artifact_total: 79
 asyncapis:
 - description: ''
   name: Ready2Order Webhooks
@@ -335,6 +335,16 @@ collections:
   name: ready2order Public Account Token Webhook API
   slug: open-ready2order-webhook-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/rate-limits/ready2order-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/ready2order-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/plans/ready2order-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/ready2order-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -478,26 +488,37 @@ overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) netw
   The Ready2order catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 22 more developer resources.'
+  Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 24 more developer resources.'
+plans:
+- name: Ready2Order Plans Pricing
+  plan_count: 13
+  slug: ready2order-plans-pricing
+- name: Ready2Order Price Estimates
+  plan_count: 0
+  slug: ready2order-price-estimates
 random_paper: 1
+rate_limits:
+- limit_count: 1
+  name: Ready2Order Rate Limits
+  slug: ready2order-rate-limits
 score:
   band: developing
-  composite: 43.2
+  composite: 52.3
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 24.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 91.0
+    artifact_dirs: 21
+    catalog_earned: 44.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 66.2
     developer_ergonomics: 51.8
     discoverability: 51.9
-    operational_transparency: 10.5
+    operational_transparency: 31.6
   previous_composite: 43.2
   provenance:
     conformance: derived
@@ -515,8 +536,8 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

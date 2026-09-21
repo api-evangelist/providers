@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 15
@@ -335,7 +335,7 @@ apis:
   description: Use this REST API to retrieve vulnerability details.
   name: Sonatype Vulnerability Details API
   slug: sonatype-vulnerability-details-api
-artifact_total: 132
+artifact_total: 133
 collections:
 - collection_type: open
   name: API Collection
@@ -518,6 +518,16 @@ collections:
   name: Sonatype Lifecycle Public REST Advanced Search Vulnerability Details API
   slug: open-sonatype-vulnerability-details-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/rate-limits/sonatype-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/sonatype-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/plans/sonatype-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/sonatype-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/capabilities/sonatype-capability-edges.yml
   title: ''
@@ -615,14 +625,17 @@ overview: 'Sonatype publishes 58 APIs on the [APIs.io](https://apis.io/) network
   The Sonatype catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sonatype''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, changelog, support, and 6 more developer resources.'
+  Sonatype''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, changelog, support, and 8 more developer resources.'
 plans:
 - name: Sonatype Plans Pricing
-  plan_count: 3
+  plan_count: 8
   slug: sonatype-plans-pricing
+- name: Sonatype Price Estimates
+  plan_count: 0
+  slug: sonatype-price-estimates
 random_paper: 3
 rate_limits:
-- limit_count: 5
+- limit_count: 4
   name: Sonatype Rate Limits
   slug: sonatype-rate-limits
 rules:
@@ -648,23 +661,23 @@ rules:
     warn: 6
   slug: sonatype-rules
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 45.6
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 55.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    artifact_dirs: 18
+    catalog_earned: 73.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.8
   facets:
-    access_clarity: 26.3
+    access_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 61.3
     developer_ergonomics: 45.2
     discoverability: 44.4
-    operational_transparency: 13.2
+    operational_transparency: 36.8
   previous_composite: 37.8
   provenance:
     agentic_access: derived
@@ -674,8 +687,8 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

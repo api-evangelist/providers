@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
   description: Brands, brand themes, homepage settings, watermarks, and summary reports.
   name: ShootProof Studios API
   slug: shootproof-studios-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -109,6 +109,10 @@ collections:
   name: ShootProof Studio API
   slug: open-shootproof
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.shootproof.com/plans/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/capabilities/shootproof-capability-edges.yml
   title: ''
@@ -184,11 +188,14 @@ network: true
 overview: 'ShootProof publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Contracts API, Events & Galleries API, and 4 more. Tagged areas include Photography, Client Galleries, Proofing, Digital Downloads, and Photo Studio Management.
 
 
-  ShootProof''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  ShootProof''s developer surface includes pricing, authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Shootproof Plans Pricing
-  plan_count: 5
+  plan_count: 6
   slug: shootproof-plans-pricing
+- name: Shootproof Price Estimates
+  plan_count: 0
+  slug: shootproof-price-estimates
 random_paper: 7
 rate_limits:
 - limit_count: 4
@@ -200,18 +207,18 @@ scopes:
   slug: shootproof-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 38.0
+  band: developing
+  composite: 40.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 39.5
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 53.2
     developer_ergonomics: 31.0
@@ -226,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

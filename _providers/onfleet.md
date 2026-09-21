@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -131,7 +131,7 @@ arazzos:
 - description: Look up a recipient by phone, create one if missing, then create a task for them.
   name: Onfleet Upsert Recipient and Create Task
   slug: onfleet-upsert-recipient-and-create-task-workflow
-artifact_total: 88
+artifact_total: 89
 asyncapis:
 - description: Real-time event stream delivered as HTTPS POST callbacks from Onfleet to a URL you register via the Webhooks API. Each webhook is bound to a single triggerId; payloads share a common envelope with `ti
   name: Onfleet Webhooks
@@ -512,8 +512,11 @@ overview: 'Onfleet publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   Onfleet''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 45 more developer resources.'
 plans:
 - name: Onfleet Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: onfleet-plans-pricing
+- name: Onfleet Price Estimates
+  plan_count: 0
+  slug: onfleet-price-estimates
 random_paper: 1
 rate_limits:
 - limit_count: 0
@@ -556,9 +559,9 @@ score:
   band: strong
   composite: 61.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 81.5
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
@@ -580,7 +583,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

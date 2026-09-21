@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ arazzos:
 - description: Upload new function code, wait for the update to settle, smoke-test $LATEST, and publish an immutable version guarded by the code hash.
   name: AWS Lambda Ship New Code and Cut an Immutable Version
   slug: aws-lambda-update-code-publish-version-workflow
-artifact_total: 184
+artifact_total: 185
 asyncapis:
 - description: AWS Lambda integrates with other AWS services to invoke functions in response to events. Lambda functions can be triggered by event sources including Amazon S3, Amazon DynamoDB Streams, Amazon Kinesis
   name: AWS Lambda Event Triggers
@@ -197,6 +197,16 @@ collections:
   name: AWS Lambda Aliases Versions API
   slug: open-aws-lambda-versions-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/rate-limits/aws-lambda-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/aws-lambda-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/plans/aws-lambda-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/aws-lambda-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/capabilities/aws-lambda-capability-edges.yml
   title: ''
@@ -800,14 +810,17 @@ overview: 'AWS Lambda publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The AWS Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 43 more developer resources.'
+  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 45 more developer resources.'
 plans:
 - name: Aws Lambda Plans Pricing
-  plan_count: 7
+  plan_count: 14
   slug: aws-lambda-plans-pricing
+- name: Aws Lambda Price Estimates
+  plan_count: 0
+  slug: aws-lambda-price-estimates
 random_paper: 17
 rate_limits:
-- limit_count: 13
+- limit_count: 25
   name: Aws Lambda Rate Limits
   slug: aws-lambda-rate-limits
 rules:
@@ -844,23 +857,23 @@ rules:
     warn: 9
   slug: aws-lambda-spectral-rules
 score:
-  band: strong
-  composite: 61.1
+  band: exemplar
+  composite: 68.2
   coverage:
-    artifact_dirs: 31
-    catalog_earned: 66.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.5
+    artifact_dirs: 32
+    catalog_earned: 84.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 30.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.1
   facets:
-    access_clarity: 63.2
+    access_clarity: 86.8
     contract_governance: 33.3
     contract_quality: 82.0
     developer_ergonomics: 65.5
     discoverability: 68.5
-    operational_transparency: 55.3
+    operational_transparency: 78.9
   open_source:
     applies: true
     score: 40.0
@@ -875,8 +888,8 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

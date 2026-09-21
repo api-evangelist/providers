@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ apis:
   description: Webhooks provide a mechanism for a configured URL to receive events when transaction activity occurs on Up. You can think of webhooks as being like push notifications for your server-side application.
   name: Up Webhooks API
   slug: up-bank-webhooks-api
-artifact_total: 36
+artifact_total: 37
 asyncapis:
 - description: 'Event surface for the Up Personal Banking API. Once a webhook is registered (POST /webhooks), Up delivers JSON-encoded POST callbacks to the configured URL whenever transaction activity occurs on the '
   name: Up Personal Banking Webhooks
@@ -166,6 +166,11 @@ collections:
   name: CDR Banking Accounts Webhooks API
   slug: open-up-bank-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/plans/up-bank-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/up-bank-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/capabilities/up-bank-capability-edges.yml
   title: ''
@@ -355,7 +360,11 @@ overview: 'Up publishes 14 APIs on the [APIs.io](https://apis.io/) network, incl
   The Up catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 31 more developer resources.'
+  Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 32 more developer resources.'
+plans:
+- name: Up Bank Plans Pricing
+  plan_count: 6
+  slug: up-bank-plans-pricing
 random_paper: 4
 rate_limits:
 - limit_count: 0
@@ -367,18 +376,18 @@ scopes:
   slug: up-bank-scopes
   summary_line: 10 scopes
 score:
-  band: developing
-  composite: 49.3
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.6
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 60.9
     developer_ergonomics: 49.4
@@ -416,8 +425,8 @@ score:
     regime_id: banking_open_finance
     score: 88.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

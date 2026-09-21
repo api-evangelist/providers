@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 226
@@ -335,7 +335,7 @@ apis:
   description: Widgets Bundle
   name: ThingsBoard widgets-bundle-controller API
   slug: thingsboard-widgets-bundle-controller-api
-artifact_total: 232
+artifact_total: 233
 collections:
 - collection_type: postman
   name: ThingsBoard Admin admin-controller API
@@ -734,6 +734,10 @@ collections:
   name: ThingsBoard Admin admin-controller widgets-bundle-controller API
   slug: open-thingsboard-widgets-bundle-controller-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://thingsboard.io/pricing/
 - group: company
   title: ''
   type: Website
@@ -1013,11 +1017,14 @@ overview: 'ThingsBoard publishes 58 APIs on the [APIs.io](https://apis.io/) netw
   The ThingsBoard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ThingsBoard''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 39 more developer resources.'
+  ThingsBoard''s developer surface includes pricing, authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, and 40 more developer resources.'
 plans:
 - name: Thingsboard Plans Pricing
-  plan_count: 15
+  plan_count: 41
   slug: thingsboard-plans-pricing
+- name: Thingsboard Price Estimates
+  plan_count: 0
+  slug: thingsboard-price-estimates
 random_paper: 7
 rate_limits:
 - limit_count: 0
@@ -1049,9 +1056,9 @@ score:
   band: strong
   composite: 62.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 77.5
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
@@ -1072,7 +1079,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

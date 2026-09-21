@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -261,7 +261,7 @@ apis:
   description: Viewings endpoints for this API.
   name: Street.co.uk Viewings API
   slug: street-co-viewings-api
-artifact_total: 51
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Street Co Webhooks
@@ -277,6 +277,11 @@ collections:
   name: Spectre API
   slug: open-street-co-spectre-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/plans/street-co-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/street-co-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/capabilities/street-co-capability-edges.yml
   title: ''
@@ -493,7 +498,11 @@ overview: 'Street.co.uk publishes 43 APIs on the [APIs.io](https://apis.io/) net
   The Street.co.uk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Street.co.uk''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, engineering blog, pricing, and 36 more developer resources.'
+  Street.co.uk''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, engineering blog, pricing, and 37 more developer resources.'
+plans:
+- name: Street Co Plans Pricing
+  plan_count: 0
+  slug: street-co-plans-pricing
 random_paper: 16
 rate_limits:
 - limit_count: 3
@@ -503,7 +512,7 @@ score:
   band: developing
   composite: 54.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 49.0
     catalog_earned_first_party: 12.0
     catalog_gap: 66.0
@@ -537,7 +546,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

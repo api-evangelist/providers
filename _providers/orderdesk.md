@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: Store settings, folder structure, and connectivity test.
   name: Order Desk Store API
   slug: orderdesk-store-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -94,6 +94,10 @@ collections:
   name: Order Desk API
   slug: open-orderdesk
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.orderdesk.com/pricing/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/capabilities/orderdesk-capability-edges.yml
   title: ''
@@ -156,29 +160,32 @@ network: true
 overview: 'Order Desk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Inventory Items API, Order Items API, Orders API, and 2 more. Tagged areas include E-Commerce, Order Management, Fulfillment, Dropshipping, and Inventory.
 
 
-  Order Desk''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Order Desk''s developer surface includes pricing, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Orderdesk Plans Pricing
-  plan_count: 4
+  plan_count: 3
   slug: orderdesk-plans-pricing
+- name: Orderdesk Price Estimates
+  plan_count: 0
+  slug: orderdesk-price-estimates
 random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Orderdesk Rate Limits
   slug: orderdesk-rate-limits
 score:
-  band: thin
-  composite: 39.0
+  band: developing
+  composite: 41.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 39.5
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 59.6
     developer_ergonomics: 29.8
@@ -193,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

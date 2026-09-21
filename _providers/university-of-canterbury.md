@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 8
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the UC Research Repository, a self-hosted DSpace 7 institutional repository of theses, dissertations and research outputs. Verified live 2026-08-30: verb='
@@ -156,7 +156,7 @@ score:
   band: emerging
   composite: 24.1
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -187,7 +187,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

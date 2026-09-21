@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -396,7 +396,7 @@ apis:
   description: Vulnerability scanning operations
   name: Armor Vulnerability Scanning API
   slug: armor-vulnerability-scanning-api
-artifact_total: 146
+artifact_total: 148
 asyncapis:
 - description: ''
   name: Armor Webhooks Events
@@ -616,6 +616,11 @@ collections:
   name: Armor Compliance Vulnerability Scanning API
   slug: open-armor-vulnerability-scanning-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/armor/refs/heads/main/plans/armor-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/armor-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/armor/refs/heads/main/capabilities/armor-capability-edges.yml
   title: ''
@@ -768,7 +773,14 @@ overview: 'Armor publishes 70 APIs on the [APIs.io](https://apis.io/) network, i
   The Armor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Armor''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 23 more developer resources.'
+  Armor''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 24 more developer resources.'
+plans:
+- name: Armor Plans Pricing
+  plan_count: 4
+  slug: armor-plans-pricing
+- name: Armor Price Estimates
+  plan_count: 0
+  slug: armor-price-estimates
 random_paper: 17
 scopes:
 - name: Armor Scopes
@@ -776,18 +788,18 @@ scopes:
   slug: armor-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 51.1
+  band: strong
+  composite: 57.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 63.6
     developer_ergonomics: 54.2
@@ -810,8 +822,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 50.0

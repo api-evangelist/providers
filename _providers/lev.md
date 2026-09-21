@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -440,7 +440,7 @@ score:
   band: exemplar
   composite: 67.9
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -472,7 +472,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

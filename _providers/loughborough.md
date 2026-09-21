@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 7
 apis:
 - description: The REST API of Loughborough University Library's Koha integrated library system, served from the university's own koha.lboro.ac.uk host. The live description at /api/v1/ is a Swagger 2.0 document dec
@@ -174,7 +174,7 @@ score:
   band: thin
   composite: 27.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -206,7 +206,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
@@ -307,7 +307,7 @@ modified: '2026-08-11'
 name: imgauth — API di attestazione opere digitali
 nav: Providers
 network: true
-overview: 'imgauth — API di attestazione opere digitali publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 11 more. Tagged areas include digital notarization, Timestamping, proof-of-existence, content authenticity, and Provenance.
+overview: 'imgauth — API di attestazione opere digitali publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 11 more. Tagged areas include digital notarization, Timestamping, proof-of-existence, Content Authenticity, and Provenance.
 
 
   imgauth — API di attestazione opere digitali''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 31 more developer resources.'
@@ -349,7 +349,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ tags:
 - digital notarization
 - Timestamping
 - proof-of-existence
-- content authenticity
+- Content Authenticity
 - Provenance
 - Copyright
 - IP protection

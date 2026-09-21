@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -84,7 +84,7 @@ apis:
   description: Utility endpoints
   name: ZeroTier util API
   slug: zerotier-util-api
-artifact_total: 31
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Zerotier Webhooks
@@ -142,6 +142,11 @@ collections:
   name: ZeroTier Central controller util API
   slug: open-zerotier-util-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/plans/zerotier-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zerotier-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/capabilities/zerotier-capability-edges.yml
   title: ''
@@ -349,21 +354,28 @@ overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The ZeroTier catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 36 more developer resources.'
+  ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 37 more developer resources.'
+plans:
+- name: Zerotier Plans Pricing
+  plan_count: 5
+  slug: zerotier-plans-pricing
+- name: Zerotier Price Estimates
+  plan_count: 0
+  slug: zerotier-price-estimates
 random_paper: 4
 score:
   band: strong
-  composite: 56.9
+  composite: 63.3
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 53.9
+    access_clarity: 85.5
     contract_governance: 4.5
     contract_quality: 59.2
     developer_ergonomics: 74.4
@@ -381,8 +393,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

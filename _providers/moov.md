@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -134,7 +134,7 @@ apis:
   description: Underwriting details used to enable card acquiring and higher-risk activity.
   name: Moov Underwriting API
   slug: moov-underwriting-api
-artifact_total: 130
+artifact_total: 131
 asyncapis:
 - description: Moov delivers real-time event notifications to your application via webhooks when state changes occur on your platform. When an event occurs, Moov sends an HTTP POST request with a JSON payload to you
   name: Moov Webhooks
@@ -198,6 +198,10 @@ collections:
   name: Moov Accounts Wallets API
   slug: open-moov-wallets-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://moov.io/pricing/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/capabilities/moov-capability-edges.yml
   title: ''
@@ -539,11 +543,14 @@ overview: 'Moov publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
   The Moov catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Moov''s developer surface includes support, changelog, getting-started guide, authentication, developer portal, documentation, engineering blog, and 17 more developer resources.'
+  Moov''s developer surface includes pricing, support, changelog, getting-started guide, authentication, developer portal, documentation, and 18 more developer resources.'
 plans:
 - name: Moov Plans Pricing
-  plan_count: 7
+  plan_count: 29
   slug: moov-plans-pricing
+- name: Moov Price Estimates
+  plan_count: 0
+  slug: moov-price-estimates
 random_paper: 9
 rate_limits:
 - limit_count: 2
@@ -572,23 +579,23 @@ rules:
     warn: 4
   slug: moov-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 58.9
+  band: exemplar
+  composite: 67.8
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 62.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 52.5
+    artifact_dirs: 21
+    catalog_earned: 77.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.9
   facets:
-    access_clarity: 51.3
+    access_clarity: 85.5
     contract_governance: 13.6
     contract_quality: 79.3
     developer_ergonomics: 50.0
     discoverability: 66.7
-    operational_transparency: 52.6
+    operational_transparency: 68.4
   previous_composite: 58.9
   provenance:
     agentic_access: derived
@@ -605,8 +612,8 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 33.3

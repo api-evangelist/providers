@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: platform
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-09-19'
+  score: 31.0
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://www.comet.com/opik/api/v1
@@ -247,7 +247,7 @@ apis:
   description: Workspace related resources
   name: Comet Workspaces API
   slug: comet-workspaces-api
-artifact_total: 89
+artifact_total: 92
 collections:
 - collection_type: open
   name: API Collection
@@ -379,6 +379,16 @@ collections:
   name: Opik REST Workspaces API
   slug: open-comet-workspaces-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/comet/refs/heads/main/rate-limits/comet-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/comet-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/comet/refs/heads/main/plans/comet-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/comet-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -505,26 +515,37 @@ network: true
 overview: 'Comet publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Agent Configs API, Agent Insights API, Agent Insights Jobs API, and 39 more. Tagged areas include Company, Ai Enterprise Software, LLM Observability, LLMOps, and MLOps.
 
 
-  Comet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+  Comet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+plans:
+- name: Comet Plans Pricing
+  plan_count: 7
+  slug: comet-plans-pricing
+- name: Comet Price Estimates
+  plan_count: 0
+  slug: comet-price-estimates
 random_paper: 8
+rate_limits:
+- limit_count: 15
+  name: Comet Rate Limits
+  slug: comet-rate-limits
 score:
-  band: developing
-  composite: 51.5
+  band: strong
+  composite: 61.9
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 4.5
     contract_quality: 48.8
     developer_ergonomics: 73.2
     discoverability: 75.9
-    operational_transparency: 34.2
+    operational_transparency: 65.8
   previous_composite: 51.5
   provenance:
     conformance: derived
@@ -536,8 +557,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 33.3

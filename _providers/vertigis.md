@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: The VertiGIS Studio Reporting REST API generates reports and printed maps from spatial and non-spatial data. Jobs are submitted, polled, and their artifacts retrieved over HTTP; first-party JavaScript
@@ -179,7 +179,7 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

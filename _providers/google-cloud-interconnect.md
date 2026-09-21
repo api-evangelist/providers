@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -86,6 +86,11 @@ collections:
   name: Google Cloud Interconnect API
   slug: open-openapi
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/plans/google-cloud-interconnect-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-cloud-interconnect-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -187,10 +192,10 @@ overview: 'Google Cloud Interconnect publishes 3 APIs on the [APIs.io](https://a
   The Google Cloud Interconnect catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Interconnect''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 13 more developer resources.'
+  Google Cloud Interconnect''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 14 more developer resources.'
 plans:
 - name: Google Cloud Interconnect Plans Pricing
-  plan_count: 3
+  plan_count: 26
   slug: google-cloud-interconnect-plans-pricing
 random_paper: 2
 rate_limits:
@@ -215,17 +220,17 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.6
+  composite: 49.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 55.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    artifact_dirs: 16
+    catalog_earned: 64.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 47.4
+    access_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 58.5
     developer_ergonomics: 48.8
@@ -240,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -426,7 +426,7 @@ score:
   band: exemplar
   composite: 67.6
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 30
     catalog_earned: 60.5
     catalog_earned_first_party: 12.0
     catalog_gap: 54.5
@@ -451,7 +451,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -372,7 +372,7 @@ arazzos:
 - description: Create a work item, transition its state, and append a comment in one flow.
   name: Azure DevOps Create, Update, and Comment on a Work Item
   slug: microsoft-azure-devops-work-item-create-update-comment-workflow
-artifact_total: 250
+artifact_total: 251
 asyncapis:
 - description: AsyncAPI specification for Azure DevOps Service Hooks (webhooks and event subscriptions). Azure DevOps delivers event notifications via HTTP POST requests to subscriber endpoints when events occur suc
   name: Azure DevOps Service Hooks AsyncAPI
@@ -532,6 +532,16 @@ collections:
   name: Azure DevOps Artifacts Attachments Work Items API
   slug: open-microsoft-azure-devops-work-items-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/rate-limits/microsoft-azure-devops-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/microsoft-azure-devops-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/plans/microsoft-azure-devops-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-azure-devops-plans-pricing.yml
 - group: docs
   title: ''
   type: MCPDocumentation
@@ -1185,14 +1195,17 @@ overview: 'Azure DevOps publishes 35 APIs on the [APIs.io](https://apis.io/) net
   The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes API reference, authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 66 more developer resources.'
+  Azure DevOps'' developer surface includes API reference, authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 68 more developer resources.'
 plans:
 - name: Microsoft Azure Devops Plans Pricing
-  plan_count: 6
+  plan_count: 7
   slug: microsoft-azure-devops-plans-pricing
+- name: Microsoft Azure Devops Price Estimates
+  plan_count: 0
+  slug: microsoft-azure-devops-price-estimates
 random_paper: 14
 rate_limits:
-- limit_count: 3
+- limit_count: 4
   name: Microsoft Azure Devops Rate Limits
   slug: microsoft-azure-devops-rate-limits
 rules:
@@ -1235,22 +1248,22 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.3
+  composite: 74.4
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 58.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    artifact_dirs: 22
+    catalog_earned: 76.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.1
   facets:
-    access_clarity: 60.5
+    access_clarity: 84.2
     contract_governance: 28.8
     contract_quality: 77.3
     developer_ergonomics: 82.1
     discoverability: 66.7
-    operational_transparency: 52.6
+    operational_transparency: 76.3
   open_source:
     applies: true
     score: 75.0
@@ -1263,8 +1276,8 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 880
   human_in_the_loop: 1
@@ -161,6 +161,15 @@ collections:
   name: NetBox REST API
   slug: open-netbox
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://netboxlabs.com/pricing/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/plans/netbox-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/netbox-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -232,7 +241,7 @@ network: true
 overview: 'NetBox publishes 13 APIs on the [APIs.io](https://apis.io/) network, including authentication-check API, circuits API, core API, and 10 more. Tagged areas include Data-Center, DCIM, Infrastructure as Code, IPAM, and Network Automation.
 
 
-  NetBox''s developer surface includes authentication, engineering blog, getting-started guide, and 9 more developer resources.'
+  NetBox''s developer surface includes pricing, authentication, engineering blog, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Netbox Plans Pricing
   plan_count: 3
@@ -244,17 +253,17 @@ rate_limits:
   slug: netbox-rate-limits
 score:
   band: thin
-  composite: 30.8
+  composite: 37.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 13
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
-    access_clarity: 15.8
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 35.7
@@ -269,8 +278,8 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.quo.com
@@ -82,7 +82,7 @@ apis:
   description: Operations related to webhooks
   name: Quo Webhooks API
   slug: quo-webhooks-api
-artifact_total: 23
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Quo Webhooks
@@ -119,6 +119,11 @@ collections:
   name: Quo Public Calls Webhooks API
   slug: open-quo-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/plans/quo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/quo-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/capabilities/quo-capability-edges.yml
   title: ''
@@ -229,21 +234,25 @@ overview: 'Quo publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
   The Quo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Quo''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 14 more developer resources.'
+  Quo''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 15 more developer resources.'
+plans:
+- name: Quo Plans Pricing
+  plan_count: 2
+  slug: quo-plans-pricing
 random_paper: 11
 score:
-  band: developing
-  composite: 50.7
+  band: strong
+  composite: 55.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 36.8
+    access_clarity: 57.9
     contract_governance: 4.5
     contract_quality: 67.1
     developer_ergonomics: 56.5
@@ -272,7 +281,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

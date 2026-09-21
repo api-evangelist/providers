@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ apis:
   description: The webhooks API from Fixie — 2 operation(s) for webhooks.
   name: Fixie webhooks API
   slug: fixie-webhooks-api
-artifact_total: 34
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Fixie Webhooks
@@ -166,6 +166,11 @@ collections:
   name: Ultravox accounts webhooks API
   slug: open-fixie-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/plans/fixie-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/fixie-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/capabilities/fixie-capability-edges.yml
   title: ''
@@ -295,21 +300,28 @@ overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   The Fixie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fixie''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Fixie''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 20 more developer resources.'
+plans:
+- name: Fixie Plans Pricing
+  plan_count: 7
+  slug: fixie-plans-pricing
+- name: Fixie Price Estimates
+  plan_count: 0
+  slug: fixie-price-estimates
 random_paper: 5
 score:
-  band: developing
-  composite: 51.3
+  band: strong
+  composite: 57.6
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 58.6
     developer_ergonomics: 66.1
@@ -327,8 +339,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

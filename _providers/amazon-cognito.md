@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 5
@@ -675,7 +675,7 @@ apis:
   description: 'The #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.updateidentitypool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API'
   slug: amazon-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api
-artifact_total: 1780
+artifact_total: 1781
 collections:
 - collection_type: postman
   name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API'
@@ -1443,6 +1443,11 @@ collections:
   name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API'
   slug: open-amazon-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/plans/amazon-cognito-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-cognito-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/capabilities/amazon-cognito-capability-edges.yml
   title: ''
@@ -5741,11 +5746,14 @@ overview: 'Amazon Cognito publishes 126 APIs on the [APIs.io](https://apis.io/) 
   The Amazon Cognito catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Cognito''s developer surface includes authentication, documentation, pricing, signup flow, developer portal, developer console, support, and 17 more developer resources.'
+  Amazon Cognito''s developer surface includes authentication, documentation, pricing, signup flow, developer portal, developer console, support, and 18 more developer resources.'
 plans:
 - name: Amazon Cognito Plans Pricing
-  plan_count: 1
+  plan_count: 8
   slug: amazon-cognito-plans-pricing
+- name: Amazon Cognito Price Estimates
+  plan_count: 0
+  slug: amazon-cognito-price-estimates
 random_paper: 16
 rate_limits:
 - limit_count: 2
@@ -5775,17 +5783,17 @@ rules:
   slug: amazon-cognito-spectral-rules
 score:
   band: strong
-  composite: 63.9
+  composite: 66.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 83.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 31.5
+    artifact_dirs: 20
+    catalog_earned: 87.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 27.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 75.0
+    access_clarity: 85.5
     contract_governance: 28.8
     contract_quality: 75.3
     developer_ergonomics: 65.5
@@ -5800,7 +5808,7 @@ score:
       marker_coverage: 0.0
       total: 126
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

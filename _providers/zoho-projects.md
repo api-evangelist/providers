@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: REST API for Zoho Projects that enables developers to programmatically manage projects, tasks, milestones, bugs, time logs, documents, forums, and user collaboration. Supports OAuth 2.0 authentication
@@ -143,7 +143,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 32.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

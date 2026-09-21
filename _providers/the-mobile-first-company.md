@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 52.9
-  scored_at: '2026-09-19'
+  score: 55.4
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.withallo.com
@@ -101,7 +101,7 @@ apis:
   description: Manage webhook endpoints to receive real-time notifications about events in your Allo account. Each endpoint subscribes to one or more event topics and is verified with a signing secret.
   name: The Mobile First Company Webhooks API
   slug: the-mobile-first-company-webhooks-api
-artifact_total: 33
+artifact_total: 36
 asyncapis:
 - description: ''
   name: The Mobile First Company Webhooks
@@ -150,6 +150,16 @@ collections:
   name: Allo Analytics Webhooks API
   slug: open-the-mobile-first-company-webhooks-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/rate-limits/the-mobile-first-company-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/the-mobile-first-company-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/plans/the-mobile-first-company-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/the-mobile-first-company-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/capabilities/the-mobile-first-company-capability-edges.yml
   title: ''
@@ -313,8 +323,19 @@ overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://a
   The The Mobile First Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 24 more developer resources.'
+  The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 26 more developer resources.'
+plans:
+- name: The Mobile First Company Plans Pricing
+  plan_count: 10
+  slug: the-mobile-first-company-plans-pricing
+- name: The Mobile First Company Price Estimates
+  plan_count: 0
+  slug: the-mobile-first-company-price-estimates
 random_paper: 1
+rate_limits:
+- limit_count: 2
+  name: The Mobile First Company Rate Limits
+  slug: the-mobile-first-company-rate-limits
 scopes:
 - name: The Mobile First Company Scopes
   scope_count: 0
@@ -322,22 +343,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.3
+  composite: 66.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 18.2
     contract_quality: 68.5
     developer_ergonomics: 58.9
     discoverability: 75.9
-    operational_transparency: 39.5
+    operational_transparency: 60.5
   previous_composite: 57.3
   provenance:
     conformance: first-party
@@ -355,8 +376,8 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

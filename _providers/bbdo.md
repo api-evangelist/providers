@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: bbdo.com runs on WordPress (WP Engine, fronted by Cloudflare) and leaves the WordPress REST API open for anonymous reads. The route discovery document at https://bbdo.com/wp-json/ enumerates 10 namesp
@@ -298,7 +298,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -511,7 +511,7 @@ arazzos:
 - description: Create a webinar, add a scheduled session to it, register an attendee, and read the registrant back for their join link.
   name: RingCentral Create a Webinar, Schedule a Session, and Register an Attendee
   slug: ringcentral-webinar-registration-workflow
-artifact_total: 264
+artifact_total: 265
 asyncapis:
 - description: AsyncAPI 2.6 description of the asynchronous event surface exposed by the RingCentral Subscription API. RingCentral delivers events from the RingCentral platform to subscribers via two documented tran
   name: RingCentral Subscriptions and Event Notifications
@@ -1262,8 +1262,11 @@ overview: 'RingCentral publishes 79 APIs on the [APIs.io](https://apis.io/) netw
   RingCentral''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, pricing, and 51 more developer resources.'
 plans:
 - name: Ringcentral Plans Pricing
-  plan_count: 5
+  plan_count: 4
   slug: ringcentral-plans-pricing
+- name: Ringcentral Price Estimates
+  plan_count: 0
+  slug: ringcentral-price-estimates
 random_paper: 11
 rate_limits:
 - limit_count: 4
@@ -1288,22 +1291,22 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.3
+  composite: 64.1
   coverage:
-    artifact_dirs: 30
-    catalog_earned: 37.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 77.5
+    artifact_dirs: 31
+    catalog_earned: 55.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.8
   facets:
-    access_clarity: 40.8
+    access_clarity: 64.5
     contract_governance: 18.2
     contract_quality: 62.6
     developer_ergonomics: 67.9
     discoverability: 44.4
-    operational_transparency: 50.0
+    operational_transparency: 73.7
   previous_composite: 56.3
   provenance:
     agentic_access: derived
@@ -1321,8 +1324,8 @@ score:
     regime_id: telecommunications
     score: 54.2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

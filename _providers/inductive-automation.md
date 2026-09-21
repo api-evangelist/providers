@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -482,7 +482,7 @@ apis:
   description: Vision module client sessions
   name: Inductive Automation vision-sessions API
   slug: inductive-automation-vision-sessions-api
-artifact_total: 192
+artifact_total: 194
 collections:
 - collection_type: open
   name: API Collection
@@ -749,6 +749,11 @@ collections:
   name: Ignition Gateway REST access-control vision-sessions API
   slug: open-inductive-automation-vision-sessions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/plans/inductive-automation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/inductive-automation-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/capabilities/inductive-automation-capability-edges.yml
   title: ''
@@ -869,7 +874,14 @@ overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.
   The Inductive Automation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 10 more developer resources.'
+  Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 11 more developer resources.'
+plans:
+- name: Inductive Automation Plans Pricing
+  plan_count: 4
+  slug: inductive-automation-plans-pricing
+- name: Inductive Automation Price Estimates
+  plan_count: 0
+  slug: inductive-automation-price-estimates
 random_paper: 15
 rules:
 - effective_rule_count: 5
@@ -893,18 +905,18 @@ rules:
     warn: 5
   slug: inductive-automation-rules
 score:
-  band: thin
-  composite: 35.4
+  band: developing
+  composite: 41.7
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 48.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 66.8
+    artifact_dirs: 16
+    catalog_earned: 60.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 18.4
+    access_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 63.4
     developer_ergonomics: 38.1
@@ -919,8 +931,8 @@ score:
       marker_coverage: 0.0
       total: 87
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

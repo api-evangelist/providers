@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -393,7 +393,7 @@ apis:
   description: Workflows
   name: Visa Workflows API
   slug: visa-workflows-api
-artifact_total: 178
+artifact_total: 179
 collections:
 - collection_type: open
   name: API Collection
@@ -606,6 +606,15 @@ collections:
   name: Foreign Exchange Rates Workflows API
   slug: open-visa-workflows-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://rapidapi.com/hakr/api/visa-list/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/plans/visa-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/visa-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/capabilities/visa-capability-edges.yml
   title: ''
@@ -757,11 +766,14 @@ overview: 'Visa publishes 54 APIs on the [APIs.io](https://apis.io/) network, in
   The Visa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Visa''s developer surface includes authentication, getting-started guide, support, and 15 more developer resources.'
+  Visa''s developer surface includes pricing, authentication, getting-started guide, support, and 16 more developer resources.'
 plans:
 - name: Visa Plans Pricing
-  plan_count: 1
+  plan_count: 4
   slug: visa-plans-pricing
+- name: Visa Price Estimates
+  plan_count: 0
+  slug: visa-price-estimates
 press:
 - date: ''
   title: Visa launches new AI tools to manage the charge dispute ...
@@ -807,17 +819,17 @@ rules:
   slug: visa-rules
 score:
   band: developing
-  composite: 40.9
+  composite: 48.2
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 53.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    artifact_dirs: 20
+    catalog_earned: 63.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.3
   facets:
-    access_clarity: 23.7
+    access_clarity: 60.5
     contract_governance: 28.8
     contract_quality: 63.6
     developer_ergonomics: 47.6
@@ -838,8 +850,8 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

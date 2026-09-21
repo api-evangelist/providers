@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -150,7 +150,7 @@ apis:
   description: API for managing webhook callback subscriptions
   name: Credentially Subscriptions API
   slug: credentially-subscriptions-api
-artifact_total: 48
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Credentially Webhooks
@@ -223,6 +223,11 @@ collections:
   name: Credentially Public Compliance-packages Subscriptions API
   slug: open-credentially-subscriptions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/plans/credentially-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/credentially-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/capabilities/credentially-capability-edges.yml
   title: ''
@@ -377,13 +382,17 @@ overview: 'Credentially publishes 21 APIs on the [APIs.io](https://apis.io/) net
   The Credentially catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+plans:
+- name: Credentially Plans Pricing
+  plan_count: 0
+  slug: credentially-plans-pricing
 random_paper: 4
 score:
   band: strong
   composite: 55.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -419,7 +428,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ apis:
   description: The Wake Up API from Seekr — 1 operation(s) for wake up.
   name: Seekr Wake Up API
   slug: seekr-wake-up-api
-artifact_total: 75
+artifact_total: 77
 collections:
 - collection_type: open
   name: API Collection
@@ -325,6 +325,11 @@ collections:
   name: SeekrFlow Wake Up API
   slug: open-seekr-wake-up-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/plans/seekr-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/seekr-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/capabilities/seekr-capability-edges.yml
   title: ''
@@ -531,21 +536,28 @@ network: true
 overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents v1 - legacy API, Alignment API, and 31 more. Tagged areas include Artificial Intelligence, Generative AI, Agents, LLM, and Fine-Tuning.
 
 
-  Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+  Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+plans:
+- name: Seekr Plans Pricing
+  plan_count: 19
+  slug: seekr-plans-pricing
+- name: Seekr Price Estimates
+  plan_count: 0
+  slug: seekr-price-estimates
 random_paper: 10
 score:
-  band: strong
-  composite: 61.3
+  band: exemplar
+  composite: 67.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 23
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 53.8
     developer_ergonomics: 71.4
@@ -573,8 +585,8 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

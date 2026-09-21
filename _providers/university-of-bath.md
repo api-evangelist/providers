@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 5
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the University of Bath Research Data Archive, an EPrints 3.4.7 repository the University runs on its own infrastructure (researchdata.bath.ac.uk resolves '
@@ -173,7 +173,7 @@ score:
   band: emerging
   composite: 24.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 59.0
     catalog_earned_first_party: 0.0
     catalog_gap: 56.0
@@ -205,7 +205,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

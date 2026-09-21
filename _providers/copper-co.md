@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 5
 apis:
 - baseURL: https://api.copper.co/platform
@@ -378,7 +378,7 @@ score:
   band: strong
   composite: 57.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -415,7 +415,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

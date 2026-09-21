@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
   description: Procurement - purchase orders and vendors.
   name: EZRentOut Purchase Orders API
   slug: ezrentout-purchase-orders-api
-artifact_total: 31
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -141,6 +141,10 @@ collections:
   name: EZRentOut API
   slug: open-ezrentout
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://ezo.io/ezrentout/pricing/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/capabilities/ezrentout-capability-edges.yml
   title: ''
@@ -212,34 +216,37 @@ network: true
 overview: 'EZRentOut publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Availability API, Bundles API, and 8 more. Tagged areas include Equipment Rental, Rental Management, Asset Tracking, Inventory, and Order Management.
 
 
-  EZRentOut''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  EZRentOut''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Ezrentout Plans Pricing
-  plan_count: 5
+  plan_count: 3
   slug: ezrentout-plans-pricing
+- name: Ezrentout Price Estimates
+  plan_count: 0
+  slug: ezrentout-price-estimates
 random_paper: 18
 rate_limits:
-- limit_count: 3
+- limit_count: 1
   name: Ezrentout Rate Limits
   slug: ezrentout-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 39.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    artifact_dirs: 12
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
-    access_clarity: 47.4
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 32.1
     discoverability: 68.5
-    operational_transparency: 31.6
+    operational_transparency: 21.1
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -249,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

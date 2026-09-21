@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -96,7 +96,7 @@ apis:
   description: This API allows your customers to make payments using PayID on your website, mobile app or over the counter.
   name: Azupay Payment Request API
   slug: azupay-payment-request-api
-artifact_total: 21
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Azupay Webhooks
@@ -121,6 +121,11 @@ collections:
   name: Azupay Reports & Balance API
   slug: open-azupay-reports
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/plans/azupay-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/azupay-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/capabilities/azupay-capability-edges.yml
   title: ''
@@ -320,7 +325,11 @@ overview: 'Azupay publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Azupay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 33 more developer resources.'
+  Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 34 more developer resources.'
+plans:
+- name: Azupay Plans Pricing
+  plan_count: 3
+  slug: azupay-plans-pricing
 random_paper: 6
 scopes:
 - name: Azupay Scopes
@@ -328,18 +337,18 @@ scopes:
   slug: azupay-scopes
   summary_line: 1 scope
 score:
-  band: developing
-  composite: 53.3
+  band: strong
+  composite: 59.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 62.2
     developer_ergonomics: 53.0
@@ -370,8 +379,8 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 33.3

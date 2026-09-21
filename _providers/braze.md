@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://rest.iad-01.braze.com
@@ -529,7 +529,7 @@ score:
   band: exemplar
   composite: 81.0
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 29
     catalog_earned: 64.0
     catalog_earned_first_party: 24.0
     catalog_gap: 51.0
@@ -560,7 +560,7 @@ score:
     regime_id: telecommunications
     score: 80.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

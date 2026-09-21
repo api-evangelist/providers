@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 348
   human_in_the_loop: 16
@@ -459,7 +459,7 @@ apis:
   description: The Oauth2 API from Reclaim.ai — 1 operation(s) for oauth2.
   name: Reclaim.ai Oauth2 API
   slug: reclaim-ai-oauth2-api
-artifact_total: 199
+artifact_total: 200
 collections:
 - collection_type: open
   name: API Collection
@@ -887,11 +887,14 @@ overview: 'Reclaim.ai publishes 83 APIs on the [APIs.io](https://apis.io/) netwo
   Reclaim.ai''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Reclaim Ai Plans Pricing
-  plan_count: 4
+  plan_count: 9
   slug: reclaim-ai-plans-pricing
+- name: Reclaim Ai Price Estimates
+  plan_count: 0
+  slug: reclaim-ai-price-estimates
 random_paper: 12
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Reclaim Ai Rate Limits
   slug: reclaim-ai-rate-limits
 rules:
@@ -912,22 +915,22 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 43.5
+  composite: 40.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 71.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 43.8
+    artifact_dirs: 18
+    catalog_earned: 63.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 57.9
     contract_governance: 9.8
     contract_quality: 48.7
     developer_ergonomics: 23.8
     discoverability: 63.0
-    operational_transparency: 42.1
+    operational_transparency: 21.1
   previous_composite: 43.5
   provenance:
     agentic_access: derived
@@ -937,7 +940,7 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

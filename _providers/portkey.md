@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 1
@@ -300,7 +300,7 @@ apis:
   description: Create and manage workspace members.
   name: Portkey Workspaces > Members API
   slug: portkey-workspaces-members-api
-artifact_total: 110
+artifact_total: 111
 collections:
 - collection_type: open
   name: API Collection
@@ -462,6 +462,20 @@ collections:
   name: Portkey API
   slug: open-portkey
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/rate-limits/portkey-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/portkey-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://portkey.ai/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/plans/portkey-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/portkey-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/capabilities/portkey-capability-edges.yml
   title: ''
@@ -605,34 +619,37 @@ network: true
 overview: 'Portkey publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Analytics > Graphs API, Analytics > Groups API, Analytics > Summary API, and 48 more. Tagged areas include AI Gateway, Gateways, Governance, Guardrails, and Observability.
 
 
-  Portkey''s developer surface includes authentication, documentation, changelog, engineering blog, pricing, getting-started guide, API reference, and 24 more developer resources.'
+  Portkey''s developer surface includes pricing, authentication, documentation, changelog, engineering blog, getting-started guide, API reference, and 27 more developer resources.'
 plans:
 - name: Portkey Plans Pricing
   plan_count: 4
   slug: portkey-plans-pricing
+- name: Portkey Price Estimates
+  plan_count: 0
+  slug: portkey-price-estimates
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 11
   name: Portkey Rate Limits
   slug: portkey-rate-limits
 score:
-  band: developing
-  composite: 50.3
+  band: strong
+  composite: 58.1
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 38.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    artifact_dirs: 12
+    catalog_earned: 56.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 55.8
     developer_ergonomics: 61.9
     discoverability: 53.7
-    operational_transparency: 55.3
+    operational_transparency: 78.9
   previous_composite: 50.3
   provenance:
     agentic_access: derived
@@ -642,8 +659,8 @@ score:
       marker_coverage: 0.0
       total: 51
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

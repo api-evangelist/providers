@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -523,6 +523,11 @@ collections:
   name: Microsoft Purview Account Accounts Workflows API
   slug: open-microsoft-purview-workflows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/plans/microsoft-purview-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/microsoft-purview-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/capabilities/microsoft-purview-capability-edges.yml
   title: ''
@@ -1280,10 +1285,10 @@ overview: 'Microsoft Purview publishes 44 APIs on the [APIs.io](https://apis.io/
   The Microsoft Purview catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Purview''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, engineering blog, and 59 more developer resources.'
+  Microsoft Purview''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, engineering blog, and 60 more developer resources.'
 plans:
 - name: Microsoft Purview Plans Pricing
-  plan_count: 4
+  plan_count: 10
   slug: microsoft-purview-plans-pricing
 random_paper: 9
 rate_limits:
@@ -1308,17 +1313,17 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.2
+  composite: 64.9
   coverage:
-    artifact_dirs: 32
-    catalog_earned: 52.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    artifact_dirs: 33
+    catalog_earned: 61.3
+    catalog_earned_first_party: 12.0
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 47.4
+    access_clarity: 71.1
     contract_governance: 14.4
     contract_quality: 69.2
     developer_ergonomics: 72.6
@@ -1335,7 +1340,7 @@ score:
       total: 44
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

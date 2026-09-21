@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 2
 apis:
 - description: Nittei is MeetsMore's self-hosted calendar and scheduler server, written in Rust (Axum + SQLx + PostgreSQL) and published under the MIT licence. It exposes a multi-tenant REST API under /api/v1 coveri
@@ -226,7 +226,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

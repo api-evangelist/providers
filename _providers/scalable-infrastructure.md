@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -55,7 +55,7 @@ apis:
   description: The EC2 API from Scalable Infrastructure — 1 operation(s) for ec2.
   name: Scalable Infrastructure EC2 API
   slug: scalable-infrastructure-ec2-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -67,6 +67,16 @@ collections:
   name: Amazon EC2 API
   slug: open-scalable-infrastructure
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scalable-infrastructure/refs/heads/main/rate-limits/scalable-infrastructure-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/scalable-infrastructure-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scalable-infrastructure/refs/heads/main/plans/scalable-infrastructure-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scalable-infrastructure-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/scalable-infrastructure/refs/heads/main/capabilities/scalable-infrastructure-capability-edges.yml
   title: ''
@@ -154,14 +164,17 @@ overview: 'Scalable Infrastructure publishes 1 API on the [APIs.io](https://apis
   The Scalable Infrastructure catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Scalable Infrastructure''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  Scalable Infrastructure''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Scalable Infrastructure Plans Pricing
-  plan_count: 3
+  plan_count: 11
   slug: scalable-infrastructure-plans-pricing
+- name: Scalable Infrastructure Price Estimates
+  plan_count: 0
+  slug: scalable-infrastructure-price-estimates
 random_paper: 7
 rate_limits:
-- limit_count: 5
+- limit_count: 10
   name: Scalable Infrastructure Rate Limits
   slug: scalable-infrastructure-rate-limits
 rules:
@@ -177,22 +190,22 @@ rules:
   slug: scalable-infrastructure-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.4
+  composite: 48.3
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 52.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 62.8
+    artifact_dirs: 16
+    catalog_earned: 70.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 26.3
+    access_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 58.5
     developer_ergonomics: 59.5
     discoverability: 50.0
-    operational_transparency: 10.5
+    operational_transparency: 34.2
   previous_composite: 40.4
   provenance:
     agentic_access: derived
@@ -202,8 +215,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

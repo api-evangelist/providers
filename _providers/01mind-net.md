@@ -1,11 +1,10 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
-    agent_skills: true
-    agentic_access: true
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -23,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 43.4
-  scored_at: '2026-09-19'
+  score: 35.3
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -177,7 +176,7 @@ modified: '2026-09-19'
 name: 01Mind
 nav: Providers
 network: true
-overview: '01Mind publishes 1 API on the [APIs.io](https://apis.io/) network: Agent Superstore API. Tagged areas include Agents, Agent Commerce, A2A, MCP, and x402.
+overview: '01Mind publishes 1 API on the [APIs.io](https://apis.io/) network: Agent Superstore API. Tagged areas include Agents, Agentic Commerce, A2A, MCP, and x402.
 
 
   01Mind''s developer surface includes documentation, pricing, support, authentication, sandbox, and 20 more developer resources.'
@@ -192,27 +191,46 @@ rate_limits:
   slug: 01mind-net-rate-limits
 score:
   band: developing
-  composite: 44.8
+  composite: 43.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 58.0
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 20.0
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.0
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 42.5
-    developer_ergonomics: 47.6
+    contract_quality: 45.9
+    developer_ergonomics: 42.3
     discoverability: 70.4
     operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - australia
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
+  previous_composite: 44.8
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: 01Mind Net Authentication
@@ -225,7 +243,7 @@ security:
 slug: 01mind-net
 tags:
 - Agents
-- Agent Commerce
+- Agentic Commerce
 - A2A
 - MCP
 - x402

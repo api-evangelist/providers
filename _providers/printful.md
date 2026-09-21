@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -84,7 +84,7 @@ apis:
   description: Configure webhook endpoints and per-event subscriptions.
   name: Printful Webhooks API
   slug: printful-webhooks-api
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -117,6 +117,10 @@ collections:
   name: Printful API
   slug: open-printful
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.printful.com/pricing
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/capabilities/printful-capability-edges.yml
   title: ''
@@ -192,34 +196,37 @@ network: true
 overview: 'Printful publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Files API, Mockup Generator API, and 5 more. Tagged areas include Print on Demand, Fulfillment, E-Commerce, Dropshipping, and Merchandise.
 
 
-  Printful''s developer surface includes authentication, engineering blog, documentation, and 10 more developer resources.'
+  Printful''s developer surface includes pricing, authentication, engineering blog, documentation, and 10 more developer resources.'
 plans:
 - name: Printful Plans Pricing
-  plan_count: 2
+  plan_count: 3
   slug: printful-plans-pricing
+- name: Printful Price Estimates
+  plan_count: 0
+  slug: printful-price-estimates
 random_paper: 4
 rate_limits:
-- limit_count: 2
+- limit_count: 3
   name: Printful Rate Limits
   slug: printful-rate-limits
 score:
-  band: thin
-  composite: 37.0
+  band: developing
+  composite: 42.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 56.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    artifact_dirs: 12
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 32.1
     discoverability: 68.5
-    operational_transparency: 23.7
+    operational_transparency: 34.2
   previous_composite: 37.0
   provenance:
     agentic_access: derived
@@ -229,8 +236,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

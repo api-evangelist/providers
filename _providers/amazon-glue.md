@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 202
   human_in_the_loop: 9
@@ -2276,6 +2276,11 @@ collections:
   name: AWS Glue
   slug: open-amazon-glue
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/plans/amazon-glue-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-glue-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -6689,10 +6694,10 @@ overview: 'Amazon Glue publishes 202 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Glue catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Glue''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Glue''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Glue Plans Pricing
-  plan_count: 3
+  plan_count: 10
   slug: amazon-glue-plans-pricing
 random_paper: 20
 rate_limits:
@@ -6723,17 +6728,17 @@ rules:
   slug: amazon-glue-spectral-rules
 score:
   band: strong
-  composite: 56.2
+  composite: 61.0
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 63.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    artifact_dirs: 19
+    catalog_earned: 72.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.8
   facets:
-    access_clarity: 68.4
+    access_clarity: 92.1
     contract_governance: 28.8
     contract_quality: 68.0
     developer_ergonomics: 65.5
@@ -6748,7 +6753,7 @@ score:
       marker_coverage: 0.0
       total: 202
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

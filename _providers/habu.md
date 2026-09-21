@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.habu.com/v1/
@@ -411,7 +411,7 @@ score:
   band: developing
   composite: 45.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 36.0
     catalog_earned_first_party: 12.0
     catalog_gap: 79.0
@@ -441,7 +441,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

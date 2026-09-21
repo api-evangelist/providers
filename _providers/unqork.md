@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -133,7 +133,7 @@ apis:
   description: The Workflow API from Unqork — 10 operation(s) for workflow.
   name: Unqork Workflow API
   slug: unqork-workflow-api
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Unqork Webhooks
@@ -143,6 +143,11 @@ collections:
   name: Unqork Customer API
   slug: open-unqork-customer-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/plans/unqork-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/unqork-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/capabilities/unqork-capability-edges.yml
   title: ''
@@ -304,7 +309,11 @@ overview: 'Unqork publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
   The Unqork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
+  Unqork''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 27 more developer resources.'
+plans:
+- name: Unqork Plans Pricing
+  plan_count: 0
+  slug: unqork-plans-pricing
 random_paper: 12
 rate_limits:
 - limit_count: 2
@@ -319,7 +328,7 @@ score:
   band: strong
   composite: 54.4
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 27
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -351,7 +360,7 @@ score:
     regime_id: insurance
     score: 68.2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

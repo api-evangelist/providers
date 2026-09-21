@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -413,7 +413,7 @@ apis:
   description: A Virtual Private Cloud (VPC) allows you to group your regional Private Networks together. Note that a Private Network can be a part of only one VPC.
   name: Scaleway VP Cs API
   slug: scaleway-vpcs-api
-artifact_total: 589
+artifact_total: 590
 collections:
 - collection_type: postman
   name: Managed Database for PostgreSQL and MySQL Access Control List API
@@ -887,6 +887,16 @@ collections:
   name: Managed Database for PostgreSQL and MySQL Access Control List Webhooks API
   slug: open-scaleway-webhooks-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/rate-limits/scaleway-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/scaleway-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/plans/scaleway-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/scaleway-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -2072,14 +2082,17 @@ overview: 'Scaleway publishes 73 APIs on the [APIs.io](https://apis.io/) network
   The Scaleway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scaleway''s developer surface includes authentication, developer portal, documentation, API reference, GitHub presence, CLI, pricing, and 21 more developer resources.'
+  Scaleway''s developer surface includes authentication, developer portal, documentation, API reference, GitHub presence, CLI, pricing, and 23 more developer resources.'
 plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
   slug: scaleway-plans-pricing
+- name: Scaleway Price Estimates
+  plan_count: 0
+  slug: scaleway-price-estimates
 random_paper: 21
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Scaleway Rate Limits
   slug: scaleway-rate-limits
 rules:
@@ -2105,22 +2118,22 @@ rules:
   slug: scaleway-rules
 score:
   band: developing
-  composite: 49.3
+  composite: 51.8
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 55.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.8
+    artifact_dirs: 19
+    catalog_earned: 59.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 55.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
-    access_clarity: 31.6
+    access_clarity: 47.4
     contract_governance: 25.0
     contract_quality: 60.6
     developer_ergonomics: 81.0
     discoverability: 59.3
-    operational_transparency: 26.3
+    operational_transparency: 21.1
   previous_composite: 49.3
   provenance:
     agentic_access: derived
@@ -2130,7 +2143,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

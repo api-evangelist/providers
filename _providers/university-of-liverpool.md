@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 14
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for the University of Liverpool Repository, an EPrints 3.4.5 open-access archive of research outputs (journal articles, conference papers, theses, reports and
@@ -272,7 +272,7 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

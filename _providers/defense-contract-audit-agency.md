@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 2
 apis:
 - description: The public JSON backend of DCAA's Field Audit Office Branch Locator. It resolves the DCAA field audit office cognizant over a contractor from a CAGE code (searchType 0), a SAM.gov Unique Entity Identi
@@ -186,7 +186,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

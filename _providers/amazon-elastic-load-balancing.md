@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,6 +131,11 @@ collections:
   name: Amazon Elastic Load Balancing v2 API
   slug: open-amazon-elastic-load-balancing
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/plans/amazon-elastic-load-balancing-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-elastic-load-balancing-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -491,10 +496,10 @@ overview: 'Amazon Elastic Load Balancing publishes 5 APIs on the [APIs.io](https
   The Amazon Elastic Load Balancing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Elastic Load Balancing''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 33 more developer resources.'
+  Amazon Elastic Load Balancing''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 34 more developer resources.'
 plans:
 - name: Amazon Elastic Load Balancing Plans Pricing
-  plan_count: 3
+  plan_count: 9
   slug: amazon-elastic-load-balancing-plans-pricing
 random_paper: 5
 rate_limits:
@@ -525,17 +530,17 @@ rules:
   slug: amazon-elastic-load-balancing-spectral-rules
 score:
   band: strong
-  composite: 60.2
+  composite: 65.0
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 70.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 44.5
+    artifact_dirs: 20
+    catalog_earned: 79.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.8
   facets:
-    access_clarity: 69.7
+    access_clarity: 93.4
     contract_governance: 28.8
     contract_quality: 69.4
     developer_ergonomics: 65.5
@@ -550,7 +555,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

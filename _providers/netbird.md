@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 1
@@ -240,7 +240,7 @@ apis:
   description: Interact with and view information about users.
   name: NetBird Users API
   slug: netbird-users-api
-artifact_total: 86
+artifact_total: 87
 collections:
 - collection_type: open
   name: API Collection
@@ -366,6 +366,15 @@ collections:
   name: NetBird REST API
   slug: open-netbird
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://netbird.io/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/netbird/refs/heads/main/plans/netbird-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/netbird-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/netbird/refs/heads/main/capabilities/netbird-capability-edges.yml
   title: ''
@@ -429,29 +438,32 @@ network: true
 overview: 'NetBird publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AWS Marketplace API, Checkout API, and 36 more. Tagged areas include Networking, VPN, Zero Trust, Open-Source, and WireGuard.
 
 
-  NetBird''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 7 more developer resources.'
+  NetBird''s developer surface includes pricing, authentication, documentation, GitHub presence, engineering blog, and 8 more developer resources.'
 plans:
 - name: Netbird Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: netbird-plans-pricing
+- name: Netbird Price Estimates
+  plan_count: 0
+  slug: netbird-price-estimates
 random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Netbird Rate Limits
   slug: netbird-rate-limits
 score:
-  band: thin
-  composite: 32.7
+  band: developing
+  composite: 39.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 13
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
-    access_clarity: 15.8
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 58.8
     developer_ergonomics: 31.0
@@ -466,8 +478,8 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

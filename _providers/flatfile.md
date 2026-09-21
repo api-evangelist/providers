@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -310,6 +310,11 @@ collections:
   name: API Reference subpackage_accounts subpackage_workbooks API
   slug: open-flatfile-subpackage-workbooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/plans/flatfile-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/flatfile-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/capabilities/flatfile-capability-edges.yml
   title: ''
@@ -402,10 +407,10 @@ network: true
 overview: 'Flatfile publishes 32 APIs on the [APIs.io](https://apis.io/) network, including subpackage_accounts API, subpackage_actions API, subpackage_agent-exports API, and 29 more. Tagged areas include Data Exchange, Data Ingestion, Data Onboarding, Data Validation, and ETL.
 
 
-  Flatfile''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 10 more developer resources.'
+  Flatfile''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Flatfile Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: flatfile-plans-pricing
 random_paper: 3
 rate_limits:
@@ -414,17 +419,17 @@ rate_limits:
   slug: flatfile-rate-limits
 score:
   band: developing
-  composite: 43.0
+  composite: 45.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 12
+    catalog_earned: 51.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
-    access_clarity: 47.4
+    access_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 55.3
     developer_ergonomics: 50.0
@@ -439,7 +444,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

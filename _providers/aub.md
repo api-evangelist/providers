@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 11
 apis:
 - description: Anonymous HAL/JSON REST API for AUB ScholarWorks, AUB's institutional repository, running DSpace 9.1 on AUB's own host. The service root self-describes as dspaceName "AUB ScholarWorks", dspaceServer h
@@ -210,7 +210,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

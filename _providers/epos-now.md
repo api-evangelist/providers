@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
   description: Sales records (orders) captured at the point of sale.
   name: Epos Now Transactions API
   slug: epos-now-transactions-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -101,6 +101,10 @@ collections:
   name: EposNow HQ REST API
   slug: open-epos-now
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.eposnow.com/us/pricing/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/capabilities/epos-now-capability-edges.yml
   title: ''
@@ -158,11 +162,14 @@ network: true
 overview: 'Epos Now publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Devices API, and 3 more. Tagged areas include Point-of-Sale, Retail, Hospitality, Payments, and Inventory.
 
 
-  Epos Now''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Epos Now''s developer surface includes pricing, authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Epos Now Plans Pricing
   plan_count: 4
   slug: epos-now-plans-pricing
+- name: Epos Now Price Estimates
+  plan_count: 0
+  slug: epos-now-price-estimates
 random_paper: 10
 rate_limits:
 - limit_count: 3
@@ -170,17 +177,17 @@ rate_limits:
   slug: epos-now-rate-limits
 score:
   band: thin
-  composite: 34.8
+  composite: 36.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 64.0
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 39.5
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 56.5
     developer_ergonomics: 29.8
@@ -201,7 +208,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

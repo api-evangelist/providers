@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.openworklabs.com
@@ -224,7 +224,7 @@ apis:
   description: Worker lifecycle, billing, and runtime routes.
   name: Openwork Workers API
   slug: openwork-workers-api
-artifact_total: 81
+artifact_total: 83
 asyncapis:
 - description: ''
   name: Openwork Webhooks
@@ -345,6 +345,11 @@ collections:
   name: Den Admin Workers API
   slug: open-openwork-workers-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/plans/openwork-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/openwork-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/capabilities/openwork-capability-edges.yml
   title: ''
@@ -527,7 +532,14 @@ overview: 'Openwork publishes 37 APIs on the [APIs.io](https://apis.io/) network
   The Openwork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Openwork''s developer surface includes authentication, documentation, API reference, signup flow, pricing, changelog, and 30 more developer resources.'
+  Openwork''s developer surface includes authentication, documentation, API reference, signup flow, pricing, changelog, and 31 more developer resources.'
+plans:
+- name: Openwork Plans Pricing
+  plan_count: 3
+  slug: openwork-plans-pricing
+- name: Openwork Price Estimates
+  plan_count: 0
+  slug: openwork-price-estimates
 random_paper: 5
 scopes:
 - name: Openwork Scopes
@@ -535,18 +547,18 @@ scopes:
   slug: openwork-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 50.1
+  band: strong
+  composite: 56.4
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 64.1
     developer_ergonomics: 37.5
@@ -563,8 +575,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

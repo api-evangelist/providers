@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -263,7 +263,7 @@ arazzos:
 - description: Add a config setting, create a targeted override rule for it, then confirm the rule is listed.
   name: Unity Remote Config Feature Rollout
   slug: unity-remote-config-rollout-workflow
-artifact_total: 252
+artifact_total: 253
 collections:
 - collection_type: postman
   name: Unity Analytics Allocations API
@@ -491,6 +491,20 @@ collections:
   name: Unity Analytics Allocations Tickets API
   slug: open-unity-tickets-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/rate-limits/unity-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/unity-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://unity.com/products
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/plans/unity-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/unity-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -1107,11 +1121,14 @@ overview: 'Unity publishes 31 APIs on the [APIs.io](https://apis.io/) network, i
   The Unity catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Unity''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, API reference, documentation, and 48 more developer resources.'
+  Unity''s developer surface includes pricing, authentication, developer portal, signup flow, support, engineering blog, API reference, and 51 more developer resources.'
 plans:
 - name: Unity Plans Pricing
-  plan_count: 1
+  plan_count: 5
   slug: unity-plans-pricing
+- name: Unity Price Estimates
+  plan_count: 0
+  slug: unity-price-estimates
 random_paper: 19
 rate_limits:
 - limit_count: 2
@@ -1140,23 +1157,23 @@ rules:
     warn: 12
   slug: unity-spectral-rules
 score:
-  band: strong
-  composite: 60.6
+  band: exemplar
+  composite: 67.9
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 59.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 55.5
+    artifact_dirs: 23
+    catalog_earned: 75.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.3
   facets:
-    access_clarity: 65.8
+    access_clarity: 92.1
     contract_governance: 28.8
     contract_quality: 68.0
     developer_ergonomics: 58.3
     discoverability: 66.7
-    operational_transparency: 42.1
+    operational_transparency: 57.9
   previous_composite: 60.6
   provenance:
     agentic_access: derived
@@ -1166,8 +1183,8 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 38.9

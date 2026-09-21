@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: The Untag#resourceArn API from Amazon App Mesh — 1 operation(s) for untag#resourcearn.
   name: Amazon App Mesh Untag#resourceArn API
   slug: amazon-app-mesh-untag-resourcearn-api
-artifact_total: 998
+artifact_total: 999
 collections:
 - collection_type: open
   name: API Collection
@@ -82,6 +82,11 @@ collections:
   name: AWS App Mesh Meshes Untag#resourceArn API
   slug: open-amazon-app-mesh-untag-resourcearn-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/plans/amazon-app-mesh-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-app-mesh-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/capabilities/amazon-app-mesh-capability-edges.yml
   title: ''
@@ -3149,7 +3154,11 @@ overview: 'Amazon App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) n
   The Amazon App Mesh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 19 more developer resources.'
+  Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 20 more developer resources.'
+plans:
+- name: Amazon App Mesh Plans Pricing
+  plan_count: 1
+  slug: amazon-app-mesh-plans-pricing
 random_paper: 12
 rules:
 - effective_rule_count: 5
@@ -3175,17 +3184,17 @@ rules:
   slug: amazon-app-mesh-spectral-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 49.7
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 51.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    artifact_dirs: 23
+    catalog_earned: 59.5
+    catalog_earned_first_party: 8.0
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 52.6
+    access_clarity: 73.7
     contract_governance: 33.3
     contract_quality: 68.0
     developer_ergonomics: 42.9
@@ -3202,7 +3211,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

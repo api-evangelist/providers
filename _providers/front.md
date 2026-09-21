@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ apis:
   description: The Views API from Front — 4 operation(s) for views.
   name: Front Views API
   slug: front-views-api
-artifact_total: 97
+artifact_total: 98
 collections:
 - collection_type: open
   name: API Collection
@@ -495,29 +495,32 @@ plans:
 - name: Front Plans Pricing
   plan_count: 10
   slug: front-plans-pricing
+- name: Front Price Estimates
+  plan_count: 0
+  slug: front-price-estimates
 random_paper: 3
 rate_limits:
-- limit_count: 7
+- limit_count: 11
   name: Front Rate Limits
   slug: front-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 49.2
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 33.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
+    artifact_dirs: 13
+    catalog_earned: 51.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.8
   facets:
-    access_clarity: 51.3
+    access_clarity: 75.0
     contract_governance: 0.0
     contract_quality: 55.9
     developer_ergonomics: 29.8
     discoverability: 51.9
-    operational_transparency: 30.3
+    operational_transparency: 53.9
   previous_composite: 41.4
   provenance:
     agentic_access: derived
@@ -527,8 +530,8 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

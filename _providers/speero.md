@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 0
 artifact_total: 2
 common:
@@ -139,7 +139,7 @@ score:
     - middle-east
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

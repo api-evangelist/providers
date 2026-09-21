@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-09-19'
+  score: 39.2
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 29
@@ -579,7 +580,7 @@ apis:
   description: The Workbenches API from Tenable — 14 operation(s) for workbenches.
   name: Tenable Workbenches API
   slug: tenable-workbenches-api
-artifact_total: 221
+artifact_total: 224
 collections:
 - collection_type: open
   name: API Collection
@@ -906,6 +907,16 @@ collections:
   name: Downloads About Workbenches API
   slug: open-tenable-workbenches-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/rate-limits/tenable-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/tenable-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/plans/tenable-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/tenable-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tenable/refs/heads/main/capabilities/tenable-capability-edges.yml
   title: ''
@@ -1084,26 +1095,37 @@ network: true
 overview: 'Tenable publishes 107 APIs on the [APIs.io](https://apis.io/) network, including About API, Access Control (API) API, Access Control (Groups) API, and 104 more. Tagged areas include Company, Enterprise, Cybersecurity, Vulnerability Management, and Exposure Management.
 
 
-  Tenable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Tenable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+plans:
+- name: Tenable Plans Pricing
+  plan_count: 15
+  slug: tenable-plans-pricing
+- name: Tenable Price Estimates
+  plan_count: 0
+  slug: tenable-price-estimates
 random_paper: 5
+rate_limits:
+- limit_count: 8
+  name: Tenable Rate Limits
+  slug: tenable-rate-limits
 score:
-  band: developing
-  composite: 53.8
+  band: strong
+  composite: 64.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 30.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
+    artifact_dirs: 23
+    catalog_earned: 54.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.5
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 59.2
     developer_ergonomics: 61.3
     discoverability: 63.0
-    operational_transparency: 48.7
+    operational_transparency: 80.3
   previous_composite: 53.8
   provenance:
     agentic_access: derived
@@ -1116,8 +1138,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

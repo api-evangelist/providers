@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -714,7 +714,7 @@ arazzos:
 - description: Find a user by email and update them if found, otherwise create a new user.
   name: Zendesk Upsert User by Email
   slug: zendesk-upsert-user-by-email-workflow
-artifact_total: 404
+artifact_total: 405
 asyncapis:
 - description: Zendesk Webhooks allow you to receive real-time HTTP notifications when events occur in your Zendesk account. Webhooks are the modern replacement for legacy targets and support event types for tickets
   name: Zendesk Webhooks
@@ -1192,6 +1192,20 @@ collections:
   name: Zendesk Account Account Settings X Channel API
   slug: open-zendesk-x-channel-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/rate-limits/zendesk-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/zendesk-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.zendesk.com/pricing/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/plans/zendesk-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/zendesk-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -1697,14 +1711,17 @@ overview: 'Zendesk publishes 81 APIs on the [APIs.io](https://apis.io/) network,
   The Zendesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Zendesk''s developer surface includes authentication, changelog, CLI, engineering blog, pricing, signup flow, training material, and 61 more developer resources.'
+  Zendesk''s developer surface includes pricing, authentication, changelog, CLI, engineering blog, signup flow, training material, and 64 more developer resources.'
 plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
   slug: zendesk-plans-pricing
+- name: Zendesk Price Estimates
+  plan_count: 0
+  slug: zendesk-price-estimates
 random_paper: 8
 rate_limits:
-- limit_count: 17
+- limit_count: 22
   name: Zendesk Rate Limits
   slug: zendesk-rate-limits
 rules:
@@ -1746,23 +1763,23 @@ scopes:
   slug: zendesk-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 61.2
+  band: exemplar
+  composite: 69.0
   coverage:
-    artifact_dirs: 36
-    catalog_earned: 55.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    artifact_dirs: 37
+    catalog_earned: 73.5
+    catalog_earned_first_party: 24.0
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.8
   facets:
-    access_clarity: 68.4
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 56.9
     developer_ergonomics: 58.3
     discoverability: 68.5
-    operational_transparency: 55.3
+    operational_transparency: 78.9
   previous_composite: 61.2
   provenance:
     agentic_access: derived
@@ -1774,8 +1791,8 @@ score:
       total: 80
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 61.1

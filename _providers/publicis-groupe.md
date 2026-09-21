@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 2
 apis:
 - description: 'KnowHOW is Publicis Sapient''s open-source (Apache-2.0) engineering measurement platform — a KPI dashboard that pulls from Jira, source control, CI and quality tools and reports delivery health across '
@@ -181,7 +181,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

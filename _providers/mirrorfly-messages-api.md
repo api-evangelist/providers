@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for chat and messaging (User and Admin APIs) with JSON payloads. Production base URL is tenant-specific; a public preprod sandbox is available for testing. Auth via username/password to '
@@ -204,7 +204,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

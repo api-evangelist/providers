@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 4
 apis:
 - description: Group-wide shipping integration web service (version 3.4.19) exposed by the GLS ShipIT backend, documented publicly as Doxygen reference pages. Resource groups cover shipment processing (POST /backend
@@ -156,7 +156,7 @@ score:
   band: emerging
   composite: 25.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 33.0
     catalog_earned_first_party: 0.0
     catalog_gap: 82.0
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

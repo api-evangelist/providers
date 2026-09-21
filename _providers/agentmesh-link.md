@@ -5,7 +5,7 @@ agent_readiness:
   dimensions:
     agent_card: conformant
     agent_skills: true
-    agentic_access: true
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -23,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.0
-  scored_at: '2026-09-19'
+  score: 39.6
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -225,27 +225,39 @@ rate_limits:
   slug: agentmesh-link-rate-limits
 score:
   band: developing
-  composite: 51.3
+  composite: 52.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 47.0
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.8
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 49.7
+    contract_quality: 53.1
     developer_ergonomics: 64.3
-    discoverability: 64.8
+    discoverability: 72.2
     operational_transparency: 15.8
+  previous_composite: 51.3
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Agentmesh Link Authentication

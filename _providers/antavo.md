@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 18
 apis:
 - baseURL: https://api.antavo.com
@@ -555,7 +555,7 @@ score:
   band: strong
   composite: 64.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 63.0
     catalog_earned_first_party: 20.0
     catalog_gap: 52.0
@@ -580,7 +580,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

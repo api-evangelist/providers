@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -3961,7 +3961,7 @@ overview: 'Stytch publishes 47 APIs on the [APIs.io](https://apis.io/) network, 
   Stytch''s developer surface includes authentication, documentation, API reference, signup flow, developer portal, pricing, CLI, and 89 more developer resources.'
 plans:
 - name: Stytch Plans Pricing
-  plan_count: 2
+  plan_count: 3
   slug: stytch-plans-pricing
 random_paper: 11
 rate_limits:
@@ -3992,17 +3992,17 @@ rules:
   slug: stytch-rules
 score:
   band: strong
-  composite: 58.2
+  composite: 63.5
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 65.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 49.5
+    artifact_dirs: 22
+    catalog_earned: 75.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.3
   facets:
-    access_clarity: 36.8
+    access_clarity: 63.2
     contract_governance: 28.8
     contract_quality: 69.6
     developer_ergonomics: 69.0
@@ -4017,8 +4017,8 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 66.7

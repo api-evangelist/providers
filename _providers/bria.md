@@ -31,13 +31,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.5
-  scored_at: '2026-09-19'
+  score: 65.0
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 1
@@ -115,7 +115,7 @@ apis:
   description: Image-to-Video capabilities
   name: Bria Video Generation API
   slug: bria-video-generation-api
-artifact_total: 35
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Bria Webhooks
@@ -164,6 +164,16 @@ collections:
   name: Tailored Generation API Reference Video Generation API
   slug: open-bria-video-generation-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/rate-limits/bria-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/bria-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/plans/bria-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/bria-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/capabilities/bria-capability-edges.yml
   title: ''
@@ -353,31 +363,42 @@ overview: 'Bria publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
   The Bria catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bria''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 30 more developer resources.'
+  Bria''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 32 more developer resources.'
+plans:
+- name: Bria Plans Pricing
+  plan_count: 12
+  slug: bria-plans-pricing
+- name: Bria Price Estimates
+  plan_count: 0
+  slug: bria-price-estimates
 random_paper: 18
+rate_limits:
+- limit_count: 3
+  name: Bria Rate Limits
+  slug: bria-rate-limits
 scopes:
 - name: Bria Scopes
   scope_count: 3
   slug: bria-scopes
   summary_line: 3 scopes · authorizationCode/deviceCode
 score:
-  band: developing
-  composite: 51.5
+  band: strong
+  composite: 61.9
   coverage:
-    artifact_dirs: 24
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.4
   facets:
-    access_clarity: 47.4
+    access_clarity: 78.9
     contract_governance: 4.5
     contract_quality: 57.5
     developer_ergonomics: 76.2
     discoverability: 81.5
-    operational_transparency: 34.2
+    operational_transparency: 65.8
   previous_composite: 51.5
   provenance:
     agentic_access: derived
@@ -390,8 +411,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 61.9
-  scored_at: '2026-09-19'
+  score: 64.4
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ apis:
   description: The API Reference API from AgentMail — 0 operation(s) for api reference.
   name: AgentMail API Reference API
   slug: agentmail-api-reference-api
-artifact_total: 64
+artifact_total: 67
 asyncapis:
 - description: ''
   name: API Reference
@@ -283,6 +283,16 @@ collections:
   name: API Reference agent webhooks API
   slug: open-agentmail-webhooks-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/rate-limits/agentmail-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/agentmail-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/plans/agentmail-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agentmail-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -468,26 +478,37 @@ overview: 'AgentMail publishes 29 APIs on the [APIs.io](https://apis.io/) networ
   The AgentMail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 29 more developer resources.'
+  AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
+plans:
+- name: Agentmail Plans Pricing
+  plan_count: 4
+  slug: agentmail-plans-pricing
+- name: Agentmail Price Estimates
+  plan_count: 0
+  slug: agentmail-price-estimates
 random_paper: 0
+rate_limits:
+- limit_count: 3
+  name: Agentmail Rate Limits
+  slug: agentmail-rate-limits
 score:
-  band: developing
-  composite: 50.5
+  band: strong
+  composite: 60.9
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 28
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.4
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 4.5
     contract_quality: 64.2
     developer_ergonomics: 78.6
     discoverability: 75.9
-    operational_transparency: 26.3
+    operational_transparency: 57.9
   previous_composite: 50.5
   provenance:
     agentic_access: derived
@@ -500,8 +521,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

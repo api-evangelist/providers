@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ arazzos:
 - description: Register a webhook subscription for Turbo events, submit a text prompt to Turbo, and poll the task as a fallback until it reaches a terminal status.
   name: Turbo text-to-video with a webhook subscription
   slug: vyond-turbo-with-webhook
-artifact_total: 27
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Vyond Webhooks
@@ -132,6 +132,11 @@ collections:
   name: Vyond API Documentation Webhook API
   slug: open-vyond-webhook-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/plans/vyond-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vyond-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/capabilities/vyond-capability-edges.yml
   title: ''
@@ -316,7 +321,14 @@ overview: 'Vyond publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Vyond catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vyond''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
+  Vyond''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
+plans:
+- name: Vyond Plans Pricing
+  plan_count: 4
+  slug: vyond-plans-pricing
+- name: Vyond Price Estimates
+  plan_count: 0
+  slug: vyond-price-estimates
 random_paper: 10
 scopes:
 - name: Vyond Scopes
@@ -324,18 +336,18 @@ scopes:
   slug: vyond-scopes
   summary_line: 2 scopes
 score:
-  band: developing
-  composite: 52.8
+  band: strong
+  composite: 59.2
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 63.7
     developer_ergonomics: 49.4
@@ -353,8 +365,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 27.8

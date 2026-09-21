@@ -31,13 +31,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.8
-  scored_at: '2026-09-19'
+  score: 50.3
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ apis:
   description: The subscriptions API from GoCardless — 3 operation(s) for subscriptions.
   name: GoCardless subscriptions API
   slug: gocardless-subscriptions-api
-artifact_total: 42
+artifact_total: 45
 asyncapis:
 - description: AsyncAPI description of the GoCardless webhook surface. GoCardless POSTs a JSON envelope containing one or more events (up to 250 per request) to each subscribed `webhook_endpoint`. Every request incl
   name: GoCardless Webhooks
@@ -188,6 +188,16 @@ collections:
   name: GoCardless REST API
   slug: open-gocardless
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/rate-limits/gocardless-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/gocardless-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/plans/gocardless-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/gocardless-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/capabilities/gocardless-capability-edges.yml
   title: ''
@@ -307,8 +317,19 @@ overview: 'GoCardless publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
   The GoCardless catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  GoCardless'' developer surface includes authentication, sandbox, changelog, documentation, pricing, signup flow, support, and 16 more developer resources.'
+  GoCardless'' developer surface includes authentication, sandbox, changelog, documentation, pricing, signup flow, support, and 18 more developer resources.'
+plans:
+- name: Gocardless Plans Pricing
+  plan_count: 6
+  slug: gocardless-plans-pricing
+- name: Gocardless Price Estimates
+  plan_count: 0
+  slug: gocardless-price-estimates
 random_paper: 7
+rate_limits:
+- limit_count: 0
+  name: Gocardless Rate Limits
+  slug: gocardless-rate-limits
 rules:
 - effective_rule_count: 33
   extends:
@@ -328,17 +349,17 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 45.4
+  composite: 51.7
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 40.8
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.3
+    artifact_dirs: 23
+    catalog_earned: 52.8
+    catalog_earned_first_party: 12.0
+    catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 11.4
     contract_quality: 57.7
     developer_ergonomics: 45.2
@@ -360,8 +381,8 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

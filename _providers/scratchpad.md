@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: The Clearskies Customer Context Graph exposed as a single remote Model Context Protocol server. Connected AI clients (Claude, ChatGPT, Cursor, n8n, Retool) query unified, identity-resolved customer co
@@ -218,7 +218,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

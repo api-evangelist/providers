@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -315,7 +315,7 @@ apis:
   description: The Webhook Payloads API from Ashby — 0 operation(s) for webhook payloads.
   name: Ashby Webhook Payloads API
   slug: ashby-webhook-payloads-api
-artifact_total: 128
+artifact_total: 129
 collections:
 - collection_type: open
   name: API Collection
@@ -623,31 +623,34 @@ overview: 'Ashby publishes 54 APIs on the [APIs.io](https://apis.io/) network, i
   Ashby''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Ashby Plans Pricing
-  plan_count: 6
+  plan_count: 5
   slug: ashby-plans-pricing
+- name: Ashby Price Estimates
+  plan_count: 0
+  slug: ashby-price-estimates
 random_paper: 7
 rate_limits:
-- limit_count: 3
+- limit_count: 2
   name: Ashby Rate Limits
   slug: ashby-rate-limits
 score:
   band: developing
-  composite: 40.1
+  composite: 46.5
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 33.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
+    artifact_dirs: 14
+    catalog_earned: 47.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 61.8
+    access_clarity: 85.5
     contract_governance: 0.0
     contract_quality: 60.1
     developer_ergonomics: 21.4
     discoverability: 51.9
-    operational_transparency: 30.3
+    operational_transparency: 43.4
   previous_composite: 40.1
   provenance:
     agentic_access: derived
@@ -657,8 +660,8 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

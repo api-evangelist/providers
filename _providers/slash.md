@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.1
-  scored_at: '2026-09-19'
+  score: 47.6
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ apis:
   description: The Oauth2 API from Slash — 2 operation(s) for oauth2.
   name: Slash Oauth2 API
   slug: slash-oauth2-api
-artifact_total: 86
+artifact_total: 89
 asyncapis:
 - description: ''
   name: Slash Webhooks
@@ -341,6 +341,16 @@ collections:
   name: Slash Public Account .well Known API
   slug: open-slash-well-known-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/rate-limits/slash-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/slash-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/plans/slash-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/slash-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/capabilities/slash-capability-edges.yml
   title: ''
@@ -537,8 +547,19 @@ overview: 'Slash publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
   The Slash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 32 more developer resources.'
+  Slash''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 34 more developer resources.'
+plans:
+- name: Slash Plans Pricing
+  plan_count: 2
+  slug: slash-plans-pricing
+- name: Slash Price Estimates
+  plan_count: 0
+  slug: slash-price-estimates
 random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Slash Rate Limits
+  slug: slash-rate-limits
 scopes:
 - name: Slash Scopes
   scope_count: 0
@@ -546,17 +567,17 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.6
+  composite: 65.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 26
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 46.1
+    access_clarity: 67.1
     contract_governance: 18.2
     contract_quality: 62.0
     developer_ergonomics: 67.3
@@ -584,7 +605,7 @@ score:
     regime_id: banking_open_finance
     score: 87.3
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

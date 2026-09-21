@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 24
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
@@ -341,7 +341,7 @@ apis:
   description: Windows Event Log Monitoring history
   name: ControlUp Windows Events API
   slug: controlup-windowsevents-api
-artifact_total: 129
+artifact_total: 130
 asyncapis:
 - description: ''
   name: Controlup Webhooks
@@ -531,6 +531,11 @@ collections:
   name: VDI & DAAS Windows Events API
   slug: open-controlup-windowsevents-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/plans/controlup-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/controlup-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/capabilities/controlup-capability-edges.yml
   title: ''
@@ -800,7 +805,11 @@ overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) networ
   The ControlUp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 47 more developer resources.'
+  ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 48 more developer resources.'
+plans:
+- name: Controlup Plans Pricing
+  plan_count: 6
+  slug: controlup-plans-pricing
 random_paper: 8
 rate_limits:
 - limit_count: 6
@@ -808,17 +817,17 @@ rate_limits:
   slug: controlup-rate-limits
 score:
   band: exemplar
-  composite: 67.5
+  composite: 73.8
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    artifact_dirs: 24
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 69.7
     developer_ergonomics: 58.9
@@ -835,8 +844,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 61.1

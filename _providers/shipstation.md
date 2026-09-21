@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.4
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
   description: Manage webhook subscriptions
   name: ShipStation Webhooks API
   slug: shipstation-webhooks-api
-artifact_total: 93
+artifact_total: 94
 asyncapis:
 - description: AsyncAPI description of the ShipStation V1 outbound webhook surface. ShipStation delivers event notifications by issuing HTTP POST requests with a JSON body to a `target_url` that the customer registe
   name: ShipStation Webhooks
@@ -172,6 +172,20 @@ collections:
   name: ShipStation V1 Accounts Webhooks API
   slug: open-shipstation-webhooks-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/rate-limits/shipstation-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/shipstation-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.shipstation.com/pricing/
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/plans/shipstation-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/shipstation-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/capabilities/shipstation-capability-edges.yml
   title: ''
@@ -391,14 +405,17 @@ overview: 'ShipStation publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The ShipStation catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  ShipStation''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 12 more developer resources.'
+  ShipStation''s developer surface includes pricing, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 14 more developer resources.'
 plans:
 - name: Shipstation Plans Pricing
-  plan_count: 3
+  plan_count: 10
   slug: shipstation-plans-pricing
+- name: Shipstation Price Estimates
+  plan_count: 0
+  slug: shipstation-price-estimates
 random_paper: 18
 rate_limits:
-- limit_count: 2
+- limit_count: 1
   name: Shipstation Rate Limits
   slug: shipstation-rate-limits
 rules:
@@ -435,23 +452,23 @@ rules:
     warn: 5
   slug: shipstation-rules
 score:
-  band: developing
-  composite: 49.8
+  band: strong
+  composite: 58.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 70.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 44.5
+    artifact_dirs: 23
+    catalog_earned: 85.5
+    catalog_earned_first_party: 20.0
+    catalog_gap: 29.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.9
   facets:
-    access_clarity: 36.8
+    access_clarity: 71.1
     contract_governance: 28.8
     contract_quality: 79.9
     developer_ergonomics: 48.8
     discoverability: 66.7
-    operational_transparency: 7.9
+    operational_transparency: 23.7
   previous_composite: 49.8
   provenance:
     agentic_access: derived
@@ -462,8 +479,8 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

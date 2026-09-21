@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ apis:
   description: A person who exists on an application.
   name: Goodlord Subject API
   slug: goodlord-subject-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Goodlord Referencing Webhooks
@@ -137,6 +137,11 @@ collections:
   name: Referencing API
   slug: open-goodlord-referencing-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/plans/goodlord-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/goodlord-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/capabilities/goodlord-capability-edges.yml
   title: ''
@@ -332,7 +337,11 @@ overview: 'Goodlord publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Goodlord catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 33 more developer resources.'
+  Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 34 more developer resources.'
+plans:
+- name: Goodlord Plans Pricing
+  plan_count: 0
+  slug: goodlord-plans-pricing
 random_paper: 0
 scopes:
 - name: Goodlord Scopes
@@ -343,7 +352,7 @@ score:
   band: strong
   composite: 60.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -387,7 +396,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

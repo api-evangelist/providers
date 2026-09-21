@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://www.planradar.com/api/v1
@@ -217,7 +217,7 @@ apis:
   description: The videos API from PlanRadar — 3 operation(s) for videos.
   name: PlanRadar videos API
   slug: planradar-videos-api
-artifact_total: 77
+artifact_total: 79
 asyncapis:
 - description: ''
   name: Planradar Webhooks
@@ -335,6 +335,11 @@ collections:
   name: PlanRadar's API Documentation Approval Requests V2 videos API
   slug: open-planradar-videos-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/plans/planradar-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/planradar-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/capabilities/planradar-capability-edges.yml
   title: ''
@@ -480,21 +485,28 @@ overview: 'PlanRadar publishes 36 APIs on the [APIs.io](https://apis.io/) networ
   The PlanRadar catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PlanRadar''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+  PlanRadar''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
+plans:
+- name: Planradar Plans Pricing
+  plan_count: 4
+  slug: planradar-plans-pricing
+- name: Planradar Price Estimates
+  plan_count: 0
+  slug: planradar-price-estimates
 random_paper: 3
 score:
   band: developing
-  composite: 45.1
+  composite: 51.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 21
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 60.5
+    access_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 50.3
     developer_ergonomics: 49.4
@@ -511,8 +523,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

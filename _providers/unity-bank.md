@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
   description: Banking Product endpoints
   name: Unity Bank Banking Products API
   slug: unity-bank-banking-products-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -105,6 +105,11 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-unity-bank-banking-products-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/plans/unity-bank-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/unity-bank-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/unity-bank/refs/heads/main/capabilities/unity-bank-capability-edges.yml
   title: ''
@@ -222,7 +227,11 @@ network: true
 overview: 'Unity Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
-  Unity Bank''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, and 17 more developer resources.'
+  Unity Bank''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, and 18 more developer resources.'
+plans:
+- name: Unity Bank Plans Pricing
+  plan_count: 0
+  slug: unity-bank-plans-pricing
 random_paper: 14
 scopes:
 - name: Unity Bank Scopes
@@ -233,7 +242,7 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -272,7 +281,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

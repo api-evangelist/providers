@@ -4,7 +4,7 @@
   "name": "Accounting & Finance Operations",
   "description": "The finance back office — ledgers and bookkeeping, invoicing and billing, accounts payable and receivable, expense and spend management, ERP, and financial planning.",
   "icon": "calculate",
-  "count": 904,
+  "count": 906,
   "roster_only": false
  },
  {
@@ -12,7 +12,7 @@
   "name": "Aerospace",
   "description": "",
   "icon": "/industries/assets/icons/aerospace.png",
-  "count": 372,
+  "count": 373,
   "roster_only": false
  },
  {
@@ -20,7 +20,7 @@
   "name": "Agriculture",
   "description": "",
   "icon": "/industries/assets/icons/agriculture.png",
-  "count": 280,
+  "count": 283,
   "roster_only": false
  },
  {
@@ -28,7 +28,7 @@
   "name": "Air Traffic & Airspace",
   "description": "Air navigation and airspace management — civil aviation authorities, air traffic control systems, ADS-B and flight-surveillance networks, aeronautical information and flight-data platforms, unmanned traffic management, avionics, and counter-UAS airspace security.",
   "icon": "flight",
-  "count": 31,
+  "count": 32,
   "roster_only": false
  },
  {
@@ -36,7 +36,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5538,
+  "count": 5690,
   "roster_only": false
  },
  {
@@ -44,7 +44,7 @@
   "name": "Automotive",
   "description": "",
   "icon": "/industries/assets/icons/automotive.png",
-  "count": 412,
+  "count": 415,
   "roster_only": false
  },
  {
@@ -52,7 +52,7 @@
   "name": "Banking & Open Banking",
   "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
   "icon": "savings",
-  "count": 860,
+  "count": 861,
   "roster_only": false
  },
  {
@@ -60,7 +60,7 @@
   "name": "Beauty & Personal Care",
   "description": "Cosmetics, skincare and haircare brands, salon and spa booking and management, and the try-on, diagnostics and personalization technology sold into them.",
   "icon": "face_retouching_natural",
-  "count": 153,
+  "count": 154,
   "roster_only": false
  },
  {
@@ -76,7 +76,7 @@
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1338,
+  "count": 1381,
   "roster_only": false
  },
  {
@@ -84,7 +84,7 @@
   "name": "Cannabis",
   "description": "",
   "icon": "/industries/assets/icons/cannabis.png",
-  "count": 28,
+  "count": 29,
   "roster_only": false
  },
  {
@@ -100,7 +100,7 @@
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 1125,
+  "count": 1126,
   "roster_only": false
  },
  {
@@ -116,7 +116,7 @@
   "name": "Communications Platform as a Service (CPaaS)",
   "description": "Programmable communications sold as an API — SMS and messaging, programmable voice and telephony, verification, and the carrier connectivity underneath.",
   "icon": "forum",
-  "count": 216,
+  "count": 217,
   "roster_only": false
  },
  {
@@ -124,7 +124,7 @@
   "name": "Construction",
   "description": "",
   "icon": "/industries/assets/icons/construction.png",
-  "count": 326,
+  "count": 328,
   "roster_only": false
  },
  {
@@ -140,7 +140,7 @@
   "name": "Content Management & Digital Experience",
   "description": "Where web content is authored and delivered — traditional and headless CMS, digital experience platforms, website builders, and digital asset management.",
   "icon": "web",
-  "count": 199,
+  "count": 201,
   "roster_only": false
  },
  {
@@ -156,7 +156,7 @@
   "name": "Customer Relationship Management (CRM)",
   "description": "Systems of record for the customer relationship — contact and account management, pipeline and deal tracking, and the sales-engagement layers built on top of them.",
   "icon": "support_agent",
-  "count": 366,
+  "count": 367,
   "roster_only": false
  },
  {
@@ -172,7 +172,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2214,
+  "count": 2236,
   "roster_only": false
  },
  {
@@ -180,7 +180,7 @@
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2466,
+  "count": 2488,
   "roster_only": false
  },
  {
@@ -188,7 +188,7 @@
   "name": "Defense",
   "description": "",
   "icon": "/industries/assets/icons/defense.png",
-  "count": 324,
+  "count": 325,
   "roster_only": false
  },
  {
@@ -196,7 +196,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 3018,
+  "count": 3054,
   "roster_only": false
  },
  {
@@ -204,7 +204,7 @@
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1969,
+  "count": 1971,
   "roster_only": false
  },
  {
@@ -212,7 +212,7 @@
   "name": "E-Commerce Platform",
   "description": "The platforms online stores run on — hosted and headless commerce, storefronts and shopping carts, catalog and checkout, and the merchant-facing tooling built around them.",
   "icon": "shopping_cart",
-  "count": 1680,
+  "count": 1686,
   "roster_only": false
  },
  {
@@ -220,7 +220,7 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 1005,
+  "count": 1007,
   "roster_only": false
  },
  {
@@ -268,7 +268,7 @@
   "name": "Financial Services",
   "description": "",
   "icon": "/industries/assets/icons/financial-services.png",
-  "count": 1207,
+  "count": 1209,
   "roster_only": false
  },
  {
@@ -276,7 +276,7 @@
   "name": "Financial Technology",
   "description": "",
   "icon": "/industries/assets/icons/financial-technology.png",
-  "count": 2004,
+  "count": 2010,
   "roster_only": false
  },
  {
@@ -308,7 +308,7 @@
   "name": "Gaming & Interactive",
   "description": "Game studios and the engines, multiplayer backends, and immersive platforms behind interactive entertainment.",
   "icon": "sports_esports",
-  "count": 715,
+  "count": 720,
   "roster_only": false
  },
  {
@@ -316,7 +316,7 @@
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 872,
+  "count": 877,
   "roster_only": false
  },
  {
@@ -324,7 +324,7 @@
   "name": "Healthcare",
   "description": "",
   "icon": "/industries/assets/icons/healthcare.png",
-  "count": 2100,
+  "count": 2103,
   "roster_only": false
  },
  {
@@ -332,7 +332,7 @@
   "name": "Home & Field Services",
   "description": "Software for work done at the customer's site — field service management, dispatch and scheduling for trades, work orders and job costing, and the home-services marketplaces above them.",
   "icon": "handyman",
-  "count": 179,
+  "count": 181,
   "roster_only": false
  },
  {
@@ -348,7 +348,7 @@
   "name": "Human Resources & Payroll",
   "description": "Hiring, payroll, benefits, and the workforce systems of record companies run their people on.",
   "icon": "groups",
-  "count": 877,
+  "count": 878,
   "roster_only": false
  },
  {
@@ -364,7 +364,7 @@
   "name": "Industrial",
   "description": "",
   "icon": "/industries/assets/icons/industrial.png",
-  "count": 1050,
+  "count": 1051,
   "roster_only": false
  },
  {
@@ -372,7 +372,7 @@
   "name": "Insurance",
   "description": "",
   "icon": "/industries/assets/icons/insurance.png",
-  "count": 666,
+  "count": 668,
   "roster_only": false
  },
  {
@@ -380,7 +380,7 @@
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 959,
+  "count": 961,
   "roster_only": false
  },
  {
@@ -388,7 +388,7 @@
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1169,
+  "count": 1192,
   "roster_only": false
  },
  {
@@ -404,7 +404,7 @@
   "name": "Logistics",
   "description": "",
   "icon": "/industries/assets/icons/logistics.png",
-  "count": 670,
+  "count": 671,
   "roster_only": false
  },
  {
@@ -420,7 +420,7 @@
   "name": "Marketing & Advertising",
   "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
   "icon": "campaign",
-  "count": 1571,
+  "count": 1585,
   "roster_only": false
  },
  {
@@ -428,7 +428,7 @@
   "name": "Media",
   "description": "",
   "icon": "/industries/assets/icons/media.png",
-  "count": 636,
+  "count": 640,
   "roster_only": false
  },
  {
@@ -452,7 +452,7 @@
   "name": "Music, Audio & Creator Economy",
   "description": "Music and audio platforms, podcasting, publishing, social, and the tools creators use to make and monetize what they publish.",
   "icon": "graphic_eq",
-  "count": 901,
+  "count": 904,
   "roster_only": false
  },
  {
@@ -460,7 +460,7 @@
   "name": "Nonprofit & Social Impact",
   "description": "Fundraising and donor management, crowdfunding and giving platforms, volunteering and civic organizing, and the grant and philanthropy infrastructure behind them.",
   "icon": "volunteer_activism",
-  "count": 127,
+  "count": 130,
   "roster_only": false
  },
  {
@@ -468,7 +468,7 @@
   "name": "Nutrition",
   "description": "Food composition databases, recipe and meal-planning platforms, food logging and diet tracking, supplements, and the dietitian and weight-management services built on top of them.",
   "icon": "nutrition",
-  "count": 209,
+  "count": 210,
   "roster_only": false
  },
  {
@@ -476,7 +476,7 @@
   "name": "Payments & Money Movement",
   "description": "Moving money — card acquiring and gateways, payment orchestration and checkout, payouts and disbursement, cross-border transfer and FX, issuing, BNPL and point of sale.",
   "icon": "payments",
-  "count": 1703,
+  "count": 1722,
   "roster_only": false
  },
  {
@@ -500,7 +500,7 @@
   "name": "Productivity Software",
   "description": "The software teams organize work in — task and project management, notes and documents, planning boards, and the personal productivity tools that carry an API.",
   "icon": "task_alt",
-  "count": 406,
+  "count": 407,
   "roster_only": false
  },
  {
@@ -508,7 +508,7 @@
   "name": "Professional Services",
   "description": "",
   "icon": "/industries/assets/icons/professional-services.png",
-  "count": 150,
+  "count": 153,
   "roster_only": false
  },
  {
@@ -524,7 +524,7 @@
   "name": "Real Estate",
   "description": "",
   "icon": "/industries/assets/icons/real-estate.png",
-  "count": 638,
+  "count": 641,
   "roster_only": false
  },
  {
@@ -532,7 +532,7 @@
   "name": "Retail",
   "description": "",
   "icon": "/industries/assets/icons/retail.png",
-  "count": 1058,
+  "count": 1059,
   "roster_only": false
  },
  {
@@ -540,7 +540,7 @@
   "name": "Robotics & Autonomous Systems",
   "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
   "icon": "precision_manufacturing",
-  "count": 1097,
+  "count": 1101,
   "roster_only": false
  },
  {
@@ -548,7 +548,7 @@
   "name": "Semiconductors & Hardware",
   "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
   "icon": "memory",
-  "count": 1106,
+  "count": 1107,
   "roster_only": false
  },
  {
@@ -556,7 +556,7 @@
   "name": "Space & Satellite",
   "description": "Launch, satellites, ground segment, and the earth-observation and aviation data coming down from above.",
   "icon": "rocket_launch",
-  "count": 356,
+  "count": 359,
   "roster_only": false
  },
  {
@@ -572,7 +572,7 @@
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1305,
+  "count": 1309,
   "roster_only": false
  },
  {
@@ -580,7 +580,7 @@
   "name": "Tax & Compliance Software",
   "description": "Tax determination and filing — sales tax and VAT calculation, e-invoicing and clearance regimes, crypto and information reporting, and the tax authorities' own APIs.",
   "icon": "receipt_long",
-  "count": 126,
+  "count": 127,
   "roster_only": false
  },
  {
@@ -596,7 +596,7 @@
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1346,
+  "count": 1358,
   "roster_only": false
  },
  {
@@ -620,7 +620,7 @@
   "name": "Utilities",
   "description": "",
   "icon": "/industries/assets/icons/utilities.png",
-  "count": 212,
+  "count": 213,
   "roster_only": false
  },
  {
@@ -628,7 +628,7 @@
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1212,
+  "count": 1219,
   "roster_only": false
  },
  {
@@ -652,7 +652,7 @@
   "name": "Weather & Geospatial",
   "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
   "icon": "public",
-  "count": 556,
+  "count": 565,
   "roster_only": false
  }
 ]

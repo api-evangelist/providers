@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - baseURL: https://api.usechamber.io/v1
@@ -57,7 +57,7 @@ apis:
   description: List, retrieve, and get statistics for GPU workloads
   name: Chamber Workloads API
   slug: chamber-workloads-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -75,6 +75,11 @@ collections:
   name: Chamber Capacity Workloads API
   slug: open-chamber-workloads-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/plans/chamber-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/chamber-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/capabilities/chamber-capability-edges.yml
   title: ''
@@ -214,13 +219,17 @@ network: true
 overview: 'Chamber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Capacity API, Health API, Metrics API, and 1 more. Tagged areas include GPU, AIOps, Machine-Learning, MLOps, and Infrastructure.
 
 
-  Chamber''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Chamber''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+plans:
+- name: Chamber Plans Pricing
+  plan_count: 0
+  slug: chamber-plans-pricing
 random_paper: 18
 score:
   band: developing
   composite: 44.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -245,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

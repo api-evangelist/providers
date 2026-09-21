@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-09-19'
+  score: 33.3
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -278,7 +278,7 @@ apis:
   description: The Webhooks API from Soldo — 0 operation(s) for webhooks.
   name: Soldo Webhooks API
   slug: soldo-webhooks-api
-artifact_total: 96
+artifact_total: 99
 asyncapis:
 - description: ''
   name: Soldo Webhooks
@@ -417,6 +417,16 @@ collections:
   name: Soldo Business API v2.0 Accounting Classification Workflows API
   slug: open-soldo-workflows-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/rate-limits/soldo-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/soldo-rate-limits.yml
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/plans/soldo-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/soldo-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/capabilities/soldo-capability-edges.yml
   title: ''
@@ -564,31 +574,42 @@ overview: 'Soldo publishes 47 APIs on the [APIs.io](https://apis.io/) network, i
   The Soldo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Soldo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, engineering blog, and 22 more developer resources.'
+  Soldo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, engineering blog, and 24 more developer resources.'
+plans:
+- name: Soldo Plans Pricing
+  plan_count: 3
+  slug: soldo-plans-pricing
+- name: Soldo Price Estimates
+  plan_count: 0
+  slug: soldo-price-estimates
 random_paper: 17
+rate_limits:
+- limit_count: 2
+  name: Soldo Rate Limits
+  slug: soldo-rate-limits
 scopes:
 - name: Soldo Scopes
   scope_count: 59
   slug: soldo-scopes
   summary_line: 59 scopes · clientCredentials
 score:
-  band: developing
-  composite: 47.1
+  band: strong
+  composite: 56.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 24.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 91.0
+    artifact_dirs: 25
+    catalog_earned: 44.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
-    access_clarity: 31.6
+    access_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 67.0
     developer_ergonomics: 53.0
     discoverability: 51.9
-    operational_transparency: 31.6
+    operational_transparency: 52.6
   previous_composite: 47.1
   provenance:
     agentic_access: derived
@@ -611,8 +632,8 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

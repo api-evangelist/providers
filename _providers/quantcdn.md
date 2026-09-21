@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 10
@@ -235,7 +235,7 @@ apis:
   description: Persistent storage volume management
   name: QuantCDN Volumes API
   slug: quantcdn-volumes-api
-artifact_total: 85
+artifact_total: 86
 collections:
 - collection_type: open
   name: API Collection
@@ -358,6 +358,20 @@ collections:
   name: QuantCDN API
   slug: open-quantcdn
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/rate-limits/quantcdn-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/quantcdn-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.quantcdn.io/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/plans/quantcdn-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/quantcdn-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/capabilities/quantcdn-capability-edges.yml
   title: ''
@@ -418,34 +432,37 @@ network: true
 overview: 'QuantCDN publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI Agents API, AI Custom Tools API, AI File Storage API, and 35 more. Tagged areas include CDN, Edge, Static Hosting, JAMstack, and DNS.
 
 
-  QuantCDN''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  QuantCDN''s developer surface includes pricing, authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Quantcdn Plans Pricing
-  plan_count: 3
+  plan_count: 8
   slug: quantcdn-plans-pricing
+- name: Quantcdn Price Estimates
+  plan_count: 0
+  slug: quantcdn-price-estimates
 random_paper: 4
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Quantcdn Rate Limits
   slug: quantcdn-rate-limits
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 44.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    artifact_dirs: 12
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
-    access_clarity: 15.8
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 59.5
     discoverability: 63.0
-    operational_transparency: 10.5
+    operational_transparency: 2.6
   previous_composite: 38.4
   provenance:
     agentic_access: derived
@@ -455,8 +472,8 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 33.3

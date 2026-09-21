@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -185,7 +185,7 @@ apis:
   description: A [workflow](/docs/terms/workflow) determines which checks will be run against a [legal person](#tag/Legal-persons) as part of a [verification](#tag/Verifications)
   name: Griffin Workflows API
   slug: griffin-workflows-api
-artifact_total: 62
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Griffin Webhooks
@@ -279,6 +279,11 @@ collections:
   name: The Griffin API keys Workflows API
   slug: open-griffin-workflows-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/plans/griffin-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/griffin-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/capabilities/griffin-capability-edges.yml
   title: ''
@@ -456,21 +461,28 @@ overview: 'Griffin publishes 28 APIs on the [APIs.io](https://apis.io/) network,
   The Griffin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Griffin''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 28 more developer resources.'
+  Griffin''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 29 more developer resources.'
+plans:
+- name: Griffin Plans Pricing
+  plan_count: 6
+  slug: griffin-plans-pricing
+- name: Griffin Price Estimates
+  plan_count: 0
+  slug: griffin-price-estimates
 random_paper: 15
 score:
   band: strong
-  composite: 54.3
+  composite: 60.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 18.2
     contract_quality: 67.3
     developer_ergonomics: 70.8
@@ -494,8 +506,8 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

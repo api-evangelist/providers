@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 2
@@ -304,7 +304,7 @@ apis:
   description: The webhooks API from Agicap — 5 operation(s) for webhooks.
   name: Agicap webhooks API
   slug: agicap-webhooks-api
-artifact_total: 164
+artifact_total: 165
 asyncapis:
 - description: ''
   name: Agicap Events Webhooks
@@ -626,6 +626,11 @@ collections:
   name: Clients AR Account reports webhooks API
   slug: open-agicap-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/plans/agicap-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/agicap-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/capabilities/agicap-capability-edges.yml
   title: ''
@@ -804,7 +809,11 @@ overview: 'Agicap publishes 52 APIs on the [APIs.io](https://apis.io/) network, 
   The Agicap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
+  Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 30 more developer resources.'
+plans:
+- name: Agicap Plans Pricing
+  plan_count: 0
+  slug: agicap-plans-pricing
 random_paper: 19
 scopes:
 - name: Agicap Scopes
@@ -815,7 +824,7 @@ score:
   band: strong
   composite: 54.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 24
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -853,7 +862,7 @@ score:
     regime_id: banking_open_finance
     score: 74.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

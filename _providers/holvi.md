@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: TPP certificate lifecycle.
   name: Holvi Third Party Provider API
   slug: holvi-third-party-provider-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -82,6 +82,11 @@ collections:
   name: Holvi PSD2 Account Information Third Party Provider API
   slug: open-holvi-third-party-provider-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/plans/holvi-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/holvi-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/capabilities/holvi-capability-edges.yml
   title: ''
@@ -219,13 +224,17 @@ network: true
 overview: 'Holvi publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Consent API, Payment Initiation API, and 1 more. Tagged areas include Company, Banking, Fintech, Payments, and Business Banking.
 
 
-  Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 21 more developer resources.'
+  Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 22 more developer resources.'
+plans:
+- name: Holvi Plans Pricing
+  plan_count: 0
+  slug: holvi-plans-pricing
 random_paper: 18
 score:
   band: developing
   composite: 45.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -269,7 +278,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

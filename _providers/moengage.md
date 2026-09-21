@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 67.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 30
 apis:
 - description: Hosted, OAuth-secured Model Context Protocol server that lets AI assistants build campaign drafts, author content, create and count segments, read and analyze flows, browse dashboards, search campaign
@@ -738,7 +738,7 @@ score:
   band: exemplar
   composite: 71.7
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_earned: 42.0
     catalog_earned_first_party: 12.0
     catalog_gap: 73.0
@@ -775,7 +775,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

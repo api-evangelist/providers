@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -121,7 +121,7 @@ apis:
   description: The User Terminals API from Starlink — 6 operation(s) for user terminals.
   name: Starlink User Terminals API
   slug: starlink-user-terminals-api
-artifact_total: 24
+artifact_total: 26
 asyncapis:
 - description: 'Event surface for Starlink enterprise device telemetry. Starlink exposes it as a poll-based JSON-over-HTTP stream rather than a broker: the consumer makes continuous small-batch POST requests to /publ'
   name: Starlink Telemetry Stream and Device Alerts
@@ -131,6 +131,11 @@ collections:
   name: Starlink Public API
   slug: open-starlink-public-api-v2
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/plans/starlink-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/starlink-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/capabilities/starlink-capability-edges.yml
   title: ''
@@ -370,7 +375,14 @@ overview: 'Starlink publishes 13 APIs on the [APIs.io](https://apis.io/) network
   The Starlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 43 more developer resources.'
+  Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 44 more developer resources.'
+plans:
+- name: Starlink Plans Pricing
+  plan_count: 1
+  slug: starlink-plans-pricing
+- name: Starlink Price Estimates
+  plan_count: 0
+  slug: starlink-price-estimates
 random_paper: 14
 rate_limits:
 - limit_count: 3
@@ -383,17 +395,17 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.9
+  composite: 47.1
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 44.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    artifact_dirs: 27
+    catalog_earned: 52.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 56.4
     developer_ergonomics: 47.0
@@ -424,7 +436,7 @@ score:
     regime_id: telecommunications
     score: 63.9
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 1
 apis:
 - description: RESTful JSON API for CapLinked virtual data rooms, secured by HMAC-SHA256 request signing. Manage organizations, teams, workspaces, folders, files, groups, permissions, uploads, downloads, watermarks,
@@ -208,7 +208,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: false

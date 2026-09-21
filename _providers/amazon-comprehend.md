@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 9
@@ -464,7 +464,7 @@ apis:
   description: 'The #X Amz Target=Comprehend 20171127.UpdateFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.updateflywheel.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.UpdateFlywheel API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-updateflywheel-api
-artifact_total: 1273
+artifact_total: 1275
 collections:
 - collection_type: open
   name: API Collection
@@ -722,6 +722,11 @@ collections:
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.UpdateFlywheel API'
   slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-updateflywheel-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/plans/amazon-comprehend-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/amazon-comprehend-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/capabilities/amazon-comprehend-capability-edges.yml
   title: ''
@@ -4135,7 +4140,14 @@ overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/
   The Amazon Comprehend catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Comprehend''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
+  Amazon Comprehend''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
+plans:
+- name: Amazon Comprehend Plans Pricing
+  plan_count: 4
+  slug: amazon-comprehend-plans-pricing
+- name: Amazon Comprehend Price Estimates
+  plan_count: 0
+  slug: amazon-comprehend-price-estimates
 random_paper: 14
 rules:
 - effective_rule_count: 5
@@ -4160,18 +4172,18 @@ rules:
     warn: 15
   slug: amazon-comprehend-spectral-rules
 score:
-  band: developing
-  composite: 47.9
+  band: strong
+  composite: 54.3
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 39.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.5
+    artifact_dirs: 24
+    catalog_earned: 51.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.4
   facets:
-    access_clarity: 52.6
+    access_clarity: 84.2
     contract_governance: 33.3
     contract_quality: 68.0
     developer_ergonomics: 52.4
@@ -4188,8 +4200,8 @@ score:
       total: 84
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

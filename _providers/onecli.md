@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -28,13 +28,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-09-19'
+  score: 29.0
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ apis:
   description: Health check and project resource summaries.
   name: Onecli Utility API
   slug: onecli-utility-api
-artifact_total: 52
+artifact_total: 55
 collections:
 - collection_type: open
   name: API Collection
@@ -242,6 +242,20 @@ collections:
   name: OneCLI Agent Setup Utility API
   slug: open-onecli-utility-api
 common:
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/rate-limits/onecli-rate-limits.yml
+  title: ''
+  type: RateLimits
+  url: rate-limits/onecli-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://onecli.sh/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/plans/onecli-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/onecli-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -386,21 +400,32 @@ network: true
 overview: 'Onecli publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Agent Setup API, Agents API, Approvals API, and 21 more. Tagged areas include Company, Security, Identity, AI Agents, and Secrets Management.
 
 
-  Onecli''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 22 more developer resources.'
+  Onecli''s developer surface includes pricing, authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, and 25 more developer resources.'
+plans:
+- name: Onecli Plans Pricing
+  plan_count: 4
+  slug: onecli-plans-pricing
+- name: Onecli Price Estimates
+  plan_count: 0
+  slug: onecli-price-estimates
 random_paper: 18
+rate_limits:
+- limit_count: 0
+  name: Onecli Rate Limits
+  slug: onecli-rate-limits
 score:
   band: developing
-  composite: 47.7
+  composite: 54.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 24
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 44.7
+    access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 55.7
     developer_ergonomics: 73.2
@@ -418,8 +443,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

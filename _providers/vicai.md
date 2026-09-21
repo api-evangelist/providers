@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ apis:
   description: Webhook subscriptions control which events your system receives and where they are delivered. Each company may have one V0 subscription or multiple V2 subscriptions. You can subscribe to all events or
   name: Vic.ai Webhook Subscriptions API
   slug: vicai-webhook-subscriptions-api
-artifact_total: 73
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Vicai Webhooks
@@ -319,6 +319,11 @@ collections:
   name: Vic.ai Accounts Webhook Subscriptions API
   slug: open-vicai-webhook-subscriptions-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/plans/vicai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/vicai-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/capabilities/vicai-capability-edges.yml
   title: ''
@@ -470,7 +475,11 @@ overview: 'Vic.ai publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
   The Vic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+plans:
+- name: Vicai Plans Pricing
+  plan_count: 0
+  slug: vicai-plans-pricing
 random_paper: 18
 rate_limits:
 - limit_count: 1
@@ -480,7 +489,7 @@ score:
   band: strong
   composite: 59.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 23
     catalog_earned: 32.0
     catalog_earned_first_party: 8.0
     catalog_gap: 83.0
@@ -512,7 +521,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

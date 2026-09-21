@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: Real-time location updates and status milestones on a shipment.
   name: Turvo Tracking API
   slug: turvo-tracking-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -110,6 +110,10 @@ collections:
   name: Turvo Public API
   slug: open-turvo
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://turvo.com/pricing/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/capabilities/turvo-capability-edges.yml
   title: ''
@@ -172,11 +176,14 @@ network: true
 overview: 'Turvo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Carriers API, and 4 more. Tagged areas include Logistics, Transportation Management System, TMS, Supply Chain, and Freight.
 
 
-  Turvo''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Turvo''s developer surface includes pricing, authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Turvo Plans Pricing
-  plan_count: 1
+  plan_count: 2
   slug: turvo-plans-pricing
+- name: Turvo Price Estimates
+  plan_count: 0
+  slug: turvo-price-estimates
 random_paper: 4
 rate_limits:
 - limit_count: 3
@@ -184,17 +191,17 @@ rate_limits:
   slug: turvo-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 36.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 60.0
-    catalog_earned_first_party: 0.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 28.9
+    access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 59.0
     developer_ergonomics: 25.0
@@ -215,7 +222,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

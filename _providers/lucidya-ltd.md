@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 10
 apis:
 - description: Receive real-time push notifications when specific events or conditions are met across your monitors.
@@ -489,7 +489,7 @@ score:
   band: exemplar
   composite: 66.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -514,7 +514,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

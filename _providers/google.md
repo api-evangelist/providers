@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -789,6 +789,15 @@ collections:
   name: Google Books About Watch API
   slug: open-google-watch-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cloud.google.com/pubsub/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/plans/google-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/google-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -1003,10 +1012,10 @@ network: true
 overview: 'Google publishes 67 APIs on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 64 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
 
 
-  Google''s developer surface includes authentication, engineering blog, developer console, developer portal, pricing, getting-started guide, support, and 29 more developer resources.'
+  Google''s developer surface includes pricing, authentication, engineering blog, developer console, developer portal, getting-started guide, support, and 31 more developer resources.'
 plans:
 - name: Google Plans Pricing
-  plan_count: 3
+  plan_count: 10
   slug: google-plans-pricing
 random_paper: 21
 rate_limits:
@@ -1020,17 +1029,17 @@ scopes:
   summary_line: 18 scopes · authorizationCode/implicit
 score:
   band: developing
-  composite: 48.8
+  composite: 53.6
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 30.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
+    artifact_dirs: 15
+    catalog_earned: 39.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.8
   facets:
-    access_clarity: 60.5
+    access_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 58.2
     developer_ergonomics: 71.4
@@ -1045,7 +1054,7 @@ score:
       marker_coverage: 0.0
       total: 80
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

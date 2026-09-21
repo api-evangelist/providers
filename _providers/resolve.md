@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 64.2
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 api_count: 2
 apis:
 - baseURL: https://app.resolvepay.com/api
@@ -100,7 +100,7 @@ apis:
   description: Webhooks allow you to receive real-time notifications about events in your Resolve account. When an event occurs, Resolve sends an HTTP POST request to your configured webhook endpoint with details ab
   name: Resolve Webhooks API
   slug: resolve-webhooks-api
-artifact_total: 43
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Resolve Webhooks
@@ -182,6 +182,11 @@ collections:
   name: Resolve API Reference Access Keys Webhooks API
   slug: open-resolve-webhooks-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/plans/resolve-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/resolve-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/capabilities/resolve-capability-edges.yml
   title: ''
@@ -358,7 +363,11 @@ overview: 'Resolve publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Resolve catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+plans:
+- name: Resolve Plans Pricing
+  plan_count: 1
+  slug: resolve-plans-pricing
 random_paper: 20
 rate_limits:
 - limit_count: 1
@@ -371,17 +380,17 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 60.6
+  composite: 64.8
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 35.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 80.0
+    artifact_dirs: 25
+    catalog_earned: 43.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
-    access_clarity: 44.7
+    access_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 64.0
     developer_ergonomics: 67.3
@@ -404,7 +413,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
   trend: flat
   upsert:
     applies: true

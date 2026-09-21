@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -217,7 +217,7 @@ arazzos:
 - description: Create a Dedicated Endpoint, wait for it to be ready, then run a chat completion.
   name: FriendliAI deploy a Dedicated Endpoint and infer
   slug: friendliai-deploy-and-infer
-artifact_total: 74
+artifact_total: 75
 collections:
 - collection_type: open
   name: API Collection
@@ -322,6 +322,11 @@ collections:
   name: Friendli Suite API Reference Container.Audio Usage API
   slug: open-friendliai-usage-api
 common:
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/plans/friendliai-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/friendliai-plans-pricing.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/capabilities/friendliai-capability-edges.yml
   title: ''
@@ -501,25 +506,29 @@ network: true
 overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Container.Audio API, Container.Chat API, Container.Classification API, and 30 more. Tagged areas include Company, Infrastructure, Artificial Intelligence, Machine-Learning, and LLM.
 
 
-  FriendliAI''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 30 more developer resources.'
+  FriendliAI''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
+plans:
+- name: Friendliai Plans Pricing
+  plan_count: 15
+  slug: friendliai-plans-pricing
 random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Friendliai Rate Limits
   slug: friendliai-rate-limits
 score:
-  band: developing
-  composite: 48.2
+  band: strong
+  composite: 54.5
   coverage:
-    artifact_dirs: 23
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
-    access_clarity: 38.2
+    access_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 60.9
     developer_ergonomics: 67.3
@@ -537,8 +546,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

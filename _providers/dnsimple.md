@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-19'
+  scored_at: '2026-09-20'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ apis:
   description: The Zones API from DNSimple — 4 operation(s) for zones.
   name: DNSimple Zones API
   slug: dnsimple-zones-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -110,6 +110,15 @@ collections:
   name: DNSimple API
   slug: open-dnsimple
 common:
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://dnsimple.com/pricing
+- group: commercial
+  href: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/plans/dnsimple-plans-pricing.yml
+  title: ''
+  type: Plans
+  url: plans/dnsimple-plans-pricing.yml
 - group: company
   title: ''
   type: Website
@@ -165,29 +174,32 @@ network: true
 overview: 'DNSimple publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Certificates API, Contacts API, and 4 more. Tagged areas include DNS and Domains.
 
 
-  DNSimple''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
+  DNSimple''s developer surface includes pricing, authentication, engineering blog, and 8 more developer resources.'
 plans:
 - name: Dnsimple Plans Pricing
   plan_count: 3
   slug: dnsimple-plans-pricing
+- name: Dnsimple Price Estimates
+  plan_count: 0
+  slug: dnsimple-price-estimates
 random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Dnsimple Rate Limits
   slug: dnsimple-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 31.7
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 39.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    artifact_dirs: 13
+    catalog_earned: 48.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
-    access_clarity: 15.8
+    access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 14.3
@@ -202,8 +214,8 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-19'
-  trend: flat
+  scored_at: '2026-09-20'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
