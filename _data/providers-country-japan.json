@@ -1,6 +1,6 @@
 {
- "total": 114,
- "shown": 114,
+ "total": 115,
+ "shown": 115,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 44.9,
      "agent_band": "agent-native",
@@ -112,178 +112,26 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
-    {
-     "name": "The HORIZ音s株式会社",
-     "slug": "horizonshield-dev",
-     "description": "The HORIZ音s株式会社 (The HORIZONs Co., Ltd., Hiratsuka, Kanagawa) operates HORIZON SHIELD, a buyer-side, agent-native fair-price verification service for Japanese construction and renovation estimates, built by a 30-year master carpenter on the open JCCDB dataset (95,403 items, CC BY 4.0). Its flagship KIRA server at mcp.horizonshield.dev is a free, anonymous remote MCP server (15 tools, 5 prompts) and A2A agent that audits a quoted price against fair ranges, flags overcharge tactics, and issues SHA-256 receipts anchored to Bitcoin via OpenTimestamps; a FairPriceAttestation tool bridges to Google's AP2 Cart Mandate. Around it sit a public MCP Verification Gate (the family's one OpenAPI, plus MCP and A2A) that measures other people's MCP servers against an A2A Conduct Extension the company authors, the JIDEC append-only verification ledger with an RFC 9727 api-catalog, the Yakumo verified-contractor directory MCP, a WebMCP intake server and a femtech source registry — every card JWS-signed, every surface unauthenticated by design, and paid for by buyers rather than contractors.",
-     "score": 56.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 40.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 69.0,
-      "access_clarity": 63.2
-     },
-     "scored_at": "2026-09-20",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 38.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": "conformant",
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
-     "name": "KUFU",
-     "slug": "kufu",
-     "description": "KUFU, Inc. is the founding name of SmartHR, Inc., the Japanese cloud HR platform, and remains the company's GitHub organization identity. SmartHR is a system of record for employee data across Japanese back-office HR — hiring and onboarding, social insurance and labour paperwork, family and dependent records, organizational structure, payslips, and withholding tax slips. The SmartHR API is a tenant-scoped REST API on a per-customer subdomain, described by a live Swagger 2.0 document covering 60 paths and 120 operations, and is offered free to existing SmartHR customers. It ships a webhook event surface, an application-gated sandbox on a separate domain, and an open-source React component library, but no official client SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png",
-     "score": 56.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 55.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-20",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 62.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 4
-    },
-    {
-     "name": "3-shake",
-     "slug": "3shake",
-     "description": "3-shake, Inc. (株式会社スリーシェイク) is a Tokyo-based cloud and reliability engineering company, founded in 2015, that operates four product lines. Sreake is its SRE / platform-engineering consulting and managed-operations practice for AWS, Google Cloud and Kubernetes. Reckoner is a no-code ETL and data-integration SaaS with 100+ SaaS, DWH and database connectors, a scheduling and workflow engine, and a public Reckoner External API (OpenAPI 3.0.3) for running workflows, reading job results, managing connections, projects and accounts from outside the console. Securify is a Japanese ASM and automated vulnerability-diagnosis platform covering web-application, SaaS, cloud-posture (CSPM), WordPress and SBOM scanning, with a public API for triggering diagnostics from a CI/CD pipeline and an API-diagnosis mode that scans a REST API from an uploaded OpenAPI definition. Relance is a freelance-engineer talent referral service. The company holds ISMS certification against ISO/IEC 27001:2013 and JIS Q 27001:2014 (registration IS 752246).",
-     "score": 56.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 62.4,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 66.1,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-20",
-     "schema_version": "0.22.0",
-     "agent_score": 28.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 5
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 10,
-   "shown": 10,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Soracom",
      "slug": "soracom",
      "description": "Soracom is a global IoT cellular connectivity and platform provider headquartered in Tokyo, founded in 2014, with regional operations in the US (Soracom Global) and EU. The platform pairs multicarrier SIMs (physical, eSIM, iSIM) across 170+ countries with a deep platform of cloud integration services (Beam, Funnel, Funk), data services (Harvest, Lagoon, Query, Orbit), device management (Inventory, Krypton, Endorse, Napter), and network gateways (VPG / Canal / Direct / Door / Gate / Junction / Peek). Soracom exposes the entire stack through a coverage-aware REST API documented at users.soracom.io and maintained as a public OpenAPI 3.0 specification in the soracom-cli GitHub repo.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png",
-     "score": 54.1,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 57.6,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 60.6,
+      "discoverability": 68.5,
+      "contract_quality": 67.4,
       "contract_governance": 28.8,
       "operational_transparency": 18.4,
       "developer_ergonomics": 75.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -315,8 +163,160 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 3
     },
+    {
+     "name": "The HORIZ音s株式会社",
+     "slug": "horizonshield-dev",
+     "description": "The HORIZ音s株式会社 (The HORIZONs Co., Ltd., Hiratsuka, Kanagawa) operates HORIZON SHIELD, a buyer-side, agent-native fair-price verification service for Japanese construction and renovation estimates, built by a 30-year master carpenter on the open JCCDB dataset (95,403 items, CC BY 4.0). Its flagship KIRA server at mcp.horizonshield.dev is a free, anonymous remote MCP server (15 tools, 5 prompts) and A2A agent that audits a quoted price against fair ranges, flags overcharge tactics, and issues SHA-256 receipts anchored to Bitcoin via OpenTimestamps; a FairPriceAttestation tool bridges to Google's AP2 Cart Mandate. Around it sit a public MCP Verification Gate (the family's one OpenAPI, plus MCP and A2A) that measures other people's MCP servers against an A2A Conduct Extension the company authors, the JIDEC append-only verification ledger with an RFC 9727 api-catalog, the Yakumo verified-contractor directory MCP, a WebMCP intake server and a femtech source registry — every card JWS-signed, every surface unauthenticated by design, and paid for by buyers rather than contractors.",
+     "score": 56.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 40.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 69.0,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-21",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "KUFU",
+     "slug": "kufu",
+     "description": "KUFU, Inc. is the founding name of SmartHR, Inc., the Japanese cloud HR platform, and remains the company's GitHub organization identity. SmartHR is a system of record for employee data across Japanese back-office HR — hiring and onboarding, social insurance and labour paperwork, family and dependent records, organizational structure, payslips, and withholding tax slips. The SmartHR API is a tenant-scoped REST API on a per-customer subdomain, described by a live Swagger 2.0 document covering 60 paths and 120 operations, and is offered free to existing SmartHR customers. It ships a webhook event surface, an application-gated sandbox on a separate domain, and an open-source React component library, but no official client SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kufu/refs/heads/main/screenshots/kufu-2026-07-25T224324.png",
+     "score": 56.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 55.4,
+      "contract_governance": 4.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-21",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 62.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "3-shake",
+     "slug": "3shake",
+     "description": "3-shake, Inc. (株式会社スリーシェイク) is a Tokyo-based cloud and reliability engineering company, founded in 2015, that operates four product lines. Sreake is its SRE / platform-engineering consulting and managed-operations practice for AWS, Google Cloud and Kubernetes. Reckoner is a no-code ETL and data-integration SaaS with 100+ SaaS, DWH and database connectors, a scheduling and workflow engine, and a public Reckoner External API (OpenAPI 3.0.3) for running workflows, reading job results, managing connections, projects and accounts from outside the console. Securify is a Japanese ASM and automated vulnerability-diagnosis platform covering web-application, SaaS, cloud-posture (CSPM), WordPress and SBOM scanning, with a public API for triggering diagnostics from a CI/CD pipeline and an API-diagnosis mode that scans a REST API from an uploaded OpenAPI definition. Relance is a freelance-engineer talent referral service. The company holds ISMS certification against ISO/IEC 27001:2013 and JIS Q 27001:2014 (registration IS 752246).",
+     "score": 56.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 62.4,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 66.1,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-21",
+     "schema_version": "0.22.0",
+     "agent_score": 28.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 10,
+   "shown": 10,
+   "providers": [
     {
      "name": "JPX (Japan Exchange Group)",
      "slug": "jpx",
@@ -333,7 +333,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -383,7 +383,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -426,7 +426,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -476,7 +476,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -519,7 +519,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -568,7 +568,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -611,7 +611,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -654,7 +654,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -689,6 +689,48 @@
      "rank": 14
     },
     {
+     "name": "Agri Info Design",
+     "slug": "agriinfodesign",
+     "description": "Agri Info Design, Ltd. (株式会社農業情報設計社) is a Japanese agricultural-technology company founded 21 April 2014 in Obihiro, Hokkaido, building precision-farming guidance for tractors and other agricultural machinery. Its AgriBus product line pairs the AgriBus-NAVI Android GPS/GNSS guidance app (100,000+ downloads worldwide) with AgriBus-GMiniR and AgriBus-G2 RTK-GNSS receivers, the AgriBus-AutoSteer automatic steering package, and AgriBus-Web, a browser console for field boundaries, reference lines, work-record history, elevation maps and RTK base-station management. The company also sells ISOBUS / ISO 11783 / AG-PORT consulting. Its cloud platform is a set of Spring Boot microservices on agribus-connect.net, each of which publishes a machine-readable OpenAPI/Swagger contract anonymously, including an implementation of Japan's NARO-led 農機オープンAPI (Agricultural Machinery Open API) device and location surface.",
+     "score": 39.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 50.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 20.8,
+      "access_clarity": 69.7
+     },
+     "scored_at": "2026-09-21",
+     "schema_version": "0.22.0",
+     "agent_score": 31.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
+    },
+    {
      "name": "SmartHR",
      "slug": "smarthr",
      "description": "SmartHR is a leading Japanese cloud HR, labor, and personnel management SaaS (smarthr.jp). Its per-tenant REST API exposes an organization's employee (\"crew\") records and the master data around them - departments, employment types, business establishments, and custom field templates - plus webhook subscriptions for change notifications. The API is served from each customer's own tenant subdomain (https://{tenant}.smarthr.jp/api) under a /v1 path, and is authenticated with a per-tenant access token passed as a Bearer token.",
@@ -704,7 +746,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -729,7 +771,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     }
    ]
   },
@@ -738,8 +780,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 24,
-   "shown": 24,
+   "count": 23,
+   "shown": 23,
    "providers": [
     {
      "name": "KG-NINJA",
@@ -756,7 +798,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 54.9,
      "agent_band": "agent-native",
@@ -781,7 +823,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Preferred Networks",
@@ -799,7 +841,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 9.7,
      "agent_band": "agent-aware",
@@ -824,7 +866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Tokyo Institute of Technology",
@@ -842,7 +884,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -874,48 +916,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
-    },
-    {
-     "name": "Agri Info Design",
-     "slug": "agriinfodesign",
-     "description": "Agri Info Design, Ltd. (株式会社農業情報設計社) is a Japanese agricultural-technology company founded 21 April 2014 in Obihiro, Hokkaido, building precision-farming guidance for tractors and other agricultural machinery. Its AgriBus product line pairs the AgriBus-NAVI Android GPS/GNSS guidance app (100,000+ downloads worldwide) with AgriBus-GMiniR and AgriBus-G2 RTK-GNSS receivers, the AgriBus-AutoSteer automatic steering package, and AgriBus-Web, a browser console for field boundaries, reference lines, work-record history, elevation maps and RTK base-station management. The company also sells ISOBUS / ISO 11783 / AG-PORT consulting. Its cloud platform is a set of Spring Boot microservices on agribus-connect.net, each of which publishes a machine-readable OpenAPI/Swagger contract anonymously, including an implementation of Japan's NARO-led 農機オープンAPI (Agricultural Machinery Open API) device and location surface.",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 50.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 69.7
-     },
-     "scored_at": "2026-09-20",
-     "schema_version": "0.22.0",
-     "agent_score": 31.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 19
     },
     {
@@ -934,7 +934,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -977,7 +977,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1027,7 +1027,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1077,7 +1077,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1127,7 +1127,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1177,7 +1177,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1227,7 +1227,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1277,7 +1277,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -1320,7 +1320,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -1363,7 +1363,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1413,7 +1413,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1463,7 +1463,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1513,7 +1513,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1563,7 +1563,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1613,7 +1613,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1656,7 +1656,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1705,7 +1705,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 18.9,
      "agent_band": "agent-aware",
@@ -1748,7 +1748,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1790,7 +1790,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1840,7 +1840,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1899,7 +1899,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 6.1,
      "agent_band": "agent-aware",
@@ -1942,7 +1942,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1992,7 +1992,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2042,7 +2042,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -2084,7 +2084,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2134,7 +2134,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2176,7 +2176,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -2219,7 +2219,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2268,7 +2268,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2318,7 +2318,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2368,7 +2368,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2418,7 +2418,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2468,7 +2468,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2518,7 +2518,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2568,7 +2568,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2618,7 +2618,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2668,7 +2668,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2711,7 +2711,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2754,7 +2754,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2796,7 +2796,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2846,7 +2846,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2889,7 +2889,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2932,7 +2932,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2975,7 +2975,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3025,7 +3025,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3074,7 +3074,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3117,7 +3117,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3151,8 +3151,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 47,
-   "shown": 47,
+   "count": 48,
+   "shown": 48,
    "providers": [
     {
      "name": "App-CM",
@@ -3170,7 +3170,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3213,7 +3213,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3256,7 +3256,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3306,7 +3306,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3349,7 +3349,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3391,7 +3391,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3441,7 +3441,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3484,7 +3484,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3527,7 +3527,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3577,7 +3577,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3627,7 +3627,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3669,7 +3669,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3712,7 +3712,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3754,7 +3754,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3797,7 +3797,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3840,7 +3840,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3883,7 +3883,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3925,7 +3925,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3968,7 +3968,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4010,7 +4010,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4052,7 +4052,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4094,7 +4094,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4136,7 +4136,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4178,7 +4178,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4221,7 +4221,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4271,7 +4271,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4314,7 +4314,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4364,7 +4364,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4407,7 +4407,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4456,7 +4456,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4499,7 +4499,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4549,7 +4549,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4599,7 +4599,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4642,7 +4642,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4685,7 +4685,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4728,7 +4728,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4771,7 +4771,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4814,7 +4814,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4857,7 +4857,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4892,6 +4892,48 @@
      "rank": 105
     },
     {
+     "name": "Aisilk",
+     "slug": "aisilk",
+     "description": "AI Silk Corporation develops innovative conductive fibers using a unique dyeing technique, creating electrodes that reduce discomfort, inflammation, and measurement failures in medical applications. Their LEAD SKIN technology offers strong, diverse potential beyond health, positioning the company at the forefront of biotech and wearable electronics.",
+     "score": 4.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-21",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 106
+    },
+    {
      "name": "Sansan",
      "slug": "sansan",
      "description": "Sansan, Inc. is a Tokyo-based enterprise SaaS company that builds cloud contact- and business-card management software. Its flagship Sansan platform digitizes and centralizes business cards and customer contact data so sales teams can share information across the organization, surface opportunities, and integrate contact data with external systems. The company also offers the Eight business-card app and Bill One invoice-management product. As of this enrichment pass Sansan does not publish a public developer portal, API reference, or OpenAPI definition on its English or Japanese websites; this profile captures the company identity and probed domain-security posture only.",
@@ -4907,7 +4949,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4939,7 +4981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "KDDI",
@@ -4957,7 +4999,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4989,7 +5031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Aillis",
@@ -5006,7 +5048,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5038,7 +5080,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "HiCustomer",
@@ -5089,7 +5131,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Habitto",
@@ -5107,7 +5149,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5139,7 +5181,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Pocket Menu",
@@ -5157,57 +5199,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 111
-    },
-    {
-     "name": "SODA",
-     "slug": "soda",
-     "description": "SODA Inc. (株式会社SODA) is a Japanese consumer-technology company that operates SNKRDUNK (スニーカーダンク / スニダン), one of Japan's largest consumer-to-consumer marketplaces for sneakers, trading cards (\"トレカ\"), apparel, and accessories. The SNKRDUNK app lets users buy and sell collectible and secondary-market goods with professional in-house authentication (真贋鑑定 by プロ鑑定士) and a full purchase-protection / compensation guarantee, alongside a buyback service. SODA is a portfolio company of the SoftBank Vision Fund. As a consumer marketplace app, SODA publishes no public developer program or API at this time; this profile captures the company's public identity and domain-security posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soda/refs/heads/main/screenshots/soda-2026-09-02T160050.png",
-     "score": 1.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5242,6 +5234,56 @@
      "rank": 112
     },
     {
+     "name": "SODA",
+     "slug": "soda",
+     "description": "SODA Inc. (株式会社SODA) is a Japanese consumer-technology company that operates SNKRDUNK (スニーカーダンク / スニダン), one of Japan's largest consumer-to-consumer marketplaces for sneakers, trading cards (\"トレカ\"), apparel, and accessories. The SNKRDUNK app lets users buy and sell collectible and secondary-market goods with professional in-house authentication (真贋鑑定 by プロ鑑定士) and a full purchase-protection / compensation guarantee, alongside a buyback service. SODA is a portfolio company of the SoftBank Vision Fund. As a consumer marketplace app, SODA publishes no public developer program or API at this time; this profile captures the company's public identity and domain-security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soda/refs/heads/main/screenshots/soda-2026-09-02T160050.png",
+     "score": 1.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-21",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 113
+    },
+    {
      "name": "P2P, Inc.",
      "slug": "p2p-inc",
      "description": "P2P, Inc. is the Japanese insurtech startup behind justInCase, a smartphone-first micro-insurance (少額短期保険) provider offering short-term, on-demand consumer coverage such as smartphone protection, cancer insurance, and peer-to-peer risk-sharing products. The company was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as an enrichment lead. As of this enrichment pass its justincase.jp domain returns a 307 redirect to Sony Shoutan Insurance (sony-sasti.jp), a Sony Financial Group micro-insurer, indicating the business has been absorbed. No public developer API, documentation, SDK, developer portal, or technical integration surface was found on either the original or the successor domain.",
@@ -5257,7 +5299,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5289,7 +5331,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     }
    ]
   },
@@ -5305,7 +5347,7 @@
      "name": "ActEvolve",
      "slug": "actevolve",
      "description": "ActEvolve Inc. (株式会社ActEvolve) was a Tokyo virtual-reality entertainment company incorporated on 9 August 2017 by Takuya Kato, a former Capcom game developer, together with other ex-game-industry engineers. In November 2018 it launched VARK, a VR live platform on which VTuber and virtual-artist performances — most visibly the long-running \"Cinderella switch\" series with hololive — were staged as ticketed, seat-based concerts for Meta Quest, Android and iOS, paid for with in-app VARK Coin. The company took strategic investment from KLab Inc. in August 2019, renamed itself VARK Inc. (株式会社VARK) on 1 May 2020 alongside a roughly ¥200M round from ANRI, raised a further ¥600M in May 2021, and diversified into the VARK SHORTS 3D animation tool and the STAR BLOOM liver-management agency, producing metaverse events for ANYCOLOR, Avex, KADOKAWA, COVER, Dwango, Shochiku and Meta. VARK was a consumer entertainment app rather than a platform business: it never operated a developer program, and no public API, SDK, webhook catalogue or machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, MCP manifest, agent card) was published on any of its hosts at any point — 1,812 archived URLs across vark.co.jp and its subdomains contain no /api, /developers, /docs, /openapi or /graphql path of any kind. The VARK metaverse service shut down on 4 March 2024 with same-day notice, refunding unused VARK Coin until 5 May 2024 under Japan's Payment Services Act; the free tier of VARK SHORTS ended on 30 September 2024; and in March 2025 the entire company was sold in an all-share transaction whose acquirer and terms were kept confidential, with founder Takuya Kato stepping down as representative director. This profile is retained as a historical record — there is no API surface to enrich.",
-     "rank": 114
+     "rank": 115
     }
    ]
   }

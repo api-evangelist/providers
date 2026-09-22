@@ -27,7 +27,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -71,7 +71,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -115,7 +115,7 @@
       "developer_ergonomics": 89.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -214,7 +214,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -258,7 +258,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -302,7 +302,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -331,66 +331,22 @@
      "rank": 7
     },
     {
-     "name": "Zuplo",
-     "slug": "zuplo",
-     "description": "Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png",
-     "score": 59.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 72.7,
-      "contract_governance": 28.8,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 56.0,
-      "access_clarity": 68.4
-     },
-     "scored_at": "2026-09-20",
-     "schema_version": "0.22.0",
-     "agent_score": 31.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 8
-    },
-    {
      "name": "Boomi",
      "slug": "boomi",
      "description": "Boomi is a leading integration platform that allows organizations to connect applications, data, and people across cloud and on-premise environments. By leveraging Boomi's intuitive visual interface and pre-built connectors, businesses can quickly and easily create integrations that streamline processes, improve productivity, and enhance the overall customer experience.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png",
-     "score": 59.0,
+     "score": 61.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 70.2,
+      "discoverability": 66.7,
+      "contract_quality": 74.2,
       "contract_governance": 13.6,
       "operational_transparency": 55.3,
       "developer_ergonomics": 61.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -416,6 +372,50 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
+     "rank": 8
+    },
+    {
+     "name": "Zuplo",
+     "slug": "zuplo",
+     "description": "Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png",
+     "score": 59.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 72.7,
+      "contract_governance": 28.8,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 56.0,
+      "access_clarity": 68.4
+     },
+     "scored_at": "2026-09-21",
+     "schema_version": "0.22.0",
+     "agent_score": 31.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
      "rank": 9
     },
     {
@@ -423,18 +423,18 @@
      "slug": "tyk",
      "description": "Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png",
-     "score": 54.5,
+     "score": 57.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 48.1,
-      "contract_quality": 61.7,
+      "discoverability": 66.7,
+      "contract_quality": 65.7,
       "contract_governance": 28.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 65.5,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -489,7 +489,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -533,7 +533,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -577,7 +577,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -621,7 +621,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -665,7 +665,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -709,7 +709,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -753,7 +753,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -797,7 +797,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -841,7 +841,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -885,7 +885,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -929,7 +929,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -973,7 +973,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -1017,7 +1017,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 21.4,
      "agent_band": "agent-aware",
@@ -1061,7 +1061,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1105,7 +1105,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1159,7 +1159,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
@@ -1203,7 +1203,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1247,7 +1247,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1291,7 +1291,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1335,7 +1335,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1379,7 +1379,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1423,7 +1423,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1467,7 +1467,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1521,7 +1521,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1565,7 +1565,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1609,7 +1609,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",

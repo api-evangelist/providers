@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 3
 apis:
 - description: Read-only GraphQL API serving a venue's activity schedules — classes, trainings, workshops, courses, events, retreats, camps, and educations — with venue, teacher, room, sport, and availability detail
@@ -181,7 +181,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

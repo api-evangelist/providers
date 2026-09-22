@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 3
 apis:
 - description: Public-facing website of the Defense Security Cooperation Agency that describes its mission, leadership, programs, and partners. The site links to news, the security cooperation library, and the FMS p
@@ -140,7 +140,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

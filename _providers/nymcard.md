@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: RESTful card-issuing and payments platform API for users, cards, card products, accounts, funding/transfers, limits, transactions and webhooks.
@@ -218,7 +218,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

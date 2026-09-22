@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -255,7 +255,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: true

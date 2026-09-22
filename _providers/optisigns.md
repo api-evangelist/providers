@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 5
 apis:
 - baseURL: https://graphql-gateway.optisigns.com/graphql
@@ -160,7 +160,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 36.4
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: Hosted, authenticated Model Context Protocol server for managing assessments, reviewing candidates, and analyzing hiring data. Streamable-HTTP transport; Bearer MeritFirst API key (mf_) required.
@@ -132,7 +132,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

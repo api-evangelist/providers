@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: OAuth-gated MCP endpoint. Unauthenticated initialize answers 401 with a WWW-Authenticate carrying resource_metadata AND granular scopes (careclinic.wellness.read, careclinic.symptoms.write, careclinic
@@ -76,7 +76,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

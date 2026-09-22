@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 3
 apis:
 - description: 'Agent2Agent (A2A) protocol surface: an agent card served from https://grokandmon.com/.well-known/agent-card.json (protocolVersion 0.3.0, JSONRPC transport, version 2.1.0, graded conformant on shape) a'
@@ -160,7 +160,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 22.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
@@ -168,13 +168,13 @@ score:
     developer_ergonomics: 21.4
     discoverability: 74.1
     operational_transparency: 21.1
-  previous_composite: 2.8
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
-  trend: rising
+  scored_at: '2026-09-21'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

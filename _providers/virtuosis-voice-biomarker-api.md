@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 5
 apis:
 - baseURL: https://api.virtuosis.ai/v1.3
@@ -264,7 +264,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: true

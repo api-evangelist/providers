@@ -27,7 +27,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 46.9,
      "agent_band": "agent-ready",
@@ -82,7 +82,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -126,7 +126,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -221,7 +221,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -265,7 +265,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 37.0,
      "agent_band": "agent-ready",
@@ -309,7 +309,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -364,7 +364,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -408,7 +408,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -452,7 +452,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -496,7 +496,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -540,7 +540,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -573,18 +573,18 @@
      "slug": "aeb",
      "description": "AEB SE is a German supply chain and global trade software company, headquartered in Stuttgart and 100% employee-owned, whose platform is used by 7,300+ companies for customs filing, trade compliance, multi-carrier shipping, transport and freight cost management, and warehouse management. In the logistics chain AEB sits at the intermediation layer of customs and trade tech: it is the certified filer between the shipper or forwarder and the customs authority (German ATLAS, EU AES/NCTS/ICS, EMCS, Intrastat, UK CHIEF), and the multi-carrier abstraction between the shipper and 300+ carriers, generating the carrier EDI so the customer never has to. Its API posture is unusually open for this tier: four public ReadMe developer hubs (Customs, Trade Compliance, Transport & Freight Management, SAP add-ons) publish machine-readable OpenAPI 3.0.1 for every product, served live and unauthenticated from AEB's own test and demo instances, with shared try-it credentials in the docs. But the contract is entirely proprietary — a REST-over-RPC business-facade shape unique to AEB, with a legacy SOAP business facade still exposed beside it — and production access requires registering with AEB and licensing the products, so it is a documented, quotable, contract-gated API rather than a self-serve one.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png",
-     "score": 29.4,
+     "score": 31.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 68.5,
       "contract_quality": 52.1,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -645,7 +645,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -689,7 +689,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 9.4,
      "agent_band": "agent-aware",
@@ -733,7 +733,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -777,7 +777,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -821,7 +821,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -865,7 +865,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -909,7 +909,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -953,7 +953,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1004,7 +1004,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -1048,7 +1048,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1101,7 +1101,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-20",
+     "scored_at": "2026-09-21",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,

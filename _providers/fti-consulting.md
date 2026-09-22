@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: Placeholder entry — FTI Consulting publishes no public API. The scaffolded hosts developer.fticonsulting.com and api.fticonsulting.com do not resolve (DNS NXDOMAIN, probed 2026-09-17), so the former D
@@ -134,7 +134,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: The FOX storefront's Universal Commerce Protocol service, transported over the Model Context Protocol at https://ridefox.com/api/ucp/mcp. Anonymous JSON-RPC; every tool call carries a UCP agent profil
@@ -218,7 +218,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

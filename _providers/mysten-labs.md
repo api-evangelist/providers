@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 50.7
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 3
 apis:
 - description: The Sui full-node JSON-RPC API (OpenRPC 1.2.6) for reading objects, coins, balances, events, checkpoints, dynamic fields, and system state, and for dry-running/executing transaction blocks. 56 methods
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 5
 apis:
 - description: Read Applied Epic client (account) records - client lookup, benefits data such as employee counts and HIPAA compliance, and identifiers used for VoIP caller identification. Confirmed endpoint GET /crm
@@ -140,7 +140,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

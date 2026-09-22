@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 6
 apis:
 - description: Create and update projects and organize their contents in folders - the top-level container that takeoffs, plans, and estimates hang off of. Modeled from STACK's developer tutorials (POST/PUT /Project
@@ -145,7 +145,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 28.2
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

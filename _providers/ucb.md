@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 8
 apis:
 - description: 'Berkeley IT''s centralized API management developer portal, operated by the Engineering and Integration Services (EIS) team. The catalog itself is public: an anonymous client can read all roughly 28 pu'
@@ -289,7 +289,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 4
 apis:
 - description: 'REST API on api.nefesh.ai (FastAPI): POST /v1/ingest takes a session_id, an ISO 8601 timestamp and at least one of 35+ signal fields and returns the fused state, stress_score, confidence, suggested_ac'
@@ -273,7 +273,7 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 60.7
+  delta: 0.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
@@ -281,7 +281,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 81.5
     operational_transparency: 55.3
-  previous_composite: 2.8
+  previous_composite: 63.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -292,8 +292,8 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
-  trend: rising
+  scored_at: '2026-09-21'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'

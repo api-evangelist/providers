@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 2
 apis:
 - description: 'Hosted Model Context Protocol server exposing a customer''s curated Crayon competitive intelligence — battlecards, win/loss stories, competitor profiles, objection handling and customer proof points — '
@@ -196,7 +196,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

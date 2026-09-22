@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: The machine-readable surface served by restor3d's corporate website. It is a stock WordPress REST API (namespaces wp/v2, wp-abilities/v1, mcp, plus SEO/caching plugin namespaces) covering site content
@@ -177,7 +177,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: 'The OpenDBM REST API is a self-hosted FastAPI service published inside AiCure''s open-source OpenDBM repository (rest_api/). It exposes the OpenDBM digital-biomarker pipeline over HTTP: an OAuth2 passw'
@@ -214,7 +214,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

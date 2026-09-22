@@ -91,16 +91,16 @@
   "slug": "japan",
   "name": "Japan",
   "flag": "🇯🇵",
-  "count": 114,
-  "by_tag": 114,
+  "count": 115,
+  "by_tag": 115,
   "by_hq": 0
  },
  {
   "slug": "south-korea",
   "name": "South Korea",
   "flag": "🇰🇷",
-  "count": 94,
-  "by_tag": 93,
+  "count": 95,
+  "by_tag": 94,
   "by_hq": 1
  },
  {
@@ -131,9 +131,9 @@
   "slug": "netherlands",
   "name": "Netherlands",
   "flag": "🇳🇱",
-  "count": 50,
+  "count": 49,
   "by_tag": 43,
-  "by_hq": 7
+  "by_hq": 6
  },
  {
   "slug": "italy",

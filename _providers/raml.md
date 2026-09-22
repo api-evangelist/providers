@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: The RAML (RESTful API Modeling Language) specification defines a YAML 1.2-based language for describing HTTP-based APIs. RAML 1.0 introduces a unified type system, annotations, libraries, overlays, ex
@@ -183,7 +183,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.0
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

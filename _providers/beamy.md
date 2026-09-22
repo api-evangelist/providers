@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: 'Beamy''s platform surface: browser-extension usage discovery, SSO-correlated identity, application and people sheets, segments, roles and permissions, and spend and renewal intelligence across a large '
@@ -180,7 +180,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

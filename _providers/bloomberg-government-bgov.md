@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 2
 apis:
 - description: Access BGOV legislative, regulatory, and government contracting data programmatically. Retrieve bill tracking, regulatory actions, federal contract awards, and lobbying disclosures for integration int
@@ -139,7 +139,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

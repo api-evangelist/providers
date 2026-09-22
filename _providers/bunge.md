@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 2
 apis:
 - description: 'Bunge operates customer-facing portals for industrial and food-service customers to manage orders, contracts, shipment tracking, and account information for oilseed, grain, and oil product purchases. '
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.8
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

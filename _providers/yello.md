@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: 'A remote Model Context Protocol (streamable HTTP) server operated by WayUp, a Yello company, at https://www.wayup.com/mcp. Discovered by probe: the host publishes RFC 9728 protected-resource metadata '
@@ -195,7 +195,7 @@ score:
     regime_id: government
     score: 88.9
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

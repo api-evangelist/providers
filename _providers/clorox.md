@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: 'Undocumented first-party REST surface served from The Clorox Company''s corporate WordPress site. Two Clorox-authored namespaces sit alongside WordPress core: tcc/v1 exposes a Safety Data Sheet index a'
@@ -209,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

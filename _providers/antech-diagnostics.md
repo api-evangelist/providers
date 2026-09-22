@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 4
 apis:
 - description: 'Modeled partner-gated surface for submitting laboratory requisitions (test orders) electronically to Antech''s reference lab from a veterinary PIMS. Carries the ordering clinic, patient, and requested '
@@ -117,7 +117,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

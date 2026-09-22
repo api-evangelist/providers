@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: uzu is Mirai's first-party, high-performance on-device inference engine. A single high-level API — shared across Python, Swift, TypeScript, and Rust — downloads and runs LLM, text-to-speech, and class
@@ -133,7 +133,7 @@ score:
     score: 25.0
   previous_composite: 20.9
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

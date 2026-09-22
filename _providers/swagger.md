@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 5
 apis:
 - description: Swagger UI renders OpenAPI specifications as interactive API documentation, allowing developers to explore and test API endpoints directly in the browser. It generates a rich HTML interface with try-i
@@ -211,7 +211,7 @@ score:
     score: 85.0
   previous_composite: 30.1
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: East West Bancorp's API surface is delivered by its banking subsidiary, East West Bank, through the Bridge Open Banking developer program for Global Transaction Services clients. Documented capabiliti
@@ -243,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: An API for developers to get information on over 4 million podcasts, 180 million episodes, and 1.5 million transcripts. Powered by Taddy's GraphQL API and supports search across podcast series, episod
@@ -107,7 +107,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.9
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: Lagom is an open source framework for building reactive microservice systems in Java and Scala, built on top of Akka and Play Framework, designed for distributed architectures.
@@ -136,7 +136,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

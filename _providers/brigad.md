@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 3
 apis:
 - description: First-party GraphQL router backing the Brigad talent (freelancer) app — talents, propositions/missions, onboarding, experiences, availabilities and billing. Endpoint is hardcoded in Brigad's own web S
@@ -172,7 +172,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: Enapi's OCPI HUB endpoint for EV charging roaming. Implements the Open Charge Point Interface (OCPI) 2.1.1 / 2.2.1 / 2.3.0 across the Credentials, Locations, Tariffs, Tokens, Sessions, CDRs, Commands,
@@ -170,7 +170,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

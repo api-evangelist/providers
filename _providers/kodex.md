@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 2
 apis:
 - description: Real-time verification of law enforcement requesters. Pass a requester email address to the lookup endpoint and receive the agent's standing, their agency's status, and the domain's risk level, checke
@@ -227,7 +227,7 @@ score:
     regime_id: government
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

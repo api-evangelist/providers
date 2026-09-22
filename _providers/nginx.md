@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -1037,7 +1037,7 @@ score:
       marker_coverage: 11.5
       total: 26
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: Wix Site MCP endpoint served from the official AVATR Hong Kong site. Answers an anonymous JSON-RPC tools/list with 9 tools over the public marketing site (business details, in-site search, plus Wix do
@@ -164,7 +164,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

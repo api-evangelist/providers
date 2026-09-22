@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: 'An OAuth 2.1-protected Model Context Protocol (MCP) server exposed on DispatchHealth''s own host by the WordPress MCP adapter running on www.dispatchhealth.com. Discovery is fully machine-readable: RFC'
@@ -216,7 +216,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

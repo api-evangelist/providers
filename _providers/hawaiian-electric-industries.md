@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: 'The public Esri ArcGIS Online feature-service catalog Hawaiian Electric serves under tenant gfBpz2hbsVDgru6D. Twenty-three FeatureServers are shared publicly and answer anonymous queries: the External'
@@ -168,7 +168,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

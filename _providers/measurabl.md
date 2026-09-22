@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 10
 apis:
 - baseURL: https://api.measurabl.com/core/v0
@@ -412,7 +412,7 @@ score:
     regime_id: energy_utilities
     score: 58.1
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: true

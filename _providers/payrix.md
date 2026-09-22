@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 agentic_access:
 - acting_count: 388
   human_in_the_loop: 4
@@ -698,12 +698,27 @@ apis:
   description: 'Resources that deal with third-party entities (non-facilitators and non-merchants) that are involved with the merchant processing and provide a service (or set of services) to the merchant, for which '
   name: Payrix Vendors API
   slug: payrix-vendors-api
-artifact_total: 139
+artifact_total: 201
 asyncapis:
 - description: ''
   name: Payrix Webhooks
   slug: payrix-webhooks
 common:
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/rules/payrix-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/payrix-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/json-ld/payrix-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/payrix-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/vocabulary/payrix-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/payrix-vocabulary.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/payrix/refs/heads/main/well-known/payrix-status-security.txt
   title: ''
@@ -877,6 +892,192 @@ common:
 created: '2026-09-20'
 description: 'Payrix, now operating as Worldpay for Platforms, is an embedded payments provider for vertical SaaS platforms. Its Payrix Pro product is a white-label payment facilitation platform: a REST API and portal for merchant boarding and underwriting, card and eCheck transaction processing, tokenization, recurring billing, fees, disbursements and payouts, chargebacks, risk decisions, embedded finance and reporting, plus hosted PayFields and PayFrame checkout components and mobile/terminal SDKs. Payrix was acquired by FIS/Worldpay, and its API reference and OpenAPI specifications are now published on the Worldpay Developer Hub while api.payrix.com remains the production API host.'
 image: https://platforms.worldpay.com/wp-content/uploads/2025/03/Website-Hero-Image-Option-2.png
+json_schemas:
+- name: accountVerificationsResponseResult
+  property_count: 1
+  slug: payrix-account-verifications-response-result
+- name: accountsPostRequest
+  property_count: 14
+  slug: payrix-accounts-post-request
+- name: accountsPutRequest
+  property_count: 10
+  slug: payrix-accounts-put-request
+- name: accountsResponseResult
+  property_count: 1
+  slug: payrix-accounts-response-result
+- name: adjustmentsResponseResult
+  property_count: 1
+  slug: payrix-adjustments-response-result
+- name: aggregationResultsGroupsResponseResult
+  property_count: 1
+  slug: payrix-aggregation-results-groups-response-result
+- name: aggregationResultsResponseResult
+  property_count: 1
+  slug: payrix-aggregation-results-response-result
+- name: aggregationsPostRequest
+  property_count: 22
+  slug: payrix-aggregations-post-request
+- name: aggregationsPutRequest
+  property_count: 22
+  slug: payrix-aggregations-put-request
+- name: aggregationsResponseResult
+  property_count: 1
+  slug: payrix-aggregations-response-result
+- name: alertActionsPostRequest
+  property_count: 10
+  slug: payrix-alert-actions-post-request
+- name: alertActionsPutRequest
+  property_count: 9
+  slug: payrix-alert-actions-put-request
+- name: alertActionsResponseResult
+  property_count: 1
+  slug: payrix-alert-actions-response-result
+- name: alertTriggersPostRequest
+  property_count: 7
+  slug: payrix-alert-triggers-post-request
+- name: alertTriggersPutRequest
+  property_count: 7
+  slug: payrix-alert-triggers-put-request
+- name: alertTriggersResponseResult
+  property_count: 1
+  slug: payrix-alert-triggers-response-result
+- name: alertsPostRequest
+  property_count: 11
+  slug: payrix-alerts-post-request
+- name: alertsPutRequest
+  property_count: 9
+  slug: payrix-alerts-put-request
+- name: alertsResponseResult
+  property_count: 1
+  slug: payrix-alerts-response-result
+- name: apiKeysPostRequest
+  property_count: 7
+  slug: payrix-api-keys-post-request
+- name: apiKeysPutRequest
+  property_count: 5
+  slug: payrix-api-keys-put-request
+- name: apikeysResponseResult
+  property_count: 1
+  slug: payrix-apikeys-response-result
+- name: appleDomainsMassEnablementCsvResponseResult
+  property_count: 1
+  slug: payrix-apple-domains-mass-enablement-csv-response-result
+- name: appleDomainsMassEnablementForMerchantList
+  property_count: 1
+  slug: payrix-apple-domains-mass-enablement-for-merchant-list
+- name: appleDomainsResponseResult
+  property_count: 1
+  slug: payrix-apple-domains-response-result
+- name: applePayForMerchantListPostRequest
+  property_count: 1
+  slug: payrix-apple-pay-for-merchant-list-post-request
+- name: assessmentsResponseResult
+  property_count: 1
+  slug: payrix-assessments-response-result
+- name: authTokensPostRequest
+  property_count: 5
+  slug: payrix-auth-tokens-post-request
+- name: authTokensPutRequest
+  property_count: 3
+  slug: payrix-auth-tokens-put-request
+- name: authTokensResponseResult
+  property_count: 1
+  slug: payrix-auth-tokens-response-result
+- name: batchesPostRequest
+  property_count: 8
+  slug: payrix-batches-post-request
+- name: batchesPutRequest
+  property_count: 6
+  slug: payrix-batches-put-request
+- name: batchesResponseResult
+  property_count: 1
+  slug: payrix-batches-response-result
+- name: billingEventsPostRequest
+  property_count: 6
+  slug: payrix-billing-events-post-request
+- name: billingEventsPutRequest
+  property_count: 6
+  slug: payrix-billing-events-put-request
+- name: billingEventsResponseResult
+  property_count: 1
+  slug: payrix-billing-events-response-result
+- name: billingModifiersPostRequest
+  property_count: 8
+  slug: payrix-billing-modifiers-post-request
+- name: billingModifiersPutRequest
+  property_count: 8
+  slug: payrix-billing-modifiers-put-request
+- name: billingModifiersResponseResult
+  property_count: 1
+  slug: payrix-billing-modifiers-response-result
+- name: billingsPostRequest
+  property_count: 20
+  slug: payrix-billings-post-request
+- name: billingsPutRequest
+  property_count: 18
+  slug: payrix-billings-put-request
+- name: billingsResponseResult
+  property_count: 1
+  slug: payrix-billings-response-result
+- name: binsResponseResult
+  property_count: 1
+  slug: payrix-bins-response-result
+- name: changeRequestsResponseResult
+  property_count: 1
+  slug: payrix-change-requests-response-result
+- name: chargebackDocumentsPostRequest
+  property_count: 8
+  slug: payrix-chargeback-documents-post-request
+- name: chargebackDocumentsResponseResult
+  property_count: 1
+  slug: payrix-chargeback-documents-response-result
+- name: chargebackMessagePostRequest
+  property_count: 13
+  slug: payrix-chargeback-message-post-request
+- name: chargebackMessageResultsResponseResult
+  property_count: 1
+  slug: payrix-chargeback-message-results-response-result
+- name: chargebackMessagesResponseResult
+  property_count: 1
+  slug: payrix-chargeback-messages-response-result
+- name: chargebackStatusesResponseResult
+  property_count: 1
+  slug: payrix-chargeback-statuses-response-result
+- name: chargebacksDocumentsPutRequest
+  property_count: 7
+  slug: payrix-chargebacks-documents-put-request
+- name: chargebacksResponseResult
+  property_count: 1
+  slug: payrix-chargebacks-response-result
+- name: confirmCodesPostRequest
+  property_count: 6
+  slug: payrix-confirm-codes-post-request
+- name: confirmCodesResponseResult
+  property_count: 1
+  slug: payrix-confirm-codes-response-result
+- name: contactsPostRequest
+  property_count: 16
+  slug: payrix-contacts-post-request
+- name: contactsPutRequest
+  property_count: 16
+  slug: payrix-contacts-put-request
+- name: contactsResponseResult
+  property_count: 1
+  slug: payrix-contacts-response-result
+- name: credentialsPostRequest
+  property_count: 12
+  slug: payrix-credentials-post-request
+- name: updateApplePayDomainPostRequest
+  property_count: 1
+  slug: payrix-update-apple-pay-domain-post-request
+- name: updateApplePayDomainResponseResult
+  property_count: 1
+  slug: payrix-update-apple-pay-domain-response-result
+jsonld:
+- class_count: 120
+  name: Payrix Context
+  property_count: 362
+  slug: payrix-context
 layout: provider
 modified: '2026-09-20'
 name: Payrix
@@ -885,10 +1086,10 @@ network: true
 overview: 'Payrix publishes 133 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Accounts Verifications API, Adjustments API, and 130 more. Tagged areas include Company, Payments, Embedded Payments, Payment Facilitation, and Merchant Onboarding.
 
 
-  The Payrix catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Payrix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Payrix''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
+  Payrix''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 33 more developer resources.'
 plans:
 - name: Payrix Plans Pricing
   plan_count: 0
@@ -898,23 +1099,37 @@ rate_limits:
 - limit_count: 1
   name: Payrix Rate Limits
   slug: payrix-rate-limits
+rules:
+- effective_rule_count: 61
+  extends:
+  - spectral:oas
+  name: Payrix API Rules
+  rule_count: 20
+  severity_counts:
+    error: 18
+    hint: 0
+    info: 1
+    warn: 1
+  slug: payrix-rules
 score:
   band: strong
-  composite: 58.4
+  composite: 64.6
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
+    artifact_dirs: 26
+    catalog_earned: 74.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 40.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 6.2
   facets:
     access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 72.5
+    contract_governance: 22.0
+    contract_quality: 86.6
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 81.5
     operational_transparency: 65.8
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -932,7 +1147,8 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -955,6 +1171,6 @@ tags:
 - Fintech
 - Payouts
 - Chargebacks
-- Subscriptions
+- Subscription
 website: https://payrix.com/
 ---

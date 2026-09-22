@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 2
 apis:
 - description: 'ClassPass''s named partner integration API for studios and their scheduling/booking software. Per ClassPass partner-marketing pages and integration-partner help centers (e.g. studio scheduling vendors '
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

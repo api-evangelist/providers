@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 8
 apis:
 - description: Deakin's Shibboleth identity provider, self-hosted and self-described. The EntityDescriptor at https://signon.deakin.edu.au/idp/shibboleth declares protocol support for SAML 2.0, a signing and an encr
@@ -199,7 +199,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

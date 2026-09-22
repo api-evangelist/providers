@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: API for accessing OpenChain open source license compliance resources, standards documentation, and organizational benchmarking tools for software supply chain trust.
@@ -115,7 +115,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 10
 apis:
 - description: A free, open, community-curated knowledgebase of the clinical significance of variants in cancer, built and operated by The McDonnell Genome Institute at Washington University School of Medicine and r
@@ -263,7 +263,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface Cirkul serves from its own drinkcirkul.com host. It comprises an anonymous Model Context Protocol (MCP) server at /api/mcp exposing five tools with real JSON Schema i
@@ -214,7 +214,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

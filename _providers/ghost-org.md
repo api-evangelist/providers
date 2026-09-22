@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -728,21 +728,21 @@ rules:
   slug: ghost-org-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 75.6
+  composite: 77.2
   coverage:
     artifact_dirs: 35
-    catalog_earned: 63.5
+    catalog_earned: 73.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.5
+    catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 84.2
     contract_governance: 31.8
     contract_quality: 72.9
     developer_ergonomics: 86.9
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 89.5
   open_source:
     applies: true
@@ -759,7 +759,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: true

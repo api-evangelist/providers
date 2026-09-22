@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 2
 apis:
 - description: Conceptual (modeled) surface for Phind's AI answer engine - the developer-focused conversational search that powered phind.com and the VS Code extension. Phind never published an official public or pa
@@ -99,7 +99,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false

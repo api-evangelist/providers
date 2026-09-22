@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
 api_count: 2
 apis:
 - description: 'Agent-facing commerce API for the Beekeeper''s Naturals storefront, exposed over the Model Context Protocol as the Universal Commerce Protocol (UCP) Shopping service. The endpoint is advertised by the '
@@ -197,7 +197,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-20'
+  scored_at: '2026-09-21'
   trend: flat
   upsert:
     applies: false
