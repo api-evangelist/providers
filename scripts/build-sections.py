@@ -862,9 +862,13 @@ TAG_INDUSTRIES = [
         "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
         "tags": [
             "blockchain", "web3", "crypto web3", "cryptocurrency", "crypto", "defi", "bitcoin",
-            "ethereum", "solana", "evm", "smart contracts", "nft", "digital assets", "tokens",
-            "tokenization", "stablecoins", "stablecoin", "staking", "wallet", "wallets",
-            "digital wallet", "decentralized", "exchange", "liquidity",
+            "ethereum", "solana", "evm", "smart contracts", "nft", "digital assets",
+            "tokenization", "stablecoins", "stablecoin", "staking", "decentralized",
+            # "exchange", "liquidity", "tokens", "wallet", "wallets" and "digital wallet" removed
+            # 2026-09-22 (roadmap#508). Each is a word crypto shares with other trades, and on its
+            # own it filed Basel III (liquidity), Amazon WorkMail and Loop Returns (exchange),
+            # OAuth and PayPal (tokens) and Mercado Pago (wallets) as crypto. A crypto wallet or
+            # exchange also carries a crypto tag, so nothing real is lost.
         ],
     },
     # --- Tier 2 -----------------------------------------------------------
@@ -911,7 +915,10 @@ TAG_INDUSTRIES = [
             "investment management", "asset management", "wealth management",
             "portfolio management", "trading", "brokerage", "broker", "stocks", "options",
             "derivatives", "capital markets", "hedge fund",
-            "family office", "crowdfunding", "startups", "venture backed",
+            "family office", "crowdfunding",
+            # "startups" and "venture backed" removed 2026-09-22 (roadmap#508): they describe
+            # how a company was FUNDED, not what it does, and filed 172 providers under this
+            # industry on that word alone -- a startup-ranking site, a legal-tech firm, a biotech.
         ],
     },
     {

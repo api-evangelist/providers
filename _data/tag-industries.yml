@@ -511,17 +511,11 @@
   - smart contracts
   - nft
   - digital assets
-  - tokens
   - tokenization
   - stablecoins
   - stablecoin
   - staking
-  - wallet
-  - wallets
-  - digital wallet
   - decentralized
-  - exchange
-  - liquidity
 - slug: government
   name: Government & Public Sector
   icon: account_balance
@@ -586,8 +580,6 @@
   - hedge fund
   - family office
   - crowdfunding
-  - startups
-  - venture backed
 - slug: telecommunications
   name: Telecommunications & Connectivity
   icon: cell_tower
