@@ -376,6 +376,14 @@
   "roster_only": false
  },
  {
+  "slug": "investing",
+  "name": "Investing & Venture Capital",
+  "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
+  "icon": "trending_up",
+  "count": 1222,
+  "roster_only": false
+ },
+ {
   "slug": "iot",
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
@@ -621,14 +629,6 @@
   "description": "",
   "icon": "/industries/assets/icons/utilities.png",
   "count": 213,
-  "roster_only": false
- },
- {
-  "slug": "venture-capital",
-  "name": "Venture Capital & Investing",
-  "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
-  "icon": "trending_up",
-  "count": 1222,
   "roster_only": false
  },
  {

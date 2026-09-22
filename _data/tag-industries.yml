@@ -556,8 +556,10 @@
   - live streaming
   - broadcasting
   - photography
-- slug: venture-capital
-  name: Venture Capital & Investing
+- slug: investing
+  name: Investing & Venture Capital
+  renamed_from:
+  - venture-capital
   icon: trending_up
   description: The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.
   tags:
