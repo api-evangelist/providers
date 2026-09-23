@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
-- acting_count: 26
+- acting_count: 52
   human_in_the_loop: 0
   name: Tyro Agentic Access
-  operation_count: 57
+  operation_count: 114
   slug: tyro-agentic-access
-  summary_line: 57 operations · 26 acting
+  summary_line: 114 operations · 52 acting
 api_count: 13
 apis:
 - baseURL: https://api.tyro.com/connect
@@ -431,7 +431,7 @@ score:
   band: developing
   composite: 41.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -460,7 +460,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 34
     mcp: derived
     skills: derived
   regulatory:
@@ -470,7 +470,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

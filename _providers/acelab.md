@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - description: 'The private production API behind the Acelab Material Hub web application and Revit add-in. It is not a published developer product: no OpenAPI, no API reference and no key-issuance flow is published '
@@ -195,7 +195,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

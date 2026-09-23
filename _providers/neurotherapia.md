@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: platform
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: '0.2'
-  score: 8.1
-  scored_at: '2026-09-21'
+  score: 14.6
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: 'A remote, anonymous Model Context Protocol server served from the NeuroTherapia corporate domain at /_api/mcp. It is provisioned by the Wix website platform rather than authored by NeuroTherapia, and '
@@ -173,7 +173,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

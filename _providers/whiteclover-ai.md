@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ modified: '2026-09-19'
 name: whiteclover
 nav: Providers
 network: true
-overview: 'whiteclover publishes 1 API on the [APIs.io](https://apis.io/) network: City API. Tagged areas include Agents, A2A, agent-native, Identity, and Memory.
+overview: 'whiteclover publishes 1 API on the [APIs.io](https://apis.io/) network: City API. Tagged areas include Agents, A2A, Agent-Native, Identity, and Memory.
 
 
   whiteclover''s developer surface includes authentication, documentation, API reference, getting-started guide, and 15 more developer resources.'
@@ -184,7 +184,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -202,7 +202,7 @@ slug: whiteclover-ai
 tags:
 - Agents
 - A2A
-- agent-native
+- Agent-Native
 - Identity
 - Memory
 - Community

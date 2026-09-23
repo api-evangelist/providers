@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 27
 apis:
 - description: Frictionless mobile-number verification that confirms ownership of the MSISDN currently in use on the device, using the operator network rather than SMS one-time-passcodes. Implements the CAMARA Numbe
@@ -212,7 +212,7 @@ modified: '2026-05-25'
 name: Vodafone
 nav: Providers
 network: true
-overview: 'Vodafone publishes 27 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Telco, Mobile Network Operator, 5G, and 4G.
+overview: 'Vodafone publishes 27 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Mobile Network Operator, 5G, 4G, and Connectivity.
 
 
   Vodafone''s developer surface includes getting-started guide, sandbox, GitHub presence, YouTube channel, engineering blog, and 16 more developer resources.'
@@ -252,7 +252,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -267,7 +267,6 @@ security:
 slug: vodafone
 tags:
 - Telecommunications
-- Telco
 - Mobile Network Operator
 - 5G
 - 4G

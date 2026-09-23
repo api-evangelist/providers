@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ rules:
   slug: uspto-trademark-search-api-rules
 score:
   band: developing
-  composite: 48.9
+  composite: 49.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 72.5
@@ -284,10 +284,10 @@ score:
     access_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 70.3
-    developer_ergonomics: 25.0
+    developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 26.3
-  previous_composite: 48.9
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -303,7 +303,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

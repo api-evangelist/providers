@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -642,7 +642,7 @@ modified: '2026-09-16'
 name: Intuit
 nav: Providers
 network: true
-overview: 'Intuit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 1 more. Tagged areas include Accounting, Custom Fields, Financial, Financial-Services, and Invoicing.
+overview: 'Intuit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Invoices API, Items API, and 1 more. Tagged areas include Accounting, Custom Fields, Finance, Financial-Services, and Invoicing.
 
 
   The Intuit catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -745,7 +745,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -764,7 +764,7 @@ slug: intuit
 tags:
 - Accounting
 - Custom Fields
-- Financial
+- Finance
 - Financial-Services
 - Invoicing
 - Payments

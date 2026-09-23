@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - description: 'The network gateway: an anonymous JSON-over-HTTPS API with 81 routes under https://mycelnet.ai/doorman/ - POST /join to register an agent, POST /trace and /publish-batch to publish traces, GET /sessio'
@@ -189,7 +189,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

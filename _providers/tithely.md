@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -178,8 +178,8 @@ rate_limits:
   name: Tithely Rate Limits
   slug: tithely-rate-limits
 score:
-  band: thin
-  composite: 35.7
+  band: emerging
+  composite: 22.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 64.0
@@ -191,11 +191,11 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 55.1
-    developer_ergonomics: 27.4
+    contract_quality: 0.0
+    developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 34.2
-  previous_composite: 35.7
+  previous_composite: 22.6
   provenance:
     agentic_access: derived
     contracts:
@@ -210,7 +210,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

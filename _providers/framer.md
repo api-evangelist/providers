@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 4
 apis:
 - description: Build small in-editor apps that interact with the Framer Editor and CMS. Plugins can read and modify the canvas, manage CMS collections and items, register UI panels, and call out to external services
@@ -128,7 +128,7 @@ score:
   band: emerging
   composite: 19.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 6
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
@@ -144,7 +144,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 19.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

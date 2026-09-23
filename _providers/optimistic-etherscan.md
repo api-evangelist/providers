@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Optimistic Etherscan Agentic Access
-  operation_count: 1
+  operation_count: 7
   slug: optimistic-etherscan-agentic-access
-  summary_line: 1 operation
+  summary_line: 7 operations
 api_count: 1
 apis:
 - baseURL: https://api-optimistic.etherscan.io/api
@@ -190,9 +190,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

@@ -4,9 +4,9 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -22,15 +22,132 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-09-21'
-api_count: 0
-artifact_total: 4
+  score: 21.6
+  scored_at: '2026-09-23'
+agentic_access:
+- acting_count: 58
+  human_in_the_loop: 0
+  name: Teamleader Agentic Access
+  operation_count: 58
+  slug: teamleader-agentic-access
+  summary_line: 58 operations · 58 acting
+api_count: 14
+apis:
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Contacts API from Teamleader — 11 operation(s) for contacts.
+  name: Teamleader Contacts API
+  slug: teamleader-contacts-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Daysoff API from Teamleader — 1 operation(s) for daysoff.
+  name: Teamleader Daysoff API
+  slug: teamleader-daysoff-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Deals API from Teamleader — 8 operation(s) for deals.
+  name: Teamleader Deals API
+  slug: teamleader-deals-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Expenses API from Teamleader — 1 operation(s) for expenses.
+  name: Teamleader Expenses API
+  slug: teamleader-expenses-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Files API from Teamleader — 5 operation(s) for files.
+  name: Teamleader Files API
+  slug: teamleader-files-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Invoices API from Teamleader — 9 operation(s) for invoices.
+  name: Teamleader Invoices API
+  slug: teamleader-invoices-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Leveltwoareas API from Teamleader — 1 operation(s) for leveltwoareas.
+  name: Teamleader Leveltwoareas API
+  slug: teamleader-leveltwoareas-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Lostreasons API from Teamleader — 1 operation(s) for lostreasons.
+  name: Teamleader Lostreasons API
+  slug: teamleader-lostreasons-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Tasks API from Teamleader — 8 operation(s) for tasks.
+  name: Teamleader Tasks API
+  slug: teamleader-tasks-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Tickets API from Teamleader — 9 operation(s) for tickets.
+  name: Teamleader Tickets API
+  slug: teamleader-tickets-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Ticketstatus API from Teamleader — 1 operation(s) for ticketstatus.
+  name: Teamleader Ticketstatus API
+  slug: teamleader-ticketstatus-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Timers API from Teamleader — 1 operation(s) for timers.
+  name: Teamleader Timers API
+  slug: teamleader-timers-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Useravailability API from Teamleader — 1 operation(s) for useravailability.
+  name: Teamleader Useravailability API
+  slug: teamleader-useravailability-api
+- baseURL: https://api.focus.teamleader.eu
+  baseurl_source: declared
+  description: The Payment Methods API from Teamleader — 1 operation(s) for payment methods.
+  name: Teamleader Payment Methods API
+  slug: teamleader-payment-methods-api
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Teamleader Webhooks
   slug: teamleader-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/agentic-access/teamleader-agentic-access.yml
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/teamleader-agentic-access.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/rules/teamleader-rules.yml
+  title: ''
+  type: Spectral
+  url: rules/teamleader-rules.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/json-ld/teamleader-context.jsonld
+  title: ''
+  type: JSONLD
+  url: json-ld/teamleader-context.jsonld
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/vocabulary/teamleader-vocabulary.yml
+  title: ''
+  type: Vocabulary
+  url: vocabulary/teamleader-vocabulary.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/data-model/teamleader-data-model.yml
+  title: ''
+  type: DataModel
+  url: data-model/teamleader-data-model.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/conformance/teamleader-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/teamleader-conformance.yml
+- group: other
+  title: ''
+  type: Leadership
+  url: https://www.teamleader.eu/about/team
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/authentication/teamleader-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/teamleader-authentication.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/teamleader/refs/heads/main/well-known/teamleader-status-security.txt
   title: ''
@@ -149,45 +266,94 @@ coverage:
 created: '2026-09-21'
 description: Teamleader provides an integrated CRM, invoicing, quotations, and project management platform for SMEs. Its Focus product offers a unified workspace to manage customers, sales, finances, and projects, with a marketplace for extensions and robust API access for developers.
 image: https://cdn.craft.cloud/019c94d2-1a0c-72a9-9aeb-fca40a9cddd3/assets/general/SEO-images/Teamleader-SEO.jpg?fit=cover&height=630&width=1200&s=qRou8Ix0kelrG98e5NrDsPf-6SZBB_wNOxzMj9zJnug
+json_schemas:
+- name: PostContactsAddRequest
+  property_count: 18
+  slug: teamleader-post-contacts-add-request
+- name: PostDealsCreateRequest
+  property_count: 14
+  slug: teamleader-post-deals-create-request
+- name: PostInvoicesDraftRequest
+  property_count: 16
+  slug: teamleader-post-invoices-draft-request
+- name: PostInvoicesUpdateRequest
+  property_count: 15
+  slug: teamleader-post-invoices-update-request
+- name: PostTasksCreateRequest
+  property_count: 12
+  slug: teamleader-post-tasks-create-request
+- name: PostTicketsCreateRequest
+  property_count: 10
+  slug: teamleader-post-tickets-create-request
+jsonld:
+- class_count: 92
+  name: Teamleader Context
+  property_count: 97
+  slug: teamleader-context
 layout: provider
 modified: '2026-09-21'
 name: Teamleader
 nav: Providers
 network: true
-overview: 'Teamleader is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include CRM, Invoicing, Project Management, Software-as-a-Service, and SME.
+overview: 'Teamleader publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Daysoff API, Deals API, and 11 more. Tagged areas include CRM, Invoicing, Project Management, Software-as-a-Service, and SME.
 
 
-  The Teamleader catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Teamleader catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Teamleader''s developer surface includes changelog, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 17 more developer resources.'
+  Teamleader''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
 random_paper: 10
+rules:
+- effective_rule_count: 51
+  extends:
+  - spectral:oas
+  name: Teamleader API Rules
+  rule_count: 10
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 1
+    warn: 1
+  slug: teamleader-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 50.1
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 27.0
+    artifact_dirs: 16
+    catalog_earned: 66.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 48.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 60.5
-    contract_governance: 0.0
-    contract_quality: 41.6
-    developer_ergonomics: 52.4
-    discoverability: 57.4
+    contract_governance: 22.0
+    contract_quality: 34.1
+    developer_ergonomics: 64.3
+    discoverability: 81.5
     operational_transparency: 50.0
+  previous_composite: 50.1
   provenance:
-    mcp: unknown
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 15
+      marker_coverage: 100.0
+      total: 15
+    mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
+  trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
+- kind: authentication
+  name: Teamleader Authentication
+  slug: teamleader-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Teamleader Domain Security
   slug: teamleader-domain-security

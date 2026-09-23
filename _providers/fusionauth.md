@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 239
   human_in_the_loop: 9
@@ -502,7 +502,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -564,5 +564,6 @@ tags:
 - OpenID Connect
 - SSO
 - Multi-Factor Authentication
+- Identity Federation
 website: https://www.fusionauth.io/
 ---

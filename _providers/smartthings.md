@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -253,8 +253,8 @@ scopes:
   slug: smartthings-scopes
   summary_line: 8 scopes · authorizationCode
 score:
-  band: thin
-  composite: 33.4
+  band: emerging
+  composite: 23.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 60.0
@@ -266,7 +266,7 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 44.3
+    contract_quality: 3.4
     developer_ergonomics: 29.8
     discoverability: 68.5
     operational_transparency: 34.2
@@ -275,7 +275,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 33.4
+  previous_composite: 23.2
   provenance:
     agentic_access: derived
     contracts:
@@ -284,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

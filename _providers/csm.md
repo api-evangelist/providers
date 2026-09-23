@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: REST API for image-to-3D, text-to-3D, and 3D world generation/simulation. API access is gated by CSM subscription plan tier. Documentation at https://docs.csm.ai/.
@@ -106,7 +106,7 @@ score:
   band: emerging
   composite: 15.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 6
     catalog_earned: 45.0
     catalog_earned_first_party: 0.0
     catalog_gap: 70.0
@@ -122,7 +122,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

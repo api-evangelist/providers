@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 15
 apis:
 - description: An open JSON-RPC protocol that lets AI agents talk to tools, resources, and prompts through a uniform server surface. MCP is the most direct expression of "an API designed for an agent" — every API su
@@ -219,7 +219,7 @@ score:
   band: thin
   composite: 26.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 65.3
     catalog_earned_first_party: 0.0
     catalog_gap: 49.8
@@ -235,7 +235,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

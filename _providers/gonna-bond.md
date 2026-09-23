@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -298,6 +298,6 @@ tags:
 - Algorand
 - Blockchain
 - Payments
-- agent-native
+- Agent-Native
 website: https://gonna.bond/
 ---

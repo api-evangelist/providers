@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -426,7 +426,7 @@ rules:
   slug: trustradius-rules
 score:
   band: strong
-  composite: 58.4
+  composite: 59.1
   coverage:
     artifact_dirs: 29
     catalog_earned: 76.5
@@ -439,7 +439,7 @@ score:
     access_clarity: 73.7
     contract_governance: 33.3
     contract_quality: 63.8
-    developer_ergonomics: 67.3
+    developer_ergonomics: 70.8
     discoverability: 68.5
     operational_transparency: 26.3
   jurisdiction:
@@ -447,7 +447,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 58.4
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -459,7 +459,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

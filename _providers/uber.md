@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -610,7 +610,7 @@ rules:
   slug: uber-rules
 score:
   band: developing
-  composite: 49.5
+  composite: 50.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 69.5
@@ -623,13 +623,13 @@ score:
     access_clarity: 47.4
     contract_governance: 13.6
     contract_quality: 76.1
-    developer_ergonomics: 70.2
+    developer_ergonomics: 73.8
     discoverability: 68.5
     operational_transparency: 23.7
   open_source:
     applies: true
     score: 15.0
-  previous_composite: 49.5
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     contracts:
@@ -638,7 +638,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

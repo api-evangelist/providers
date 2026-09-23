@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
-- acting_count: 1
+- acting_count: 4
   human_in_the_loop: 0
   name: Polyteia Agentic Access
-  operation_count: 1
+  operation_count: 4
   slug: polyteia-agentic-access
-  summary_line: 1 operation · 1 acting
+  summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
 - baseURL: https://app.polyteia.com/api
@@ -241,7 +241,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -255,7 +255,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

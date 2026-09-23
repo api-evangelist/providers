@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
@@ -209,7 +209,7 @@ modified: '2026-07-21'
 name: Rabobank Australia
 nav: Providers
 network: true
-overview: 'Rabobank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Rabobank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
   Rabobank Australia''s developer surface includes authentication, API reference, documentation, support, and 18 more developer resources.'
@@ -261,7 +261,7 @@ score:
     regime_id: banking_open_finance
     score: 54.4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -278,7 +278,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: rabobank-australia
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

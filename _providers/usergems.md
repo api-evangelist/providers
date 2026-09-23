@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -453,7 +453,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 67.4
+  composite: 68.2
   coverage:
     artifact_dirs: 29
     catalog_earned: 79.5
@@ -466,7 +466,7 @@ score:
     access_clarity: 89.5
     contract_governance: 31.8
     contract_quality: 79.9
-    developer_ergonomics: 60.1
+    developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 52.6
   jurisdiction:
@@ -474,7 +474,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 67.4
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -486,7 +486,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

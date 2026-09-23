@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -493,7 +493,7 @@ rules:
   slug: zenml-rules
 score:
   band: strong
-  composite: 57.8
+  composite: 58.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 63.5
@@ -506,13 +506,13 @@ score:
     access_clarity: 47.4
     contract_governance: 13.6
     contract_quality: 61.6
-    developer_ergonomics: 67.9
+    developer_ergonomics: 71.4
     discoverability: 66.7
     operational_transparency: 55.3
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 57.8
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
@@ -521,7 +521,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

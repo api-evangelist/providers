@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -211,8 +211,8 @@ rate_limits:
   name: Storable Rate Limits
   slug: storable-rate-limits
 score:
-  band: thin
-  composite: 34.5
+  band: emerging
+  composite: 22.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 64.0
@@ -224,11 +224,11 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 0.0
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 31.6
-  previous_composite: 34.5
+  previous_composite: 22.3
   provenance:
     agentic_access: derived
     contracts:
@@ -243,7 +243,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

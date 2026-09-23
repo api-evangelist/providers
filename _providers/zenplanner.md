@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -170,8 +170,8 @@ scopes:
   slug: zenplanner-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 27.9
+  band: emerging
+  composite: 15.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 49.0
@@ -183,11 +183,11 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 50.3
+    contract_quality: 0.0
     developer_ergonomics: 14.3
     discoverability: 68.5
     operational_transparency: 0.0
-  previous_composite: 27.9
+  previous_composite: 15.3
   provenance:
     agentic_access: derived
     contracts:
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

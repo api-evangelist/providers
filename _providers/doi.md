@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-09-21'
+  score: 21.0
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -240,7 +240,69 @@ apis:
   description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
   name: Department of Interior topographic-codes API
   slug: doi-topographic-codes-api
-artifact_total: 94
+- description: Department-wide open-data catalog at data.doi.gov, including datasets from all Interior bureaus.
+  name: DOI Open Data Catalog
+  slug: doi-open-data
+- description: U.S. Fish and Wildlife Service data on listed species under the Endangered Species Act and the National Wildlife Refuge System.
+  name: USFWS Environmental Conservation Online System (ECOS) API
+  slug: usfws-environmental-conservation-api
+- description: Reclamation reservoir, dam, and water-operations data for the western United States.
+  name: Bureau of Reclamation Water Data
+  slug: bor-water-data
+- description: Office of Natural Resources Revenue datasets on royalty, rent, and bonus revenue from federal energy and mineral production.
+  name: ONRR Natural Resources Revenue Data
+  slug: onrr-revenue-data
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Park alerts and emergencies
+  name: Department of Interior Alerts API
+  slug: department-of-the-interior-alerts-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: News articles and releases
+  name: Department of Interior Articles API
+  slug: department-of-the-interior-articles-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Campground listings
+  name: Department of Interior Campgrounds API
+  slug: department-of-the-interior-campgrounds-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Event count queries
+  name: Department of Interior Counts API
+  slug: department-of-the-interior-counts-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Daily statistical values
+  name: Department of Interior DailyValues API
+  slug: department-of-the-interior-dailyvalues-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Park events
+  name: Department of Interior Events API
+  slug: department-of-the-interior-events-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Real-time instantaneous values
+  name: Department of Interior InstantaneousValues API
+  slug: department-of-the-interior-instantaneousvalues-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: National parks
+  name: Department of Interior Parks API
+  slug: department-of-the-interior-parks-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Water-monitoring sites
+  name: Department of Interior Sites API
+  slug: department-of-the-interior-sites-api
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Visitor centers
+  name: Department of Interior Visitor Centers API
+  slug: department-of-the-interior-visitor-centers-api
+artifact_total: 112
 collections:
 - collection_type: open
   name: API Collection
@@ -411,6 +473,12 @@ common:
 created: '2026-06-13'
 description: The U.S. Department of the Interior (DOI) manages and conserves federal lands and natural resources across America. DOI's bureaus and offices provide REST APIs and data services covering national park information, water resources, earthquake data, mineral resources, geospatial federal land boundaries, and wildlife data. Key API providers include the National Park Service (NPS), the U.S. Geological Survey (USGS), and the Bureau of Land Management (BLM).
 examples:
+- key_count: 4
+  name: Earthquake Example
+  slug: earthquake-example
+- key_count: 4
+  name: Park Example
+  slug: park-example
 - key_count: 3
   name: Usgs Water Collections Example
   slug: usgs-water-collections-example
@@ -441,6 +509,12 @@ json_schemas:
 - name: Tiles
   property_count: 2
   slug: doi-usgs-water-tiles
+- name: USGS Earthquake Feature
+  property_count: 4
+  slug: earthquake-feature
+- name: National Park
+  property_count: 16
+  slug: nps-park
 jsonld:
 - class_count: 10
   name: Doi Context
@@ -451,7 +525,7 @@ modified: '2026-06-13'
 name: Department of Interior
 nav: Providers
 network: true
-overview: 'Department of Interior publishes 36 APIs on the [APIs.io](https://apis.io/) network, including agency-codes API, altitude-datums API, aquifer-codes API, and 33 more. Tagged areas include Federal-Government, National Parks, Federal Lands, Water Resources, and Wildlife.
+overview: 'Department of Interior publishes 46 APIs on the [APIs.io](https://apis.io/) network, including agency-codes API, altitude-datums API, aquifer-codes API, and 43 more. Tagged areas include Federal-Government, National Parks, Federal Lands, Water Resources, and Wildlife.
 
 
   The Department of Interior catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -480,7 +554,7 @@ rules:
   slug: doi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.2
+  composite: 37.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 63.3
@@ -488,22 +562,22 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.9
+  delta: 0.4
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 62.4
+    contract_quality: 64.1
     developer_ergonomics: 23.8
     discoverability: 63.0
     operational_transparency: 5.3
-  previous_composite: 35.3
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 36
+      total: 46
   regulatory:
     applies: true
     matched_via: tags
@@ -511,7 +585,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

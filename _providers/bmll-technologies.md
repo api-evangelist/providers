@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 4
 apis:
 - description: Query reference data for the instruments, listings, and markets in the BMLL universe (equities, ETFs, futures, options), including availability by data type (LOB, listing/instrument/market-level metri
@@ -154,7 +154,7 @@ modified: '2026-07-22'
 name: BMLL Technologies
 nav: Providers
 network: true
-overview: 'BMLL Technologies publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Market Data, Order Book, Stocks, and Trading.
+overview: 'BMLL Technologies publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Order Book, Stocks, and Trading.
 
 
   BMLL Technologies'' developer surface includes developer portal, documentation, engineering blog, support, authentication, changelog, CLI, and 14 more developer resources.'
@@ -193,7 +193,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: bmll-technologies
 tags:
-- Financial
+- Finance
 - Market Data
 - Order Book
 - Stocks

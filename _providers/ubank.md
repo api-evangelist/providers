@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
@@ -199,7 +199,7 @@ modified: '2026-07-21'
 name: ubank
 nav: Providers
 network: true
-overview: 'ubank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Banking, Open Banking, and CDR.
+overview: 'ubank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Banking, Open Banking, and CDR.
 
 
   ubank''s developer surface includes authentication, documentation, support, and 17 more developer resources.'
@@ -251,7 +251,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -268,7 +268,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: ubank
 tags:
-- Financial
+- Finance
 - Banks
 - Banking
 - Open Banking

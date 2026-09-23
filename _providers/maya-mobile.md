@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ modified: '2026-06-21'
 name: Maya Mobile
 nav: Providers
 network: true
-overview: 'Maya Mobile publishes 4 APIs on the [APIs.io](https://apis.io/) network, including eSIMs API, Orders API, Plans API, and 1 more. Tagged areas include eSIM, Connectivity, Mobile Data, Roaming, and Telecom.
+overview: 'Maya Mobile publishes 4 APIs on the [APIs.io](https://apis.io/) network, including eSIMs API, Orders API, Plans API, and 1 more. Tagged areas include eSIM, Connectivity, Mobile Data, Roaming, and Telecommunications.
 
 
   Maya Mobile''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -191,7 +191,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -212,6 +212,6 @@ tags:
 - Connectivity
 - Mobile Data
 - Roaming
-- Telecom
+- Telecommunications
 website: https://maya.net/
 ---

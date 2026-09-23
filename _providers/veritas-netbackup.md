@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -797,7 +797,7 @@ rules:
   slug: veritas-netbackup-spectral-rules
 score:
   band: developing
-  composite: 52.4
+  composite: 53.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 52.5
@@ -810,10 +810,10 @@ score:
     access_clarity: 44.7
     contract_governance: 13.6
     contract_quality: 71.7
-    developer_ergonomics: 59.5
+    developer_ergonomics: 63.1
     discoverability: 63.0
     operational_transparency: 23.7
-  previous_composite: 52.4
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -822,7 +822,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

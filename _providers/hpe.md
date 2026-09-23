@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -124,6 +124,10 @@ common:
   title: ''
   type: Signup
   url: https://common.cloud.hpe.com/sign-up
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/HPE
 created: '2026-05-11'
 description: Hewlett Packard Enterprise (HPE) is a global edge-to-cloud technology company providing servers, storage, networking, and hybrid cloud services, with HPE GreenLake serving as the unified edge-to-cloud platform delivering infrastructure as a service. The HPE GreenLake developer platform exposes OpenAPI 3.0 REST APIs covering compute, storage, networking, data services, identity, and workspace management, all authenticated via OAuth 2.0 client credentials and bearer tokens through a unified global API gateway.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hpe.png
@@ -135,7 +139,7 @@ network: true
 overview: 'Hewlett Packard Enterprise publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Identity API, and Workspaces API. Tagged areas include Cloud, Edge to Cloud, Infrastructure-as-a-Service, Compute, and Storage.
 
 
-  Hewlett Packard Enterprise''s developer surface includes authentication, documentation, signup flow, and 7 more developer resources.'
+  Hewlett Packard Enterprise''s developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
 random_paper: 9
 score:
   band: thin
@@ -164,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

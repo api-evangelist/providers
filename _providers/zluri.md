@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ rules:
   slug: zluri-spectral
 score:
   band: developing
-  composite: 46.9
+  composite: 47.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 60.5
@@ -347,10 +347,10 @@ score:
     access_clarity: 51.3
     contract_governance: 28.8
     contract_quality: 74.1
-    developer_ergonomics: 34.5
+    developer_ergonomics: 38.1
     discoverability: 57.4
     operational_transparency: 21.1
-  previous_composite: 46.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -359,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

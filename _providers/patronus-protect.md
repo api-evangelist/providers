@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 66.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://control.patronus.studio/api/v1
@@ -142,7 +142,7 @@ modified: '2026-09-20'
 name: Patronus Protect
 nav: Providers
 network: true
-overview: 'Patronus Protect publishes 1 API on the [APIs.io](https://apis.io/) network: Patronus Scan API. Tagged areas include AI Safety, Prompt Injection, Security, LLM, and agent-native.
+overview: 'Patronus Protect publishes 1 API on the [APIs.io](https://apis.io/) network: Patronus Scan API. Tagged areas include AI Safety, Prompt Injection, Security, LLM, and Agent-Native.
 
 
   Patronus Protect''s developer surface includes getting-started guide, pricing, engineering blog, CLI, changelog, and 15 more developer resources.'
@@ -189,7 +189,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -213,7 +213,7 @@ tags:
 - Prompt Injection
 - Security
 - LLM
-- agent-native
+- Agent-Native
 - MCP
 - DLP
 - PII

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
-- acting_count: 12
+- acting_count: 32
   human_in_the_loop: 0
   name: Replicate Agentic Access
-  operation_count: 27
+  operation_count: 58
   slug: replicate-agentic-access
-  summary_line: 27 operations · 12 acting
+  summary_line: 58 operations · 32 acting
 api_count: 1
 apis:
 - baseURL: https://api.replicate.com/v1
@@ -499,10 +499,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 16
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

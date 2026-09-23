@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ modified: '2026-07-21T12:30:00Z'
 name: Bank Australia
 nav: Providers
 network: true
-overview: 'Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Data Right.
+overview: 'Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
   Bank Australia''s developer surface includes documentation, engineering blog, support, authentication, and 19 more developer resources.'
@@ -271,7 +271,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bank-australia
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

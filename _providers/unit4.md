@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - description: Comprehensive REST API for Unit4 ERPx cloud ERP platform covering time and expenses, personnel, payroll, procurement, project management, customers and sales, inventory management, planning, commitmen
@@ -113,7 +113,7 @@ modified: '2026-06-13'
 name: Unit4
 nav: Providers
 network: true
-overview: 'Unit4 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, Cloud ERP, Financial, Human Resources, and Payroll.
+overview: 'Unit4 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, Cloud ERP, Finance, Human Resources, and Payroll.
 
 
   Unit4''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -152,7 +152,7 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +172,7 @@ slug: unit4
 tags:
 - ERP
 - Cloud ERP
-- Financial
+- Finance
 - Human Resources
 - Payroll
 - Project Management

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 3
 apis:
 - description: 'The JSON HTTP "doors" under /api/* that every other GRITH surface projects: GET /api/gate returns the GRITH-GATE/1 handshake contract and a 600-second nonce; POST /api/gate presents (ask=look | bed | '
@@ -235,7 +235,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

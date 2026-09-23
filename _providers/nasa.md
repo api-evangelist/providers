@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -371,7 +371,7 @@ modified: '2026-06-20'
 name: NASA
 nav: Providers
 network: true
-overview: 'NASA publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Captions API, DONKI API, and 6 more. Tagged areas include Government, Science, and Space.
+overview: 'NASA publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Captions API, DONKI API, and 6 more. Tagged areas include Government, Science, Space, and Geospatial.
 
 
   The NASA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -433,7 +433,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -458,5 +458,6 @@ tags:
 - Government
 - Science
 - Space
+- Geospatial
 website: https://www.nasa.gov
 ---

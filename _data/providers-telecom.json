@@ -1,6 +1,6 @@
 {
- "total": 83,
- "shown": 83,
+ "total": 82,
+ "shown": 82,
  "limit": 1000,
  "bands": [
   {
@@ -11,57 +11,6 @@
    "count": 6,
    "shown": 6,
    "providers": [
-    {
-     "name": "Messagebird",
-     "slug": "messagebird",
-     "description": "MessageBird, which trades as Bird, is a Dutch cloud communications company whose platform carries email, SMS, WhatsApp, RCS, push, voice and eSIM traffic for businesses in over 200 countries. Bird publishes a first-party OpenAPI 3.1 description of 277 operations at bird.com/openapi.json and generates its TypeScript, Python, Go and PHP SDKs from it. The platform is unusually agent-native: a hosted MCP server at mcp.bird.com behind credential-less OAuth, a bird CLI with JSON output and semantic exit codes, published agent skills shipped as an Agent Plugins marketplace plugin, an RFC 9727 api-catalog, an Agentic Resource Discovery document, an llms.txt, and a Markdown twin of every documentation page. One auth model, one opt-in Idempotency-Key contract, IETF RateLimit headers and one stable error envelope span every channel. The legacy MessageBird REST API at rest.messagebird.com is still served alongside it.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png",
-     "score": 92.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 72.3,
-      "contract_governance": 47.0,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 81.0,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 73.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 68.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "CPaaS & Messaging Aggregators",
-     "rank": 1
-    },
     {
      "name": "Infobip",
      "slug": "infobip",
@@ -78,7 +27,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -118,14 +67,14 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 2
+     "rank": 1
     },
     {
      "name": "Twilio",
      "slug": "twilio",
      "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
-     "score": 77.8,
+     "score": 78.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -133,10 +82,10 @@
       "contract_quality": 73.4,
       "contract_governance": 33.3,
       "operational_transparency": 63.2,
-      "developer_ergonomics": 79.8,
+      "developer_ergonomics": 83.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -169,6 +118,57 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
+     "rank": 2
+    },
+    {
+     "name": "Messagebird",
+     "slug": "messagebird",
+     "description": "MessageBird, which trades as Bird, is a Dutch cloud communications company whose platform carries email, SMS, WhatsApp, RCS, push, voice and eSIM traffic for businesses in over 200 countries. Bird publishes a first-party OpenAPI 3.1 description of 277 operations at bird.com/openapi.json and generates its TypeScript, Python, Go and PHP SDKs from it. The platform is unusually agent-native: a hosted MCP server at mcp.bird.com behind credential-less OAuth, a bird CLI with JSON output and semantic exit codes, published agent skills shipped as an Agent Plugins marketplace plugin, an RFC 9727 api-catalog, an Agentic Resource Discovery document, an llms.txt, and a Markdown twin of every documentation page. One auth model, one opt-in Idempotency-Key contract, IETF RateLimit headers and one stable error envelope span every channel. The legacy MessageBird REST API at rest.messagebird.com is still served alongside it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png",
+     "score": 78.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 72.3,
+      "contract_governance": 47.0,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 81.0,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 73.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 63.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "CPaaS & Messaging Aggregators",
      "rank": 3
     },
     {
@@ -187,7 +187,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -196,12 +196,12 @@
       "score": 81.9,
       "matched_via": "tags"
      },
-     "agent_score": 55.8,
+     "agent_score": 57.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
@@ -238,7 +238,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -289,7 +289,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -340,18 +340,18 @@
      "slug": "swisscom",
      "description": "Swisscom is Switzerland's largest telecommunications provider and the incumbent mobile network operator, fixed-line carrier and IT services company for the Swiss market, majority-owned by the Swiss Confederation and also operating Fastweb in Italy. In the telecom value chain it is a facilities-based MNO that owns the radio access and core network, sells mobile, broadband, TV and enterprise IT, and monetises network-derived data. Its API posture is unusual for a European incumbent: alongside the expected partner-gated enterprise surface it runs a genuine first-party API marketplace at digital.swisscom.com listing ten productive API products (SMS, SMS token 2FA, inbound SMS, mobility heatmaps, dwell times, origin-destination, NATEL go smart catalogs, AI inference endpoints and a business identity validator) served from a live api.swisscom.com gateway, plus a separately maintained, actively released Swisscom Sign Integration API with a downloadable OpenAPI 3.1 document. The catch is that every API reference, key and spec beyond Swisscom Sign sits behind a Swisscom login and, for several products, a signed service contract — the marketplace is a storefront, not open documentation. On network APIs Swisscom was one of the 21 founding signatories of the GSMA Open Gateway Memorandum of Understanding in February 2023, but it publishes no CAMARA API, no Open Gateway developer portal and no callable network-API endpoint; developers who want SIM-swap or phone-verification signals from the Swisscom network have historically reached them through third-party channels such as IPification rather than from Swisscom directly. Its legacy developer programme (developer.swisscom.com, the Cloud Foundry Application Cloud, the swisscom-developer GitHub SDKs) is dead or redirected, and the older Messaging and Voice APIs are still documented only as RAML-rendered HTML in a GitHub wiki.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/screenshots/swisscom-2026-08-17T082213.png",
-     "score": 64.9,
+     "score": 64.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 67.2,
+      "contract_quality": 66.4,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
       "developer_ergonomics": 75.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -409,7 +409,7 @@
       "developer_ergonomics": 67.9,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -460,7 +460,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -511,7 +511,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -562,7 +562,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -613,7 +613,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -664,7 +664,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -680,7 +680,7 @@
        }
       ]
      },
-     "agent_score": 46.9,
+     "agent_score": 43.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -692,7 +692,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": false,
-      "event_surface_described": true,
+      "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -707,62 +707,11 @@
      "rank": 13
     },
     {
-     "name": "Soracom",
-     "slug": "soracom",
-     "description": "Soracom is a global IoT cellular connectivity and platform provider headquartered in Tokyo, founded in 2014, with regional operations in the US (Soracom Global) and EU. The platform pairs multicarrier SIMs (physical, eSIM, iSIM) across 170+ countries with a deep platform of cloud integration services (Beam, Funnel, Funk), data services (Harvest, Lagoon, Query, Orbit), device management (Inventory, Krypton, Endorse, Napter), and network gateways (VPG / Canal / Direct / Door / Gate / Junction / Peek). Soracom exposes the entire stack through a coverage-aware REST API documented at users.soracom.io and maintained as a public OpenAPI 3.0 specification in the soracom-cli GitHub repo.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png",
-     "score": 57.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 67.4,
-      "contract_governance": 28.8,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 75.0,
-      "access_clarity": 56.6
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 23.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "IoT Connectivity & eSIM",
-     "rank": 14
-    },
-    {
      "name": "GSMA",
      "slug": "gsma",
      "description": "The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona. In telecom's API value chain the GSMA is not a network operator and not an aggregator; it is the standards and commitment layer. Its GSMA Open Gateway initiative is the memorandum of understanding under which 69 operator groups, representing 78% of global mobile connections, commit to exposing a common set of network APIs, while the API specifications themselves are authored in the Linux Foundation's CAMARA project. The GSMA's API posture is unusually open for a standards body: its Open Gateway developer portal at open-gateway.gsma.com publishes 17 CAMARA OpenAPI 3.0.3 documents in full, without login, alongside a live public deployment map covering 607 launched API instances across 80 operators and 65 countries, and it runs a separate, fully open Mobile Money API developer portal with a downloadable OpenAPI 3.0.0 specification, SDKs, and use-case guides. The gates are real but narrow: the API sandbox requires a GitHub sign-in, the anti-fraud Scam Signal API is held in a private GSMA repository rather than in public CAMARA, and the commercial GSMA Services products (Device Check, IMEI Database, PathFinder, Disposable Number Check) are membership and contract gated with no public documentation. The GSMA runs no production network API endpoints of its own — every Open Gateway API is served by an operator or a channel partner such as Infobip, IPification, TMT iD, XConnect, or Singtel.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/screenshots/gsma-2026-08-07T165856.png",
-     "score": 56.9,
+     "score": 57.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -770,10 +719,10 @@
       "contract_quality": 58.3,
       "contract_governance": 4.5,
       "operational_transparency": 44.7,
-      "developer_ergonomics": 73.2,
+      "developer_ergonomics": 78.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -806,6 +755,57 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
+     "rank": 14
+    },
+    {
+     "name": "Soracom",
+     "slug": "soracom",
+     "description": "Soracom is a global IoT cellular connectivity and platform provider headquartered in Tokyo, founded in 2014, with regional operations in the US (Soracom Global) and EU. The platform pairs multicarrier SIMs (physical, eSIM, iSIM) across 170+ countries with a deep platform of cloud integration services (Beam, Funnel, Funk), data services (Harvest, Lagoon, Query, Orbit), device management (Inventory, Krypton, Endorse, Napter), and network gateways (VPG / Canal / Direct / Door / Gate / Junction / Peek). Soracom exposes the entire stack through a coverage-aware REST API documented at users.soracom.io and maintained as a public OpenAPI 3.0 specification in the soracom-cli GitHub repo.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png",
+     "score": 57.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 67.4,
+      "contract_governance": 28.8,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 75.0,
+      "access_clarity": 56.6
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 23.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "IoT Connectivity & eSIM",
      "rank": 15
     },
     {
@@ -824,7 +824,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -875,7 +875,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -926,7 +926,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -962,112 +962,11 @@
      "rank": 18
     },
     {
-     "name": "MEF",
-     "slug": "mef",
-     "description": "MEF — rebranded as Mplify Alliance on 24 June 2025 — is a US-headquartered nonprofit industry alliance of network, cloud, cybersecurity and enterprise organizations that defines the standards behind Carrier Ethernet, SD-WAN, SASE and Network-as-a-Service, and that publishes the LSO (Lifecycle Service Orchestration) API suite used by carriers to automate wholesale and inter-provider business and operational transactions. MEF sits on the wireline/standards side of the telecom value chain: it does not operate a network and sells no connectivity, it produces specifications, SDKs, an interop test service and the MEF 3.0 LSO API Certification Program that service providers and their software vendors implement. Its API posture is unusually open for this sector — the LSO Cantata, Sonata, Allegro, Interlude, Legato and Presto SDKs are published as Apache-2.0 OpenAPI documents in the public MEF-GIT GitHub organization, and lso.mplify.net is a genuine, no-login developer portal with an API catalog, payload catalog, an API blending tool and SDK release downloads. The membership wall sits one layer in, not around the specs: the per-API Developer Guides on GitHub and the test-requirements documents on the Mplify wiki are member-only, while the machine-readable API definitions themselves are free to anyone. On network APIs MEF is a GSMA Open Gateway MOU signatory (announced 11 November 2025, alongside the GSMA, the Linux Foundation and TM Forum) and ships a pre-standard LSO Quality on Demand payload schema explicitly aligned to the CAMARA QoD API — it complements CAMARA on the wireline side rather than exposing CAMARA endpoints itself, because it has no network to expose.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/screenshots/mef-2026-08-07T172427.png",
-     "score": 55.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 53.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 85.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 66.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Standards Bodies",
-     "rank": 19
-    },
-    {
-     "name": "AT&T",
-     "slug": "att",
-     "description": "AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth), the MVNX APIs for mobile virtual network operators, the Alliance enterprise wireline APIs for service qualification and ordering, and the invite-only Network API Accelerator Program exposing GSMA CAMARA network APIs — SIM swap, device status, number verification, quality on demand, network insights and mobility threat detection.",
-     "score": 55.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 43.1,
-      "contract_governance": 69.7,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 51.2,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 58.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 34.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mobile Network Operators",
-     "rank": 20
-    },
-    {
      "name": "Telstra",
      "slug": "telstra",
      "description": "Telstra is Australia's largest telecommunications and mobile network operator, providing fixed broadband, mobile voice and data, enterprise networking, and IoT connectivity across Australia and into Asia. Telstra exposes a developer programme at dev.telstra.com fronting carrier-grade Messaging (SMS / MMS) and Mobile Number Verification APIs, with official SDKs in Python, Node.js, Java, .NET, and Go, and Arduino libraries for the Telstra Cat-1 and Cat-M1 IoT development kits. APIs are reached at tapi.telstra.com behind OAuth 2.0 client credentials with the NSMS or MNV scopes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png",
-     "score": 55.1,
+     "score": 55.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -1075,10 +974,10 @@
       "contract_quality": 71.0,
       "contract_governance": 28.8,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 46.4,
+      "developer_ergonomics": 50.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1111,6 +1010,107 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
+     "rank": 19
+    },
+    {
+     "name": "MEF",
+     "slug": "mef",
+     "description": "MEF — rebranded as Mplify Alliance on 24 June 2025 — is a US-headquartered nonprofit industry alliance of network, cloud, cybersecurity and enterprise organizations that defines the standards behind Carrier Ethernet, SD-WAN, SASE and Network-as-a-Service, and that publishes the LSO (Lifecycle Service Orchestration) API suite used by carriers to automate wholesale and inter-provider business and operational transactions. MEF sits on the wireline/standards side of the telecom value chain: it does not operate a network and sells no connectivity, it produces specifications, SDKs, an interop test service and the MEF 3.0 LSO API Certification Program that service providers and their software vendors implement. Its API posture is unusually open for this sector — the LSO Cantata, Sonata, Allegro, Interlude, Legato and Presto SDKs are published as Apache-2.0 OpenAPI documents in the public MEF-GIT GitHub organization, and lso.mplify.net is a genuine, no-login developer portal with an API catalog, payload catalog, an API blending tool and SDK release downloads. The membership wall sits one layer in, not around the specs: the per-API Developer Guides on GitHub and the test-requirements documents on the Mplify wiki are member-only, while the machine-readable API definitions themselves are free to anyone. On network APIs MEF is a GSMA Open Gateway MOU signatory (announced 11 November 2025, alongside the GSMA, the Linux Foundation and TM Forum) and ships a pre-standard LSO Quality on Demand payload schema explicitly aligned to the CAMARA QoD API — it complements CAMARA on the wireline side rather than exposing CAMARA endpoints itself, because it has no network to expose.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/screenshots/mef-2026-08-07T172427.png",
+     "score": 55.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 53.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 85.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 66.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Standards Bodies",
+     "rank": 20
+    },
+    {
+     "name": "AT&T",
+     "slug": "att",
+     "description": "AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth), the MVNX APIs for mobile virtual network operators, the Alliance enterprise wireline APIs for service qualification and ordering, and the invite-only Network API Accelerator Program exposing GSMA CAMARA network APIs — SIM swap, device status, number verification, quality on demand, network insights and mobility threat detection.",
+     "score": 55.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 43.1,
+      "contract_governance": 69.7,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 51.2,
+      "access_clarity": 47.4
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 58.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 34.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mobile Network Operators",
      "rank": 21
     },
     {
@@ -1129,7 +1129,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1187,7 +1187,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1237,7 +1237,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1280,8 +1280,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 27,
-   "shown": 27,
+   "count": 26,
+   "shown": 26,
    "providers": [
     {
      "name": "Totogi",
@@ -1299,7 +1299,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1339,18 +1339,18 @@
      "slug": "optus",
      "description": "Optus (Singtel Optus Pty Limited) is Australia's second-largest telecommunications carrier, wholly owned by Singapore's Singtel and headquartered in Macquarie Park, Sydney. It runs a national mobile network reaching over 99% of the Australian population, alongside NBN and cable broadband, satellite capacity inherited from AUSSAT, enterprise and government connectivity, IoT/M2M services, and consumer media. Its API posture is split in two. The only genuinely public, self-serve developer surface Optus operates is The Optus SMS Suite — an enterprise messaging platform white-labelled from New Zealand's Modica Group at sms.optus.com.au, which publishes open documentation, downloadable OpenAPI/Swagger definitions, a WSDL, delivery-receipt callbacks, and a free-trial signup. Everything else is partner-gated: the IoT Control Centre is a Cisco/Jasper platform behind a referral-coded starter kit, and Optus has no first-party network-API portal — developer.optus.com.au and api.optus.com.au resolve on Akamai but return HTTP 403 Access Denied. On network APIs Optus is a stated GSMA Open Gateway participant and an endorser of the Bridge Alliance API Exchange (BAEx), but as of this review no CAMARA API is callable from Optus directly; its route to developers runs through its parent Singtel's Paragon-powered BAEx and Aduna, not through anything Optus publishes itself.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png",
-     "score": 53.9,
+     "score": 53.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 57.1,
+      "contract_quality": 56.8,
       "contract_governance": 18.2,
       "operational_transparency": 57.9,
       "developer_ergonomics": 56.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1359,7 +1359,7 @@
       "score": 62.5,
       "matched_via": "tags"
      },
-     "agent_score": 27.9,
+     "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1371,7 +1371,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": true,
+      "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1401,7 +1401,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1452,7 +1452,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1508,13 +1508,13 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 54.5,
+      "contract_quality": 54.3,
       "contract_governance": 4.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 63.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1565,7 +1565,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1616,7 +1616,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1667,7 +1667,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1718,7 +1718,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1754,62 +1754,11 @@
      "rank": 33
     },
     {
-     "name": "TPG Telecom",
-     "slug": "tpg-telecom",
-     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/screenshots/tpg-telecom-2026-08-17T082417.png",
-     "score": 51.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 41.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 47.0,
-      "access_clarity": 63.2
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 51.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mobile Network Operators",
-     "rank": 34
-    },
-    {
      "name": "Vonage",
      "slug": "vonage",
      "description": "Vonage (part of Ericsson) provides cloud communications APIs for voice, SMS, messaging, video, and verification. The Vonage API platform enables businesses to embed communication capabilities into applications including voice calls, SMS, multi-channel messaging (WhatsApp, Messenger, Viber, RCS), video conferencing, and two-factor authentication. SDKs are available for Node.js, Python, Java, PHP, Ruby, .NET, Go, and Kotlin.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png",
-     "score": 51.0,
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -1817,10 +1766,10 @@
       "contract_quality": 68.6,
       "contract_governance": 13.6,
       "operational_transparency": 13.2,
-      "developer_ergonomics": 63.1,
+      "developer_ergonomics": 66.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1853,58 +1802,58 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 35
+     "rank": 34
     },
     {
-     "name": "GSMA Open Gateway",
-     "slug": "open-gateway",
-     "description": "GSMA Open Gateway is the mobile industry's operator-commitment and certification layer for network APIs, run by the GSM Association from its London headquarters in the United Kingdom. Launched at MWC Barcelona on 27 February 2023 with 21 operator groups and eight universal network APIs, it is the go-to-market wrapper around CAMARA, the Linux Foundation-hosted Telco Global API Alliance that actually authors the OpenAPI definitions. GSMA sits above the value chain rather than in it: it signs operators and channel partners to a memorandum of understanding, certifies implementations against CAMARA service APIs and TM Forum Operate APIs, and publishes which certified APIs are live in which markets. Its API posture is honestly non-existent as a first-party surface. GSMA operates no callable API, publishes no OpenAPI under its own name, and runs no self-serve developer portal with keys or a sandbox. open-gateway.gsma.com is a filterable directory of certified deployments, and every automated probe of it and of gsma.com returned an HTTP 403 Cloudflare bot challenge. The specifications are open on GitHub under camaraproject and tmforum-apis; the endpoints belong to operators; and developers reach them through aggregators and channel partners such as Aduna, Vonage, Infobip, Sinch, Twilio, Nokia, AWS and Bridge Alliance rather than through the GSMA. Per the GSMA's own Q1 2026 Open Gateway update, 81 operator groups and 61 channel partners covering 292 networks and about 80 percent of global mobile connections have signed, with 237 certified API assets drawn from 33 CAMARA tagged released APIs and 280 API instances commercially launched across 85 networks in 50 markets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/screenshots/open-gateway-2026-08-07T190457.png",
-     "score": 50.9,
+     "name": "TPG Telecom",
+     "slug": "tpg-telecom",
+     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tpg-telecom/refs/heads/main/screenshots/tpg-telecom-2026-08-17T082417.png",
+     "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 57.5,
+      "discoverability": 68.5,
+      "contract_quality": 41.6,
       "contract_governance": 4.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 61.3,
-      "access_clarity": 10.5
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 47.0,
+      "access_clarity": 63.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
-      "score": 69.4,
+      "score": 51.4,
       "matched_via": "tags"
      },
-     "agent_score": 38.1,
-     "agent_band": "agent-ready",
+     "agent_score": 26.1,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "negotiable",
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "documented",
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Network-API Exposure (CAMARA / Open Gateway)",
-     "rank": 36
+     "tier": "Mobile Network Operators",
+     "rank": 35
     },
     {
      "name": "KORE Wireless",
@@ -1922,7 +1871,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1955,7 +1904,7 @@
       "agentic_commerce": false
      },
      "tier": "IoT Connectivity & eSIM",
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "3GPP",
@@ -1973,7 +1922,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2006,7 +1955,7 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Bharti Airtel",
@@ -2024,7 +1973,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2057,7 +2006,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Tata Communications",
@@ -2075,7 +2024,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2108,7 +2057,7 @@
       "agentic_commerce": false
      },
      "tier": "Wholesale & Interconnect",
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Bell Canada",
@@ -2126,7 +2075,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2159,7 +2108,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "Telnyx",
@@ -2177,7 +2126,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2210,7 +2159,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Ofcom",
@@ -2228,7 +2177,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2261,7 +2210,7 @@
       "agentic_commerce": false
      },
      "tier": "Regulators",
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "Starlink",
@@ -2279,7 +2228,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2312,7 +2261,7 @@
       "agentic_commerce": false
      },
      "tier": "Satellite & Non-Terrestrial",
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "TMT ID",
@@ -2330,7 +2279,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2363,7 +2312,7 @@
       "agentic_commerce": false
      },
      "tier": "Identity & Anti-Fraud",
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "SK Telecom",
@@ -2381,7 +2330,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2414,7 +2363,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Telesign",
@@ -2432,7 +2381,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2465,7 +2414,7 @@
       "agentic_commerce": false
      },
      "tier": "Identity & Anti-Fraud",
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Plivo",
@@ -2483,7 +2432,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2516,7 +2465,7 @@
       "agentic_commerce": false
      },
      "tier": "CPaaS & Messaging Aggregators",
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "China Mobile",
@@ -2534,7 +2483,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2567,7 +2516,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Liberty Global",
@@ -2585,7 +2534,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2618,7 +2567,7 @@
       "agentic_commerce": false
      },
      "tier": "Fixed & Broadband",
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Mavenir",
@@ -2636,7 +2585,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2669,7 +2618,7 @@
       "agentic_commerce": false
      },
      "tier": "Network Vendors & BSS/OSS",
-     "rank": 51
+     "rank": 50
     }
    ]
   },
@@ -2697,7 +2646,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2730,7 +2679,7 @@
       "agentic_commerce": false
      },
      "tier": "Network Vendors & BSS/OSS",
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Telefónica",
@@ -2748,7 +2697,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2781,6 +2730,57 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
+     "rank": 52
+    },
+    {
+     "name": "Comcast",
+     "slug": "comcast",
+     "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
+     "score": 36.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 0.0,
+      "contract_governance": 4.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 61.3,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 66.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 15.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Fixed & Broadband",
      "rank": 53
     },
     {
@@ -2799,7 +2799,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2850,7 +2850,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2901,7 +2901,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2952,7 +2952,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2996,7 +2996,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3047,7 +3047,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3098,7 +3098,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3134,50 +3134,6 @@
      "rank": 60
     },
     {
-     "name": "Comcast",
-     "slug": "comcast",
-     "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
-     "score": 30.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 0.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 61.3,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 15.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Fixed & Broadband",
-     "rank": 61
-    },
-    {
      "name": "Dialpad",
      "slug": "dialpad",
      "description": "Dialpad is an AI-powered cloud communications platform offering business phone, contact center, video, and messaging. Notable for Dialpad Ai (real-time transcription, sentiment, coaching).",
@@ -3193,7 +3149,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -3219,7 +3175,7 @@
       "agentic_commerce": false
      },
      "tier": "UCaaS & Cloud Voice",
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "NTT Docomo",
@@ -3237,7 +3193,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3270,7 +3226,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Deutsche Telekom",
@@ -3288,7 +3244,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3321,7 +3277,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 64
+     "rank": 63
     }
    ]
   },
@@ -3349,7 +3305,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3382,7 +3338,7 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "ITU",
@@ -3400,7 +3356,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3433,7 +3389,7 @@
       "agentic_commerce": false
      },
      "tier": "Regulators",
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Charter Communications",
@@ -3451,7 +3407,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3484,6 +3440,57 @@
       "agentic_commerce": false
      },
      "tier": "Fixed & Broadband",
+     "rank": 66
+    },
+    {
+     "name": "BICS",
+     "slug": "bics-network",
+     "description": "BICS is an international communications enabler and wholesale carrier, part of Proximus Global (alongside Telesign and Route Mobile). Its developer portal exposes OAuth2-secured REST APIs at api.bics.com for A2P SMS and OTP delivery, global number provisioning and portability (MyNumbers), call detail records, emergency services, and carrier-grade cloud connectivity. BICS also offers mobile identity capabilities - phone number verification, HLR/reachability lookup, SIM-swap detection and device-location signals for anti-fraud and KYC - as partner and carrier contract products across the Proximus Global network rather than as self-serve endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/screenshots/bics-network-2026-07-25T202908.png",
+     "score": 23.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 53.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 8.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Wholesale & Interconnect",
      "rank": 67
     },
     {
@@ -3491,18 +3498,18 @@
      "slug": "virgin-media-o2",
      "description": "Virgin Media O2 is the United Kingdom's converged fixed and mobile network operator, formed in 2021 as a 50/50 joint venture between Telefonica and Liberty Global by merging Virgin Media's cable broadband business with O2 UK's mobile network. It serves roughly half the UK population across mobile, broadband, and fixed wholesale, and sits at the connectivity layer of the telecom value chain rather than the developer-tools layer. Its API posture is partner-gated and sales-led: probing developer.virginmediao2.co.uk, developers.virginmediao2.co.uk, docs.virginmediao2.co.uk, api.virginmediao2.co.uk, opengateway.virginmediao2.co.uk, developer.o2.co.uk and the virginmediao2business.co.uk equivalents returns DNS failure or HTTP 404 in every case, and neither the o2.co.uk sitemap nor the corporate site contains a developer or API section. Virgin Media O2 is a GSMA Open Gateway participant and on 23 September 2025 joined BT/EE, Vodafone and CK Hutchison (Three UK) in the commercial UK launch of CAMARA-standardised KYC Age Verification and KYC Tenure APIs, with SIM Swap already live and KYC Match committed; but developers reach that network-API surface only through third-party aggregators such as JT Group and TMT.ID, never through a Virgin Media O2 portal. There is no public self-serve signup, no downloadable OpenAPI, no sandbox, and no first-party SDK. Its GitHub organisation exists and is empty.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/virgin-media-o2/refs/heads/main/screenshots/virgin-media-o2-2026-09-02T170000.png",
-     "score": 24.5,
+     "score": 22.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 13.3,
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 16.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3538,57 +3545,6 @@
      "rank": 68
     },
     {
-     "name": "BICS",
-     "slug": "bics-network",
-     "description": "BICS is an international communications enabler and wholesale carrier, part of Proximus Global (alongside Telesign and Route Mobile). Its developer portal exposes OAuth2-secured REST APIs at api.bics.com for A2P SMS and OTP delivery, global number provisioning and portability (MyNumbers), call detail records, emergency services, and carrier-grade cloud connectivity. BICS also offers mobile identity capabilities - phone number verification, HLR/reachability lookup, SIM-swap detection and device-location signals for anti-fraud and KYC - as partner and carrier contract products across the Proximus Global network rather than as self-serve endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/screenshots/bics-network-2026-07-25T202908.png",
-     "score": 23.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 53.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 8.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Wholesale & Interconnect",
-     "rank": 69
-    },
-    {
      "name": "Nokia",
      "slug": "nokia-corp",
      "description": "Nokia (Nokia Oyj) is a Finnish multinational telecommunications, information technology, and consumer electronics corporation headquartered in Espoo, Finland. Nokia is a leading vendor of carrier-grade network equipment for communication service providers (CSPs), webscalers, and enterprises across mobile (5G/6G RAN, Core), fixed (broadband, fiber), IP (Service Router OS / SR Linux), optical (WaveSuite, 1830 PSS/PSI), submarine cable, and cloud and network services. Nokia's developer surface spans (1) the Network Services Platform (NSP) automation suite, (2) the SR OS / SR Linux network operating systems with the pySROS SDK and YANG models for the 7x50 platform, (3) WaveSuite optical management REST APIs with Swagger documentation, (4) the CAMARA-compliant Network as Code platform exposing 16+ standardized network APIs (Quality on Demand, Device Location, SIM Swap, Number Verification, KYC, Geofencing, Slicing) for B2B and B2C developer consumption, and (5) the Network Exposure Platform that enables operators to expose their own network capabilities to developers. Nokia also operates Nokia Technologies (licensing), the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3 tooling (ntt), Corteca CLI, Moler test framework, and YANG models.",
@@ -3604,7 +3560,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3637,7 +3593,7 @@
       "agentic_commerce": false
      },
      "tier": "Network Vendors & BSS/OSS",
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Three UK",
@@ -3655,7 +3611,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3688,7 +3644,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Singtel",
@@ -3706,7 +3662,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3739,7 +3695,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "T-Mobile",
@@ -3756,7 +3712,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3789,7 +3745,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Boku",
@@ -3807,7 +3763,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3840,7 +3796,7 @@
       "agentic_commerce": false
      },
      "tier": "Identity & Anti-Fraud",
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Vodafone",
@@ -3858,7 +3814,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3891,7 +3847,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 75
+     "rank": 74
     }
    ]
   },
@@ -3919,7 +3875,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3952,7 +3908,7 @@
       "agentic_commerce": false
      },
      "tier": "Wholesale & Interconnect",
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "AST SpaceMobile",
@@ -3970,7 +3926,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4003,7 +3959,7 @@
       "agentic_commerce": false
      },
      "tier": "Satellite & Non-Terrestrial",
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "BT Group",
@@ -4021,7 +3977,58 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 16.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mobile Network Operators",
+     "rank": 77
+    },
+    {
+     "name": "TIM",
+     "slug": "tim-com",
+     "description": "TIM S.p.A. (formerly Telecom Italia) is the incumbent Italian telecommunications operator headquartered in Rome and one of the largest telcos in Europe. The group operates fixed and mobile networks across Italy under the TIM Consumer and TIM Enterprise brands, runs TIM Brasil (the second-largest mobile operator in Brazil), and owns a portfolio of technology subsidiaries including Sparkle (international connectivity and quantum-safe infrastructure), Noovle (cloud), Telsy (cybersecurity), and Olivetti (IT services). TIM exposes its mobile network as a programmable platform through the developer.tim.it portal in Italy and through TIM Open Gateway in Brazil, both implementing CAMARA-standard network APIs (SIM Swap, Number Verification, Know Your Customer, IP-to-MSISDN, IP-to- Number, Device Location) jointly defined by the Linux Foundation, TM Forum, and GSMA. These APIs let banks, fintechs, insurers, retailers, and online services authenticate users, detect SIM-swap fraud, verify customer identity, and locate devices using TIM's mobile network as the trust anchor. As of late 2025 TIM Brasil reported 50 million Open Gateway API queries across its catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tim-com/refs/heads/main/screenshots/tim-com-2026-06-20T195400.png",
+     "score": 8.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4057,28 +4064,28 @@
      "rank": 78
     },
     {
-     "name": "TIM",
-     "slug": "tim-com",
-     "description": "TIM S.p.A. (formerly Telecom Italia) is the incumbent Italian telecommunications operator headquartered in Rome and one of the largest telcos in Europe. The group operates fixed and mobile networks across Italy under the TIM Consumer and TIM Enterprise brands, runs TIM Brasil (the second-largest mobile operator in Brazil), and owns a portfolio of technology subsidiaries including Sparkle (international connectivity and quantum-safe infrastructure), Noovle (cloud), Telsy (cybersecurity), and Olivetti (IT services). TIM exposes its mobile network as a programmable platform through the developer.tim.it portal in Italy and through TIM Open Gateway in Brazil, both implementing CAMARA-standard network APIs (SIM Swap, Number Verification, Know Your Customer, IP-to-MSISDN, IP-to- Number, Device Location) jointly defined by the Linux Foundation, TM Forum, and GSMA. These APIs let banks, fintechs, insurers, retailers, and online services authenticate users, detect SIM-swap fraud, verify customer identity, and locate devices using TIM's mobile network as the trust anchor. As of late 2025 TIM Brasil reported 50 million Open Gateway API queries across its catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tim-com/refs/heads/main/screenshots/tim-com-2026-06-20T195400.png",
-     "score": 8.4,
+     "name": "Skylo",
+     "slug": "skylo",
+     "description": "Skylo Technologies is a satellite communications company based in Mountain View, California, operating a global Non-Terrestrial Network (NTN) that lets standard smartphones and IoT cellular devices connect directly to satellites over 3GPP Release 17 direct-to-device (D2D) standards for SMS, sensor telemetry, and other low-bandwidth messaging. Founded in 2017 and backed by DCM, SoftBank, Intel Capital, Innovation Endeavors, BMW i Ventures, Samsung Catalyst, Next47, Seraphim Space, and NGP Capital, Skylo has commercial service across the US, Brazil, Australia, New Zealand, and Europe. Skylo does not publish a public REST/HTTP API; developer integration is device-level (certified modules such as Quectel, Murata, Blues Notecard and Particle) with detailed procedures gated behind a partner Knowledge Base. This API Evangelist profile tracks the company and its developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skylo/refs/heads/main/screenshots/skylo-2026-09-02T155807.png",
+     "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 26.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
-      "score": 16.7,
+      "score": 8.3,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -4104,34 +4111,26 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Mobile Network Operators",
+     "tier": "Satellite & Non-Terrestrial",
      "rank": 79
     },
     {
-     "name": "Skylo",
-     "slug": "skylo",
-     "description": "Skylo Technologies is a satellite communications company based in Mountain View, California, operating a global Non-Terrestrial Network (NTN) that lets standard smartphones and IoT cellular devices connect directly to satellites over 3GPP Release 17 direct-to-device (D2D) standards for SMS, sensor telemetry, and other low-bandwidth messaging. Founded in 2017 and backed by DCM, SoftBank, Intel Capital, Innovation Endeavors, BMW i Ventures, Samsung Catalyst, Next47, Seraphim Space, and NGP Capital, Skylo has commercial service across the US, Brazil, Australia, New Zealand, and Europe. Skylo does not publish a public REST/HTTP API; developer integration is device-level (certified modules such as Quectel, Murata, Blues Notecard and Particle) with detailed procedures gated behind a partner Knowledge Base. This API Evangelist profile tracks the company and its developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skylo/refs/heads/main/screenshots/skylo-2026-09-02T155807.png",
-     "score": 7.4,
+     "name": "Iridium",
+     "slug": "iridium-com",
+     "description": "Iridium Communications Inc. (NASDAQ: IRDM) is a McLean, Virginia satellite communications company operating a constellation of 66 cross-linked Low Earth Orbit (LEO) satellites that deliver truly global L-band voice, data, IoT, and positioning/navigation/timing (PNT) services across every region of the Earth, including the polar oceans. Iridium sells satellite phones (Iridium Extreme), satellite messengers, satellite IoT modules and modems (Iridium 9602/9603, Iridium Certus 9770/9810/9704, Iridium Edge, Iridium Edge Pro, Iridium Edge Solar), Short Burst Data (SBD) messaging, broadband Certus terminals, and next-generation Iridium NTN Direct 5G Non-Terrestrial Network services built on 3GPP NB-IoT for direct-to-device smartphone and IoT connectivity. Iridium CloudConnect — co-developed with Amazon Web Services — pipes satellite IoT data as JSON into customer-owned Amazon SQS queues inside their own AWS VPC over a dedicated private Iridium-AWS interconnect, making Iridium the first global cloud-native satellite IoT backhaul. The company serves aviation, maritime, government/defense, land-mobile, autonomous systems, and IoT markets through a partner ecosystem of more than 500 service providers, value-added resellers, and hardware OEMs, and in May 2026 announced a planned acquisition of Aireon, operator of the world's only space-based air traffic surveillance network. Iridium's business model is airtime/subscription revenue plus hardware module licensing and engineering services; there is no public, self-service developer API or OpenAPI — network access is mediated through Iridium-authorized service providers, the Iridium CloudConnect AWS integration, and hardware-level AT-command and SBD interfaces on Iridium modems.",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 26.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 8.3,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4159,49 +4158,6 @@
      "rank": 80
     },
     {
-     "name": "Iridium",
-     "slug": "iridium-com",
-     "description": "Iridium Communications Inc. (NASDAQ: IRDM) is a McLean, Virginia satellite communications company operating a constellation of 66 cross-linked Low Earth Orbit (LEO) satellites that deliver truly global L-band voice, data, IoT, and positioning/navigation/timing (PNT) services across every region of the Earth, including the polar oceans. Iridium sells satellite phones (Iridium Extreme), satellite messengers, satellite IoT modules and modems (Iridium 9602/9603, Iridium Certus 9770/9810/9704, Iridium Edge, Iridium Edge Pro, Iridium Edge Solar), Short Burst Data (SBD) messaging, broadband Certus terminals, and next-generation Iridium NTN Direct 5G Non-Terrestrial Network services built on 3GPP NB-IoT for direct-to-device smartphone and IoT connectivity. Iridium CloudConnect — co-developed with Amazon Web Services — pipes satellite IoT data as JSON into customer-owned Amazon SQS queues inside their own AWS VPC over a dedicated private Iridium-AWS interconnect, making Iridium the first global cloud-native satellite IoT backhaul. The company serves aviation, maritime, government/defense, land-mobile, autonomous systems, and IoT markets through a partner ecosystem of more than 500 service providers, value-added resellers, and hardware OEMs, and in May 2026 announced a planned acquisition of Aireon, operator of the world's only space-based air traffic surveillance network. Iridium's business model is airtime/subscription revenue plus hardware module licensing and engineering services; there is no public, self-service developer API or OpenAPI — network access is mediated through Iridium-authorized service providers, the Iridium CloudConnect AWS integration, and hardware-level AT-command and SBD interfaces on Iridium modems.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Satellite & Non-Terrestrial",
-     "rank": 81
-    },
-    {
      "name": "KDDI",
      "slug": "kddi",
      "description": "KDDI Corporation is a Japanese multinational telecommunications operator headquartered in Tokyo, providing mobile, fixed-line, broadband, and enterprise ICT services. KDDI markets its consumer mobile services under the au brand, alongside UQ mobile and povo, and serves enterprise customers globally through KDDI Global and KDDI America. The company operates the KDDI Open API for Developers portal exposing inquiry-gated product APIs including the au PAY Mini App platform, an XR/MEC low-latency application API, a PPM consent management API, and an au mobile Identification Support Service for KYC/identity verification. KDDI also runs the au OPEN DEVICE DEVELOPER SITE for cellular module device certification, and a KDDI Cloud Platform Service knowledge site with developer API references for cloud infrastructure. In 2025 KDDI became an equity partner in Aduna, the GSMA/Ericsson-backed network API venture aggregating CAMARA-aligned carrier APIs (Number Verify, SIM Swap, Quality on Demand, Device Location) across global operators. Public OpenAPI specifications are not openly published; API access is provided through contact/inquiry workflows after partner onboarding.",
@@ -4217,7 +4173,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4250,7 +4206,7 @@
       "agentic_commerce": false
      },
      "tier": "Mobile Network Operators",
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Ericsson",
@@ -4268,7 +4224,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4301,7 +4257,7 @@
       "agentic_commerce": false
      },
      "tier": "Network-API Exposure (CAMARA / Open Gateway)",
-     "rank": 83
+     "rank": 82
     }
    ]
   }

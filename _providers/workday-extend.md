@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -628,7 +628,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.9
+  composite: 47.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 64.5
@@ -641,10 +641,10 @@ score:
     access_clarity: 48.7
     contract_governance: 28.8
     contract_quality: 66.6
-    developer_ergonomics: 25.0
+    developer_ergonomics: 28.6
     discoverability: 81.5
     operational_transparency: 18.4
-  previous_composite: 46.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -653,7 +653,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

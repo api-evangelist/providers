@@ -26,7 +26,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -76,7 +76,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -144,7 +144,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -194,7 +194,7 @@
       "developer_ergonomics": 53.6,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -229,9 +229,52 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 11,
-   "shown": 11,
+   "count": 10,
+   "shown": 10,
    "providers": [
+    {
+     "name": "Vantor",
+     "slug": "vantor",
+     "description": "Maxar Technologies was a publicly traded Earth-imaging and space-systems company formed from the 2017 merger of MacDonald, Dettwiler and Associates (MDA) with DigitalGlobe (founded 1992 in Oakland, California). In December 2022 private-equity firm Advent International agreed to take Maxar private in a USD 6.4 billion cash deal that closed in May 2023, after which Advent split the company into two operating units: Maxar Intelligence (imagery and geospatial software in Westminster, Colorado) and Maxar Space Systems (satellite manufacturing in Palo Alto, California). On 1 October 2025 both units rebranded — Maxar Intelligence became Vantor and Maxar Space Systems became Lanteris Space Systems. On 13 January 2026 Intuitive Machines completed the acquisition of Lanteris from Advent for approximately USD 800 million, leaving Vantor as the sole remaining Advent-owned successor of the Maxar brand. The public developer surface for the original Maxar APIs — imagery search, streaming (WMS/WMTS/WFS), tasking, ordering, monitoring, authentication and account services — is now delivered through the Vantor Hub (hub.vantor.com / pro.maxar.com) and the Maxar Geospatial Platform (MGP) SDKs (Python, Java, R). The Maxar Open Data Program continues to publish a public STAC catalog of pre-/post-event high-resolution imagery on AWS Open Data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png",
+     "score": 53.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 59.0,
+      "contract_governance": 28.8,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 48.8,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 29.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    },
     {
      "name": "SIMBA Chain",
      "slug": "simba-chain",
@@ -248,7 +291,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -280,7 +323,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Amazon SimSpace Weaver",
@@ -298,7 +341,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 37.1,
      "agent_band": "agent-ready",
@@ -311,49 +354,6 @@
       "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "Maxar Technologies",
-     "slug": "maxar-technologies",
-     "description": "Maxar Technologies was a publicly traded Earth-imaging and space-systems company formed from the 2017 merger of MacDonald, Dettwiler and Associates (MDA) with DigitalGlobe (founded 1992 in Oakland, California). In December 2022 private-equity firm Advent International agreed to take Maxar private in a USD 6.4 billion cash deal that closed in May 2023, after which Advent split the company into two operating units: Maxar Intelligence (imagery and geospatial software in Westminster, Colorado) and Maxar Space Systems (satellite manufacturing in Palo Alto, California). On 1 October 2025 both units rebranded — Maxar Intelligence became Vantor and Maxar Space Systems became Lanteris Space Systems. On 13 January 2026 Intuitive Machines completed the acquisition of Lanteris from Advent for approximately USD 800 million, leaving Vantor as the sole remaining Advent-owned successor of the Maxar brand. The public developer surface for the original Maxar APIs — imagery search, streaming (WMS/WMTS/WFS), tasking, ordering, monitoring, authentication and account services — is now delivered through the Vantor Hub (hub.vantor.com / pro.maxar.com) and the Maxar Geospatial Platform (MGP) SDKs (Python, Java, R). The Maxar Open Data Program continues to publish a public STAC catalog of pre-/post-event high-resolution imagery on AWS Open Data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png",
-     "score": 48.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 58.7,
-      "contract_governance": 28.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 39.3,
-      "access_clarity": 46.1
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 29.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -384,7 +384,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -427,7 +427,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -477,7 +477,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -527,7 +527,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -569,7 +569,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -611,7 +611,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -646,49 +646,6 @@
      "rank": 13
     },
     {
-     "name": "Saildrone",
-     "slug": "saildrone",
-     "description": "Saildrone is an Alameda, California maritime autonomy company that designs, manufactures, and operates a global fleet of wind/solar-powered autonomous surface vehicles (USVs) for ocean science, maritime domain awareness, and defense applications. Founded in 2012 by Richard Jenkins, the company runs four USV classes — Explorer (23ft, environmental sensing), Voyager (33ft, MDA and counter-narcotics), Surveyor (65ft, deep-ocean bathymetric mapping), and the newer Spectre (ISR / anti-submarine warfare / kinetic payloads). Saildrone has logged over 2.5M nautical miles and 65,000 days at sea across customers including NOAA PMEL, NOAA SWFSC, the US Navy (Task Force 59), NASA, EUMETSAT, BOEM, and Lockheed Martin (which invested $50M in October 2025). Saildrone delivers data through two product surfaces — the Saildrone Mission Portal (secure web app for tasking and live multi-INT visualization) and the Saildrone Public Mission API (BETA) at developer-mission.saildrone.com, which exposes key/secret authenticated endpoints for health, drone access discovery, and time-series retrieval across vehicle, atmospheric, oceanographic, and biogeochemical datasets. Open ocean data from past missions is published via NOAA PMEL ERDDAP and NCEI under open-data terms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png",
-     "score": 40.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 66.4,
-      "contract_governance": 28.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 19.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
      "name": "Airbus",
      "slug": "airbus",
      "description": "A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.",
@@ -704,7 +661,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -729,7 +686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     }
    ]
   },
@@ -738,8 +695,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 24,
-   "shown": 24,
+   "count": 25,
+   "shown": 25,
    "providers": [
     {
      "name": "Violetlabs",
@@ -757,7 +714,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -782,7 +739,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Rockwell Collins",
@@ -800,7 +757,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -825,7 +782,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Aalyria",
@@ -843,7 +800,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -875,7 +832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Anduril Industries",
@@ -893,7 +850,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -918,7 +875,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "PreVeil",
@@ -936,7 +893,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -961,7 +918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Picogrid",
@@ -979,7 +936,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 36.2,
      "agent_band": "agent-ready",
@@ -1004,7 +961,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Via Science",
@@ -1021,7 +978,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -1046,7 +1003,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Urban Sky",
@@ -1064,7 +1021,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -1089,7 +1046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "ICEYE",
@@ -1107,7 +1064,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -1132,7 +1089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "RTX",
@@ -1150,7 +1107,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1182,7 +1139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Hypori",
@@ -1200,7 +1157,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1232,7 +1189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "DVIDS API",
@@ -1250,7 +1207,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1282,7 +1239,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Cubic Corporation",
@@ -1300,7 +1257,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -1325,7 +1282,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Evrim",
@@ -1343,7 +1300,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1375,7 +1332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "AAR Corp",
@@ -1393,7 +1350,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1425,6 +1382,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 29
+    },
+    {
+     "name": "Amphenol",
+     "slug": "amphenol",
+     "description": "Amphenol is one of the world's largest designers, manufacturers, and marketers of electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables used across military-aerospace, industrial, automotive, information technology, mobile phones, wireless infrastructure, broadband, medical device, and professional audio markets worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amphenol/refs/heads/main/screenshots/amphenol-2026-06-20T171939.png",
+     "score": 29.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 14.7,
+      "contract_governance": 33.3,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 38.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 23.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 30
     },
     {
@@ -1443,7 +1443,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -1486,7 +1486,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -1514,34 +1514,34 @@
      "rank": 32
     },
     {
-     "name": "Amphenol",
-     "slug": "amphenol",
-     "description": "Amphenol is one of the world's largest designers, manufacturers, and marketers of electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables used across military-aerospace, industrial, automotive, information technology, mobile phones, wireless infrastructure, broadband, medical device, and professional audio markets worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amphenol/refs/heads/main/screenshots/amphenol-2026-06-20T171939.png",
-     "score": 28.7,
+     "name": "Saildrone",
+     "slug": "saildrone",
+     "description": "Saildrone is an Alameda, California maritime autonomy company that designs, manufactures, and operates a global fleet of wind/solar-powered autonomous surface vehicles (USVs) for ocean science, maritime domain awareness, and defense applications. Founded in 2012 by Richard Jenkins, the company runs four USV classes — Explorer (23ft, environmental sensing), Voyager (33ft, MDA and counter-narcotics), Surveyor (65ft, deep-ocean bathymetric mapping), and the newer Spectre (ISR / anti-submarine warfare / kinetic payloads). Saildrone has logged over 2.5M nautical miles and 65,000 days at sea across customers including NOAA PMEL, NOAA SWFSC, the US Navy (Task Force 59), NASA, EUMETSAT, BOEM, and Lockheed Martin (which invested $50M in October 2025). Saildrone delivers data through two product surfaces — the Saildrone Mission Portal (secure web app for tasking and live multi-INT visualization) and the Saildrone Public Mission API (BETA) at developer-mission.saildrone.com, which exposes key/secret authenticated endpoints for health, drone access discovery, and time-series retrieval across vehicle, atmospheric, oceanographic, and biogeochemical datasets. Open ocean data from past missions is published via NOAA PMEL ERDDAP and NCEI under open-data terms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png",
+     "score": 27.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 14.7,
-      "contract_governance": 33.3,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 34.2
+      "discoverability": 59.3,
+      "contract_quality": 15.0,
+      "contract_governance": 28.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
-     "agent_score": 23.2,
+     "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1549,8 +1549,8 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
@@ -1572,7 +1572,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -1615,7 +1615,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1658,7 +1658,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1708,7 +1708,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1758,7 +1758,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -1801,7 +1801,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1861,7 +1861,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1911,7 +1911,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1961,7 +1961,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -2003,7 +2003,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2053,7 +2053,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2103,7 +2103,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2153,7 +2153,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2196,7 +2196,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2246,7 +2246,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2296,7 +2296,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2331,49 +2331,6 @@
      "rank": 49
     },
     {
-     "name": "Starfish Space",
-     "slug": "starfish-space",
-     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
-     "score": 21.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 21.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 46.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 50
-    },
-    {
      "name": "US Air Force",
      "slug": "us-air-force",
      "description": "The United States Air Force is responsible for providing air and space power to protect the United States and its interests. As part of the Department of the Air Force, the USAF has adopted an API-first architecture strategy to improve data sharing, software interoperability, and integration across military systems. The DAF publishes open datasets through data.af.mil and provides developer resources through software.af.mil.",
@@ -2389,7 +2346,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2421,7 +2378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "Velo3D",
@@ -2439,7 +2396,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -2464,7 +2421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Defense Unicorns",
@@ -2482,7 +2439,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2507,7 +2464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Peaxy",
@@ -2525,7 +2482,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2557,7 +2514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Adyton",
@@ -2575,7 +2532,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2607,7 +2564,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "General Dynamics",
@@ -2625,7 +2582,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2657,7 +2614,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Slingshot Aerospace",
@@ -2675,7 +2632,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2700,7 +2657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Neros",
@@ -2718,7 +2675,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -2743,7 +2700,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Army National Guard",
@@ -2761,7 +2718,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2793,7 +2750,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Machina Labs",
@@ -2811,7 +2768,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2836,7 +2793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Carpenter Technology",
@@ -2854,7 +2811,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2886,7 +2843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Blue Origin",
@@ -2903,7 +2860,7 @@
       "developer_ergonomics": 14.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 21.2,
      "agent_band": "agent-aware",
@@ -2928,7 +2885,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Second Front Systems",
@@ -2946,7 +2903,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2978,7 +2935,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Lunar Outpost",
@@ -2996,7 +2953,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 7.2,
      "agent_band": "agent-aware",
@@ -3021,7 +2978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Triumph Group",
@@ -3039,7 +2996,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3064,7 +3021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Conductor AI",
@@ -3082,7 +3039,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3114,7 +3071,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "CACI International",
@@ -3132,7 +3089,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3164,7 +3121,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Aethero",
@@ -3182,7 +3139,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3207,7 +3164,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Descartes Labs",
@@ -3225,7 +3182,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3257,7 +3214,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "AMPAworks",
@@ -3275,7 +3232,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3307,6 +3264,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 69
+    },
+    {
+     "name": "Starfish Space",
+     "slug": "starfish-space",
+     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png",
+     "score": 15.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 1.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 70
     },
     {
@@ -3325,7 +3325,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3368,7 +3368,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3418,7 +3418,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3468,7 +3468,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3511,7 +3511,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3560,7 +3560,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -3588,6 +3588,48 @@
      "rank": 76
     },
     {
+     "name": "Advanced Aircraft Company",
+     "slug": "advanced-aircraft-company",
+     "description": "Advanced Aircraft Company (AAC) is a veteran-owned aerospace manufacturer in Hampton, Virginia, founded in 2017 to build long-endurance hybrid fuel-electric VTOL unmanned aircraft systems for commercial, public-safety and defense missions. Its flagship HAMR (Hybrid Advanced Multi-Rotor) UAS flies 3.5+ hours on gas-electric propulsion, and its Greased Lightning tilt-wing is built on technology licensed from NASA Langley Research Center. AAC is a hardware company with no developer program and no product API; its only public machine-readable surface is the WordPress REST API and an OAuth-gated WordPress MCP Adapter server exposed by its own marketing site.",
+     "score": 14.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 23.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 77
+    },
+    {
      "name": "Defense Logistics Agency",
      "slug": "defense-logistics-agency",
      "description": "The Defense Logistics Agency (DLA) is the U.S. Department of Defense combat support agency that manages a global supply chain spanning roughly five million items in nine supply chains plus storage, distribution, fuel, construction, and disposition missions. DLA operates an extensive catalog of business applications used by suppliers, the military services, and federal partners. Most DLA applications require account registration and operate behind authentication; public-facing surfaces include the DLA Internet Bid Board System (DIBBS), the DLA Disposition Services storefront, the FedMall procurement marketplace, and federated logistics search tools.",
@@ -3603,57 +3645,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 18.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 77
-    },
-    {
-     "name": "Defense Security Cooperation Agency",
-     "slug": "defense-security-cooperation-agency",
-     "description": "The Defense Security Cooperation Agency (DSCA) is the U.S. Department of Defense agency that leads, directs, and manages security cooperation programs and resources to support U.S. policy and interests with foreign partners. DSCA administers the Foreign Military Sales (FMS) program, Foreign Military Financing (FMF) execution, International Military Education and Training (IMET), and humanitarian assistance programs. Public-facing surfaces include the Major Arms Sales notifications published in cooperation with Congress, the DSCA newsroom and library, and the Security Cooperation Workforce certification portal. DSCA does not publish a general-purpose developer API; partner-nation systems interact through controlled, government-to-government channels such as the Security Cooperation Information Portal (SCIP).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/screenshots/defense-security-cooperation-agency-2026-06-20T175837.png",
-     "score": 14.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3688,10 +3680,10 @@
      "rank": 78
     },
     {
-     "name": "Defense Threat Reduction Agency",
-     "slug": "defense-threat-reduction-agency",
-     "description": "The Defense Threat Reduction Agency (DTRA) is the U.S. Department of Defense combat support agency that counters and deters weapons of mass destruction (WMD) and improvised threats. DTRA leads the chemical, biological, radiological, nuclear, and high-yield explosive (CBRNE) mission for DoD and supports the Cooperative Threat Reduction (CTR) Program with partner nations. Public-facing surfaces include the DTRA website, the DTRA Information Analysis Center (DTRIAC) for technical reports, the DTRA Mission Network public information, and small-business and broad-agency-announcement procurement portals. DTRA does not publish a general-purpose developer API; partner systems interact through controlled, government-to-government channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/screenshots/defense-threat-reduction-agency-2026-06-20T175842.png",
+     "name": "Defense Security Cooperation Agency",
+     "slug": "defense-security-cooperation-agency",
+     "description": "The Defense Security Cooperation Agency (DSCA) is the U.S. Department of Defense agency that leads, directs, and manages security cooperation programs and resources to support U.S. policy and interests with foreign partners. DSCA administers the Foreign Military Sales (FMS) program, Foreign Military Financing (FMF) execution, International Military Education and Training (IMET), and humanitarian assistance programs. Public-facing surfaces include the Major Arms Sales notifications published in cooperation with Congress, the DSCA newsroom and library, and the Security Cooperation Workforce certification portal. DSCA does not publish a general-purpose developer API; partner-nation systems interact through controlled, government-to-government channels such as the Security Cooperation Information Portal (SCIP).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defense-security-cooperation-agency/refs/heads/main/screenshots/defense-security-cooperation-agency-2026-06-20T175837.png",
      "score": 14.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3703,7 +3695,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3738,6 +3730,56 @@
      "rank": 79
     },
     {
+     "name": "Defense Threat Reduction Agency",
+     "slug": "defense-threat-reduction-agency",
+     "description": "The Defense Threat Reduction Agency (DTRA) is the U.S. Department of Defense combat support agency that counters and deters weapons of mass destruction (WMD) and improvised threats. DTRA leads the chemical, biological, radiological, nuclear, and high-yield explosive (CBRNE) mission for DoD and supports the Cooperative Threat Reduction (CTR) Program with partner nations. Public-facing surfaces include the DTRA website, the DTRA Information Analysis Center (DTRIAC) for technical reports, the DTRA Mission Network public information, and small-business and broad-agency-announcement procurement portals. DTRA does not publish a general-purpose developer API; partner systems interact through controlled, government-to-government channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/screenshots/defense-threat-reduction-agency-2026-06-20T175842.png",
+     "score": 14.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 9.5,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 18.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 80
+    },
+    {
      "name": "Ursa Major Technologies",
      "slug": "ursa-major-technologies",
      "description": "Ursa Major Technologies Inc. is an American aerospace and defense propulsion manufacturer founded in 2015 by Joe Laurienti, a former SpaceX and Blue Origin propulsion engineer, and headquartered at 19750 Co Rd 7 in Berthoud, Colorado, with additive manufacturing operations in Youngstown, Ohio. The company designs, builds and hot-fire tests liquid rocket engines, solid rocket motors and in-space propulsion systems for space launch, hypersonics and U.S. and allied defense customers. Its product line includes the 5,000 lbf Hadley oxygen-rich staged-combustion liquid engine — the first Ursa Major engine to reach flight qualification for hypersonic missions — and Draper, a storable, throttleable, restartable engine for tactical hypersonic strike, missile defense and rapid in-space maneuver, alongside a solid rocket motor line validated through static fire and a chemical propulsion capability for tactical satellite bus systems. Ursa Major was the first American company to successfully fire an oxygen-rich staged combustion engine; it states it has delivered more than 100 engines and logged over 100,000 seconds of hotfire testing, with engines and motors more than 80 percent 3D printed by mass. The company is AS9100D, ISO 9001 and CMMC Level 2 certified. Ursa Major is a hardware manufacturer selling to government and prime-contractor customers: it publishes no public developer API, SDK, CLI, developer portal or machine-readable API contract of any kind.",
@@ -3753,7 +3795,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3778,7 +3820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Gecko Robotics",
@@ -3796,7 +3838,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3828,7 +3870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Archer Aviation",
@@ -3846,50 +3888,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 82
-    },
-    {
-     "name": "Joby Aviation",
-     "slug": "joby-aviation",
-     "description": "Joby Aviation is a California-based aerospace company developing an all-electric vertical take-off and landing (eVTOL) aircraft intended to operate as part of a fast, quiet, and convenient air taxi service. Joby's piloted four-passenger S4 aircraft is designed for a top speed of 200 mph and zero operating emissions, and the company is pursuing FAA Type Certification under Part 23. Joby has strategic relationships with Toyota for manufacturing, Delta Air Lines, Virgin Atlantic and ANA for distribution, Uber for ground integration, the U.S. Department of Defense (Agility Prime), and operates a vertically integrated program covering aircraft, batteries (JoeBen cell technology via Joby's battery group), software, and pilot training. Joby acquired Uber Elevate and is co-located with manufacturing facilities in Marina and Santa Cruz, California, with plans for early commercial passenger service in Dubai and U.S. cities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/joby-aviation/refs/heads/main/screenshots/joby-aviation-2026-06-20T183749.png",
-     "score": 13.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3917,6 +3916,49 @@
      "rank": 83
     },
     {
+     "name": "Joby Aviation",
+     "slug": "joby-aviation",
+     "description": "Joby Aviation is a California-based aerospace company developing an all-electric vertical take-off and landing (eVTOL) aircraft intended to operate as part of a fast, quiet, and convenient air taxi service. Joby's piloted four-passenger S4 aircraft is designed for a top speed of 200 mph and zero operating emissions, and the company is pursuing FAA Type Certification under Part 23. Joby has strategic relationships with Toyota for manufacturing, Delta Air Lines, Virgin Atlantic and ANA for distribution, Uber for ground integration, the U.S. Department of Defense (Agility Prime), and operates a vertically integrated program covering aircraft, batteries (JoeBen cell technology via Joby's battery group), software, and pilot training. Joby acquired Uber Elevate and is co-located with manufacturing facilities in Marina and Santa Cruz, California, with plans for early commercial passenger service in Dubai and U.S. cities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/joby-aviation/refs/heads/main/screenshots/joby-aviation-2026-06-20T183749.png",
+     "score": 13.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 84
+    },
+    {
      "name": "BWX Technologies",
      "slug": "bwx-technologies",
      "description": "BWX Technologies is a manufacturer of nuclear components and provider of nuclear services to the U.S. government and commercial customers worldwide. The company delivers innovative nuclear solutions across naval propulsion, small modular reactors, nuclear fuel, medical isotopes, and complex site operations.",
@@ -3932,7 +3974,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3964,7 +4006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Defense Nuclear Facilities Safety Board",
@@ -3982,7 +4024,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4014,7 +4056,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Benchmark Electronics",
@@ -4032,7 +4074,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4064,7 +4106,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Periphery",
@@ -4082,7 +4124,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4107,7 +4149,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Rocket Lab",
@@ -4125,7 +4167,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4157,7 +4199,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Saronic Technologies",
@@ -4175,7 +4217,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4200,7 +4242,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "908 Devices",
@@ -4217,7 +4259,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4249,48 +4291,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
-    },
-    {
-     "name": "Advanced Aircraft Company",
-     "slug": "advanced-aircraft-company",
-     "description": "Advanced Aircraft Company (AAC) is a veteran-owned aerospace manufacturer in Hampton, Virginia, founded in 2017 to build long-endurance hybrid fuel-electric VTOL unmanned aircraft systems for commercial, public-safety and defense missions. Its flagship HAMR (Hybrid Advanced Multi-Rotor) UAS flies 3.5+ hours on gas-electric propulsion, and its Greased Lightning tilt-wing is built on technology licensed from NASA Langley Research Center. AAC is a hardware company with no developer program and no product API; its only public machine-readable surface is the WordPress REST API and an OAuth-gated WordPress MCP Adapter server exposed by its own marketing site.",
-     "score": 13.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 23.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 91
     },
     {
@@ -4309,7 +4309,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4352,7 +4352,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -4395,7 +4395,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4438,7 +4438,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4481,7 +4481,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4524,7 +4524,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4567,7 +4567,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4617,7 +4617,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4660,7 +4660,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4702,7 +4702,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4751,7 +4751,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4801,7 +4801,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4844,7 +4844,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4887,7 +4887,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4930,7 +4930,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4973,7 +4973,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5016,7 +5016,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5059,7 +5059,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5102,7 +5102,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5152,7 +5152,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5202,7 +5202,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5245,7 +5245,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5288,7 +5288,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5338,7 +5338,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5388,7 +5388,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5431,7 +5431,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5474,7 +5474,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5517,7 +5517,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5570,7 +5570,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5613,7 +5613,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5663,7 +5663,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5706,7 +5706,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5749,7 +5749,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5791,7 +5791,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5834,7 +5834,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5884,7 +5884,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5934,7 +5934,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5977,7 +5977,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6020,7 +6020,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6063,7 +6063,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6112,7 +6112,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
@@ -6155,7 +6155,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6205,7 +6205,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6255,7 +6255,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6298,7 +6298,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6341,7 +6341,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6391,7 +6391,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6433,7 +6433,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6476,7 +6476,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6526,7 +6526,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6569,7 +6569,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6619,7 +6619,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6662,7 +6662,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -6705,7 +6705,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6748,7 +6748,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6791,7 +6791,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6834,7 +6834,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6877,7 +6877,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6920,7 +6920,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6963,7 +6963,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7006,7 +7006,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7049,7 +7049,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7092,7 +7092,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7142,7 +7142,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7185,7 +7185,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7228,7 +7228,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7271,7 +7271,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7313,7 +7313,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7356,7 +7356,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7399,7 +7399,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7442,7 +7442,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7492,7 +7492,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7535,7 +7535,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7578,7 +7578,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7628,7 +7628,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7678,7 +7678,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7721,7 +7721,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7764,7 +7764,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7806,7 +7806,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7849,7 +7849,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7892,7 +7892,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7935,7 +7935,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7978,7 +7978,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8028,7 +8028,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8070,7 +8070,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8113,7 +8113,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8156,7 +8156,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8199,7 +8199,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8242,7 +8242,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8285,7 +8285,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8328,7 +8328,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8371,7 +8371,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8414,7 +8414,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8457,7 +8457,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8500,7 +8500,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8543,7 +8543,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8586,7 +8586,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8629,7 +8629,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8679,7 +8679,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8722,7 +8722,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8765,7 +8765,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8815,7 +8815,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8858,7 +8858,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8901,7 +8901,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8951,7 +8951,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8994,7 +8994,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9037,7 +9037,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9080,7 +9080,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9129,7 +9129,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9178,7 +9178,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9228,7 +9228,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9278,7 +9278,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9328,7 +9328,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9371,7 +9371,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9414,7 +9414,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9457,7 +9457,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9507,7 +9507,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9557,7 +9557,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9600,7 +9600,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9643,7 +9643,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9693,7 +9693,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9736,7 +9736,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9778,7 +9778,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -9820,7 +9820,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9863,7 +9863,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9906,7 +9906,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9949,7 +9949,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9992,7 +9992,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10035,7 +10035,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10078,7 +10078,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10121,7 +10121,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10164,7 +10164,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10207,7 +10207,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10250,7 +10250,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10300,7 +10300,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10343,7 +10343,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10386,7 +10386,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10428,7 +10428,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10471,7 +10471,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10514,7 +10514,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10557,7 +10557,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10599,7 +10599,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10642,7 +10642,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10685,7 +10685,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10728,7 +10728,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10771,7 +10771,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10814,7 +10814,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10857,7 +10857,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10900,7 +10900,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10943,7 +10943,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10986,7 +10986,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11029,7 +11029,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11072,7 +11072,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11122,7 +11122,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11172,7 +11172,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11222,7 +11222,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11265,7 +11265,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11308,7 +11308,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11351,7 +11351,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11394,7 +11394,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11436,7 +11436,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11479,7 +11479,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11529,7 +11529,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11572,7 +11572,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11615,7 +11615,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11658,7 +11658,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11701,7 +11701,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11744,7 +11744,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11787,7 +11787,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11830,7 +11830,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11873,7 +11873,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11915,7 +11915,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11958,7 +11958,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12000,7 +12000,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12043,7 +12043,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12086,7 +12086,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12129,7 +12129,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12171,7 +12171,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12214,7 +12214,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12256,7 +12256,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12298,7 +12298,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12341,7 +12341,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12384,7 +12384,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12427,7 +12427,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12470,7 +12470,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12513,7 +12513,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12556,7 +12556,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12599,7 +12599,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12641,7 +12641,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12684,7 +12684,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12727,7 +12727,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12770,7 +12770,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12813,7 +12813,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12856,7 +12856,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12899,7 +12899,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12942,7 +12942,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12985,7 +12985,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13027,7 +13027,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13070,7 +13070,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13113,7 +13113,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13156,7 +13156,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13199,7 +13199,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13249,7 +13249,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13299,7 +13299,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13349,7 +13349,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13392,7 +13392,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13442,7 +13442,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13492,7 +13492,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13542,7 +13542,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13592,7 +13592,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13642,7 +13642,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13692,7 +13692,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13742,7 +13742,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13791,7 +13791,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13841,7 +13841,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13891,7 +13891,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13941,7 +13941,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14041,7 +14041,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14091,7 +14091,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14141,7 +14141,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14191,7 +14191,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14241,7 +14241,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14291,7 +14291,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14341,7 +14341,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14390,7 +14390,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14440,7 +14440,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14490,7 +14490,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -14537,7 +14537,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14587,7 +14587,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14688,7 +14688,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14737,7 +14737,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

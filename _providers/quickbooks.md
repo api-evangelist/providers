@@ -32,8 +32,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-21'
-api_count: 3
+  scored_at: '2026-09-23'
+api_count: 4
 apis:
 - baseURL: https://quickbooks.api.intuit.com/v3/company
   baseurl_source: declared
@@ -46,7 +46,10 @@ apis:
 - description: REST API for managing payroll, employees, paychecks, and payroll tax information within QuickBooks Online Payroll.
   name: QuickBooks Payroll API
   slug: payroll
-artifact_total: 7
+- description: REST API for managing QuickBooks Online accounting entities including Customer, Vendor, Employee, Item, Invoice, Bill, Payment, BillPayment, JournalEntry, Account, TaxCode, and Company information. Al
+  name: QuickBooks
+  slug: accounting-api
+artifact_total: 8
 asyncapis:
 - description: AsyncAPI 2.6 description of the QuickBooks Online (QBO) Data Services webhook surface. QuickBooks Online delivers asynchronous notifications of data-change events on the configured Intuit App by issui
   name: QuickBooks Online Webhooks
@@ -105,7 +108,7 @@ modified: '2026-05-30'
 name: QuickBooks
 nav: Providers
 network: true
-overview: 'QuickBooks publishes 1 API on the [APIs.io](https://apis.io/) network: Online Accounting API. Tagged areas include Accounting, Bookkeeping, Small Business, Financial, and Invoicing.
+overview: 'QuickBooks publishes 1 API on the [APIs.io](https://apis.io/) network: Online Accounting API. Tagged areas include Accounting, Bookkeeping, Small Business, Finance, and Invoicing.
 
 
   The QuickBooks catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -127,7 +130,7 @@ rules:
   slug: quickbooks-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.8
+  composite: 36.2
   coverage:
     artifact_dirs: 6
     catalog_earned: 44.5
@@ -135,17 +138,17 @@ score:
     catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 42.7
-    developer_ergonomics: 50.0
+    developer_ergonomics: 57.1
     discoverability: 74.1
     operational_transparency: 2.6
   previous_composite: 34.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -162,7 +165,7 @@ tags:
 - Accounting
 - Bookkeeping
 - Small Business
-- Financial
+- Finance
 - Invoicing
 - Payroll
 - Tax

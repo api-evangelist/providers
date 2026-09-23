@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -227,7 +227,7 @@ score:
   band: developing
   composite: 52.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 47.0
     catalog_earned_first_party: 12.0
     catalog_gap: 68.0
@@ -253,7 +253,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -283,7 +283,7 @@ tags:
 - Task Routing
 - Messaging
 - Artificial Intelligence
-- agent-native
+- Agent-Native
 - Developer Tools
 website: https://app.agentmesh.link/
 ---

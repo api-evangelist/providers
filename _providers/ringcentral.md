@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -1293,7 +1293,7 @@ score:
   band: strong
   composite: 64.1
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 55.5
     catalog_earned_first_party: 24.0
     catalog_gap: 59.5
@@ -1324,7 +1324,7 @@ score:
     regime_id: telecommunications
     score: 54.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -1353,5 +1353,6 @@ tags:
 - SMS
 - Messaging
 - Fax
+- Telecommunications
 website: https://www.ringcentral.com/
 ---

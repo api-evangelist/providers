@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -460,7 +460,7 @@ rules:
   slug: wolframalpha-rules
 score:
   band: developing
-  composite: 40.2
+  composite: 40.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 75.5
@@ -473,10 +473,10 @@ score:
     access_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 31.5
-    developer_ergonomics: 51.2
+    developer_ergonomics: 54.8
     discoverability: 75.9
     operational_transparency: 7.9
-  previous_composite: 40.2
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -485,7 +485,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

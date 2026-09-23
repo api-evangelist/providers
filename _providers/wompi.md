@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -311,7 +311,7 @@ rate_limits:
   slug: wompi-rate-limits
 score:
   band: developing
-  composite: 53.4
+  composite: 54.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 56.0
@@ -324,7 +324,7 @@ score:
     access_clarity: 55.3
     contract_governance: 4.5
     contract_quality: 61.0
-    developer_ergonomics: 50.6
+    developer_ergonomics: 54.2
     discoverability: 68.5
     operational_transparency: 44.7
   jurisdiction:
@@ -334,7 +334,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - latin-america
-  previous_composite: 53.4
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,7 +352,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

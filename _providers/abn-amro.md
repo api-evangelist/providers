@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 3
 apis:
 - description: The Tikkie API lets Tikkie Business customers programmatically create payment requests, send them to end-payers, and receive notifications when payments complete. Authentication uses an API token (Bus
@@ -125,7 +125,7 @@ modified: '2026-05-16'
 name: ABN AMRO
 nav: Providers
 network: true
-overview: 'ABN AMRO publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Banks, European Banking, Open Banking, and PSD2.
+overview: 'ABN AMRO publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Banks, European Banking, Open Banking, and PSD2.
 
 
   ABN AMRO''s developer surface includes developer portal, documentation, getting-started guide, authentication, and 5 more developer resources.'
@@ -164,7 +164,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ security:
   summary_line: security.txt · contact published
 slug: abn-amro
 tags:
-- Financial
+- Finance
 - Banks
 - European Banking
 - Open Banking

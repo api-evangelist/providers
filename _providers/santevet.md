@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
-- acting_count: 9
+- acting_count: 18
   human_in_the_loop: 0
   name: Santevet Agentic Access
-  operation_count: 64
+  operation_count: 128
   slug: santevet-agentic-access
-  summary_line: 64 operations · 9 acting
+  summary_line: 128 operations · 18 acting
 api_count: 4
 apis:
 - description: SantéVet's partner quote-to-subscribe funnel and rating engine. Creates and updates prospects (with a dedicated GDPR anonymisation operation), creates, searches, validates and subscribes quotations, a
@@ -320,7 +320,7 @@ rate_limits:
   slug: santevet-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 37.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 43.0
@@ -332,7 +332,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 54.4
+    contract_quality: 54.5
     developer_ergonomics: 32.7
     discoverability: 77.8
     operational_transparency: 0.0
@@ -344,15 +344,15 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 37.3
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 3.8
+      callable: 7.1
       derived: 0
       marker_coverage: 0.0
-      total: 26
+      total: 28
     mcp: derived
     skills: derived
   regulatory:
@@ -362,7 +362,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

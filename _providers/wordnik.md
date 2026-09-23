@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -605,7 +605,7 @@ rules:
   slug: wordnik-rules
 score:
   band: strong
-  composite: 58.1
+  composite: 58.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 84.5
@@ -618,10 +618,10 @@ score:
     access_clarity: 73.7
     contract_governance: 28.8
     contract_quality: 59.4
-    developer_ergonomics: 58.3
+    developer_ergonomics: 61.9
     discoverability: 75.9
     operational_transparency: 50.0
-  previous_composite: 58.1
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -630,7 +630,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

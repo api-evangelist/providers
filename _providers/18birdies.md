@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 3
 common:
@@ -110,7 +110,7 @@ modified: '2026-09-05'
 name: 18Birdies
 nav: Providers
 network: true
-overview: '18Birdies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Golf, Sports, Mobile Applications, Location, and Geolocation.
+overview: '18Birdies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Golf, Sports, Mobile App, Location, and Geolocation.
 
 
   18Birdies'' developer surface includes support, engineering blog, pricing, signup flow, and 9 more developer resources.'
@@ -143,7 +143,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ slug: 18birdies
 tags:
 - Golf
 - Sports
-- Mobile Applications
+- Mobile App
 - Location
 - Geolocation
 - Mapping

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: 'A2A 1.0.1 agent surface over JSON-RPC 2.0 exposing sixteen skills. Discover via the agent card, quote a skill (price, fee split, free-quota state, input/output JSON Schema) without side effects, then '
@@ -215,7 +215,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -248,6 +248,6 @@ tags:
 - Healthcare
 - Compliance
 - Market Intelligence
-- agent-native
+- Agent-Native
 website: https://getsincor.com/
 ---

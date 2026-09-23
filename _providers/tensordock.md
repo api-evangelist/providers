@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -436,7 +436,7 @@ rules:
   slug: tensordock-rules
 score:
   band: strong
-  composite: 56.7
+  composite: 57.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 70.5
@@ -449,10 +449,10 @@ score:
     access_clarity: 92.1
     contract_governance: 13.6
     contract_quality: 60.8
-    developer_ergonomics: 65.5
+    developer_ergonomics: 69.0
     discoverability: 59.3
     operational_transparency: 23.7
-  previous_composite: 56.7
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -461,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 19
 apis:
 - description: Getnet's core REST API and Single Entry Point (SEP) for direct payment integration across Argentina, Brazil, Chile, Colombia, Mexico, Portugal, Spain, and Uruguay. One contract gives merchants omnicha
@@ -94,6 +94,10 @@ apis:
   slug: getnet-local-processor-spain
 artifact_total: 20
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://site.getnet.com.br/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/getnet/refs/heads/main/security/getnet-domain-security.yml
   title: ''
@@ -134,7 +138,7 @@ network: true
 overview: 'Getnet publishes 1 API on the [APIs.io](https://apis.io/) network: SAP Immediate Delivery APIs. Tagged areas include Payments, Acquirer, Brazil, Latin America, and Santander.
 
 
-  Getnet''s developer surface includes documentation, authentication, FAQ, pricing, sandbox, and 2 more developer resources.'
+  Getnet''s developer surface includes documentation, authentication, FAQ, pricing, sandbox, and 3 more developer resources.'
 random_paper: 9
 score:
   band: thin
@@ -169,7 +173,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -206,4 +210,5 @@ tags:
 - Authentication
 - Agentic Commerce
 - MCP
+website: https://site.getnet.com.br/
 ---

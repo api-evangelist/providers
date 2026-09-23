@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -244,7 +244,7 @@ rules:
   slug: vnc-rules
 score:
   band: developing
-  composite: 46.7
+  composite: 47.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 63.5
@@ -257,10 +257,10 @@ score:
     access_clarity: 44.7
     contract_governance: 28.8
     contract_quality: 72.1
-    developer_ergonomics: 46.4
+    developer_ergonomics: 50.0
     discoverability: 66.7
     operational_transparency: 7.9
-  previous_composite: 46.7
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -269,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

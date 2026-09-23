@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 11
 apis:
 - description: End-of-day equity analytics for Canadian and US markets - basic, daily, and advanced daily stats plus liquidity analytics and liquidity summaries - via POST endpoints such as /v1/ca/dailystats, /v1/us
@@ -191,7 +191,7 @@ modified: '2026-07-22'
 name: TMX Group
 nav: Providers
 network: true
-overview: 'TMX Group publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Market Data, Stocks, Exchange, and Derivatives.
+overview: 'TMX Group publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Stocks, Exchange, and Derivatives.
 
 
   TMX Group''s developer surface includes authentication, API reference, getting-started guide, developer portal, documentation, engineering blog, pricing, and 18 more developer resources.'
@@ -239,7 +239,7 @@ score:
     regime_id: securities_market_data
     score: 65.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -257,7 +257,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: tmx-group
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Exchange

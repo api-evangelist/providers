@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 10
@@ -239,7 +239,7 @@ modified: '2026-09-19'
 name: ClawSpan
 nav: Providers
 network: true
-overview: 'ClawSpan publishes 2 APIs on the [APIs.io](https://apis.io/) network: ShardLink Control Plane API and SignalHub Gateway API. Tagged areas include AI Agents, Agent Marketplace, agent-native, MCP, and A2A.
+overview: 'ClawSpan publishes 2 APIs on the [APIs.io](https://apis.io/) network: ShardLink Control Plane API and SignalHub Gateway API. Tagged areas include AI Agents, Agent Marketplace, Agent-Native, MCP, and A2A.
 
 
   ClawSpan''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 30 more developer resources.'
@@ -293,7 +293,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -315,7 +315,7 @@ slug: clawspan-cloud
 tags:
 - AI Agents
 - Agent Marketplace
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Task Orchestration

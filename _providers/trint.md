@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -182,7 +182,7 @@ rate_limits:
   slug: trint-rate-limits
 score:
   band: developing
-  composite: 40.7
+  composite: 41.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 64.0
@@ -195,10 +195,10 @@ score:
     access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 56.1
-    developer_ergonomics: 32.1
+    developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 31.6
-  previous_composite: 40.7
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -208,7 +208,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

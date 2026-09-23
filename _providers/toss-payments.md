@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ rate_limits:
   slug: toss-payments-rate-limits
 score:
   band: thin
-  composite: 36.7
+  composite: 37.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 64.0
@@ -199,7 +199,7 @@ score:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 56.7
-    developer_ergonomics: 32.1
+    developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 31.6
   jurisdiction:
@@ -209,7 +209,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - japan-korea
-  previous_composite: 36.7
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -224,7 +224,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

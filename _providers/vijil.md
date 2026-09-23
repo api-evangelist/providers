@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 2
@@ -324,7 +324,7 @@ overview: 'Vijil publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 14
 score:
   band: developing
-  composite: 47.8
+  composite: 48.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -336,11 +336,11 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 48.8
+    contract_quality: 49.5
     developer_ergonomics: 68.5
     discoverability: 75.9
     operational_transparency: 13.2
-  previous_composite: 47.8
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,11 +348,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 28
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

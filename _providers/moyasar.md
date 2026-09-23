@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -166,8 +166,8 @@ rate_limits:
   name: Moyasar Rate Limits
   slug: moyasar-rate-limits
 score:
-  band: thin
-  composite: 34.3
+  band: emerging
+  composite: 20.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 60.0
@@ -179,7 +179,7 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 55.6
+    contract_quality: 1.3
     developer_ergonomics: 32.1
     discoverability: 68.5
     operational_transparency: 31.6
@@ -190,7 +190,7 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - middle-east
-  previous_composite: 34.3
+  previous_composite: 20.7
   provenance:
     agentic_access: derived
     contracts:
@@ -205,7 +205,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

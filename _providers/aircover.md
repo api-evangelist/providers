@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server over Streamable HTTP at https://api.aircover.ai/mcp. An authenticated Aircover user's agent can list and read meetings and transcripts, ask questions across indexe
@@ -319,7 +319,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -345,7 +345,7 @@ tags:
 - Revenue Intelligence
 - AI Agents
 - MCP
-- agent-native
+- Agent-Native
 - CRM
 - Meetings
 - Transcription

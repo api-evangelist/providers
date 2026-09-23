@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -387,7 +387,7 @@ rules:
   slug: waxell-rules
 score:
   band: strong
-  composite: 60.8
+  composite: 61.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 87.5
@@ -400,10 +400,10 @@ score:
     access_clarity: 60.5
     contract_governance: 28.8
     contract_quality: 70.3
-    developer_ergonomics: 58.3
+    developer_ergonomics: 61.9
     discoverability: 75.9
     operational_transparency: 63.2
-  previous_composite: 60.8
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -418,7 +418,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

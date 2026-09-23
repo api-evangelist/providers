@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 3
 apis:
 - description: 'JSON REST API at https://getamber.dev/api/v1 for the full mandate lifecycle: list templates (public), create a contract from a template (X-API-Key with credits, or x402 pay-per-contract), share it by '
@@ -304,7 +304,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -337,6 +337,6 @@ tags:
 - MCP
 - A2A
 - x402
-- agent-native
+- Agent-Native
 website: https://ambr.run/
 ---

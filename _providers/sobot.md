@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 4
 apis:
 - baseURL: https://sg.sobot.io
@@ -241,7 +241,7 @@ overview: 'Sobot publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 1
 score:
   band: thin
-  composite: 35.6
+  composite: 35.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -253,22 +253,22 @@ score:
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 53.7
+    contract_quality: 54.4
     developer_ergonomics: 28.0
     discoverability: 81.5
     operational_transparency: 23.7
-  previous_composite: 35.6
+  previous_composite: 35.8
   provenance:
     conformance: derived
     contracts:
-      callable: 80.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

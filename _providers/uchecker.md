@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://api.uchecker.net
@@ -250,7 +250,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -277,7 +277,7 @@ tags:
 - DKIM
 - DMARC
 - MCP
-- agent-native
+- Agent-Native
 - Data Quality
 website: https://www.uchecker.net/
 ---

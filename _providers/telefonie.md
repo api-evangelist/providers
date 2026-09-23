@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ rules:
   slug: telefonie-rules
 score:
   band: thin
-  composite: 34.7
+  composite: 35.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 62.5
@@ -291,10 +291,10 @@ score:
     access_clarity: 19.7
     contract_governance: 13.6
     contract_quality: 60.5
-    developer_ergonomics: 26.2
+    developer_ergonomics: 29.8
     discoverability: 81.5
     operational_transparency: 26.3
-  previous_composite: 34.7
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -309,7 +309,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

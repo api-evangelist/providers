@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -354,7 +354,7 @@ rate_limits:
   slug: zerion-rate-limits
 score:
   band: strong
-  composite: 62.9
+  composite: 63.6
   coverage:
     artifact_dirs: 26
     catalog_earned: 61.0
@@ -367,10 +367,10 @@ score:
     access_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 65.7
-    developer_ergonomics: 69.6
+    developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 68.4
-  previous_composite: 62.9
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,7 +388,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

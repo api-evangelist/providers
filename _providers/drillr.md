@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ score:
   band: strong
   composite: 55.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 20
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
@@ -282,7 +282,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -308,6 +308,6 @@ tags:
 - Analyst Ratings
 - news-signals
 - MCP
-- agent-native
+- Agent-Native
 website: https://drillr.ai
 ---

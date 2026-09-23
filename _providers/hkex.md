@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 4
 apis:
 - description: Real-time datafeeds (OMD-C SS, SP, SF tiers) for all securities traded on the Stock Exchange of Hong Kong, published in a proprietary binary message format over one-to-many IP multicast/UDP for high t
@@ -149,7 +149,7 @@ modified: '2026-07-22'
 name: HKEX
 nav: Providers
 network: true
-overview: 'HKEX publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Market Data, Stocks, Derivatives, and Exchange.
+overview: 'HKEX publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Stocks, Derivatives, and Exchange.
 
 
   HKEX''s developer surface includes authentication, changelog, developer portal, documentation, engineering blog, pricing, support, and 13 more developer resources.'
@@ -191,7 +191,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -209,7 +209,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: hkex
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Derivatives

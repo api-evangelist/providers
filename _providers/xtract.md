@@ -24,7 +24,7 @@ modified: '2026-09-16'
 name: Xtract
 nav: Providers
 network: true
-overview: Xtract is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Analytics, Social Intelligence, and Telecom.
+overview: Xtract is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Analytics, Social Intelligence, and Telecommunications.
 random_paper: 2
 slug: xtract
 tags:
@@ -32,7 +32,7 @@ tags:
 - Software-as-a-Service
 - Analytics
 - Social Intelligence
-- Telecom
+- Telecommunications
 - Churn Prevention
 - Customer Analytics
 - Defunct

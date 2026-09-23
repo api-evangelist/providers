@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ rate_limits:
   slug: whippy-rate-limits
 score:
   band: developing
-  composite: 42.6
+  composite: 43.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 64.0
@@ -208,10 +208,10 @@ score:
     access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 55.2
-    developer_ergonomics: 27.4
+    developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 31.6
-  previous_composite: 42.6
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -227,7 +227,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

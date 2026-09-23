@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -102,7 +102,32 @@ apis:
   description: User and team management
   name: Trimble Users API
   slug: trimble-users-api
-artifact_total: 63
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The Catalyst API from Trimble Navigation — 2 operation(s) for catalyst.
+  name: Trimble Catalyst API
+  slug: trimble-navigation-catalyst-api
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The Corrections API from Trimble Navigation — 2 operation(s) for corrections.
+  name: Trimble Corrections API
+  slug: trimble-navigation-corrections-api
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The Positioning API from Trimble Navigation — 1 operation(s) for positioning.
+  name: Trimble Positioning API
+  slug: trimble-navigation-positioning-api
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The Receiver API from Trimble Navigation — 2 operation(s) for receiver.
+  name: Trimble Receiver API
+  slug: trimble-navigation-receiver-api
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The System API from Trimble Navigation — 1 operation(s) for system.
+  name: Trimble System API
+  slug: trimble-navigation-system-api
+artifact_total: 68
 collections:
 - collection_type: open
   name: API Collection
@@ -306,7 +331,7 @@ modified: '2026-05-19'
 name: Trimble
 nav: Providers
 network: true
-overview: 'Trimble publishes 6 APIs on the [APIs.io](https://apis.io/) network, including BCF Topics API, Files API, Geocoding API, and 3 more. Tagged areas include Construction, Transportation, Geospatial, GPS, and Mapping.
+overview: 'Trimble publishes 11 APIs on the [APIs.io](https://apis.io/) network, including BCF Topics API, Files API, Geocoding API, and 8 more. Tagged areas include Construction, Transportation, Geospatial, GPS, and Mapping.
 
 
   The Trimble catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -345,8 +370,8 @@ rules:
     warn: 8
   slug: trimble-rules
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 39.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 66.5
@@ -354,11 +379,11 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 28.8
-    contract_quality: 69.0
+    contract_quality: 68.0
     developer_ergonomics: 42.9
     discoverability: 59.3
     operational_transparency: 5.3
@@ -371,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

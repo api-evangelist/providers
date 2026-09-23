@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -462,7 +462,7 @@ rules:
   slug: teamcity-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 46.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 69.3
@@ -475,13 +475,13 @@ score:
     access_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 60.7
-    developer_ergonomics: 63.1
+    developer_ergonomics: 66.7
     discoverability: 68.5
     operational_transparency: 26.3
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 46.1
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -490,7 +490,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

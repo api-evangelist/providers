@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - baseURL: https://dynamicfeed.ai
@@ -293,7 +293,7 @@ modified: '2026-09-19'
 name: Dynamic Feed
 nav: Providers
 network: true
-overview: 'Dynamic Feed publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Live Data, AI Agents, MCP, A2A, and agent-native.
+overview: 'Dynamic Feed publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Live Data, AI Agents, MCP, A2A, and Agent-Native.
 
 
   The Dynamic Feed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -345,7 +345,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -373,7 +373,7 @@ tags:
 - AI Agents
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Provenance
 - Weather
 - Natural Hazards

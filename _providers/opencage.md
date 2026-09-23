@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: Forward and reverse geocoding using open data
@@ -70,7 +70,7 @@ modified: '2026-05-28'
 name: OpenCage
 nav: Providers
 network: true
-overview: 'OpenCage publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
+overview: 'OpenCage publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding, Public APIs, and Geospatial.
 
 
   OpenCage''s developer surface includes engineering blog and 4 more developer resources.'
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -115,5 +115,6 @@ slug: opencage
 tags:
 - Geocoding
 - Public APIs
+- Geospatial
 website: https://opencagedata.com
 ---

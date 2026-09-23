@@ -54,7 +54,7 @@ modified: '2026-07-20'
 name: Beme
 nav: Providers
 network: true
-overview: Beme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social-Media, Mobile Applications, and Media.
+overview: Beme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social-Media, Mobile App, and Media.
 random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/screenshots/beme-2026-07-25T202726.png
 slug: beme
@@ -62,7 +62,7 @@ tags:
 - Company
 - Video
 - Social-Media
-- Mobile Applications
+- Mobile App
 - Media
 - Consumer
 - Defunct

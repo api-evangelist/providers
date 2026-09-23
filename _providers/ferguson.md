@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: A curated set of REST/JSON Enterprise APIs that let approved partners and software providers transact with Ferguson — product availability and vendor cost data, and electronic purchase-order submissio
@@ -150,7 +150,7 @@ score:
   band: emerging
   composite: 16.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -168,7 +168,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

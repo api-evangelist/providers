@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - baseURL: https://api.orthogonal.com/v1
@@ -556,7 +556,7 @@ modified: '2026-08-14'
 name: Orthogonal
 nav: Providers
 network: true
-overview: 'Orthogonal publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account API, Discovery API, Run API, and 58 more. Tagged areas include Company, AI Agents, API Discovery, API Marketplace, and Agent Payments.
+overview: 'Orthogonal publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account API, Discovery API, Run API, and 58 more. Tagged areas include Company, AI Agents, API Discovery, API Marketplace, and Agentic Payments.
 
 
   Orthogonal''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, CLI, authentication, and 32 more developer resources.'
@@ -609,7 +609,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -634,7 +634,7 @@ tags:
 - AI Agents
 - API Discovery
 - API Marketplace
-- Agent Payments
+- Agentic Payments
 - MCP
 - Data Enrichment
 - Crypto

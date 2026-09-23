@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -306,7 +306,7 @@ rate_limits:
   slug: tiingo-rate-limits
 score:
   band: developing
-  composite: 45.0
+  composite: 45.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 46.0
@@ -319,18 +319,18 @@ score:
     access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 20.4
-    developer_ergonomics: 67.3
+    developer_ergonomics: 70.8
     discoverability: 68.5
     operational_transparency: 34.2
-  previous_composite: 45.0
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 13
+      derived: 14
       marker_coverage: 100.0
-      total: 13
+      total: 14
     mcp: derived
     skills: derived
   regulatory:
@@ -340,7 +340,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

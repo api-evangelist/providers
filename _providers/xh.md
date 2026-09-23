@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: xh is a friendly and fast command-line HTTP client written in Rust. It reimplements HTTPie's design with improved performance, HTTP/2 and HTTP/3 support, and a single statically-linked binary. Support
@@ -102,7 +102,7 @@ score:
   band: emerging
   composite: 14.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 5
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -118,7 +118,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 14.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

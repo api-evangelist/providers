@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates. Supports targets from files or stdin, rate limiting (req/s), duration control, configur
@@ -164,7 +164,7 @@ score:
   band: emerging
   composite: 25.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 59.3
     catalog_earned_first_party: 0.0
     catalog_gap: 55.8
@@ -183,7 +183,7 @@ score:
     score: 50.0
   previous_composite: 25.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

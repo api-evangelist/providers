@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -796,7 +796,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 74.9
+  composite: 75.7
   coverage:
     artifact_dirs: 34
     catalog_earned: 90.5
@@ -809,10 +809,10 @@ score:
     access_clarity: 68.4
     contract_governance: 47.0
     contract_quality: 82.2
-    developer_ergonomics: 84.5
+    developer_ergonomics: 88.1
     discoverability: 75.9
     operational_transparency: 86.8
-  previous_composite: 74.9
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -824,7 +824,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

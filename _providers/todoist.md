@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -343,7 +343,7 @@ rules:
   slug: todoist-rules
 score:
   band: developing
-  composite: 49.9
+  composite: 50.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 69.5
@@ -356,10 +356,10 @@ score:
     access_clarity: 51.3
     contract_governance: 28.8
     contract_quality: 71.6
-    developer_ergonomics: 48.8
+    developer_ergonomics: 52.4
     discoverability: 68.5
     operational_transparency: 18.4
-  previous_composite: 49.9
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -368,7 +368,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -389,7 +389,7 @@ rules:
   slug: vespa-ai-rules
 score:
   band: developing
-  composite: 52.6
+  composite: 53.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 79.5
@@ -402,10 +402,10 @@ score:
     access_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 56.0
-    developer_ergonomics: 53.6
+    developer_ergonomics: 57.1
     discoverability: 72.2
     operational_transparency: 60.5
-  previous_composite: 52.6
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -414,7 +414,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

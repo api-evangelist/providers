@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://rowguard-api.rowguard-api.workers.dev
@@ -153,7 +153,7 @@ rate_limits:
   slug: rowguard-rate-limits
 score:
   band: developing
-  composite: 46.1
+  composite: 45.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 59.0
@@ -165,22 +165,17 @@ score:
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 45.6
     developer_ergonomics: 49.4
     discoverability: 83.3
     operational_transparency: 47.4
-  previous_composite: 46.1
+  previous_composite: 45.3
   provenance:
     conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

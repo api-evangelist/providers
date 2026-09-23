@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://cayena.com/
 created: '2026-07-17'
 description: Cayena is a Brazilian B2B technology company operating an e-procurement marketplace and embedded-fintech platform for the food-service industry. It connects restaurants, bars, hotels, and other food-service buyers with food, beverage, and supply distributors, streamlining ordering, catalog discovery, and fulfillment while layering in payments and short-term credit (buy-now-pay-later) so operators can purchase supplies and defer payment. Headquartered in Sao Paulo, Cayena is backed by venture investors including Canaan Partners. This API Evangelist profile was surfaced as a portfolio company lead; no public developer API, OpenAPI, or developer portal has been confirmed for Cayena at the time of enrichment.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cayena.png
@@ -75,8 +80,6 @@ score:
     owner: catalog
     reasons:
     - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
       reason: never_enriched
   previous_composite: 0.1
   regulatory:
@@ -86,7 +89,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -105,4 +108,5 @@ tags:
 - Procurement
 - Restaurant
 - Brazil
+website: https://cayena.com/
 ---

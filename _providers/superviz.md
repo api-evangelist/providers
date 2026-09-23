@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -169,8 +169,8 @@ rules:
     warn: 7
   slug: superviz-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 42.2
+  band: thin
+  composite: 27.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 67.8
@@ -182,11 +182,11 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 11.4
-    contract_quality: 65.8
+    contract_quality: 8.1
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 31.6
-  previous_composite: 42.2
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -195,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

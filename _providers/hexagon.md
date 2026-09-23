@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 5
 apis:
 - description: REST APIs for the Nexus digital reality platform enabling manufacturers to build connected workflows integrating metrology, quality inspection, and production monitoring data. All endpoints are authen
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -296,5 +296,6 @@ tags:
 - Production Monitoring
 - Industrial IoT
 - Smart Manufacturing
+- Geospatial
 website: https://hexagon.com
 ---

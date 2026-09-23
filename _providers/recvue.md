@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -200,8 +200,8 @@ rate_limits:
   name: Recvue Rate Limits
   slug: recvue-rate-limits
 score:
-  band: thin
-  composite: 35.7
+  band: emerging
+  composite: 24.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 60.0
@@ -213,11 +213,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 47.9
+    contract_quality: 1.1
     developer_ergonomics: 27.4
     discoverability: 68.5
     operational_transparency: 31.6
-  previous_composite: 35.7
+  previous_composite: 24.0
   provenance:
     agentic_access: derived
     contracts:
@@ -226,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

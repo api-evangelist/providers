@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -340,7 +340,7 @@ rules:
   slug: veryfi-ocr-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 50.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 55.5
@@ -353,10 +353,10 @@ score:
     access_clarity: 57.9
     contract_governance: 13.6
     contract_quality: 66.5
-    developer_ergonomics: 48.8
+    developer_ergonomics: 52.4
     discoverability: 66.7
     operational_transparency: 10.5
-  previous_composite: 49.7
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -365,7 +365,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

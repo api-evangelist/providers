@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://bloodhoundenterprise.io/api/v2
@@ -551,7 +551,7 @@ score:
   band: developing
   composite: 51.8
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -572,11 +572,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 43
+      total: 45
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

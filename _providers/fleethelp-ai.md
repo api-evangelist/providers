@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: 'Agent2Agent (A2A) surface: an agent card served from https://fleethelp.ai/.well-known/agent.json (protocolVersion 0.3.0, version 1.0.0, authentication "none") advertising four text/plain skills — infr'
@@ -162,7 +162,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -181,7 +181,7 @@ tags:
 - Agent Support
 - DevOps
 - Telegram
-- agent-native
+- Agent-Native
 - Canada
 website: https://fleethelp.ai/
 ---

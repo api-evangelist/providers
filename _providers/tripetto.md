@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ rules:
   slug: tripetto-rules
 score:
   band: developing
-  composite: 42.6
+  composite: 43.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 73.5
@@ -280,10 +280,10 @@ score:
     access_clarity: 27.6
     contract_governance: 28.8
     contract_quality: 71.2
-    developer_ergonomics: 41.7
+    developer_ergonomics: 45.2
     discoverability: 68.5
     operational_transparency: 10.5
-  previous_composite: 42.6
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -292,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

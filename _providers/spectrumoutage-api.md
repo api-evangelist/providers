@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - baseURL: https://spectrumoutage.us/api/v1
@@ -232,7 +232,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -242,7 +242,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -267,7 +267,7 @@ tags:
 - Monitoring
 - Status
 - ZIP Code
-- Telecom
+- Telecommunications
 - ISP
 - Network Status
 - Crowdsourced

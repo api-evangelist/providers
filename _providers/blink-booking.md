@@ -38,7 +38,7 @@ tags:
 - Hospitality
 - Hotels
 - Booking
-- Mobile Applications
+- Mobile App
 - Last Minute Travel
 - Defunct
 - Acquired

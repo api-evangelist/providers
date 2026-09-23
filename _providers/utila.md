@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://api.utila.io
@@ -301,7 +301,7 @@ overview: 'Utila publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 15
 score:
   band: strong
-  composite: 55.6
+  composite: 56.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -314,10 +314,10 @@ score:
     access_clarity: 53.9
     contract_governance: 4.5
     contract_quality: 59.4
-    developer_ergonomics: 55.4
+    developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 50.0
-  previous_composite: 55.6
+  previous_composite: 56.3
   provenance:
     conformance: derived
     contracts:
@@ -334,7 +334,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

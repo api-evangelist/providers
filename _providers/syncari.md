@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - description: REST API for embedding and automating Syncari. Covers instance provisioning, synapse create/test/activate, entity and field pipeline authoring, validation and publishing, Quick Start install, schema (
@@ -262,7 +262,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -293,7 +293,7 @@ tags:
 - Data Governance
 - Embedded Integration
 - MCP
-- agent-native
+- Agent-Native
 - Revenue Operations
 - Data Synchronization
 website: https://syncari.com/

@@ -18,7 +18,7 @@ modified: '2026-07-19'
 name: Homeis
 nav: Providers
 network: true
-overview: Homeis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Network, Immigration, Community, and Mobile Applications.
+overview: Homeis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Network, Immigration, Community, and Mobile App.
 random_paper: 7
 slug: homeis
 tags:
@@ -26,7 +26,7 @@ tags:
 - Social Network
 - Immigration
 - Community
-- Mobile Applications
+- Mobile App
 - Consumer
 - Defunct
 ---

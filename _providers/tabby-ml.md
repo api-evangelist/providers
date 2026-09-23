@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ rate_limits:
   slug: tabby-ml-rate-limits
 score:
   band: thin
-  composite: 36.5
+  composite: 37.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 59.0
@@ -192,10 +192,10 @@ score:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 49.9
-    developer_ergonomics: 32.1
+    developer_ergonomics: 35.7
     discoverability: 59.3
     operational_transparency: 34.2
-  previous_composite: 36.5
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

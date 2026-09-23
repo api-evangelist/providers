@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ rules:
   slug: telefon-rules
 score:
   band: thin
-  composite: 34.5
+  composite: 35.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 62.5
@@ -301,10 +301,10 @@ score:
     access_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 57.1
-    developer_ergonomics: 26.2
+    developer_ergonomics: 29.8
     discoverability: 88.9
     operational_transparency: 26.3
-  previous_composite: 34.5
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -319,7 +319,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

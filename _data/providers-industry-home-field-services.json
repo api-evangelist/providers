@@ -16,18 +16,18 @@
      "slug": "shop-ware",
      "description": "Shop-Ware is cloud-based auto repair shop management software for independent automotive repair shops, backed by Insight Partners. It runs the digital workflow of a shop: digital vehicle inspections, repair orders, estimates, canned jobs and services, parts inventory and purchasing, customer and vehicle records, staff time clocks and pay rates, and integrated payments. Shop-Ware exposes a multi-tenant Partner API (V1 and V2, OpenAPI 3.0.1) that lets integrators read and manage these resources per shop (tenant) using two partner header credentials, plus an HTTPS webhook surface delivering object_type.event_action events (created / updated / deleted, and customer.merged) for near-real-time synchronization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/shop-ware/refs/heads/main/screenshots/shop-ware-2026-08-17T081834.png",
-     "score": 63.6,
+     "score": 64.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 63.4,
+      "contract_quality": 65.5,
       "contract_governance": 19.7,
       "operational_transparency": 57.9,
       "developer_ergonomics": 47.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +127,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 42.5,
      "agent_band": "agent-native",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -220,7 +220,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -270,7 +270,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -320,7 +320,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
@@ -363,7 +363,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -406,7 +406,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -467,7 +467,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 38.5,
      "agent_band": "agent-ready",
@@ -510,7 +510,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -553,7 +553,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 37.5,
      "agent_band": "agent-ready",
@@ -596,7 +596,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -639,7 +639,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -689,7 +689,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 27.8,
      "agent_band": "agent-aware",
@@ -731,7 +731,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -781,7 +781,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -831,7 +831,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -874,7 +874,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -943,7 +943,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -985,7 +985,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 38.7,
      "agent_band": "agent-ready",
@@ -1028,7 +1028,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1078,7 +1078,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1121,7 +1121,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -1164,7 +1164,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -1192,49 +1192,6 @@
      "rank": 25
     },
     {
-     "name": "ServiceChannel",
-     "slug": "servicechannel",
-     "description": "ServiceChannel is a facilities-management platform that lets multi-location brands automate work orders, dispatch and manage service providers, track physical assets, and process contractor invoices across restaurants, retail, grocery, healthcare, and hospitality. Its developer platform exposes a large REST API surface — the Service Automation API (v3) with 742 operations plus the Fixxbook provider-directory API — secured with OAuth2, with webhook notifications, a documented error-code registry, and a public developer portal. Added to the API Evangelist network from an accel portfolio lead and enriched from the live developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/screenshots/servicechannel-2026-08-17T081815.png",
-     "score": 45.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 54.0,
-      "contract_governance": 4.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 51.8,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 26
-    },
-    {
      "name": "PTC",
      "slug": "ptc",
      "description": "PTC is an industrial technology company providing software platforms and APIs for Industrial IoT (ThingWorx), Product Lifecycle Management (Windchill, Arena), Augmented Reality (Vuforia), Field Service Management (ServiceMax), and industrial connectivity (Kepware) in manufacturing environments.",
@@ -1250,7 +1207,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -1275,6 +1232,49 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 26
+    },
+    {
+     "name": "ServiceChannel",
+     "slug": "servicechannel",
+     "description": "ServiceChannel is a facilities-management platform that lets multi-location brands automate work orders, dispatch and manage service providers, track physical assets, and process contractor invoices across restaurants, retail, grocery, healthcare, and hospitality. Its developer platform exposes a large REST API surface — the Service Automation API (v3) with 742 operations plus the Fixxbook provider-directory API — secured with OAuth2, with webhook notifications, a documented error-code registry, and a public developer portal. Added to the API Evangelist network from an accel portfolio lead and enriched from the live developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/screenshots/servicechannel-2026-08-17T081815.png",
+     "score": 45.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 52.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 51.8,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 27
     },
     {
@@ -1293,7 +1293,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -1336,7 +1336,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 29.4,
      "agent_band": "agent-ready",
@@ -1379,7 +1379,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1429,7 +1429,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
@@ -1472,7 +1472,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -1515,7 +1515,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -1550,8 +1550,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 28,
-   "shown": 28,
+   "count": 27,
+   "shown": 27,
    "providers": [
     {
      "name": "Skimmer",
@@ -1569,7 +1569,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1611,7 +1611,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -1654,7 +1654,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1682,49 +1682,6 @@
      "rank": 36
     },
     {
-     "name": "SmartMoving",
-     "slug": "smartmoving",
-     "description": "SmartMoving is an all-in-one CRM and operations platform for moving companies, covering lead capture, sales and estimating, booking, dispatch and scheduling, storage, and customer follow-up. SmartMoving exposes a documented Open API (Azure API Management) to Growth Plan customers, authenticated with an x-api-key header, that reads and writes the platform's core CRM objects - customers, opportunities (quotes/estimates), leads, jobs/moves, payments, and follow-ups - plus a free, universally available Lead API for pushing new leads into an account from any lead provider or website. The API is offered in two tiers - Basic (read-only, for reporting and analytics) and Premium (read/write plus webhooks, for full integration and automation).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/screenshots/smartmoving-2026-09-02T155934.png",
-     "score": 38.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 46.5,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 41.7,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 37
-    },
-    {
      "name": "Dispatch",
      "slug": "dispatch",
      "description": "Dispatch (Dispatch Technologies, Boston MA) is a service-orchestration platform for enterprises that fulfil work through networks of independent contractors and third-party service providers - manufacturer warranty, home and property claims, retail, franchise and proptech. Dispatch gives the brand visibility into work performed by providers who keep using their own field-service tools, and gives the homeowner a tracked, branded service experience. Its public REST API v3 exposes the core business objects - jobs, customers, organizations, appointments, users, sources, brands, survey responses and composite work orders - to job sources such as warranty companies and equipment manufacturers, and to service enterprises running first-party branch networks. The API is secured with OAuth 2.0 bearer tokens, offers a full sandbox environment, and is documented in a public GitHub repository.",
@@ -1740,7 +1697,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 25.3,
      "agent_band": "agent-aware",
@@ -1765,7 +1722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Thumbtack",
@@ -1783,7 +1740,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -1808,7 +1765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Builder Prime",
@@ -1826,7 +1783,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1851,7 +1808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Joblogic",
@@ -1869,7 +1826,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1879,6 +1836,49 @@
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
+     "name": "Workiz",
+     "slug": "workiz",
+     "description": "Workiz is field service management (FSM) software for home-service businesses - HVAC, plumbing, electrical, appliance repair, garage doors, locksmiths, carpet cleaning, and similar trades. It combines scheduling and dispatch, a CRM, jobs and leads, estimates and invoicing, payments, and communications (calls, SMS, email) in one platform. Workiz exposes a documented REST API (the Developer API add-on) for reading and writing jobs, leads, team members, time off, and payments, plus outbound webhooks for new-job and new-lead events. All calls are made to https://api.workiz.com/api/v1/ with the account API token embedded in the request path.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/screenshots/workiz-2026-09-02T170947.png",
+     "score": 35.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 51.8,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -1912,7 +1912,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -1955,7 +1955,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
@@ -1983,49 +1983,6 @@
      "rank": 43
     },
     {
-     "name": "Workiz",
-     "slug": "workiz",
-     "description": "Workiz is field service management (FSM) software for home-service businesses - HVAC, plumbing, electrical, appliance repair, garage doors, locksmiths, carpet cleaning, and similar trades. It combines scheduling and dispatch, a CRM, jobs and leads, estimates and invoicing, payments, and communications (calls, SMS, email) in one platform. Workiz exposes a documented REST API (the Developer API add-on) for reading and writing jobs, leads, team members, time off, and payments, plus outbound webhooks for new-job and new-lead events. All calls are made to https://api.workiz.com/api/v1/ with the account API token embedded in the request path.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/screenshots/workiz-2026-09-02T170947.png",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 51.8,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 20.2,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 44
-    },
-    {
      "name": "TrueContext",
      "slug": "truecontext",
      "description": "TrueContext (formerly ProntoForms) is an enterprise field-intelligence and mobile-workflow platform that helps field service teams capture rich data, guide technicians through smart context-aware forms, and connect frontline work to back-office systems. Its low-code platform covers mobile forms, guided workflow automation, connected data, dispatch, and reporting for industries such as field service, installation, maintenance and repair, inspections and compliance, EHS, industrial and medical equipment, and oil and gas. The platform exposes a REST API (v1.0 and v2.0 at api.prontoforms.com) for programmatic access to forms, submissions, users, and dispatch, plus webhooks, OData, and FTP/sFTP data connectors, with out-of-the-box integrations for ServiceNow, Salesforce, ServiceMax, and Microsoft.",
@@ -2041,7 +1998,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -2066,7 +2023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Wisetack",
@@ -2084,7 +2041,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2116,7 +2073,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "WM",
@@ -2134,7 +2091,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2159,7 +2116,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "BuildOps",
@@ -2177,7 +2134,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -2202,7 +2159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "WorkWave",
@@ -2220,7 +2177,50 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 48
+    },
+    {
+     "name": "Tradify",
+     "slug": "tradify",
+     "description": "Tradify is all-in-one job management software for trade and service businesses (electricians, plumbers, HVAC, builders and other contractors), covering enquiries, quotes, jobs, scheduling and dispatch, timesheets, purchase orders, and invoicing from web and mobile apps. Tradify is an Access company. IMPORTANT ACCESS NOTE - as of this review Tradify does NOT publish an open, self-serve, documented public developer API, developer portal, API keys, or webhooks. Its supported programmatic surface is limited to pre-built accounting and payment partner integrations (Xero, MYOB Business, QuickBooks Online, Sage, and Stripe). A live application backend host (api.tradifyhq.com) exists but is undocumented, session-authenticated, and reserved for Tradify's own web and mobile clients; third parties reach Tradify data only through those partner integrations or through unofficial proxies that automate the authenticated session. The API entries below are MODELED from Tradify's product capabilities and are not confirmed against official public API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/screenshots/tradify-2026-09-02T164105.png",
+     "score": 33.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 45.6,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2248,49 +2248,6 @@
      "rank": 49
     },
     {
-     "name": "Tradify",
-     "slug": "tradify",
-     "description": "Tradify is all-in-one job management software for trade and service businesses (electricians, plumbers, HVAC, builders and other contractors), covering enquiries, quotes, jobs, scheduling and dispatch, timesheets, purchase orders, and invoicing from web and mobile apps. Tradify is an Access company. IMPORTANT ACCESS NOTE - as of this review Tradify does NOT publish an open, self-serve, documented public developer API, developer portal, API keys, or webhooks. Its supported programmatic surface is limited to pre-built accounting and payment partner integrations (Xero, MYOB Business, QuickBooks Online, Sage, and Stripe). A live application backend host (api.tradifyhq.com) exists but is undocumented, session-authenticated, and reserved for Tradify's own web and mobile clients; third parties reach Tradify data only through those partner integrations or through unofficial proxies that automate the authenticated session. The API entries below are MODELED from Tradify's product capabilities and are not confirmed against official public API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/screenshots/tradify-2026-09-02T164105.png",
-     "score": 33.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 45.6,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 50
-    },
-    {
      "name": "Innovapptive",
      "slug": "innovapptive",
      "description": "Innovapptive is a Houston-headquartered industrial software company whose AI-first Connected Worker Platform (CWP) digitizes frontline work across maintenance, operations, warehouse, EHS and continuous-improvement processes for asset-intensive industries — oil and gas, chemicals, mining and metals, power generation and manufacturing. The platform is built around deep, bi-directional integration with systems of record (SAP ECC and S/4HANA, IBM Maximo, Oracle, Infor, PI and SCADA) through its no-code Integration Manager and RACE configuration engine, and ships as product suites including mWorkOrder, mInventory, mRounds / Operator Rounds, iMaintenance, iPermits, mAssetTag and Digital Work Instructions. Its public developer surface is narrow: a documented external Operator Rounds REST API on the CBO (Connected Business Operations) host, secured with tenant-scoped API keys, plus a large Oxygen-published documentation estate at docs.innovapptive.com covering every dated release train.",
@@ -2306,7 +2263,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2338,7 +2295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 50
     },
     {
      "name": "BigChange",
@@ -2356,7 +2313,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2381,7 +2338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "JOBOX.ai",
@@ -2399,7 +2356,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2431,7 +2388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Commusoft",
@@ -2449,7 +2406,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2474,7 +2431,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "TaskRabbit",
@@ -2492,7 +2449,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 33.0,
      "agent_band": "agent-ready",
@@ -2517,7 +2474,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Shopmonkey",
@@ -2535,7 +2492,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2560,7 +2517,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Navigate",
@@ -2578,7 +2535,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 18.1,
      "agent_band": "agent-aware",
@@ -2603,7 +2560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "SightCall",
@@ -2621,7 +2578,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2653,7 +2610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Sitetracker",
@@ -2671,7 +2628,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2703,7 +2660,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "GoSite",
@@ -2721,7 +2678,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2753,38 +2710,38 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
-     "name": "Supermove",
-     "slug": "supermove",
-     "description": "Supermove is a cloud-based moving company operating system that manages the full job lifecycle for residential and commercial movers - sales and booking, estimating, dispatch and operations, a field crew app, storage, payments, and accounting. Supermove's public developer surface is intentionally narrow. Rather than a general REST platform API for jobs, customers, estimates, or invoices, the documented public integration is a single inbound \"Developer API\" - a per-account New Lead Endpoint. Each Supermove account exposes its own unique webhook URL, and upstream lead providers or a company's own website POST lead data as JSON (Content-Type application/json) to that URL to create leads/projects. The endpoint URL itself scopes the payload to the account, so no separate API keys or organization identifiers are used. Broader platform data and product integrations (QuickBooks Online, HubSpot, Stripe, Google Calendar, Zapier, Thumbtack, and other lead providers) are handled through Supermove's own connectors rather than a general outbound public API. Access is not self-serve; Supermove is sold via demo and custom quote.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/screenshots/supermove-2026-09-02T161244.png",
-     "score": 26.6,
+     "name": "SmartMoving",
+     "slug": "smartmoving",
+     "description": "SmartMoving is an all-in-one CRM and operations platform for moving companies, covering lead capture, sales and estimating, booking, dispatch and scheduling, storage, and customer follow-up. SmartMoving exposes a documented Open API (Azure API Management) to Growth Plan customers, authenticated with an x-api-key header, that reads and writes the platform's core CRM objects - customers, opportunities (quotes/estimates), leads, jobs/moves, payments, and follow-ups - plus a free, universally available Lead API for pushing new leads into an account from any lead provider or website. The API is offered in two tiers - Basic (read-only, for reporting and analytics) and Premium (read/write plus webhooks, for full integration and automation).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smartmoving/refs/heads/main/screenshots/smartmoving-2026-09-02T155934.png",
+     "score": 26.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 49.7,
+      "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 21.1
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 41.7,
+      "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
-     "agent_score": 14.7,
+     "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -2796,7 +2753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 60
     }
    ]
   },
@@ -2805,8 +2762,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 57,
-   "shown": 57,
+   "count": 58,
+   "shown": 58,
    "providers": [
     {
      "name": "Infraspeak",
@@ -2824,7 +2781,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -2849,7 +2806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "TechSee",
@@ -2867,7 +2824,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2899,7 +2856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Simpro",
@@ -2917,7 +2874,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2942,7 +2899,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Signpost",
@@ -2960,7 +2917,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2985,7 +2942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Modern",
@@ -3003,7 +2960,7 @@
       "developer_ergonomics": 31.5,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -3028,7 +2985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Acumen Software",
@@ -3045,7 +3002,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3077,7 +3034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Mela Works",
@@ -3095,7 +3052,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3120,7 +3077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Fieldpoint",
@@ -3138,7 +3095,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3163,7 +3120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Shiftsmart",
@@ -3181,7 +3138,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3213,7 +3170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Airwave",
@@ -3230,7 +3187,50 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 70
+    },
+    {
+     "name": "JobNimbus",
+     "slug": "jobnimbus",
+     "description": "JobNimbus is a CRM and project management platform built for contractors, particularly in roofing, restoration, and home services industries. The platform enables lead tracking, job scheduling, estimating, invoicing, document management, and workflow automation. JobNimbus exposes a REST-like Open API supporting GET, PUT, and POST requests with JSON payloads, authenticated via API keys generated from the user dashboard.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jobnimbus/refs/heads/main/screenshots/jobnimbus-2026-06-20T183745.png",
+     "score": 17.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3258,22 +3258,22 @@
      "rank": 71
     },
     {
-     "name": "JobNimbus",
-     "slug": "jobnimbus",
-     "description": "JobNimbus is a CRM and project management platform built for contractors, particularly in roofing, restoration, and home services industries. The platform enables lead tracking, job scheduling, estimating, invoicing, document management, and workflow automation. JobNimbus exposes a REST-like Open API supporting GET, PUT, and POST requests with JSON payloads, authenticated via API keys generated from the user dashboard.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jobnimbus/refs/heads/main/screenshots/jobnimbus-2026-06-20T183745.png",
-     "score": 17.6,
+     "name": "Viewabo",
+     "slug": "viewabo",
+     "description": "Viewabo is an interactive visual product-support platform for modern customer experience, product, and field-service teams. A support agent sends a browser link to anyone on-site; the customer taps it and shares their smartphone camera in real time — with no app download and no account required — so the team can see the problem live through the customer's camera, guide a remote fix, and confirm whether an on-site dispatch is actually needed. Hardware makers, equipment manufacturers, and medical/industrial product teams use it to cut truck rolls, resolve tickets faster, and triage before dispatch. Pricing is usage-based per video session with unlimited seats.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viewabo/refs/heads/main/screenshots/viewabo-2026-09-02T165959.png",
+     "score": 17.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 23.7
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3301,49 +3301,6 @@
      "rank": 72
     },
     {
-     "name": "Viewabo",
-     "slug": "viewabo",
-     "description": "Viewabo is an interactive visual product-support platform for modern customer experience, product, and field-service teams. A support agent sends a browser link to anyone on-site; the customer taps it and shares their smartphone camera in real time — with no app download and no account required — so the team can see the problem live through the customer's camera, guide a remote fix, and confirm whether an on-site dispatch is actually needed. Hardware makers, equipment manufacturers, and medical/industrial product teams use it to cut truck rolls, resolve tickets faster, and triage before dispatch. Pricing is usage-based per video session with unlimited seats.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viewabo/refs/heads/main/screenshots/viewabo-2026-09-02T165959.png",
-     "score": 17.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 73
-    },
-    {
      "name": "Hearth",
      "slug": "hearth",
      "description": "Hearth is a business-management platform for residential home-improvement contractors and trades professionals. It bundles customer financing (a marketplace of 18+ lenders with $0 dealer fees), quotes and estimates, digital contracts and e-signature, invoicing and payments, client management, and scheduling, together with Harper, a 24/7 AI receptionist that answers calls, handles follow-ups, and creates social content. Hearth serves 16+ residential contracting verticals including roofing, HVAC, plumbing, landscaping, fencing, and flooring, and is backed by 8vc.",
@@ -3359,7 +3316,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3391,7 +3348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Neuron7.ai",
@@ -3409,7 +3366,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3434,7 +3391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "Ermeo",
@@ -3452,7 +3409,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3477,7 +3434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Angi",
@@ -3495,7 +3452,50 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 76
+    },
+    {
+     "name": "FieldEdge",
+     "slug": "fieldedge",
+     "description": "FieldEdge is field service management (FSM) software for HVAC, plumbing, electrical, and other home- and commercial-services contractors, owned by Xplor Technologies (branded \"FieldEdge by Xplor\"). It provides customer management, dispatching and scheduling, work orders, a technician mobile app, flat-rate pricebook, service agreements, invoicing and payments, and QuickBooks accounting sync. FieldEdge operates a partner-gated API delivered through an Azure API Management developer portal (docs.api.fieldedge.com); API products and keys are restricted to approved integration partners rather than being openly self-serve. The logical APIs listed here are honestly modeled from FieldEdge's documented product modules and its partner/integration surface - endpoint paths are modeled, not copied from a published public reference, because the reference and OpenAPI live behind the partner portal sign-in.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fieldedge/refs/heads/main/screenshots/fieldedge-2026-07-25T214426.png",
+     "score": 16.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3523,22 +3523,22 @@
      "rank": 77
     },
     {
-     "name": "FieldEdge",
-     "slug": "fieldedge",
-     "description": "FieldEdge is field service management (FSM) software for HVAC, plumbing, electrical, and other home- and commercial-services contractors, owned by Xplor Technologies (branded \"FieldEdge by Xplor\"). It provides customer management, dispatching and scheduling, work orders, a technician mobile app, flat-rate pricebook, service agreements, invoicing and payments, and QuickBooks accounting sync. FieldEdge operates a partner-gated API delivered through an Azure API Management developer portal (docs.api.fieldedge.com); API products and keys are restricted to approved integration partners rather than being openly self-serve. The logical APIs listed here are honestly modeled from FieldEdge's documented product modules and its partner/integration surface - endpoint paths are modeled, not copied from a published public reference, because the reference and OpenAPI live behind the partner portal sign-in.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fieldedge/refs/heads/main/screenshots/fieldedge-2026-07-25T214426.png",
-     "score": 16.1,
+     "name": "UrbanCompany",
+     "slug": "urbancompany",
+     "description": "Urban Company (formerly UrbanClap) is an on-demand home services marketplace that connects customers with trained, hand-picked service professionals for beauty and salon services, cleaning, appliance repair, plumbing, electrical work, painting, and pest control. The Accel-backed platform operates across 40+ cities in India as well as the UAE, Saudi Arabia, and Singapore, and is delivered through its website and mobile apps. Urban Company does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urbancompany/refs/heads/main/screenshots/urbancompany-2026-09-02T165159.png",
+     "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 31.6
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3566,22 +3566,22 @@
      "rank": 78
     },
     {
-     "name": "UrbanCompany",
-     "slug": "urbancompany",
-     "description": "Urban Company (formerly UrbanClap) is an on-demand home services marketplace that connects customers with trained, hand-picked service professionals for beauty and salon services, cleaning, appliance repair, plumbing, electrical work, painting, and pest control. The Accel-backed platform operates across 40+ cities in India as well as the UAE, Saudi Arabia, and Singapore, and is delivered through its website and mobile apps. Urban Company does not publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urbancompany/refs/heads/main/screenshots/urbancompany-2026-09-02T165159.png",
+     "name": "Zinier",
+     "slug": "zinier",
+     "description": "Zinier is a no-code field service management platform that helps enterprises schedule and manage their workforce, assets, and customers, powered by generative AI. Its office and field experiences pair ready-to-use productivity tools with a no-code Task Builder for building custom workflows, and an Integration Marketplace advertising 1,000+ out-of-the-box connections to ERP, CRM, and EAM systems such as SAP, Oracle, Microsoft, Salesforce, Zendesk, ServiceNow, IBM, and Infor. Zinier targets asset-intensive field-service operations, from scheduling and dispatch through mobile task execution and customer communication. The company was surfaced as a portfolio company of Accel and ICONIQ Capital. No public developer API, API reference, or OpenAPI surface is published today — integration is delivered through the marketplace and end-user product documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zinier/refs/heads/main/screenshots/zinier-2026-09-02T171750.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 36.8
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3609,22 +3609,22 @@
      "rank": 79
     },
     {
-     "name": "Zinier",
-     "slug": "zinier",
-     "description": "Zinier is a no-code field service management platform that helps enterprises schedule and manage their workforce, assets, and customers, powered by generative AI. Its office and field experiences pair ready-to-use productivity tools with a no-code Task Builder for building custom workflows, and an Integration Marketplace advertising 1,000+ out-of-the-box connections to ERP, CRM, and EAM systems such as SAP, Oracle, Microsoft, Salesforce, Zendesk, ServiceNow, IBM, and Infor. Zinier targets asset-intensive field-service operations, from scheduling and dispatch through mobile task execution and customer communication. The company was surfaced as a portfolio company of Accel and ICONIQ Capital. No public developer API, API reference, or OpenAPI surface is published today — integration is delivered through the marketplace and end-user product documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zinier/refs/heads/main/screenshots/zinier-2026-09-02T171750.png",
-     "score": 15.7,
+     "name": "Handoff",
+     "slug": "handoff",
+     "description": "Handoff is an AI-native construction management and estimating platform built for residential contractors — remodelers, home builders, handymen, and trade contractors. It handles estimating, AI takeoffs, proposals, project management, scheduling, CRM, change orders, invoicing, and financial management end-to-end, generating detailed, localized estimates in seconds from descriptions, photos, drawings, or voice. Built by 1build and backed by Initialized Capital, Greycroft, Y Combinator, and Masco Ventures, Handoff serves 10,000+ monthly active users managing billions in annualized residential construction projects. Handoff does not currently expose a public developer API; it offers a Zapier integration for connected workflows, with an API on its public roadmap.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/handoff/refs/heads/main/screenshots/handoff-2026-07-25T220640.png",
+     "score": 15.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 36.8
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3652,22 +3652,22 @@
      "rank": 80
     },
     {
-     "name": "Handoff",
-     "slug": "handoff",
-     "description": "Handoff is an AI-native construction management and estimating platform built for residential contractors — remodelers, home builders, handymen, and trade contractors. It handles estimating, AI takeoffs, proposals, project management, scheduling, CRM, change orders, invoicing, and financial management end-to-end, generating detailed, localized estimates in seconds from descriptions, photos, drawings, or voice. Built by 1build and backed by Initialized Capital, Greycroft, Y Combinator, and Masco Ventures, Handoff serves 10,000+ monthly active users managing billions in annualized residential construction projects. Handoff does not currently expose a public developer API; it offers a Zapier integration for connected workflows, with an API on its public roadmap.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/handoff/refs/heads/main/screenshots/handoff-2026-07-25T220640.png",
-     "score": 15.5,
+     "name": "Helpling",
+     "slug": "helpling",
+     "description": "Helpling is an online marketplace that connects households with vetted, insured independent cleaners for on-demand and recurring home-cleaning services. Founded in Berlin and operating across 200+ cities in Germany and other European markets, the platform lets customers compare cleaner profiles and ratings, book and reschedule appointments, and pay online, with liability insurance covering each booking. Helpling operates as a consumer-facing web and mobile app product (iOS and Android) plus separate provider and agency portals; it does not currently publish a public developer API, SDKs, or API documentation. It was surfaced through the point-nine venture portfolio and added to the API Evangelist network as a company profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helpling/refs/heads/main/screenshots/helpling-2026-07-25T220947.png",
+     "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3695,10 +3695,10 @@
      "rank": 81
     },
     {
-     "name": "Helpling",
-     "slug": "helpling",
-     "description": "Helpling is an online marketplace that connects households with vetted, insured independent cleaners for on-demand and recurring home-cleaning services. Founded in Berlin and operating across 200+ cities in Germany and other European markets, the platform lets customers compare cleaner profiles and ratings, book and reschedule appointments, and pay online, with liability insurance covering each booking. Helpling operates as a consumer-facing web and mobile app product (iOS and Android) plus separate provider and agency portals; it does not currently publish a public developer API, SDKs, or API documentation. It was surfaced through the point-nine venture portfolio and added to the API Evangelist network as a company profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/helpling/refs/heads/main/screenshots/helpling-2026-07-25T220947.png",
+     "name": "Honeyhomes",
+     "slug": "honeyhomes",
+     "description": "Honey Homes is a home-maintenance membership service that pairs each member with a dedicated, vetted handyman who handles repairs, upgrades, seasonal upkeep, and preventive maintenance around the house. Members book visits, add tasks, receive photo updates, and stay connected to their handyman and team through a companion mobile app. Founded in 2021 by Vishwas and Avantika Prabhakara and backed by Khosla Ventures, the company operates as a licensed, bonded, and insured General Contractor and serves select California and Texas markets including the San Francisco Bay Area and Dallas. Surfaced in the API Evangelist network as a Khosla Ventures portfolio company; the company exposes a consumer mobile app but no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honeyhomes/refs/heads/main/screenshots/honeyhomes-2026-07-25T221358.png",
      "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3710,7 +3710,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3738,10 +3738,10 @@
      "rank": 82
     },
     {
-     "name": "Honeyhomes",
-     "slug": "honeyhomes",
-     "description": "Honey Homes is a home-maintenance membership service that pairs each member with a dedicated, vetted handyman who handles repairs, upgrades, seasonal upkeep, and preventive maintenance around the house. Members book visits, add tasks, receive photo updates, and stay connected to their handyman and team through a companion mobile app. Founded in 2021 by Vishwas and Avantika Prabhakara and backed by Khosla Ventures, the company operates as a licensed, bonded, and insured General Contractor and serves select California and Texas markets including the San Francisco Bay Area and Dallas. Surfaced in the API Evangelist network as a Khosla Ventures portfolio company; the company exposes a consumer mobile app but no public developer API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honeyhomes/refs/heads/main/screenshots/honeyhomes-2026-07-25T221358.png",
+     "name": "Remoov",
+     "slug": "remoov",
+     "description": "Remoov is a San Francisco-based full-service removal, resale, donation, and recycling company that helps households and businesses declutter by picking up unwanted furniture and goods, then reselling them on consignment (via reperch.com), donating them to charities, or recycling them responsibly. Customers schedule a pickup, receive a quote, and earn a share of resale proceeds. Remoov also serves realtors, stagers, property managers, and living communities as partners. Backed by 500 Global. This profile was added to the API Evangelist network as a portfolio lead; Remoov publishes a consumer web app and help desk but no public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remoov/refs/heads/main/screenshots/remoov-2026-09-02T153356.png",
      "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3753,7 +3753,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3781,22 +3781,22 @@
      "rank": 83
     },
     {
-     "name": "Remoov",
-     "slug": "remoov",
-     "description": "Remoov is a San Francisco-based full-service removal, resale, donation, and recycling company that helps households and businesses declutter by picking up unwanted furniture and goods, then reselling them on consignment (via reperch.com), donating them to charities, or recycling them responsibly. Customers schedule a pickup, receive a quote, and earn a share of resale proceeds. Remoov also serves realtors, stagers, property managers, and living communities as partners. Backed by 500 Global. This profile was added to the API Evangelist network as a portfolio lead; Remoov publishes a consumer web app and help desk but no public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/remoov/refs/heads/main/screenshots/remoov-2026-09-02T153356.png",
-     "score": 15.4,
+     "name": "Lessen",
+     "slug": "lessen",
+     "description": "Lessen is a Scottsdale, Arizona based property services and facilities management technology company that connects commercial and residential property owners and managers with a nationwide network of vetted service providers for repairs, maintenance, turns, make-readies and capital projects. The company operates a technology platform stack — One by Lessen for work-order, vendor-sourcing and invoicing workflow, Lessen 360 for multifamily maintenance, Lessen Pro for affiliate contractors, Aiden for AI-assisted work-order creation, and the Lessen Marketplace for procurement — supported by mobile apps for tenants, property managers and vendors. Lessen serves retail, financial services, healthcare, food service, industrial, hospitality and education properties alongside single-family and multifamily residential portfolios. Lessen acquired SMS Assist in 2023 and is backed by Fifth Wall and General Catalyst. Lessen publishes no public developer portal, API reference or OpenAPI definition; its named platform integrations are delivered as private partner connections rather than a self-serve API program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lessen/refs/heads/main/screenshots/lessen-2026-07-25T224923.png",
+     "score": 15.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 18.4,
       "developer_ergonomics": 7.1,
-      "access_clarity": 44.7
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3824,22 +3824,22 @@
      "rank": 84
     },
     {
-     "name": "Lessen",
-     "slug": "lessen",
-     "description": "Lessen is a Scottsdale, Arizona based property services and facilities management technology company that connects commercial and residential property owners and managers with a nationwide network of vetted service providers for repairs, maintenance, turns, make-readies and capital projects. The company operates a technology platform stack — One by Lessen for work-order, vendor-sourcing and invoicing workflow, Lessen 360 for multifamily maintenance, Lessen Pro for affiliate contractors, Aiden for AI-assisted work-order creation, and the Lessen Marketplace for procurement — supported by mobile apps for tenants, property managers and vendors. Lessen serves retail, financial services, healthcare, food service, industrial, hospitality and education properties alongside single-family and multifamily residential portfolios. Lessen acquired SMS Assist in 2023 and is backed by Fifth Wall and General Catalyst. Lessen publishes no public developer portal, API reference or OpenAPI definition; its named platform integrations are delivered as private partner connections rather than a self-serve API program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lessen/refs/heads/main/screenshots/lessen-2026-07-25T224923.png",
-     "score": 15.1,
+     "name": "ZenMaid",
+     "slug": "zenmaid",
+     "description": "ZenMaid is scheduling and business-management software for maid and house cleaning services - booking, calendar/dispatch, automated SMS and email communication, GPS-verified clock-in/out on a cleaner mobile app, online payments and invoicing, payroll, and reporting. ZenMaid has no public, self-service developer portal, no published REST/GraphQL API reference, and no OpenAPI specification of its own. Its only documented programmatic surface is a Zapier integration (triggers - New Customer Created, Appointment Booked, Appointment Cancelled, Appointment Updated, Contact Created/Updated, One-Time Service Created/Updated, Recurring Service Created/Updated/Cancelled, Invoice Created, Invoice Paid; actions - Create Appointment, Create Booking, Create Cleaner, Create Customer) built and maintained by ZenMaid against a private, undocumented backend API. No API keys, base URL, endpoint reference, payload schema, or SDK are published for third-party developers; the public GitHub organization (github.com/zenmaid) has no public repositories. This entry is documented as a stub because there is no public API to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenmaid/refs/heads/main/screenshots/zenmaid-2026-09-02T171613.png",
+     "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 27.6
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3867,22 +3867,22 @@
      "rank": 85
     },
     {
-     "name": "ZenMaid",
-     "slug": "zenmaid",
-     "description": "ZenMaid is scheduling and business-management software for maid and house cleaning services - booking, calendar/dispatch, automated SMS and email communication, GPS-verified clock-in/out on a cleaner mobile app, online payments and invoicing, payroll, and reporting. ZenMaid has no public, self-service developer portal, no published REST/GraphQL API reference, and no OpenAPI specification of its own. Its only documented programmatic surface is a Zapier integration (triggers - New Customer Created, Appointment Booked, Appointment Cancelled, Appointment Updated, Contact Created/Updated, One-Time Service Created/Updated, Recurring Service Created/Updated/Cancelled, Invoice Created, Invoice Paid; actions - Create Appointment, Create Booking, Create Cleaner, Create Customer) built and maintained by ZenMaid against a private, undocumented backend API. No API keys, base URL, endpoint reference, payload schema, or SDK are published for third-party developers; the public GitHub organization (github.com/zenmaid) has no public repositories. This entry is documented as a stub because there is no public API to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenmaid/refs/heads/main/screenshots/zenmaid-2026-09-02T171613.png",
-     "score": 15.0,
+     "name": "Meisterwerk",
+     "slug": "meisterwerk",
+     "description": "Meisterwerk is a modular all-in-one SaaS platform for German-speaking (DACH) trades and craft businesses (Handwerk), built by MEISTERWERK APP GmbH in Berlin. It gives small and medium craft firms (1-50 employees) a single operating system for job and resource scheduling (Einsatzplanung), a native mobile app for iOS, Android and Windows, chronological job documentation with photos and chat, quoting and invoicing with e-invoice support, EU-compliant mobile time tracking with GPS, digital forms and signatures, absence/holiday planning, and configurable workflows. AI features (planning assistant, speech-to-text documentation and time entry, and the standalone \"Frag Maxi\" phone assistant) are built in. It integrates with lexoffice, sevdesk, bexio and orgaMAX accounting software; a public open interface (Offene Schnittstelle) is announced but not yet publicly documented. Over 8,000 active users; data is hosted on servers in Germany and the platform is GDPR (DSGVO) compliant.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meisterwerk/refs/heads/main/screenshots/meisterwerk-2026-08-07T172430.png",
+     "score": 14.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 31.6
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3910,49 +3910,6 @@
      "rank": 86
     },
     {
-     "name": "Meisterwerk",
-     "slug": "meisterwerk",
-     "description": "Meisterwerk is a modular all-in-one SaaS platform for German-speaking (DACH) trades and craft businesses (Handwerk), built by MEISTERWERK APP GmbH in Berlin. It gives small and medium craft firms (1-50 employees) a single operating system for job and resource scheduling (Einsatzplanung), a native mobile app for iOS, Android and Windows, chronological job documentation with photos and chat, quoting and invoicing with e-invoice support, EU-compliant mobile time tracking with GPS, digital forms and signatures, absence/holiday planning, and configurable workflows. AI features (planning assistant, speech-to-text documentation and time entry, and the standalone \"Frag Maxi\" phone assistant) are built in. It integrates with lexoffice, sevdesk, bexio and orgaMAX accounting software; a public open interface (Offene Schnittstelle) is announced but not yet publicly documented. Over 8,000 active users; data is hosted on servers in Germany and the platform is GDPR (DSGVO) compliant.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meisterwerk/refs/heads/main/screenshots/meisterwerk-2026-08-07T172430.png",
-     "score": 14.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-21",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 87
-    },
-    {
      "name": "ServiceMax",
      "slug": "servicemax",
      "description": "ServiceMax is asset-centric field service management (FSM) software that helps equipment manufacturers and service organizations maximize equipment uptime, optimize technician productivity, and streamline service delivery. Its cloud platform, built natively on the Salesforce platform (ServiceMax Core and Asset 360), spans work order and workflow management, scheduling and dispatch (Service Board), preventive and predictive maintenance, contract and entitlement management, parts and inventory, offline-capable mobile tools (ServiceMax Go), real-time technician collaboration (Zinc), and customer self-service (Engage). Founded in 2007 and acquired by PTC in 2023, ServiceMax integrates with PTC's IoT and PLM portfolio (ThingWorx, Windchill) and exposes its data and workflows through the underlying Salesforce API surface rather than a standalone public developer API.",
@@ -3968,7 +3925,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -3993,6 +3950,49 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 87
+    },
+    {
+     "name": "Supermove",
+     "slug": "supermove",
+     "description": "Supermove is a cloud-based moving company operating system that manages the full job lifecycle for residential and commercial movers - sales and booking, estimating, dispatch and operations, a field crew app, storage, payments, and accounting. Supermove's public developer surface is intentionally narrow. Rather than a general REST platform API for jobs, customers, estimates, or invoices, the documented public integration is a single inbound \"Developer API\" - a per-account New Lead Endpoint. Each Supermove account exposes its own unique webhook URL, and upstream lead providers or a company's own website POST lead data as JSON (Content-Type application/json) to that URL to create leads/projects. The endpoint URL itself scopes the payload to the account, so no separate API keys or organization identifiers are used. Broader platform data and product integrations (QuickBooks Online, HubSpot, Stripe, Google Calendar, Zapier, Thumbtack, and other lead providers) are handled through Supermove's own connectors rather than a general outbound public API. Access is not self-serve; Supermove is sold via demo and custom quote.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/screenshots/supermove-2026-09-02T161244.png",
+     "score": 14.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-23",
+     "schema_version": "0.22.0",
+     "agent_score": 14.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 88
     },
     {
@@ -4011,7 +4011,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4054,7 +4054,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4097,7 +4097,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4140,7 +4140,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4183,7 +4183,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4233,7 +4233,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4276,7 +4276,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4319,7 +4319,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4362,7 +4362,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4405,7 +4405,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4447,7 +4447,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4490,7 +4490,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 4.3,
      "agent_band": "human-only",
@@ -4533,7 +4533,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4583,7 +4583,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4626,7 +4626,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4669,7 +4669,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -4712,7 +4712,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4755,7 +4755,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4798,7 +4798,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4841,7 +4841,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4890,7 +4890,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -4933,7 +4933,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4976,7 +4976,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5019,7 +5019,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5062,7 +5062,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5105,7 +5105,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5154,7 +5154,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5197,7 +5197,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5239,7 +5239,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5289,7 +5289,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5349,7 +5349,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5392,7 +5392,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5435,7 +5435,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5478,7 +5478,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5521,7 +5521,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5564,7 +5564,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -5652,7 +5652,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -5695,7 +5695,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5738,7 +5738,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5781,7 +5781,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5824,7 +5824,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5867,7 +5867,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5910,7 +5910,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5953,7 +5953,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6003,7 +6003,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6046,7 +6046,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6089,7 +6089,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6139,7 +6139,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6189,7 +6189,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6232,7 +6232,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6282,7 +6282,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6325,7 +6325,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6368,7 +6368,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6411,7 +6411,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6454,7 +6454,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6497,7 +6497,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6540,7 +6540,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6590,7 +6590,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6633,7 +6633,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6676,7 +6676,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6719,7 +6719,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6762,7 +6762,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6805,7 +6805,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6848,7 +6848,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6891,7 +6891,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6940,7 +6940,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6983,7 +6983,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7026,7 +7026,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7069,7 +7069,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7112,7 +7112,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7154,7 +7154,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7196,7 +7196,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7284,7 +7284,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7327,7 +7327,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7369,7 +7369,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7411,7 +7411,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7454,7 +7454,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7670,7 +7670,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7713,7 +7713,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7756,7 +7756,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7806,7 +7806,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7892,7 +7892,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7934,7 +7934,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7976,7 +7976,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8019,7 +8019,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8062,7 +8062,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-21",
+     "scored_at": "2026-09-23",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

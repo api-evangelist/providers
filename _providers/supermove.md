@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -94,8 +94,8 @@ plans:
   slug: supermove-plans-pricing
 random_paper: 8
 score:
-  band: thin
-  composite: 26.6
+  band: emerging
+  composite: 14.2
   coverage:
     artifact_dirs: 8
     catalog_earned: 45.0
@@ -107,11 +107,11 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 49.7
+    contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 68.5
     operational_transparency: 0.0
-  previous_composite: 26.6
+  previous_composite: 14.2
   provenance:
     agentic_access: derived
     contracts:
@@ -120,7 +120,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

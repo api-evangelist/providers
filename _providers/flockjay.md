@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - description: Django REST Framework API behind the Flockjay platform. The API root at https://api.flockjay.com/api/ is anonymously readable and enumerates 20 collections across an unversioned v1 tree (events, quest
@@ -229,7 +229,7 @@ score:
     regime_id: education
     score: 85.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -264,7 +264,7 @@ tags:
 - Content Management
 - Software-as-a-Service
 - MCP
-- agent-native
+- Agent-Native
 - Authentication
 website: https://flockjay.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 9
 apis:
 - description: Part of the Marquee developer platform, the Content Services API lets institutional clients programmatically consume client-focused Goldman Sachs content and commentary across equity, fixed income, cu
@@ -173,7 +173,7 @@ modified: '2026-07-23'
 name: Goldman Sachs
 nav: Providers
 network: true
-overview: 'Goldman Sachs publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial, Investment Banking, Money Center, and Institutional.
+overview: 'Goldman Sachs publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Finance, Investment Banking, Money Center, and Institutional.
 
 
   The Goldman Sachs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -224,7 +224,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -243,7 +243,7 @@ security:
 slug: goldman-sachs
 tags:
 - Banking
-- Financial
+- Finance
 - Investment Banking
 - Money Center
 - Institutional

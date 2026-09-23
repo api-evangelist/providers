@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ rate_limits:
   slug: testiny-rate-limits
 score:
   band: developing
-  composite: 39.3
+  composite: 40.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 64.0
@@ -184,10 +184,10 @@ score:
     access_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 52.5
-    developer_ergonomics: 29.8
+    developer_ergonomics: 33.3
     discoverability: 68.5
     operational_transparency: 31.6
-  previous_composite: 39.3
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

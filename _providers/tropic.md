@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ rules:
   slug: tropic-rules
 score:
   band: developing
-  composite: 41.4
+  composite: 42.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 73.5
@@ -257,10 +257,10 @@ score:
     access_clarity: 40.8
     contract_governance: 28.8
     contract_quality: 70.6
-    developer_ergonomics: 25.0
+    developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 7.9
-  previous_composite: 41.4
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -269,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

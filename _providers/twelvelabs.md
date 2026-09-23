@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ rules:
   slug: twelvelabs-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 40.6
+  composite: 41.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 67.8
@@ -207,10 +207,10 @@ score:
     access_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 59.0
-    developer_ergonomics: 29.8
+    developer_ergonomics: 33.3
     discoverability: 68.5
     operational_transparency: 34.2
-  previous_composite: 40.6
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

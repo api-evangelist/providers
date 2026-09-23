@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -375,7 +375,7 @@ rules:
   slug: serper-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.7
+  composite: 56.1
   coverage:
     artifact_dirs: 27
     catalog_earned: 78.3
@@ -387,23 +387,23 @@ score:
   facets:
     access_clarity: 78.9
     contract_governance: 14.4
-    contract_quality: 57.2
+    contract_quality: 54.8
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 36.8
-  previous_composite: 56.7
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
-      marker_coverage: 28.6
-      total: 14
+      derived: 4
+      marker_coverage: 33.3
+      total: 15
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

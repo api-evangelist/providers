@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ rate_limits:
   slug: transistor-rate-limits
 score:
   band: developing
-  composite: 40.6
+  composite: 41.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 60.0
@@ -207,10 +207,10 @@ score:
     access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 59.5
-    developer_ergonomics: 26.2
+    developer_ergonomics: 29.8
     discoverability: 68.5
     operational_transparency: 21.1
-  previous_composite: 40.6
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +220,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

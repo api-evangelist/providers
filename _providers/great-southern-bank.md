@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
@@ -232,7 +232,7 @@ modified: '2026-07-22'
 name: Great Southern Bank
 nav: Providers
 network: true
-overview: 'Great Southern Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Great Southern Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
   Great Southern Bank''s developer surface includes authentication, API reference, developer portal, documentation, support, engineering blog, and 21 more developer resources.'
@@ -284,7 +284,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -301,7 +301,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: great-southern-bank
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

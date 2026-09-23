@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ modified: '2026-05-19'
 name: CAMARA
 nav: Providers
 network: true
-overview: 'CAMARA publishes 1 API on the [APIs.io](https://apis.io/) network: Sessions API. Tagged areas include Telecom, Network APIs, Standards, Linux Foundation, and Open Gateway.
+overview: 'CAMARA publishes 1 API on the [APIs.io](https://apis.io/) network: Sessions API. Tagged areas include Telecommunications, Network APIs, Standards, Linux Foundation, and Open Gateway.
 
 
   The CAMARA catalog on APIs.io includes 1 JSON-LD context.
@@ -253,7 +253,7 @@ score:
     regime_id: telecommunications
     score: 47.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -270,7 +270,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: camara
 tags:
-- Telecom
+- Telecommunications
 - Network APIs
 - Standards
 - Linux Foundation

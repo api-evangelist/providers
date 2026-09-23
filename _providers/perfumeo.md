@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://perfumeo-ai.com/
 - group: company
   title: ''
   type: LinkedIn
@@ -76,15 +80,9 @@ score:
     developer_ergonomics: 0.0
     discoverability: 46.3
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -101,4 +99,5 @@ tags:
 - Consumer Products
 - Mobile App
 - No API Surface
+website: https://perfumeo-ai.com/
 ---

@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-09-21'
+  score: 36.9
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -287,35 +287,32 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 61.0
+  composite: 60.6
   coverage:
     artifact_dirs: 25
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_earned: 43.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 68.4
-    contract_governance: 4.5
+    contract_governance: 18.2
     contract_quality: 45.6
-    developer_ergonomics: 73.2
+    developer_ergonomics: 78.6
     discoverability: 75.9
-    operational_transparency: 89.5
-  previous_composite: 61.0
+    operational_transparency: 65.8
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
-    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-    mcp: derived
-    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

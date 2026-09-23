@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,7 +115,7 @@ score:
     regime_id: telecommunications
     score: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +135,7 @@ tags:
 - Mobile Payments
 - Egypt
 - Lending
-- Telecom
+- Telecommunications
 - Financial Inclusion
 website: https://raseediapp.com
 ---

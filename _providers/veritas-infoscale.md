@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -414,7 +414,7 @@ rules:
   slug: veritas-infoscale-spectral-rules
 score:
   band: thin
-  composite: 38.3
+  composite: 39.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 77.5
@@ -427,13 +427,13 @@ score:
     access_clarity: 44.7
     contract_governance: 28.8
     contract_quality: 30.4
-    developer_ergonomics: 64.3
+    developer_ergonomics: 67.9
     discoverability: 74.1
     operational_transparency: 23.7
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 38.3
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -442,7 +442,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

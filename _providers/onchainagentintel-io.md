@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://api.onchainagentintel.io
@@ -163,7 +163,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -192,6 +192,6 @@ tags:
 - A2A
 - Smart Contracts
 - Security Audits
-- agent-native
+- Agent-Native
 website: https://onchainagentintel.io/
 ---

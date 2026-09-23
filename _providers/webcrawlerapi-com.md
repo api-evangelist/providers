@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - baseURL: https://api.webcrawlerapi.com
@@ -310,7 +310,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -338,6 +338,6 @@ tags:
 - Structured Data
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 website: https://webcrawlerapi.com/
 ---

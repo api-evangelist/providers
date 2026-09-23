@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -416,7 +416,7 @@ rules:
   slug: vonage-rules
 score:
   band: developing
-  composite: 51.0
+  composite: 51.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 57.5
@@ -429,10 +429,10 @@ score:
     access_clarity: 44.7
     contract_governance: 13.6
     contract_quality: 68.6
-    developer_ergonomics: 63.1
+    developer_ergonomics: 66.7
     discoverability: 75.9
     operational_transparency: 13.2
-  previous_composite: 51.0
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -447,7 +447,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

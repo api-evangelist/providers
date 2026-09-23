@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pienza.co/
 - group: company
   title: ''
   type: LinkedIn
@@ -82,12 +86,10 @@ score:
     owner: catalog
     reasons:
     - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -103,4 +105,5 @@ tags:
 - B2B
 - Seattle
 - Accelerator
+website: https://pienza.co/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: An llms.txt marketing/brand document structured to help large language models interpret Nimble AppGenie's expertise, industry verticals, compliance standards, and service capabilities. It is not a mac
@@ -42,7 +42,7 @@ modified: '2026-09-16'
 name: Nimble AppGenie
 nav: Providers
 network: true
-overview: Nimble AppGenie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Mobile App Development, Web Development, ai-software, and E-Wallet.
+overview: Nimble AppGenie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Mobile Development, Web Development, ai-software, and E-Wallet.
 random_paper: 21
 score:
   band: minimal
@@ -82,7 +82,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -92,7 +92,7 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/nimble-appgenie/ref
 slug: nimble-appgenie
 tags:
 - Fintech
-- Mobile App Development
+- Mobile Development
 - Web Development
 - ai-software
 - E-Wallet

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: 'Agent-native interfaces for TrickyBird: a structured llms.txt and a documented WebMCP in-page tool surface. No REST/OpenAPI/GraphQL/Postman contract and no remote MCP server.'
@@ -131,7 +131,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -153,7 +153,7 @@ tags:
 - no account
 - no install
 - Browser
-- agent-native
+- Agent-Native
 - WebMCP
 - llms-txt
 - Privacy

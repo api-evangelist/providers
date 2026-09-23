@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ modified: '2026-07-20'
 name: Papernest
 nav: Providers
 network: true
-overview: 'Papernest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Subscription Management, Energy, and Telecom.
+overview: 'Papernest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Subscription Management, Energy, and Telecommunications.
 
 
   Papernest''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
@@ -125,7 +125,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -143,7 +143,7 @@ tags:
 - Financial-Services
 - Subscription Management
 - Energy
-- Telecom
+- Telecommunications
 - Insurance
 - Home Services
 - Consumer

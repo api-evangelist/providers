@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 18
 apis:
 - description: 'Anonymous remote MCP server published by Emotive''s Mintlify knowledge base. Three tools — documentation search, a read-only virtual filesystem over the docs, and documentation feedback. Verified live '
@@ -410,7 +410,7 @@ score:
   band: developing
   composite: 52.0
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -441,7 +441,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

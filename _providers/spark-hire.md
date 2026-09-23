@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -178,8 +178,8 @@ rate_limits:
   name: Spark Hire Rate Limits
   slug: spark-hire-rate-limits
 score:
-  band: thin
-  composite: 33.0
+  band: emerging
+  composite: 20.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 60.0
@@ -191,11 +191,11 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 54.5
+    contract_quality: 3.4
     developer_ergonomics: 13.1
     discoverability: 68.5
     operational_transparency: 21.1
-  previous_composite: 33.0
+  previous_composite: 20.3
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

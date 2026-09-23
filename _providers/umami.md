@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -598,7 +598,7 @@ rules:
   slug: umami-spectral-rules
 score:
   band: strong
-  composite: 61.2
+  composite: 61.9
   coverage:
     artifact_dirs: 32
     catalog_earned: 87.5
@@ -611,10 +611,10 @@ score:
     access_clarity: 100.0
     contract_governance: 47.0
     contract_quality: 29.2
-    developer_ergonomics: 64.9
+    developer_ergonomics: 68.5
     discoverability: 74.1
     operational_transparency: 65.8
-  previous_composite: 61.2
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -626,7 +626,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

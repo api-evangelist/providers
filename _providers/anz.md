@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ modified: '2026-07-21'
 name: Australia and New Zealand Banking Group (ANZ)
 nav: Providers
 network: true
-overview: 'Australia and New Zealand Banking Group (ANZ) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Australia and New Zealand Banking Group (ANZ) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Finance, Banks, Open Banking, CDR, and Consumer Banking.
 
 
   Australia and New Zealand Banking Group (ANZ)''s developer surface includes authentication, API reference, support, documentation, and 23 more developer resources.'
@@ -320,7 +320,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -341,7 +341,7 @@ security:
   summary_line: Bugcrowd · contact published
 slug: anz
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

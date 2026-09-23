@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,7 +63,116 @@ apis:
   description: IIIF Presentation API 2.1 manifests and collections.
   name: University of Manchester Presentation API
   slug: university-of-manchester-presentation-api
-artifact_total: 18
+artifact_total: 67
+collections:
+- collection_type: open
+  name: API Collection
+  slug: open-.refine-report
+- collection_type: open
+  name: Pure activity API
+  slug: open-university-of-manchester-activity-api
+- collection_type: open
+  name: Pure activity application API
+  slug: open-university-of-manchester-application-api
+- collection_type: open
+  name: Pure activity authorCollaboration API
+  slug: open-university-of-manchester-authorcollaboration-api
+- collection_type: open
+  name: Pure activity award API
+  slug: open-university-of-manchester-award-api
+- collection_type: open
+  name: Pure activity classificationScheme API
+  slug: open-university-of-manchester-classificationscheme-api
+- collection_type: open
+  name: Pure activity concept API
+  slug: open-university-of-manchester-concept-api
+- collection_type: open
+  name: Pure activity contract API
+  slug: open-university-of-manchester-contract-api
+- collection_type: open
+  name: Pure activity course API
+  slug: open-university-of-manchester-course-api
+- collection_type: open
+  name: Pure activity dataSet API
+  slug: open-university-of-manchester-dataset-api
+- collection_type: open
+  name: Pure activity education API
+  slug: open-university-of-manchester-education-api
+- collection_type: open
+  name: Pure activity equipment API
+  slug: open-university-of-manchester-equipment-api
+- collection_type: open
+  name: Pure activity event API
+  slug: open-university-of-manchester-event-api
+- collection_type: open
+  name: Pure activity externalOrganization API
+  slug: open-university-of-manchester-externalorganization-api
+- collection_type: open
+  name: Pure activity externalPerson API
+  slug: open-university-of-manchester-externalperson-api
+- collection_type: open
+  name: Pure activity fingerprint API
+  slug: open-university-of-manchester-fingerprint-api
+- collection_type: open
+  name: Pure activity fundingOpportunity API
+  slug: open-university-of-manchester-fundingopportunity-api
+- collection_type: open
+  name: Pure activity impact API
+  slug: open-university-of-manchester-impact-api
+- collection_type: open
+  name: Pure activity journal API
+  slug: open-university-of-manchester-journal-api
+- collection_type: open
+  name: Pure activity keywordGroupConfiguration API
+  slug: open-university-of-manchester-keywordgroupconfiguration-api
+- collection_type: open
+  name: Pure activity milestone API
+  slug: open-university-of-manchester-milestone-api
+- collection_type: open
+  name: Pure activity organization API
+  slug: open-university-of-manchester-organization-api
+- collection_type: open
+  name: Pure activity person API
+  slug: open-university-of-manchester-person-api
+- collection_type: open
+  name: Pure activity personExpertise API
+  slug: open-university-of-manchester-personexpertise-api
+- collection_type: open
+  name: Pure activity pressMedia API
+  slug: open-university-of-manchester-pressmedia-api
+- collection_type: open
+  name: Pure activity prize API
+  slug: open-university-of-manchester-prize-api
+- collection_type: open
+  name: Pure activity project API
+  slug: open-university-of-manchester-project-api
+- collection_type: open
+  name: Pure activity publisher API
+  slug: open-university-of-manchester-publisher-api
+- collection_type: open
+  name: Pure activity researchOutput API
+  slug: open-university-of-manchester-researchoutput-api
+- collection_type: open
+  name: Pure activity role API
+  slug: open-university-of-manchester-role-api
+- collection_type: open
+  name: Pure activity semester API
+  slug: open-university-of-manchester-semester-api
+- collection_type: open
+  name: Pure activity specialization API
+  slug: open-university-of-manchester-specialization-api
+- collection_type: open
+  name: Pure activity studentProject API
+  slug: open-university-of-manchester-studentproject-api
+- collection_type: open
+  name: Pure activity studentThesis API
+  slug: open-university-of-manchester-studentthesis-api
+- collection_type: open
+  name: Pure activity thesaurus API
+  slug: open-university-of-manchester-thesaurus-api
+- collection_type: open
+  name: Pure activity user API
+  slug: open-university-of-manchester-user-api
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/capabilities/university-of-manchester-capability-edges.yml
@@ -207,6 +316,9 @@ created: '2026-06-03'
 description: 'The University of Manchester is a public research university in Manchester, England, a founding member of the Russell Group and, on the QS World University Rankings, a consistent global top-40 institution. Its programmable footprint is small, real, and almost entirely mis-stated by its own domain names. The University operates exactly three machine-readable surfaces of its own: a IIIF Presentation API and a IIIF Image API serving the John Rylands Library''s digitised manuscripts from the University''s own hosts and its own JANET address space, and a Shibboleth SAML 2.0 Identity Provider registered in the Jisc UK Access Management Federation under entityID https://shib.manchester.ac.uk/shibboleth. Everything else that looks like a Manchester API is a tenancy: pure.manchester.ac.uk and research.manchester.ac.uk both CNAME to uom-aws.elsevierpure.com and serve Elsevier''s Pure product API and OAI-PMH implementation; figshare.manchester.ac.uk CNAMEs to figshare.com. Those are Manchester''s
   records on a supplier''s platform, under a supplier''s contract, and they are recorded here as tenant relationships rather than credited as the University''s engineering. There is no central developer portal, no self-service API keys, no open data portal at data.manchester.ac.uk, and no public course, timetable or SIS API. Thirty-six OpenAPI documents previously held in this repository were Elsevier''s Pure 5.35.2-2 specification split by tag and re-titled; they have been quarantined, not counted.'
 examples:
+- key_count: 13
+  name: University Of Manchester Activity Example
+  slug: university-of-manchester-activity-example
 - key_count: 2
   name: University Of Manchester Iiif Collection Example
   slug: university-of-manchester-iiif-collection-example
@@ -216,22 +328,56 @@ examples:
 - key_count: 2
   name: University Of Manchester Iiif Manifest Example
   slug: university-of-manchester-iiif-manifest-example
+- key_count: 17
+  name: University Of Manchester Person Example
+  slug: university-of-manchester-person-example
+- key_count: 15
+  name: University Of Manchester Project Example
+  slug: university-of-manchester-project-example
+- key_count: 4
+  name: University Of Manchester Research Outputs List Example
+  slug: university-of-manchester-research-outputs-list-example
 finops:
 - name: University Of Manchester Finops
   service_category: Education
   slug: university-of-manchester-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-manchester.png
 json_schemas:
+- name: Activity
+  property_count: 39
+  slug: university-of-manchester-activity
 - name: University of Manchester IIIF Image API information document
   property_count: 8
   slug: university-of-manchester-iiif-image-info
 - name: University of Manchester IIIF Presentation manifest
   property_count: 8
   slug: university-of-manchester-iiif-manifest
+- name: Person
+  property_count: 51
+  slug: university-of-manchester-person
+- name: Project
+  property_count: 47
+  slug: university-of-manchester-project
+- name: ResearchOutput
+  property_count: 53
+  slug: university-of-manchester-researchoutput
+json_structures:
+- name: University Of Manchester Activity Structure
+  property_count: 39
+  slug: university-of-manchester-activity-structure
+- name: University Of Manchester Person Structure
+  property_count: 51
+  slug: university-of-manchester-person-structure
+- name: University Of Manchester Project Structure
+  property_count: 47
+  slug: university-of-manchester-project-structure
+- name: University Of Manchester Researchoutput Structure
+  property_count: 53
+  slug: university-of-manchester-researchoutput-structure
 jsonld:
-- class_count: 15
+- class_count: 10
   name: University Of Manchester Context
-  property_count: 14
+  property_count: 22
   slug: university-of-manchester-context
 layout: provider
 modified: '2026-08-19'
@@ -241,7 +387,7 @@ network: true
 overview: 'University of Manchester publishes 2 APIs on the [APIs.io](https://apis.io/) network: Image API and Presentation API. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
-  The University of Manchester catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The University of Manchester catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   University of Manchester''s developer surface includes engineering blog, support, GitHub presence, authentication, and 27 more developer resources.'
@@ -255,30 +401,40 @@ rate_limits:
   name: University Of Manchester Rate Limits
   slug: university-of-manchester-rate-limits
 rules:
-- effective_rule_count: 10
+- effective_rule_count: 5
   extends: []
   name: University of Manchester API Rules
-  rule_count: 10
+  rule_count: 5
   severity_counts:
-    error: 5
+    error: 0
     hint: 0
-    info: 0
-    warn: 5
+    info: 2
+    warn: 3
+  slug: university-of-manchester-jsonschema-spectral-rules
+- effective_rule_count: 7
+  extends: []
+  name: University of Manchester API Rules
+  rule_count: 7
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 2
+    warn: 3
   slug: university-of-manchester-rules
 score:
   band: developing
-  composite: 50.4
+  composite: 49.3
   coverage:
-    artifact_dirs: 20
-    catalog_earned: 88.3
+    artifact_dirs: 18
+    catalog_earned: 85.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 26.8
+    catalog_gap: 29.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 50.0
-    contract_governance: 34.1
+    contract_governance: 25.0
     contract_quality: 71.3
     developer_ergonomics: 28.6
     discoverability: 68.5
@@ -291,7 +447,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 50.4
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,7 +463,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -318,7 +474,7 @@ security:
 - kind: authentication
   name: University Of Manchester Authentication
   slug: university-of-manchester-authentication
-  summary_line: saml2/none · 2 schemes
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: University Of Manchester Domain Security
   slug: university-of-manchester-domain-security

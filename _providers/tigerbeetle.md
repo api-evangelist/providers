@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 4
 apis:
 - description: Client-library operations for managing 128-byte double-entry accounts - create_accounts (establish immutable accounts on a ledger with debit/credit constraint flags), lookup_accounts (fetch accounts b
@@ -97,7 +97,7 @@ modified: '2026-07-02'
 name: TigerBeetle
 nav: Providers
 network: true
-overview: 'TigerBeetle publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Accounting, Transaction, Database, and Double-Entry.
+overview: 'TigerBeetle publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Accounting, Transaction, Database, and Double-Entry.
 
 
   TigerBeetle''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -126,7 +126,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +140,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: tigerbeetle
 tags:
-- Financial
+- Finance
 - Accounting
 - Transaction
 - Database

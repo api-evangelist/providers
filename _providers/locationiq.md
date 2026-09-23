@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: Provides forward/reverse geocoding and batch geocoding
@@ -65,7 +65,7 @@ modified: '2026-05-28'
 name: LocationIQ
 nav: Providers
 network: true
-overview: 'LocationIQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
+overview: 'LocationIQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding, Public APIs, and Geospatial.
 
 
   LocationIQ''s developer surface includes engineering blog and 3 more developer resources.'
@@ -74,7 +74,7 @@ score:
   band: minimal
   composite: 8.1
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -90,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -105,5 +105,6 @@ slug: locationiq
 tags:
 - Geocoding
 - Public APIs
+- Geospatial
 website: https://locationiq.org/docs/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -552,7 +552,7 @@ rules:
   slug: tanium-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 48.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 59.5
@@ -565,10 +565,10 @@ score:
     access_clarity: 40.8
     contract_governance: 28.8
     contract_quality: 61.4
-    developer_ergonomics: 53.6
+    developer_ergonomics: 57.1
     discoverability: 72.2
     operational_transparency: 23.7
-  previous_composite: 47.3
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -577,7 +577,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

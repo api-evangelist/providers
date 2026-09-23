@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://eqbuilder.dev/api
@@ -237,7 +237,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -261,7 +261,7 @@ tags:
 - Emotional Intelligence
 - Conversational AI
 - x402
-- Agent Payments
+- Agentic Payments
 - MCP
 - A2A
 - Developer Tools

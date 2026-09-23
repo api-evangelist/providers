@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -328,9 +328,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 15
+      derived: 16
       marker_coverage: 100.0
-      total: 15
+      total: 16
     mcp: derived
     skills: derived
   regulatory:
@@ -340,7 +340,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

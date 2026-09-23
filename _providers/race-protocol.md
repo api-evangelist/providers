@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: Developer guide and SDK/CLI surface for writing, publishing, and running WASM game bundles on the RACE Protocol multi-chain infrastructure.
@@ -80,7 +80,7 @@ score:
   band: emerging
   composite: 12.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 5
     catalog_earned: 41.0
     catalog_earned_first_party: 0.0
     catalog_gap: 74.0
@@ -96,7 +96,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

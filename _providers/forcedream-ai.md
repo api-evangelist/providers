@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 3
 apis:
 - baseURL: https://api.forcedream.ai
@@ -362,7 +362,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -392,9 +392,9 @@ tags:
 - A2A
 - Cryptographic Proofs
 - AI Inference Routing
-- Agent Payments
+- Agentic Payments
 - Agentic Commerce
-- agent-native
+- Agent-Native
 - United Kingdom
 website: https://forcedream.ai/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -293,7 +293,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -320,5 +320,6 @@ tags:
 - Phone Intelligence
 - SMS
 - Verification
+- Telecommunications
 website: https://www.telesign.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 12
 apis:
 - baseURL: https://a7.deutsche-boerse.com/api/v1
@@ -331,7 +331,7 @@ modified: '2026-07-22'
 name: Deutsche Börse
 nav: Providers
 network: true
-overview: 'Deutsche Börse publishes 12 APIs on the [APIs.io](https://apis.io/) network, including A7 Analytics Platform - Order Book API, A7 Analytics Platform - Market Data API (EOBI), A7 Analytics Platform - CME Market Data API (MDP), and 9 more. Tagged areas include Financial, Market Data, Stocks, Derivatives, and Trading.
+overview: 'Deutsche Börse publishes 12 APIs on the [APIs.io](https://apis.io/) network, including A7 Analytics Platform - Order Book API, A7 Analytics Platform - Market Data API (EOBI), A7 Analytics Platform - CME Market Data API (MDP), and 9 more. Tagged areas include Finance, Market Data, Stocks, Derivatives, and Trading.
 
 
   The Deutsche Börse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -380,7 +380,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -401,7 +401,7 @@ security:
   summary_line: security.txt · contact published
 slug: deutsche-boerse
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Derivatives

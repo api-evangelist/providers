@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - baseURL: https://api.whisperr.net
@@ -241,7 +241,7 @@ rate_limits:
   slug: whisperr-inc-rate-limits
 score:
   band: developing
-  composite: 43.8
+  composite: 44.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 47.0
@@ -253,22 +253,22 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 54.8
+    contract_quality: 58.2
     developer_ergonomics: 68.5
     discoverability: 68.5
     operational_transparency: 2.6
-  previous_composite: 43.8
+  previous_composite: 44.7
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

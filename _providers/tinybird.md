@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -325,7 +325,7 @@ rules:
   slug: tinybird-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 44.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 69.5
@@ -338,10 +338,10 @@ score:
     access_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 67.2
-    developer_ergonomics: 44.0
+    developer_ergonomics: 47.6
     discoverability: 68.5
     operational_transparency: 10.5
-  previous_composite: 43.9
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -351,7 +351,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

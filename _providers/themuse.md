@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ rate_limits:
   slug: themuse-rate-limits
 score:
   band: thin
-  composite: 36.4
+  composite: 37.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 64.0
@@ -149,10 +149,10 @@ score:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 55.8
-    developer_ergonomics: 17.9
+    developer_ergonomics: 21.4
     discoverability: 68.5
     operational_transparency: 31.6
-  previous_composite: 36.4
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

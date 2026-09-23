@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,6 +68,10 @@ collections:
   name: Serbia Company Data Search API
   slug: open-serbia-company-data-search-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://serbia-company-x402.vercel.app/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/serbia-company-data/refs/heads/main/security/serbia-company-data-domain-security.yml
   title: ''
@@ -203,7 +207,7 @@ network: true
 overview: 'Serbia Company Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Company API and Search API. Tagged areas include Serbia, Company Data, Business Registry, Open Data, and x402.
 
 
-  Serbia Company Data''s developer surface includes authentication, sandbox, code examples, pricing, and 17 more developer resources.'
+  Serbia Company Data''s developer surface includes authentication, sandbox, code examples, pricing, and 18 more developer resources.'
 plans:
 - name: Serbia Company Data Plans Pricing
   plan_count: 0
@@ -255,7 +259,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -281,5 +285,6 @@ tags:
 - OpenAPI
 - Financial Statements
 - pay-per-call
-- agent-native
+- Agent-Native
+website: https://serbia-company-x402.vercel.app/
 ---

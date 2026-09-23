@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 11
 apis:
 - description: Standard Ethereum-style JSON-RPC endpoint for Ronin mainnet (chain ID 2020). Used by wallets, games, dApps, indexers, and tooling to read chain state and submit transactions on Ronin.
@@ -157,7 +157,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -562,7 +562,7 @@ rules:
   slug: ncr-voyix-commerce-platform-spectral-rules
 score:
   band: thin
-  composite: 33.9
+  composite: 30.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 79.5
@@ -574,17 +574,17 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 28.8
-    contract_quality: 25.9
+    contract_quality: 11.2
     developer_ergonomics: 34.5
     discoverability: 81.5
     operational_transparency: 23.7
-  previous_composite: 33.9
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 7
-      marker_coverage: 87.5
+      derived: 0
+      marker_coverage: 0.0
       total: 8
   regulatory:
     applies: true
@@ -593,7 +593,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

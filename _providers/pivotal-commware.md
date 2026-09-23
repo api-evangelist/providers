@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ modified: '2026-07-20'
 name: Pivotal Commware
 nav: Providers
 network: true
-overview: 'Pivotal Commware is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecom, 5G, mmWave, and Wireless.
+overview: 'Pivotal Commware is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, 5G, mmWave, and Wireless.
 
 
   Pivotal Commware''s developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -96,7 +96,7 @@ score:
     regime_id: telecommunications
     score: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +111,7 @@ security:
 slug: pivotal-commware
 tags:
 - Company
-- Telecom
+- Telecommunications
 - 5G
 - mmWave
 - Wireless

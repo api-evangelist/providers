@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -362,7 +362,7 @@ modified: '2026-07-22'
 name: dxFeed
 nav: Providers
 network: true
-overview: 'dxFeed publishes 32 APIs on the [APIs.io](https://apis.io/) network, including dxLink WebSocket API, Alpha Beta Controller API, Asset Classification Controller API, and 29 more. Tagged areas include Financial, Market Data, Real-Time, Historical Data, and Stocks.
+overview: 'dxFeed publishes 32 APIs on the [APIs.io](https://apis.io/) network, including dxLink WebSocket API, Alpha Beta Controller API, Asset Classification Controller API, and 29 more. Tagged areas include Finance, Market Data, Real-Time, Historical Data, and Stocks.
 
 
   The dxFeed catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -412,7 +412,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -433,7 +433,7 @@ security:
   summary_line: SOC 2
 slug: dxfeed
 tags:
-- Financial
+- Finance
 - Market Data
 - Real-Time
 - Historical Data

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -231,8 +231,8 @@ rate_limits:
   name: Quodd Rate Limits
   slug: quodd-rate-limits
 score:
-  band: developing
-  composite: 46.8
+  band: thin
+  composite: 33.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 60.0
@@ -244,11 +244,11 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 53.7
+    contract_quality: 0.0
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 31.6
-  previous_composite: 46.8
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,7 +266,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

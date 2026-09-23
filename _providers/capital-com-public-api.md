@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ modified: '2026-05-29'
 name: Capital.com Public API
 nav: Providers
 network: true
-overview: 'Capital.com Public API publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Capital.com WebSocket API, Accounts API, General API, and 5 more. Tagged areas include CFD, Commodities, Cryptocurrency, Financial, and Forex.
+overview: 'Capital.com Public API publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Capital.com WebSocket API, Accounts API, General API, and 5 more. Tagged areas include CFD, Commodities, Cryptocurrency, Finance, and Forex.
 
 
   The Capital.com Public API catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -246,7 +246,7 @@ score:
     regime_id: securities_market_data
     score: 40.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -270,7 +270,7 @@ tags:
 - CFD
 - Commodities
 - Cryptocurrency
-- Financial
+- Finance
 - Forex
 - Indices
 - Market Data

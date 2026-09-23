@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 5
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
@@ -304,7 +304,7 @@ overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 11
 score:
   band: developing
-  composite: 49.2
+  composite: 49.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -317,10 +317,10 @@ score:
     access_clarity: 43.4
     contract_governance: 4.5
     contract_quality: 62.5
-    developer_ergonomics: 55.4
+    developer_ergonomics: 58.9
     discoverability: 81.5
     operational_transparency: 44.7
-  previous_composite: 49.2
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -331,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

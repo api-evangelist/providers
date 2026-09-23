@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -162,8 +162,8 @@ rate_limits:
   name: Opkit Rate Limits
   slug: opkit-rate-limits
 score:
-  band: thin
-  composite: 30.4
+  band: emerging
+  composite: 17.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 56.0
@@ -175,11 +175,11 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 51.6
+    contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 68.5
     operational_transparency: 21.1
-  previous_composite: 30.4
+  previous_composite: 17.5
   provenance:
     agentic_access: derived
     contracts:
@@ -194,7 +194,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

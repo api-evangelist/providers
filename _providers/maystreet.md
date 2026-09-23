@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - description: Low-latency, near-time market data query API delivered as a streaming WebSockets service so clients can process arbitrarily-sized result sets frame-by-frame without pagination. Publicly documented onl
@@ -99,7 +99,7 @@ modified: '2026-07-22'
 name: MayStreet
 nav: Providers
 network: true
-overview: 'MayStreet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Market Data, Real-Time, Trading, and Low Latency.
+overview: 'MayStreet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Real-Time, Trading, and Low Latency.
 
 
   MayStreet''s developer surface includes authentication, sandbox, and 8 more developer resources.'
@@ -130,7 +130,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -148,7 +148,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: maystreet
 tags:
-- Financial
+- Finance
 - Market Data
 - Real-Time
 - Trading

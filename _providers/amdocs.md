@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -341,7 +341,7 @@ modified: '2026-05-19'
 name: Amdocs
 nav: Providers
 network: true
-overview: 'Amdocs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Customers API, Products API, and 1 more. Tagged areas include Telecom, BSS, OSS, Billing, and Customer Management.
+overview: 'Amdocs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Customers API, Products API, and 1 more. Tagged areas include Telecommunications, BSS, OSS, Billing, and Customer Management.
 
 
   The Amdocs catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -399,7 +399,7 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 59.5
     catalog_earned_first_party: 0.0
     catalog_gap: 55.5
@@ -428,7 +428,7 @@ score:
     regime_id: telecommunications
     score: 47.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -454,7 +454,7 @@ solutions:
 - description: Mobile wallet and financial services enablement for telco operators entering digital banking and fintech markets.
   name: Digital Financial Services Platform
 tags:
-- Telecom
+- Telecommunications
 - BSS
 - OSS
 - Billing

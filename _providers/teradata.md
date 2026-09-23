@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -514,7 +514,7 @@ rules:
   slug: teradata-spectral-rules
 score:
   band: developing
-  composite: 40.8
+  composite: 41.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 69.5
@@ -527,10 +527,10 @@ score:
     access_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 21.9
-    developer_ergonomics: 75.0
+    developer_ergonomics: 78.6
     discoverability: 88.9
     operational_transparency: 10.5
-  previous_composite: 40.8
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -539,7 +539,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -311,7 +311,7 @@ rules:
   slug: taxjar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.4
+  composite: 53.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 85.3
@@ -324,10 +324,10 @@ score:
     access_clarity: 60.5
     contract_governance: 25.0
     contract_quality: 74.6
-    developer_ergonomics: 36.9
+    developer_ergonomics: 40.5
     discoverability: 68.5
     operational_transparency: 39.5
-  previous_composite: 52.4
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -336,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

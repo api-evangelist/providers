@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ modified: '2026-05-19'
 name: CSG Systems
 nav: Providers
 network: true
-overview: 'CSG Systems publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Payment Methods API, Settlements API, and 1 more. Tagged areas include Billing, Customer Engagement, Payments, Revenue Management, and Telecom.
+overview: 'CSG Systems publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Payment Methods API, Settlements API, and 1 more. Tagged areas include Billing, Customer Engagement, Payments, Revenue Management, and Telecommunications.
 
 
   The CSG Systems catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -280,7 +280,7 @@ score:
     regime_id: telecommunications
     score: 31.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -305,6 +305,6 @@ tags:
 - Customer Engagement
 - Payments
 - Revenue Management
-- Telecom
+- Telecommunications
 website: https://www.csgi.com/
 ---

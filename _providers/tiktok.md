@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -95,7 +95,47 @@ apis:
   description: Campaign performance reporting
   name: TikTok Reporting API
   slug: tiktok-reporting-api
-artifact_total: 49
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Video publishing operations
+  name: TikTok Post API
+  slug: tiktok-for-developers-post-api
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Comment data operations
+  name: TikTok Research Comments API
+  slug: tiktok-for-developers-research-comments-api
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Social graph data
+  name: TikTok Research Social API
+  slug: tiktok-for-developers-research-social-api
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: User information for research
+  name: TikTok Research Users API
+  slug: tiktok-for-developers-research-users-api
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Video search and query operations
+  name: TikTok Research Videos API
+  slug: tiktok-for-developers-research-videos-api
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: User profile information
+  name: TikTok User API
+  slug: tiktok-for-developers-user-api
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Video metadata and management
+  name: TikTok Video API
+  slug: tiktok-for-developers-video-api
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token management
+  name: TikTok O Auth API
+  slug: tiktok-for-developers-oauth-api
+artifact_total: 58
 collections:
 - collection_type: postman
   name: TikTok API for Business Ad Groups API
@@ -280,6 +320,9 @@ finops:
   service_category: Social Platform APIs
   slug: tiktok-finops
 graphqls:
+- description: TikTok for Developers API covers login kit, share kit, content posting API, display API for creator content, business account management, and TikTok Shop integration.
+  name: TikTok for Developers GraphQL API
+  slug: tiktok-for-developers-graphql
 - description: 'This conceptual GraphQL schema models the TikTok platform''s APIs as a unified graph. It is derived from three primary REST API surfaces offered by TikTok for Developers:'
   name: TikTok GraphQL Schema
   slug: tiktok-graphql
@@ -305,7 +348,7 @@ modified: '2026-05-19'
 name: TikTok
 nav: Providers
 network: true
-overview: 'TikTok publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Ads API, Audiences API, and 7 more. Tagged areas include TikTok, Advertising, Commerce, Content, and E-Commerce.
+overview: 'TikTok publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Ads API, Audiences API, and 15 more. Tagged areas include TikTok, Advertising, Commerce, Content, and E-Commerce.
 
 
   The TikTok catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -345,7 +388,7 @@ rules:
   slug: tiktok-rules
 score:
   band: developing
-  composite: 44.9
+  composite: 45.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 61.5
@@ -353,15 +396,15 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 22.4
     contract_governance: 13.6
-    contract_quality: 65.8
-    developer_ergonomics: 56.0
+    contract_quality: 66.5
+    developer_ergonomics: 59.5
     discoverability: 74.1
     operational_transparency: 34.2
-  previous_composite: 44.9
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -370,7 +413,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

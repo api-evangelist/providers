@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -195,8 +195,8 @@ rate_limits:
   name: Propeller Aero Rate Limits
   slug: propeller-aero-rate-limits
 score:
-  band: thin
-  composite: 37.3
+  band: emerging
+  composite: 24.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 60.0
@@ -208,11 +208,11 @@ score:
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 52.4
+    contract_quality: 0.0
     developer_ergonomics: 27.4
     discoverability: 68.5
     operational_transparency: 23.7
-  previous_composite: 37.3
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     contracts:
@@ -221,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

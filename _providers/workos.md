@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -1474,7 +1474,7 @@ rules:
   slug: workos-rules
 score:
   band: strong
-  composite: 59.6
+  composite: 60.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 78.5
@@ -1487,13 +1487,13 @@ score:
     access_clarity: 57.9
     contract_governance: 28.8
     contract_quality: 69.8
-    developer_ergonomics: 63.1
+    developer_ergonomics: 66.7
     discoverability: 63.0
     operational_transparency: 65.8
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 59.6
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1503,7 +1503,7 @@ score:
       total: 41
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -44,6 +44,6 @@ tags:
 - Fitness
 - Health and Wellness
 - Consumer Applications
-- Mobile Applications
+- Mobile App
 - Personal Training
 ---

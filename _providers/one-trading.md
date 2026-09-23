@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: wss://streams.fast.onetrading.com
@@ -221,7 +221,7 @@ overview: 'One Trading publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 12
 score:
   band: thin
-  composite: 33.3
+  composite: 30.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -233,17 +233,17 @@ score:
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 23.9
+    contract_quality: 12.5
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 10.5
-  previous_composite: 33.3
+  previous_composite: 30.4
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 4
     mcp: derived
     skills: derived
@@ -254,7 +254,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -488,7 +488,7 @@ rules:
   slug: zitadel-spectral
 score:
   band: developing
-  composite: 50.2
+  composite: 51.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 70.5
@@ -501,10 +501,10 @@ score:
     access_clarity: 60.5
     contract_governance: 28.8
     contract_quality: 74.4
-    developer_ergonomics: 32.1
+    developer_ergonomics: 35.7
     discoverability: 59.3
     operational_transparency: 34.2
-  previous_composite: 50.2
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -513,7 +513,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

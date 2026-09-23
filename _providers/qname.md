@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: 'Approval-gated REST API for WHOIS/RDAP lookups: GET /api/whois/{domain} (single), POST /api/whois/batch (batch), and GET /api/domain-traffic (traffic). Requires an admin-approved API key (qname_ prefi'
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

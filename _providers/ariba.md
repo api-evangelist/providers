@@ -11,31 +11,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-09-21'
-api_count: 74
+  score: 36.4
+  scored_at: '2026-09-23'
+api_count: 89
 apis:
 - description: Provides synchronous and asynchronous access to operational procurement data including requisitions, purchase orders, receipts, and invoices for reporting and analytics purposes.
   name: Operational Reporting API for Procurement
@@ -259,7 +259,64 @@ apis:
 - description: Provides content delivery and management for SAP Build Work Zone integration with SAP Ariba procurement capabilities.
   name: SAP Build Work Zone CDM Content API for Procurement
   slug: sap-build-work-zone-cdm-content-api-for-procurement
-artifact_total: 81
+- description: Allows buyers to create, manage, and track purchase orders across the SAP Ariba Network.
+  name: Ariba Network Purchase Orders Buyer API
+  slug: network-purchase-orders-buyer
+- description: Enables suppliers to retrieve purchase order and line item information from buyers on the SAP Business Network.
+  name: Ariba Network Purchase Orders Supplier API
+  slug: network-purchase-orders-supplier
+- description: Provides risk classification and category details for supplier risk exposure analysis.
+  name: Ariba Risk Category Information API
+  slug: risk-category-information
+- description: Enables applications to manage catalog content and get faceted catalog data based on specific attributes.
+  name: Ariba Catalog Content API
+  slug: catalog-content
+- description: Extracts and manages pricing data for product sourcing price information.
+  name: Ariba Pricing API for Product Sourcing
+  slug: pricing-for-product-sourcing
+- description: Implements System for Cross-domain Identity Management for user provisioning and management.
+  name: Ariba SCIM API
+  slug: scim
+- description: Creates and manages custom form definitions for procurement and sourcing workflows.
+  name: Ariba Custom Forms API
+  slug: custom-forms
+- description: Monitors data replication status across multi-ERP configurations.
+  name: Ariba Data Replication Status API
+  slug: data-replication-status
+- description: Tracks master data synchronization job status for operational procurement.
+  name: Ariba Master Data Integration Job Status API
+  slug: master-data-integration-job-status
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Process and manage invoices including creation, approval workflows, status tracking, and payment reconciliation.
+  name: Ariba Invoices API
+  slug: sap-ariba-invoices-api
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Manage individual line items within purchase orders including quantities, pricing, delivery schedules, and accounting assignments.
+  name: Ariba Purchase Order Line Items API
+  slug: sap-ariba-purchase-order-line-items-api
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Create, retrieve, update, and manage purchase orders across the SAP Ariba Network. Supports standard and service purchase orders including new, change, cancel, and close operations.
+  name: Ariba Purchase Orders API
+  slug: sap-ariba-purchase-orders-api
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Record goods receipts and service confirmations against purchase orders to support three-way matching.
+  name: Ariba Receipts API
+  slug: sap-ariba-receipts-api
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Create and manage purchase requisitions that initiate the procurement process and flow into purchase orders upon approval.
+  name: Ariba Requisitions API
+  slug: sap-ariba-requisitions-api
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Access and manage supplier profiles, onboarding, qualifications, performance, and risk assessments on the SAP Ariba Network.
+  name: Ariba Suppliers API
+  slug: sap-ariba-suppliers-api
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Ariba Event Surface
@@ -476,15 +533,24 @@ finops:
 - name: Ariba Finops
   service_category: API
   slug: ariba-finops
+json_schemas:
+- name: SAP Ariba Purchase Order
+  property_count: 28
+  slug: sap-ariba-purchase-order
+jsonld:
+- class_count: 0
+  name: Sap Ariba Context
+  property_count: 14
+  slug: sap-ariba-context
 layout: provider
 modified: '2026-08-29'
 name: Ariba
 nav: Providers
 network: true
-overview: 'Ariba publishes 74 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Catalog Management, Compliance, Contracts, and Enterprise.
+overview: 'Ariba publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Invoices API, Purchase Order Line Items API, Purchase Orders API, and 3 more. Tagged areas include B2B, Catalog Management, Compliance, Contracts, and Enterprise.
 
 
-  The Ariba catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Ariba catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
   Ariba''s developer surface includes getting-started guide, code examples, engineering blog, documentation, API reference, support, signup flow, and 39 more developer resources.'
@@ -499,33 +565,37 @@ rate_limits:
   slug: ariba-rate-limits
 score:
   band: developing
-  composite: 39.3
+  composite: 45.7
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 45.0
+    artifact_dirs: 25
+    catalog_earned: 53.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 70.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.5
   facets:
     access_clarity: 14.5
     contract_governance: 18.2
-    contract_quality: 48.1
-    developer_ergonomics: 26.2
+    contract_quality: 72.5
+    developer_ergonomics: 31.0
     discoverability: 70.4
     operational_transparency: 76.3
-  previous_composite: 39.3
+  previous_composite: 40.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
-  trend: flat
+  scored_at: '2026-09-23'
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/screenshots/ariba-2026-06-20T172425.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -410,7 +410,7 @@ rules:
   slug: vesselfinder-rules
 score:
   band: developing
-  composite: 50.1
+  composite: 50.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 71.5
@@ -423,10 +423,10 @@ score:
     access_clarity: 71.1
     contract_governance: 28.8
     contract_quality: 68.9
-    developer_ergonomics: 46.4
+    developer_ergonomics: 50.0
     discoverability: 59.3
     operational_transparency: 5.3
-  previous_composite: 50.1
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -435,7 +435,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

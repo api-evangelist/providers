@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -374,7 +374,7 @@ rules:
   slug: truework-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 55.1
+  composite: 55.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 85.3
@@ -387,10 +387,10 @@ score:
     access_clarity: 46.1
     contract_governance: 9.8
     contract_quality: 67.0
-    developer_ergonomics: 65.5
+    developer_ergonomics: 69.0
     discoverability: 74.1
     operational_transparency: 73.7
-  previous_composite: 55.1
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     contracts:
@@ -405,7 +405,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ rate_limits:
   slug: weglot-rate-limits
 score:
   band: developing
-  composite: 39.6
+  composite: 40.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 64.0
@@ -178,10 +178,10 @@ score:
     access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 52.6
-    developer_ergonomics: 32.1
+    developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 34.2
-  previous_composite: 39.6
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -191,7 +191,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

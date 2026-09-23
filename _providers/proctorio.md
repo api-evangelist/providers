@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -164,8 +164,8 @@ rate_limits:
   name: Proctorio Rate Limits
   slug: proctorio-rate-limits
 score:
-  band: thin
-  composite: 36.6
+  band: emerging
+  composite: 24.3
   coverage:
     artifact_dirs: 9
     catalog_earned: 64.0
@@ -177,14 +177,14 @@ score:
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 54.4
+    contract_quality: 0.0
     developer_ergonomics: 22.6
     discoverability: 68.5
     operational_transparency: 34.2
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 36.6
+  previous_composite: 24.3
   provenance:
     agentic_access: derived
     contracts:
@@ -199,7 +199,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

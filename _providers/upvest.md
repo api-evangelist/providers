@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1187,7 +1187,7 @@ scopes:
   summary_line: 18 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.4
+  composite: 56.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 73.5
@@ -1200,7 +1200,7 @@ score:
     access_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 84.2
-    developer_ergonomics: 46.4
+    developer_ergonomics: 50.0
     discoverability: 70.4
     operational_transparency: 26.3
   jurisdiction:
@@ -1212,7 +1212,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 55.4
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1227,7 +1227,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

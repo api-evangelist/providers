@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 3
 common:
@@ -116,7 +116,7 @@ modified: '2026-07-22'
 name: Pico
 nav: Providers
 network: true
-overview: 'Pico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Market Data, Trading, Real-Time, and Low Latency.
+overview: 'Pico is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Market Data, Trading, Real-Time, and Low Latency.
 
 
   Pico''s developer surface includes authentication, changelog, documentation, developer portal, engineering blog, support, and 10 more developer resources.'
@@ -154,7 +154,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +172,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: pico-trading
 tags:
-- Financial
+- Finance
 - Market Data
 - Trading
 - Real-Time

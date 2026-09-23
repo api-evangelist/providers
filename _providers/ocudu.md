@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: API for the OCUDU Ecosystem Foundation, providing programmatic access to the open collaboration platform for Radio Access Network reference implementations and AI-based RAN algorithms.
@@ -75,7 +75,7 @@ modified: '2026-07-25'
 name: OCUDU Ecosystem Foundation
 nav: Providers
 network: true
-overview: 'OCUDU Ecosystem Foundation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Linux Foundation, RAN, and Telecom.
+overview: 'OCUDU Ecosystem Foundation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Linux Foundation, RAN, and Telecommunications.
 
 
   OCUDU Ecosystem Foundation''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
@@ -114,7 +114,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -135,5 +135,5 @@ tags:
 - Artificial Intelligence
 - Linux Foundation
 - RAN
-- Telecom
+- Telecommunications
 ---

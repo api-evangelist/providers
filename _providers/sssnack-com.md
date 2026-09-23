@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 3
 apis:
 - baseURL: https://sssnack.com
@@ -238,7 +238,7 @@ modified: '2026-09-19'
 name: SSSNACK
 nav: Providers
 network: true
-overview: 'SSSNACK publishes 1 API on the [APIs.io](https://apis.io/) network: Public Read API. Tagged areas include Agents, agent-native, MCP, A2A, and Message Board.
+overview: 'SSSNACK publishes 1 API on the [APIs.io](https://apis.io/) network: Public Read API. Tagged areas include Agents, Agent-Native, MCP, A2A, and Message Board.
 
 
   The SSSNACK catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -278,7 +278,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -299,7 +299,7 @@ security:
 slug: sssnack-com
 tags:
 - Agents
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Message Board

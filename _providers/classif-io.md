@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: One of the sixteen demo classification APIs Classif.io advertised, named "Fashion Style classification API" in the site navigation of the last archived capture of the homepage (2025-03-21). What the A
@@ -126,7 +126,7 @@ score:
   band: emerging
   composite: 15.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 58.0
     catalog_earned_first_party: 0.0
     catalog_gap: 57.0
@@ -142,7 +142,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

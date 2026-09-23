@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -482,7 +482,7 @@ rules:
   slug: yelp-spectral-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 49.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 79.5
@@ -495,22 +495,22 @@ score:
     access_clarity: 39.5
     contract_governance: 28.8
     contract_quality: 79.9
-    developer_ergonomics: 63.1
+    developer_ergonomics: 66.7
     discoverability: 81.5
     operational_transparency: 18.4
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 48.3
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

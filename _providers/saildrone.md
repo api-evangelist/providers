@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://developer-mission.saildrone.com
@@ -257,8 +257,8 @@ rules:
     warn: 2
   slug: saildrone-rules
 score:
-  band: developing
-  composite: 40.3
+  band: thin
+  composite: 27.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 86.5
@@ -270,11 +270,11 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 66.4
+    contract_quality: 15.0
     developer_ergonomics: 11.9
     discoverability: 59.3
     operational_transparency: 36.8
-  previous_composite: 40.3
+  previous_composite: 27.5
   provenance:
     contracts:
       callable: 0.0
@@ -282,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

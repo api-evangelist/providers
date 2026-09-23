@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 6
@@ -256,13 +256,13 @@ score:
   band: thin
   composite: 34.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 64.5
     catalog_earned_first_party: 0.0
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 15.8
     contract_governance: 28.8
@@ -270,7 +270,7 @@ score:
     developer_ergonomics: 33.3
     discoverability: 66.7
     operational_transparency: 13.2
-  previous_composite: 34.3
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -279,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

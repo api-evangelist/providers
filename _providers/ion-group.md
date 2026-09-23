@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ modified: '2026-05-19'
 name: Ion Group
 nav: Providers
 network: true
-overview: 'Ion Group publishes 1 API on the [APIs.io](https://apis.io/) network: Entities API. Tagged areas include Analytics, Financial, Financial-Services, and Trading.
+overview: 'Ion Group publishes 1 API on the [APIs.io](https://apis.io/) network: Entities API. Tagged areas include Analytics, Finance, Financial-Services, and Trading.
 
 
   Ion Group''s developer surface includes authentication, developer portal, and 5 more developer resources.'
@@ -125,7 +125,7 @@ score:
   band: thin
   composite: 28.4
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -154,7 +154,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -173,7 +173,7 @@ security:
 slug: ion-group
 tags:
 - Analytics
-- Financial
+- Finance
 - Financial-Services
 - Trading
 website: https://iongroup.com/

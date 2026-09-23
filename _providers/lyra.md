@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 3
 apis:
 - description: Public REST API endpoints for querying market data, instruments, tickers, options boards, implied volatility, settlement history, and liquidity pool analytics without authentication.
@@ -47,6 +47,10 @@ apis:
   slug: lyra-websocket-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.derive.xyz/
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lyra/refs/heads/main/security/lyra-domain-security.yml
   title: ''
@@ -111,7 +115,7 @@ network: true
 overview: 'Lyra publishes 1 API on the [APIs.io](https://apis.io/) network: Public REST API. Tagged areas include Options, AMM, DeFi, Derivatives, and Implied Volatility.
 
 
-  Lyra''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  Lyra''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -147,7 +151,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -169,4 +173,5 @@ tags:
 - Perpetuals
 - Crypto
 - Finance
+website: https://www.derive.xyz/
 ---

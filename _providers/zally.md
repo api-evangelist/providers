@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -311,9 +311,9 @@ rules:
   slug: zally-rules
 score:
   band: developing
-  composite: 42.7
+  composite: 43.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 71.3
     catalog_earned_first_party: 0.0
     catalog_gap: 43.8
@@ -324,10 +324,10 @@ score:
     access_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 67.3
-    developer_ergonomics: 44.0
+    developer_ergonomics: 47.6
     discoverability: 68.5
     operational_transparency: 36.8
-  previous_composite: 42.7
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -336,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

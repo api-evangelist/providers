@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -243,7 +243,7 @@ rules:
   slug: whop-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 30.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 68.5
@@ -255,11 +255,11 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 40.1
-    developer_ergonomics: 29.8
+    contract_quality: 20.9
+    developer_ergonomics: 33.3
     discoverability: 68.5
     operational_transparency: 34.2
-  previous_composite: 34.1
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -275,7 +275,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

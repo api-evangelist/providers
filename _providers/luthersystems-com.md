@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://agentsearch.luthersystems.com
@@ -249,7 +249,7 @@ modified: '2026-09-19'
 name: Luther Systems
 nav: Providers
 network: true
-overview: 'Luther Systems publishes 1 API on the [APIs.io](https://apis.io/) network: AgentSearch HTTP API. Tagged areas include Agents, Agent Discovery, MCP, A2A, and agent-native.
+overview: 'Luther Systems publishes 1 API on the [APIs.io](https://apis.io/) network: AgentSearch HTTP API. Tagged areas include Agents, Agent Discovery, MCP, A2A, and Agent-Native.
 
 
   Luther Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 33 more developer resources.'
@@ -297,7 +297,7 @@ score:
     regime_id: insurance
     score: 40.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -321,7 +321,7 @@ tags:
 - Agent Discovery
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Cloud Infrastructure
 - Terraform
 - Infrastructure as Code

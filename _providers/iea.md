@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - description: Provides up-to-hourly CO2 intensity and emissions data from the power sector for countries worldwide. Data is sourced from transmission system operators, market operators, and statistical agencies, co
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 23.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 7
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -147,7 +147,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

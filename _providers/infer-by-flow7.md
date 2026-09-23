@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 2
 apis:
 - baseURL: https://infer.flow7.org/v1
@@ -228,7 +228,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -260,7 +260,7 @@ tags:
 - Developer Tools
 - Usage-Based Billing
 - Prepaid billing
-- agent-native
+- Agent-Native
 - Agent Skills
 - Model Routing
 website: https://infer.flow7.org/

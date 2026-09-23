@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -149,8 +149,8 @@ rate_limits:
   name: Wakeo Rate Limits
   slug: wakeo-rate-limits
 score:
-  band: thin
-  composite: 27.6
+  band: emerging
+  composite: 19.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 56.0
@@ -162,8 +162,8 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 35.4
-    developer_ergonomics: 20.2
+    contract_quality: 0.0
+    developer_ergonomics: 23.8
     discoverability: 68.5
     operational_transparency: 21.1
   jurisdiction:
@@ -172,7 +172,7 @@ score:
     regions:
     - europe
     - france-iberia
-  previous_composite: 27.6
+  previous_composite: 19.4
   provenance:
     agentic_access: derived
     contracts:
@@ -181,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 8
@@ -236,7 +236,7 @@ score:
   band: strong
   composite: 54.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -262,7 +262,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -286,7 +286,7 @@ tags:
 - Developer Tools
 - Preview Infrastructure
 - File Sharing
-- agent-native
+- Agent-Native
 - Company
 website: https://temp.md/
 ---

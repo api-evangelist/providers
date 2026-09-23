@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -402,7 +402,7 @@ rate_limits:
   slug: wingspan-rate-limits
 score:
   band: strong
-  composite: 59.1
+  composite: 59.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 45.0
@@ -415,10 +415,10 @@ score:
     access_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 64.0
-    developer_ergonomics: 55.4
+    developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 47.4
-  previous_composite: 59.1
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -440,7 +440,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

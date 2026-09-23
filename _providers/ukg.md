@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -564,7 +564,7 @@ rules:
   slug: ukg-spectral-rules
 score:
   band: thin
-  composite: 32.6
+  composite: 33.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 74.5
@@ -576,20 +576,20 @@ score:
   facets:
     access_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 31.6
-    developer_ergonomics: 44.0
+    contract_quality: 31.3
+    developer_ergonomics: 47.6
     discoverability: 68.5
     operational_transparency: 7.9
-  previous_composite: 32.6
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
-      callable: 50.0
+      callable: 10.0
       derived: 10
       marker_coverage: 100.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

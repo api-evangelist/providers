@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 19
 apis:
 - baseURL: https://api3.mountain.com
@@ -348,7 +348,7 @@ rate_limits:
   slug: mntn-rate-limits
 score:
   band: developing
-  composite: 47.2
+  composite: 47.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -360,22 +360,22 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 59.7
+    contract_quality: 60.1
     developer_ergonomics: 49.4
     discoverability: 81.5
     operational_transparency: 34.2
-  previous_composite: 47.2
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
-      callable: 88.2
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 33
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

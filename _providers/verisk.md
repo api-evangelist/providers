@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -384,7 +384,7 @@ rules:
   slug: verisk-spectral-rules
 score:
   band: developing
-  composite: 40.7
+  composite: 41.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 69.5
@@ -397,10 +397,10 @@ score:
     access_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 73.1
-    developer_ergonomics: 51.2
+    developer_ergonomics: 54.8
     discoverability: 59.3
     operational_transparency: 7.9
-  previous_composite: 40.7
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -415,7 +415,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

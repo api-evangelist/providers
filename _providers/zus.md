@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -391,8 +391,8 @@ rate_limits:
   name: Zus Rate Limits
   slug: zus-rate-limits
 score:
-  band: strong
-  composite: 61.7
+  band: developing
+  composite: 50.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 60.0
@@ -404,11 +404,11 @@ score:
   facets:
     access_clarity: 64.5
     contract_governance: 18.2
-    contract_quality: 61.8
+    contract_quality: 16.6
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 81.6
-  previous_composite: 61.7
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -426,7 +426,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

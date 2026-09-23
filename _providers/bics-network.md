@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -285,7 +285,7 @@ modified: '2026-07-11'
 name: BICS
 nav: Providers
 network: true
-overview: 'BICS publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Address Management API, CDR API, Connections Management API, and 19 more. Tagged areas include Number Verification, Telecom, Mobile Identity, Anti-Fraud, and Device Location.
+overview: 'BICS publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Address Management API, CDR API, Connections Management API, and 19 more. Tagged areas include Number Verification, Telecommunications, Mobile Identity, Anti-Fraud, and Device Location.
 
 
   BICS''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -331,7 +331,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -345,7 +345,7 @@ security:
 slug: bics-network
 tags:
 - Number Verification
-- Telecom
+- Telecommunications
 - Mobile Identity
 - Anti-Fraud
 - Device Location

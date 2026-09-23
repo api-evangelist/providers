@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -152,6 +152,10 @@ collections:
   name: US Bank RTP Real-Time Payments API
   slug: open-us-bank-rtp
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.usbank.com/
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/capabilities/us-bancorp-capability-edges.yml
   title: ''
@@ -230,7 +234,7 @@ overview: 'US Bancorp publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The US Bancorp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  US Bancorp''s developer surface includes authentication and 6 more developer resources.'
+  US Bancorp''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Us Bancorp Plans Pricing
   plan_count: 1
@@ -316,7 +320,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -341,4 +345,5 @@ tags:
 - Open Banking
 - Treasury Management
 - Consumer Banking
+website: https://www.usbank.com/
 ---

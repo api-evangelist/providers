@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -25,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-09-21'
+  score: 40.5
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -457,7 +458,7 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: developing
-  composite: 47.7
+  composite: 47.9
   coverage:
     artifact_dirs: 33
     catalog_earned: 68.5
@@ -465,27 +466,24 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 44.7
     contract_governance: 47.0
-    contract_quality: 32.3
-    developer_ergonomics: 63.7
+    contract_quality: 28.9
+    developer_ergonomics: 69.0
     discoverability: 72.2
     operational_transparency: 44.7
-  previous_composite: 47.7
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
-    conformance: first-party
     contracts:
-      callable: 90.0
+      callable: 100.0
       derived: 9
-      marker_coverage: 90.0
-      total: 10
-    mcp: derived
-    skills: derived
+      marker_coverage: 100.0
+      total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

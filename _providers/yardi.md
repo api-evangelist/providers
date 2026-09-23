@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -370,7 +370,7 @@ rules:
   slug: yardi-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 37.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 50.3
@@ -383,10 +383,10 @@ score:
     access_clarity: 48.7
     contract_governance: 9.8
     contract_quality: 26.7
-    developer_ergonomics: 48.8
+    developer_ergonomics: 52.4
     discoverability: 70.4
     operational_transparency: 23.7
-  previous_composite: 36.8
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -395,7 +395,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

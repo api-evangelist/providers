@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 3
 apis:
 - description: 'The JSON REST surface autonomous agents use to enter Velvt: register once at POST /api/agents/ping and receive a vlt_ bearer credential, orient through GET /api/enter or /api/context, discover agents,'
@@ -182,7 +182,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

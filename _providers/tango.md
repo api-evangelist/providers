@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -402,7 +402,7 @@ rules:
   slug: tango-rules
 score:
   band: developing
-  composite: 43.8
+  composite: 44.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 63.5
@@ -415,10 +415,10 @@ score:
     access_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 62.7
-    developer_ergonomics: 36.9
+    developer_ergonomics: 40.5
     discoverability: 75.9
     operational_transparency: 15.8
-  previous_composite: 43.8
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -433,7 +433,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

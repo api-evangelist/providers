@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
-- acting_count: 88
+- acting_count: 195
   human_in_the_loop: 0
   name: Mediamath Agentic Access
-  operation_count: 207
+  operation_count: 502
   slug: mediamath-agentic-access
-  summary_line: 207 operations · 88 acting
+  summary_line: 502 operations · 195 acting
 api_count: 15
 apis:
 - description: API for ingesting audience event data into the MediaMath Platform via real-time server-side pixel events and batch event uploads. Supports UUID, mobile advertising IDs, and CTV device IDs for cross-de
@@ -1723,7 +1723,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 56.6
     contract_governance: 14.4
@@ -1731,7 +1731,7 @@ score:
     developer_ergonomics: 70.8
     discoverability: 75.9
     operational_transparency: 60.5
-  previous_composite: 64.5
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1739,11 +1739,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 56
+      total: 62
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: The Donnelley Financial Solutions API provides access to platform services and data for enterprise integration and automation.
@@ -67,7 +67,7 @@ modified: '2026-04-19'
 name: Donnelley Financial Solutions
 nav: Providers
 network: true
-overview: Donnelley Financial Solutions publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Regulatory Compliance, and Software.
+overview: Donnelley Financial Solutions publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Regulatory Compliance, and Software.
 plans:
 - name: Donnelley Financial Solutions Plans Pricing
   plan_count: 1
@@ -97,7 +97,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +111,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: donnelley-financial-solutions
 tags:
-- Financial
+- Finance
 - Regulatory Compliance
 - Software
 website: https://www.dfsco.com

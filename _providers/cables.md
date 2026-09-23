@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 168
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ modified: '2026-09-18'
 name: Cables
 nav: Providers
 network: true
-overview: 'Cables publishes 1 API on the [APIs.io](https://apis.io/) network: TensorFlow.js Social Media MCP Server. Tagged areas include MCP Server, agent-native, x402, pay-per-call, and Machine-Learning.
+overview: 'Cables publishes 1 API on the [APIs.io](https://apis.io/) network: TensorFlow.js Social Media MCP Server. Tagged areas include MCP Server, Agent-Native, x402, pay-per-call, and Machine-Learning.
 
 
   Cables'' developer surface includes authentication, sandbox, and 13 more developer resources.'
@@ -177,7 +177,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -194,7 +194,7 @@ security:
 slug: cables
 tags:
 - MCP Server
-- agent-native
+- Agent-Native
 - x402
 - pay-per-call
 - Machine-Learning

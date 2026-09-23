@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ overview: 'VividCortex publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 19
 score:
   band: developing
-  composite: 52.9
+  composite: 53.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -302,10 +302,10 @@ score:
     access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 66.4
-    developer_ergonomics: 60.1
+    developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 52.6
-  previous_composite: 52.9
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,7 +317,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

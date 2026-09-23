@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 53.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
   name: Esri Agentic Access
-  operation_count: 6
+  operation_count: 15
   slug: esri-agentic-access
-  summary_line: 6 operations · 2 acting
+  summary_line: 15 operations · 2 acting
 api_count: 1
 apis:
 - description: The Esri ArcGIS Platform API is a set of REST APIs and SDKs from Esri, provider of the ArcGIS GIS suite. It enables developers to integrate Esri's mapping, geocoding, routing, and spatial analysis ser
@@ -63,7 +63,37 @@ apis:
   description: The Routing API from Esri — 1 operation(s) for routing.
   name: Esri Routing API
   slug: esri-routing-api
-artifact_total: 20
+- description: The ArcGIS Maps SDK for JavaScript enables web developers to build compelling 2D and 3D mapping applications with interactive visualizations, spatial analysis tools, geocoding, routing, and portal con
+  name: ArcGIS Maps SDK for JavaScript
+  slug: esri-arcgis-maps-sdk-javascript
+- description: 'The ArcGIS API for Python provides a Pythonic interface for GIS capabilities including data management, spatial analysis, geocoding, routing, and administration of ArcGIS Online and ArcGIS Enterprise '
+  name: ArcGIS API for Python
+  slug: esri-arcgis-api-for-python
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: Address search, reverse geocoding, and batch geocoding
+  name: Esri Geocoding API
+  slug: esri-arcgis-geocoding-api
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: Points of interest search and retrieval
+  name: Esri Places API
+  slug: esri-arcgis-places-api
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: Portal items, users, groups, and organizational management
+  name: Esri Portal API
+  slug: esri-arcgis-portal-api
+- description: A GraphQL API for ArcGIS Urban - urban models, plans, projects, branches, parcels, zones, spaces, building types, indicators, metrics, overlays, viewpoints and scenario analyses (elevation profile, li
+  name: ArcGIS Urban API
+  slug: esri-arcgis-urban-api
+- description: Esri-hosted Model Context Protocol server exposing ArcGIS Location Services - geocoding, reverse geocoding, routing, elevation, static maps and GeoEnrichment - as seven MCP tools. Remote HTTP transpor
+  name: MCP for ArcGIS Location Services (beta)
+  slug: esri-arcgis-mcp-location-services
+- description: ArcGIS Server publishes any map or feature service through the OGC interfaces - WMS, WFS, WCS, WMTS and KML. The two capabilities documents registered here were fetched from Esri's public ArcGIS Serve
+  name: ArcGIS Server OGC Web Services
+  slug: esri-arcgis-ogc-services
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Esri Webhooks
@@ -299,14 +329,17 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/esri.png
 layout: provider
 mcp_servers:
-- description: An Esri-hosted Model Context Protocol server that exposes ArcGIS Location Services — geocoding, routing, elevation, static maps and GeoEnrichment — to MCP-compliant clients and AI agents without calli
+- description: An Esri-hosted, remote Model Context Protocol server that exposes ArcGIS Location Services (geocoding, reverse geocoding, routing, elevation, static maps and GeoEnrichment) to MCP-compliant clients as
   name: MCP for ArcGIS Location Services (beta)
   slug: mcp-for-arcgis-location-services-beta
+- description: An Esri-hosted Model Context Protocol server that exposes ArcGIS Location Services — geocoding, routing, elevation, static maps and GeoEnrichment — to MCP-compliant clients and AI agents without calli
+  name: MCP for ArcGIS Location Services (beta)
+  slug: mcp-for-arcgis-location-services-beta-2
 modified: '2026-09-07'
 name: Esri
 nav: Providers
 network: true
-overview: 'Esri publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Geocoding API, and Routing API. Tagged areas include Geographic, Geospatial, GIS, Location, and Mapping.
+overview: 'Esri publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Geocoding API, Routing API, and 3 more. Tagged areas include Geographic, Geospatial, GIS, Location, and Mapping.
 
 
   The Esri catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -328,24 +361,24 @@ scopes:
   slug: esri-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 64.9
+  band: exemplar
+  composite: 67.4
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 28
     catalog_earned: 60.0
     catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 53.0
+    contract_quality: 63.0
     developer_ergonomics: 68.5
     discoverability: 75.9
     operational_transparency: 84.2
-  previous_composite: 64.9
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,11 +386,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 6
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

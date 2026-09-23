@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -496,7 +496,7 @@ rules:
   slug: workday-finance-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 45.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 56.5
@@ -509,10 +509,10 @@ score:
     access_clarity: 55.3
     contract_governance: 28.8
     contract_quality: 64.7
-    developer_ergonomics: 34.5
+    developer_ergonomics: 38.1
     discoverability: 59.3
     operational_transparency: 18.4
-  previous_composite: 45.2
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -521,7 +521,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

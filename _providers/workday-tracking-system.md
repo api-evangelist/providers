@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -715,9 +715,9 @@ rules:
   slug: workday-tracking-system-spectral-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 37.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 17
     catalog_earned: 66.5
     catalog_earned_first_party: 0.0
     catalog_gap: 48.5
@@ -728,10 +728,10 @@ score:
     access_clarity: 44.7
     contract_governance: 13.6
     contract_quality: 30.0
-    developer_ergonomics: 39.3
+    developer_ergonomics: 42.9
     discoverability: 68.5
     operational_transparency: 34.2
-  previous_composite: 36.5
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -740,7 +740,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

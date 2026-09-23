@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -446,7 +446,7 @@ rules:
   slug: wundergraph-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
+  composite: 52.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 65.3
@@ -459,20 +459,20 @@ score:
     access_clarity: 76.3
     contract_governance: 9.8
     contract_quality: 31.4
-    developer_ergonomics: 63.1
+    developer_ergonomics: 66.7
     discoverability: 72.2
     operational_transparency: 63.2
-  previous_composite: 51.6
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 11
+      derived: 10
       marker_coverage: 100.0
-      total: 11
+      total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

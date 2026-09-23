@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,6 +66,14 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/numbi_ai
+- group: company
+  title: ''
+  type: Blog
+  url: https://numbi.ai/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/backstartup
 created: '2026-07-17'
 description: 'Numbi is a tech-enabled accounting and payroll firm for Colombian companies — especially SAS entities, SMBs, and startups. It pairs expert accountants with automation and AI to run monthly bookkeeping, taxes, payroll, and DIAN electronic-invoicing compliance. Numbi is a service rather than software or an ERP: it operates on top of a company''s existing accounting systems (Siigo and Alegra) instead of replacing them, ingesting documents (PDFs, XMLs, images) and keeping tax calendars and filings current. Founded in Bogotá and backed by Homebrew and Newtopia VC. No public developer API surface is published as of this pass.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/numbi.png
@@ -74,11 +82,14 @@ modified: '2026-07-20'
 name: Numbi
 nav: Providers
 network: true
-overview: Numbi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounting, Payroll, and Tax Compliance.
+overview: 'Numbi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Accounting, Payroll, and Tax Compliance.
+
+
+  Numbi''s developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 11
 score:
-  band: minimal
-  composite: 10.0
+  band: emerging
+  composite: 11.1
   coverage:
     artifact_dirs: 4
     catalog_earned: 27.0
@@ -86,14 +97,14 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 2.4
     discoverability: 57.4
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -103,7 +114,7 @@ score:
     - latin-america
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

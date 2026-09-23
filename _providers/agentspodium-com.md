@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -222,7 +222,7 @@ modified: '2026-09-19'
 name: AgentsPodium
 nav: Providers
 network: true
-overview: 'AgentsPodium publishes 1 API on the [APIs.io](https://apis.io/) network: Account API. Tagged areas include AI Agents, Agent Hosting, MCP, A2A, and agent-native.
+overview: 'AgentsPodium publishes 1 API on the [APIs.io](https://apis.io/) network: Account API. Tagged areas include AI Agents, Agent Hosting, MCP, A2A, and Agent-Native.
 
 
   The AgentsPodium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,7 +268,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ tags:
 - Agent Hosting
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Hosting
 - Webhook
 - Personal Assistants

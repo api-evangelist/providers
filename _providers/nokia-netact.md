@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ modified: '2026-05-19'
 name: Nokia NetAct
 nav: Providers
 network: true
-overview: 'Nokia NetAct publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Configuration Management API, Fault Management API, Performance Management API, and 1 more. Tagged areas include Network Management, OSS, SNMP, and Telecom.
+overview: 'Nokia NetAct publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Configuration Management API, Fault Management API, Performance Management API, and 1 more. Tagged areas include Network Management, OSS, SNMP, and Telecommunications.
 
 
   The Nokia NetAct catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -216,7 +216,7 @@ score:
     regime_id: telecommunications
     score: 31.9
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -240,6 +240,6 @@ tags:
 - Network Management
 - OSS
 - SNMP
-- Telecom
+- Telecommunications
 website: https://www.nokia.com/
 ---

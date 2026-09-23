@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -488,7 +488,7 @@ rules:
   slug: uniswap-spectral-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 46.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 67.5
@@ -501,10 +501,10 @@ score:
     access_clarity: 28.9
     contract_governance: 28.8
     contract_quality: 71.1
-    developer_ergonomics: 56.0
+    developer_ergonomics: 59.5
     discoverability: 66.7
     operational_transparency: 10.5
-  previous_composite: 46.0
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -519,7 +519,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

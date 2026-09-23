@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: Mutual of Omaha's Workplace Solutions API program for group and voluntary benefits, delivered to brokers and employers through benefits administration platforms rather than a first-party developer por
@@ -166,7 +166,7 @@ score:
   band: emerging
   composite: 12.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 83.0
@@ -193,7 +193,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -4742,7 +4742,7 @@ score:
       total: 117
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -4793,6 +4793,7 @@ tags:
 - Unified-API
 - Agent Handler
 - LLM Gateway
+- Accounting
 use_cases:
 - name: Power AI features
 - name: Auto-provision

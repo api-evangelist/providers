@@ -106,6 +106,7 @@ tags:
 - Consumer Goods
 - Industrial
 - Fortune 500
+- Defunct
 use_cases:
 - description: Plastic containers and closures for food, beverage, and dairy products.
   name: Food and Beverage Packaging

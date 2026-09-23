@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ modified: '2026-05-19'
 name: Subex
 nav: Providers
 network: true
-overview: 'Subex publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Fraud Management API, Reconciliation API, and 1 more. Tagged areas include Telecom, Revenue Assurance, Fraud Management, Analytics, and BSS/OSS.
+overview: 'Subex publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Fraud Management API, Reconciliation API, and 1 more. Tagged areas include Telecommunications, Revenue Assurance, Fraud Management, Analytics, and BSS/OSS.
 
 
   The Subex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -276,7 +276,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -293,7 +293,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: subex
 tags:
-- Telecom
+- Telecommunications
 - Revenue Assurance
 - Fraud Management
 - Analytics

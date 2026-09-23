@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - baseURL: https://api.yoobic.com/public/api
@@ -491,7 +491,7 @@ plans:
 random_paper: 7
 score:
   band: developing
-  composite: 50.6
+  composite: 49.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 34.0
@@ -507,7 +507,7 @@ score:
     developer_ergonomics: 58.9
     discoverability: 70.4
     operational_transparency: 42.1
-  previous_composite: 50.6
+  previous_composite: 49.5
   provenance:
     conformance: derived
     contracts:
@@ -518,11 +518,11 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
-    score: 11.1
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/screenshots/yoobic-2026-08-17T083024.png
 security:
 - kind: authentication

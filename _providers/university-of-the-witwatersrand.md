@@ -11,37 +11,37 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
-    dry_run_mode: na
+    delegated_identity: documented
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-09-21'
+  score: 31.8
+  scored_at: '2026-09-23'
 agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
+- acting_count: 22
+  human_in_the_loop: 1
   name: University Of The Witwatersrand Agentic Access
-  operation_count: 9
+  operation_count: 43
   slug: university-of-the-witwatersrand-agentic-access
-  summary_line: 9 operations
+  summary_line: 43 operations · 22 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://wiredspace.wits.ac.za/server/api
@@ -83,22 +83,22 @@ collections:
   name: API Collection
   slug: open-.refine-report
 - collection_type: open
-  name: WIReDSpace DSpace REST Collections API
+  name: Figshare altmetric collections API
   slug: open-university-of-the-witwatersrand-collections-api
 - collection_type: open
-  name: WIReDSpace DSpace REST Communities API
+  name: Figshare altmetric Communities API
   slug: open-university-of-the-witwatersrand-communities-api
 - collection_type: open
-  name: WIReDSpace DSpace REST Discovery API
+  name: Figshare altmetric Discovery API
   slug: open-university-of-the-witwatersrand-discovery-api
 - collection_type: open
-  name: WIReDSpace DSpace REST Items API
+  name: Figshare altmetric Items API
   slug: open-university-of-the-witwatersrand-items-api
 - collection_type: open
-  name: WIReDSpace OAI-PMH Interface Request API
+  name: Figshare altmetric Request API
   slug: open-university-of-the-witwatersrand-request-api
 - collection_type: open
-  name: WIReDSpace DSpace REST Root API
+  name: Figshare altmetric Root API
   slug: open-university-of-the-witwatersrand-root-api
 common:
 - group: company
@@ -237,9 +237,9 @@ json_structures:
   property_count: 6
   slug: university-of-the-witwatersrand-community-structure
 jsonld:
-- class_count: 15
+- class_count: 16
   name: University Of The Witwatersrand Context
-  property_count: 3
+  property_count: 5
   slug: university-of-the-witwatersrand-context
 layout: provider
 modified: '2026-08-30'
@@ -285,20 +285,20 @@ rules:
   slug: university-of-the-witwatersrand-rules
 score:
   band: developing
-  composite: 44.8
+  composite: 47.3
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 74.5
+    artifact_dirs: 17
+    catalog_earned: 78.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.5
+    catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
-    contract_governance: 13.6
-    contract_quality: 61.8
-    developer_ergonomics: 25.0
+    contract_governance: 25.0
+    contract_quality: 66.1
+    developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 23.7
   jurisdiction:
@@ -308,10 +308,9 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - africa
-  previous_composite: 44.8
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
-    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -324,12 +323,11 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/screenshots/university-of-the-witwatersrand-2026-08-17T082627.png
 security:
 - kind: authentication
@@ -339,7 +337,7 @@ security:
 - kind: domain-security
   name: University Of The Witwatersrand Domain Security
   slug: university-of-the-witwatersrand-domain-security
-  summary_line: TLSv1.2 · HSTS · DMARC
+  summary_line: TLSv1.2 · DMARC
 slug: university-of-the-witwatersrand
 tags:
 - University

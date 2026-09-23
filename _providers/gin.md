@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: Gin is a high-performance HTTP web framework for Go that provides a fast and productive way to build microservices and APIs.
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 11.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 8
     catalog_earned: 40.3
     catalog_earned_first_party: 0.0
     catalog_gap: 74.8
@@ -114,7 +114,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.8
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false

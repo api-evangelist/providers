@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -1327,7 +1327,7 @@ rules:
   slug: tableau-spectral-rules
 score:
   band: developing
-  composite: 50.8
+  composite: 51.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 56.5
@@ -1340,10 +1340,10 @@ score:
     access_clarity: 43.4
     contract_governance: 13.6
     contract_quality: 74.3
-    developer_ergonomics: 65.5
+    developer_ergonomics: 69.0
     discoverability: 61.1
     operational_transparency: 26.3
-  previous_composite: 50.8
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1353,7 +1353,7 @@ score:
       total: 13
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: It was designed to solve the problem of calculating the future income trajectory of applicants in real-time.
@@ -58,7 +58,7 @@ modified: '2026-04-28'
 name: Pulse US Income API
 nav: Providers
 network: true
-overview: Pulse US Income API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Income, Underwriting, Financial, and Applicants.
+overview: Pulse US Income API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Income, Underwriting, Finance, and Applicants.
 plans:
 - name: Pulse Us Income Api Plans Pricing
   plan_count: 3
@@ -94,7 +94,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -110,6 +110,6 @@ slug: pulse-us-income-api
 tags:
 - Income
 - Underwriting
-- Financial
+- Finance
 - Applicants
 ---

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: REST management API for the Skyvia platform. Programmatically read and control account users and invitations, workspaces and workspace membership, on-premise agents, data-source connections, data inte
@@ -272,7 +272,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.0
+  composite: 40.6
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -284,22 +284,22 @@ score:
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 41.6
+    contract_quality: 23.7
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 15.8
-  previous_composite: 45.0
+  previous_composite: 40.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      callable: 100.0
+      derived: 8
+      marker_coverage: 100.0
       total: 8
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -333,7 +333,7 @@ tags:
 - Connectors
 - Data Management
 - MCP
-- agent-native
+- Agent-Native
 - Data Access
 website: https://skyvia.com/
 ---

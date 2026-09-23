@@ -18,13 +18,13 @@ modified: '2026-09-15'
 name: Camiant
 nav: Providers
 network: true
-overview: Camiant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecom, Policy Control, and PCRF.
+overview: Camiant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, Policy Control, and PCRF.
 random_paper: 7
 slug: camiant
 tags:
 - Company
 - Infrastructure
-- Telecom
+- Telecommunications
 - Policy Control
 - PCRF
 - Broadband

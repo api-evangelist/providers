@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 1
 apis:
 - description: The Dycom Industries API provides access to platform services and data for enterprise integration and automation.
@@ -66,7 +66,7 @@ modified: '2026-04-19'
 name: Dycom Industries
 nav: Providers
 network: true
-overview: Dycom Industries publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecom, Utilities, and Construction.
+overview: Dycom Industries publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Utilities, and Construction.
 plans:
 - name: Dycom Industries Plans Pricing
   plan_count: 1
@@ -80,7 +80,7 @@ score:
   band: minimal
   composite: 8.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 6
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -102,7 +102,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: dycom-industries
 tags:
-- Telecom
+- Telecommunications
 - Utilities
 - Construction
 website: https://www.dycomind.com

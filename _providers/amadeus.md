@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -173,6 +173,16 @@ apis:
   description: The trip-purpose-prediction API from Amadeus — 1 operation(s) for trip-purpose-prediction.
   name: Amadeus trip-purpose-prediction API
   slug: amadeus-trip-purpose-prediction-api
+- baseURL: https://api.amadeus.com
+  baseurl_source: declared
+  description: Operations for retrieving detailed hotel property content.
+  name: Amadeus Hotel Content API
+  slug: amadeus-media-hotel-content-api
+- baseURL: https://api.amadeus.com
+  baseurl_source: declared
+  description: Operations for retrieving hotel media assets including images and videos.
+  name: Amadeus Hotel Media API
+  slug: amadeus-media-hotel-media-api
 arazzos:
 - description: Validate an airline code, get on-demand flight status for a flight, then fetch its check-in links.
   name: Amadeus Airline Flight Status and Check-in
@@ -228,7 +238,7 @@ arazzos:
 - description: Resolve origin and destination IATA codes from keywords, then search flight offers between them.
   name: Amadeus Resolve Locations and Search Flights
   slug: amadeus-resolve-locations-and-search-flights-workflow
-artifact_total: 2352
+artifact_total: 2374
 asyncapis:
 - description: ''
   name: Review
@@ -2718,6 +2728,12 @@ json_schemas:
 - name: warnings
   property_count: 4
   slug: airport-routes-warnings
+- name: Hotel
+  property_count: 0
+  slug: amadeus-media-hotel-list-hotel
+- name: HotelSearchResponse
+  property_count: 2
+  slug: amadeus-media-hotel-list-hotel-search-response
 - name: AmadeusOAuth2Token
   property_count: 9
   slug: authorization-amadeus-oauth2-token
@@ -4206,6 +4222,39 @@ json_schemas:
 - name: Warning
   property_count: 7
   slug: hotel-booking-warning
+- name: GeoCode
+  property_count: 2
+  slug: hotel-content-geo-code
+- name: HotelAddress
+  property_count: 5
+  slug: hotel-content-hotel-address
+- name: HotelBasicInfo
+  property_count: 5
+  slug: hotel-content-hotel-basic-info
+- name: HotelContact
+  property_count: 4
+  slug: hotel-content-hotel-contact
+- name: HotelContentResponse
+  property_count: 2
+  slug: hotel-content-hotel-content-response
+- name: HotelContent
+  property_count: 11
+  slug: hotel-content-hotel-content
+- name: HotelDescription
+  property_count: 2
+  slug: hotel-content-hotel-description
+- name: HotelMediaData
+  property_count: 2
+  slug: hotel-content-hotel-media-data
+- name: HotelMediaItem
+  property_count: 9
+  slug: hotel-content-hotel-media-item
+- name: HotelMediaResponse
+  property_count: 2
+  slug: hotel-content-hotel-media-response
+- name: MediaAsset
+  property_count: 3
+  slug: hotel-content-media-asset
 - name: Error_400
   property_count: 1
   slug: hotel-list-error-400
@@ -5110,6 +5159,12 @@ json_structures:
 - name: Airport Routes Warnings Structure
   property_count: 4
   slug: airport-routes-warnings-structure
+- name: Amadeus Media Hotel List Hotel Search Response Structure
+  property_count: 2
+  slug: amadeus-media-hotel-list-hotel-search-response-structure
+- name: Amadeus Media Hotel List Hotel Structure
+  property_count: 0
+  slug: amadeus-media-hotel-list-hotel-structure
 - name: Authorization Amadeus Oauth2 Token Structure
   property_count: 9
   slug: authorization-amadeus-oauth2-token-structure
@@ -6598,6 +6653,15 @@ json_structures:
 - name: Hotel Booking Warning Structure
   property_count: 7
   slug: hotel-booking-warning-structure
+- name: Hotel Content Hotel Content Response Structure
+  property_count: 2
+  slug: hotel-content-hotel-content-response-structure
+- name: Hotel Content Hotel Content Structure
+  property_count: 11
+  slug: hotel-content-hotel-content-structure
+- name: Hotel Content Hotel Media Response Structure
+  property_count: 2
+  slug: hotel-content-hotel-media-response-structure
 - name: Hotel List Error 400 Structure
   property_count: 1
   slug: hotel-list-error-400-structure
@@ -7374,15 +7438,23 @@ jsonld:
   name: Amadeus Context
   property_count: 21
   slug: amadeus-context
+- class_count: 13
+  name: Amadeus Hotel Content Context
+  property_count: 37
+  slug: amadeus-hotel-content-context
+- class_count: 4
+  name: Amadeus Hotel List Context
+  property_count: 12
+  slug: amadeus-hotel-list-context
 layout: provider
 modified: '2026-05-30'
 name: Amadeus
 nav: Providers
 network: true
-overview: 'Amadeus publishes 26 APIs on the [APIs.io](https://apis.io/) network, including air-traffic API, airlines API, airport-ontime-prediction API, and 23 more. Tagged areas include Travel, Travel Technology, Reservations, Flights, and Hotels.
+overview: 'Amadeus publishes 28 APIs on the [APIs.io](https://apis.io/) network, including air-traffic API, airlines API, airport-ontime-prediction API, and 25 more. Tagged areas include Travel, Travel Technology, Reservations, Flights, and Hotels.
 
 
-  The Amadeus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Amadeus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
   Amadeus'' developer surface includes signup flow, developer console, pricing, documentation, getting-started guide, authentication, engineering blog, and 57 more developer resources.'
@@ -7419,7 +7491,7 @@ rules:
   slug: amadeus-rules
 score:
   band: developing
-  composite: 51.5
+  composite: 51.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 94.5
@@ -7427,24 +7499,24 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 71.6
+    contract_quality: 70.4
     developer_ergonomics: 45.2
     discoverability: 68.5
     operational_transparency: 34.2
-  previous_composite: 51.5
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 26
+      derived: 2
+      marker_coverage: 7.1
+      total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

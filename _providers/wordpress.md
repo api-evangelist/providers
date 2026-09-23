@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -636,7 +636,7 @@ rules:
   slug: wordpress-spectral-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 45.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 66.5
@@ -649,13 +649,13 @@ score:
     access_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 38.7
-    developer_ergonomics: 72.6
+    developer_ergonomics: 76.2
     discoverability: 57.4
     operational_transparency: 36.8
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 45.3
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -664,7 +664,7 @@ score:
       marker_coverage: 100.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

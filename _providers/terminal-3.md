@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -264,8 +264,8 @@ overview: 'Terminal 3 publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   Terminal 3''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 24 more developer resources.'
 random_paper: 10
 score:
-  band: developing
-  composite: 39.8
+  band: thin
+  composite: 36.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -277,23 +277,23 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 13.3
+    contract_quality: 1.0
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 44.7
-  previous_composite: 39.8
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 7
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 7
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true

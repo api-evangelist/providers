@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.3
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -457,7 +457,7 @@ modified: '2026-07-22'
 name: EODHD
 nav: Providers
 network: true
-overview: 'EODHD publishes 27 APIs on the [APIs.io](https://apis.io/) network, including WebSockets Real-Time API, Eod API, Calendar API, and 24 more. Tagged areas include Financial, Market Data, Stock Options, Stocks, and ETFs.
+overview: 'EODHD publishes 27 APIs on the [APIs.io](https://apis.io/) network, including WebSockets Real-Time API, Eod API, Calendar API, and 24 more. Tagged areas include Finance, Market Data, Stock Options, Stocks, and ETFs.
 
 
   The EODHD catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -493,7 +493,7 @@ score:
   band: strong
   composite: 61.8
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 49.3
     catalog_earned_first_party: 0.0
     catalog_gap: 65.8
@@ -525,7 +525,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -543,7 +543,7 @@ security:
   summary_line: TLSv1.2
 slug: eodhd
 tags:
-- Financial
+- Finance
 - Market Data
 - Stock Options
 - Stocks

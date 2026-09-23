@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -161,7 +161,7 @@ modified: '2026-06-21'
 name: eSIM Go
 nav: Providers
 network: true
-overview: 'eSIM Go publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalogue API, eSIMs API, Inventory API, and 3 more. Tagged areas include eSIM, Connectivity, Travel Data, Telecom, and Mobile.
+overview: 'eSIM Go publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalogue API, eSIMs API, Inventory API, and 3 more. Tagged areas include eSIM, Connectivity, Travel Data, Telecommunications, and Mobile.
 
 
   eSIM Go''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -207,7 +207,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: true
@@ -227,7 +227,7 @@ tags:
 - eSIM
 - Connectivity
 - Travel Data
-- Telecom
+- Telecommunications
 - Mobile
 website: https://www.esim-go.com
 ---

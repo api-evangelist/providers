@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
 api_count: 0
 artifact_total: 2
 common:
@@ -155,7 +155,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-21'
+  scored_at: '2026-09-23'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,7 @@ tags:
 - SMS
 - E-Commerce
 - Personalization
-- D2C
+- Consumer
 - Klaviyo
 - Direct to Consumer
 website: https://retainiq.io/
