@@ -372,7 +372,6 @@
   - testing
   - quality assurance
   - low-code
-  - no-code
   - version control
   - repository
   - distributed systems
@@ -861,11 +860,21 @@
   - drones
   - uav
   - industrial automation
-  - automation
   - warehouse automation
-  - simulation
   - teleoperation
   - humanoid
+  - industrial robotics
+  - collaborative robots
+  - humanoid robots
+  - embodied ai
+  - autonomous mobile robots
+  - ros
+  - ros 2
+  - autonomous driving
+  - robotaxi
+  - unmanned aerial systems
+  - unmanned aerial vehicles
+  - uas
 - slug: marketing-advertising
   name: Marketing & Advertising
   icon: campaign

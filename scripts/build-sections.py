@@ -804,7 +804,11 @@ TAG_INDUSTRIES = [
             "microservices", "infrastructure as code", "orchestration", "deployment",
             "edge computing", "api gateway", "api management", "api design", "api testing",
             "api security", "sdk", "sdks", "cli", "software development", "testing",
-            "quality assurance", "low-code", "no-code", "version control", "repository",
+            "quality assurance", "low-code", "version control", "repository",
+            # "no-code" removed 2026-09-23 (roadmap#640). No-code is built for non-developers and
+            # says how a product is used, not what market it is in; alone it filed 130 providers
+            # here (Webflow, Tally, Carrd, Level2, Synthflow, Jotform). "low-code" stays: its 67
+            # sole carriers are developer platforms (Retool, Appian, Oracle APEX, Budibase, n8n).
             "distributed systems", "multi-cloud",
         ],
     },
@@ -1020,8 +1024,21 @@ TAG_INDUSTRIES = [
         "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
         "tags": [
             "robotics", "robots", "autonomous systems", "autonomous vehicles", "autonomy",
-            "self-driving", "drones", "uav", "industrial automation", "automation",
-            "warehouse automation", "simulation", "teleoperation", "humanoid",
+            "self-driving", "drones", "uav", "industrial automation",
+            "warehouse automation", "teleoperation", "humanoid",
+            # Added 2026-09-23 (roadmap#639): physical-autonomy tags the list had missed. Together
+            # they bring in 7 (FANUC, XPeng, Matternet, NATIX). `physical ai` and `counter-uas`
+            # were measured and left out: "Physical AI" is on MaintainX, Cofactr and a carbon-
+            # removal company; counter-drone defense is not robotics.
+            "industrial robotics", "collaborative robots", "humanoid robots", "embodied ai",
+            "autonomous mobile robots", "ros", "ros 2", "autonomous driving", "robotaxi",
+            "unmanned aerial systems", "unmanned aerial vehicles", "uas",
+            # "automation" and "simulation" removed 2026-09-23 (roadmap#639). Alone, "automation"
+            # filed 429 providers here (Brevo, Klaviyo, Dynatrace, GitHub Actions, Ada) and
+            # "simulation" 80 more (COMSOL, Labster, Tenderly, game studios). Measured with
+            # build_industries._tag_membership: 1,104 -> 602 members; of the 509 that leave, the
+            # only ones with any robot word carry "Robotic Process Automation" (UiPath), which is
+            # software. Industrial automation (Rockwell, SCADA, machine vision) stays.
         ],
     },
     {
